@@ -8,6 +8,7 @@ const team = [
     bio: "Brian is a 2X exited entrepreneur who has spent the past decade working with bootstrapped and venture-backed companies. He launched his first company in 2015 and has since co-founded multiple 7-figure ARR startups. His most recent role was Head of Product at a global accelerator working with hundreds of Series A-Pre Seed founders across high-growth industries. He currently sits on two advisory boards for organizations including Techstars and Watson Institute where he serves as the Entrepreneur-in-Residence.",
     linkedin: "https://www.linkedin.com/in/brianleenyc/",
     color: "#3B6CC9",
+    photo: "/team/brian-lee.png",
   },
   {
     name: "Michael J. Frank",
