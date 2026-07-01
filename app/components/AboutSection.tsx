@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const team = [
   {
     name: "Brian Lee",
@@ -6,6 +8,7 @@ const team = [
     bio: "Brian is a 2X exited entrepreneur who has spent the past decade working with bootstrapped and venture-backed companies. He launched his first company in 2015 and has since co-founded multiple 7-figure ARR startups. His most recent role was Head of Product at a global accelerator working with hundreds of Series A-Pre Seed founders across high-growth industries. He currently sits on two advisory boards for organizations including Techstars and Watson Institute where he serves as the Entrepreneur-in-Residence.",
     linkedin: "https://www.linkedin.com/in/brianleenyc/",
     color: "#3B6CC9",
+    photo: "/team/brian-lee.png",
   },
   {
     name: "Michael J. Frank",
@@ -85,15 +88,28 @@ export default function AboutSection() {
             >
               {/* Avatar */}
               <div
-                className="mb-5 flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full text-2xl font-bold text-white"
+                className="mb-5 relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-full"
                 style={{
-                  backgroundColor: person.color + "22",
-                  border: `2px solid ${person.color}55`,
-                  boxShadow: `0 0 0 6px ${person.color}12, 0 0 40px ${person.color}20`,
-                  color: person.color,
+                  border: `2px solid ${"photo" in person ? "rgba(201,169,110,0.4)" : person.color + "55"}`,
+                  boxShadow: `0 0 0 6px ${"photo" in person ? "rgba(201,169,110,0.1)" : person.color + "12"}, 0 0 40px ${"photo" in person ? "rgba(201,169,110,0.15)" : person.color + "20"}`,
                 }}
               >
-                {initials(person.name)}
+                {"photo" in person && person.photo ? (
+                  <Image
+                    src={person.photo as string}
+                    alt={person.name}
+                    fill
+                    sizes="96px"
+                    className="object-cover object-top"
+                  />
+                ) : (
+                  <div
+                    className="flex h-full w-full items-center justify-center text-2xl font-bold"
+                    style={{ backgroundColor: person.color + "22", color: person.color }}
+                  >
+                    {initials(person.name)}
+                  </div>
+                )}
               </div>
 
               {/* Name */}
