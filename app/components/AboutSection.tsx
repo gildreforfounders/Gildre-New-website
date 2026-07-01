@@ -1,6 +1,16 @@
 import Image from "next/image";
 
-const team = [
+type TeamMember = {
+  name: string;
+  role: string;
+  tagline: string;
+  bio: string;
+  linkedin: string;
+  color: string;
+  photo?: string;
+};
+
+const team: TeamMember[] = [
   {
     name: "Brian Lee",
     role: "Co-Founder & CEO",
@@ -93,13 +103,13 @@ export default function AboutSection() {
               <div
                 className="mb-5 relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-full"
                 style={{
-                  border: `2px solid ${"photo" in person ? "rgba(201,169,110,0.4)" : person.color + "55"}`,
-                  boxShadow: `0 0 0 6px ${"photo" in person ? "rgba(201,169,110,0.1)" : person.color + "12"}, 0 0 40px ${"photo" in person ? "rgba(201,169,110,0.15)" : person.color + "20"}`,
+                  border: `2px solid ${person.photo ? "rgba(201,169,110,0.4)" : person.color + "55"}`,
+                  boxShadow: `0 0 0 6px ${person.photo ? "rgba(201,169,110,0.1)" : person.color + "12"}, 0 0 40px ${person.photo ? "rgba(201,169,110,0.15)" : person.color + "20"}`,
                 }}
               >
-                {"photo" in person && person.photo ? (
+                {person.photo ? (
                   <Image
-                    src={person.photo as string}
+                    src={person.photo}
                     alt={person.name}
                     fill
                     sizes="96px"
