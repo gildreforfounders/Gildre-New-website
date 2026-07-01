@@ -26,6 +26,7 @@ const team = [
     bio: "Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then went on to co-found and raise funding for a sustainability startup called Kudos. As a GTM and revenue leader, Taiga has led sales teams at multiple product and service-based startups scaling upwards of $20M ARR. Beyond his professional pursuits you can find him hiking, water skiing, or practicing taekwondo.",
     linkedin: "https://www.linkedin.com/in/taigagamell/",
     color: "#3BC97B",
+    photo: "/team/taiga-gamell.jpg",
   },
   {
     name: "Eliana Acosta",
