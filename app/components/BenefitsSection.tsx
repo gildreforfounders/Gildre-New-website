@@ -1,0 +1,166 @@
+import Image from "next/image";
+
+type PhotoCard = {
+  kind: "photo";
+  src: string;
+  title: string;
+  sub?: string;
+};
+
+type TextCard = {
+  kind: "text";
+  stat: string;
+  body: string;
+};
+
+type Card = PhotoCard | TextCard;
+
+const row1: Card[] = [
+  {
+    kind: "photo",
+    src: "/images/community/dinner.webp",
+    title: "Results-Driven Mentor Matches",
+    sub: "Personalized 1:1 mentorship pairing with a SME in your field geared towards accelerating professional growth.",
+  },
+  {
+    kind: "photo",
+    src: "/images/community/friends.webp",
+    title: "Meaningful Connections",
+    sub: "Genuine connections designed to facilitate long-lasting relationships. This isn't a one-and-done. Meet, develop, and build with others in the Gildre community.",
+  },
+  {
+    kind: "text",
+    stat: "Engaging Community",
+    body: "Access to a highly engaged digital community of entrepreneurs, mentors, and industry experts. With weekly AMAs, newsletters, and unique content just for you.",
+  },
+];
+
+const row2: Card[] = [
+  {
+    kind: "photo",
+    src: "/images/community/activity.webp",
+    title: "Workshops & Events",
+    sub: "Curated, interactive workshops and in-person activities designed to engage and bridge connections between members across the globe.",
+  },
+  {
+    kind: "text",
+    stat: "Interactive Coaching",
+    body: "We're passionate about being two-way learners. Our mentors have decades of professional experience and we've hand-picked experts to bring in knowledge across every imaginable industry.",
+  },
+  {
+    kind: "photo",
+    src: "/images/community/hero.webp",
+    title: "Partnerships",
+    sub: "We've developed a 500+ Partner Network to offer $5M+ in exclusive perks and partnerships to help you at any stage of your business.",
+  },
+];
+
+function PhotoCardEl({ card }: { card: PhotoCard }) {
+  return (
+    <div className="group relative h-[400px] overflow-hidden rounded-2xl">
+      <Image
+        src={card.src}
+        alt={card.title}
+        fill
+        sizes="(max-width: 768px) 100vw, 33vw"
+        className="object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+      {/* Gradient overlay */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 55%, transparent 100%)",
+        }}
+      />
+      {/* Text */}
+      <div className="absolute bottom-0 left-0 p-6">
+        <div
+          className="mb-2 h-5 w-[2px] rounded-full"
+          style={{ backgroundColor: "#C9A96E" }}
+        />
+        <h3
+          className="text-xl font-semibold leading-snug text-white"
+          style={{ fontFamily: "var(--font-fraunces)" }}
+        >
+          {card.title}
+        </h3>
+        {card.sub && (
+          <p className="mt-2 max-w-[260px] text-xs leading-relaxed text-white/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            {card.sub}
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function TextCardEl({ card }: { card: TextCard }) {
+  return (
+    <div
+      className="relative flex h-[400px] flex-col justify-end overflow-hidden rounded-2xl p-8"
+      style={{
+        backgroundColor: "#0a1020",
+        border: "1px solid rgba(201,169,110,0.15)",
+      }}
+    >
+      {/* Subtle gold glow */}
+      <div
+        className="pointer-events-none absolute right-0 top-0 h-48 w-48 rounded-bl-full opacity-20"
+        style={{
+          background:
+            "radial-gradient(circle at top right, #C9A96E 0%, transparent 70%)",
+        }}
+      />
+      <div
+        className="mb-3 h-[2px] w-8 rounded-full"
+        style={{ backgroundColor: "#C9A96E" }}
+      />
+      <h3
+        className="text-[2rem] font-bold leading-tight text-white"
+        style={{ fontFamily: "var(--font-fraunces)" }}
+      >
+        {card.stat}
+      </h3>
+      <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
+        {card.body}
+      </p>
+    </div>
+  );
+}
+
+function CardEl({ card }: { card: Card }) {
+  if (card.kind === "photo") return <PhotoCardEl card={card} />;
+  return <TextCardEl card={card} />;
+}
+
+export default function BenefitsSection() {
+  return (
+    <section id="benefits" className="px-6 py-20" style={{ backgroundColor: "#1C2744" }}>
+      <div className="mx-auto max-w-6xl">
+        {/* Heading — left-aligned, editorial style */}
+        <h2
+          className="mb-10 text-[clamp(2.25rem,5vw,3.5rem)] font-bold leading-tight"
+          style={{ fontFamily: "var(--font-fraunces)" }}
+        >
+          <span className="text-white">Your Growth </span>
+          <span style={{ color: "#C9A96E" }}>Operating System</span>
+        </h2>
+
+        {/* Row 1 */}
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {row1.map((card, i) => (
+            <CardEl key={i} card={card} />
+          ))}
+        </div>
+
+        {/* Row 2 */}
+        <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {row2.map((card, i) => (
+            <CardEl key={i} card={card} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
