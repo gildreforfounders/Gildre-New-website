@@ -116,19 +116,11 @@ export default function AboutSection() {
                 href={person.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-7 inline-flex items-center gap-2 self-start rounded-lg px-4 py-2 text-xs font-semibold transition-all duration-200"
+                className="mt-7 inline-flex items-center gap-2 self-start rounded-lg px-4 py-2 text-xs font-semibold transition-all duration-200 hover:brightness-125"
                 style={{
                   backgroundColor: "rgba(201,169,110,0.08)",
-                  border: "1px solid rgba(201,169,110,0.2)",
+                  border: "1px solid rgba(201,169,110,0.25)",
                   color: "#C9A96E",
-                }}
-                onMouseEnter={e => {
-                  (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(201,169,110,0.16)";
-                  (e.currentTarget as HTMLElement).style.borderColor = "rgba(201,169,110,0.5)";
-                }}
-                onMouseLeave={e => {
-                  (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(201,169,110,0.08)";
-                  (e.currentTarget as HTMLElement).style.borderColor = "rgba(201,169,110,0.2)";
                 }}
               >
                 {/* LinkedIn icon */}
