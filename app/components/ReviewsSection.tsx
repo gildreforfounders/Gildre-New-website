@@ -118,7 +118,7 @@ const avatarColors = [
 
 export default function ReviewsSection() {
   return (
-    <section style={{ backgroundColor: "#080e1a" }}>
+    <section id="reviews" style={{ backgroundColor: "#080e1a" }}>
       {/* Heading */}
       <div className="px-6 pt-20 pb-12 text-center">
         <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
