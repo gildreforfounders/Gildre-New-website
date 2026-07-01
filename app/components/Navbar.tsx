@@ -38,14 +38,12 @@ export default function Navbar() {
           >
             About Us
           </button>
-          <a
-            href="https://www.gildre.com/faq"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => scrollTo("faq")}
             className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
           >
             FAQ
-          </a>
+          </button>
           <button
             onClick={() => scrollTo("reviews")}
             className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"

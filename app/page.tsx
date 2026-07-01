@@ -12,6 +12,7 @@ import ReviewsSection from "./components/ReviewsSection";
 import PricingSection from "./components/PricingSection";
 import AboutSection from "./components/AboutSection";
 import ClosingCTA from "./components/ClosingCTA";
+import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
 
 type Mentor = {
@@ -144,7 +145,10 @@ export default function Home() {
       {/* 13 — Decision: pricing */}
       <PricingSection />
 
-      {/* 14 — Final push: closing CTA */}
+      {/* 14 — FAQ */}
+      <FAQSection />
+
+      {/* 15 — Final push: closing CTA */}
       <ClosingCTA />
 
       {/* 15 — Footer */}
