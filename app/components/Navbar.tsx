@@ -32,14 +32,12 @@ export default function Navbar() {
           >
             Membership
           </button>
-          <a
-            href="https://www.gildre.com/about-us"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => scrollTo("about")}
             className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
           >
             About Us
-          </a>
+          </button>
           <a
             href="https://www.gildre.com/faq"
             target="_blank"

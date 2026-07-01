@@ -10,6 +10,7 @@ import CommunityMap from "./components/CommunityMap";
 import ComparisonTable from "./components/ComparisonTable";
 import ReviewsSection from "./components/ReviewsSection";
 import PricingSection from "./components/PricingSection";
+import AboutSection from "./components/AboutSection";
 import ClosingCTA from "./components/ClosingCTA";
 
 type Mentor = {
@@ -136,10 +137,13 @@ export default function Home() {
       {/* 11 — Social proof: member reviews */}
       <ReviewsSection />
 
-      {/* 12 — Decision: pricing */}
+      {/* 12 — About: team behind Gildre */}
+      <AboutSection />
+
+      {/* 13 — Decision: pricing */}
       <PricingSection />
 
-      {/* 13 — Final push: closing CTA */}
+      {/* 14 — Final push: closing CTA */}
       <ClosingCTA />
 
     </div>
