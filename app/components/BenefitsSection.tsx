@@ -24,7 +24,7 @@ const row1: Card[] = [
   },
   {
     kind: "photo",
-    src: "/images/community/dinner.webp",
+    src: "/images/community/connections.jpg",
     title: "Meaningful Connections",
     sub: "Genuine connections designed to facilitate long-lasting relationships. This isn't a one-and-done. Meet, develop, and build with others in the Gildre community.",
   },
