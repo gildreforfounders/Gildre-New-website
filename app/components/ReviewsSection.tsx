@@ -116,6 +116,7 @@ const testimonials = [
     quote: "The value of this community is the diverse voices on the platform. Each member is curious, genuine, engaging, and always open to a conversation.",
     name: "William Luck",
     title: "Founder",
+    photo: "/reviews/william-luck.webp",
   },
 ];
 
