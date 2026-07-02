@@ -21,6 +21,7 @@ const testimonials = [
     quote: "Gildre continues to introduce me to an amazing, growing network of people that helped our company partner with and reach different sponsors. The in-person events are genuine and you get to connect with the real people behind unique companies.",
     name: "Dan Hernandez",
     title: "Co-Founder",
+    photo: "/reviews/dan-hernandez.jpg",
   },
   {
     company: "Boop.VIP",
