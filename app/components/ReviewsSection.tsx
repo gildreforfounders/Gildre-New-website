@@ -53,6 +53,7 @@ const testimonials = [
     quote: "The structure at Gildre is impressive, it's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
+    photo: "/reviews/christof-mannfeld.webp",
   },
   {
     company: "Palombini Coaching",
