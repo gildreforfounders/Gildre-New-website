@@ -99,33 +99,33 @@ export default function AboutSection() {
                 boxShadow: "0 8px 40px rgba(0,0,0,0.35)",
               }}
             >
-              {/* Photo — full-width portrait at top */}
-              <div className="relative h-72 w-full flex-shrink-0 overflow-hidden">
+              {/* Card body */}
+              <div className="flex flex-col items-center px-8 pb-8 pt-10 text-center">
+              {/* Photo */}
+              <div
+                className="relative mb-6 h-44 w-44 flex-shrink-0 overflow-hidden rounded-full"
+                style={{
+                  border: "2px solid rgba(201,169,110,0.35)",
+                  boxShadow: "0 0 0 6px rgba(201,169,110,0.08), 0 8px 32px rgba(0,0,0,0.4)",
+                }}
+              >
                 {person.photo ? (
                   <Image
                     src={person.photo}
                     alt={person.name}
                     fill
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                    className="object-cover object-top"
+                    sizes="176px"
+                    className="object-cover object-center"
                   />
                 ) : (
                   <div
-                    className="flex h-full w-full items-center justify-center text-5xl font-bold"
+                    className="flex h-full w-full items-center justify-center text-4xl font-bold"
                     style={{ backgroundColor: person.color + "22", color: person.color }}
                   >
                     {initials(person.name)}
                   </div>
                 )}
-                {/* Gradient fade into card body */}
-                <div
-                  className="absolute bottom-0 left-0 right-0 h-20"
-                  style={{ background: "linear-gradient(to bottom, transparent, #111e35)" }}
-                />
               </div>
-
-              {/* Card body */}
-              <div className="flex flex-col px-8 pb-8 pt-4">
                 {/* Name */}
                 <h3
                   className="text-[1.35rem] font-bold text-white"
@@ -136,7 +136,7 @@ export default function AboutSection() {
 
                 {/* Role badge */}
                 <span
-                  className="mt-2 inline-block self-start rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em]"
+                  className="mt-2 inline-block rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em]"
                   style={{
                     backgroundColor: "rgba(201,169,110,0.1)",
                     color: "#C9A96E",
@@ -161,7 +161,7 @@ export default function AboutSection() {
                 />
 
                 {/* Bio */}
-                <p className="flex-1 text-sm leading-[1.85] text-zinc-400">
+                <p className="flex-1 text-sm leading-[1.85] text-zinc-400 text-left">
                   {person.bio}
                 </p>
 
@@ -170,7 +170,7 @@ export default function AboutSection() {
                   href={person.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-8 inline-flex items-center gap-2 self-start rounded-full px-5 py-2.5 text-xs font-semibold transition-opacity duration-200 hover:opacity-80"
+                  className="mt-8 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-xs font-semibold transition-opacity duration-200 hover:opacity-80"
                   style={{
                     backgroundColor: "rgba(201,169,110,0.1)",
                     border: "1px solid rgba(201,169,110,0.3)",
