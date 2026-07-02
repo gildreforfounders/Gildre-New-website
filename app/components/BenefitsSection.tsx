@@ -39,7 +39,7 @@ const row1: Card[] = [
 const row2: Card[] = [
   {
     kind: "photo",
-    src: "/images/community/activity.webp",
+    src: "/images/community/workshops.webp",
     title: "Workshops & Events",
     sub: "Curated virtual and in-person events including Executive Workshops, Innovation Roundtables, Founder Fireside Chats, and intimate dinners — all bridging connections across the globe.",
   },
