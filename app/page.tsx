@@ -11,6 +11,7 @@ import ComparisonTable from "./components/ComparisonTable";
 import ReviewsSection from "./components/ReviewsSection";
 import PricingSection from "./components/PricingSection";
 import AboutSection from "./components/AboutSection";
+import MissionSection from "./components/MissionSection";
 import ClosingCTA from "./components/ClosingCTA";
 import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
@@ -145,7 +146,10 @@ export default function Home() {
       {/* 13 — Decision: pricing */}
       <PricingSection />
 
-      {/* 14 — FAQ */}
+      {/* 14 — Mission & Principles */}
+      <MissionSection />
+
+      {/* 15 — FAQ */}
       <FAQSection />
 
       {/* 15 — Final push: closing CTA */}
