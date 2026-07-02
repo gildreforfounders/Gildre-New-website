@@ -61,6 +61,7 @@ const testimonials = [
     quote: "Joining Gildre was the best decision I made since starting my practice in 2016. Having mentors makes things smoother, and the path more enjoyable as well. At each encounter I got better ideas that improved my offering.",
     name: "Carol Palombini",
     title: "Founder",
+    photo: "/reviews/carol-palombini.webp",
   },
   {
     company: "Rodo",
