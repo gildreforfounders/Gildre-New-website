@@ -1,33 +1,23 @@
-const principles = [
+const values = [
   {
-    icon: "✦",
-    title: "Results-Driven Mentor Matches",
-    body: "Personalized 1:1 mentorship pairing with a subject matter expert geared towards accelerating professional growth.",
+    num: "01",
+    title: "A Rising Tide Lifts All Ships",
+    body: "Gildre has the belief in the power of collective progress and shared prosperity. We emphasize the idea that when one individual or group succeeds, it has the potential to positively impact and uplift the entire community. This promotes collaboration, cooperation, and mutual support among individuals and groups, recognizing that by working together and supporting each other's growth, everyone can benefit and thrive.",
   },
   {
-    icon: "✦",
+    num: "02",
     title: "Meaningful Connections",
-    body: "Genuine connections designed to facilitate long-lasting relationships built on trust and mutual ambition.",
+    body: "At Gildre we value strong, organic, and authentic relationships between members of our community. We believe that meaningful connections are essential for professional growth. We provide a safe and supportive space for members to connect, share their thoughts without judgment, celebrate the relationships they build, and interact through group discussions, events, and one-on-one meetings.",
   },
   {
-    icon: "✦",
-    title: "Engaging Community",
-    body: "Access to a highly engaged community of entrepreneurs, mentors, and industry experts.",
+    num: "03",
+    title: "Trust and Commitment",
+    body: "Gildre is a place for passionate, lifelong learners. In order to grow and succeed we must put in the time and effort to get there. While our members ultimately choose how to make the most out of their Gildre membership, they have our unwavering commitment to supporting their development. We ask that members within the community respect one another and trust us to facilitate these strategic connections.",
   },
   {
-    icon: "✦",
-    title: "Workshops & Events",
-    body: "Curated virtual and in-person events bridging connections between members and mentors across the globe.",
-  },
-  {
-    icon: "✦",
-    title: "Coaching & Education",
-    body: "Decades of professional experience distilled into business blueprints, practical tools, and expert-led sessions.",
-  },
-  {
-    icon: "✦",
-    title: "Partnerships & Perks",
-    body: "500+ partners and $5M+ in exclusive tools and perks to accelerate your growth at every stage.",
+    num: "04",
+    title: "Community for All",
+    body: "At Gildre we want to foster a community of helping others. The Gildre community is a place where you can make meaningful connections, learn new things, and find solutions to your problems. We want you to use the community for all that it has to offer — but to keep the community healthy and vibrant, it's also important to give back. Ask yourself who you can help, what lessons you can share, and how you can be a mentor, teacher, and advocate for your fellow members.",
   },
 ];
 
@@ -35,7 +25,7 @@ export default function MissionSection() {
   return (
     <section
       style={{
-        background: "linear-gradient(180deg, #080e1a 0%, #0d1a30 50%, #080e1a 100%)",
+        background: "linear-gradient(180deg, #080e1a 0%, #0d1a30 60%, #080e1a 100%)",
       }}
     >
       <div className="mx-auto max-w-6xl px-6 py-28">
@@ -53,43 +43,14 @@ export default function MissionSection() {
           className="mt-4 text-center text-[2rem] font-bold text-white sm:text-[2.6rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Mission &{" "}
-          <span style={{ color: "#C9A96E" }}>Principles</span>
+          Core{" "}
+          <span style={{ color: "#C9A96E" }}>Values</span>
         </h2>
 
-        {/* "Community for All" callout */}
-        <div className="mx-auto mt-14 max-w-3xl text-center">
-          <div
-            className="relative inline-block px-8 py-6 rounded-2xl"
-            style={{
-              background: "rgba(201,169,110,0.06)",
-              border: "1px solid rgba(201,169,110,0.2)",
-            }}
-          >
-            <p
-              className="text-[0.65rem] font-bold uppercase tracking-[0.25em] mb-3"
-              style={{ color: "rgba(201,169,110,0.7)" }}
-            >
-              Our Core Thesis
-            </p>
-            <p
-              className="text-3xl font-bold text-white sm:text-4xl"
-              style={{ fontFamily: "var(--font-fraunces)" }}
-            >
-              &ldquo;Community for All&rdquo;
-            </p>
-          </div>
-        </div>
-
-        {/* Body copy */}
-        <div className="mx-auto mt-12 max-w-2xl space-y-6 text-center">
-          <p className="text-base leading-[1.9] text-zinc-400">
-            You don&rsquo;t need a specific industry or experience background to become a member — just the motivation to build something great and support other founders.
-          </p>
-          <p className="text-base leading-[1.9] text-zinc-400">
-            Our principles revolve around our 6 core benefits, geared towards crafting meaningful connections and providing the necessary resources to scale your company.
-          </p>
-        </div>
+        {/* Intro */}
+        <p className="mx-auto mt-5 max-w-xl text-center text-base leading-[1.9] text-zinc-400">
+          Our principles revolve around crafting meaningful connections and providing the necessary resources to scale your company — for every founder, at every stage.
+        </p>
 
         {/* Gold divider */}
         <div className="mx-auto mt-14 mb-14 flex items-center gap-5 max-w-xs">
@@ -98,31 +59,52 @@ export default function MissionSection() {
           <div className="flex-1 h-px" style={{ backgroundColor: "rgba(201,169,110,0.2)" }} />
         </div>
 
-        {/* 6 Principles grid */}
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {principles.map((p, i) => (
+        {/* Core Values — 2-column staggered grid */}
+        <div className="grid gap-6 sm:grid-cols-2">
+          {values.map((v, i) => (
             <div
               key={i}
-              className="group rounded-2xl px-7 py-6 transition-all duration-300"
+              className="group relative flex flex-col rounded-2xl p-8 transition-all duration-300 hover:shadow-2xl"
               style={{
-                backgroundColor: "#0f1a2e",
-                border: "1px solid rgba(255,255,255,0.06)",
+                background: i % 2 === 0
+                  ? "linear-gradient(135deg, #0f1d35 0%, #0d1828 100%)"
+                  : "linear-gradient(135deg, #111e35 0%, #0f1a2e 100%)",
+                border: "1px solid rgba(201,169,110,0.12)",
               }}
             >
+              {/* Subtle gold glow corner */}
+              <div
+                className="pointer-events-none absolute top-0 right-0 h-32 w-32 opacity-30 rounded-tr-2xl"
+                style={{
+                  background: "radial-gradient(circle at top right, rgba(201,169,110,0.15) 0%, transparent 70%)",
+                }}
+              />
+
+              {/* Number */}
               <span
-                className="text-sm"
-                style={{ color: "#C9A96E" }}
+                className="text-[0.7rem] font-bold tracking-[0.25em] uppercase"
+                style={{ color: "rgba(201,169,110,0.5)" }}
               >
-                {p.icon}
+                {v.num}
               </span>
+
+              {/* Gold accent line */}
+              <div
+                className="mt-4 mb-5 h-[2px] w-8 rounded-full"
+                style={{ backgroundColor: "#C9A96E" }}
+              />
+
+              {/* Title */}
               <h3
-                className="mt-3 text-base font-bold text-white"
+                className="text-xl font-bold leading-snug text-white sm:text-2xl"
                 style={{ fontFamily: "var(--font-fraunces)" }}
               >
-                {p.title}
+                {v.title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-zinc-500">
-                {p.body}
+
+              {/* Body */}
+              <p className="mt-4 text-sm leading-[1.9] text-zinc-400">
+                {v.body}
               </p>
             </div>
           ))}
