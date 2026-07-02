@@ -37,6 +37,7 @@ const testimonials = [
     quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
     name: "Elise Madrick",
     title: "Founder",
+    photo: "/reviews/elise-madrick.webp",
   },
   {
     company: "AGI Beacon",
