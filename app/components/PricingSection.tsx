@@ -65,13 +65,12 @@ const plans = [
     href: "https://tally.so/r/VLERVa",
     popular: false,
     coreFeatures: [
-      "2 advisory sessions/month",
-      "Personalized mentor match",
-      "Multiple investor warm intros/month",
-      "Exclusive executive retreats",
-      "White-glove dedicated support",
+      "2 Monthly Advisory Sessions",
+      "Personalized 1:1 Mentorship Pairing",
+      "Access to Investor Directory & Multiple Monthly Warm Intros",
+      "$5M+ in Premium Resources & Partner Tools",
     ],
-    extraLabel: "Includes everything in Gold, plus:",
+    extraLabel: "All Gold Benefits and:",
     extraFeatures: [],
   },
 ];
