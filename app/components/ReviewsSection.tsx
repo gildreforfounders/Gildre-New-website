@@ -45,6 +45,7 @@ const testimonials = [
     quote: "Gildre was instrumental when I was first starting my company and needed to meet other business owners who understood the same challenges.",
     name: "Connor Fitzgerald",
     title: "Founder",
+    photo: "/reviews/connor-fitzgerald.webp",
   },
   {
     company: "SOLVEE",
