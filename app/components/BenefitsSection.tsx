@@ -18,7 +18,7 @@ type Card = PhotoCard | TextCard;
 const row1: Card[] = [
   {
     kind: "photo",
-    src: "/images/community/hero.webp",
+    src: "/images/community/mentor-match.webp",
     title: "Results-Driven Mentor Matches",
     sub: "Personalized 1:1 mentorship pairing with a subject matter expert in your field, geared towards accelerating professional growth and achieving measurable outcomes.",
   },
