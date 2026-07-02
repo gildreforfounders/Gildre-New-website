@@ -18,13 +18,13 @@ type Card = PhotoCard | TextCard;
 const row1: Card[] = [
   {
     kind: "photo",
-    src: "/images/community/dinner.webp",
+    src: "/images/community/hero.webp",
     title: "Results-Driven Mentor Matches",
-    sub: "Personalized 1:1 mentorship pairing with a SME in your field geared towards accelerating professional growth.",
+    sub: "Personalized 1:1 mentorship pairing with a subject matter expert in your field, geared towards accelerating professional growth and achieving measurable outcomes.",
   },
   {
     kind: "photo",
-    src: "/images/community/friends.webp",
+    src: "/images/community/dinner.webp",
     title: "Meaningful Connections",
     sub: "Genuine connections designed to facilitate long-lasting relationships. This isn't a one-and-done. Meet, develop, and build with others in the Gildre community.",
   },
@@ -40,18 +40,18 @@ const row2: Card[] = [
     kind: "photo",
     src: "/images/community/activity.webp",
     title: "Workshops & Events",
-    sub: "Curated, interactive workshops and in-person activities designed to engage and bridge connections between members across the globe.",
+    sub: "Curated virtual and in-person events including Executive Workshops, Innovation Roundtables, Founder Fireside Chats, and intimate dinners — all bridging connections across the globe.",
   },
   {
     kind: "text",
-    stat: "Interactive Coaching",
-    body: "We're passionate about being two-way learners. Our mentors have decades of professional experience and we've hand-picked experts to bring in knowledge across every imaginable industry.",
+    stat: "Coaching & Education",
+    body: "Our mentors have decades of professional experience. You'll receive access to business blueprints, practical tools, a vast library of fundraising resources, and expert-led sessions across every industry.",
   },
   {
     kind: "photo",
-    src: "/images/community/hero.webp",
-    title: "Partnerships",
-    sub: "We've developed a 500+ Partner Network to offer $5M+ in exclusive perks and partnerships to help you at any stage of your business.",
+    src: "/images/community/friends.webp",
+    title: "Partnerships & Perks",
+    sub: "500+ partners and $5M+ in exclusive tools and perks to accelerate your growth, whether you're launching a business or advancing your career.",
   },
 ];
 
