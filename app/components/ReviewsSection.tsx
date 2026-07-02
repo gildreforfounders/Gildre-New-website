@@ -85,6 +85,7 @@ const testimonials = [
     quote: "Gildre connected me with founders who had the SaaS and entrepreneurship experience I needed, so I wasn't walking that road alone.",
     name: "Gavin Buckland",
     title: "Founder",
+    photo: "/reviews/gavin-buckland.webp",
   },
   {
     company: "Topline",
