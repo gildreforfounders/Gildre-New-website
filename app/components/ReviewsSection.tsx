@@ -92,6 +92,7 @@ const testimonials = [
     quote: "For founders in my network, Gildre is a rare community that consistently adds value, and I highly recommend checking them out!",
     name: "Chris Riklin",
     title: "Co-Founder",
+    photo: "/reviews/chris-riklin.webp",
   },
   {
     company: "Kade Keyo",
