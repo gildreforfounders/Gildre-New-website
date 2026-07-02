@@ -92,95 +92,97 @@ export default function AboutSection() {
           {team.map((person, i) => (
             <div
               key={i}
-              className="flex flex-col items-center rounded-3xl px-8 pb-8 pt-10 text-center"
+              className="flex flex-col overflow-hidden rounded-3xl"
               style={{
                 backgroundColor: "#111e35",
                 border: "1px solid rgba(255,255,255,0.07)",
                 boxShadow: "0 8px 40px rgba(0,0,0,0.35)",
               }}
             >
-              {/* Avatar */}
-              <div
-                className="mb-5 relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-full"
-                style={{
-                  border: `2px solid ${person.photo ? "rgba(201,169,110,0.4)" : person.color + "55"}`,
-                  boxShadow: `0 0 0 6px ${person.photo ? "rgba(201,169,110,0.1)" : person.color + "12"}, 0 0 40px ${person.photo ? "rgba(201,169,110,0.15)" : person.color + "20"}`,
-                }}
-              >
+              {/* Photo — full-width portrait at top */}
+              <div className="relative h-72 w-full flex-shrink-0 overflow-hidden">
                 {person.photo ? (
                   <Image
                     src={person.photo}
                     alt={person.name}
                     fill
-                    sizes="96px"
+                    sizes="(max-width: 640px) 100vw, 50vw"
                     className="object-cover object-top"
                   />
                 ) : (
                   <div
-                    className="flex h-full w-full items-center justify-center text-2xl font-bold"
+                    className="flex h-full w-full items-center justify-center text-5xl font-bold"
                     style={{ backgroundColor: person.color + "22", color: person.color }}
                   >
                     {initials(person.name)}
                   </div>
                 )}
+                {/* Gradient fade into card body */}
+                <div
+                  className="absolute bottom-0 left-0 right-0 h-20"
+                  style={{ background: "linear-gradient(to bottom, transparent, #111e35)" }}
+                />
               </div>
 
-              {/* Name */}
-              <h3
-                className="text-[1.35rem] font-bold text-white"
-                style={{ fontFamily: "var(--font-fraunces)" }}
-              >
-                {person.name}
-              </h3>
+              {/* Card body */}
+              <div className="flex flex-col px-8 pb-8 pt-4">
+                {/* Name */}
+                <h3
+                  className="text-[1.35rem] font-bold text-white"
+                  style={{ fontFamily: "var(--font-fraunces)" }}
+                >
+                  {person.name}
+                </h3>
 
-              {/* Role badge */}
-              <span
-                className="mt-2 inline-block rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em]"
-                style={{
-                  backgroundColor: "rgba(201,169,110,0.1)",
-                  color: "#C9A96E",
-                  border: "1px solid rgba(201,169,110,0.2)",
-                }}
-              >
-                {person.role}
-              </span>
+                {/* Role badge */}
+                <span
+                  className="mt-2 inline-block self-start rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em]"
+                  style={{
+                    backgroundColor: "rgba(201,169,110,0.1)",
+                    color: "#C9A96E",
+                    border: "1px solid rgba(201,169,110,0.2)",
+                  }}
+                >
+                  {person.role}
+                </span>
 
-              {/* Personal tagline */}
-              <p
-                className="mt-5 text-sm italic leading-relaxed"
-                style={{ color: "rgba(255,255,255,0.45)" }}
-              >
-                &ldquo;{person.tagline}&rdquo;
-              </p>
+                {/* Personal tagline */}
+                <p
+                  className="mt-5 text-sm italic leading-relaxed"
+                  style={{ color: "rgba(255,255,255,0.45)" }}
+                >
+                  &ldquo;{person.tagline}&rdquo;
+                </p>
 
-              {/* Divider */}
-              <div
-                className="my-6 h-px w-16"
-                style={{ backgroundColor: "rgba(201,169,110,0.25)" }}
-              />
+                {/* Divider */}
+                <div
+                  className="my-6 h-px w-16"
+                  style={{ backgroundColor: "rgba(201,169,110,0.25)" }}
+                />
 
-              {/* Bio */}
-              <p className="flex-1 text-left text-sm leading-[1.85] text-zinc-400">
-                {person.bio}
-              </p>
+                {/* Bio */}
+                <p className="flex-1 text-sm leading-[1.85] text-zinc-400">
+                  {person.bio}
+                </p>
 
-              {/* LinkedIn */}
-              <a
-                href={person.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-xs font-semibold transition-opacity duration-200 hover:opacity-80"
-                style={{
-                  backgroundColor: "rgba(201,169,110,0.1)",
-                  border: "1px solid rgba(201,169,110,0.3)",
-                  color: "#C9A96E",
-                }}
-              >
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                </svg>
-                Connect on LinkedIn
-              </a>
+                {/* LinkedIn */}
+                <a
+                  href={person.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-8 inline-flex items-center gap-2 self-start rounded-full px-5 py-2.5 text-xs font-semibold transition-opacity duration-200 hover:opacity-80"
+                  style={{
+                    backgroundColor: "rgba(201,169,110,0.1)",
+                    border: "1px solid rgba(201,169,110,0.3)",
+                    color: "#C9A96E",
+                  }}
+                >
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                  Connect on LinkedIn
+                </a>
+              </div>
             </div>
           ))}
         </div>
