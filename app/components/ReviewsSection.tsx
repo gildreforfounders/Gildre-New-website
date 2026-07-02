@@ -12,6 +12,7 @@ const testimonials = [
     quote: "This is the first membership where I truly feel like I'm getting what I paid for. The value and time the Gildre team spends with us on our business is remarkable.",
     name: "Iliana Alvarado",
     title: "President",
+    photo: "/reviews/iliana-alvarado.webp",
   },
   {
     company: "HUPR",
@@ -106,6 +107,8 @@ const testimonials = [
   },
 ];
 
+import Image from "next/image";
+
 function initials(name: string) {
   return name.split(" ").slice(0, 2).map((n) => n[0]).join("");
 }
@@ -169,15 +172,24 @@ export default function ReviewsSection() {
 
             {/* Author */}
             <div className="flex items-center gap-3 pt-2">
-              <div
-                className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full text-sm font-bold text-white"
-                style={{
-                  backgroundColor: avatarColors[i % avatarColors.length],
-                  boxShadow: "0 0 0 2px rgba(201,169,110,0.3)",
-                }}
-              >
-                {initials(t.name)}
-              </div>
+              {"photo" in t && t.photo ? (
+                <div
+                  className="relative h-11 w-11 flex-shrink-0 overflow-hidden rounded-full"
+                  style={{ boxShadow: "0 0 0 2px rgba(201,169,110,0.3)" }}
+                >
+                  <Image src={t.photo} alt={t.name} fill sizes="44px" className="object-cover" />
+                </div>
+              ) : (
+                <div
+                  className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full text-sm font-bold text-white"
+                  style={{
+                    backgroundColor: avatarColors[i % avatarColors.length],
+                    boxShadow: "0 0 0 2px rgba(201,169,110,0.3)",
+                  }}
+                >
+                  {initials(t.name)}
+                </div>
+              )}
               <div>
                 <p className="text-sm font-bold text-white">{t.name}</p>
                 <p className="text-xs text-zinc-500">{t.title}</p>
