@@ -5,6 +5,7 @@ const testimonials = [
     quote: "Being in Gildre feels like having founder co-workers that actually get it. They've saved me hours of research just by sharing what's worked for them.",
     name: "Caitlin Van Berkel",
     title: "Founder",
+    photo: "/reviews/caitlin-van-berkel.webp",
   },
   {
     company: "Ensyx Systems",
