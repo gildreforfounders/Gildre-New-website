@@ -46,12 +46,12 @@ const plans = [
     href: "https://tally.so/r/VLERVa",
     popular: true,
     coreFeatures: [
-      "1 advisory session/month with Managing Partner",
-      "In-person events and founder dinners",
-      "Investor directory & warm introductions",
-      "Podcasting & personal brand opportunities",
+      "1 Monthly Advisory Session",
+      "Access to Exclusive, In-Person Events",
+      "Podcasting & Personal Brand Opportunities",
+      "Access to Investor Directory & Warm Intros",
     ],
-    extraLabel: "Includes everything in Silver, plus:",
+    extraLabel: "All Silver Benefits plus:",
     extraFeatures: [],
   },
   {
