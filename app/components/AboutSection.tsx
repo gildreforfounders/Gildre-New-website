@@ -43,7 +43,7 @@ const team: TeamMember[] = [
     role: "Community Manager",
     tagline: "Makes every Gildre member feel at home from day one.",
     bio: "Eliana is the Community Manager at Gildre and was born and raised in Bogota, Colombia. She has spent the majority of her career in digital and content marketing, developing high-impact resources for founders and entrepreneurs across the globe. She supports the community's key events by coordinating and curating world-class speakers along with developing programming throughout the year.",
-    linkedin: "https://www.linkedin.com/in/elianaacosta/",
+    linkedin: "https://www.linkedin.com/in/eliana-acosta-ni%C3%B1o-gildre-communitymanager/",
     color: "#C93B8E",
     photo: "/team/eliana-acosta.png",
   },
