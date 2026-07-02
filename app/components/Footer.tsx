@@ -95,16 +95,23 @@ export default function Footer() {
               border: "1px solid rgba(201,169,110,0.15)",
             }}
           >
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
-                Free Newsletter
-              </p>
-              <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-                The Essential Founder Newsletter
-              </p>
-              <p className="mt-1 text-xs text-zinc-500">
-                Insights, resources, and stories for founders — delivered to your inbox.
-              </p>
+            <div className="flex items-center gap-4">
+              <img
+                src="/images/gildre-logo.png"
+                alt="Gildre"
+                className="h-14 w-14 flex-shrink-0 rounded-xl object-contain bg-white p-1"
+              />
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
+                  Free Newsletter
+                </p>
+                <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                  The Essential Founder Newsletter
+                </p>
+                <p className="mt-0.5 text-xs text-zinc-500">
+                  Insights, resources, and stories for founders — delivered to your inbox.
+                </p>
+              </div>
             </div>
             <a
               href="https://gildre-for-founders.beehiiv.com/"
