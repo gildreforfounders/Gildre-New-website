@@ -3,8 +3,8 @@ import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps
 
 const GEO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
-// Only these 5 cities show a chapter label
 const CHAPTERS = new Set(["New York City", "Chicago", "San Francisco", "Austin", "Boston"]);
+const GROWING = new Set(["Seattle", "Los Angeles"]);
 
 const cities: { name: string; coords: [number, number] }[] = [
   { name: "New York City",  coords: [-74.006,  40.713] },
@@ -98,22 +98,18 @@ export default function CommunityMap() {
 
           {cities.map((city) => {
             const isChapter = CHAPTERS.has(city.name);
+            const isGrowing = GROWING.has(city.name);
+            const isNYC = city.name === "New York City";
             return (
               <Marker key={city.name} coordinates={city.coords}>
                 {isChapter ? (
-                  /* Chapter cities: filled gold ring + dot */
                   <>
-                    <circle
-                      r={9}
-                      fill="rgba(201,169,110,0.18)"
-                      stroke="#C9A96E"
-                      strokeWidth={1.5}
-                      filter="url(#pinGlow)"
-                    />
+                    <circle r={9} fill="rgba(201,169,110,0.18)" stroke="#C9A96E" strokeWidth={1.5} filter="url(#pinGlow)" />
                     <circle r={3} fill="#C9A96E" />
                     <text
-                      textAnchor="middle"
-                      y={-14}
+                      textAnchor={isNYC ? "start" : "middle"}
+                      x={isNYC ? 13 : 0}
+                      y={isNYC ? 4 : -14}
                       style={{
                         fontFamily: "var(--font-fraunces)",
                         fontSize: "8.5px",
@@ -125,14 +121,26 @@ export default function CommunityMap() {
                       {city.name}
                     </text>
                   </>
+                ) : isGrowing ? (
+                  <>
+                    <circle r={9} fill="rgba(201,169,110,0.08)" stroke="#C9A96E" strokeWidth={1.2} strokeDasharray="3 2" filter="url(#pinGlow)" />
+                    <circle r={2.5} fill="rgba(201,169,110,0.6)" />
+                    <text
+                      textAnchor="middle"
+                      y={-14}
+                      style={{
+                        fontFamily: "var(--font-fraunces)",
+                        fontSize: "7.5px",
+                        fill: "rgba(201,169,110,0.65)",
+                        fontWeight: 600,
+                        letterSpacing: "0.04em",
+                      }}
+                    >
+                      {city.name}
+                    </text>
+                  </>
                 ) : (
-                  /* Non-chapter cities: small clean dot only */
-                  <circle
-                    r={4}
-                    fill="rgba(201,169,110,0.25)"
-                    stroke="#C9A96E"
-                    strokeWidth={1}
-                  />
+                  <circle r={4} fill="rgba(201,169,110,0.25)" stroke="#C9A96E" strokeWidth={1} />
                 )}
               </Marker>
             );
@@ -153,6 +161,20 @@ export default function CommunityMap() {
             }}
           >
             {c}
+          </span>
+        ))}
+        {[...GROWING].map((c) => (
+          <span
+            key={c}
+            className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-widest flex items-center gap-1.5"
+            style={{
+              backgroundColor: "rgba(201,169,110,0.04)",
+              border: "1px dashed rgba(201,169,110,0.3)",
+              color: "rgba(201,169,110,0.6)",
+            }}
+          >
+            {c}
+            <span className="text-[0.55rem] font-bold tracking-wider" style={{ color: "rgba(201,169,110,0.5)" }}>GROWING</span>
           </span>
         ))}
       </div>
