@@ -109,6 +109,7 @@ const testimonials = [
     quote: "Gildre is a thriving community of motivated, high-performing individuals who share knowledge, resources, and insights for those navigating the challenging world of startups.",
     name: "Robyn Hobson",
     title: "Chief Marketing Officer",
+    photo: "/reviews/robyn-hobson.webp",
   },
   {
     company: "Cardo English",
