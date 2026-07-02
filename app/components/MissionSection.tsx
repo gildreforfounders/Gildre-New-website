@@ -43,14 +43,26 @@ export default function MissionSection() {
           className="mt-4 text-center text-[2rem] font-bold text-white sm:text-[2.6rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Core{" "}
-          <span style={{ color: "#C9A96E" }}>Values</span>
+          Mission &{" "}
+          <span style={{ color: "#C9A96E" }}>Principles</span>
         </h2>
 
-        {/* Intro */}
-        <p className="mx-auto mt-5 max-w-xl text-center text-base leading-[1.9] text-zinc-400">
-          Our principles revolve around crafting meaningful connections and providing the necessary resources to scale your company — for every founder, at every stage.
-        </p>
+        {/* Intro copy */}
+        <div className="mx-auto mt-8 max-w-2xl space-y-5 text-center">
+          <p className="text-base leading-[1.9] text-zinc-400">
+            At Gildre our core thesis revolves around the concept of{" "}
+            <span className="font-semibold text-white">&ldquo;Community for All&rdquo;</span>.
+          </p>
+          <p className="text-base leading-[1.9] text-zinc-400">
+            You don&rsquo;t need a specific industry or experience background to become a member, just the motivation to build something great and support other founders.
+          </p>
+          <p className="text-base leading-[1.9] text-zinc-400">
+            Our principles revolve around our 6 core benefits, geared towards crafting meaningful connections and providing the necessary resources to scale your company.
+          </p>
+          <p className="text-sm text-zinc-500">
+            You can learn more about our values below.
+          </p>
+        </div>
 
         {/* Gold divider */}
         <div className="mx-auto mt-14 mb-14 flex items-center gap-5 max-w-xs">
@@ -110,22 +122,6 @@ export default function MissionSection() {
           ))}
         </div>
 
-        {/* Learn more CTA */}
-        <div className="mt-14 text-center">
-          <p className="text-sm text-zinc-500">
-            You can learn more about our values{" "}
-            <a
-              href="https://www.gildre.com/about-us"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold underline underline-offset-4 transition-opacity hover:opacity-80"
-              style={{ color: "#C9A96E" }}
-            >
-              here
-            </a>
-            .
-          </p>
-        </div>
 
       </div>
     </section>
