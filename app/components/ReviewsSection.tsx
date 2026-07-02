@@ -29,6 +29,7 @@ const testimonials = [
     quote: "The resources offered at Gildre are exceptionally beneficial for entrepreneurs and professionals, providing crucial tools and insights from seasoned mentors across countless industries.",
     name: "Horacio Rilo",
     title: "Founder",
+    photo: "/reviews/horacio-rilo.webp",
   },
   {
     company: "Cerené",
