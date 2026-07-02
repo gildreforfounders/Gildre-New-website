@@ -69,6 +69,7 @@ const testimonials = [
     quote: "Since we joined Gildre we've started to see measurable consistency in new customers. Inbound interest continues to grow which has helped create momentum.",
     name: "Alejandro Sandoval",
     title: "Founder",
+    photo: "/reviews/alejandro-sandoval.webp",
   },
   {
     company: "MoveOn",
