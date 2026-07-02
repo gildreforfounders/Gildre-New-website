@@ -13,7 +13,7 @@ type TeamMember = {
 const team: TeamMember[] = [
   {
     name: "Brian Lee",
-    role: "Co-Founder & CEO",
+    role: "Co-Founder & Managing Partner",
     tagline: "Passionate about helping founders find their footing.",
     bio: "Brian is a 2X exited entrepreneur who has spent the past decade working with bootstrapped and venture-backed companies. He launched his first company in 2015 and has since co-founded multiple 7-figure ARR startups. His most recent role was Head of Product at a global accelerator working with hundreds of Series A-Pre Seed founders across high-growth industries. He currently sits on two advisory boards for organizations including Techstars and Watson Institute where he serves as the Entrepreneur-in-Residence.",
     linkedin: "https://www.linkedin.com/in/brianconnorlee-gildre/",
@@ -31,7 +31,7 @@ const team: TeamMember[] = [
   },
   {
     name: "Taiga Gamell",
-    role: "Co-Founder & Head of Growth",
+    role: "Co-Founder & Managing Partner",
     tagline: "Loves connecting people and building the ecosystems around them.",
     bio: "Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then went on to co-found and raise funding for a sustainability startup called Kudos. As a GTM and revenue leader, Taiga has led sales teams at multiple product and service-based startups scaling upwards of $20M ARR. Beyond his professional pursuits you can find him hiking, water skiing, or practicing taekwondo.",
     linkedin: "https://www.linkedin.com/in/taigagamell-gildre/",
