@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="fixed left-1/2 top-4 z-50 w-[calc(100%-2rem)] max-w-5xl -translate-x-1/2">
       <nav
-        className="flex items-center justify-between px-5 py-2.5"
+        className="flex items-center justify-between px-7 py-3.5"
         style={{
           backgroundColor: "#0f1524",
           borderRadius: "9999px",
@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Brand */}
         <a
           href="/"
-          className="text-xl font-semibold text-white flex-shrink-0"
+          className="text-2xl font-semibold text-white flex-shrink-0"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
           Gildre
@@ -28,31 +28,31 @@ export default function Navbar() {
         <div className="hidden items-center gap-6 lg:flex">
           <button
             onClick={() => scrollTo("benefits")}
-            className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
+            className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
           >
             Membership
           </button>
           <button
             onClick={() => scrollTo("about")}
-            className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
+            className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
           >
             About Us
           </button>
           <button
             onClick={() => scrollTo("faq")}
-            className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
+            className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
           >
             FAQ
           </button>
           <button
             onClick={() => scrollTo("reviews")}
-            className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
+            className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
           >
             Wall of Love
           </button>
           <button
             onClick={() => scrollTo("pricing")}
-            className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
+            className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
           >
             Pricing
           </button>
@@ -60,7 +60,7 @@ export default function Navbar() {
             href="https://login.circle.so/sign_in?request_host=gildre.circle.so"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs text-white/60 transition-colors hover:text-white whitespace-nowrap"
+            className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
           >
             Member Login
           </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
         {/* CTA */}
         <a
           href="https://tally.so/r/VLERVa"
-          className="flex-shrink-0 rounded-full px-5 py-2 text-xs font-bold transition-opacity hover:opacity-90"
+          className="flex-shrink-0 rounded-full px-6 py-2.5 text-sm font-bold transition-opacity hover:opacity-90"
           style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
         >
           Apply Now
