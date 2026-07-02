@@ -44,9 +44,10 @@ const row2: Card[] = [
     sub: "Curated virtual and in-person events including Executive Workshops, Innovation Roundtables, Founder Fireside Chats, and intimate dinners — all bridging connections across the globe.",
   },
   {
-    kind: "text",
-    stat: "Coaching & Education",
-    body: "Our mentors have decades of professional experience. You'll receive access to business blueprints, practical tools, a vast library of fundraising resources, and expert-led sessions across every industry.",
+    kind: "photo",
+    src: "/images/community/coaching.webp",
+    title: "Coaching & Education",
+    sub: "Our mentors have decades of professional experience. You'll receive access to business blueprints, practical tools, a vast library of fundraising resources, and expert-led sessions across every industry.",
   },
   {
     kind: "photo",
