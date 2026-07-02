@@ -101,6 +101,7 @@ const testimonials = [
     quote: "Since joining Gildre I've been able to receive great advice, find supportive friends, and solve pressing problems across a network of amazing individuals. If you're looking for an active and engaged community home, you'll find it here.",
     name: "Tanho Attah",
     title: "Co-Founder",
+    photo: "/reviews/tanho-attah.webp",
   },
   {
     company: "Remote Vans",
