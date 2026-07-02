@@ -77,6 +77,7 @@ const testimonials = [
     quote: "Joining Gildre has been a thrilling experience with vibrant and intelligent members across the globe. There are so many resources and advisors ready to lend an ear and guiding hand.",
     name: "Yara Schilling",
     title: "Director of Talent & Development",
+    photo: "/reviews/yara-schilling.webp",
   },
   {
     company: "Clipsense.ai",
