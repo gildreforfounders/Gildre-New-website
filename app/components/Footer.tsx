@@ -84,6 +84,36 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Newsletter */}
+        <div
+          className="mt-10 flex flex-col items-center gap-4 rounded-2xl px-8 py-6 text-center sm:flex-row sm:justify-between sm:text-left"
+          style={{
+            background: "rgba(201,169,110,0.05)",
+            border: "1px solid rgba(201,169,110,0.15)",
+          }}
+        >
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
+              Free Newsletter
+            </p>
+            <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+              The Essential Founder Newsletter
+            </p>
+            <p className="mt-1 text-xs text-zinc-500">
+              Insights, resources, and stories for founders — delivered to your inbox.
+            </p>
+          </div>
+          <a
+            href="https://gildre-for-founders.beehiiv.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-shrink-0 rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
+            style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+          >
+            Subscribe →
+          </a>
+        </div>
+
         {/* Bottom bar */}
         <div
           className="mt-10 flex flex-col items-center gap-2 pt-8 text-center text-[0.7rem] text-zinc-600 sm:flex-row sm:justify-between"
