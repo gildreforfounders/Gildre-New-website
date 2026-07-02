@@ -84,34 +84,76 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Newsletter */}
-        <div
-          className="mt-10 flex flex-col items-center gap-4 rounded-2xl px-8 py-6 text-center sm:flex-row sm:justify-between sm:text-left"
-          style={{
-            background: "rgba(201,169,110,0.05)",
-            border: "1px solid rgba(201,169,110,0.15)",
-          }}
-        >
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
-              Free Newsletter
-            </p>
-            <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-              The Essential Founder Newsletter
-            </p>
-            <p className="mt-1 text-xs text-zinc-500">
-              Insights, resources, and stories for founders — delivered to your inbox.
-            </p>
-          </div>
-          <a
-            href="https://gildre-for-founders.beehiiv.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-shrink-0 rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
-            style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+        {/* Newsletter + Podcast */}
+        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+
+          {/* Newsletter */}
+          <div
+            className="flex flex-col justify-between gap-5 rounded-2xl px-7 py-6"
+            style={{
+              background: "rgba(201,169,110,0.05)",
+              border: "1px solid rgba(201,169,110,0.15)",
+            }}
           >
-            Subscribe →
-          </a>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
+                Free Newsletter
+              </p>
+              <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                The Essential Founder Newsletter
+              </p>
+              <p className="mt-1 text-xs text-zinc-500">
+                Insights, resources, and stories for founders — delivered to your inbox.
+              </p>
+            </div>
+            <a
+              href="https://gildre-for-founders.beehiiv.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block self-start rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+            >
+              Subscribe →
+            </a>
+          </div>
+
+          {/* Podcast */}
+          <div
+            className="flex flex-col justify-between gap-5 rounded-2xl px-7 py-6"
+            style={{
+              background: "rgba(201,169,110,0.05)",
+              border: "1px solid rgba(201,169,110,0.15)",
+            }}
+          >
+            <div className="flex items-center gap-4">
+              <img
+                src="/images/start-to-scale-logo.webp"
+                alt="Start to Scale Podcast"
+                className="h-14 w-14 flex-shrink-0 rounded-xl object-cover"
+              />
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
+                  Podcast
+                </p>
+                <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                  Start to Scale
+                </p>
+                <p className="mt-0.5 text-xs text-zinc-500">
+                  The Founder&rsquo;s Podcast by Gildre
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://linktr.ee/starttoscale"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block self-start rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+            >
+              Follow →
+            </a>
+          </div>
+
         </div>
 
         {/* Bottom bar */}
