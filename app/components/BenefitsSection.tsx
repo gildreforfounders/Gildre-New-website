@@ -49,7 +49,7 @@ const row2: Card[] = [
   },
   {
     kind: "photo",
-    src: "/images/community/friends.webp",
+    src: "/images/community/partnerships.webp",
     title: "Partnerships & Perks",
     sub: "500+ partners and $5M+ in exclusive tools and perks to accelerate your growth, whether you're launching a business or advancing your career.",
   },
