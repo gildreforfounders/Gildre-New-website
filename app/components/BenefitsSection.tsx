@@ -29,9 +29,10 @@ const row1: Card[] = [
     sub: "Genuine connections designed to facilitate long-lasting relationships. This isn't a one-and-done. Meet, develop, and build with others in the Gildre community.",
   },
   {
-    kind: "text",
-    stat: "Engaging Community",
-    body: "Access to a highly engaged digital community of entrepreneurs, mentors, and industry experts. With weekly AMAs, newsletters, and unique content just for you.",
+    kind: "photo",
+    src: "/images/community/community-group.webp",
+    title: "Engaging Community",
+    sub: "Access to a highly engaged community of entrepreneurs, mentors, and industry experts. With weekly AMAs, newsletters, and unique content just for you.",
   },
 ];
 
