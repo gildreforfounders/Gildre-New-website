@@ -63,13 +63,13 @@ export default function StatsBlock() {
           }}
         >
           <span
-            className="flex-shrink-0 text-7xl font-bold sm:text-8xl"
+            className="flex-shrink-0 text-5xl font-bold sm:text-6xl"
             style={{ fontFamily: "var(--font-fraunces)", color: "#C9A96E" }}
           >
             <CountUp target={95} suffix="%" />
           </span>
           <div>
-            <p className="text-lg font-bold text-white sm:text-xl" style={{ fontFamily: "var(--font-fraunces)" }}>
+            <p className="text-2xl font-bold text-white sm:text-3xl" style={{ fontFamily: "var(--font-fraunces)" }}>
               Member Retention & Satisfaction
             </p>
             <p className="mt-2 text-sm leading-relaxed text-zinc-400">

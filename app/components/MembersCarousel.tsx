@@ -56,7 +56,7 @@ export default function MembersCarousel({ members }: { members: Member[] }) {
           Founders &amp; Operators in Your Corner
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-zinc-500">
-          Every Gildre member has built, scaled, or exited. They&rsquo;re matched to you personally — no random coffee chats, no generic advice.
+          Build alongside founders solving the same problems as you, at your stage.
         </p>
       </div>
 

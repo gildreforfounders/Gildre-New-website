@@ -29,12 +29,12 @@ export default function HeroSection() {
           </a>
 
           <h1
-            className="text-[clamp(2.75rem,7vw,5rem)] font-bold leading-[1.08] text-white"
+            className="text-[clamp(2.5rem,6.5vw,4.75rem)] font-bold leading-[1.1] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Level up with founders<br />
-            and advisors who have<br />
-            built, scaled &amp; exited
+            &amp; advisors who have<br />
+            <span style={{ color: "#C9A96E" }}>built, scaled &amp; exited</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/75">
