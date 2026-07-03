@@ -163,14 +163,6 @@ export default function ReviewsSection() {
             className="flex flex-col gap-5 p-8"
             style={{ backgroundColor: "#080e1a" }}
           >
-            {/* Company */}
-            <p
-              className="text-[0.65rem] font-bold uppercase tracking-[0.2em]"
-              style={{ color: "#C9A96E" }}
-            >
-              {t.company}
-            </p>
-
             {/* Headline */}
             <h3
               className="text-lg font-bold leading-snug text-white"
