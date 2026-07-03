@@ -137,7 +137,7 @@ export default function ReviewsSection() {
   return (
     <section id="reviews" style={{ backgroundColor: "#080e1a" }}>
       {/* Heading */}
-      <div className="px-6 pt-20 pb-12 text-center">
+      <div className="px-6 pt-14 pb-8 text-center">
         <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
           Real Founders. Real Results.
         </p>
@@ -160,7 +160,7 @@ export default function ReviewsSection() {
         {testimonials.map((t, i) => (
           <div
             key={i}
-            className="flex flex-col gap-5 p-8"
+            className="flex flex-col gap-3 p-6"
             style={{ backgroundColor: "#080e1a" }}
           >
             {/* Headline */}
@@ -177,7 +177,7 @@ export default function ReviewsSection() {
             </p>
 
             {/* Author */}
-            <div className="flex items-center gap-3 pt-2">
+            <div className="flex items-center gap-3 pt-1">
               {"photo" in t && t.photo ? (
                 <div
                   className="relative h-11 w-11 flex-shrink-0 overflow-hidden rounded-full"
@@ -205,7 +205,7 @@ export default function ReviewsSection() {
         ))}
       </div>
 
-      <div className="pb-20" />
+      <div className="pb-12" />
     </section>
   );
 }
