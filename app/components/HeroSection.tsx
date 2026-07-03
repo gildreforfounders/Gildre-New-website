@@ -29,7 +29,7 @@ export default function HeroSection() {
           </a>
 
           <h1
-            className="text-[clamp(2.5rem,6.5vw,4.75rem)] font-bold leading-[1.1] text-white"
+            className="text-[clamp(1.85rem,4.8vw,4rem)] font-bold leading-[1.1] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Level up with founders<br />
