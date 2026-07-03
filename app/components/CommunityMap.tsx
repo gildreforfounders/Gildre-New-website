@@ -52,7 +52,7 @@ export default function CommunityMap() {
           <span style={{ color: "#C9A96E" }}>All Founders</span>
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-white/50">
-          250+ members across 74 cities and 5 core chapters.
+          250+ members across 74 cities and 5 core in-person chapters.
         </p>
       </div>
 
