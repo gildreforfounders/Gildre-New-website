@@ -115,7 +115,7 @@ function FAQItem({ item }: { item: FAQItem }) {
       >
         <div className="pb-6">
           {item.answer.split("\n\n").map((para, i) => (
-            <p key={i} className="mt-3 text-sm leading-relaxed first:mt-0" style={{ color: "rgba(255,255,255,0.55)" }}>
+            <p key={i} className="mt-3 text-sm font-normal leading-relaxed text-white first:mt-0">
               {para}
             </p>
           ))}
