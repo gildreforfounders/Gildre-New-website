@@ -1,19 +1,19 @@
 const members = [
-  { company: "HUPR",               role: "Co-Founder & CEO",      serif: true,  italic: false },
-  { company: "Boop.VIP",           role: "Founder & CEO",          serif: false, italic: false },
-  { company: "Cerené",             role: "Founder & CEO",          serif: true,  italic: true  },
-  { company: "AGI Beacon",         role: "Founder & CEO",          serif: false, italic: false },
-  { company: "Clipsense.ai",       role: "Founder & CEO",          serif: false, italic: false },
-  { company: "SOLVEE",             role: "Founder & CEO",          serif: true,  italic: false },
-  { company: "Rodo",               role: "Founder & CEO",          serif: true,  italic: false },
-  { company: "Topline",            role: "Co-Founder & CEO",       serif: false, italic: false },
-  { company: "Kade Keyo",          role: "Co-Founder & CEO",       serif: true,  italic: true  },
-  { company: "Remote Vans",        role: "Founder & CMO",          serif: false, italic: false },
-  { company: "Cardo English",      role: "Founder & CEO",          serif: true,  italic: false },
-  { company: "Roamli",             role: "Co-Founder",             serif: false, italic: false },
-  { company: "Threadable",         role: "Co-Founder & COO",       serif: true,  italic: true  },
-  { company: "Ensyx Systems",      role: "Founder & President",    serif: false, italic: false },
-  { company: "Palombini Coaching", role: "Founder & CEO",          serif: true,  italic: false },
+  { company: "Clockout",      serif: false, italic: false },
+  { company: "Silo Markets",  serif: true,  italic: false },
+  { company: "Nexus",         serif: true,  italic: false },
+  { company: "Bubbl",         serif: false, italic: false },
+  { company: "Clipsense",     serif: false, italic: false },
+  { company: "Avistar",       serif: true,  italic: false },
+  { company: "Inciteful",     serif: false, italic: false },
+  { company: "Vault",         serif: true,  italic: false },
+  { company: "Clausey",       serif: false, italic: false },
+  { company: "Opulentia",     serif: true,  italic: true  },
+  { company: "ReWorked",      serif: false, italic: false },
+  { company: "Celeria",       serif: true,  italic: false },
+  { company: "Forum Media",   serif: false, italic: false },
+  { company: "Featurely",     serif: false, italic: false },
+  { company: "PromptHalo",    serif: true,  italic: false },
 ];
 
 export default function MemberCompanies() {
@@ -44,7 +44,7 @@ export default function MemberCompanies() {
           {/* Right grid */}
           <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
             {members.map((m) => (
-              <div key={m.company} className="flex flex-col gap-1.5">
+              <div key={m.company} className="flex flex-col">
                 <span
                   className="text-base font-bold text-white"
                   style={{
@@ -53,12 +53,6 @@ export default function MemberCompanies() {
                   }}
                 >
                   {m.company}
-                </span>
-                <span
-                  className="text-[0.6rem] font-semibold uppercase tracking-widest"
-                  style={{ color: "rgba(255,255,255,0.35)" }}
-                >
-                  {m.role}
                 </span>
               </div>
             ))}
