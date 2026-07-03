@@ -64,6 +64,8 @@ export default function Navbar() {
             {/* CTA — hidden on mobile */}
             <a
               href="https://tally.so/r/VLERVa"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden sm:block flex-shrink-0 rounded-full px-6 py-2.5 text-sm font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
             >
@@ -130,6 +132,8 @@ export default function Navbar() {
             </a>
             <a
               href="https://tally.so/r/VLERVa"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-3 block rounded-full py-3 text-center text-sm font-bold"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
             >

@@ -188,6 +188,8 @@ export default function PricingSection() {
                 {/* CTA */}
                 <a
                   href={plan.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-7 block rounded-xl py-3.5 text-center text-sm font-bold transition-opacity hover:opacity-90"
                   style={
                     plan.popular
@@ -223,6 +225,8 @@ export default function PricingSection() {
           All memberships renew automatically. Cancel anytime. Questions?{" "}
           <a
             href="https://calendly.com/taiga-gildre/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline underline-offset-2 hover:text-zinc-600 transition-colors"
           >
             Schedule a call with the team.

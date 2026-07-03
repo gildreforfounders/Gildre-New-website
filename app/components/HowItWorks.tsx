@@ -164,6 +164,8 @@ export default function HowItWorks() {
         <div className="mt-12 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
             href="https://tally.so/r/VLERVa"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
             style={{ backgroundColor: "#1C2744", color: "#fff" }}
           >
@@ -171,6 +173,8 @@ export default function HowItWorks() {
           </a>
           <a
             href="https://calendly.com/taiga-gildre/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm text-zinc-400 underline underline-offset-4 hover:text-zinc-600 transition-colors"
           >
             Have questions? Schedule a call first

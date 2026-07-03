@@ -23,6 +23,8 @@ export default function HeroSection() {
         >
           <a
             href="https://www.nexus.app/dashboard/gildre"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mb-6 inline-block rounded-full border border-white/30 bg-white/10 px-5 py-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-white backdrop-blur-sm transition-colors hover:bg-white/20"
           >
             250+ Members
@@ -44,12 +46,16 @@ export default function HeroSection() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href="https://tally.so/r/VLERVa"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-black transition-colors hover:bg-zinc-100"
             >
               Apply Now
             </a>
             <a
               href="https://calendly.com/taiga-gildre/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-white/80 underline underline-offset-4 transition-colors hover:text-white"
             >
               Schedule a call

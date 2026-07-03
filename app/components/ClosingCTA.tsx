@@ -20,6 +20,8 @@ export default function ClosingCTA() {
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="https://tally.so/r/VLERVa"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-90"
             style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
           >
@@ -27,6 +29,8 @@ export default function ClosingCTA() {
           </a>
           <a
             href="https://calendly.com/taiga-gildre/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm underline underline-offset-4 transition-opacity hover:opacity-80"
             style={{ color: "rgba(255,255,255,0.6)" }}
           >
