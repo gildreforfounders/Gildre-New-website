@@ -24,7 +24,7 @@ const team: TeamMember[] = [
     name: "Michael J. Frank",
     role: "Co-Founder & Managing Partner",
     tagline: "Believes every founder deserves a seasoned operator in their corner.",
-    bio: "Michael is a founder and operator with deep experience building, scaling, and exiting companies in regulated markets. Prior to Gildre he founded Gateway Partners, a market-making and specialist trading firm he led through significant technology and risk transformation before selling to a NASDAQ-listed company. He currently serves as an Advisory Board Member and Independent Director, advising Desync.ai, Silo Markets, Visionary Philanthropy Group, and Ziggurat Technology, and mentors MBA students at Baruch College and Columbia Business School.",
+    bio: "Michael is a founder and operator with deep experience building, scaling, and exiting companies in regulated markets. Prior to Gildre he founded Gateway Partners, a market-making and specialist trading firm he led through significant technology and risk transformation before selling to a NASDAQ-listed company. He currently serves as an Advisory Board Member and Independent Director, advising Desync.ai, Silo Markets, and Visionary Philanthropy Group, and mentors MBA students at Baruch College and Columbia Business School.",
     linkedin: "https://www.linkedin.com/in/mikejfrank/",
     color: "#C97B3B",
     photo: "/team/michael-frank.png",
