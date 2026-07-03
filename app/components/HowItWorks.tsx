@@ -9,9 +9,9 @@ const tiers = [
     steps: [
       {
         n: "01",
-        title: "Apply",
-        body: "Tell us about yourself and your company. Silver applications are reviewed within 48 hours. We keep it simple so you can start connecting fast.",
-        note: "Takes under 5 minutes",
+        title: "Identify Your Peers",
+        body: "Browse the Gildre community to find founders at your stage and in your industry. Silver membership gives you immediate access to connect with peers across 15+ cities — no lengthy review process.",
+        note: "Join in minutes",
       },
       {
         n: "02",
@@ -167,7 +167,7 @@ export default function HowItWorks() {
             className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
             style={{ backgroundColor: "#1C2744", color: "#fff" }}
           >
-            {active === 0 ? "Get Access" : "Start Your Application"}
+            {active === 0 ? "Identify Your Peers" : "Start Your Application"}
           </a>
           <a
             href="https://calendly.com/taiga-gildre/30min"
