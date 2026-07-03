@@ -10,7 +10,7 @@ const logos = [
   { name: "Techstars",           src: "/images/logos/techstars.png"   },
   { name: "StubHub",             src: "/images/logos/stubhub.jpeg"    },
   { name: "Amazon",              src: "/images/logos/amazon.webp"     },
-  { name: "Propellant Ventures", src: "/images/logos/propellant.jpeg" },
+  { name: "Propellant Ventures", src: "/images/logos/propellant.jpeg", scale: 1.9 },
 ];
 
 export default function LogoBar() {
@@ -67,6 +67,7 @@ export default function LogoBar() {
                 fill
                 sizes="148px"
                 className="object-contain"
+                style={logo.scale ? { transform: `scale(${logo.scale})` } : undefined}
               />
             </div>
           ))}
