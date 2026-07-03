@@ -32,7 +32,9 @@ export default function HeroSection() {
             className="text-[clamp(2.75rem,7vw,5rem)] font-bold leading-[1.08] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            Level up with founders and advisors who have built, scaled &amp; exited
+            Level up with founders<br />
+            and advisors who have<br />
+            built, scaled &amp; exited
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/75">
