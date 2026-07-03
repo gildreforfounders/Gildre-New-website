@@ -56,7 +56,7 @@ export default function StatsBlock() {
 
         {/* Featured 95% stat */}
         <div
-          className="mb-16 flex flex-col items-center gap-3 rounded-2xl px-8 py-10 text-center sm:flex-row sm:text-left sm:gap-10"
+          className="mb-16 flex flex-col items-center gap-3 rounded-2xl px-8 py-10 text-center"
           style={{
             background: "linear-gradient(135deg, rgba(201,169,110,0.1) 0%, rgba(201,169,110,0.04) 100%)",
             border: "1px solid rgba(201,169,110,0.25)",
