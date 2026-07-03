@@ -206,7 +206,7 @@ export default function ReviewsSection() {
               )}
               <div>
                 <p className="text-sm font-bold text-white">{t.name}</p>
-                <p className="text-xs text-zinc-500">{t.title}</p>
+                <p className="text-xs text-zinc-500">{t.title} of {t.company}</p>
               </div>
             </div>
           </div>
