@@ -93,7 +93,7 @@ export default function HowItWorks() {
           className="mt-3 text-center text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Simple to Join. Transformative to Be In.
+          Engineered for Your Stage. Tailored for Action.
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-center text-base leading-relaxed text-zinc-500">
           We built Gildre to be the community we wished existed when we were building. Here&rsquo;s how it works.
