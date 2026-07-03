@@ -10,7 +10,7 @@ const tiers = [
       {
         n: "01",
         title: "Identify Your Peers",
-        body: "Browse the Gildre community to find founders at your stage and in your industry. Silver membership gives you immediate access to connect with peers across 15+ cities — no lengthy review process.",
+        body: "Browse the Gildre community to find founders at your stage and in your industry — connect with peers across 15+ cities instantly.",
         note: "Join in minutes",
       },
       {
