@@ -134,31 +134,21 @@ export default function AboutSection() {
                   {person.name}
                 </h3>
 
-                {/* Role badge */}
-                <span
-                  className="mt-2 inline-block rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em]"
-                  style={{
-                    backgroundColor: "rgba(201,169,110,0.1)",
-                    color: "#C9A96E",
-                    border: "1px solid rgba(201,169,110,0.2)",
-                  }}
-                >
-                  {person.role}
-                </span>
+                {/* Divider */}
+                <div
+                  className="my-5 h-px w-10"
+                  style={{ backgroundColor: "rgba(201,169,110,0.35)" }}
+                />
 
                 {/* Personal tagline */}
                 <p
-                  className="mt-5 text-sm italic leading-relaxed"
-                  style={{ color: "rgba(255,255,255,0.45)" }}
+                  className="text-sm leading-relaxed"
+                  style={{ color: "rgba(255,255,255,0.5)" }}
                 >
-                  &ldquo;{person.tagline}&rdquo;
+                  {person.tagline}
                 </p>
 
-                {/* Divider */}
-                <div
-                  className="my-6 h-px w-16"
-                  style={{ backgroundColor: "rgba(201,169,110,0.25)" }}
-                />
+                <div className="my-5" />
 
                 {/* Bio */}
                 <p className="flex-1 text-sm leading-[1.85] text-zinc-400 text-left">
