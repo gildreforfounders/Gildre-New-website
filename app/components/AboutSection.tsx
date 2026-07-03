@@ -140,16 +140,6 @@ export default function AboutSection() {
                   style={{ backgroundColor: "rgba(201,169,110,0.35)" }}
                 />
 
-                {/* Personal tagline */}
-                <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "rgba(255,255,255,0.5)" }}
-                >
-                  {person.tagline}
-                </p>
-
-                <div className="my-5" />
-
                 {/* Bio */}
                 <p className="flex-1 text-sm leading-[1.85] text-zinc-400 text-left">
                   {person.bio}
