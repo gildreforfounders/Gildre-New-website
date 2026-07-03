@@ -183,7 +183,7 @@ export default function CommunityMap() {
       <div className="mt-8 flex flex-wrap items-center justify-center gap-10 px-6">
         {[
           { label: "Active Members", value: "250+" },
-          { label: "Chapters", value: "5" },
+          { label: "In-Person Chapters", value: "5" },
           { label: "Countries", value: "8+" },
         ].map((s) => (
           <div key={s.label} className="text-center">
