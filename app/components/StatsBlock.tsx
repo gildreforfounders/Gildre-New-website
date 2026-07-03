@@ -56,7 +56,7 @@ export default function StatsBlock() {
 
         {/* Featured 95% stat */}
         <div
-          className="mb-16 flex flex-col items-center gap-3 rounded-2xl px-8 py-10 text-center"
+          className="mb-16 flex flex-col items-center gap-6 rounded-2xl px-8 py-10 text-center sm:flex-row sm:gap-10"
           style={{
             background: "linear-gradient(135deg, rgba(201,169,110,0.1) 0%, rgba(201,169,110,0.04) 100%)",
             border: "1px solid rgba(201,169,110,0.25)",
@@ -68,7 +68,7 @@ export default function StatsBlock() {
           >
             <CountUp target={95} suffix="%" />
           </span>
-          <div>
+          <div className="flex flex-col items-center sm:items-start">
             <p className="text-2xl font-bold text-white sm:text-3xl" style={{ fontFamily: "var(--font-fraunces)" }}>
               Member Retention & Satisfaction
             </p>
