@@ -59,39 +59,57 @@ const row2: Card[] = [
 
 function PhotoCardEl({ card }: { card: PhotoCard }) {
   return (
-    <div className="group relative h-[400px] overflow-hidden rounded-2xl">
-      <Image
-        src={card.src}
-        alt={card.title}
-        fill
-        sizes="(max-width: 768px) 100vw, 33vw"
-        className="object-cover transition-transform duration-700 group-hover:scale-105"
-      />
-      {/* Gradient overlay */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 55%, transparent 100%)",
-        }}
-      />
-      {/* Text */}
-      <div className="absolute bottom-0 left-0 p-6">
+    <div className="flip-card h-[400px] rounded-2xl">
+      <div className="flip-card-inner rounded-2xl">
+
+        {/* Front — photo */}
+        <div className="flip-card-front">
+          <Image
+            src={card.src}
+            alt={card.title}
+            fill
+            sizes="(max-width: 768px) 100vw, 33vw"
+            className="object-cover"
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 55%, transparent 100%)",
+            }}
+          />
+          <div className="absolute bottom-0 left-0 p-6">
+            <div className="mb-2 h-5 w-[2px] rounded-full" style={{ backgroundColor: "#C9A96E" }} />
+            <h3
+              className="text-xl font-semibold leading-snug text-white"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              {card.title}
+            </h3>
+          </div>
+        </div>
+
+        {/* Back — navy with text */}
         <div
-          className="mb-2 h-5 w-[2px] rounded-full"
-          style={{ backgroundColor: "#C9A96E" }}
-        />
-        <h3
-          className="text-xl font-semibold leading-snug text-white"
-          style={{ fontFamily: "var(--font-fraunces)" }}
+          className="flip-card-back flex flex-col justify-center p-8"
+          style={{
+            background: "linear-gradient(135deg, #1C2744 0%, #0f1a2e 100%)",
+            border: "1px solid rgba(201,169,110,0.2)",
+          }}
         >
-          {card.title}
-        </h3>
-        {card.sub && (
-          <p className="mt-2 max-w-[260px] text-xs leading-relaxed text-white/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            {card.sub}
-          </p>
-        )}
+          <div className="mb-5 h-[2px] w-10 rounded-full" style={{ backgroundColor: "#C9A96E" }} />
+          <h3
+            className="text-2xl font-bold leading-snug text-white"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            {card.title}
+          </h3>
+          {card.sub && (
+            <p className="mt-4 text-sm leading-[1.9] text-white/70">
+              {card.sub}
+            </p>
+          )}
+        </div>
+
       </div>
     </div>
   );
