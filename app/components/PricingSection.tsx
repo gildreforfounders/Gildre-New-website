@@ -22,7 +22,7 @@ const plans = [
     monthlyPrice: 59,
     annualMonthly: 50,
     savePct: 15,
-    cta: "Get Access",
+    cta: "Identify your Peers",
     href: "https://tally.so/r/VLERVa",
     popular: false,
     coreFeatures: [
