@@ -53,11 +53,9 @@ export default function MembersCarousel({ members }: { members: Member[] }) {
           className="mt-3 text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Founders &amp; Operators in Your Corner
+          Build alongside founders solving the same<br />
+          problems as you, at your stage.
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-zinc-500">
-          Build alongside founders solving the same problems as you, at your stage.
-        </p>
       </div>
 
       {/* Carousel */}
