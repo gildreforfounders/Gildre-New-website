@@ -23,7 +23,7 @@ const plans = [
     annualMonthly: 50,
     savePct: 15,
     cta: "Get Access",
-    href: "https://tally.so/r/VLERVa",
+    href: "https://gildre.circle.so/checkout/gildre-silver-membership",
     popular: false,
     coreFeatures: [
       "White-Glove Onboarding Experience",
