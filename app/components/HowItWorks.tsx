@@ -163,7 +163,7 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className="mt-12 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
-            href="https://tally.so/r/VLERVa"
+            href={active === 0 ? "https://gildre.circle.so/checkout/gildre-silver-membership" : "https://tally.so/r/VLERVa"}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
