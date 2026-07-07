@@ -46,11 +46,11 @@ const mentors = [
     photo: "/mentors/bipasha-ghosh.png",
   },
   {
-    name: "Lysle Wikersham",
-    title: "Mentor & Advisor",
-    company: null,
-    bio: "Seasoned entrepreneur and advisor dedicated to helping founders navigate the complexities of building and scaling companies.",
-    photo: null,
+    name: "Lysle Wickersham",
+    title: "Founder",
+    company: "BRANDThink",
+    bio: "Brand equity leader with over 30 years of experience, including time at the helm of a $170M agency. Advises startups on top-level strategy and competitive positioning.",
+    photo: "/mentors/lysle-wikersham.jpg",
   },
   {
     name: "Ankur Jain",
