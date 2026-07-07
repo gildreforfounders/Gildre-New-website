@@ -65,7 +65,7 @@ const benefits = [
     icon: "M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zM1 7l11-4 11 4",
     title: "$5M+ in Partner Perks",
     body: "Exclusive deals from 500+ partners — software tools, legal, finance, marketing, and more. Everything you need to build faster from day one.",
-    tier: "All Members",
+    tier: "Platinum Only",
   },
   {
     icon: "M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2z",
@@ -98,7 +98,6 @@ const plans = [
       "Curated, High-Impact Virtual Events",
       "Personalized Weekly 1:1 Introductions",
       "Individualized Goal Tracking Roadmap",
-      "$5M+ in Partner Perks & Exclusive Deals",
       "Member-Only Resource Library",
     ],
   },
@@ -135,6 +134,7 @@ const plans = [
       "Multiple Monthly Warm Investor Introductions",
       "Priority Access to Executive Retreats",
       "Dedicated Concierge Onboarding",
+      "$5M+ in Partner Perks & Exclusive Deals",
     ],
   },
 ];
