@@ -169,16 +169,20 @@ export default function MembershipPage() {
           </p>
 
           <h1
-            className="mt-4 text-[clamp(2.4rem,5.5vw,4rem)] font-bold leading-[1.08] text-white"
+            className="mt-4 text-[clamp(2.2rem,5.2vw,3.75rem)] font-bold leading-[1.08] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            The Founder Community
+            Stop Sifting Through
             <br />
-            <span style={{ color: "#C9A96E" }}>Built for Builders.</span>
+            <span style={{ color: "#C9A96E" }}>Generic Advice.</span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Join 250+ founders across 74 cities who are building, scaling, and exiting together. Choose the membership tier that fits your stage — and upgrade anytime as you grow.
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
+            Your challenges are specific to your stage and industry. Unlock a curated ecosystem of peers and advisors designed to accelerate your specific company journey — from First Check to Market Leader.
+          </p>
+
+          <p className="mx-auto mt-4 max-w-xl text-base font-semibold text-white">
+            Ready to stop building alone? Join the network of world-class founders and operators.
           </p>
 
           {/* CTA */}
