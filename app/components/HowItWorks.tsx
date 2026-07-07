@@ -169,7 +169,7 @@ export default function HowItWorks() {
             className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
             style={{ backgroundColor: "#1C2744", color: "#fff" }}
           >
-            {active === 0 ? "Identify Your Peers" : "Start Your Application"}
+            {active === 0 ? "Get Access" : "Start Your Application"}
           </a>
           <a
             href="https://calendly.com/taiga-gildre/30min"
