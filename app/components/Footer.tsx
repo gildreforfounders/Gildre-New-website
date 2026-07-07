@@ -62,9 +62,6 @@ export default function Footer() {
             >
               Gildre
             </p>
-            <p className="mt-1 text-xs text-zinc-500">
-              The founder community built for builders.
-            </p>
           </div>
 
           {/* Social icons */}
