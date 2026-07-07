@@ -108,8 +108,8 @@ const plans = [
     tagline: "For founders who want real guidance",
     monthlyPrice: 149,
     annualMonthly: 125,
-    cta: "Apply Now",
-    href: "https://tally.so/r/VLERVa",
+    cta: "Get Access",
+    href: "https://gildre.circle.so/checkout/gildre-gold-membership",
     popular: true,
     includesNote: "Everything in Silver, plus:",
     features: [
@@ -125,8 +125,8 @@ const plans = [
     tagline: "For founders building at the top",
     monthlyPrice: 349,
     annualMonthly: 249,
-    cta: "Apply Now",
-    href: "https://tally.so/r/VLERVa",
+    cta: "Get Access",
+    href: "https://gildre.circle.so/checkout/gildre-platinum-membership",
     popular: false,
     includesNote: "Everything in Gold, plus:",
     features: [
@@ -181,26 +181,15 @@ export default function MembershipPage() {
             Join 250+ founders across 74 cities who are building, scaling, and exiting together. Choose the membership tier that fits your stage — and upgrade anytime as you grow.
           </p>
 
-          {/* CTAs */}
-          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <a
-              href="https://tally.so/r/VLERVa"
-              target="_blank"
-              rel="noopener noreferrer"
+          {/* CTA */}
+          <div className="mt-10 flex justify-center">
+            <button
+              onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}
               className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
             >
-              Apply for Gold or Platinum
-            </a>
-            <a
-              href="https://gildre.circle.so/checkout/gildre-silver-membership"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:border-white/40"
-              style={{ borderColor: "rgba(255,255,255,0.18)" }}
-            >
-              Get Silver Access →
-            </a>
+              View Membership Options ↓
+            </button>
           </div>
 
           {/* Trust stats */}
@@ -360,7 +349,7 @@ export default function MembershipPage() {
       </section>
 
       {/* ── 4. Pricing ──────────────────────────────────────────────────────── */}
-      <section className="px-6 py-24" style={{ backgroundColor: "#F5F0E8" }}>
+      <section id="pricing" className="px-6 py-24" style={{ backgroundColor: "#F5F0E8" }}>
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
             Membership Pricing
@@ -565,25 +554,14 @@ export default function MembershipPage() {
           >
             You were referred to Gildre because someone in our community believes you belong here. Join the founders who are already building alongside people who get it.
           </p>
-          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <a
-              href="https://tally.so/r/VLERVa"
-              target="_blank"
-              rel="noopener noreferrer"
+          <div className="mt-10 flex justify-center">
+            <button
+              onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}
               className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
             >
-              Apply Now — Gold or Platinum
-            </a>
-            <a
-              href="https://gildre.circle.so/checkout/gildre-silver-membership"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border px-8 py-3.5 text-sm font-semibold text-white transition-colors"
-              style={{ borderColor: "rgba(255,255,255,0.2)" }}
-            >
-              Get Silver Access
-            </a>
+              Select Your Membership
+            </button>
           </div>
           <a
             href="https://calendly.com/taiga-gildre/30min"
