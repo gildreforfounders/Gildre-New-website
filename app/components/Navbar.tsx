@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const links = [
   { label: "Membership", id: "benefits" },
@@ -11,10 +12,17 @@ const links = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   function scrollTo(id: string) {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setOpen(false);
+    // On /membership the Pricing button scrolls within that page; all other nav
+    // links on non-home pages navigate to the home page section.
+    if (pathname === "/" || (pathname === "/membership" && id === "pricing")) {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = `/#${id}`;
+    }
   }
 
   return (
