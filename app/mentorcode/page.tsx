@@ -132,13 +132,6 @@ export default function MentorCodePage() {
   return (
     <div className="flex flex-col" style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
 
-      {/* Top nav */}
-      <div className="border-b px-6 py-4" style={{ borderColor: "rgba(255,255,255,0.05)" }}>
-        <Link href="/" className="text-sm text-zinc-500 transition-colors hover:text-white">
-          ← Back to Gildre
-        </Link>
-      </div>
-
       <div className="mx-auto w-full max-w-3xl px-6 py-16 pb-24">
 
         {/* Header */}

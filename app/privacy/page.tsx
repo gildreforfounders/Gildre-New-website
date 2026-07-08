@@ -24,16 +24,6 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 export default function PrivacyPage() {
   return (
     <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
-      {/* Nav back */}
-      <div className="border-b border-white/5 px-6 py-4">
-        <Link
-          href="/"
-          className="text-sm text-zinc-500 hover:text-white transition-colors"
-        >
-          ← Back to Gildre
-        </Link>
-      </div>
-
       <div className="mx-auto max-w-3xl px-6 py-16 pb-24">
         {/* Header */}
         <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
