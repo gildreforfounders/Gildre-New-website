@@ -111,7 +111,7 @@ export default function ReferralPage() {
             <span style={{ color: "#C9A96E" }}>the Gildre Community.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Referrers earn a 100% Membership Stipend based on the first month of the selected program for any qualified founder, investor, or executive who is accepted into the community.
+            Referrers earn an ongoing 20% Membership Stipend for any qualified founder, investor, or executive who joins and retains their membership — for as long as they stay.
           </p>
 
           {/* Stipend callout */}
@@ -127,12 +127,12 @@ export default function ReferralPage() {
                 className="text-3xl font-bold"
                 style={{ color: "#C9A96E", fontFamily: "var(--font-fraunces)" }}
               >
-                100%
+                20%
               </span>
               <div className="text-left">
-                <p className="text-sm font-semibold text-white">First-Month Membership Stipend</p>
+                <p className="text-sm font-semibold text-white">Ongoing Monthly Stipend</p>
                 <p className="text-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
-                  For every qualified member you refer who gets accepted.
+                  Per qualified member, every month, for as long as they stay.
                 </p>
               </div>
             </div>
@@ -191,7 +191,7 @@ export default function ReferralPage() {
                   {
                     n: "03",
                     title: "You Earn",
-                    body: "Once they're accepted and pay their first month's dues, you receive a 100% membership stipend.",
+                    body: "Once they're accepted and active, you earn a 20% ongoing stipend every month they retain their membership.",
                   },
                 ].map((step) => (
                   <div key={step.n} className="flex gap-4">
