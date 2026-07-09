@@ -7,7 +7,6 @@ import StatsBlock from "./components/StatsBlock";
 import MembersCarousel from "./components/MembersCarousel";
 import MemberCompanies from "./components/MemberCompanies";
 import CommunityMap from "./components/CommunityMap";
-import ComparisonTable from "./components/ComparisonTable";
 import ReviewsSection from "./components/ReviewsSection";
 import PricingSection from "./components/PricingSection";
 import AboutSection from "./components/AboutSection";
@@ -134,10 +133,7 @@ export default function Home() {
       {/* 9 — Geographic reach: community map */}
       <CommunityMap />
 
-      {/* 10 — Differentiation: Gildre vs alternatives */}
-      <ComparisonTable />
-
-      {/* 11 — Social proof: member reviews */}
+      {/* 10 — Social proof: member reviews */}
       <ReviewsSection />
 
       {/* 12 — About: team behind Gildre */}

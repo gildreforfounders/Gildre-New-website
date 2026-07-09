@@ -80,6 +80,10 @@ type FormState = {
 
 type Errors = Partial<Record<keyof FormState, string>>;
 
+// Paste your Google Apps Script deployment URL here after setup
+const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbx77A07NUI8lM_QGyHsrffuR70CCzh4T6PvkRxDgMlqwaw8FFhiB0I8glp9USToKqFB/exec";
+
 export default function MentorCodePage() {
   const [form, setForm] = useState<FormState>({
     firstName: "",
@@ -90,6 +94,7 @@ export default function MentorCodePage() {
   });
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
   function set<K extends keyof FormState>(key: K, value: FormState[K]) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -106,7 +111,7 @@ export default function MentorCodePage() {
     return errs;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length) {
@@ -114,18 +119,22 @@ export default function MentorCodePage() {
       return;
     }
 
-    const subject = encodeURIComponent(
-      `Gildre Mentor Code of Conduct — ${form.firstName} ${form.lastName}`
-    );
-    const body = encodeURIComponent(
-      `Gildre Mentor Code of Conduct Acknowledgement\n\n` +
-      `Name: ${form.firstName} ${form.lastName}\n` +
-      `Email: ${form.email}\n` +
-      `Date Acknowledged: ${form.date}\n` +
-      `Agreed to Terms: Yes\n\n` +
-      `This acknowledgement was submitted electronically via gildre.com/mentorcode.`
-    );
-    window.open(`mailto:Info@Gildre.com?subject=${subject}&body=${body}`, "_blank");
+    setSubmitting(true);
+    try {
+      const params = new URLSearchParams({
+        firstName: form.firstName,
+        lastName: form.lastName,
+        email: form.email,
+        date: form.date,
+        agreed: "Yes",
+        timestamp: new Date().toISOString(),
+      });
+      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
+    } catch {
+      // no-cors fetch resolves opaque; silently continue
+    } finally {
+      setSubmitting(false);
+    }
     setSubmitted(true);
   }
 
@@ -401,13 +410,14 @@ export default function MentorCodePage() {
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full rounded-xl py-4 text-sm font-bold tracking-wide transition-opacity hover:opacity-90 sm:w-auto sm:px-10"
+                  disabled={submitting}
+                  className="w-full rounded-xl py-4 text-sm font-bold tracking-wide transition-opacity hover:opacity-90 sm:w-auto sm:px-10 disabled:opacity-60 disabled:cursor-not-allowed"
                   style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
                 >
-                  Submit Acknowledgement
+                  {submitting ? "Submitting…" : "Submit Acknowledgement"}
                 </button>
                 <p className="mt-3 text-[0.7rem]" style={{ color: "rgba(255,255,255,0.3)" }}>
-                  Submitting will open your email client to send a confirmation to Gildre. All required fields must be completed.
+                  All required fields must be completed before submitting.
                 </p>
               </div>
             </form>

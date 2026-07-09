@@ -12,6 +12,10 @@ type FormState = {
 
 type Errors = Partial<Record<"firstName" | "lastName" | "email", string>>;
 
+// Paste your Google Apps Script deployment URL here after setup
+const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbzXk8kZpruozm1HrhGsABqdQxXURHUJ4XJWAM4Pvx9RZ8dMIUDteKa7lWERDLsMpHbolg/exec";
+
 export default function ReferralSignupPage() {
   const [form, setForm] = useState<FormState>({
     firstName: "",
@@ -21,6 +25,7 @@ export default function ReferralSignupPage() {
   });
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
   function set<K extends keyof FormState>(key: K, value: FormState[K]) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -35,7 +40,7 @@ export default function ReferralSignupPage() {
     return errs;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length) {
@@ -43,15 +48,21 @@ export default function ReferralSignupPage() {
       return;
     }
 
-    const subject = encodeURIComponent(`Gildre Referral Program Sign-Up — ${form.firstName} ${form.lastName}`);
-    const body = encodeURIComponent(
-      `Gildre Referral Program Sign-Up\n\n` +
-      `Name: ${form.firstName} ${form.lastName}\n` +
-      `Email: ${form.email}\n` +
-      `Newsletter Opt-In: ${form.newsletter ? "Yes" : "No"}\n\n` +
-      `Please send a personalized affiliate link to the email above.`
-    );
-    window.open(`mailto:Info@Gildre.com?subject=${subject}&body=${body}`, "_blank");
+    setSubmitting(true);
+    try {
+      const params = new URLSearchParams({
+        firstName: form.firstName,
+        lastName: form.lastName,
+        email: form.email,
+        newsletter: form.newsletter ? "Yes" : "No",
+        timestamp: new Date().toISOString(),
+      });
+      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
+    } catch {
+      // no-cors fetch resolves opaque; silently continue
+    } finally {
+      setSubmitting(false);
+    }
     setSubmitted(true);
   }
 
@@ -345,10 +356,11 @@ export default function ReferralSignupPage() {
                     <div className="pt-2">
                       <button
                         type="submit"
-                        className="w-full rounded-xl py-3.5 text-sm font-bold tracking-wide transition-opacity hover:opacity-90"
+                        disabled={submitting}
+                        className="w-full rounded-xl py-3.5 text-sm font-bold tracking-wide transition-opacity hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed"
                         style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
                       >
-                        Submit
+                        {submitting ? "Submitting…" : "Submit"}
                       </button>
                     </div>
 

@@ -18,6 +18,10 @@ type Errors = Partial<Record<
   string
 >>;
 
+// Paste your Google Apps Script deployment URL here after setup
+const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbxL0qyqCd5-P8sQZGqVKx2ZlwfJMznILdLt4UdfbPEee0KYTNnzLEGGUmUV2HHVJf4/exec";
+
 export default function ReferralPage() {
   const [form, setForm] = useState<FormState>({
     refFirstName: "",
@@ -30,6 +34,7 @@ export default function ReferralPage() {
   });
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
   function set<K extends keyof FormState>(key: K, value: FormState[K]) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -47,7 +52,7 @@ export default function ReferralPage() {
     return errs;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length) {
@@ -55,20 +60,24 @@ export default function ReferralPage() {
       return;
     }
 
-    const subject = encodeURIComponent(
-      `Gildre Referral — ${form.refFirstName} ${form.refLastName} referred by ${form.yourFirstName} ${form.yourLastName}`
-    );
-    const body = encodeURIComponent(
-      `Gildre Community Referral\n\n` +
-      `--- Person Being Referred ---\n` +
-      `Name: ${form.refFirstName} ${form.refLastName}\n` +
-      `Email: ${form.refEmail}\n` +
-      `LinkedIn: ${form.refLinkedIn}\n` +
-      `Relationship: ${form.relationship || "Not specified"}\n\n` +
-      `--- Referred By ---\n` +
-      `Name: ${form.yourFirstName} ${form.yourLastName}\n`
-    );
-    window.open(`mailto:Info@Gildre.com?subject=${subject}&body=${body}`, "_blank");
+    setSubmitting(true);
+    try {
+      const params = new URLSearchParams({
+        refFirstName: form.refFirstName,
+        refLastName: form.refLastName,
+        refEmail: form.refEmail,
+        refLinkedIn: form.refLinkedIn,
+        relationship: form.relationship || "Not specified",
+        yourFirstName: form.yourFirstName,
+        yourLastName: form.yourLastName,
+        timestamp: new Date().toISOString(),
+      });
+      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
+    } catch {
+      // no-cors fetch resolves opaque; silently continue
+    } finally {
+      setSubmitting(false);
+    }
     setSubmitted(true);
   }
 
@@ -386,10 +395,11 @@ export default function ReferralPage() {
                   <div className="pt-1">
                     <button
                       type="submit"
-                      className="w-full rounded-xl py-3.5 text-sm font-bold tracking-wide transition-opacity hover:opacity-90"
+                      disabled={submitting}
+                      className="w-full rounded-xl py-3.5 text-sm font-bold tracking-wide transition-opacity hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed"
                       style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
                     >
-                      Submit Referral
+                      {submitting ? "Submitting…" : "Submit Referral"}
                     </button>
 
                     <p className="mt-4 text-[0.7rem] leading-relaxed" style={{ color: "rgba(255,255,255,0.3)" }}>
