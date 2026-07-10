@@ -75,13 +75,18 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Unknown form type" }, { status: 400 });
   }
 
-  await resend.emails.send({
+  const result = await resend.emails.send({
     from: "Gildre Forms <onboarding@resend.dev>",
     to: TO,
-    replyTo: fields.email ?? undefined,
     subject,
     text,
   });
 
+  if (result.error) {
+    console.error("[submit] Resend error:", result.error);
+    return NextResponse.json({ error: result.error.message }, { status: 500 });
+  }
+
+  console.log("[submit] Email sent:", result.data?.id, "form:", formType);
   return NextResponse.json({ success: true });
 }

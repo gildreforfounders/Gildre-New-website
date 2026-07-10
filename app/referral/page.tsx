@@ -32,6 +32,7 @@ export default function ReferralPage() {
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   function set<K extends keyof FormState>(key: K, value: FormState[K]) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -58,8 +59,9 @@ export default function ReferralPage() {
     }
 
     setSubmitting(true);
+    setSubmitError(null);
     try {
-      await fetch("/api/submit", {
+      const res = await fetch("/api/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -74,6 +76,14 @@ export default function ReferralPage() {
           timestamp: new Date().toISOString(),
         }),
       });
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        setSubmitError(body.error ?? "Something went wrong. Please try again.");
+        return;
+      }
+    } catch {
+      setSubmitError("Network error. Please check your connection and try again.");
+      return;
     } finally {
       setSubmitting(false);
     }
@@ -392,6 +402,11 @@ export default function ReferralPage() {
 
                   {/* Submit */}
                   <div className="pt-1">
+                    {submitError && (
+                      <p className="mb-3 rounded-lg px-4 py-2.5 text-sm" style={{ backgroundColor: "rgba(239,68,68,0.1)", color: "rgba(239,68,68,0.9)", border: "1px solid rgba(239,68,68,0.2)" }}>
+                        {submitError}
+                      </p>
+                    )}
                     <button
                       type="submit"
                       disabled={submitting}
