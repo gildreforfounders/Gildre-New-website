@@ -40,8 +40,6 @@ type FormState = {
 
 type Errors = Partial<Record<keyof FormState, string>>;
 
-const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID_HERE/exec";
 
 export default function ContactPage() {
   const [form, setForm] = useState<FormState>({
@@ -80,17 +78,19 @@ export default function ContactPage() {
 
     setSubmitting(true);
     try {
-      const params = new URLSearchParams({
-        firstName: form.firstName,
-        lastName: form.lastName,
-        email: form.email,
-        subject: form.subject,
-        message: form.message,
-        timestamp: new Date().toISOString(),
+      await fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          formType: "contact",
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          subject: form.subject,
+          message: form.message,
+          timestamp: new Date().toISOString(),
+        }),
       });
-      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
-    } catch {
-      // no-cors fetch resolves opaque; silently continue
     } finally {
       setSubmitting(false);
     }

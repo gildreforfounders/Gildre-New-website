@@ -12,9 +12,6 @@ type FormState = {
 
 type Errors = Partial<Record<"firstName" | "lastName" | "email", string>>;
 
-// Paste your Google Apps Script deployment URL here after setup
-const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbzXk8kZpruozm1HrhGsABqdQxXURHUJ4XJWAM4Pvx9RZ8dMIUDteKa7lWERDLsMpHbolg/exec";
 
 export default function ReferralSignupPage() {
   const [form, setForm] = useState<FormState>({
@@ -50,16 +47,18 @@ export default function ReferralSignupPage() {
 
     setSubmitting(true);
     try {
-      const params = new URLSearchParams({
-        firstName: form.firstName,
-        lastName: form.lastName,
-        email: form.email,
-        newsletter: form.newsletter ? "Yes" : "No",
-        timestamp: new Date().toISOString(),
+      await fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          formType: "referralsignup",
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          newsletter: form.newsletter ? "Yes" : "No",
+          timestamp: new Date().toISOString(),
+        }),
       });
-      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
-    } catch {
-      // no-cors fetch resolves opaque; silently continue
     } finally {
       setSubmitting(false);
     }

@@ -18,9 +18,6 @@ type Errors = Partial<Record<
   string
 >>;
 
-// Paste your Google Apps Script deployment URL here after setup
-const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxL0qyqCd5-P8sQZGqVKx2ZlwfJMznILdLt4UdfbPEee0KYTNnzLEGGUmUV2HHVJf4/exec";
 
 export default function ReferralPage() {
   const [form, setForm] = useState<FormState>({
@@ -62,19 +59,21 @@ export default function ReferralPage() {
 
     setSubmitting(true);
     try {
-      const params = new URLSearchParams({
-        refFirstName: form.refFirstName,
-        refLastName: form.refLastName,
-        refEmail: form.refEmail,
-        refLinkedIn: form.refLinkedIn,
-        relationship: form.relationship || "Not specified",
-        yourFirstName: form.yourFirstName,
-        yourLastName: form.yourLastName,
-        timestamp: new Date().toISOString(),
+      await fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          formType: "referral",
+          refFirstName: form.refFirstName,
+          refLastName: form.refLastName,
+          refEmail: form.refEmail,
+          refLinkedIn: form.refLinkedIn,
+          relationship: form.relationship || "Not specified",
+          yourFirstName: form.yourFirstName,
+          yourLastName: form.yourLastName,
+          timestamp: new Date().toISOString(),
+        }),
       });
-      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
-    } catch {
-      // no-cors fetch resolves opaque; silently continue
     } finally {
       setSubmitting(false);
     }

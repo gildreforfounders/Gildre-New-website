@@ -80,9 +80,6 @@ type FormState = {
 
 type Errors = Partial<Record<keyof FormState, string>>;
 
-// Paste your Google Apps Script deployment URL here after setup
-const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbx77A07NUI8lM_QGyHsrffuR70CCzh4T6PvkRxDgMlqwaw8FFhiB0I8glp9USToKqFB/exec";
 
 export default function MentorCodePage() {
   const [form, setForm] = useState<FormState>({
@@ -121,17 +118,18 @@ export default function MentorCodePage() {
 
     setSubmitting(true);
     try {
-      const params = new URLSearchParams({
-        firstName: form.firstName,
-        lastName: form.lastName,
-        email: form.email,
-        date: form.date,
-        agreed: "Yes",
-        timestamp: new Date().toISOString(),
+      await fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          formType: "mentorcode",
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          date: form.date,
+          timestamp: new Date().toISOString(),
+        }),
       });
-      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
-    } catch {
-      // no-cors fetch resolves opaque; silently continue
     } finally {
       setSubmitting(false);
     }
