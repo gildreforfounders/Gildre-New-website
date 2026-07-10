@@ -23,7 +23,7 @@ export default function LogoBar() {
         background: "linear-gradient(135deg, #0f1524 0%, #1C2744 50%, #0f1524 100%)",
       }}
     >
-      <p className="mb-10 text-center text-[0.6rem] font-bold uppercase tracking-[0.28em] text-white/40">
+      <p className="mb-6 sm:mb-10 text-center text-[0.6rem] font-bold uppercase tracking-[0.28em] text-white/40">
         Where Our Members Come From
       </p>
 

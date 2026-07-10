@@ -137,7 +137,7 @@ export default function ReviewsSection() {
   return (
     <section id="reviews" style={{ backgroundColor: "#080e1a" }}>
       {/* Heading */}
-      <div className="px-6 pt-14 pb-8 text-center">
+      <div className="px-6 pt-10 pb-6 text-center sm:pt-14 sm:pb-8">
         <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
           Real Founders. Real Results.
         </p>

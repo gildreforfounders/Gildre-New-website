@@ -65,10 +65,10 @@ export default function AboutSection() {
         background: "linear-gradient(180deg, #0c1628 0%, #162040 50%, #0c1628 100%)",
       }}
     >
-      <div className="mx-auto max-w-6xl px-6 py-28">
+      <div className="mx-auto max-w-6xl px-6 py-16 sm:py-28">
 
         {/* Header */}
-        <div className="mb-20 text-center">
+        <div className="mb-12 sm:mb-20 text-center">
           <p
             className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]"
             style={{ color: "#C9A96E" }}

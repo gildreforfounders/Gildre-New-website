@@ -28,7 +28,7 @@ export default function MissionSection() {
         background: "linear-gradient(180deg, #080e1a 0%, #0d1a30 60%, #080e1a 100%)",
       }}
     >
-      <div className="mx-auto max-w-6xl px-6 py-28">
+      <div className="mx-auto max-w-6xl px-6 py-16 sm:py-28">
 
         {/* Label */}
         <p
@@ -65,7 +65,7 @@ export default function MissionSection() {
         </div>
 
         {/* Gold divider */}
-        <div className="mx-auto mt-14 mb-14 flex items-center gap-5 max-w-xs">
+        <div className="mx-auto mt-10 mb-10 flex items-center gap-5 max-w-xs sm:mt-14 sm:mb-14">
           <div className="flex-1 h-px" style={{ backgroundColor: "rgba(201,169,110,0.2)" }} />
           <div className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: "#C9A96E" }} />
           <div className="flex-1 h-px" style={{ backgroundColor: "rgba(201,169,110,0.2)" }} />

@@ -51,12 +51,12 @@ function CountUp({
 
 export default function StatsBlock() {
   return (
-    <section className="py-24 px-6" style={{ backgroundColor: "#0f1524" }}>
+    <section className="py-14 px-6 sm:py-24" style={{ backgroundColor: "#0f1524" }}>
       <div className="mx-auto max-w-5xl">
 
         {/* Featured 95% stat */}
         <div
-          className="mb-16 flex flex-col items-center gap-6 rounded-2xl px-8 py-10 text-center sm:flex-row sm:gap-10"
+          className="mb-10 sm:mb-16 flex flex-col items-center gap-6 rounded-2xl px-6 py-8 sm:px-8 sm:py-10 text-center sm:flex-row sm:gap-10"
           style={{
             background: "linear-gradient(135deg, rgba(201,169,110,0.1) 0%, rgba(201,169,110,0.04) 100%)",
             border: "1px solid rgba(201,169,110,0.25)",
@@ -83,7 +83,7 @@ export default function StatsBlock() {
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col items-center text-center">
               <span
-                className="text-6xl font-bold text-white sm:text-7xl"
+                className="text-5xl font-bold text-white sm:text-7xl"
                 style={{ fontFamily: "var(--font-fraunces)" }}
               >
                 <CountUp target={stat.value} prefix={stat.prefix} suffix={stat.suffix} />

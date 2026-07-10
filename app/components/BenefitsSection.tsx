@@ -156,11 +156,11 @@ function CardEl({ card }: { card: Card }) {
 
 export default function BenefitsSection() {
   return (
-    <section id="benefits" className="px-6 py-20" style={{ backgroundColor: "#1C2744" }}>
+    <section id="benefits" className="px-6 py-12 sm:py-20" style={{ backgroundColor: "#1C2744" }}>
       <div className="mx-auto max-w-6xl">
         {/* Heading — left-aligned, editorial style */}
         <h2
-          className="mb-10 text-[clamp(2.25rem,5vw,3.5rem)] font-bold leading-tight"
+          className="mb-8 sm:mb-10 text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
           <span className="text-white">Your Growth </span>

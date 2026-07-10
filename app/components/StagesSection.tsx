@@ -1,6 +1,6 @@
 export default function StagesSection() {
   return (
-    <section className="pt-20 pb-12 px-6" style={{ backgroundColor: "#F5F0E8" }}>
+    <section className="pt-12 pb-8 px-6 sm:pt-20 sm:pb-12" style={{ backgroundColor: "#F5F0E8" }}>
       <div className="mx-auto max-w-5xl">
         <p className="text-center text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
           Who It&rsquo;s For

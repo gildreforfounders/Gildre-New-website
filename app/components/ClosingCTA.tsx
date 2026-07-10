@@ -1,7 +1,7 @@
 export default function ClosingCTA() {
   return (
     <section
-      className="px-6 py-24 text-center"
+      className="px-6 py-16 text-center sm:py-24"
       style={{ backgroundColor: "#1C2744" }}
     >
       <div className="mx-auto max-w-2xl">

@@ -84,7 +84,7 @@ export default function HowItWorks() {
   const tier = tiers[active];
 
   return (
-    <section className="px-6 py-20" style={{ backgroundColor: "#F5F0E8" }}>
+    <section className="px-6 py-12 sm:py-20" style={{ backgroundColor: "#F5F0E8" }}>
       <div className="mx-auto max-w-5xl">
         <p className="text-center text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
           The Process
@@ -100,7 +100,7 @@ export default function HowItWorks() {
         </p>
 
         {/* Tier tabs */}
-        <div className="mt-10 flex items-center justify-center gap-2">
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
           {tiers.map((t, i) => (
             <button
               key={t.label}
@@ -123,7 +123,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Steps */}
-        <div className="relative mt-14 grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <div className="relative mt-10 grid grid-cols-1 gap-8 sm:grid-cols-3">
           {/* Connecting line, desktop only */}
           <div
             className="absolute left-[16.5%] right-[16.5%] top-7 hidden h-[1px] sm:block"

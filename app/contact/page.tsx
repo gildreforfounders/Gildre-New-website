@@ -40,6 +40,9 @@ type FormState = {
 
 type Errors = Partial<Record<keyof FormState, string>>;
 
+const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID_HERE/exec";
+
 export default function ContactPage() {
   const [form, setForm] = useState<FormState>({
     firstName: "",
@@ -50,6 +53,7 @@ export default function ContactPage() {
   });
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
   function set<K extends keyof FormState>(key: K, value: string) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -66,7 +70,7 @@ export default function ContactPage() {
     return errs;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length) {
@@ -74,14 +78,22 @@ export default function ContactPage() {
       return;
     }
 
-    const subject = encodeURIComponent(`[Gildre Contact] ${form.subject} — ${form.firstName} ${form.lastName}`);
-    const body = encodeURIComponent(
-      `From: ${form.firstName} ${form.lastName}\n` +
-      `Email: ${form.email}\n` +
-      `Subject: ${form.subject}\n\n` +
-      `Message:\n${form.message}`
-    );
-    window.open(`mailto:info@gildre.com?subject=${subject}&body=${body}`, "_blank");
+    setSubmitting(true);
+    try {
+      const params = new URLSearchParams({
+        firstName: form.firstName,
+        lastName: form.lastName,
+        email: form.email,
+        subject: form.subject,
+        message: form.message,
+        timestamp: new Date().toISOString(),
+      });
+      await fetch(`${APPS_SCRIPT_URL}?${params}`, { method: "GET", mode: "no-cors" });
+    } catch {
+      // no-cors fetch resolves opaque; silently continue
+    } finally {
+      setSubmitting(false);
+    }
     setSubmitted(true);
   }
 
@@ -323,10 +335,11 @@ export default function ContactPage() {
                     <div className="pt-1">
                       <button
                         type="submit"
-                        className="w-full rounded-xl py-3.5 text-sm font-bold tracking-wide transition-opacity hover:opacity-90"
+                        disabled={submitting}
+                        className="w-full rounded-xl py-3.5 text-sm font-bold tracking-wide transition-opacity hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed"
                         style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
                       >
-                        Submit
+                        {submitting ? "Sending…" : "Submit"}
                       </button>
                     </div>
                   </form>

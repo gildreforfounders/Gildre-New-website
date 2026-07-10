@@ -79,7 +79,7 @@ export default function PricingSection() {
   const [yearly, setYearly] = useState(false);
 
   return (
-    <section id="pricing" className="px-6 py-24" style={{ backgroundColor: "#F5F0E8" }}>
+    <section id="pricing" className="px-6 py-14 sm:py-24" style={{ backgroundColor: "#F5F0E8" }}>
       <div className="mx-auto max-w-5xl">
 
         {/* Heading */}
