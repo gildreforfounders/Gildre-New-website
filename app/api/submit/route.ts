@@ -1,92 +1,81 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
 
-const TO = "info@gildre.com";
+const WEB3FORMS_KEY = "975e3f10-dc81-4bc4-9e17-3ff07d36f1df";
 
 export async function POST(req: NextRequest) {
-  const resend = new Resend(process.env.RESEND_API_KEY);
   const data = await req.json();
   const { formType, ...fields } = data;
 
   let subject = "";
-  let text = "";
+  let emailFields: Record<string, string> = {};
 
   switch (formType) {
     case "mentorcode":
       subject = `[Gildre] Mentor Code Signed — ${fields.firstName} ${fields.lastName}`;
-      text = [
-        "MENTOR CODE OF CONDUCT — ACKNOWLEDGEMENT",
-        "─────────────────────────────────────────",
-        `Name:             ${fields.firstName} ${fields.lastName}`,
-        `Email:            ${fields.email}`,
-        `Date Acknowledged:${fields.date}`,
-        `Agreed:           Yes`,
-        `Submitted:        ${fields.timestamp}`,
-      ].join("\n");
+      emailFields = {
+        Name: `${fields.firstName} ${fields.lastName}`,
+        Email: fields.email,
+        "Date Acknowledged": fields.date,
+        Agreed: "Yes",
+        Submitted: fields.timestamp,
+      };
       break;
 
     case "referralsignup":
       subject = `[Gildre] Referral Program Sign-Up — ${fields.firstName} ${fields.lastName}`;
-      text = [
-        "REFERRAL PROGRAM — NEW SIGN-UP",
-        "──────────────────────────────",
-        `Name:          ${fields.firstName} ${fields.lastName}`,
-        `Email:         ${fields.email}`,
-        `Newsletter:    ${fields.newsletter}`,
-        `Submitted:     ${fields.timestamp}`,
-      ].join("\n");
+      emailFields = {
+        Name: `${fields.firstName} ${fields.lastName}`,
+        Email: fields.email,
+        "Newsletter Opt-In": fields.newsletter,
+        Submitted: fields.timestamp,
+      };
       break;
 
     case "referral":
       subject = `[Gildre] New Referral — ${fields.refFirstName} ${fields.refLastName} via ${fields.yourFirstName} ${fields.yourLastName}`;
-      text = [
-        "NEW MEMBER REFERRAL",
-        "───────────────────",
-        "REFERRED PERSON:",
-        `  Name:         ${fields.refFirstName} ${fields.refLastName}`,
-        `  Email:        ${fields.refEmail}`,
-        `  LinkedIn:     ${fields.refLinkedIn}`,
-        `  Relationship: ${fields.relationship}`,
-        "",
-        "REFERRED BY:",
-        `  Name:         ${fields.yourFirstName} ${fields.yourLastName}`,
-        "",
-        `Submitted:     ${fields.timestamp}`,
-      ].join("\n");
+      emailFields = {
+        "Referred Name": `${fields.refFirstName} ${fields.refLastName}`,
+        "Referred Email": fields.refEmail,
+        "Referred LinkedIn": fields.refLinkedIn,
+        Relationship: fields.relationship,
+        "Referred By": `${fields.yourFirstName} ${fields.yourLastName}`,
+        Submitted: fields.timestamp,
+      };
       break;
 
     case "contact":
       subject = `[Gildre Contact] ${fields.subject} — ${fields.firstName} ${fields.lastName}`;
-      text = [
-        "CONTACT FORM SUBMISSION",
-        "───────────────────────",
-        `From:      ${fields.firstName} ${fields.lastName}`,
-        `Email:     ${fields.email}`,
-        `Subject:   ${fields.subject}`,
-        "",
-        "Message:",
-        fields.message,
-        "",
-        `Submitted: ${fields.timestamp}`,
-      ].join("\n");
+      emailFields = {
+        Name: `${fields.firstName} ${fields.lastName}`,
+        Email: fields.email,
+        Subject: fields.subject,
+        Message: fields.message,
+        Submitted: fields.timestamp,
+      };
       break;
 
     default:
       return NextResponse.json({ error: "Unknown form type" }, { status: 400 });
   }
 
-  const result = await resend.emails.send({
-    from: "Gildre Forms <onboarding@resend.dev>",
-    to: TO,
-    subject,
-    text,
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_key: WEB3FORMS_KEY,
+      subject,
+      from_name: "Gildre Website",
+      ...emailFields,
+    }),
   });
 
-  if (result.error) {
-    console.error("[submit] Resend error:", result.error);
-    return NextResponse.json({ error: result.error.message }, { status: 500 });
+  const result = await res.json();
+
+  if (!result.success) {
+    console.error("[submit] Web3Forms error:", result.message);
+    return NextResponse.json({ error: result.message }, { status: 500 });
   }
 
-  console.log("[submit] Email sent:", result.data?.id, "form:", formType);
+  console.log("[submit] Email sent via Web3Forms, form:", formType);
   return NextResponse.json({ success: true });
 }
