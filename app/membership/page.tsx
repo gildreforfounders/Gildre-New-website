@@ -94,11 +94,10 @@ const plans = [
     includesNote: null,
     features: [
       "White-Glove Onboarding Experience",
-      "Private Community Workspace",
       "Curated, High-Impact Virtual Events",
-      "Personalized Weekly 1:1 Introductions",
+      "Private Community Workspace",
+      "Personalized, Weekly 1:1 Matches & Introductions",
       "Individualized Goal Tracking Roadmap",
-      "Member-Only Resource Library",
     ],
   },
   {
@@ -110,12 +109,12 @@ const plans = [
     cta: "Get Access",
     href: "https://gildre.circle.so/checkout/gildre-gold-membership",
     popular: true,
-    includesNote: "Everything in Silver, plus:",
+    includesNote: "All Silver Benefits plus:",
     features: [
-      "1 Monthly Advisory Session with a Managing Partner",
-      "Access to Exclusive In-Person Events & Dinners",
+      "1 Monthly Advisory Session",
+      "Access to Exclusive, In-Person Events",
       "Podcasting & Personal Brand Opportunities",
-      "Investor Directory Access & Warm Introductions",
+      "Access to Investor Directory & Warm Intros",
     ],
   },
   {
@@ -127,14 +126,12 @@ const plans = [
     cta: "Get Access",
     href: "https://gildre.circle.so/checkout/gildre-platinum-membership",
     popular: false,
-    includesNote: "Everything in Gold, plus:",
+    includesNote: "All Gold Benefits and:",
     features: [
       "2 Monthly Advisory Sessions",
       "Personalized 1:1 Mentorship Pairing",
-      "Multiple Monthly Warm Investor Introductions",
-      "Priority Access to Executive Retreats",
-      "Dedicated Concierge Onboarding",
-      "$5M+ in Partner Perks & Exclusive Deals",
+      "Access to Investor Directory & Multiple Monthly Warm Intros",
+      "$5M+ in Premium Resources & Partner Tools",
     ],
   },
 ];
