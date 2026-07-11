@@ -49,21 +49,22 @@ export default function ReferralSignupPage() {
     setSubmitting(true);
     setSubmitError(null);
     try {
-      const res = await fetch("/api/submit", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          formType: "referralsignup",
-          firstName: form.firstName,
-          lastName: form.lastName,
-          email: form.email,
-          newsletter: form.newsletter ? "Yes" : "No",
-          timestamp: new Date().toISOString(),
+          access_key: "975e3f10-dc81-4bc4-9e17-3ff07d36f1df",
+          subject: `[Gildre] Referral Program Sign-Up — ${form.firstName} ${form.lastName}`,
+          from_name: "Gildre Website",
+          Name: `${form.firstName} ${form.lastName}`,
+          Email: form.email,
+          "Newsletter Opt-In": form.newsletter ? "Yes" : "No",
+          Submitted: new Date().toISOString(),
         }),
       });
-      if (!res.ok) {
-        const body = await res.json().catch(() => ({}));
-        setSubmitError(body.error ?? "Something went wrong. Please try again.");
+      const result = await res.json();
+      if (!result.success) {
+        setSubmitError(result.message ?? "Something went wrong. Please try again.");
         return;
       }
     } catch {

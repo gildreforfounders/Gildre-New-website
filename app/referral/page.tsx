@@ -61,24 +61,24 @@ export default function ReferralPage() {
     setSubmitting(true);
     setSubmitError(null);
     try {
-      const res = await fetch("/api/submit", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          formType: "referral",
-          refFirstName: form.refFirstName,
-          refLastName: form.refLastName,
-          refEmail: form.refEmail,
-          refLinkedIn: form.refLinkedIn,
-          relationship: form.relationship || "Not specified",
-          yourFirstName: form.yourFirstName,
-          yourLastName: form.yourLastName,
-          timestamp: new Date().toISOString(),
+          access_key: "975e3f10-dc81-4bc4-9e17-3ff07d36f1df",
+          subject: `[Gildre] New Referral — ${form.refFirstName} ${form.refLastName} via ${form.yourFirstName} ${form.yourLastName}`,
+          from_name: "Gildre Website",
+          "Referred Name": `${form.refFirstName} ${form.refLastName}`,
+          "Referred Email": form.refEmail,
+          "Referred LinkedIn": form.refLinkedIn,
+          Relationship: form.relationship || "Not specified",
+          "Referred By": `${form.yourFirstName} ${form.yourLastName}`,
+          Submitted: new Date().toISOString(),
         }),
       });
-      if (!res.ok) {
-        const body = await res.json().catch(() => ({}));
-        setSubmitError(body.error ?? "Something went wrong. Please try again.");
+      const result = await res.json();
+      if (!result.success) {
+        setSubmitError(result.message ?? "Something went wrong. Please try again.");
         return;
       }
     } catch {
