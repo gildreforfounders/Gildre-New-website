@@ -169,7 +169,6 @@ export default function Footer() {
           <div className="flex gap-5">
             <a href="/contact" className="hover:text-zinc-400 transition-colors">Contact Us</a>
             <a href="/privacy" className="hover:text-zinc-400 transition-colors">Privacy Policy</a>
-            <a href="https://www.gildre.com/terms" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
