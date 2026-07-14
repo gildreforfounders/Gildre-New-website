@@ -93,7 +93,7 @@ export default function MembersCarousel({ members }: { members: Member[] }) {
       {/* Heading */}
       <div className="px-6 text-center">
         <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
-          Your Members
+          Meet Your Peers
         </p>
         <h2
           className="mt-3 text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
