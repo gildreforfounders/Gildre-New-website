@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -53,6 +53,8 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const honeypot = useRef("");
+  const loadTime = useRef(Date.now());
 
   function set<K extends keyof FormState>(key: K, value: string) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -76,6 +78,10 @@ export default function ContactPage() {
       setErrors(errs);
       return;
     }
+
+    // Spam checks — silent, no error shown to bots
+    if (honeypot.current) return;
+    if (Date.now() - loadTime.current < 3000) return;
 
     setSubmitting(true);
     setSubmitError(null);
@@ -253,6 +259,16 @@ export default function ContactPage() {
                   </p>
 
                   <form onSubmit={handleSubmit} noValidate className="space-y-4">
+                    {/* Honeypot — hidden from humans, filled by bots */}
+                    <input
+                      type="text"
+                      name="website"
+                      autoComplete="off"
+                      tabIndex={-1}
+                      onChange={(e) => { honeypot.current = e.target.value; }}
+                      style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0 }}
+                      aria-hidden="true"
+                    />
                     {/* Name */}
                     <div className="grid grid-cols-2 gap-3">
                       <div>
