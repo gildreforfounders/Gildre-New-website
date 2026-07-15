@@ -1,19 +1,19 @@
 const members = [
-  { company: "Clockout",      role: "Founder & CEO",      serif: false, italic: false },
-  { company: "Silo Markets",  role: "Co-Founder & CEO",   serif: true,  italic: false },
-  { company: "Nexus",         role: "Founder & CEO",      serif: true,  italic: false },
-  { company: "Bubbl",         role: "Co-Founder",         serif: false, italic: false },
-  { company: "Clipsense",     role: "Founder & CEO",      serif: false, italic: false },
-  { company: "Avistar",       role: "Co-Founder & CEO",   serif: true,  italic: false },
-  { company: "Inciteful",     role: "Founder",            serif: false, italic: false },
-  { company: "Vault",         role: "Co-Founder & CEO",   serif: true,  italic: false },
-  { company: "Clausey",       role: "Founder & CEO",      serif: false, italic: false },
-  { company: "Opulentia",     role: "Founder",            serif: true,  italic: true  },
-  { company: "ReWorked",      role: "Co-Founder",         serif: false, italic: false },
-  { company: "Celeria",       role: "Founder & CEO",      serif: true,  italic: false },
-  { company: "Forum Media",   role: "Co-Founder & CEO",   serif: false, italic: false },
-  { company: "Featurely",     role: "Founder & CEO",      serif: false, italic: false },
-  { company: "PromptHalo",    role: "Founder",            serif: true,  italic: false },
+  { company: "Clockout",      role: "Founder & CEO",      serif: false, italic: false, href: "https://clockoutapp.com/" },
+  { company: "Silo Markets",  role: "Co-Founder & CEO",   serif: true,  italic: false, href: "https://www.silomarkets.com/" },
+  { company: "Nexus",         role: "Founder & CEO",      serif: true,  italic: false, href: "https://www.nexus.app/" },
+  { company: "Bubbl",         role: "Co-Founder",         serif: false, italic: false, href: "https://bubblai.com/" },
+  { company: "Clipsense",     role: "Founder & CEO",      serif: false, italic: false, href: "https://www.clipsense.ai/" },
+  { company: "Avistar",       role: "Co-Founder & CEO",   serif: true,  italic: false, href: "https://avistar.ai/" },
+  { company: "Inciteful",     role: "Founder",            serif: false, italic: false, href: "https://www.incitefulapp.com/" },
+  { company: "Vault",         role: "Co-Founder & CEO",   serif: true,  italic: false, href: "https://usevault.app/" },
+  { company: "Clausey",       role: "Founder & CEO",      serif: false, italic: false, href: "https://clausey.ai/" },
+  { company: "Opulentia",     role: "Founder",            serif: true,  italic: true,  href: "https://www.opulentia.net/" },
+  { company: "ReWorked",      role: "Co-Founder",         serif: false, italic: false, href: null },
+  { company: "Celeria",       role: "Founder & CEO",      serif: true,  italic: false, href: "https://celeria.ai/" },
+  { company: "Forum Media",   role: "Co-Founder & CEO",   serif: false, italic: false, href: null },
+  { company: "Featurely",     role: "Founder & CEO",      serif: false, italic: false, href: null },
+  { company: "PromptHalo",    role: "Founder",            serif: true,  italic: false, href: "https://prompthalo.ai/" },
 ];
 
 export default function MemberCompanies() {
@@ -43,25 +43,37 @@ export default function MemberCompanies() {
 
           {/* Right grid */}
           <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
-            {members.map((m) => (
-              <div key={m.company} className="flex flex-col gap-1.5">
-                <span
-                  className="text-base font-bold text-white"
-                  style={{
-                    fontFamily: m.serif ? "var(--font-fraunces)" : "var(--font-geist-sans)",
-                    fontStyle: m.italic ? "italic" : "normal",
-                  }}
-                >
-                  {m.company}
-                </span>
-                <span
-                  className="text-[0.6rem] font-semibold uppercase tracking-widest"
-                  style={{ color: "rgba(255,255,255,0.35)" }}
-                >
-                  {m.role}
-                </span>
-              </div>
-            ))}
+            {members.map((m) => {
+              const nameStyle = {
+                fontFamily: m.serif ? "var(--font-fraunces)" : "var(--font-geist-sans)",
+                fontStyle: m.italic ? "italic" : "normal",
+              };
+              return (
+                <div key={m.company} className="flex flex-col gap-1.5">
+                  {m.href ? (
+                    <a
+                      href={m.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-base font-bold text-white transition-colors hover:text-[#C9A96E]"
+                      style={nameStyle}
+                    >
+                      {m.company}
+                    </a>
+                  ) : (
+                    <span className="text-base font-bold text-white" style={nameStyle}>
+                      {m.company}
+                    </span>
+                  )}
+                  <span
+                    className="text-[0.6rem] font-semibold uppercase tracking-widest"
+                    style={{ color: "rgba(255,255,255,0.35)" }}
+                  >
+                    {m.role}
+                  </span>
+                </div>
+              );
+            })}
           </div>
 
         </div>
