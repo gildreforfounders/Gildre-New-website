@@ -3,6 +3,7 @@ const testimonials = [
     company: "Silver Lining Career Coach",
     headline: "Founder co-workers who actually get it",
     quote: "Being in Gildre feels like having founder co-workers that actually get it. They've saved me hours of research just by sharing what's worked for them.",
+    highlight: "founder co-workers that actually get it",
     name: "Caitlin Van Berkel",
     title: "Founder",
     photo: "/reviews/caitlin-van-berkel.webp",
@@ -11,6 +12,7 @@ const testimonials = [
     company: "Ensyx Systems",
     headline: "First membership that truly delivers",
     quote: "This is the first membership where I truly feel like I'm getting what I paid for. The value and time the Gildre team spends with us on our business is remarkable.",
+    highlight: "first membership where I truly feel like I'm getting what I paid for",
     name: "Iliana Alvarado",
     title: "President",
     photo: "/reviews/iliana-alvarado.webp",
@@ -19,6 +21,7 @@ const testimonials = [
     company: "SOLVEE",
     headline: "Mentorship that isn't abstract",
     quote: "The structure at Gildre is impressive, it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    highlight: "founders challenge each other and mentorship isn't abstract",
     name: "Christof Mannfeld",
     title: "Founder",
     photo: "/reviews/christof-mannfeld.webp",
@@ -27,6 +30,7 @@ const testimonials = [
     company: "Boop.VIP",
     headline: "Insights across every industry",
     quote: "The resources offered at Gildre are exceptionally beneficial for entrepreneurs and professionals, providing crucial tools and insights from seasoned mentors across countless industries.",
+    highlight: "crucial tools and insights from seasoned mentors across countless industries",
     name: "Horacio Rilo",
     title: "Founder",
     photo: "/reviews/horacio-rilo.webp",
@@ -35,6 +39,7 @@ const testimonials = [
     company: "Cerené",
     headline: "Community for every growth challenge",
     quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
+    highlight: "Gildre gives me exactly that, a community where I can both give and gain exceptional value",
     name: "Elise Madrick",
     title: "Founder",
     photo: "/reviews/elise-madrick.webp",
@@ -43,6 +48,7 @@ const testimonials = [
     company: "AGI Beacon",
     headline: "Found her startup community from day one",
     quote: "Gildre was instrumental when I was first starting my company and needed to meet other business owners who understood the same challenges.",
+    highlight: "Gildre was instrumental when I was first starting my company",
     name: "Connor Fitzgerald",
     title: "Founder",
     photo: "/reviews/connor-fitzgerald.webp",
@@ -51,6 +57,7 @@ const testimonials = [
     company: "HUPR",
     headline: "Sponsors, partners & genuine connections",
     quote: "Gildre continues to introduce me to an amazing, growing network of people that helped our company partner with and reach different sponsors. The in-person events are genuine and you get to connect with the real people behind unique companies.",
+    highlight: "amazing, growing network of people",
     name: "Dan Hernandez",
     title: "Co-Founder",
     photo: "/reviews/dan-hernandez.jpg",
@@ -59,6 +66,7 @@ const testimonials = [
     company: "Palombini Coaching",
     headline: "Better ideas at every single encounter",
     quote: "Joining Gildre was the best decision I made since starting my practice in 2016. Having mentors makes things smoother, and the path more enjoyable as well. At each encounter I got better ideas that improved my offering.",
+    highlight: "Joining Gildre was the best decision I made since starting my practice in 2016",
     name: "Carol Palombini",
     title: "Founder",
     photo: "/reviews/carol-palombini.webp",
@@ -67,6 +75,7 @@ const testimonials = [
     company: "Rodo",
     headline: "Measurable growth in new customers",
     quote: "Since we joined Gildre we've started to see measurable consistency in new customers. Inbound interest continues to grow which has helped create momentum.",
+    highlight: "measurable consistency in new customers",
     name: "Alejandro Sandoval",
     title: "Founder",
     photo: "/reviews/alejandro-sandoval.webp",
@@ -75,6 +84,7 @@ const testimonials = [
     company: "MoveOn",
     headline: "A global network ready to guide you",
     quote: "Joining Gildre has been a thrilling experience with vibrant and intelligent members across the globe. There are so many resources and advisors ready to lend an ear and guiding hand.",
+    highlight: "vibrant and intelligent members across the globe",
     name: "Yara Schilling",
     title: "Director of Talent & Development",
     photo: "/reviews/yara-schilling.webp",
@@ -83,6 +93,7 @@ const testimonials = [
     company: "Clipsense.ai",
     headline: "Never walking the SaaS road alone",
     quote: "Gildre connected me with founders who had the SaaS and entrepreneurship experience I needed, so I wasn't walking that road alone.",
+    highlight: "I wasn't walking that road alone",
     name: "Gavin Buckland",
     title: "Founder",
     photo: "/reviews/gavin-buckland.webp",
@@ -91,6 +102,7 @@ const testimonials = [
     company: "Topline",
     headline: "Rare community that consistently adds value",
     quote: "For founders in my network, Gildre is a rare community that consistently adds value, and I highly recommend checking them out!",
+    highlight: "rare community that consistently adds value",
     name: "Chris Riklin",
     title: "Co-Founder",
     photo: "/reviews/chris-riklin.webp",
@@ -99,6 +111,7 @@ const testimonials = [
     company: "Kade Keyo",
     headline: "Advice, friends & solutions in one place",
     quote: "Since joining Gildre I've been able to receive great advice, find supportive friends, and solve pressing problems across a network of amazing individuals. If you're looking for an active and engaged community home, you'll find it here.",
+    highlight: "great advice, find supportive friends, and solve pressing problems",
     name: "Tanho Attah",
     title: "Co-Founder",
     photo: "/reviews/tanho-attah.webp",
@@ -107,6 +120,7 @@ const testimonials = [
     company: "Remote Vans",
     headline: "High-performing founders sharing insights",
     quote: "Gildre is a thriving community of motivated, high-performing individuals who share knowledge, resources, and insights for those navigating the challenging world of startups.",
+    highlight: "thriving community of motivated, high-performing individuals",
     name: "Robyn Hobson",
     title: "Chief Marketing Officer",
     photo: "/reviews/robyn-hobson.webp",
@@ -115,6 +129,7 @@ const testimonials = [
     company: "Cardo English",
     headline: "Curious, genuine members always available",
     quote: "The value of this community is the diverse voices on the platform. Each member is curious, genuine, engaging, and always open to a conversation.",
+    highlight: "curious, genuine, engaging, and always open to a conversation",
     name: "William Luck",
     title: "Founder",
     photo: "/reviews/william-luck.webp",
@@ -132,6 +147,26 @@ const avatarColors = [
   "#6F8A7A","#8A7A5B","#5B6F8A","#8A6B5B","#6F7A8A",
   "#8A8A5B","#5B8A7A","#7A5B8A","#6B7A5B","#8A5B7A",
 ];
+
+function HighlightedQuote({ quote, highlight }: { quote: string; highlight?: string }) {
+  if (!highlight) {
+    return <>&ldquo;{quote}&rdquo;</>;
+  }
+  const idx = quote.toLowerCase().indexOf(highlight.toLowerCase());
+  if (idx === -1) return <>&ldquo;{quote}&rdquo;</>;
+  const before = quote.slice(0, idx);
+  const match = quote.slice(idx, idx + highlight.length);
+  const after = quote.slice(idx + highlight.length);
+  return (
+    <>
+      &ldquo;{before}
+      <mark style={{ backgroundColor: "rgba(201,169,110,0.25)", color: "#C9A96E", borderRadius: "2px", padding: "0 1px" }}>
+        {match}
+      </mark>
+      {after}&rdquo;
+    </>
+  );
+}
 
 export default function ReviewsSection() {
   return (
@@ -152,7 +187,7 @@ export default function ReviewsSection() {
         </p>
       </div>
 
-      {/* Grid — gap-px creates hairline gold borders between cells */}
+      {/* Grid */}
       <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
         style={{ gap: "1px", backgroundColor: "rgba(201,169,110,0.15)" }}
@@ -173,7 +208,7 @@ export default function ReviewsSection() {
 
             {/* Quote */}
             <p className="flex-1 text-sm leading-relaxed text-zinc-400">
-              &ldquo;{t.quote}&rdquo;
+              <HighlightedQuote quote={t.quote} highlight={t.highlight} />
             </p>
 
             {/* Author */}
