@@ -108,26 +108,26 @@ export default function PropellantVenturesPage() {
 
         <div className="relative mx-auto max-w-6xl">
           {/* Partnership logos */}
-          <div className="mb-10 flex items-center justify-center gap-5">
-            <div className="relative h-10 w-28">
+          <div className="mb-10 flex items-center justify-center gap-7">
+            <div className="relative h-16 w-44">
               <Image
                 src="/images/gildre-logo.png"
                 alt="Gildre"
                 fill
-                sizes="112px"
+                sizes="176px"
                 className="object-contain brightness-0 invert"
               />
             </div>
-            <span className="text-2xl font-light" style={{ color: "rgba(201,169,110,0.6)" }}>×</span>
+            <span className="text-3xl font-light" style={{ color: "rgba(201,169,110,0.6)" }}>×</span>
             <div
-              className="relative h-10 w-36"
+              className="relative h-16 w-52"
               style={{ filter: "grayscale(1) invert(1)", mixBlendMode: "screen" }}
             >
               <Image
                 src="/images/logos/propellant.jpeg"
                 alt="Propellant Ventures"
                 fill
-                sizes="144px"
+                sizes="208px"
                 className="object-contain"
               />
             </div>
@@ -190,50 +190,14 @@ export default function PropellantVenturesPage() {
 
             {/* Right — event photo */}
             <div className="relative overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.2)" }}>
-              <div className="relative aspect-[4/3] w-full">
+              <div className="relative aspect-[1/1] w-full">
                 <Image
-                  src="/images/community/workshops.webp"
+                  src="/images/gildre-propellant-event.webp"
                   alt="Gildre × Propellant Ventures event"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
-                {/* Overlay with partnership text */}
-                <div
-                  className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-center"
-                  style={{ background: "rgba(8,14,26,0.55)" }}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="relative h-7 w-20">
-                      <Image
-                        src="/images/gildre-logo.png"
-                        alt="Gildre"
-                        fill
-                        sizes="80px"
-                        className="object-contain brightness-0 invert"
-                      />
-                    </div>
-                    <span className="text-lg font-light" style={{ color: "rgba(201,169,110,0.8)" }}>×</span>
-                    <div
-                      className="relative h-7 w-24"
-                      style={{ filter: "grayscale(1) invert(1)", mixBlendMode: "screen" }}
-                    >
-                      <Image
-                        src="/images/logos/propellant.jpeg"
-                        alt="Propellant Ventures"
-                        fill
-                        sizes="96px"
-                        className="object-contain"
-                      />
-                    </div>
-                  </div>
-                  <p
-                    className="mt-2 max-w-[220px] text-sm font-semibold leading-snug text-white"
-                    style={{ fontFamily: "var(--font-fraunces)" }}
-                  >
-                    Level up with founders and advisors who have built, scaled, &amp; exited
-                  </p>
-                </div>
               </div>
             </div>
           </div>
