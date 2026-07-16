@@ -132,17 +132,18 @@ export default function MindHappyPage() {
             </div>
 
             {/* Right — MindHappy Forbes image */}
-            <div
-              className="relative overflow-hidden rounded-2xl"
-              style={{ border: "1px solid rgba(201,169,110,0.2)" }}
-            >
-              <div className="relative w-full" style={{ aspectRatio: "3/4" }}>
+            <div className="flex justify-center">
+              <div
+                className="overflow-hidden rounded-2xl"
+                style={{ border: "1px solid rgba(201,169,110,0.2)", maxWidth: "360px", width: "100%" }}
+              >
                 <Image
                   src="/images/mindhappy-forbes.jpeg"
                   alt="MindHappy — As Featured in Forbes"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
+                  width={399}
+                  height={501}
+                  className="w-full"
+                  style={{ display: "block" }}
                 />
               </div>
             </div>
