@@ -75,7 +75,7 @@ export default function MindHappyPage() {
             <span className="text-3xl font-light" style={{ color: "rgba(201,169,110,0.6)" }}>×</span>
             <div
               className="relative h-14 w-48"
-              style={{ filter: "invert(1)" }}
+              style={{ filter: "invert(1)", mixBlendMode: "screen" }}
             >
               <Image
                 src="/images/mindhappy-logo.png"
