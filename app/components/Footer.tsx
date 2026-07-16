@@ -81,8 +81,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Newsletter + Podcast */}
-        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+        {/* Newsletter + Podcast + Content */}
+        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
 
           {/* Newsletter */}
           <div
@@ -155,6 +155,44 @@ export default function Footer() {
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
             >
               Follow →
+            </a>
+          </div>
+
+          {/* Founder Content */}
+          <div
+            className="flex flex-col justify-between gap-5 rounded-2xl px-7 py-6"
+            style={{
+              background: "rgba(201,169,110,0.05)",
+              border: "1px solid rgba(201,169,110,0.15)",
+            }}
+          >
+            <div className="flex items-center gap-4">
+              <div
+                className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-xl"
+                style={{ backgroundColor: "rgba(201,169,110,0.12)" }}
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A96E" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
+                  Founder Content
+                </p>
+                <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                  Blogs, Guides & Resources
+                </p>
+                <p className="mt-0.5 text-xs text-zinc-500">
+                  Tactical content for founders at every stage.
+                </p>
+              </div>
+            </div>
+            <a
+              href="/content"
+              className="inline-block self-start rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+            >
+              Explore →
             </a>
           </div>
 
