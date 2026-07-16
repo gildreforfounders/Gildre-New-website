@@ -177,25 +177,14 @@ export default function PropellantVenturesPage() {
                 </p>
               </div>
 
-              <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-                <a
-                  href="https://tally.so/r/VLERVa"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90 text-center"
+              <div className="mt-2">
+                <button
+                  onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}
+                  className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
                   style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
                 >
-                  Apply Now
-                </a>
-                <a
-                  href="https://calendly.com/taiga-gildre/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80 text-center"
-                  style={{ border: "1.5px solid rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.7)" }}
-                >
-                  Schedule a Call
-                </a>
+                  View Memberships
+                </button>
               </div>
             </div>
 
