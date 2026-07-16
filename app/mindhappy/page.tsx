@@ -62,23 +62,29 @@ export default function MindHappyPage() {
         <div className="relative mx-auto max-w-6xl">
 
           {/* Partnership label */}
-          <div className="mb-8 flex items-center justify-center gap-4">
-            <div className="relative h-8 w-24">
+          <div className="mb-8 flex items-center justify-center gap-6">
+            <div className="relative h-14 w-44">
               <Image
                 src="/images/gildre-logo.png"
                 alt="Gildre"
                 fill
-                sizes="96px"
+                sizes="176px"
                 className="object-contain brightness-0 invert"
               />
             </div>
-            <span className="text-2xl font-light" style={{ color: "rgba(201,169,110,0.6)" }}>×</span>
-            <span
-              className="text-2xl font-bold tracking-tight text-white"
-              style={{ fontFamily: "var(--font-fraunces)" }}
+            <span className="text-3xl font-light" style={{ color: "rgba(201,169,110,0.6)" }}>×</span>
+            <div
+              className="relative h-14 w-48"
+              style={{ filter: "invert(1)" }}
             >
-              MindHappy
-            </span>
+              <Image
+                src="/images/mindhappy-logo.png"
+                alt="MindHappy"
+                fill
+                sizes="192px"
+                className="object-contain"
+              />
+            </div>
           </div>
 
           <h1
