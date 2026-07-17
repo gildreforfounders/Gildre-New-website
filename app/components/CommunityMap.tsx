@@ -1,10 +1,21 @@
 "use client";
+import Link from "next/link";
 import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 
 const GEO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 const CHAPTERS = new Set(["New York City", "Chicago", "San Francisco", "Austin", "Boston"]);
 const GROWING = new Set(["Seattle", "Los Angeles"]);
+
+const CITY_SLUGS: Record<string, string> = {
+  "New York City": "/nyc",
+  "Chicago": "/chicago",
+  "San Francisco": "/bayarea",
+  "Austin": "/austin",
+  "Boston": "/boston",
+  "Seattle": "/seattle",
+  "Los Angeles": "/la",
+};
 
 const cities: { name: string; coords: [number, number] }[] = [
   { name: "New York City",  coords: [-74.006,  40.713] },
@@ -151,9 +162,10 @@ export default function CommunityMap() {
       {/* Chapter pills */}
       <div className="mt-4 flex flex-wrap items-center justify-center gap-3 px-6">
         {[...CHAPTERS].map((c) => (
-          <span
+          <Link
             key={c}
-            className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-widest"
+            href={CITY_SLUGS[c] ?? "/"}
+            className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-widest transition-all duration-200 hover:brightness-125 hover:-translate-y-px"
             style={{
               backgroundColor: "rgba(201,169,110,0.1)",
               border: "1px solid rgba(201,169,110,0.3)",
@@ -161,12 +173,13 @@ export default function CommunityMap() {
             }}
           >
             {c}
-          </span>
+          </Link>
         ))}
         {[...GROWING].map((c) => (
-          <span
+          <Link
             key={c}
-            className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-widest flex items-center gap-1.5"
+            href={CITY_SLUGS[c] ?? "/"}
+            className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-widest flex items-center gap-1.5 transition-all duration-200 hover:brightness-125 hover:-translate-y-px"
             style={{
               backgroundColor: "rgba(201,169,110,0.04)",
               border: "1px dashed rgba(201,169,110,0.3)",
@@ -175,7 +188,7 @@ export default function CommunityMap() {
           >
             {c}
             <span className="text-[0.55rem] font-bold tracking-wider" style={{ color: "rgba(201,169,110,0.5)" }}>GROWING</span>
-          </span>
+          </Link>
         ))}
       </div>
 
