@@ -102,9 +102,54 @@ const mentors: Mentor[] = [
   },
 ];
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Gildre",
+  "url": "https://www.gildre.com",
+  "logo": "https://www.gildre.com/images/gildre-logo.png",
+  "description": "Gildre is a private membership community for founders — providing curated peer connections, expert mentorship, and tactical resources to help founders build, scale, and exit.",
+  "email": "info@gildre.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2510 Green Bay Road",
+    "addressLocality": "Evanston",
+    "addressRegion": "IL",
+    "postalCode": "60201",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.0565,
+    "longitude": -87.6888
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "sameAs": [
+    "https://www.instagram.com/gildreforfounders",
+    "https://www.linkedin.com/company/gildre/",
+    "https://www.youtube.com/@GildreforFounders",
+    "https://x.com/Gildre_",
+    "https://www.tiktok.com/@gildreforfounders"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@gildre.com",
+    "contactType": "customer service",
+    "areaServed": "US",
+    "availableLanguage": "English"
+  }
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
 
       {/* 1 — Hook: bold promise, hero image, dual CTA */}
       <HeroSection />
