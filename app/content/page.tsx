@@ -99,6 +99,14 @@ const featured = [
     href: "/johnlionbergerblog",
   },
   {
+    title: "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
+    category: "Fundraising",
+    readTime: "14 min read",
+    excerpt:
+      "How to raise your first pre-seed round — from defining your goals and building your narrative to targeting the right investors, perfecting your deck, and closing the deal. Includes instrument comparison, pitch deck breakdown, and objection handling.",
+    href: "/kickingoffpreseed",
+  },
+  {
     title: "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
     category: "Product",
     readTime: "9 min read",
