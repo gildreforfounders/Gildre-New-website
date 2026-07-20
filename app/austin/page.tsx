@@ -33,7 +33,21 @@ const data: LocationData = {
 export const metadata = {
   title: "Founder Community in Austin, TX | Gildre",
   description:
-    "Gildre connects Austin founders with curated peer matches, mentorship, and investor access. Join the founder community powering Austin's fastest-growing startup ecosystem.",
+    "Gildre connects Austin founders with curated peer matches, mentorship, and investor access. Join the community powering Austin's fastest-growing startup ecosystem.",
+  keywords: ["Austin founder community", "Austin startup network", "Austin entrepreneurs", "Gildre Austin", "Texas startup founders"],
+  openGraph: {
+    title: "Founder Community in Austin, TX | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for Austin founders in one of the fastest-growing startup ecosystems in the US.",
+    url: "https://www.gildre.com/austin",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Austin" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founder Community in Austin, TX | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for Austin founders.",
+  },
 };
 
 export default function AustinPage() {

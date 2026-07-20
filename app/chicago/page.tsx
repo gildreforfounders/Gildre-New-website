@@ -33,7 +33,21 @@ const data: LocationData = {
 export const metadata = {
   title: "Founder Community in Chicago | Gildre",
   description:
-    "Gildre connects Chicago founders with curated peer matches, mentorship, and investor access. Join the founder community built for Chicago's fintech, enterprise, and logistics ecosystem.",
+    "Gildre connects Chicago founders with curated peer matches, mentorship, and investor access. Built for Chicago's fintech, enterprise, and logistics startup ecosystem.",
+  keywords: ["Chicago founder community", "Chicago startup network", "Chicago entrepreneurs", "Gildre Chicago", "fintech founders Chicago"],
+  openGraph: {
+    title: "Founder Community in Chicago | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for Chicago founders in fintech, enterprise, and logistics.",
+    url: "https://www.gildre.com/chicago",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Chicago" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founder Community in Chicago | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for Chicago founders in fintech, enterprise, and logistics.",
+  },
 };
 
 export default function ChicagoPage() {

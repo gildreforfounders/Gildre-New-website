@@ -34,6 +34,20 @@ export const metadata = {
   title: "Founder Community in the Bay Area | Gildre",
   description:
     "Gildre connects Bay Area founders with curated peer matches, VC introductions, and mentorship from operators who've scaled in Silicon Valley. Cut through the noise.",
+  keywords: ["Bay Area founder community", "Silicon Valley startup network", "San Francisco entrepreneurs", "Gildre Bay Area", "VC introductions founders"],
+  openGraph: {
+    title: "Founder Community in the Bay Area | Gildre",
+    description: "Curated peer matches, VC introductions, and mentorship from operators who've scaled in Silicon Valley. Cut through the noise.",
+    url: "https://www.gildre.com/bayarea",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in the Bay Area" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founder Community in the Bay Area | Gildre",
+    description: "Curated peer matches, VC introductions, and mentorship from operators who've scaled in Silicon Valley.",
+  },
 };
 
 export default function BayAreaPage() {

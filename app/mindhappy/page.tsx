@@ -1,4 +1,26 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "MindHappy × Gildre — Wellness Boxes for Founders and Teams",
+  description:
+    "Curated wellness boxes built for founders. Elevate for deep work and personal focus. Bond for team building and culture moments. Exclusive Gildre partner pricing.",
+  keywords: ["founder wellness", "MindHappy", "team building box", "startup wellness", "founder gift box", "Gildre"],
+  openGraph: {
+    title: "MindHappy × Gildre — Wellness Boxes for Founders and Teams",
+    description:
+      "Curated wellness boxes built for founders. Elevate for deep work and focus. Bond for team building and culture moments.",
+    url: "https://www.gildre.com/mindhappy",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "MindHappy x Gildre wellness boxes" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MindHappy × Gildre — Wellness Boxes for Founders and Teams",
+    description: "Curated wellness boxes built for founders. Elevate for focus. Bond for team building.",
+  },
+};
 
 const boxes = [
   {
@@ -74,16 +96,21 @@ export default function MindHappyPage() {
             </div>
             <span className="text-3xl font-light" style={{ color: "rgba(201,169,110,0.6)" }}>×</span>
             <div
-              className="relative h-14 w-48"
-              style={{ filter: "invert(1)", mixBlendMode: "screen" }}
+              className="relative h-14 w-48 rounded-xl overflow-hidden"
+              style={{ backgroundColor: "#1C2744" }}
             >
-              <Image
-                src="/images/mindhappy-logo.png"
-                alt="MindHappy"
-                fill
-                sizes="192px"
-                className="object-contain"
-              />
+              <div
+                className="absolute inset-0"
+                style={{ filter: "invert(1)", mixBlendMode: "screen" }}
+              >
+                <Image
+                  src="/images/mindhappy-logo.png"
+                  alt="MindHappy"
+                  fill
+                  sizes="192px"
+                  className="object-contain"
+                />
+              </div>
             </div>
           </div>
 

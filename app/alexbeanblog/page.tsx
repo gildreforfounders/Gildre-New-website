@@ -4,12 +4,19 @@ import Link from "next/link";
 export const metadata = {
   title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital | Gildre",
   description:
-    "Alex Bean, co-founder of Divvy (acquired by Bill.com), shares how growing up in Redmond near Microsoft and Amazon, playing quarterback, and an unwavering belief in expense management software led him to build and exit one of fintech's fastest-growing startups — then co-found Tandem Invest. Excerpts from the Gildre Spotlight Podcast.",
+    "Divvy co-founder Alex Bean on selling before the product was built, scaling to a Bill.com acquisition, and what he looks for now as a VC at Tandem Invest.",
+  keywords: ["Alex Bean", "Divvy", "Bill.com acquisition", "fintech startup", "Tandem Invest", "venture capital", "Gildre podcast"],
   openGraph: {
     title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
     description:
       "From Redmond to fintech exit to VC — Divvy co-founder Alex Bean on selling before the product was built, scaling to acquisition, and what he looks for now as an investor.",
     type: "article",
+    images: [{ url: "https://www.gildre.com/images/alex-bean-headshot.webp", width: 512, height: 512, alt: "Alex Bean, co-founder of Divvy" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
+    description: "Divvy co-founder Alex Bean on selling before the product was built, the Bill.com exit, and investing at Tandem Invest.",
   },
 };
 

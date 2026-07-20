@@ -33,7 +33,21 @@ const data: LocationData = {
 export const metadata = {
   title: "Founder Community in Seattle | Gildre",
   description:
-    "Gildre connects Seattle founders with curated peer matches, mentorship, and investor access. Join the founder community built for Seattle's enterprise, cloud, and big-tech-alumni ecosystem.",
+    "Gildre connects Seattle founders with curated peer matches, mentorship, and investor access. Built for Seattle's enterprise, cloud, and big-tech-alumni startup ecosystem.",
+  keywords: ["Seattle founder community", "Seattle startup network", "Seattle entrepreneurs", "Gildre Seattle", "big tech alumni founders"],
+  openGraph: {
+    title: "Founder Community in Seattle | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for Seattle founders in enterprise, cloud, and big-tech-alumni startups.",
+    url: "https://www.gildre.com/seattle",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Seattle" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founder Community in Seattle | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for Seattle founders in enterprise, cloud, and big-tech alumni startups.",
+  },
 };
 
 export default function SeattlePage() {

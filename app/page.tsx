@@ -1,3 +1,26 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gildre — The Founder Community for Operators, Builders, and Executives",
+  description:
+    "Join 250+ founders accelerating from idea to exit. Curated peer matches, expert mentors, weekly events, and a private network built for serious builders.",
+  keywords: ["founder community", "startup network", "founder mentorship", "peer matching founders", "Gildre"],
+  openGraph: {
+    title: "Gildre — The Founder Community for Operators, Builders, and Executives",
+    description:
+      "Join 250+ founders accelerating from idea to exit. Curated peer matches, expert mentors, weekly events, and a private network built for serious builders.",
+    url: "https://www.gildre.com",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gildre — The Founder Community for Operators, Builders, and Executives",
+    description: "Join 250+ founders accelerating from idea to exit. Curated peer matches, expert mentors, and weekly events.",
+  },
+};
+
 import HeroSection from "./components/HeroSection";
 import LogoBar from "./components/LogoBar";
 import StagesSection from "./components/StagesSection";

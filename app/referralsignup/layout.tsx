@@ -1,9 +1,12 @@
-export const metadata = {
-  title: "Referral Program | Gildre",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gildre Referral Program Sign Up",
   description:
-    "Refer qualified founders, investors, and executives to Gildre and earn an ongoing 20% membership stipend every month.",
+    "Sign up for the Gildre Referral Program and earn an ongoing 20% monthly stipend for every founder you refer who joins the network.",
+  robots: { index: false, follow: false },
 };
 
-export default function ReferralLayout({ children }: { children: React.ReactNode }) {
+export default function ReferralSignupLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

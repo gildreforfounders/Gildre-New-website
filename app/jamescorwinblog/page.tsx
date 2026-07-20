@@ -4,12 +4,19 @@ import Link from "next/link";
 export const metadata = {
   title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business | Gildre",
   description:
-    "James Corwin — wildlife painter, gallery owner, and entrepreneur — shares how growing up in Montana, a surprise art scholarship, and a life-changing African safari shaped his journey from selling $20 miniatures at farmers markets to running Corwin Galleries. Excerpts from the Gildre Spotlight Podcast.",
+    "Wildlife artist James Corwin on going from $20 miniatures at farmers markets to owning Corwin Galleries — a creative business built on art, grit, and no conventional blueprint.",
+  keywords: ["James Corwin", "Corwin Galleries", "wildlife artist", "creative entrepreneur", "Montana founder", "Gildre podcast"],
   openGraph: {
     title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
     description:
-      "From composing music to selling miniature paintings at farmers markets to owning galleries — wildlife artist and entrepreneur James Corwin on building a business from pure creativity.",
+      "From composing music to selling miniature paintings at farmers markets to owning galleries — wildlife artist James Corwin on building a business from pure creativity.",
     type: "article",
+    images: [{ url: "https://www.gildre.com/images/james-corwin-headshot.webp", width: 512, height: 512, alt: "James Corwin, wildlife artist and founder of Corwin Galleries" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
+    description: "From $20 miniatures at farmers markets to owning galleries — James Corwin on building a creative business without a blueprint.",
   },
 };
 

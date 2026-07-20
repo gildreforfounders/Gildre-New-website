@@ -31,9 +31,23 @@ const data: LocationData = {
 };
 
 export const metadata = {
-  title: "Founder Community in NYC | Gildre",
+  title: "Founder Community in New York City | Gildre",
   description:
-    "Gildre connects New York City founders with curated peer matches, mentorship, and investor access. Join the founder community built for NYC's fintech, consumer, and enterprise ecosystem.",
+    "Gildre connects NYC founders with curated peer matches, mentorship, and investor access. Built for New York's fintech, consumer, and enterprise startup ecosystem.",
+  keywords: ["NYC founder community", "New York startup network", "NYC entrepreneurs", "Gildre NYC", "fintech founders New York"],
+  openGraph: {
+    title: "Founder Community in New York City | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for NYC founders in fintech, consumer, and enterprise.",
+    url: "https://www.gildre.com/nyc",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in New York City" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founder Community in New York City | Gildre",
+    description: "Curated peer matches, mentorship, and investor access for NYC founders in fintech, consumer, and enterprise.",
+  },
 };
 
 export default function NycPage() {

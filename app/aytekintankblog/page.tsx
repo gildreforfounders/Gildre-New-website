@@ -4,12 +4,19 @@ import Link from "next/link";
 export const metadata = {
   title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without a Dollar of VC Funding | Gildre",
   description:
-    "Jotform founder and CEO Aytekin Tank shares how he bootstrapped from a school computer in Turkey to 25 million users, competed with Google Forms, and built a 600-person company without taking a single dollar of venture capital. Excerpts from the Gildre Spotlight Podcast.",
+    "Jotform CEO Aytekin Tank on bootstrapping to 25 million users without VC, competing with Google Forms, and why long-term thinking beats chasing funding rounds.",
+  keywords: ["Aytekin Tank", "Jotform", "bootstrapped startup", "no VC funding", "SaaS growth", "Google Forms competitor", "Gildre podcast"],
   openGraph: {
     title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
     description:
       "From coding on a school computer in Turkey to competing with Google — Jotform CEO Aytekin Tank on bootstrapping, the 50/50 rule, and why long-term thinking beats chasing funding.",
     type: "article",
+    images: [{ url: "https://www.gildre.com/images/aytekin-tank-headshot.webp", width: 512, height: 512, alt: "Aytekin Tank, founder and CEO of Jotform" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
+    description: "Jotform CEO Aytekin Tank on bootstrapping to 25M users, competing with Google Forms, and long-term thinking over funding rounds.",
   },
 };
 

@@ -4,12 +4,19 @@ import Link from "next/link";
 export const metadata = {
   title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status | Gildre",
   description:
-    "Fritz Lanman, CEO of ClassPass and Mindbody, shares how his journey from Bay Area kid to Microsoft executive to angel investor led him to scale ClassPass into a billion-dollar company. Excerpts from the Gildre Spotlight Podcast.",
+    "ClassPass CEO Fritz Lanman on leading Microsoft's $240M Facebook bet, losing 70 lbs on his own product, and scaling ClassPass to $285M unicorn status.",
+  keywords: ["Fritz Lanman", "ClassPass", "startup CEO", "unicorn startup", "Microsoft", "Gildre podcast"],
   openGraph: {
     title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
     description:
       "From investing $240M into Facebook at Microsoft to losing 70 lbs using his own product — ClassPass CEO Fritz Lanman on the founder journey no one talks about.",
     type: "article",
+    images: [{ url: "https://www.gildre.com/images/fritz-lanman-headshot.webp", width: 512, height: 512, alt: "Fritz Lanman, CEO of ClassPass" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
+    description: "ClassPass CEO Fritz Lanman on Microsoft's $240M Facebook bet, losing 70 lbs on his own product, and scaling to unicorn status.",
   },
 };
 

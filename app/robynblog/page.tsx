@@ -2,14 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit and Reinvention | Gildre",
+  title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit | Gildre",
   description:
-    "Robyn Hobson — Bronze Stevie Award winner, MBA from UCT, and VP of Marketing at Remote Vans — shares how 13 years of marketing across South Africa, China, and the US shaped a career defined by reinvention. From growing Woolworths South Africa to 500,000 fans to marketing Sprinter vans, this is what a truly global marketing journey looks like. Excerpts from the Gildre Spotlight Podcast.",
+    "Robyn Hobson on 13 years of marketing across South Africa, China, and the US — from growing Woolworths SA to 500K fans to VP of Marketing at Remote Vans.",
+  keywords: ["Robyn Hobson", "global marketing career", "CMO", "South Africa startup", "Remote Vans", "Gildre podcast"],
   openGraph: {
-    title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit and Reinvention",
+    title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit",
     description:
       "From South Africa's top digital agencies to a low-cost airline crisis, an MBA from UCT, EdTech scaling, and now marketing Sprinter vans — Robyn Hobson on building a career across borders.",
     type: "article",
+    images: [{ url: "https://www.gildre.com/images/robyn-hobson-headshot.jpg", width: 512, height: 512, alt: "Robyn Hobson, VP of Marketing" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit",
+    description: "13 years of marketing across South Africa, China, and the US — from Woolworths SA to VP of Marketing at Remote Vans.",
   },
 };
 

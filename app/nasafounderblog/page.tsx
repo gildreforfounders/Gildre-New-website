@@ -4,12 +4,19 @@ import Link from "next/link";
 export const metadata = {
   title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers | Gildre",
   description:
-    "Growing up in Louisiana's 'Cancer Alley,' earning a physics degree from LSU, working on NASA's Curiosity and Maven missions, and ultimately founding ChatOpenSource through Y Combinator — this is the non-linear founder journey you don't hear enough about. Excerpts from the Gildre Spotlight Podcast.",
+    "From Louisiana's Cancer Alley to NASA's Mars rovers to Y Combinator — the founder of ChatOpenSource on physics, AI, and building startups from problems you've actually lived.",
+  keywords: ["NASA founder", "ChatOpenSource", "Y Combinator", "open source AI", "Mars rover engineer", "Gildre podcast"],
   openGraph: {
     title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers",
     description:
-      "From 'Cancer Alley' to NASA's Curiosity mission to Y Combinator — the founder of ChatOpenSource on physics, AI, and why the best startups solve problems you've lived.",
+      "From Cancer Alley to NASA's Curiosity mission to Y Combinator — the founder of ChatOpenSource on physics, AI, and why the best startups solve problems you've lived.",
     type: "article",
+    images: [{ url: "https://www.gildre.com/images/nasa-founder-headshot.webp", width: 512, height: 512, alt: "NASA engineer turned Y Combinator founder" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Mars Rovers",
+    description: "From Cancer Alley to NASA's Mars rovers to Y Combinator — the ChatOpenSource founder on physics, AI, and unlikely startups.",
   },
 };
 

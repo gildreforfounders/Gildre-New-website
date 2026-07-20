@@ -33,7 +33,21 @@ const data: LocationData = {
 export const metadata = {
   title: "Founder Community in Boston | Gildre",
   description:
-    "Gildre connects Boston founders with curated peer matches, expert mentorship, and investor access. Join the founder community built for Boston's biotech, deep-tech, and enterprise ecosystem.",
+    "Gildre connects Boston founders with curated peer matches, expert mentorship, and investor access. Built for Boston's biotech, deep-tech, and enterprise startup ecosystem.",
+  keywords: ["Boston founder community", "Boston startup network", "Boston entrepreneurs", "Gildre Boston", "biotech founders Boston"],
+  openGraph: {
+    title: "Founder Community in Boston | Gildre",
+    description: "Curated peer matches, expert mentorship, and investor access for Boston founders in biotech, deep-tech, and enterprise.",
+    url: "https://www.gildre.com/boston",
+    siteName: "Gildre",
+    type: "website",
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Boston" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founder Community in Boston | Gildre",
+    description: "Curated peer matches, expert mentorship, and investor access for Boston founders in biotech, deep-tech, and enterprise.",
+  },
 };
 
 export default function BostonPage() {
