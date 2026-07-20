@@ -81,6 +81,48 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Navigation links */}
+        <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-4" style={{ borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "2.5rem" }}>
+          <div>
+            <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Community</p>
+            <ul className="mt-4 space-y-2.5">
+              <li><a href="/founder-community" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Founder Community</a></li>
+              <li><a href="/membership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Membership Plans</a></li>
+              <li><a href="/memberprograms" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Member Programs</a></li>
+              <li><a href="/mentor" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Startup Mentors</a></li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Cities</p>
+            <ul className="mt-4 space-y-2.5">
+              <li><a href="/boston" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Boston</a></li>
+              <li><a href="/nyc" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">New York City</a></li>
+              <li><a href="/bayarea" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Bay Area</a></li>
+              <li><a href="/chicago" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Chicago</a></li>
+              <li><a href="/austin" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Austin</a></li>
+              <li><a href="/la" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Los Angeles</a></li>
+              <li><a href="/seattle" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Seattle</a></li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Resources</p>
+            <ul className="mt-4 space-y-2.5">
+              <li><a href="/content" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Founder Content</a></li>
+              <li><a href="/guides/startup-equity-101" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Startup Equity 101</a></li>
+              <li><a href="/guides/pre-seed-fundraising-playbook" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Fundraising Playbook</a></li>
+              <li><a href="/guides/next-100-customers-gtm-playbook" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">GTM Playbook</a></li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Company</p>
+            <ul className="mt-4 space-y-2.5">
+              <li><a href="/contact" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Contact</a></li>
+              <li><a href="/referral" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Refer a Founder</a></li>
+              <li><a href="/privacy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
         {/* Newsletter + Podcast + Content */}
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
 

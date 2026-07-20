@@ -379,6 +379,20 @@ export default function Home() {
       {/* 15 — FAQ */}
       <FAQSection />
 
+      {/* Pillar page link — founder community guide */}
+      <div className="py-8 text-center" style={{ backgroundColor: "#080e1a" }}>
+        <p className="text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
+          New to startup communities?{" "}
+          <a
+            href="/founder-community"
+            className="underline underline-offset-4 transition-colors hover:opacity-80"
+            style={{ color: "#C9A96E" }}
+          >
+            Read the complete guide to founder communities →
+          </a>
+        </p>
+      </div>
+
       {/* 15 — Final push: closing CTA */}
       <ClosingCTA />
 
