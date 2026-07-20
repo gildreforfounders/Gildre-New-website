@@ -41,6 +41,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
+    category: "Leadership",
+    readTime: "15 min read",
+    excerpt:
+      "ClassPass CEO Fritz Lanman on investing $240M into Facebook at Microsoft, losing 70 lbs on his own product, and the unconventional path to building a billion-dollar company.",
+    href: "/fritzlanmanblog",
+  },
+  {
     title: "How to Close Your First 10 Customers (Without a Sales Team)",
     category: "Growth",
     readTime: "6 min read",
