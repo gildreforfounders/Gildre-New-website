@@ -49,6 +49,14 @@ const featured = [
     href: "/fritzlanmanblog",
   },
   {
+    title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Jotform CEO Aytekin Tank on the 50/50 rule, competing with Google Forms, and why bootstrapping gave him the freedom to build a 600-person company on his own timeline.",
+    href: "/aytekintankblog",
+  },
+  {
     title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
     category: "Leadership",
     readTime: "10 min read",
