@@ -31,7 +31,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
     image: "https://www.gildre.com/images/gildre-logo.png",
     description: `Gildre is a private founder membership community in ${data.name}, ${data.state} — offering curated peer matches, expert mentorship, and investor access.`,
     email: "info@gildre.com",
-    // telephone: "+1-XXX-XXX-XXXX", // Add Gildre phone number here
+    telephone: "+1-847-881-6319",
     priceRange: "$$",
     currenciesAccepted: "USD",
     paymentAccepted: "Credit Card",

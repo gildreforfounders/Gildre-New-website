@@ -111,7 +111,7 @@ const organizationSchema = {
   "image": "https://www.gildre.com/images/gildre-logo.png",
   "description": "Gildre is a private membership community for founders — providing curated peer connections, expert mentorship, and tactical resources to help founders build, scale, and exit.",
   "email": "info@gildre.com",
-  // "telephone": "+1-XXX-XXX-XXXX", // Add Gildre phone number here
+  "telephone": "+1-847-881-6319",
   "priceRange": "$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Credit Card",
