@@ -9,10 +9,10 @@ export default function StagesSection() {
           className="mt-3 text-center text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Founder Community for Every Stage — Pre-Revenue to $5M+ ARR
+          Built for Founders Hitting Their Next Milestone
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-base leading-relaxed text-zinc-500">
-          Connect with startup founders and experienced mentors solving the same challenges at your exact stage of growth.
+          Build alongside founders solving the same problems as you, at your stage.
         </p>
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">

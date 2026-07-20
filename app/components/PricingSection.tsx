@@ -93,7 +93,7 @@ export default function PricingSection() {
           Founder Community Membership Plans
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-center text-base leading-relaxed text-zinc-500">
-          Choose the startup mentorship plan that fits your stage. Upgrade anytime as your company grows.
+          Choose the startup membership plan that fits your stage. Upgrade anytime as you grow.
         </p>
 
         {/* Toggle */}

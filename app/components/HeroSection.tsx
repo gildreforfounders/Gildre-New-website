@@ -34,13 +34,13 @@ export default function HeroSection() {
             className="text-[clamp(1.85rem,4.8vw,4rem)] font-bold leading-[1.1] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            The startup founder community<br />
-            built by operators who have<br />
+            Level up with founders<br />
+            &amp; advisors who have<br />
             <span style={{ color: "#C9A96E" }}>built, scaled &amp; exited</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/75">
-            Gildre is a private founder community offering 1:1 startup mentorship, curated peer introductions, and expert-led programming — for founders from pre-revenue to $5M+ ARR.
+            Gildre is the home for founders who execute. Whether establishing PMF or scaling to $5M ARR, get direct access to the people and insights you need to build with certainty.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

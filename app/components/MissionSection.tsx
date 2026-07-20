@@ -40,10 +40,10 @@ export default function MissionSection() {
 
         {/* Headline */}
         <h2
-          className="mt-4 text-center text-[2rem] font-bold text-white sm:text-[2.6rem]"
+          className="mt-4 text-center text-[2rem] font-bold leading-snug text-white sm:text-[2.6rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Our Mission: A Founder Community{" "}
+          A Founder Community{" "}
           <span style={{ color: "#C9A96E" }}>Built on Shared Success</span>
         </h2>
 
