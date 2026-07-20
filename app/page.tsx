@@ -132,7 +132,7 @@ const organizationSchema = {
   "url": "https://www.gildre.com",
   "logo": "https://www.gildre.com/images/gildre-logo.png",
   "image": "https://www.gildre.com/images/gildre-logo.png",
-  "description": "Gildre is a private membership community for founders — providing curated peer connections, expert mentorship, and tactical resources to help founders build, scale, and exit.",
+  "description": "Gildre is a private startup founder community offering 1:1 mentorship from exited operators, curated peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR. Gildre takes no equity and charges a monthly membership fee starting at $59/month.",
   "email": "info@gildre.com",
   "telephone": "+1-847-881-6319",
   "priceRange": "$$",
@@ -181,7 +181,127 @@ const organizationSchema = {
     "contactType": "customer service",
     "areaServed": "US",
     "availableLanguage": "English"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Gildre Founder Community Membership Plans",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Silver Membership",
+        "description": "For founders in the Build stage (pre-revenue to $500K ARR). Includes white-glove onboarding, weekly curated 1:1 introductions, virtual events, private community platform, and $5M+ in partner perks.",
+        "price": "59.00",
+        "priceCurrency": "USD",
+        "priceSpecification": { "@type": "UnitPriceSpecification", "price": "59.00", "priceCurrency": "USD", "unitText": "MONTH" },
+        "url": "https://www.gildre.com/membership"
+      },
+      {
+        "@type": "Offer",
+        "name": "Gold Membership",
+        "description": "For founders in the Growth stage ($500K–$5M ARR). Includes everything in Silver plus 1 monthly advisory session with a Gildre Managing Partner, in-person events, podcasting opportunities, and investor directory access.",
+        "price": "149.00",
+        "priceCurrency": "USD",
+        "priceSpecification": { "@type": "UnitPriceSpecification", "price": "149.00", "priceCurrency": "USD", "unitText": "MONTH" },
+        "url": "https://www.gildre.com/membership"
+      },
+      {
+        "@type": "Offer",
+        "name": "Platinum Membership",
+        "description": "For founders in the Scale stage ($5M+ ARR). Includes everything in Gold plus 2 monthly advisory sessions, personalized 1:1 mentor pairing with an exited founder, and multiple warm investor introductions per month.",
+        "price": "349.00",
+        "priceCurrency": "USD",
+        "priceSpecification": { "@type": "UnitPriceSpecification", "price": "349.00", "priceCurrency": "USD", "unitText": "MONTH" },
+        "url": "https://www.gildre.com/membership"
+      }
+    ]
   }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Gildre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre is a private startup founder community offering curated 1:1 mentorship, peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR. Gildre does not take equity — it is a membership-based community, not an accelerator. Members get matched with exited founders, connected with stage-matched peers, and given access to 100+ annual events across 15+ US cities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Gildre cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre offers three membership tiers: Silver at $59/month (or $50/month annually), Gold at $149/month (or $125/month annually), and Platinum at $349/month (or $249/month annually). Annual billing saves up to 29%. All memberships renew automatically and can be cancelled anytime."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the Gildre membership?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every Gildre membership includes white-glove onboarding, weekly curated 1:1 peer and mentor introductions, 3–4 virtual events per month (AMAs, Innovation Roundtables, Fireside Chats, Executive Workshops), access to the private community platform with 250+ founders, and $5M+ in partner perks from 500+ companies. Gold and Platinum additionally include monthly advisory sessions with a Gildre Managing Partner, in-person events, and investor directory access. Platinum adds personalized 1:1 mentor pairing and multiple monthly investor introductions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does 1:1 mentorship work at Gildre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre's 1:1 mentorship is available at Gold and Platinum tiers. After onboarding, the Gildre team personally curates a mentor match based on your industry, stage, and goals. Mentors are exited founders and domain operators — not coaches or consultants. Mentor-founder sessions happen 1–2 times per month and typically last 4–5 months before Gildre optimizes a new pairing. Platinum members receive a dedicated senior mentor with domain expertise in their specific space."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Gildre take equity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Gildre is a membership community, not an accelerator. Gildre charges a monthly membership fee (starting at $59/month) and takes zero equity in members' companies. Founders keep 100% ownership of their business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are Gildre's mentors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre's mentor network includes 20+ operators, exited founders, and executives. Highlighted mentors include Fritz Lanman (CEO of ClassPass/Mindbody, led Microsoft's $240M Facebook investment in 2007), Diana Stepner (VP Product at Chan Zuckerberg Initiative, former Kayak and Monster), Sam Bradley (Director of Product at PayPal), Krishna Dosapati (Founder of Clockout — $1.1M ARR in 10 months), and Jason Jacobsohn (Managing Partner at Propellant Ventures, Director of Chicago Founder Institute)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What stage of startup is Gildre for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre serves founders across three stages: Build (pre-revenue to $500K ARR), Growth ($500K–$5M ARR), and Scale ($5M+ ARR). Each membership tier is mapped to a specific stage: Silver for Build, Gold for Growth, and Platinum for Scale. Gildre is industry-agnostic and serves founders in SaaS, fintech, consumer, health tech, media, and professional services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What cities does Gildre operate in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events — dinners, happy hours, and co-working sessions — are hosted quarterly in each city for Gold and Platinum members."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many events does Gildre host per month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gildre hosts 3–4 curated virtual events per month including weekly AMAs, Innovation Roundtables (intimate founder-only sessions of 12 or fewer people), Founder Fireside Chats, and Executive Workshops. Members also get access to 2–3 ecosystem events per week from partner organizations. Gold and Platinum members attend quarterly in-person dinners and events in their city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Innovation Roundtables?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Innovation Roundtables are intimate, founder-only sessions of 12 or fewer people, led by an Executive Mentor on a specific operational topic. They are designed for deep, realistic conversations — founders sharing real successes and struggles, not polished presentations. Gildre hosts these monthly, with topics determined by each Executive Mentor's domain expertise."
+      }
+    }
+  ]
 };
 
 export default function Home() {
@@ -190,6 +310,10 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* 1 — Hook: bold promise, hero image, dual CTA */}

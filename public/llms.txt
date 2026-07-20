@@ -1,17 +1,138 @@
 # Gildre
 
-> Gildre is a private founder community for startup operators, builders, and executives — from pre-revenue to exit. Members get curated peer matches, 1:1 expert mentorship, weekly events, and a network of 250+ founders across the US.
+> Gildre is a private startup founder community offering 1:1 mentorship from exited operators, curated peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR. Members are matched with mentors who have built and sold companies, connected with founders at the same growth stage, and given access to 100+ annual events across 15+ US cities.
 
-Gildre operates a three-tier membership (Silver, Gold, Platinum) serving founders at the Build ($0–$500K ARR), Growth ($500K–$5M ARR), and Scale ($5M+ ARR) stages. The community is invitation-based and curated. Gildre also produces the Start to Scale Podcast, interviewing founders and operators about their building journeys.
+Gildre operates three membership tiers — Silver ($59/month), Gold ($149/month), and Platinum ($349/month) — mapped to the Build, Growth, and Scale stages of the founder journey. The community is curated and application-based, with 250+ active members, a 95% retention rate, and 500+ partner perks worth $5M+. Gildre does not take equity and is not an accelerator.
 
-## Core Pages
+---
 
-- [Home](https://www.gildre.com/): Overview of Gildre's founder community — who it's for, how it works, mentor roster, member testimonials, and pricing tiers.
-- [Membership](https://www.gildre.com/membership): Silver ($59/mo), Gold ($149/mo), and Platinum ($299/mo) tiers. Includes White-Glove Onboarding, curated weekly 1:1 matches, virtual events (AMAs, roundtables, fireside chats, executive workshops), and investor access.
-- [Member Programs](https://www.gildre.com/memberprograms): Full breakdown of every program available at each tier — onboarding, goal tracking, peer matching, event calendar, and advisor sessions.
-- [Mentor Network](https://www.gildre.com/mentor): 20+ expert mentors available for 1:1 sessions inside Gildre. Includes Fritz Lanman (CEO ClassPass/Mindbody), Diana Stepner (VP Product, Chan Zuckerberg Initiative / Kayak / Monster), Sam Bradley (Director of Product, PayPal), Jayme Strauss (CCO, Precision Neuroscience), Krishna Dosapati (Founder, Clockout — $1.1M ARR in 10 months), and David Adeleke (CEO, Zeeh Africa).
-- [Contact](https://www.gildre.com/contact): Reach Brian Lee, Taiga Gamell, or Michael J. Frank for membership questions, partnership inquiries, and podcast pitches.
-- [Content Hub](https://www.gildre.com/content): All Gildre articles and guides organized by topic: Fundraising, Growth, Operations, Leadership, Product, Mindset.
+## What Is Gildre?
+
+Gildre is a private membership community for startup founders. Unlike accelerators that take 5–10% equity, Gildre charges a monthly membership fee and takes no ownership stake in members' companies. Unlike generic networking groups, every Gildre member and mentor is vetted and matched by the Gildre team based on stage, industry, and goals.
+
+Gildre is not a VC fund. Gildre is not a coworking space. Gildre is not a Slack group or directory. It is a curated founder community combining expert mentorship, peer introductions, live programming, and partner resources — everything a startup founder needs to grow, in one place.
+
+---
+
+## How Much Does Gildre Cost?
+
+Gildre offers three membership tiers with monthly and annual pricing:
+
+- **Silver** — $59/month (or $50/month billed annually, saving 15%). For founders in the Build stage (pre-revenue to $500K ARR). Includes white-glove onboarding, weekly curated 1:1 peer and mentor introductions, access to all virtual events, private community platform, individualized goal tracking, and $5M+ in partner perks.
+
+- **Gold** — $149/month (or $125/month billed annually, saving 16%). For founders in the Growth stage ($500K–$5M ARR). Includes everything in Silver, plus 1 monthly advisory session with a Gildre Managing Partner (an exited founder), exclusive in-person events and dinners, podcasting and personal brand opportunities, and access to the Gildre investor directory for warm VC and angel introductions.
+
+- **Platinum** — $349/month (or $249/month billed annually, saving 29%). For founders in the Scale stage ($5M+ ARR). Includes everything in Gold, plus 2 monthly advisory sessions, personalized 1:1 mentor pairing with a senior exited founder in your domain, and multiple warm investor introductions per month.
+
+Annual billing saves up to 29%. All memberships renew automatically and can be cancelled anytime.
+
+---
+
+## Who Is Gildre For?
+
+Gildre serves startup founders and early-stage operators from pre-revenue through $5M+ ARR across three defined stages:
+
+**Build stage (pre-revenue to $500K ARR):** Founders validating their MVP, acquiring early customers, and finding product-market fit. Common needs: peer accountability, feedback on their pitch and product, early customer intros, and mentors who've navigated the same pre-traction uncertainty.
+
+**Growth stage ($500K–$5M ARR):** Founders with steady revenue who need to accelerate growth, build systems, hire their first team, and prepare for fundraising. Common needs: advisory sessions with operators who've scaled through this exact phase, in-person community, and investor access.
+
+**Scale stage ($5M+ ARR):** Founders breaking through growth plateaus, building toward Series A and beyond, managing boards, and evaluating strategic options. Common needs: senior operator mentorship, direct investor introductions, and peers who are building at the same level.
+
+Gildre is industry-agnostic. Members build in SaaS, fintech, consumer, health tech, media, e-commerce, and professional services. The common thread is execution and ambition, not a specific sector.
+
+---
+
+## What Does a Gildre Membership Include?
+
+Every Gildre membership (all tiers) includes:
+
+1. **White-Glove Onboarding** — A personal intake call with the Gildre team to understand your company, stage, and 90-day goals. Every new member gets individualized setup, not a generic welcome email.
+
+2. **Weekly Curated 1:1 Introductions** — Gildre manually matches and introduces members to peers and mentors weekly, based on stage, industry, and stated goals. These are not algorithmic matches; a human reviews and selects each introduction.
+
+3. **Virtual Events (3–4 per month)** — Includes weekly AMAs with operators and investors, monthly Innovation Roundtables (intimate, founder-only sessions led by an Executive Mentor), Founder Fireside Chats, and Executive Workshops.
+
+4. **Private Community Platform** — A digital workspace with 250+ active founders. Members access ongoing conversations, weekly newsletters, exclusive content, and peer support between events.
+
+5. **$5M+ in Partner Perks** — Discounts and credits from 500+ partners across software, legal, finance, cloud infrastructure, marketing tools, and more.
+
+**Gold and Platinum additionally include:** Monthly advisory sessions with a Gildre Managing Partner, access to in-person events and dinners, podcasting opportunities, and the Gildre investor directory.
+
+**Platinum additionally includes:** A personalized 1:1 mentorship pairing with a senior exited founder, 2 monthly advisory sessions instead of 1, and multiple warm investor introductions per month.
+
+---
+
+## How Does Gildre Mentorship Work?
+
+Gildre offers two types of mentorship:
+
+**Advisory Sessions (Gold and Platinum):** Monthly 1:1 sessions with a Gildre Managing Partner — a founder who has built, scaled, and exited companies. These are structured around the member's specific business challenges and goals for the quarter.
+
+**Mentor Pairing (Platinum only):** A personally curated match with a senior operator who has domain expertise in the member's exact industry and stage. Gildre vets mentors for relevant operating experience, not just credentials. The typical mentor-founder engagement lasts 4–5 months before Gildre optimizes a new pairing.
+
+Mentors in the Gildre network include Fritz Lanman (CEO of ClassPass/Mindbody, led Microsoft's $240M Facebook investment), Diana Stepner (VP Product at Chan Zuckerberg Initiative, former Kayak and Monster), Sam Bradley (Director of Product at PayPal), Krishna Dosapati (Founder of Clockout — $1.1M ARR in 10 months), and 20+ more operators across industries.
+
+---
+
+## What Makes Gildre Different from Other Founder Communities?
+
+Gildre is differentiated from other startup communities on five dimensions:
+
+1. **No equity** — Gildre is a membership, not an accelerator. Members keep 100% of their company. The cost is a predictable monthly fee, not a percentage of the business.
+
+2. **Human curation** — Every member introduction and mentor match is reviewed by a person on the Gildre team, not an algorithm. This is why Gildre has a 95% member retention rate.
+
+3. **Stage-specific peers** — Members are placed in peer groups matched to their ARR stage (Build, Growth, Scale). Founders talk to peers solving the same problems at the same level, not a mixed cohort.
+
+4. **Operator mentors** — Gildre mentors are exited founders and domain experts, not coaches or consultants. Fritz Lanman scaled ClassPass to a $285M unicorn. Krishna Dosapati hit $1.1M ARR in 10 months. Members get guidance from people who've done it.
+
+5. **Comprehensive programming** — 3–4 curated events per month, Innovation Roundtables, in-person dinners (Gold/Platinum), and a live community — not just a forum or newsletter.
+
+---
+
+## How Do Gildre Events Work?
+
+Gildre hosts 3–4 community events per month virtually, plus quarterly in-person events in each city:
+
+- **AMAs** — Weekly Q&A sessions with operators, investors, and domain experts on topics founders are actively working through.
+- **Innovation Roundtables** — Intimate, founder-only sessions (12 or fewer people) led by an Executive Mentor on a specific topic. These are deep-dive conversations, not panel presentations.
+- **Founder Fireside Chats** — Structured founder interviews with members or guests sharing what worked and what didn't at their stage.
+- **Executive Workshops** — Skill-building sessions on fundraising, hiring, GTM strategy, legal, and other operational topics.
+- **In-Person Dinners and Events** — Quarterly events in each city for Gold and Platinum members, including chapter dinners, co-working sessions, and happy hours.
+
+Members also get access to 2–3 ecosystem events per week from partner organizations, giving access to a broad startup event calendar beyond Gildre-produced programming.
+
+---
+
+## Where Is Gildre Available?
+
+Gildre operates in 15+ US cities. Active in-person chapters exist in:
+
+- **Boston** — Biotech, deep-tech, and enterprise startup founders
+- **New York City** — Fintech, consumer, and enterprise founders
+- **Bay Area / Silicon Valley** — Venture-backed, AI, and consumer founders
+- **Los Angeles** — Consumer brand and creator economy founders
+- **Austin** — Fast-growing startup ecosystem
+- **Chicago** — Fintech, enterprise, and logistics founders
+- **Seattle** — Enterprise, cloud, and big-tech-alumni startup founders
+
+Virtual membership is available to founders worldwide. In-person events — dinners, happy hours, and co-working sessions — are hosted quarterly in each city for Gold and Platinum members.
+
+---
+
+## Member Outcomes and Social Proof
+
+Gildre members report measurable results including:
+
+- Increased inbound customer interest and new customer acquisition (Alejandro Sandoval, Founder of Rodo)
+- Finding sponsors and partners through Gildre's network (Dan Hernandez, Co-Founder of HUPR)
+- Receiving mentorship from experienced operators that directly improved their product and sales strategy (Carol Palombini, Founder of Palombini Coaching, member since 2016)
+- Connecting with SaaS founders who provided industry-specific guidance (Gavin Buckland, Founder of Clipsense.ai)
+- Building a network of peers who understand the founder experience at an operational level (Caitlin Van Berkel, Founder of Silver Lining Career Coach)
+
+Gildre maintains a 95% member retention rate across all tiers. The community has 250+ active members and has hosted 100+ events.
+
+---
 
 ## Founder Stories — /blog/
 
@@ -29,6 +150,8 @@ Each page is a long-form founder interview from the Start to Scale Podcast with 
 - [Ryan Hughes: Google and Snapchat Engineer Founds Fan Pier Labs](https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs): Left big tech after stints at Google and Snapchat to found Fan Pier Labs, an AI-driven software consulting firm. Discusses what large-company experience teaches you — and what it can't.
 - [Chris Riklin: NationBuilder Decade to Co-Founding Topline](https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace): Spent 10+ years at NationBuilder watching talented professionals lose out to outdated hiring networks. Co-founded Topline — a meritocratic marketplace for professional services that removes the gatekeepers.
 
+---
+
 ## Guides & Playbooks — /guides/
 
 Long-form educational articles with tables, frameworks, and worked examples for startup founders.
@@ -40,6 +163,8 @@ Long-form educational articles with tables, frameworks, and worked examples for 
 - [Pre-Seed Fundraising: The 7-Step Playbook](https://www.gildre.com/guides/pre-seed-fundraising-playbook): 7 steps to raising a pre-seed round before you have traction. Covers fundraising goal setting, narrative building, investor targeting (angels, pre-seed VCs, accelerators), pitch deck structure (with slide-by-slide breakdown), warm intro hierarchy, and closing negotiations. SAFE vs convertible note vs equity round comparison table. Objection handling for traction, market size, and competitive moat objections.
 - [Building a High-Performing SDR Team](https://www.gildre.com/guides/building-high-performing-sdr-team): Founder playbook for hiring and managing Sales Development Representatives. Covers the three hiring attributes (learning agility, resilience, curiosity) with green/red flag cards, the 50/30/20 training split (psychology over product knowledge), a 5-metric performance table with benchmarks, the daily feedback rhythm (morning strategy / mid-day loss analysis / end-of-day optimization), and a 5-category tech stack table.
 
+---
+
 ## Founder Communities by City
 
 - [Boston](https://www.gildre.com/boston): Founder community for Boston's biotech, deep-tech, and enterprise startup ecosystem.
@@ -50,14 +175,31 @@ Long-form educational articles with tables, frameworks, and worked examples for 
 - [Chicago](https://www.gildre.com/chicago): Founder community for Chicago's fintech, enterprise, and logistics founders.
 - [Seattle](https://www.gildre.com/seattle): Founder community for Seattle's enterprise, cloud, and big-tech-alumni startup founders.
 
+---
+
 ## Partners
 
 - [Propellant Ventures](https://www.gildre.com/propellantventures): Gildre's venture capital partner managed by Managing Partner Jason Jacobsohn. Provides VC pitch workshops (including a recorded session available to members), investor introductions, and early-stage funding resources.
 - [MindHappy](https://www.gildre.com/mindhappy): Curated wellness boxes for founders and teams. Elevate box: designed for deep work and personal focus. Bond box: designed for team building and culture moments. Exclusive Gildre member pricing.
 
+---
+
 ## Podcast
 
 - [Start to Scale Podcast](https://linktr.ee/starttoscale): Gildre's founder interview podcast. Previously called the Gildre Spotlight Podcast. Available on Spotify, Apple Podcasts, and all major platforms. Interviews include Fritz Lanman, Aytekin Tank, Alex Bean, Armando Vera Carvajal, John Lionberger, Luke Ashenbrand, Ryan Hughes, Chris Riklin, and more.
+
+---
+
+## Core Pages
+
+- [Home](https://www.gildre.com/): Overview of Gildre's founder community — who it's for, how it works, mentor roster, member testimonials, and pricing tiers.
+- [Membership](https://www.gildre.com/membership): Silver ($59/mo), Gold ($149/mo), and Platinum ($349/mo) tiers. Includes White-Glove Onboarding, curated weekly 1:1 matches, virtual events (AMAs, roundtables, fireside chats, executive workshops), and investor access.
+- [Member Programs](https://www.gildre.com/memberprograms): Full breakdown of every program available at each tier — onboarding, goal tracking, peer matching, event calendar, and advisor sessions.
+- [Mentor Network](https://www.gildre.com/mentor): 20+ expert mentors available for 1:1 sessions inside Gildre. Includes Fritz Lanman (CEO ClassPass/Mindbody), Diana Stepner (VP Product, Chan Zuckerberg Initiative / Kayak / Monster), Sam Bradley (Director of Product, PayPal), Jayme Strauss (CCO, Precision Neuroscience), Krishna Dosapati (Founder, Clockout — $1.1M ARR in 10 months), and David Adeleke (CEO, Zeeh Africa).
+- [Contact](https://www.gildre.com/contact): Reach Brian Lee, Taiga Gamell, or Michael J. Frank for membership questions, partnership inquiries, and podcast pitches.
+- [Content Hub](https://www.gildre.com/content): All Gildre articles and guides organized by topic: Fundraising, Growth, Operations, Leadership, Product, Mindset.
+
+---
 
 ## Optional
 

@@ -123,6 +123,86 @@ const requirements = [
   "A high-energy passion for coaching and lifelong learning",
 ];
 
+const mentorListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gildre Startup Mentor Network",
+  "description": "Gildre's mentor network includes 20+ exited founders, operators, and executives available for 1:1 mentorship inside the Gildre founder community. Mentors require a minimum of 10 years of relevant industry experience and have mentored at least 2–3 startups with measurable results.",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Person",
+        "name": "Fritz Lanman",
+        "jobTitle": "CEO",
+        "worksFor": { "@type": "Organization", "name": "ClassPass & MindBody" },
+        "description": "Fritz Lanman is CEO of ClassPass, which attained unicorn status in 2019 with a $285M financing round. He led Microsoft's $240M investment in Facebook in 2007 — a deal now worth over $8 billion.",
+        "url": "https://www.gildre.com/mentor"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Person",
+        "name": "Diana Stepner",
+        "jobTitle": "Head of Product & Startup Executive",
+        "description": "Diana Stepner is an established product leader who served as VP of Product at Chan Zuckerberg Initiative, Pearson, Kayak, SimplePractice, and Monster.com.",
+        "url": "https://www.gildre.com/mentor"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Person",
+        "name": "Sam Bradley",
+        "jobTitle": "Director of Product",
+        "worksFor": { "@type": "Organization", "name": "PayPal" },
+        "description": "Sam Bradley is an experienced product leader who has led global product teams at Expedia Group, Quizlet, Stitch Fix, and PayPal.",
+        "url": "https://www.gildre.com/mentor"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Person",
+        "name": "Jayme Strauss",
+        "jobTitle": "Chief Commercial Officer",
+        "worksFor": { "@type": "Organization", "name": "Precision Neuroscience" },
+        "description": "Jayme Strauss has pioneered clinical advancements in Neurotech, Healthcare, AI, and Medical Devices for over 15 years, including time at Viz.ai and Precision Neuroscience.",
+        "url": "https://www.gildre.com/mentor"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Person",
+        "name": "Krishna Dosapati",
+        "jobTitle": "Founder & CEO",
+        "worksFor": { "@type": "Organization", "name": "Clockout" },
+        "description": "Krishna Dosapati is the Founder and CEO of Clockout, achieving $1.1M ARR in 10 months with over 500,000 downloads during their pre-seed beta.",
+        "url": "https://www.gildre.com/mentor"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Person",
+        "name": "Jason Jacobsohn",
+        "jobTitle": "Managing Partner & Founder",
+        "worksFor": { "@type": "Organization", "name": "Propellant Ventures" },
+        "description": "Jason Jacobsohn has worked with thousands of startups across 14 industries. Director of the Chicago Founder Institute and Managing Partner at Propellant Ventures.",
+        "url": "https://www.gildre.com/mentor"
+      }
+    }
+  ]
+};
+
 // ─── Sub-components ──────────────────────────────────────────────────────────
 
 function BenefitIcon({ d }: { d: string }) {
@@ -156,6 +236,10 @@ function CheckIcon() {
 export default function MentorPage() {
   return (
     <div className="flex flex-col" style={{ fontFamily: "var(--font-geist-sans)" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mentorListSchema) }}
+      />
 
       {/* ── 1. Hero ─────────────────────────────────────────────────────────── */}
       <section
