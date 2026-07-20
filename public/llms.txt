@@ -1,0 +1,65 @@
+# Gildre
+
+> Gildre is a private founder community for startup operators, builders, and executives — from pre-revenue to exit. Members get curated peer matches, 1:1 expert mentorship, weekly events, and a network of 250+ founders across the US.
+
+Gildre operates a three-tier membership (Silver, Gold, Platinum) serving founders at the Build ($0–$500K ARR), Growth ($500K–$5M ARR), and Scale ($5M+ ARR) stages. The community is invitation-based and curated. Gildre also produces the Start to Scale Podcast, interviewing founders and operators about their building journeys.
+
+## Core Pages
+
+- [Home](https://www.gildre.com/): Overview of Gildre's founder community — who it's for, how it works, mentor roster, member testimonials, and pricing tiers.
+- [Membership](https://www.gildre.com/membership): Silver ($59/mo), Gold ($149/mo), and Platinum ($299/mo) tiers. Includes White-Glove Onboarding, curated weekly 1:1 matches, virtual events (AMAs, roundtables, fireside chats, executive workshops), and investor access.
+- [Member Programs](https://www.gildre.com/memberprograms): Full breakdown of every program available at each tier — onboarding, goal tracking, peer matching, event calendar, and advisor sessions.
+- [Mentor Network](https://www.gildre.com/mentor): 20+ expert mentors available for 1:1 sessions inside Gildre. Includes Fritz Lanman (CEO ClassPass/Mindbody), Diana Stepner (VP Product, Chan Zuckerberg Initiative / Kayak / Monster), Sam Bradley (Director of Product, PayPal), Jayme Strauss (CCO, Precision Neuroscience), Krishna Dosapati (Founder, Clockout — $1.1M ARR in 10 months), and David Adeleke (CEO, Zeeh Africa).
+- [Contact](https://www.gildre.com/contact): Reach Brian Lee, Taiga Gamell, or Michael J. Frank for membership questions, partnership inquiries, and podcast pitches.
+- [Content Hub](https://www.gildre.com/content): All Gildre articles and guides organized by topic: Fundraising, Growth, Operations, Leadership, Product, Mindset.
+
+## Founder Stories — /blog/
+
+Each page is a long-form founder interview from the Start to Scale Podcast with key quotes, callout facts, and inline photos.
+
+- [Fritz Lanman: ClassPass CEO, $285M Unicorn](https://www.gildre.com/blog/fritz-lanman-classpass-microsoft-unicorn): Fritz led Microsoft's $240M Facebook investment in 2007, lost 70 lbs using his own product, and scaled ClassPass to unicorn status with a $285M round. Now CEO of Mindbody.
+- [Aytekin Tank: Bootstrapped Jotform to 25M Users Without VC](https://www.gildre.com/blog/aytekin-tank-bootstrapped-jotform-no-vc): Jotform CEO built a 600-person, 25-million-user SaaS company without taking a dollar of venture capital. Discusses the 50/50 rule, competing with Google Forms, and long-term thinking.
+- [Alex Bean: Divvy Co-Founder, Bill.com Exit, VC at Tandem Invest](https://www.gildre.com/blog/alex-bean-divvy-billcom-acquisition): Co-founded Divvy and sold it to Bill.com before the product was fully built. Now co-founder of Tandem Invest. Covers the fintech build, the exit, and what he looks for as an investor.
+- [NASA Engineer to Y Combinator Founder (ChatOpenSource)](https://www.gildre.com/blog/nasa-engineer-y-combinator-chatopensource): From Louisiana's Cancer Alley to a physics degree at LSU to working on NASA's Curiosity and Maven missions to founding an open-source AI company through Y Combinator.
+- [James Corwin: Wildlife Artist to Gallery Owner](https://www.gildre.com/blog/james-corwin-wildlife-artist-corwin-galleries): Grew up in Montana, earned a surprise art scholarship, went on a life-changing African safari, and built Corwin Galleries from $20 miniature paintings at farmers markets.
+- [Robyn Hobson: Cape Town Startup to VP Marketing at Remote Vans](https://www.gildre.com/blog/robyn-hobson-cape-town-to-us-cmo): 13 years of marketing across South Africa, China, and the US. Bronze Stevie Award winner. Scaled Woolworths South Africa to 500K social followers before becoming VP of Marketing at Remote Vans.
+- [Luke Ashenbrand: Princeton D1 Football to Startup Founder](https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup): Princeton Division I offensive lineman suffered a career-ending traumatic concussion. Spent 15 days in a dark room recovering, then channeled the setback into startup consulting and entrepreneurship.
+- [John Lionberger: Broadway to Engineering to $500M Business to Pro Racing](https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing): Started as a Broadway theater technician, became an electrical engineer, built a $500M professional services firm, grew Valvoline franchises, created an ESOP, and still races competitively on weekends.
+- [Armando Vera Carvajal: First-Gen Immigrant Builds Hangtight AI App](https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon): First-generation Mexican immigrant. Parents sacrificed careers for the American Dream. Armando studied in Paris and Singapore, trekked into the Peruvian Amazon with an ayahuasca community, then built Hangtight — an AI social planning app that acquired GoPlanIt.
+- [Ryan Hughes: Google and Snapchat Engineer Founds Fan Pier Labs](https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs): Left big tech after stints at Google and Snapchat to found Fan Pier Labs, an AI-driven software consulting firm. Discusses what large-company experience teaches you — and what it can't.
+- [Chris Riklin: NationBuilder Decade to Co-Founding Topline](https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace): Spent 10+ years at NationBuilder watching talented professionals lose out to outdated hiring networks. Co-founded Topline — a meritocratic marketplace for professional services that removes the gatekeepers.
+
+## Guides & Playbooks — /guides/
+
+Long-form educational articles with tables, frameworks, and worked examples for startup founders.
+
+- [Startup Equity 101: Splitting Shares, Vesting, Cap Table](https://www.gildre.com/guides/startup-equity-101): How to split founder equity fairly, structure employee stock options (ISOs vs NSOs), survive investor dilution, and avoid the cap table mistakes that haunt founders for years. Includes a founder equity split framework, role-based equity ranges, vesting schedules, and a SAFE vs equity round comparison table.
+- [Equity Dilution Explained: How Much to Give Away Per Round](https://www.gildre.com/guides/equity-dilution-explained): How much equity founders actually give away at pre-seed, seed, Series A, B, and C+. Worked dilution table from founding through Series B, the Facebook case study (Thiel → Accel → Greylock → Microsoft → IPO), and post-round ownership benchmarks.
+- [Your Next 100 Customers: GTM Playbook 2026](https://www.gildre.com/guides/next-100-customers-gtm-playbook): Three go-to-market channels Gildre founders used in 2026 — high-intent content marketing, precision outbound email, and the strategic partnership flywheel. Includes tool stacks, workflow arrows, and two YouTube video embeds.
+- [How to Use Customer Feedback to Build a Product People Want](https://www.gildre.com/guides/how-to-use-customer-feedback-build-product): Airbnb, Slack, and Superhuman case studies. FIE prioritization framework (Frequency, Impact, Effort). Survey types table (NPS, PMF, Feature Request, Exit). Customer interview questions. Full tool stack. Three common mistake warnings.
+- [Pre-Seed Fundraising: The 7-Step Playbook](https://www.gildre.com/guides/pre-seed-fundraising-playbook): 7 steps to raising a pre-seed round before you have traction. Covers fundraising goal setting, narrative building, investor targeting (angels, pre-seed VCs, accelerators), pitch deck structure (with slide-by-slide breakdown), warm intro hierarchy, and closing negotiations. SAFE vs convertible note vs equity round comparison table. Objection handling for traction, market size, and competitive moat objections.
+- [Building a High-Performing SDR Team](https://www.gildre.com/guides/building-high-performing-sdr-team): Founder playbook for hiring and managing Sales Development Representatives. Covers the three hiring attributes (learning agility, resilience, curiosity) with green/red flag cards, the 50/30/20 training split (psychology over product knowledge), a 5-metric performance table with benchmarks, the daily feedback rhythm (morning strategy / mid-day loss analysis / end-of-day optimization), and a 5-category tech stack table.
+
+## Founder Communities by City
+
+- [Boston](https://www.gildre.com/boston): Founder community for Boston's biotech, deep-tech, and enterprise startup ecosystem.
+- [Austin](https://www.gildre.com/austin): Founder community for Austin's fast-growing startup ecosystem.
+- [Bay Area / Silicon Valley](https://www.gildre.com/bayarea): Founder community with VC introductions and Silicon Valley operator mentorship.
+- [New York City](https://www.gildre.com/nyc): Founder community for NYC's fintech, consumer, and enterprise ecosystem.
+- [Los Angeles](https://www.gildre.com/la): Founder community for LA's consumer brand and creator economy founders.
+- [Chicago](https://www.gildre.com/chicago): Founder community for Chicago's fintech, enterprise, and logistics founders.
+- [Seattle](https://www.gildre.com/seattle): Founder community for Seattle's enterprise, cloud, and big-tech-alumni startup founders.
+
+## Partners
+
+- [Propellant Ventures](https://www.gildre.com/propellantventures): Gildre's venture capital partner managed by Managing Partner Jason Jacobsohn. Provides VC pitch workshops (including a recorded session available to members), investor introductions, and early-stage funding resources.
+- [MindHappy](https://www.gildre.com/mindhappy): Curated wellness boxes for founders and teams. Elevate box: designed for deep work and personal focus. Bond box: designed for team building and culture moments. Exclusive Gildre member pricing.
+
+## Podcast
+
+- [Start to Scale Podcast](https://linktr.ee/starttoscale): Gildre's founder interview podcast. Previously called the Gildre Spotlight Podcast. Available on Spotify, Apple Podcasts, and all major platforms. Interviews include Fritz Lanman, Aytekin Tank, Alex Bean, Armando Vera Carvajal, John Lionberger, Luke Ashenbrand, Ryan Hughes, Chris Riklin, and more.
+
+## Optional
+
+- [Referral Program](https://www.gildre.com/referral): Refer a qualified founder to Gildre and earn a 100% first-month membership stipend plus ongoing monthly commissions.
+- [Privacy Policy](https://www.gildre.com/privacy): Gildre's privacy policy.
