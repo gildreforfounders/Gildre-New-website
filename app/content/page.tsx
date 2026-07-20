@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Your Next 100 Customers: The Gildre GTM Playbook (2026 Edition)",
+    category: "Growth",
+    readTime: "15 min read",
+    excerpt:
+      "The three highest-performing go-to-market channels Gildre founders used in 2026 — high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With exact tools, workflows, and tactics.",
+    href: "/next100customers",
+  },
+  {
     title: "Ryan Hughes: Why a Google and Snapchat Engineer Left Big Tech to Build Fan Pier Labs",
     category: "Product",
     readTime: "9 min read",
