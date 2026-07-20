@@ -41,6 +41,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting, and Managing Your Cap Table",
+    category: "Fundraising",
+    readTime: "12 min read",
+    excerpt:
+      "How to split founder equity fairly, structure employee stock options, survive investor dilution, and avoid the cap table mistakes that haunt founders for years — with benchmarks, tables, and worked examples.",
+    href: "/startupequity101",
+  },
+  {
     title: "Armando Vera Carvajal: How a First-Generation Mexican Immigrant Built Hangtight After a Journey Through the Amazon",
     category: "Mindset",
     readTime: "12 min read",
