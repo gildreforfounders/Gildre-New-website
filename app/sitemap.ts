@@ -29,5 +29,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/robynblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/lukeashenbrandblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/johnlionbergerblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
+    { url: `${BASE_URL}/armandoblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
   ];
 }

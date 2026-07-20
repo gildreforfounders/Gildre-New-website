@@ -41,6 +41,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Armando Vera Carvajal: How a First-Generation Mexican Immigrant Built Hangtight After a Journey Through the Amazon",
+    category: "Mindset",
+    readTime: "12 min read",
+    excerpt:
+      "His parents gave up careers in Mexico for the American Dream. Armando sold cheesecakes door-to-door, studied in Paris and Singapore, trekked into the Peruvian Amazon — then came home and built an AI startup that acquired its competition.",
+    href: "/armandoblog",
+  },
+  {
     title: "John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racer — Building a Half-Billion-Dollar Business Along the Way",
     category: "Operations",
     readTime: "10 min read",
