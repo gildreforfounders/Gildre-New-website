@@ -49,6 +49,14 @@ const featured = [
     href: "/fritzlanmanblog",
   },
   {
+    title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers",
+    category: "Product",
+    readTime: "11 min read",
+    excerpt:
+      "From Louisiana's Cancer Alley to NASA's Curiosity mission to founding ChatOpenSource through Y Combinator — one of the most unconventional founder paths you'll read about.",
+    href: "/nasafounderblog",
+  },
+  {
     title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
     category: "Fundraising",
     readTime: "9 min read",
