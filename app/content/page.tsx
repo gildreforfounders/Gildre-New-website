@@ -49,6 +49,14 @@ const featured = [
     href: "/fritzlanmanblog",
   },
   {
+    title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit",
+    category: "Leadership",
+    readTime: "8 min read",
+    excerpt:
+      "From growing Woolworths South Africa to 500K fans to marketing Sprinter vans — Robyn Hobson on 13 years of marketing across Africa, China, and the US and what it actually takes to build a global career.",
+    href: "/robynblog",
+  },
+  {
     title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers",
     category: "Product",
     readTime: "11 min read",
