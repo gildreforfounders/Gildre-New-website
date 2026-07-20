@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Ryan Hughes: Why a Google and Snapchat Engineer Left Big Tech to Build Fan Pier Labs",
+    category: "Product",
+    readTime: "9 min read",
+    excerpt:
+      "Ryan Hughes worked inside Google and Snapchat before founding Fan Pier Labs, an AI-driven software consulting firm for startups. He shares what big tech teaches you — and what it can't — on the Start to Scale Podcast.",
+    href: "/ryanhughesblog",
+  },
+  {
     title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks",
     category: "Fundraising",
     readTime: "10 min read",

@@ -32,5 +32,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/armandoblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/startupequity101`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/equitydilution`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/ryanhughesblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
   ];
 }
