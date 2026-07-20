@@ -1033,7 +1033,9 @@ export default function KickingOffPreSeed() {
               on how to pitch to VCs. Watch the full session and get direct feedback on your deck.
             </p>
             <a
-              href="/membership"
+              href="https://www.youtube.com/watch?v=iw7D3xL7nCE"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 display: "inline-block",
                 background: "#C9A96E",
