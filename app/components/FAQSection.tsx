@@ -19,7 +19,7 @@ const faqGroups: FAQGroup[] = [
       {
         question: "What is Gildre?",
         answer:
-          "Gildre is the premier knowledge community for ambitious founders, providing exclusive access to mentors, events, and tools to help you build a successful company.\n\nBuilding a company is a journey and you shouldn't have to do it alone. Partner with like-minded founders and experienced operators, allowing you to get faster insights and make better decisions.",
+          "Gildre is a private startup founder community offering curated 1:1 mentorship, peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR.\n\nBuilding a company is a journey — you shouldn't have to do it alone. Gildre connects you with exited founders, experienced operators, and ambitious peers who help you move faster and make better decisions.",
       },
       {
         question: "What is included in the Gildre membership?",

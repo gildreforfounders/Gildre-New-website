@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gildre Membership — Join the Founder Community Built for Every Stage",
+  title: "Gildre Membership — Startup Founder Community Plans Starting at $59/mo",
   description:
-    "Silver, Gold, and Platinum tiers for founders from pre-revenue to $5M+ ARR. Expert mentors, curated peer matches, weekly events, and 250+ operators in your corner.",
-  keywords: ["Gildre membership", "founder community", "startup network", "founder mentorship", "peer matching founders"],
+    "Silver ($59), Gold ($149), and Platinum ($349) startup mentorship plans for founders from pre-revenue to $5M+ ARR. 1:1 mentorship, curated peer matching, weekly events, and $5M+ in perks.",
+  keywords: ["Gildre membership", "founder community", "startup mentorship", "startup mentor", "founder peer group", "entrepreneur community membership"],
   openGraph: {
-    title: "Gildre Membership — Join the Founder Community Built for Every Stage",
+    title: "Gildre Membership — Startup Founder Community Plans Starting at $59/mo",
     description:
-      "Silver, Gold, and Platinum tiers for every stage. Expert mentors, curated peer matches, and weekly events for founders who execute.",
+      "Silver, Gold, and Platinum startup mentorship plans. 1:1 mentorship from exited founders, curated peer matching, and weekly events for serious startup founders.",
     url: "https://www.gildre.com/membership",
     siteName: "Gildre",
     type: "website",
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gildre Membership — Join the Founder Community Built for Every Stage",
-    description: "Silver, Gold, and Platinum tiers. Expert mentors, curated peer matches, and weekly events for serious founders.",
+    title: "Gildre Membership — Startup Founder Community Plans Starting at $59/mo",
+    description: "Silver, Gold, and Platinum startup mentorship plans. 1:1 mentorship from exited founders, curated peer matching, and weekly events.",
   },
 };
 

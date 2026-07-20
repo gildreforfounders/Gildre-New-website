@@ -90,10 +90,10 @@ export default function PricingSection() {
           className="mt-3 text-center text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Select Your Program
+          Founder Community Membership Plans
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-center text-base leading-relaxed text-zinc-500">
-          Join at the tier that fits where you are. Upgrade anytime as you grow.
+          Choose the startup mentorship plan that fits your stage. Upgrade anytime as your company grows.
         </p>
 
         {/* Toggle */}

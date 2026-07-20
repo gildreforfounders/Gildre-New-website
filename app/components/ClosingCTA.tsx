@@ -15,7 +15,7 @@ export default function ClosingCTA() {
           Nobody said it was going to be easy.
         </h2>
         <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          Whether you&rsquo;re starting your first company, launching a new product, or just battle-testing a concept — it&rsquo;s important to have someone to share ideas with. At Gildre you&rsquo;ll have a community of hundreds of founders to form your team, all supporting the same mission to build something amazing.
+          Whether you&rsquo;re starting your first company or scaling to Series A — every founder needs the right startup mentor, the right peers, and a founder community that actually shows up. At Gildre, 250+ founders and experienced operators are ready to help you build something extraordinary.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a

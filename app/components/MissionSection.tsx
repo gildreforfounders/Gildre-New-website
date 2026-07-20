@@ -43,24 +43,24 @@ export default function MissionSection() {
           className="mt-4 text-center text-[2rem] font-bold text-white sm:text-[2.6rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Mission &{" "}
-          <span style={{ color: "#C9A96E" }}>Principles</span>
+          Our Mission: A Founder Community{" "}
+          <span style={{ color: "#C9A96E" }}>Built on Shared Success</span>
         </h2>
 
         {/* Intro copy */}
         <div className="mx-auto mt-8 max-w-2xl space-y-5 text-center">
           <p className="text-base leading-[1.9] text-zinc-400">
-            At Gildre our core thesis revolves around the concept of{" "}
+            At Gildre, we believe every startup founder deserves a real community — not a database, not a directory, but experienced mentors, peer operators, and a support system built around{" "}
             <span className="font-semibold text-white">&ldquo;Community for All&rdquo;</span>.
           </p>
           <p className="text-base leading-[1.9] text-zinc-400">
-            You don&rsquo;t need a specific industry or experience background to become a member, just the motivation to build something great and support other founders.
+            You don&rsquo;t need a specific industry background to join. You just need the drive to build something meaningful and the willingness to support the founders building alongside you.
           </p>
           <p className="text-base leading-[1.9] text-zinc-400">
-            Our principles revolve around our 6 core benefits, geared towards crafting meaningful connections and providing the necessary resources to scale your company.
+            Our principles guide everything: curated mentor matching, genuine peer connections, and programming that gives startup founders the resources they need to grow and scale.
           </p>
           <p className="text-sm text-zinc-500">
-            You can learn more about our values below.
+            The values that shape this founder community are below.
           </p>
         </div>
 

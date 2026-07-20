@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gildre — The Founder Community for Operators, Builders, and Executives",
+  title: "Gildre — Private Startup Founder Community with 1:1 Mentorship & Peer Matching",
   description:
-    "Join 250+ founders accelerating from idea to exit. Curated peer matches, expert mentors, weekly events, and a private network built for serious builders.",
-  keywords: ["founder community", "startup network", "founder mentorship", "peer matching founders", "Gildre"],
+    "Join 250+ startup founders. Gildre is a private founder community offering 1:1 mentorship from exited operators, curated peer matching, and expert programming from pre-revenue to $5M+ ARR.",
+  keywords: ["founder community", "startup mentorship", "startup founder community", "founder mentor", "peer matching founders", "entrepreneur community", "startup advisor", "Gildre"],
   openGraph: {
-    title: "Gildre — The Founder Community for Operators, Builders, and Executives",
+    title: "Gildre — Private Startup Founder Community with 1:1 Mentorship & Peer Matching",
     description:
-      "Join 250+ founders accelerating from idea to exit. Curated peer matches, expert mentors, weekly events, and a private network built for serious builders.",
+      "Join 250+ startup founders. 1:1 mentorship from exited operators, curated peer matching, and expert programming from pre-revenue to $5M+ ARR.",
     url: "https://www.gildre.com",
     siteName: "Gildre",
     type: "website",
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gildre — The Founder Community for Operators, Builders, and Executives",
-    description: "Join 250+ founders accelerating from idea to exit. Curated peer matches, expert mentors, and weekly events.",
+    title: "Gildre — Private Startup Founder Community with 1:1 Mentorship & Peer Matching",
+    description: "Join 250+ startup founders. 1:1 mentorship from exited operators, curated peer matching, and expert programming from pre-revenue to $5M+ ARR.",
   },
 };
 

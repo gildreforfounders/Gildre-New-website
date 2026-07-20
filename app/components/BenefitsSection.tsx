@@ -163,8 +163,8 @@ export default function BenefitsSection() {
           className="mb-8 sm:mb-10 text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          <span className="text-white">Your Growth </span>
-          <span style={{ color: "#C9A96E" }}>Operating System</span>
+          <span className="text-white">Everything startup founders need </span>
+          <span style={{ color: "#C9A96E" }}>to build, raise &amp; scale</span>
         </h2>
 
         {/* Row 1 */}
