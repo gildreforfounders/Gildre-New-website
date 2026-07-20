@@ -41,6 +41,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion",
+    category: "Leadership",
+    readTime: "8 min read",
+    excerpt:
+      "Princeton lineman Luke Ashenbrand lost his football career to a traumatic concussion — spent 15 days in a dark room recovering — then channeled the setback into startup consulting and entrepreneurship.",
+    href: "/lukeashenbrandblog",
+  },
+  {
     title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
     category: "Leadership",
     readTime: "15 min read",
