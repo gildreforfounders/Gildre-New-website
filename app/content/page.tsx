@@ -41,6 +41,14 @@ const categories = [
 
 const featured = [
   {
+    title: "John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racer — Building a Half-Billion-Dollar Business Along the Way",
+    category: "Operations",
+    readTime: "10 min read",
+    excerpt:
+      "Theater. Engineering. A $500M consulting firm. Valvoline franchises. An ESOP. An IPO. And still racing competitively on weekends — John Lionberger's career refuses to stay in a single lane.",
+    href: "/johnlionbergerblog",
+  },
+  {
     title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion",
     category: "Leadership",
     readTime: "8 min read",
