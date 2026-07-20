@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 const categories = [
   {
     slug: "fundraising",
@@ -188,6 +190,17 @@ const categoryColor: Record<string, string> = {
 };
 
 export default function ContentPage() {
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  const visibleArticles = activeCategory
+    ? featured.filter((a) => a.category === activeCategory)
+    : featured;
+
+  function toggleCategory(label: string) {
+    setActiveCategory((prev) => (prev === label ? null : label));
+    document.getElementById("articles")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   return (
     <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
 
@@ -248,25 +261,41 @@ export default function ContentPage() {
             Find What You Need Right Now
           </h2>
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {categories.map((cat) => (
-              <a
-                key={cat.slug}
-                href={`https://gildre-for-founders.beehiiv.com/`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col items-center gap-3 rounded-2xl p-5 text-center transition-all duration-200 hover:-translate-y-0.5 hover:border-[rgba(201,169,110,0.35)]"
-                style={{
-                  backgroundColor: "rgba(255,255,255,0.02)",
-                  border: "1px solid rgba(255,255,255,0.07)",
-                }}
-              >
-                <span className="text-3xl">{cat.icon}</span>
-                <span className="text-sm font-semibold text-white">{cat.label}</span>
-                <span className="text-[0.68rem] leading-snug" style={{ color: "rgba(255,255,255,0.4)" }}>
-                  {cat.description}
-                </span>
-              </a>
-            ))}
+            {categories.map((cat) => {
+              const isActive = activeCategory === cat.label;
+              const color = categoryColor[cat.label] ?? "#C9A96E";
+              return (
+                <button
+                  key={cat.slug}
+                  onClick={() => toggleCategory(cat.label)}
+                  className="group flex flex-col items-center gap-3 rounded-2xl p-5 text-center transition-all duration-200 hover:-translate-y-0.5"
+                  style={{
+                    backgroundColor: isActive ? `${color}18` : "rgba(255,255,255,0.02)",
+                    border: isActive ? `1.5px solid ${color}` : "1px solid rgba(255,255,255,0.07)",
+                    cursor: "pointer",
+                  }}
+                >
+                  <span className="text-3xl">{cat.icon}</span>
+                  <span
+                    className="text-sm font-semibold transition-colors duration-150"
+                    style={{ color: isActive ? color : "#fff" }}
+                  >
+                    {cat.label}
+                  </span>
+                  <span className="text-[0.68rem] leading-snug" style={{ color: "rgba(255,255,255,0.4)" }}>
+                    {cat.description}
+                  </span>
+                  {isActive && (
+                    <span
+                      className="text-[0.58rem] font-bold uppercase tracking-widest"
+                      style={{ color }}
+                    >
+                      ✕ clear
+                    </span>
+                  )}
+                </button>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -274,18 +303,38 @@ export default function ContentPage() {
       {/* ── Featured Articles ─────────────────────────────────────────── */}
       <section id="articles" className="px-6 py-16" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-6xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
-            Featured
-          </p>
-          <h2
-            className="mt-3 text-[1.75rem] font-bold text-white sm:text-[2.25rem]"
-            style={{ fontFamily: "var(--font-fraunces)" }}
-          >
-            Start Here
-          </h2>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
+                {activeCategory ? activeCategory : "Featured"}
+              </p>
+              <h2
+                className="mt-3 text-[1.75rem] font-bold text-white sm:text-[2.25rem]"
+                style={{ fontFamily: "var(--font-fraunces)" }}
+              >
+                {activeCategory ? `${activeCategory} Articles` : "Start Here"}
+              </h2>
+            </div>
+            {activeCategory && (
+              <button
+                onClick={() => setActiveCategory(null)}
+                className="rounded-full px-4 py-2 text-xs font-semibold transition-opacity hover:opacity-80"
+                style={{ border: "1px solid rgba(255,255,255,0.15)", color: "rgba(255,255,255,0.5)" }}
+              >
+                ← Show all articles
+              </button>
+            )}
+          </div>
+
+          {visibleArticles.length === 0 && (
+            <div className="mt-12 text-center py-16" style={{ color: "rgba(255,255,255,0.35)" }}>
+              <p className="text-lg">No articles yet in this category.</p>
+              <p className="text-sm mt-2">More coming soon — subscribe to the newsletter to get notified.</p>
+            </div>
+          )}
 
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((article) => {
+            {visibleArticles.map((article) => {
               const isExternal = article.href.startsWith("http");
               return (
               <a
