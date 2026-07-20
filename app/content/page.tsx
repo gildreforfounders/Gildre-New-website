@@ -48,7 +48,7 @@ const featured = [
     readTime: "12 min read",
     excerpt:
       "Intuition gets you started. Customer feedback is what helps you scale. A practical guide on collecting, prioritizing, and acting on what your users are telling you — with the Airbnb, Slack, and Superhuman case studies plus a full tool stack.",
-    href: "/foundergrowthguide",
+    href: "/guides/how-to-use-customer-feedback-build-product",
   },
   {
     title: "Your Next 100 Customers: The Gildre GTM Playbook (2026 Edition)",
@@ -56,7 +56,7 @@ const featured = [
     readTime: "15 min read",
     excerpt:
       "The three highest-performing go-to-market channels Gildre founders used in 2026 — high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With exact tools, workflows, and tactics.",
-    href: "/next100customers",
+    href: "/guides/next-100-customers-gtm-playbook",
   },
   {
     title: "Ryan Hughes: Why a Google and Snapchat Engineer Left Big Tech to Build Fan Pier Labs",
@@ -64,7 +64,7 @@ const featured = [
     readTime: "9 min read",
     excerpt:
       "Ryan Hughes worked inside Google and Snapchat before founding Fan Pier Labs, an AI-driven software consulting firm for startups. He shares what big tech teaches you — and what it can't — on the Start to Scale Podcast.",
-    href: "/ryanhughesblog",
+    href: "/blog/ryan-hughes-google-snapchat-fan-pier-labs",
   },
   {
     title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks",
@@ -72,7 +72,7 @@ const featured = [
     readTime: "10 min read",
     excerpt:
       "How much equity do founders actually give away at pre-seed, seed, Series A, B, and beyond? Benchmarks, a worked dilution table, the Facebook case study, and five strategies to protect your ownership without killing your growth.",
-    href: "/equitydilution",
+    href: "/guides/equity-dilution-explained",
   },
   {
     title: "Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting, and Managing Your Cap Table",
@@ -80,7 +80,7 @@ const featured = [
     readTime: "12 min read",
     excerpt:
       "How to split founder equity fairly, structure employee stock options, survive investor dilution, and avoid the cap table mistakes that haunt founders for years — with benchmarks, tables, and worked examples.",
-    href: "/startupequity101",
+    href: "/guides/startup-equity-101",
   },
   {
     title: "Armando Vera Carvajal: How a First-Generation Mexican Immigrant Built Hangtight After a Journey Through the Amazon",
@@ -88,7 +88,7 @@ const featured = [
     readTime: "12 min read",
     excerpt:
       "His parents gave up careers in Mexico for the American Dream. Armando sold cheesecakes door-to-door, studied in Paris and Singapore, trekked into the Peruvian Amazon — then came home and built an AI startup that acquired its competition.",
-    href: "/armandoblog",
+    href: "/blog/armando-vera-carvajal-hangtight-amazon",
   },
   {
     title: "John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racer — Building a Half-Billion-Dollar Business Along the Way",
@@ -96,7 +96,7 @@ const featured = [
     readTime: "10 min read",
     excerpt:
       "Theater. Engineering. A $500M consulting firm. Valvoline franchises. An ESOP. An IPO. And still racing competitively on weekends — John Lionberger's career refuses to stay in a single lane.",
-    href: "/johnlionbergerblog",
+    href: "/blog/john-lionberger-broadway-engineer-racing",
   },
   {
     title: "The Founder's Playbook for Building a High-Performing SDR Team — From First Hire to Hypergrowth",
@@ -104,7 +104,7 @@ const featured = [
     readTime: "11 min read",
     excerpt:
       "A failed SDR hire costs $27K–$48K before you count the pipeline never built. The hiring framework (learning agility, resilience, curiosity), the training split most teams get backwards, the metrics that matter, and the daily rhythm that compounds.",
-    href: "/sdrteam",
+    href: "/guides/building-high-performing-sdr-team",
   },
   {
     title: "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
@@ -112,7 +112,7 @@ const featured = [
     readTime: "14 min read",
     excerpt:
       "How to raise your first pre-seed round — from defining your goals and building your narrative to targeting the right investors, perfecting your deck, and closing the deal. Includes instrument comparison, pitch deck breakdown, and objection handling.",
-    href: "/kickingoffpreseed",
+    href: "/guides/pre-seed-fundraising-playbook",
   },
   {
     title: "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
@@ -120,7 +120,7 @@ const featured = [
     readTime: "9 min read",
     excerpt:
       "Chris Riklin spent 10+ years at NationBuilder watching talented professionals lose opportunities to outdated hiring gatekeepers. So he left to co-found Topline — a frictionless marketplace where the best professionals win on merit, not connections.",
-    href: "/chrisriklinblog",
+    href: "/blog/chris-riklin-topline-professional-marketplace",
   },
   {
     title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion",
@@ -128,7 +128,7 @@ const featured = [
     readTime: "8 min read",
     excerpt:
       "Princeton lineman Luke Ashenbrand lost his football career to a traumatic concussion — spent 15 days in a dark room recovering — then channeled the setback into startup consulting and entrepreneurship.",
-    href: "/lukeashenbrandblog",
+    href: "/blog/luke-ashenbrand-princeton-football-startup",
   },
   {
     title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
@@ -136,7 +136,7 @@ const featured = [
     readTime: "15 min read",
     excerpt:
       "ClassPass CEO Fritz Lanman on investing $240M into Facebook at Microsoft, losing 70 lbs on his own product, and the unconventional path to building a billion-dollar company.",
-    href: "/fritzlanmanblog",
+    href: "/blog/fritz-lanman-classpass-microsoft-unicorn",
   },
   {
     title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit",
@@ -144,7 +144,7 @@ const featured = [
     readTime: "8 min read",
     excerpt:
       "From growing Woolworths South Africa to 500K fans to marketing Sprinter vans — Robyn Hobson on 13 years of marketing across Africa, China, and the US and what it actually takes to build a global career.",
-    href: "/robynblog",
+    href: "/blog/robyn-hobson-cape-town-to-us-cmo",
   },
   {
     title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers",
@@ -152,7 +152,7 @@ const featured = [
     readTime: "11 min read",
     excerpt:
       "From Louisiana's Cancer Alley to NASA's Curiosity mission to founding ChatOpenSource through Y Combinator — one of the most unconventional founder paths you'll read about.",
-    href: "/nasafounderblog",
+    href: "/blog/nasa-engineer-y-combinator-chatopensource",
   },
   {
     title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
@@ -160,7 +160,7 @@ const featured = [
     readTime: "9 min read",
     excerpt:
       "Divvy co-founder Alex Bean on selling before the product was built, combining a credit card with expense software to disrupt fintech, and what he looks for now as a VC at Tandem Invest.",
-    href: "/alexbeanblog",
+    href: "/blog/alex-bean-divvy-billcom-acquisition",
   },
   {
     title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
@@ -168,7 +168,7 @@ const featured = [
     readTime: "12 min read",
     excerpt:
       "Jotform CEO Aytekin Tank on the 50/50 rule, competing with Google Forms, and why bootstrapping gave him the freedom to build a 600-person company on his own timeline.",
-    href: "/aytekintankblog",
+    href: "/blog/aytekin-tank-bootstrapped-jotform-no-vc",
   },
   {
     title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
@@ -176,7 +176,7 @@ const featured = [
     readTime: "10 min read",
     excerpt:
       "From selling $20 miniature paintings at farmers markets to owning galleries — wildlife artist James Corwin on building a creative business with no blueprint and no shortcuts.",
-    href: "/jamescorwinblog",
+    href: "/blog/james-corwin-wildlife-artist-corwin-galleries",
   },
   {
     title: "How to Close Your First 10 Customers (Without a Sales Team)",
