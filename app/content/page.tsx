@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "How to Use Customer Feedback to Build a Product People Actually Want: A Founder's Growth Guide",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Intuition gets you started. Customer feedback is what helps you scale. A practical guide on collecting, prioritizing, and acting on what your users are telling you — with the Airbnb, Slack, and Superhuman case studies plus a full tool stack.",
+    href: "/foundergrowthguide",
+  },
+  {
     title: "Your Next 100 Customers: The Gildre GTM Playbook (2026 Edition)",
     category: "Growth",
     readTime: "15 min read",
