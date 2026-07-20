@@ -104,12 +104,23 @@ const mentors: Mentor[] = [
 
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["LocalBusiness", "ProfessionalService"],
   "name": "Gildre",
   "url": "https://www.gildre.com",
   "logo": "https://www.gildre.com/images/gildre-logo.png",
+  "image": "https://www.gildre.com/images/gildre-logo.png",
   "description": "Gildre is a private membership community for founders — providing curated peer connections, expert mentorship, and tactical resources to help founders build, scale, and exit.",
   "email": "info@gildre.com",
+  // "telephone": "+1-XXX-XXX-XXXX", // Add Gildre phone number here
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Credit Card",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "2510 Green Bay Road",
@@ -123,10 +134,17 @@ const organizationSchema = {
     "latitude": 42.0565,
     "longitude": -87.6888
   },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United States"
-  },
+  "hasMap": "https://maps.google.com/?q=2510+Green+Bay+Road+Evanston+IL+60201",
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "City", "name": "Chicago" },
+    { "@type": "City", "name": "New York City" },
+    { "@type": "City", "name": "Boston" },
+    { "@type": "City", "name": "Austin" },
+    { "@type": "City", "name": "Los Angeles" },
+    { "@type": "City", "name": "San Francisco" },
+    { "@type": "City", "name": "Seattle" }
+  ],
   "sameAs": [
     "https://www.instagram.com/gildreforfounders",
     "https://www.linkedin.com/company/gildre/",

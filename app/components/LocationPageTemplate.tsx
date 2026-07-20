@@ -24,12 +24,23 @@ const stats = [
 export default function LocationPageTemplate({ data }: { data: LocationData }) {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Gildre",
-    url: "https://www.gildre.com",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    name: `Gildre — ${data.name}`,
+    url: `https://www.gildre.com/${data.slug}`,
     logo: "https://www.gildre.com/images/gildre-logo.png",
-    description: `Gildre is a private founder membership community serving ${data.name}, ${data.state} and beyond.`,
+    image: "https://www.gildre.com/images/gildre-logo.png",
+    description: `Gildre is a private founder membership community in ${data.name}, ${data.state} — offering curated peer matches, expert mentorship, and investor access.`,
     email: "info@gildre.com",
+    // telephone: "+1-XXX-XXX-XXXX", // Add Gildre phone number here
+    priceRange: "$$",
+    currenciesAccepted: "USD",
+    paymentAccepted: "Credit Card",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
     address: {
       "@type": "PostalAddress",
       addressLocality: data.name,
@@ -42,17 +53,24 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
       latitude: data.lat,
       longitude: data.lng,
     },
+    hasMap: `https://maps.google.com/?q=Gildre+${encodeURIComponent(data.name)}+${data.state}`,
     areaServed: [
       { "@type": "City", name: data.name },
       { "@type": "Country", name: "United States" },
     ],
     sameAs: [
+      "https://www.gildre.com",
       "https://www.instagram.com/gildreforfounders",
       "https://www.linkedin.com/company/gildre/",
       "https://www.youtube.com/@GildreforFounders",
       "https://x.com/Gildre_",
       "https://www.tiktok.com/@gildreforfounders",
     ],
+    parentOrganization: {
+      "@type": "Organization",
+      name: "Gildre",
+      url: "https://www.gildre.com",
+    },
   };
 
   return (
