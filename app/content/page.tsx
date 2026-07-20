@@ -41,6 +41,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks",
+    category: "Fundraising",
+    readTime: "10 min read",
+    excerpt:
+      "How much equity do founders actually give away at pre-seed, seed, Series A, B, and beyond? Benchmarks, a worked dilution table, the Facebook case study, and five strategies to protect your ownership without killing your growth.",
+    href: "/equitydilution",
+  },
+  {
     title: "Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting, and Managing Your Cap Table",
     category: "Fundraising",
     readTime: "12 min read",
@@ -277,12 +285,13 @@ export default function ContentPage() {
           </h2>
 
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((article) => (
+            {featured.map((article) => {
+              const isExternal = article.href.startsWith("http");
+              return (
               <a
                 key={article.title}
                 href={article.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="group flex flex-col rounded-2xl p-7 transition-all duration-200 hover:-translate-y-0.5"
                 style={{
                   backgroundColor: "#0a1020",
@@ -325,7 +334,8 @@ export default function ContentPage() {
                   </svg>
                 </div>
               </a>
-            ))}
+              );
+            })}
           </div>
 
           {/* More content CTA */}
