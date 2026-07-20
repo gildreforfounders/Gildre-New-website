@@ -99,6 +99,14 @@ const featured = [
     href: "/johnlionbergerblog",
   },
   {
+    title: "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
+    category: "Product",
+    readTime: "9 min read",
+    excerpt:
+      "Chris Riklin spent 10+ years at NationBuilder watching talented professionals lose opportunities to outdated hiring gatekeepers. So he left to co-found Topline — a frictionless marketplace where the best professionals win on merit, not connections.",
+    href: "/chrisriklinblog",
+  },
+  {
     title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion",
     category: "Leadership",
     readTime: "8 min read",
