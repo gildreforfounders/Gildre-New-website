@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com" },
   title: "Gildre — Private Startup Founder Community with 1:1 Mentorship & Peer Matching",
   description:
     "Join 250+ startup founders. Gildre is a private founder community offering 1:1 mentorship from exited operators, curated peer matching, and expert programming from pre-revenue to $5M+ ARR.",
@@ -124,6 +125,22 @@ const mentors: Mentor[] = [
     photo: "/mentors/ankur-jain.png",
   },
 ];
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Gildre",
+  "url": "https://www.gildre.com",
+  "description": "Private startup founder community offering 1:1 mentorship, peer matching, and expert programming from pre-revenue to $5M+ ARR.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.gildre.com/content?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -307,6 +324,10 @@ const faqSchema = {
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/nyc" },
   title: "Founder Community in New York City | Gildre",
   description:
     "Gildre connects NYC founders with curated peer matches, mentorship, and investor access. Built for New York's fintech, consumer, and enterprise startup ecosystem.",

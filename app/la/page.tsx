@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/la" },
   title: "Founder Community in Los Angeles | Gildre",
   description:
     "Gildre connects Los Angeles founders with curated peer matches, mentorship, and investor access. Built for LA's consumer brand and creator economy ecosystem.",

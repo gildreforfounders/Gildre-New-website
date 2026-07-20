@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/guides/pre-seed-fundraising-playbook" },
   title:
     "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
   description:
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
     "venture capital",
   ],
   openGraph: {
+    url: "https://www.gildre.com/guides/pre-seed-fundraising-playbook",
     title:
       "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
     description:

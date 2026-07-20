@@ -2,11 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/aytekin-tank-bootstrapped-jotform-no-vc" },
   title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without a Dollar of VC Funding | Gildre",
   description:
     "Jotform CEO Aytekin Tank on bootstrapping to 25 million users without VC, competing with Google Forms, and why long-term thinking beats chasing funding rounds.",
   keywords: ["Aytekin Tank", "Jotform", "bootstrapped startup", "no VC funding", "SaaS growth", "Google Forms competitor", "Gildre podcast"],
   openGraph: {
+    url: "https://www.gildre.com/blog/aytekin-tank-bootstrapped-jotform-no-vc",
     title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
     description:
       "From coding on a school computer in Turkey to competing with Google — Jotform CEO Aytekin Tank on bootstrapping, the 50/50 rule, and why long-term thinking beats chasing funding.",

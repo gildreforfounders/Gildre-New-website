@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/guides/how-to-use-customer-feedback-build-product" },
   title: "How to Use Customer Feedback to Build a Product People Actually Want: A Founder's Growth Guide | Gildre",
   description:
     "A practical guide for startup founders on collecting, analyzing, and acting on customer feedback to achieve product-market fit. Includes the Airbnb and Slack case studies, a prioritization framework, tool recommendations, and the most common mistakes founders make.",

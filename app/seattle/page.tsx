@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/seattle" },
   title: "Founder Community in Seattle | Gildre",
   description:
     "Gildre connects Seattle founders with curated peer matches, mentorship, and investor access. Built for Seattle's enterprise, cloud, and big-tech-alumni startup ecosystem.",

@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/chicago" },
   title: "Founder Community in Chicago | Gildre",
   description:
     "Gildre connects Chicago founders with curated peer matches, mentorship, and investor access. Built for Chicago's fintech, enterprise, and logistics startup ecosystem.",

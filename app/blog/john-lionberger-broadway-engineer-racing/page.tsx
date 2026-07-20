@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing" },
   title: "John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racing Driver — Building a Half-Billion-Dollar Business Along the Way | Gildre",
   description:
     "John Lionberger went from working rock concerts and Broadway shows to electrical engineering, then built a regional consulting firm from $0 to nearly $500M in revenue — all while racing competitively on weekends. Featured on the Gildre Start to Scale Podcast.",
@@ -18,11 +19,11 @@ export const metadata: Metadata = {
     "Gildre Start to Scale Podcast",
   ],
   openGraph: {
+    url: "https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing",
     title: "John Lionberger: From Broadway to Engineering to Pro Racing — A Half-Billion-Dollar Journey",
     description:
       "Broadway technician, electrical engineer, race car driver, franchise owner, ESOP architect — John Lionberger's career doesn't fit a single lane. And that's exactly the point.",
     type: "article",
-    url: "https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing",
     images: [{ url: "https://www.gildre.com/images/john-lionberger-headshot.webp" }],
   },
 };

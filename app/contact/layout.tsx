@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/contact" },
   title: "Contact Gildre — Get in Touch With Our Team",
   description:
     "Questions about membership, partnerships, or the Start to Scale podcast? Reach Brian, Taiga, or the full Gildre team directly. We respond within one business day.",

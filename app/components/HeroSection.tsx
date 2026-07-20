@@ -1,17 +1,21 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <section
       className="relative flex min-h-[90vh] items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: "url('/images/community/hero.webp')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundColor: "#000",
-      }}
+      style={{ backgroundColor: "#000" }}
     >
+      <Image
+        src="/images/community/hero.webp"
+        alt="Gildre founder community"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-center"
+      />
       <div className="absolute inset-0 bg-black/50" />
 
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center">

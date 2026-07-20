@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/guides/startup-equity-101" },
   title: "Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting Schedules, and Managing Your Cap Table | Gildre",
   description:
     "A practical guide to startup equity for founders — how to split shares with co-founders, structure employee stock options, understand dilution, and avoid the mistakes that destroy cap tables. Includes equity benchmarks, vesting schedules, and dilution examples.",

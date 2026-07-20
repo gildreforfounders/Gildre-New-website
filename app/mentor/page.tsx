@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/mentor" },
   title: "Gildre Mentors — Founders, Operators, and Executives Available for 1:1 Guidance",
   description:
     "Fritz Lanman, Diana Stepner, Sam Bradley, and 20+ more operators available for 1:1 mentorship inside Gildre. Real guidance from people who've built at scale.",

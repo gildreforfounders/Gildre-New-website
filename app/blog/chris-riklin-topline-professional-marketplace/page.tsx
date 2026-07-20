@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace" },
   title:
     "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
   description:
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     "Start to Scale podcast",
   ],
   openGraph: {
+    url: "https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace",
     title:
       "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
     description:

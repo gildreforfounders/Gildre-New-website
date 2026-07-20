@@ -2,11 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/james-corwin-wildlife-artist-corwin-galleries" },
   title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business | Gildre",
   description:
     "Wildlife artist James Corwin on going from $20 miniatures at farmers markets to owning Corwin Galleries — a creative business built on art, grit, and no conventional blueprint.",
   keywords: ["James Corwin", "Corwin Galleries", "wildlife artist", "creative entrepreneur", "Montana founder", "Gildre podcast"],
   openGraph: {
+    url: "https://www.gildre.com/blog/james-corwin-wildlife-artist-corwin-galleries",
     title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
     description:
       "From composing music to selling miniature paintings at farmers markets to owning galleries — wildlife artist James Corwin on building a business from pure creativity.",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/membership" },
   title: "Gildre Membership — Startup Founder Community Plans Starting at $59/mo",
   description:
     "Silver ($59), Gold ($149), and Platinum ($349) startup mentorship plans for founders from pre-revenue to $5M+ ARR. 1:1 mentorship, curated peer matching, weekly events, and $5M+ in perks.",

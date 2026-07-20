@@ -2,11 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/alex-bean-divvy-billcom-acquisition" },
   title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital | Gildre",
   description:
     "Divvy co-founder Alex Bean on selling before the product was built, scaling to a Bill.com acquisition, and what he looks for now as a VC at Tandem Invest.",
   keywords: ["Alex Bean", "Divvy", "Bill.com acquisition", "fintech startup", "Tandem Invest", "venture capital", "Gildre podcast"],
   openGraph: {
+    url: "https://www.gildre.com/blog/alex-bean-divvy-billcom-acquisition",
     title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
     description:
       "From Redmond to fintech exit to VC — Divvy co-founder Alex Bean on selling before the product was built, scaling to acquisition, and what he looks for now as an investor.",

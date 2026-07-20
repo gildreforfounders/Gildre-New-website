@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/guides/building-high-performing-sdr-team" },
   title:
     "The Founder's Playbook for Building a High-Performing SDR Team — From First Hire to Hypergrowth",
   description:
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
     "Gildre",
   ],
   openGraph: {
+    url: "https://www.gildre.com/guides/building-high-performing-sdr-team",
     title:
       "The Founder's Playbook for Building a High-Performing SDR Team — From First Hire to Hypergrowth",
     description:

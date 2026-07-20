@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/referral" },
   title: "Refer a Founder to Gildre — Earn a Membership Stipend",
   description:
     "Know a founder who belongs in the Gildre network? Submit a referral. Earn a 100% first-month membership stipend when they join, plus ongoing commissions at higher tiers.",

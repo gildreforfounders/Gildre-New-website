@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/boston" },
   title: "Founder Community in Boston | Gildre",
   description:
     "Gildre connects Boston founders with curated peer matches, expert mentorship, and investor access. Built for Boston's biotech, deep-tech, and enterprise startup ecosystem.",

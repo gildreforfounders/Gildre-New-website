@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/memberprograms" },
   title: "Gildre Member Programs — What You Get at Every Tier",
   description:
     "From White-Glove Onboarding to weekly 1:1 matches and quarterly executive workshops — a full breakdown of everything Gildre members access at Silver, Gold, and Platinum.",

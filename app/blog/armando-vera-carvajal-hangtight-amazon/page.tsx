@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon" },
   title: "Armando Vera Carvajal: How a First-Generation Mexican Immigrant Built Hangtight — an AI Social Planning App — After a Journey Through the Amazon | Gildre",
   description:
     "Armando Vera Carvajal immigrated to the US at age four, sold cheesecakes door-to-door as a kid, studied in Paris and Singapore, trekked into the Amazon, and built Hangtight — an AI-powered social planning app that acquired its competition. Featured on the Gildre Start to Scale Podcast.",
@@ -18,11 +19,11 @@ export const metadata: Metadata = {
     "Gildre Start to Scale Podcast",
   ],
   openGraph: {
+    url: "https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon",
     title: "Armando Vera Carvajal: From First-Generation Immigrant to AI Startup Founder",
     description:
       "His parents gave up careers in Mexico to pursue the American Dream. Armando Vera Carvajal is building Hangtight to honor what they sacrificed — one AI-powered group hangout at a time.",
     type: "article",
-    url: "https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon",
     images: [{ url: "https://www.gildre.com/images/armando-vera-headshot.webp" }],
   },
 };

@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs" },
   title: "Ryan Hughes: Why a Google and Snapchat Engineer Left Big Tech to Build Fan Pier Labs — An AI Consulting Startup | Gildre",
   description:
     "Ryan Hughes spent years inside Google and Snapchat before leaving to found Fan Pier Labs, an AI-driven software consulting firm for startups. In this episode of the Gildre Start to Scale Podcast, he unpacks what big tech gets right, what it gets wrong, and what the leap to entrepreneurship actually feels like.",
@@ -18,11 +19,11 @@ export const metadata: Metadata = {
     "Gildre Start to Scale Podcast",
   ],
   openGraph: {
+    url: "https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs",
     title: "Ryan Hughes: From Google and Snapchat to Founding an AI Startup",
     description:
       "Ryan Hughes worked at Google and Snapchat before founding Fan Pier Labs. He shares what big tech teaches you — and what it can't — on the Gildre Start to Scale Podcast.",
     type: "article",
-    url: "https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs",
     images: [{ url: "https://www.gildre.com/images/ryan-hughes-headshot.webp" }],
   },
 };

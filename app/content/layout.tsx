@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/content" },
   title: "Founder Playbooks, Guides & Stories | Gildre Content Hub",
   description:
     "Fundraising playbooks, GTM guides, equity breakdowns, and real founder stories. Browse by topic — practical insight for founders at every stage, not theory.",

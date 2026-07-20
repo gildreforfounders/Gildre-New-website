@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/bayarea" },
   title: "Founder Community in the Bay Area | Gildre",
   description:
     "Gildre connects Bay Area founders with curated peer matches, VC introductions, and mentorship from operators who've scaled in Silicon Valley. Cut through the noise.",

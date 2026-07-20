@@ -2,11 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/fritz-lanman-classpass-microsoft-unicorn" },
   title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status | Gildre",
   description:
     "ClassPass CEO Fritz Lanman on leading Microsoft's $240M Facebook bet, losing 70 lbs on his own product, and scaling ClassPass to $285M unicorn status.",
   keywords: ["Fritz Lanman", "ClassPass", "startup CEO", "unicorn startup", "Microsoft", "Gildre podcast"],
   openGraph: {
+    url: "https://www.gildre.com/blog/fritz-lanman-classpass-microsoft-unicorn",
     title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
     description:
       "From investing $240M into Facebook at Microsoft to losing 70 lbs using his own product — ClassPass CEO Fritz Lanman on the founder journey no one talks about.",

@@ -21,12 +21,24 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Gildre — The Home for Founders Who Execute",
   description: "Get direct access to members, founders, and the insights you need to build with certainty.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
     title: "Gildre — The Home for Founders Who Execute",
     description: "Join 250+ founders building, scaling, and exiting together.",
     url: "https://www.gildre.com",
     siteName: "Gildre",
     type: "website",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/propellantventures" },
   title: "Propellant Ventures × Gildre — Investor Partner for Founder Members",
   description:
     "Propellant Ventures is Gildre's venture capital partner. Members get access to VC pitch workshops, investor introductions, and early-stage funding resources led by Managing Partner Jason Jacobsohn.",

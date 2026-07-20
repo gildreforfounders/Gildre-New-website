@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup" },
   title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion | Gildre",
   description:
     "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021 — then channeled that setback into startup consulting and entrepreneurship. His story from the Gildre Start to Scale Podcast.",
@@ -18,11 +19,11 @@ export const metadata: Metadata = {
     "Gildre Start to Scale Podcast",
   ],
   openGraph: {
+    url: "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup",
     title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur",
     description:
       "A career-ending concussion ended Luke Ashenbrand's Princeton football dream — and launched his entrepreneurial journey. Featured on the Gildre Start to Scale Podcast.",
     type: "article",
-    url: "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup",
     images: [{ url: "https://www.gildre.com/images/luke-ashenbrand-headshot.webp" }],
   },
 };

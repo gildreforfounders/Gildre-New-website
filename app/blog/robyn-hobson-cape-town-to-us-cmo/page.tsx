@@ -2,11 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/blog/robyn-hobson-cape-town-to-us-cmo" },
   title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit | Gildre",
   description:
     "Robyn Hobson on 13 years of marketing across South Africa, China, and the US — from growing Woolworths SA to 500K fans to VP of Marketing at Remote Vans.",
   keywords: ["Robyn Hobson", "global marketing career", "CMO", "South Africa startup", "Remote Vans", "Gildre podcast"],
   openGraph: {
+    url: "https://www.gildre.com/blog/robyn-hobson-cape-town-to-us-cmo",
     title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit",
     description:
       "From South Africa's top digital agencies to a low-cost airline crisis, an MBA from UCT, EdTech scaling, and now marketing Sprinter vans — Robyn Hobson on building a career across borders.",

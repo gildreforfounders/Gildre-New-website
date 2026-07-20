@@ -1,4 +1,5 @@
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/mindhappy" },
   title: "Gildre × MindHappy",
   description:
     "Gildre has partnered with MindHappy to bring exclusive wellness boxes to our founder community. Choose from Elevate, Bond, or Restore.",

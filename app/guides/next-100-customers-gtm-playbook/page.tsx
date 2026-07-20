@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/guides/next-100-customers-gtm-playbook" },
   title: "Your Next 100 Customers: The Gildre GTM Playbook for Founders (2026 Edition) | Gildre",
   description:
     "The exact go-to-market playbook Gildre founders used to acquire their next 100 customers in 2026 — three high-signal acquisition channels: high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With specific tools, workflows, and tactics.",

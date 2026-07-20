@@ -31,6 +31,7 @@ const data: LocationData = {
 };
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/austin" },
   title: "Founder Community in Austin, TX | Gildre",
   description:
     "Gildre connects Austin founders with curated peer matches, mentorship, and investor access. Join the community powering Austin's fastest-growing startup ecosystem.",

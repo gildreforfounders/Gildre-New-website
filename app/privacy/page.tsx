@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
+  alternates: { canonical: "https://www.gildre.com/privacy" },
   title: "Privacy Policy | Gildre",
   description: "Gildre, LLC Privacy Policy",
 };
