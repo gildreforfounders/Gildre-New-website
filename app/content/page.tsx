@@ -99,6 +99,14 @@ const featured = [
     href: "/johnlionbergerblog",
   },
   {
+    title: "The Founder's Playbook for Building a High-Performing SDR Team — From First Hire to Hypergrowth",
+    category: "Operations",
+    readTime: "11 min read",
+    excerpt:
+      "A failed SDR hire costs $27K–$48K before you count the pipeline never built. The hiring framework (learning agility, resilience, curiosity), the training split most teams get backwards, the metrics that matter, and the daily rhythm that compounds.",
+    href: "/sdrteam",
+  },
+  {
     title: "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
     category: "Fundraising",
     readTime: "14 min read",

@@ -37,5 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/foundergrowthguide`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/chrisriklinblog`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/kickingoffpreseed`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/sdrteam`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
   ];
 }
