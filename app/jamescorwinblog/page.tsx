@@ -105,17 +105,19 @@ export default function JamesCorwinBlog() {
       <article className="mx-auto max-w-3xl px-6 py-16">
 
         {/* Headshot */}
-        <div className="my-2 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
-          <Image
-            src="/images/james-corwin-headshot.webp"
-            alt="James Corwin, wildlife artist and founder of Corwin Galleries"
-            width={800}
-            height={800}
-            className="w-full object-cover"
-            style={{ maxHeight: "500px", objectPosition: "center top" }}
-          />
-          <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>James Corwin — wildlife artist and founder of Corwin Galleries</p>
+        <div className="my-2 flex flex-col items-center">
+          <div className="overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)", maxWidth: "420px", width: "100%" }}>
+            <Image
+              src="/images/james-corwin-headshot.webp"
+              alt="James Corwin, wildlife artist and founder of Corwin Galleries"
+              width={960}
+              height={1200}
+              className="w-full"
+              style={{ display: "block" }}
+            />
+            <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
+              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>James Corwin — wildlife artist and founder of Corwin Galleries</p>
+            </div>
           </div>
         </div>
 
