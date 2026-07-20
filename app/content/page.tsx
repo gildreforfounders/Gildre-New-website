@@ -49,6 +49,14 @@ const featured = [
     href: "/fritzlanmanblog",
   },
   {
+    title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
+    category: "Fundraising",
+    readTime: "9 min read",
+    excerpt:
+      "Divvy co-founder Alex Bean on selling before the product was built, combining a credit card with expense software to disrupt fintech, and what he looks for now as a VC at Tandem Invest.",
+    href: "/alexbeanblog",
+  },
+  {
     title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
     category: "Growth",
     readTime: "12 min read",
