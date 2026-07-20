@@ -49,6 +49,14 @@ const featured = [
     href: "/fritzlanmanblog",
   },
   {
+    title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
+    category: "Leadership",
+    readTime: "10 min read",
+    excerpt:
+      "From selling $20 miniature paintings at farmers markets to owning galleries — wildlife artist James Corwin on building a creative business with no blueprint and no shortcuts.",
+    href: "/jamescorwinblog",
+  },
+  {
     title: "How to Close Your First 10 Customers (Without a Sales Team)",
     category: "Growth",
     readTime: "6 min read",
