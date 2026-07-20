@@ -350,7 +350,7 @@ export default function JohnLionbergerBlog() {
               This blog is adapted from John's episode on the Gildre Start to Scale Podcast. Listen to the full conversation for his unedited takes on ESOPs, going public, franchise operations, and why he still gets in a race car every chance he gets.
             </p>
             <a
-              href="https://gildre-for-founders.beehiiv.com/"
+              href="https://linktr.ee/starttoscale"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-full px-8 py-3 text-sm font-bold transition-opacity hover:opacity-90"

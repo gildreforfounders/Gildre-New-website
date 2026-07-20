@@ -392,7 +392,7 @@ export default function ArmandoBlog() {
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a
-                href="https://gildre-for-founders.beehiiv.com/"
+                href="https://linktr.ee/starttoscale"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block rounded-full px-8 py-3 text-sm font-bold transition-opacity hover:opacity-90"

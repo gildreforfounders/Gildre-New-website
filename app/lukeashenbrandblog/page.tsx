@@ -295,7 +295,7 @@ export default function LukeAshenbrandBlog() {
               This blog is adapted from Luke's episode on the Gildre Start to Scale Podcast. Listen to the full conversation for the unedited story — including his thoughts on the recruiting process, Princeton culture, and what he's building next.
             </p>
             <a
-              href="https://gildre-for-founders.beehiiv.com/"
+              href="https://linktr.ee/starttoscale"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-full px-8 py-3 text-sm font-bold transition-opacity hover:opacity-90"
