@@ -144,6 +144,22 @@ function DesignPillar({ icon, title, children }: { icon: string; title: string; 
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 export default function BuildingProductsThatScaleGuide() {
   return (
     <>
@@ -212,6 +228,10 @@ export default function BuildingProductsThatScaleGuide() {
             without the backend becoming the thing that held it back. That kind of growth is not
             accidental. It reflects a set of deliberate product decisions made early and consistently.
           </Body>
+
+          <KeyTakeaway>
+            Scalable products share three design properties: infrastructure that handles load without degradation, architecture that evolves without full rebuilds, and processes that stay efficient as the team grows. All three are decisions made at the beginning — not problems solved after the fact.
+          </KeyTakeaway>
 
           {/* Fritz photo */}
           <div
@@ -291,6 +311,9 @@ export default function BuildingProductsThatScaleGuide() {
 
           {/* Section 2: MVP */}
           <H2>The MVP Approach: Build With Purpose, Not Completeness</H2>
+          <KeyTakeaway>
+            A Minimum Viable Product should test your single riskiest assumption, not showcase your full product vision. The goal is to generate real behavioral data from real users on the smallest possible build — not to demonstrate how much you've built or how complete the product feels.
+          </KeyTakeaway>
 
           <Body>
             A Minimum Viable Product is not a stripped-down version of your full vision. It&apos;s a
@@ -348,6 +371,9 @@ export default function BuildingProductsThatScaleGuide() {
 
           {/* Section 3: Customer-centric design */}
           <H2>Customer-Centric Design: Build for the Person, Not the Roadmap</H2>
+          <KeyTakeaway>
+            The most durable competitive advantage in product is a deep, accurate understanding of the specific job your best customers hire your product to do. Build for that job first, resist feature expansion until the core experience is bulletproof, and let everything else follow from there.
+          </KeyTakeaway>
 
           <Body>
             Scalable architecture gets you the capacity to grow. Customer-centric design is what

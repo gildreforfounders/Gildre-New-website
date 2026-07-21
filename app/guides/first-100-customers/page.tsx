@@ -91,6 +91,22 @@ function Callout({ title, children }: { title?: string; children: React.ReactNod
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 function BulletList({ items }: { items: string[] }) {
   return (
     <ul className="mb-4 flex flex-col gap-2 pl-1">
@@ -202,8 +218,15 @@ export default function First100CustomersGuide() {
             is founder intensity, personal trust, and relentless iteration.
           </Body>
 
+          <KeyTakeaway>
+            To get your first 100 customers, direct founder outreach, community participation, and one focused traction channel consistently outperform paid advertising for early-stage companies. Most successful founders reach 100 customers through personal effort and high-touch engagement — not marketing systems or ad spend.
+          </KeyTakeaway>
+
           {/* 1 */}
           <H2 num="01">Define Your ICP Before You Talk to Anyone</H2>
+          <KeyTakeaway>
+            Your Ideal Customer Profile should describe a specific person at a specific company facing a specific pain point — not a broad demographic. Founders who define their ICP before starting outreach typically close their first customers 3x faster than those who begin with broad messaging and narrow down later.
+          </KeyTakeaway>
           <Body>
             The most common early-stage customer acquisition mistake is not being wrong about the
             channel — it&apos;s being wrong about who you&apos;re targeting. &ldquo;Everyone&rdquo; is not a customer.
@@ -255,6 +278,9 @@ export default function First100CustomersGuide() {
 
           {/* 3 */}
           <H2 num="03">Go All-In on One Traction Channel</H2>
+          <KeyTakeaway>
+            Trying multiple acquisition channels simultaneously at the 0-to-100 stage spreads effort too thin to generate meaningful signal. Pick the single channel most likely to reach your ICP, exhaust it until you hit diminishing returns, then add a second. Sequencing beats scattering.
+          </KeyTakeaway>
           <Body>
             There are roughly 19 distinct customer acquisition channels available to any startup:
             content marketing, SEO, paid social, cold outbound, community, partnerships, PR,
@@ -309,6 +335,9 @@ export default function First100CustomersGuide() {
 
           {/* 4 */}
           <H2 num="04">Do Things That Don&apos;t Scale — On Purpose</H2>
+          <KeyTakeaway>
+            The fastest path to your first 100 customers is almost always manual: handwritten outreach, personal onboarding calls, direct feedback sessions. Airbnb photographed early listings themselves; Stripe manually activated accounts. Don't automate what you haven't done manually first — the friction is where the learning lives.
+          </KeyTakeaway>
           <Body>
             Paul Graham&apos;s most cited advice — &ldquo;do things that don&apos;t scale&rdquo; — is especially relevant
             for the first 100 customers. Airbnb&apos;s founders personally photographed early hosts&apos;

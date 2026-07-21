@@ -141,6 +141,22 @@ function MetricCard({ metric, benchmark, description }: { metric: string; benchm
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 export default function MicroInfluencerMarketingGuide() {
   return (
     <>
@@ -221,6 +237,10 @@ export default function MicroInfluencerMarketingGuide() {
             But the value is only there if you find the right partners and run the engagement well.
           </Body>
 
+          <KeyTakeaway>
+            Micro-influencers (1,000–100,000 followers) generate 3–8% engagement rates versus 1–2% for mega-influencers, at a fraction of the cost. For most early-stage brands, ten targeted micro-influencer partnerships outperform a single celebrity deal on engagement, conversion, and cost per acquisition.
+          </KeyTakeaway>
+
           {/* What are micro-influencers */}
           <H2>What Actually Defines a Micro-Influencer</H2>
 
@@ -248,6 +268,9 @@ export default function MicroInfluencerMarketingGuide() {
 
           {/* Finding the right ones */}
           <H2>Finding the Right Micro-Influencers</H2>
+          <KeyTakeaway>
+            The most important criteria when selecting a micro-influencer is audience alignment, not follower count. A creator with 8,000 deeply relevant followers will outperform one with 80,000 broadly scattered ones. Look for genuine community engagement in the comments — questions, debate, repeat followers — not just high view counts.
+          </KeyTakeaway>
           <Body>
             The single biggest mistake brands make is optimizing for follower count rather than
             audience fit. A creator with 8,000 deeply aligned followers will outperform one with
@@ -364,6 +387,9 @@ export default function MicroInfluencerMarketingGuide() {
 
           {/* Metrics */}
           <H2>The Metrics That Actually Tell You If It&apos;s Working</H2>
+          <KeyTakeaway>
+            The two most useful metrics for evaluating micro-influencer performance are cost per engagement (total spend divided by interactions) and cost per acquisition (spend divided by conversions). Reach and impressions measure visibility — CPE and CPA measure actual value, and they often tell very different stories.
+          </KeyTakeaway>
           <Body>
             Reach and follower count are vanity metrics for influencer campaigns. Here&apos;s what
             to track instead.

@@ -89,6 +89,22 @@ function Callout({ title, children }: { title?: string; children: React.ReactNod
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 function Warning({ children }: { children: React.ReactNode }) {
   return (
     <div
@@ -197,6 +213,9 @@ export default function WhenToSayNoGuide() {
 
           {/* Intro */}
           <H2>The Hidden Cost of Saying Yes to Everyone</H2>
+          <KeyTakeaway>
+            Saying yes to wrong-fit customers is one of the most expensive mistakes early-stage founders make. A misaligned customer consumes disproportionate support time, pulls your roadmap away from your best users, and generates revenue that masks the underlying problem — you're building for the wrong person.
+          </KeyTakeaway>
           <Body>
             Early in a startup, the pressure to accept revenue from anyone willing to pay is intense.
             You have burn rate to cover, investors asking about traction, and a natural human instinct
@@ -223,6 +242,9 @@ export default function WhenToSayNoGuide() {
 
           {/* Four signals */}
           <H2>Four Signals That a Customer Isn&apos;t Right for You</H2>
+          <KeyTakeaway>
+            The four most reliable signals that a customer isn't right for you: their use case falls outside your core product, they show values friction in the sales process, they focus on price rather than value, or their definition of success is fundamentally incompatible with what your product delivers. Any one of these predicts a difficult relationship.
+          </KeyTakeaway>
           <Body>
             Not every wrong customer announces themselves. Some come with budget, urgency, and a
             reasonable-sounding use case. The signals are often subtle — and the mistake is usually
@@ -304,6 +326,9 @@ export default function WhenToSayNoGuide() {
 
           {/* How to say no */}
           <H2>How to Say No — Without Burning the Relationship</H2>
+          <KeyTakeaway>
+            When declining a prospect, be direct, brief, and specific. Name the reason clearly — timing, use case, or values fit — and offer an alternative or referral where one genuinely exists. A clear, respectful no preserves the relationship far better than a vague delay or an over-qualified yes.
+          </KeyTakeaway>
           <Body>
             The mechanics of a no matter as much as the decision itself. A poorly delivered no
             leaves the prospect feeling rejected, confused, or misled. A well-delivered no leaves

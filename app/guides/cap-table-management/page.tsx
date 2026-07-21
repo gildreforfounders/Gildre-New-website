@@ -129,6 +129,22 @@ function Benchmark({ label, value, note }: { label: string; value: string; note:
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 export default function CapTableManagementGuide() {
   return (
     <>
@@ -221,8 +237,15 @@ export default function CapTableManagementGuide() {
             and how to know when you&apos;re Series A-ready.
           </Body>
 
+          <KeyTakeaway>
+            A clean cap table is not just an administrative record — it's a signal to Series A investors about your operational judgment. The three most common deal-breakers are excessive early dilution, a messy shareholder structure with too many small holders, and an option pool that's nearly exhausted before you raise.
+          </KeyTakeaway>
+
           {/* Pre-seed */}
           <H2>Stage 1: Pre-Seed — Getting the Foundation Right</H2>
+          <KeyTakeaway>
+            At pre-seed, authorize 10–15 million shares and immediately put all founder equity on a four-year vest with a one-year cliff. These two decisions prevent the structural problems that most commonly derail Series A fundraising — and they're far harder to fix retroactively.
+          </KeyTakeaway>
           <Body>
             At pre-seed, your cap table looks deceptively simple: a few founders splitting 100%.
             This is exactly when structural mistakes are easiest to make and hardest to unwind later.
@@ -264,6 +287,9 @@ export default function CapTableManagementGuide() {
 
           {/* Seed */}
           <H2>Stage 2: Seed — The Option Pool and Equity Balancing Act</H2>
+          <KeyTakeaway>
+            Create your employee option pool before your seed round closes, not after. Option pool expansion is calculated pre-money and dilutes existing shareholders — front-loading this dilution once across the seed round is significantly cheaper than taking it twice across seed and Series A separately.
+          </KeyTakeaway>
           <Body>
             As you enter the seed stage, your cap table begins to earn its complexity. New investors
             are arriving, early hires are joining, and every equity decision has downstream
@@ -322,6 +348,9 @@ export default function CapTableManagementGuide() {
 
           {/* Series A prep */}
           <H2>Stage 3: Series A — What Investors Actually Scrutinize</H2>
+          <KeyTakeaway>
+            Series A investors look for four things in your cap table: founders owning 60–70%+ combined, fewer than 15–20 shareholders, 8–12% remaining in the option pool, and no unusual investor rights or side letters. Any of these out of range becomes a negotiating lever against you at the term sheet stage.
+          </KeyTakeaway>
           <Body>
             Series A investors will spend meaningful time on your cap table during due diligence.
             They&apos;re not just checking numbers — they&apos;re reading the decisions you made and forming

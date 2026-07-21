@@ -151,6 +151,22 @@ function BulletCard({ title, points }: { title: string; points: string[] }) {
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 export default function BootstrappingVsVCGuide() {
   return (
     <>
@@ -222,6 +238,9 @@ export default function BootstrappingVsVCGuide() {
             everyone. What follows isn&apos;t a pitch for either path — it&apos;s an honest account of
             the real tradeoffs, informed by founders who&apos;ve lived both.
           </Body>
+          <KeyTakeaway>
+            The bootstrapping vs. venture capital decision is not about which path produces better companies — both have created billion-dollar outcomes and quiet failures. It's about which set of constraints — on speed, control, risk, and exit — aligns with your specific market, goals, and honest risk tolerance.
+          </KeyTakeaway>
 
           <Body>
             At Gildre, we&apos;ve spent years in conversation with founders across industries, revenue
@@ -252,6 +271,9 @@ export default function BootstrappingVsVCGuide() {
 
           {/* 1. Control vs Growth */}
           <H2>1. Control vs. Growth Velocity</H2>
+          <KeyTakeaway>
+            Bootstrapped companies grow at the pace of their revenue; VC-backed companies grow at the pace of their capital. The right choice depends on whether your market punishes the company that arrives second — and whether you're willing to trade board control and exit flexibility for speed.
+          </KeyTakeaway>
 
           <H3>The bootstrapped case</H3>
           <Body>
@@ -449,6 +471,9 @@ export default function BootstrappingVsVCGuide() {
 
           {/* 5. Exit */}
           <H2>5. Exit Strategy and Long-Term Vision</H2>
+          <KeyTakeaway>
+            Bootstrapped founders choose if and when they exit — on their own terms and timeline. VC-backed founders commit implicitly to an exit through acquisition or IPO, typically within a 7–10 year fund cycle. Know which endgame you're agreeing to before you accept the first term sheet.
+          </KeyTakeaway>
 
           <Body>
             Where you want this to end — and how much control you want over that decision — matters

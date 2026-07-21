@@ -91,6 +91,22 @@ function Callout({ title, children }: { title?: string; children: React.ReactNod
   );
 }
 
+function KeyTakeaway({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      className="my-6 rounded-xl px-6 py-4"
+      style={{ backgroundColor: "rgba(201,169,110,0.08)", borderLeft: "3px solid #C9A96E" }}
+    >
+      <p className="mb-2 text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
+        Key Takeaway
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
+        {children}
+      </p>
+    </div>
+  );
+}
+
 function Term({ term, children }: { term: string; children: React.ReactNode }) {
   return (
     <div
@@ -189,6 +205,9 @@ export default function StartupFundraisingTerminology() {
 
           {/* Intro */}
           <H2>Why Fundraising Terminology Matters — Even If You&apos;re Not Raising</H2>
+          <KeyTakeaway>
+            Knowing startup fundraising terminology before your first investor meeting gives you negotiating leverage, helps you identify unfavorable terms early, and signals to investors that you understand the mechanics of the deal you're entering. Even founders who don't plan to raise VC benefit from fluency in these terms.
+          </KeyTakeaway>
           <Body>
             Startup fundraising has its own language, and it&apos;s denser than most. VCs, angels,
             term sheets, convertible notes, SAFEs, dilution, runway — every conversation with an
@@ -264,6 +283,9 @@ export default function StartupFundraisingTerminology() {
 
           {/* Deal mechanics */}
           <H2>Deal Mechanics: The Terms That Govern Every Round</H2>
+          <KeyTakeaway>
+            The most consequential terms in any funding round are valuation, dilution, and the provisions that govern what happens at exit. Founders who understand pro rata rights, anti-dilution clauses, and liquidation preferences before signing avoid surprises that can cost significant equity — sometimes the difference between a meaningful outcome and a disappointing one.
+          </KeyTakeaway>
           <Body>
             These are the terms that define how a deal actually works — what you give, what you get,
             and what happens to your ownership over time.
@@ -405,6 +427,9 @@ export default function StartupFundraisingTerminology() {
 
           {/* Metrics */}
           <H2>The Metrics Every Investor Will Ask About</H2>
+          <KeyTakeaway>
+            Investors evaluate early-stage companies primarily on three metrics: ARR growth rate, net dollar retention (whether existing customers expand or contract), and the CAC-to-LTV ratio. Being able to state these numbers clearly and defend your assumptions is what separates a confident investor conversation from a fumbled one.
+          </KeyTakeaway>
           <Body>
             Investors don&apos;t evaluate companies on vibes. They evaluate them on metrics. Knowing
             these terms — and knowing your own numbers — is the difference between a confident
