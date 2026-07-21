@@ -284,7 +284,7 @@ export default function BuildingProductsThatScaleGuide() {
           </div>
 
           {/* Section 1: What scaling actually means */}
-          <H2>What Scaling Actually Means for a Product</H2>
+          <H2>What Does &quot;Scalable&quot; Actually Mean for an Early-Stage Product?</H2>
 
           <Body>
             Scaling is a word that gets used loosely. In product terms, it means something specific:
@@ -333,7 +333,7 @@ export default function BuildingProductsThatScaleGuide() {
           </Callout>
 
           {/* Section 2: MVP */}
-          <H2>The MVP Approach: Build With Purpose, Not Completeness</H2>
+          <H2>How Should Founders Use the MVP Approach to Build for Scale?</H2>
           <KeyTakeaway>
             A Minimum Viable Product should test your single riskiest assumption, not showcase your full product vision. The goal is to generate real behavioral data from real users on the smallest possible build — not to demonstrate how much you've built or how complete the product feels.
           </KeyTakeaway>
@@ -393,7 +393,7 @@ export default function BuildingProductsThatScaleGuide() {
           </div>
 
           {/* Section 3: Customer-centric design */}
-          <H2>Customer-Centric Design: Build for the Person, Not the Roadmap</H2>
+          <H2>What Is Customer-Centric Design and Why Does It Drive Long-Term Scale?</H2>
           <KeyTakeaway>
             The most durable competitive advantage in product is a deep, accurate understanding of the specific job your best customers hire your product to do. Build for that job first, resist feature expansion until the core experience is bulletproof, and let everything else follow from there.
           </KeyTakeaway>
@@ -444,7 +444,7 @@ export default function BuildingProductsThatScaleGuide() {
           </Callout>
 
           {/* Gildre angle */}
-          <H2>What the Gildre Community Adds to This</H2>
+          <H2>How Can Peer Founders Help You Make Better Product Decisions?</H2>
 
           <Body>
             Principles for building scalable products are widely available. What&apos;s harder to find

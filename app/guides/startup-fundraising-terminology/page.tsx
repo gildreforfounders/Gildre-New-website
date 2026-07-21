@@ -232,7 +232,7 @@ export default function StartupFundraisingTerminology() {
           </Body>
 
           {/* The lifecycle */}
-          <H2>The Fundraising Lifecycle</H2>
+          <H2>What Are the Stages of Startup Fundraising?</H2>
           <Body>
             Startups typically move through a sequence of funding stages, each designed for a
             different level of maturity and risk. The progression is not rigid — some companies skip
@@ -290,7 +290,7 @@ export default function StartupFundraisingTerminology() {
           </div>
 
           {/* Deal mechanics */}
-          <H2>Deal Mechanics: The Terms That Govern Every Round</H2>
+          <H2>What Terms Govern Every Startup Funding Round?</H2>
           <KeyTakeaway>
             The most consequential terms in any funding round are valuation, dilution, and the provisions that govern what happens at exit. Founders who understand pro rata rights, anti-dilution clauses, and liquidation preferences before signing avoid surprises that can cost significant equity — sometimes the difference between a meaningful outcome and a disappointing one.
           </KeyTakeaway>
@@ -368,7 +368,7 @@ export default function StartupFundraisingTerminology() {
           </Term>
 
           {/* Investor types */}
-          <H2>Types of Investors</H2>
+          <H2>What Are the Different Types of Startup Investors?</H2>
           <Body>
             Not all capital is the same. The investor type shapes the relationship, the expectations,
             and the terms attached to the money.
@@ -399,7 +399,7 @@ export default function StartupFundraisingTerminology() {
           </Term>
 
           {/* Protective terms */}
-          <H2>Legal and Protective Provisions</H2>
+          <H2>What Legal Provisions Should Every Founder Understand Before Signing?</H2>
 
           <Term term="Anti-Dilution Protection">
             Provisions that protect investors if future shares are issued at a lower price than what
@@ -434,7 +434,7 @@ export default function StartupFundraisingTerminology() {
           </Term>
 
           {/* Metrics */}
-          <H2>The Metrics Every Investor Will Ask About</H2>
+          <H2>Which Metrics Will Every Investor Ask About in a Fundraising Meeting?</H2>
           <KeyTakeaway>
             Investors evaluate early-stage companies primarily on three metrics: ARR growth rate, net dollar retention (whether existing customers expand or contract), and the CAC-to-LTV ratio. Being able to state these numbers clearly and defend your assumptions is what separates a confident investor conversation from a fumbled one.
           </KeyTakeaway>

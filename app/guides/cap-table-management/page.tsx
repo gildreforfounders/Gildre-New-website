@@ -263,7 +263,7 @@ export default function CapTableManagementGuide() {
           </KeyTakeaway>
 
           {/* Pre-seed */}
-          <H2>Stage 1: Pre-Seed — Getting the Foundation Right</H2>
+          <H2>How Should You Structure Your Cap Table at Pre-Seed?</H2>
           <KeyTakeaway>
             At pre-seed, authorize 10–15 million shares and immediately put all founder equity on a four-year vest with a one-year cliff. These two decisions prevent the structural problems that most commonly derail Series A fundraising — and they're far harder to fix retroactively.
           </KeyTakeaway>
@@ -273,7 +273,7 @@ export default function CapTableManagementGuide() {
             Two decisions matter most.
           </Body>
 
-          <H3>Authorized shares</H3>
+          <H3>How many authorized shares should you start with?</H3>
           <Body>
             Authorize between 10 and 15 million shares at incorporation. This range gives you enough
             room to grant options, bring on early investors, and handle future dilution rounds without
@@ -282,7 +282,7 @@ export default function CapTableManagementGuide() {
             later, which is a nuisance. Starting too high signals inexperience without any benefit.
           </Body>
 
-          <H3>Founder vesting</H3>
+          <H3>What is the right vesting schedule for founders?</H3>
           <Body>
             Implement a vesting schedule for all founder shares immediately — even if it feels
             unnecessary when everyone is aligned and excited. Standard structure: four-year vest
@@ -307,7 +307,7 @@ export default function CapTableManagementGuide() {
           </div>
 
           {/* Seed */}
-          <H2>Stage 2: Seed — The Option Pool and Equity Balancing Act</H2>
+          <H2>How Do You Manage Your Option Pool at the Seed Stage?</H2>
           <KeyTakeaway>
             Create your employee option pool before your seed round closes, not after. Option pool expansion is calculated pre-money and dilutes existing shareholders — front-loading this dilution once across the seed round is significantly cheaper than taking it twice across seed and Series A separately.
           </KeyTakeaway>
@@ -317,7 +317,7 @@ export default function CapTableManagementGuide() {
             consequences for future rounds. Three things to get right.
           </Body>
 
-          <H3>Create your option pool before the seed round closes</H3>
+          <H3>When should you create your employee option pool?</H3>
           <Body>
             Create an employee option pool of 10–15% before your seed round closes, not after.
             This matters because option pool expansion is typically calculated pre-money — meaning
@@ -326,7 +326,7 @@ export default function CapTableManagementGuide() {
             dilutes you again. Front-load the dilution once.
           </Body>
 
-          <H3>Grant equity strategically, not reactively</H3>
+          <H3>How should you allocate early employee equity grants?</H3>
           <Body>
             Two principles to live by for early option grants:
           </Body>
@@ -342,7 +342,7 @@ export default function CapTableManagementGuide() {
             ))}
           </div>
 
-          <H3>Standardize vesting for all grants</H3>
+          <H3>Should all employee grants use the same vesting schedule?</H3>
           <Body>
             Apply the same four-year, one-year cliff schedule to employee grants as you used for
             founders. Consistency matters for two reasons: it simplifies cap table management, and
@@ -368,7 +368,7 @@ export default function CapTableManagementGuide() {
           </div>
 
           {/* Series A prep */}
-          <H2>Stage 3: Series A — What Investors Actually Scrutinize</H2>
+          <H2>What Do Series A Investors Look for in Your Cap Table?</H2>
           <KeyTakeaway>
             Series A investors look for four things in your cap table: founders owning 60–70%+ combined, fewer than 15–20 shareholders, 8–12% remaining in the option pool, and no unusual investor rights or side letters. Any of these out of range becomes a negotiating lever against you at the term sheet stage.
           </KeyTakeaway>
@@ -407,9 +407,9 @@ export default function CapTableManagementGuide() {
           </div>
 
           {/* Ongoing management */}
-          <H2>Ongoing Management: Four Habits That Prevent Cap Table Chaos</H2>
+          <H2>How Do You Keep Your Cap Table Clean Between Funding Rounds?</H2>
 
-          <H3>1. Use software, not spreadsheets</H3>
+          <H3>1. Which cap table software should startups use?</H3>
           <Body>
             Spreadsheets work at pre-seed with two founders. By the time you have 15 option holders,
             two convertible notes, and a seed round with SAFE investors, manual tracking becomes
@@ -419,7 +419,7 @@ export default function CapTableManagementGuide() {
             investments an early-stage company can make.
           </Body>
 
-          <H3>2. Quarterly reviews</H3>
+          <H3>2. How often should you audit your cap table?</H3>
           <Body>
             Schedule 30 minutes every quarter to audit your cap table for accuracy. Specifically:
             verify that all vesting milestones have been recorded correctly, confirm that any
@@ -428,7 +428,7 @@ export default function CapTableManagementGuide() {
             information. Small errors compound into large problems during due diligence.
           </Body>
 
-          <H3>3. Documentation discipline</H3>
+          <H3>3. What documents should every equity event generate?</H3>
           <Body>
             Every equity event generates a document. Every document needs to be filed and retrievable.
             The minimum set: board approvals for all option grants, signed stock purchase agreements,
@@ -438,7 +438,7 @@ export default function CapTableManagementGuide() {
             structured.
           </Body>
 
-          <H3>4. Record transfers immediately</H3>
+          <H3>4. How quickly should cap table changes be recorded?</H3>
           <Body>
             When an investor sells their position, when equity is transferred as part of an
             agreement, or when a former employee&apos;s unvested shares are recaptured — update the
@@ -447,7 +447,7 @@ export default function CapTableManagementGuide() {
           </Body>
 
           {/* Series A readiness */}
-          <H2>Series A Readiness Checklist</H2>
+          <H2>Is Your Cap Table Ready for Series A? A 10-Point Checklist</H2>
           <Body>
             Before entering a Series A process, your cap table should be able to pass this review:
           </Body>

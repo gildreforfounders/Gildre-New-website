@@ -252,7 +252,7 @@ export default function MicroInfluencerMarketingGuide() {
           </KeyTakeaway>
 
           {/* What are micro-influencers */}
-          <H2>What Actually Defines a Micro-Influencer</H2>
+          <H2>What Is a Micro-Influencer and How Are They Different From Macro-Influencers?</H2>
 
           <Body>
             Micro-influencers are creators with followings typically between 1,000 and 100,000 — though
@@ -277,7 +277,7 @@ export default function MicroInfluencerMarketingGuide() {
           </Callout>
 
           {/* Finding the right ones */}
-          <H2>Finding the Right Micro-Influencers</H2>
+          <H2>How Do You Find the Right Micro-Influencers for Your Brand?</H2>
           <KeyTakeaway>
             The most important criteria when selecting a micro-influencer is audience alignment, not follower count. A creator with 8,000 deeply relevant followers will outperform one with 80,000 broadly scattered ones. Look for genuine community engagement in the comments — questions, debate, repeat followers — not just high view counts.
           </KeyTakeaway>
@@ -317,13 +317,13 @@ export default function MicroInfluencerMarketingGuide() {
           </div>
 
           {/* Building partnerships */}
-          <H2>Building Partnerships That Actually Work</H2>
+          <H2>How Do You Build a Micro-Influencer Partnership That Produces Results?</H2>
           <Body>
             The fastest way to produce forgettable influencer content is to over-script it.
             Micro-influencers have audiences because they have a voice — give them room to use it.
           </Body>
 
-          <H3>Set clear objectives, not creative controls</H3>
+          <H3>How should you brief a micro-influencer without over-scripting them?</H3>
           <Body>
             Tell creators what you want to achieve (introduce our product to people who care about
             sustainable skincare, drive trial signups, generate authentic testimonial content) and
@@ -332,7 +332,7 @@ export default function MicroInfluencerMarketingGuide() {
             creators are reading from a script — and so can the algorithm.
           </Body>
 
-          <H3>Structure compensation fairly</H3>
+          <H3>How much should you pay a micro-influencer?</H3>
           <Body>
             Product-only compensation works at the earliest stage or for very small accounts, but it
             undervalues creators and produces less committed partnerships. Pay fairly — see the
@@ -341,7 +341,7 @@ export default function MicroInfluencerMarketingGuide() {
             a discounted post with ambiguous terms.
           </Body>
 
-          <H3>Think campaigns, not one-offs</H3>
+          <H3>Should you run one-off posts or ongoing micro-influencer campaigns?</H3>
           <Body>
             A single post rarely builds the kind of trust that converts. When you find a creator
             who performs well and whose audience responds authentically to your brand, invest in a
@@ -351,7 +351,7 @@ export default function MicroInfluencerMarketingGuide() {
             micro-advocates rather than one-time celebrity placements.
           </Body>
 
-          <H3>Maintain real communication</H3>
+          <H3>How do you maintain effective communication with micro-influencers during a campaign?</H3>
           <Body>
             Treat creators like collaborators, not contractors. Share campaign performance with them,
             ask what&apos;s resonating with their audience, and incorporate their feedback into future
@@ -360,7 +360,7 @@ export default function MicroInfluencerMarketingGuide() {
           </Body>
 
           {/* Pricing */}
-          <H2>What Micro-Influencers Charge: Platform Benchmarks</H2>
+          <H2>How Much Do Micro-Influencers Charge? Pricing by Platform (2026)</H2>
           <Body>
             Rates vary significantly by niche, audience demographics, engagement rate, and the
             creator&apos;s experience negotiating brand deals. These ranges reflect typical market rates
@@ -396,7 +396,7 @@ export default function MicroInfluencerMarketingGuide() {
           </Body>
 
           {/* Metrics */}
-          <H2>The Metrics That Actually Tell You If It&apos;s Working</H2>
+          <H2>Which Metrics Should You Track to Measure Micro-Influencer ROI?</H2>
           <KeyTakeaway>
             The two most useful metrics for evaluating micro-influencer performance are cost per engagement (total spend divided by interactions) and cost per acquisition (spend divided by conversions). Reach and impressions measure visibility — CPE and CPA measure actual value, and they often tell very different stories.
           </KeyTakeaway>
@@ -439,7 +439,7 @@ export default function MicroInfluencerMarketingGuide() {
           </div>
 
           {/* Success stories */}
-          <H2>What Success Actually Looks Like</H2>
+          <H2>What Does a Successful Micro-Influencer Campaign Look Like in Practice?</H2>
 
           <Body>
             Glossier is the most cited example — the brand built its early growth almost entirely

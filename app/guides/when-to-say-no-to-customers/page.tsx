@@ -218,7 +218,7 @@ export default function WhenToSayNoGuide() {
         <article className="mx-auto max-w-3xl px-6 pb-24 pt-4">
 
           {/* Intro */}
-          <H2>The Hidden Cost of Saying Yes to Everyone</H2>
+          <H2>What Is the Real Cost of Saying Yes to the Wrong Customer?</H2>
           <KeyTakeaway>
             Saying yes to wrong-fit customers is one of the most expensive mistakes early-stage founders make. A misaligned customer consumes disproportionate support time, pulls your roadmap away from your best users, and generates revenue that masks the underlying problem — you're building for the wrong person.
           </KeyTakeaway>
@@ -247,7 +247,7 @@ export default function WhenToSayNoGuide() {
           </Warning>
 
           {/* Four signals */}
-          <H2>Four Signals That a Customer Isn&apos;t Right for You</H2>
+          <H2>What Are the Signs a Customer Isn&apos;t Right for Your Product?</H2>
           <KeyTakeaway>
             The four most reliable signals that a customer isn't right for you: their use case falls outside your core product, they show values friction in the sales process, they focus on price rather than value, or their definition of success is fundamentally incompatible with what your product delivers. Any one of these predicts a difficult relationship.
           </KeyTakeaway>
@@ -288,7 +288,7 @@ export default function WhenToSayNoGuide() {
           </div>
 
           {/* Screening */}
-          <H2>Build the Screen Before the Conversation</H2>
+          <H2>How Do You Screen Customers Before the Sales Conversation Starts?</H2>
           <Body>
             The best time to say no to a wrong customer is before the call, not after a three-week
             sales cycle. A clear ideal customer profile (ICP) and a consistent intake process filter
@@ -377,7 +377,7 @@ export default function WhenToSayNoGuide() {
           </Body>
 
           {/* Hidden upside */}
-          <H2>The Hidden Upside: Saying No Builds the Brand</H2>
+          <H2>Why Does Saying No to the Wrong Customers Actually Strengthen Your Brand?</H2>
           <Body>
             There&apos;s a counterintuitive dynamic that founders who master customer selection eventually
             discover: saying no to the wrong customers makes you more attractive to the right ones.

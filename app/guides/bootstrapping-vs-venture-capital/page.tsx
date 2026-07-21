@@ -304,12 +304,12 @@ export default function BootstrappingVsVCGuide() {
           </div>
 
           {/* 1. Control vs Growth */}
-          <H2>1. Control vs. Growth Velocity</H2>
+          <H2>1. Does Bootstrapping or Venture Capital Give You More Control?</H2>
           <KeyTakeaway>
             Bootstrapped companies grow at the pace of their revenue; VC-backed companies grow at the pace of their capital. The right choice depends on whether your market punishes the company that arrives second — and whether you're willing to trade board control and exit flexibility for speed.
           </KeyTakeaway>
 
-          <H3>The bootstrapped case</H3>
+          <H3>What do bootstrapped founders say about control and growth?</H3>
           <Body>
             Founders who bootstrap retain something that VC-backed companies often quietly give away:
             the ability to make decisions based on their long-term vision rather than a fund&apos;s
@@ -355,7 +355,7 @@ export default function BootstrappingVsVCGuide() {
             />
           </div>
 
-          <H3>The VC case</H3>
+          <H3>What do VC-backed founders say about growth velocity?</H3>
           <Body>
             Venture capital is purpose-built for a specific kind of company: large addressable market,
             defensible technology or network effects, and a path to outsized returns through scale.
@@ -390,7 +390,7 @@ export default function BootstrappingVsVCGuide() {
           </div>
 
           {/* 2. Financial pressure */}
-          <H2>2. Financial Pressure and Risk Tolerance</H2>
+          <H2>2. What Are the Financial Risks of Bootstrapping vs. Raising VC?</H2>
 
           <Body>
             The financial experience of bootstrapping and VC-backed founding are different in kind,
@@ -442,7 +442,7 @@ export default function BootstrappingVsVCGuide() {
           </div>
 
           {/* 3. Talent */}
-          <H2>3. Talent and Hiring Strategy</H2>
+          <H2>3. How Does Your Funding Choice Affect Who You Can Hire?</H2>
 
           <Body>
             How you fund your company shapes who you can hire — and who you&apos;ll want to hire.
@@ -474,7 +474,7 @@ export default function BootstrappingVsVCGuide() {
           </Body>
 
           {/* 4. Customer vs investor */}
-          <H2>4. Customer vs. Investor Priorities</H2>
+          <H2>4. Do Bootstrapped Founders Prioritize Customers More Than VC-Backed Founders?</H2>
 
           <Body>
             This is the tension that shows up in almost every major strategic decision: who are you
@@ -504,7 +504,7 @@ export default function BootstrappingVsVCGuide() {
           </Body>
 
           {/* 5. Exit */}
-          <H2>5. Exit Strategy and Long-Term Vision</H2>
+          <H2>5. How Does Bootstrapping vs. VC Affect Your Exit Options?</H2>
           <KeyTakeaway>
             Bootstrapped founders choose if and when they exit — on their own terms and timeline. VC-backed founders commit implicitly to an exit through acquisition or IPO, typically within a 7–10 year fund cycle. Know which endgame you're agreeing to before you accept the first term sheet.
           </KeyTakeaway>

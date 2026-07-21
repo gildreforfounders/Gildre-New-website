@@ -245,7 +245,7 @@ export default function First100CustomersGuide() {
           </KeyTakeaway>
 
           {/* 1 */}
-          <H2 num="01">Define Your ICP Before You Talk to Anyone</H2>
+          <H2 num="01">Who Should You Target First? Defining Your Ideal Customer Profile</H2>
           <KeyTakeaway>
             Your Ideal Customer Profile should describe a specific person at a specific company facing a specific pain point — not a broad demographic. Founders who define their ICP before starting outreach typically close their first customers 3x faster than those who begin with broad messaging and narrow down later.
           </KeyTakeaway>
@@ -275,7 +275,7 @@ export default function First100CustomersGuide() {
           </Callout>
 
           {/* 2 */}
-          <H2 num="02">Mine Your Personal Network with Precision</H2>
+          <H2 num="02">How Do You Leverage Your Personal Network to Land First Customers?</H2>
           <Body>
             Your first customers are almost certainly closer than you think. Former colleagues,
             LinkedIn connections, college classmates, industry contacts — these are people who
@@ -299,7 +299,7 @@ export default function First100CustomersGuide() {
           </Body>
 
           {/* 3 */}
-          <H2 num="03">Go All-In on One Traction Channel</H2>
+          <H2 num="03">Which Traction Channel Should Early-Stage Founders Focus On?</H2>
           <KeyTakeaway>
             Trying multiple acquisition channels simultaneously at the 0-to-100 stage spreads effort too thin to generate meaningful signal. Pick the single channel most likely to reach your ICP, exhaust it until you hit diminishing returns, then add a second. Sequencing beats scattering.
           </KeyTakeaway>
@@ -356,7 +356,7 @@ export default function First100CustomersGuide() {
           </div>
 
           {/* 4 */}
-          <H2 num="04">Do Things That Don&apos;t Scale — On Purpose</H2>
+          <H2 num="04">Why Should Founders Do Things That Don&apos;t Scale to Reach 100 Customers?</H2>
           <KeyTakeaway>
             The fastest path to your first 100 customers is almost always manual: handwritten outreach, personal onboarding calls, direct feedback sessions. Airbnb photographed early listings themselves; Stripe manually activated accounts. Don't automate what you haven't done manually first — the friction is where the learning lives.
           </KeyTakeaway>
@@ -376,7 +376,7 @@ export default function First100CustomersGuide() {
           ]} />
 
           {/* 5 */}
-          <H2 num="05">Hustle for Early PR and Earned Attention</H2>
+          <H2 num="05">How Do You Get Press Coverage Without a PR Agency or Ad Budget?</H2>
           <Body>
             You don&apos;t need a PR agency to get media coverage — you need a story that a journalist
             or podcast host can tell their audience. The key is leading with the angle they care
@@ -392,7 +392,7 @@ export default function First100CustomersGuide() {
           ]} />
 
           {/* 6 */}
-          <H2 num="06">Build a Community Around the Problem, Not the Product</H2>
+          <H2 num="06">Should You Build a Community Before You Have a Product to Sell?</H2>
           <Body>
             The most durable early customer acquisition strategy is also the most counterintuitive:
             don&apos;t build a following for your product — build a community around the problem your
@@ -413,7 +413,7 @@ export default function First100CustomersGuide() {
           ]} />
 
           {/* 7 */}
-          <H2 num="07">Design a Referral Flywheel Early</H2>
+          <H2 num="07">How Do You Build a Referral Program That Actually Drives Growth?</H2>
           <Body>
             Every happy customer is a distribution channel you haven&apos;t fully utilized. A referral
             program doesn&apos;t need to be sophisticated to work — it needs to make the incentive clear,
@@ -435,7 +435,7 @@ export default function First100CustomersGuide() {
           </Body>
 
           {/* 8 */}
-          <H2 num="08">Treat Customer Support as a Growth Channel</H2>
+          <H2 num="08">How Can Customer Support Become a Customer Acquisition Channel?</H2>
           <Body>
             At first-100 scale, your support function and your growth function are the same function.
             Every customer interaction is an opportunity to turn a user into an advocate — or into
