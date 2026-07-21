@@ -59,6 +59,14 @@ const featured = [
     href: "/guides/next-100-customers-gtm-playbook",
   },
   {
+    title: "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
+    category: "Mindset",
+    readTime: "10 min read",
+    excerpt:
+      "Elise Madrick left Kellogg executive education to found Cerenè — immersive 108-day transformation programs in Morocco and France. Her insight: you can't become someone new inside the same context that created the old version of you.",
+    href: "/blog/elise-madrick-cerene-executive-transformation",
+  },
+  {
     title: "Ryan Hughes: Why a Google and Snapchat Engineer Left Big Tech to Build Fan Pier Labs",
     category: "Product",
     readTime: "9 min read",
