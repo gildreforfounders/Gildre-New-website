@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Bootstrapping vs. Venture Capital: What Real Founders Know",
+    category: "Fundraising",
+    readTime: "11 min read",
+    excerpt:
+      "The real tradeoffs between bootstrapping and raising VC — from control and hiring to exit strategy and risk. Insights from founders who've done both, with a side-by-side comparison and a decision framework for your specific situation.",
+    href: "/guides/bootstrapping-vs-venture-capital",
+  },
+  {
     title: "Cap Table Management From Pre-Seed to Series A: The Founder's Equity Playbook",
     category: "Fundraising",
     readTime: "10 min read",
