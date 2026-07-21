@@ -59,6 +59,14 @@ const featured = [
     href: "/guides/next-100-customers-gtm-playbook",
   },
   {
+    title: "How to Get Your First 100 Customers: 8 Proven Strategies for Early-Stage Founders",
+    category: "Growth",
+    readTime: "11 min read",
+    excerpt:
+      "No brand, no budget, no traction. Eight strategies that work precisely because of those constraints — from ICP clarity and personal network outreach to picking a single traction channel and building a referral flywheel.",
+    href: "/guides/first-100-customers",
+  },
+  {
     title: "Startup Fundraising Terminology: The Complete Founder's Glossary — From Pre-Seed to Series C",
     category: "Fundraising",
     readTime: "10 min read",
