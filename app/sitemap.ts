@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/john-lionberger-broadway-engineer-racing`,       lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/armando-vera-carvajal-hangtight-amazon`,        lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/ryan-hughes-google-snapchat-fan-pier-labs`,     lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
+    { url: `${BASE_URL}/blog/john-olson-healthcare-entrepreneur-coaching`,      lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/elise-madrick-cerene-executive-transformation`,   lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/chris-riklin-topline-professional-marketplace`,  lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     // Guides & articles

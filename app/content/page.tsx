@@ -59,6 +59,14 @@ const featured = [
     href: "/guides/next-100-customers-gtm-playbook",
   },
   {
+    title: "John Olson: From Managing a Billion-Dollar Healthcare Budget to E-Commerce, Real Estate, and Executive Coaching",
+    category: "Leadership",
+    readTime: "10 min read",
+    excerpt:
+      "John Olson led complex healthcare teams, studied at Wharton, UC Davis, and Stanford, then left to build multiple businesses with his wife. His playbook: invest in peer groups, master delegation, and ask 'who' before 'how.'",
+    href: "/blog/john-olson-healthcare-entrepreneur-coaching",
+  },
+  {
     title: "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
     category: "Mindset",
     readTime: "10 min read",
