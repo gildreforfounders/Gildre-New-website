@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Micro-Influencer Marketing: The Founder's Playbook for Niche Creator Partnerships",
+    category: "Growth",
+    readTime: "10 min read",
+    excerpt:
+      "Micro-influencers consistently outperform mega-influencers on engagement, trust, and cost-per-conversion. How to find the right ones, structure the partnership, price it fairly, and measure what actually matters.",
+    href: "/guides/micro-influencer-marketing",
+  },
+  {
     title: "Bootstrapping vs. Venture Capital: What Real Founders Know",
     category: "Fundraising",
     readTime: "11 min read",
