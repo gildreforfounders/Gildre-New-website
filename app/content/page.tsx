@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Building Products That Scale: Lessons from ClassPass and Mindbody CEO Fritz Lanman",
+    category: "Product",
+    readTime: "10 min read",
+    excerpt:
+      "Scaling a product isn't a phase — it's a design decision made early. Fritz Lanman's experience at ClassPass and Mindbody reveals the infrastructure, MVP discipline, and customer-centric principles that separate products that scale from products that rebuild.",
+    href: "/guides/building-products-that-scale",
+  },
+  {
     title: "Micro-Influencer Marketing: The Founder's Playbook for Niche Creator Partnerships",
     category: "Growth",
     readTime: "10 min read",
