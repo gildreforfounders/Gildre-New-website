@@ -52,6 +52,27 @@ const schema = {
     { "@type": "Thing", name: "Startup Funding" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Person", name: "Jason Fried", sameAs: "https://en.wikipedia.org/wiki/Jason_Fried" },
+    { "@type": "Person", name: "David Heinemeier Hansson", alternateName: "DHH", sameAs: "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson" },
+    { "@type": "Organization", name: "Basecamp", url: "https://basecamp.com", sameAs: "https://en.wikipedia.org/wiki/Basecamp_(company)" },
+    { "@type": "Person", name: "Ryan Carson" },
+    { "@type": "Organization", name: "Treehouse", alternateName: "Team Treehouse", url: "https://teamtreehouse.com" },
+    { "@type": "Person", name: "Laura Roeder" },
+    { "@type": "Organization", name: "MeetEdgar", url: "https://meetedgar.com" },
+    { "@type": "Person", name: "Nathan Barry" },
+    { "@type": "Organization", name: "ConvertKit", url: "https://convertkit.com", sameAs: "https://en.wikipedia.org/wiki/ConvertKit" },
+    { "@type": "Person", name: "Mathilde Collin" },
+    { "@type": "Organization", name: "Front", url: "https://front.com" },
+    { "@type": "Person", name: "Alex Turnbull" },
+    { "@type": "Organization", name: "Groove", url: "https://www.groove.co" },
+    { "@type": "Person", name: "Patrick Campbell" },
+    { "@type": "Organization", name: "ProfitWell", url: "https://www.profitwell.com" },
+    { "@type": "Person", name: "Rob Walling" },
+    { "@type": "Organization", name: "Drip", url: "https://www.drip.com" },
+    { "@type": "Person", name: "Rand Fishkin", sameAs: "https://en.wikipedia.org/wiki/Rand_Fishkin" },
+    { "@type": "Organization", name: "Moz", url: "https://moz.com", sameAs: "https://en.wikipedia.org/wiki/Moz_(marketing_software)" },
+  ],
 };
 
 function H2({ children }: { children: React.ReactNode }) {
@@ -79,7 +100,7 @@ function Body({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Quote({ text, attribution }: { text: string; attribution: string }) {
+function Quote({ text, attribution }: { text: string; attribution: React.ReactNode }) {
   return (
     <blockquote
       className="my-7 rounded-2xl p-7"
@@ -148,6 +169,19 @@ function BulletCard({ title, points }: { title: string; points: string[] }) {
         ))}
       </ul>
     </div>
+  );
+}
+
+function EL({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: "inherit", textDecorationLine: "underline", textDecorationColor: "rgba(201,169,110,0.45)", textDecorationStyle: "dotted", textUnderlineOffset: "3px" }}
+    >
+      {children}
+    </a>
   );
 }
 
@@ -285,12 +319,12 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="We made decisions based on profitability, not investor expectations. That meant we grew slower but healthier."
-            attribution="Ryan Carson, Founder of Treehouse"
+            attribution={<><EL href="https://teamtreehouse.com">Ryan Carson</EL>, Founder of <EL href="https://teamtreehouse.com">Treehouse</EL></>}
           />
 
           <Quote
             text="When you bootstrap, your customers — not investors — become your primary stakeholders. This forces you to build a real business from day one."
-            attribution="Jason Fried, Co-founder of Basecamp"
+            attribution={<><EL href="https://en.wikipedia.org/wiki/Jason_Fried">Jason Fried</EL>, Co-founder of <EL href="https://basecamp.com">Basecamp</EL></>}
           />
 
           <Body>
@@ -331,7 +365,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="Once you take VC money, the game changes. Your focus shifts from running a business to managing investor expectations and hitting aggressive growth targets."
-            attribution="Alex Turnbull, Founder of Groove"
+            attribution={<>Alex Turnbull, Founder of <EL href="https://www.groove.co">Groove</EL></>}
           />
 
           <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -366,7 +400,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="Because we bootstrapped, we were profitable from the start. We had to be extremely lean, which kept us focused on solving real customer problems."
-            attribution="Laura Roeder, Founder of MeetEdgar"
+            attribution={<>Laura Roeder, Founder of <EL href="https://meetedgar.com">MeetEdgar</EL></>}
           />
 
           <Body>
@@ -377,7 +411,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="VC money isn't free — it's a loan with expectations. If your company doesn't hit growth targets, you risk losing control or being pushed toward an exit before you're ready."
-            attribution="Jason Fried, Co-founder of Basecamp"
+            attribution={<><EL href="https://en.wikipedia.org/wiki/Jason_Fried">Jason Fried</EL>, Co-founder of <EL href="https://basecamp.com">Basecamp</EL></>}
           />
 
           <Callout title="The less-discussed middle path">
@@ -418,7 +452,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="We couldn't afford to hire a huge team, so we focused on bringing in high-impact people who could wear multiple hats. That built a strong, self-sufficient team."
-            attribution="Nathan Barry, Founder of ConvertKit"
+            attribution={<><EL href="https://nathanbarry.com">Nathan Barry</EL>, Founder of <EL href="https://convertkit.com">ConvertKit</EL></>}
           />
 
           <Body>
@@ -429,7 +463,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="Raising capital allowed us to hire aggressively, but we had to be careful not to lose our culture. Growing too fast can create internal chaos."
-            attribution="Mathilde Collin, CEO of Front"
+            attribution={<><EL href="https://en.wikipedia.org/wiki/Mathilde_Collin">Mathilde Collin</EL>, CEO of <EL href="https://front.com">Front</EL></>}
           />
 
           <Body>
@@ -449,7 +483,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="When you bootstrap, your customers are your investors. You have to listen to them, build what they need, and make sure they're happy. That's how you survive."
-            attribution="DHH, Co-founder of Basecamp"
+            attribution={<><EL href="https://en.wikipedia.org/wiki/David_Heinemeier_Hansson">DHH</EL>, Co-founder of <EL href="https://basecamp.com">Basecamp</EL></>}
           />
 
           <Body>
@@ -460,7 +494,7 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="Raising VC means splitting focus between customers and investors. The key is aligning both interests so that growth benefits everyone."
-            attribution="Patrick Campbell, Founder of ProfitWell"
+            attribution={<>Patrick Campbell, Founder of <EL href="https://www.profitwell.com">ProfitWell</EL></>}
           />
 
           <Body>
@@ -482,12 +516,12 @@ export default function BootstrappingVsVCGuide() {
 
           <Quote
             text="Bootstrapping gave me the flexibility to sell when I was ready. I wasn't forced into an artificial timeline."
-            attribution="Rob Walling, Founder of Drip"
+            attribution={<><EL href="https://robwalling.com">Rob Walling</EL>, Founder of <EL href="https://www.drip.com">Drip</EL></>}
           />
 
           <Quote
             text="Once you take VC money, you're on a path with a specific endgame. If your investors don't get the returns they want, you may be forced into a direction that isn't right for you or your company."
-            attribution="Rand Fishkin, Founder of Moz"
+            attribution={<><EL href="https://en.wikipedia.org/wiki/Rand_Fishkin">Rand Fishkin</EL>, Founder of <EL href="https://moz.com">Moz</EL></>}
           />
 
           <Body>

@@ -51,6 +51,15 @@ const schema = {
     { "@type": "Thing", name: "Startup Go-to-Market" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Person", name: "Paul Graham", sameAs: "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)", jobTitle: "Co-founder", worksFor: { "@type": "Organization", name: "Y Combinator" } },
+    { "@type": "Organization", name: "Y Combinator", url: "https://www.ycombinator.com", sameAs: "https://en.wikipedia.org/wiki/Y_Combinator" },
+    { "@type": "Organization", name: "Airbnb", url: "https://www.airbnb.com", sameAs: "https://en.wikipedia.org/wiki/Airbnb" },
+    { "@type": "Organization", name: "Stripe", url: "https://stripe.com", sameAs: "https://en.wikipedia.org/wiki/Stripe,_Inc." },
+    { "@type": "Organization", name: "Dropbox", url: "https://www.dropbox.com", sameAs: "https://en.wikipedia.org/wiki/Dropbox" },
+    { "@type": "Organization", name: "Tesla", url: "https://www.tesla.com", sameAs: "https://en.wikipedia.org/wiki/Tesla,_Inc." },
+    { "@type": "Organization", name: "LinkedIn", url: "https://www.linkedin.com", sameAs: "https://en.wikipedia.org/wiki/LinkedIn" },
+  ],
 };
 
 function H2({ num, children }: { num?: string; children: React.ReactNode }) {
@@ -88,6 +97,19 @@ function Callout({ title, children }: { title?: string; children: React.ReactNod
       )}
       {children}
     </div>
+  );
+}
+
+function EL({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: "inherit", textDecorationLine: "underline", textDecorationColor: "rgba(201,169,110,0.45)", textDecorationStyle: "dotted", textUnderlineOffset: "3px" }}
+    >
+      {children}
+    </a>
   );
 }
 
@@ -339,9 +361,9 @@ export default function First100CustomersGuide() {
             The fastest path to your first 100 customers is almost always manual: handwritten outreach, personal onboarding calls, direct feedback sessions. Airbnb photographed early listings themselves; Stripe manually activated accounts. Don't automate what you haven't done manually first — the friction is where the learning lives.
           </KeyTakeaway>
           <Body>
-            Paul Graham&apos;s most cited advice — &ldquo;do things that don&apos;t scale&rdquo; — is especially relevant
-            for the first 100 customers. Airbnb&apos;s founders personally photographed early hosts&apos;
-            apartments. Stripe&apos;s founders installed Stripe on users&apos; laptops in person. These
+            <EL href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)">Paul Graham</EL>&apos;s most cited advice — &ldquo;do things that don&apos;t scale&rdquo; — is especially relevant
+            for the first 100 customers. <EL href="https://www.airbnb.com">Airbnb</EL>&apos;s founders personally photographed early hosts&apos;
+            apartments. <EL href="https://stripe.com">Stripe</EL>&apos;s founders installed Stripe on users&apos; laptops in person. These
             weren&apos;t inefficiencies — they were deliberate decisions to do things that only worked
             for small numbers of customers, so they could learn things that couldn&apos;t be learned any
             other way.

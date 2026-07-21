@@ -54,6 +54,14 @@ const schema = {
     { "@type": "Thing", name: "Angel Investing" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Organization", name: "Y Combinator", url: "https://www.ycombinator.com", sameAs: "https://en.wikipedia.org/wiki/Y_Combinator", description: "Creator of the SAFE (Simple Agreement for Future Equity) instrument" },
+    { "@type": "Organization", name: "Sequoia Capital", url: "https://www.sequoiacap.com", sameAs: "https://en.wikipedia.org/wiki/Sequoia_Capital" },
+    { "@type": "Organization", name: "Andreessen Horowitz", alternateName: "a16z", url: "https://a16z.com", sameAs: "https://en.wikipedia.org/wiki/Andreessen_Horowitz" },
+    { "@type": "Organization", name: "National Venture Capital Association", alternateName: "NVCA", url: "https://nvca.org" },
+    { "@type": "Thing", name: "SAFE Note", alternateName: "Simple Agreement for Future Equity", sameAs: "https://en.wikipedia.org/wiki/Simple_agreement_for_future_equity" },
+    { "@type": "Thing", name: "Convertible Note", sameAs: "https://en.wikipedia.org/wiki/Convertible_note" },
+  ],
 };
 
 function H2({ children }: { children: React.ReactNode }) {

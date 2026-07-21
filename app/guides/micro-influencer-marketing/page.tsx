@@ -52,6 +52,16 @@ const schema = {
     { "@type": "Thing", name: "Brand Partnerships" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Organization", name: "Glossier", url: "https://www.glossier.com", sameAs: "https://en.wikipedia.org/wiki/Glossier" },
+    { "@type": "Organization", name: "Daniel Wellington", url: "https://www.danielwellington.com" },
+    { "@type": "Organization", name: "Instagram", url: "https://www.instagram.com", sameAs: "https://en.wikipedia.org/wiki/Instagram" },
+    { "@type": "Organization", name: "TikTok", url: "https://www.tiktok.com", sameAs: "https://en.wikipedia.org/wiki/TikTok" },
+    { "@type": "Organization", name: "YouTube", url: "https://www.youtube.com", sameAs: "https://en.wikipedia.org/wiki/YouTube" },
+    { "@type": "Organization", name: "AspireIQ", url: "https://www.aspire.io" },
+    { "@type": "Organization", name: "Grin", url: "https://grin.co" },
+    { "@type": "Organization", name: "Upfluence", url: "https://www.upfluence.com" },
+  ],
 };
 
 function H2({ children }: { children: React.ReactNode }) {

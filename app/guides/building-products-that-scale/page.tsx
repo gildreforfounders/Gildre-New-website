@@ -53,6 +53,16 @@ const schema = {
     { "@type": "Organization", name: "ClassPass" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Person", name: "Fritz Lanman", jobTitle: "CEO", worksFor: { "@type": "Organization", name: "ClassPass" } },
+    { "@type": "Organization", name: "ClassPass", url: "https://classpass.com", sameAs: "https://en.wikipedia.org/wiki/ClassPass" },
+    { "@type": "Organization", name: "Mindbody", url: "https://www.mindbodyonline.com", sameAs: "https://en.wikipedia.org/wiki/Mindbody_(company)" },
+    { "@type": "Organization", name: "Microsoft", url: "https://microsoft.com", sameAs: "https://en.wikipedia.org/wiki/Microsoft" },
+    { "@type": "Person", name: "Paul Graham", sameAs: "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)" },
+    { "@type": "Organization", name: "Y Combinator", url: "https://www.ycombinator.com", sameAs: "https://en.wikipedia.org/wiki/Y_Combinator" },
+    { "@type": "Organization", name: "Airbnb", url: "https://www.airbnb.com", sameAs: "https://en.wikipedia.org/wiki/Airbnb" },
+    { "@type": "Organization", name: "Stripe", url: "https://stripe.com", sameAs: "https://en.wikipedia.org/wiki/Stripe,_Inc." },
+  ],
 };
 
 function H2({ children }: { children: React.ReactNode }) {
@@ -144,6 +154,19 @@ function DesignPillar({ icon, title, children }: { icon: string; title: string; 
   );
 }
 
+function EL({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: "inherit", textDecorationLine: "underline", textDecorationColor: "rgba(201,169,110,0.45)", textDecorationStyle: "dotted", textUnderlineOffset: "3px" }}
+    >
+      {children}
+    </a>
+  );
+}
+
 function KeyTakeaway({ children }: { children: React.ReactNode }) {
   return (
     <div
@@ -222,7 +245,7 @@ export default function BuildingProductsThatScaleGuide() {
           </Body>
 
           <Body>
-            Fritz Lanman&apos;s trajectory across ClassPass and Mindbody offers one of the clearest
+            <EL href="https://classpass.com">Fritz Lanman</EL>&apos;s trajectory across <EL href="https://classpass.com">ClassPass</EL> and <EL href="https://www.mindbodyonline.com">Mindbody</EL> offers one of the clearest
             illustrations of this principle in practice. ClassPass didn&apos;t just grow — it grew into
             a category it helped define, across thousands of fitness partners and millions of members,
             without the backend becoming the thing that held it back. That kind of growth is not

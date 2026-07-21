@@ -52,6 +52,12 @@ const schema = {
     { "@type": "Thing", name: "Founder Decision Making" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Thing", name: "Ideal Customer Profile", alternateName: "ICP" },
+    { "@type": "Thing", name: "Product-Market Fit", sameAs: "https://en.wikipedia.org/wiki/Product/market_fit" },
+    { "@type": "Thing", name: "Scope Creep" },
+    { "@type": "Thing", name: "Net Promoter Score", alternateName: "NPS" },
+  ],
 };
 
 function H2({ children }: { children: React.ReactNode }) {

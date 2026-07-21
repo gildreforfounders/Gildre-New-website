@@ -52,6 +52,14 @@ const schema = {
     { "@type": "Thing", name: "Venture Capital" },
     { "@type": "Organization", name: "Gildre" },
   ],
+  mentions: [
+    { "@type": "Person", name: "Raquel Urtasun", sameAs: "https://en.wikipedia.org/wiki/Raquel_Urtasun", jobTitle: "Founder & CEO", worksFor: { "@type": "Organization", name: "Waabi" } },
+    { "@type": "Organization", name: "Waabi", url: "https://waabi.ai", description: "Autonomous vehicle AI company founded by Raquel Urtasun" },
+    { "@type": "Organization", name: "Uber", url: "https://www.uber.com", sameAs: "https://en.wikipedia.org/wiki/Uber" },
+    { "@type": "Organization", name: "Nvidia", url: "https://www.nvidia.com", sameAs: "https://en.wikipedia.org/wiki/Nvidia" },
+    { "@type": "Organization", name: "Carta", url: "https://carta.com", description: "Cap table management software" },
+    { "@type": "Organization", name: "Pulley", url: "https://pulley.com", description: "Cap table management software" },
+  ],
 };
 
 function H2({ children }: { children: React.ReactNode }) {
@@ -126,6 +134,19 @@ function Benchmark({ label, value, note }: { label: string; value: string; note:
       <p className="text-2xl font-bold text-white mb-1" style={{ fontFamily: "var(--font-fraunces)" }}>{value}</p>
       <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{note}</p>
     </div>
+  );
+}
+
+function EL({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: "inherit", textDecorationLine: "underline", textDecorationColor: "rgba(201,169,110,0.45)", textDecorationStyle: "dotted", textUnderlineOffset: "3px" }}
+    >
+      {children}
+    </a>
   );
 }
 
@@ -221,7 +242,7 @@ export default function CapTableManagementGuide() {
               wasn&apos;t just about numbers; it became our strategic advantage in attracting top-tier investors.&rdquo;
             </p>
             <p className="mt-4 text-sm font-semibold" style={{ color: "#C9A96E" }}>
-              — Raquel Urtasun, Founder of Waabi (raised $280M, backed by Uber and Nvidia)
+              — <EL href="https://en.wikipedia.org/wiki/Raquel_Urtasun">Raquel Urtasun</EL>, Founder of <EL href="https://waabi.ai">Waabi</EL> (raised $280M, backed by <EL href="https://www.uber.com">Uber</EL> and <EL href="https://www.nvidia.com">Nvidia</EL>)
             </p>
           </blockquote>
 
@@ -392,7 +413,7 @@ export default function CapTableManagementGuide() {
           <Body>
             Spreadsheets work at pre-seed with two founders. By the time you have 15 option holders,
             two convertible notes, and a seed round with SAFE investors, manual tracking becomes
-            error-prone and due diligence-hostile. Cap table management platforms (Carta, Pulley,
+            error-prone and due diligence-hostile. Cap table management platforms (<EL href="https://carta.com">Carta</EL>, <EL href="https://pulley.com">Pulley</EL>,
             Captable.io) automate vesting calculations, model financing scenarios, and generate
             investor-ready reports on demand. This is one of the highest-ROI infrastructure
             investments an early-stage company can make.
