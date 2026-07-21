@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/elise-madrick-cerene-executive-transformation`,   lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/chris-riklin-topline-professional-marketplace`,  lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     // Guides & articles
+    { url: `${BASE_URL}/guides/startup-fundraising-terminology`,               lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/startup-equity-101`,                           lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/equity-dilution-explained`,                    lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/next-100-customers-gtm-playbook`,              lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },

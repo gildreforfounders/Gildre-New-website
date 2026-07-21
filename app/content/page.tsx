@@ -59,6 +59,14 @@ const featured = [
     href: "/guides/next-100-customers-gtm-playbook",
   },
   {
+    title: "Startup Fundraising Terminology: The Complete Founder's Glossary — From Pre-Seed to Series C",
+    category: "Fundraising",
+    readTime: "10 min read",
+    excerpt:
+      "Every fundraising term founders need to know — runway, burn rate, dilution, convertible notes, SAFEs, term sheets, and 20+ more. Plain-language definitions with context on when each term actually matters.",
+    href: "/guides/startup-fundraising-terminology",
+  },
+  {
     title: "John Olson: From Managing a Billion-Dollar Healthcare Budget to E-Commerce, Real Estate, and Executive Coaching",
     category: "Leadership",
     readTime: "10 min read",
