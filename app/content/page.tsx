@@ -59,6 +59,14 @@ const featured = [
     href: "/guides/next-100-customers-gtm-playbook",
   },
   {
+    title: "When to Say No to Customers: How Founders Protect Their Vision, Avoid Burnout, and Build Better Products",
+    category: "Product",
+    readTime: "8 min read",
+    excerpt:
+      "Saying yes to every customer feels like momentum. Often it's the opposite. Four signals that a customer isn't right, how to build a screening process, and how to say no without burning the relationship.",
+    href: "/guides/when-to-say-no-to-customers",
+  },
+  {
     title: "How to Get Your First 100 Customers: 8 Proven Strategies for Early-Stage Founders",
     category: "Growth",
     readTime: "11 min read",
