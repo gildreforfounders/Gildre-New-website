@@ -6,7 +6,7 @@ export const metadata = {
   title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without a Dollar of VC Funding | Gildre",
   description:
     "Jotform CEO Aytekin Tank on bootstrapping to 25 million users without VC, competing with Google Forms, and why long-term thinking beats chasing funding rounds.",
-  keywords: ["Aytekin Tank", "Jotform", "bootstrapped startup", "no VC funding", "SaaS growth", "Google Forms competitor", "Gildre podcast"],
+  keywords: ["Aytekin Tank", "Jotform", "bootstrapped startup", "no VC funding", "SaaS growth", "Google Forms competitor", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/aytekin-tank-bootstrapped-jotform-no-vc",
     title: "Aytekin Tank: How He Bootstrapped Jotform to 25 Million Users Without VC Funding",
@@ -48,7 +48,7 @@ const articleSchema = {
     { "@type": "Person", name: "Aytekin Tank", jobTitle: "Founder & CEO", worksFor: { "@type": "Organization", name: "Jotform" } },
     { "@type": "Organization", name: "Jotform", url: "https://www.jotform.com" },
   ],
-  keywords: "Aytekin Tank, Jotform, bootstrapping, SaaS founder, 25 million users, no VC funding, startup founder story, Google Forms competitor, Gildre Spotlight Podcast, entrepreneur Turkey",
+  keywords: "Aytekin Tank, Jotform, bootstrapping, SaaS founder, 25 million users, no VC funding, startup founder story, Google Forms competitor, Start to Scale Podcast, entrepreneur Turkey",
 };
 
 export default function AytekintankBlog() {
@@ -87,7 +87,7 @@ export default function AytekintankBlog() {
             Without a Dollar of VC Funding
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From coding on a school computer in Turkey with no computer at home, to building a 600-person SaaS company that competes with Google — Jotform founder and CEO Aytekin Tank joined the Gildre Spotlight Podcast to share the bootstrapper's playbook behind one of the most quietly impressive companies in tech.
+            From coding on a school computer in Turkey with no computer at home, to building a 600-person SaaS company that competes with Google — Jotform founder and CEO Aytekin Tank joined the Start to Scale Podcast to share the bootstrapper's playbook behind one of the most quietly impressive companies in tech.
           </p>
 
           {/* Meta row */}
@@ -98,7 +98,7 @@ export default function AytekintankBlog() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
-                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Gildre Spotlight Podcast</p>
+                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Start to Scale Podcast</p>
               </div>
             </div>
             <div className="flex gap-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
@@ -129,7 +129,7 @@ export default function AytekintankBlog() {
         </div>
 
         <Body>
-          We have an exclusive Gildre Spotlight Podcast interview to share as we delve into the inspiring journey of <strong style={{ color: "#fff" }}>Aytekin Tank</strong>, the founder and CEO of Jotform. His story is a testament to perseverance, innovation, and the importance of investing in one's vision. From his humble beginnings in Turkey to leading a successful tech company with 25 million users, Aytekin shares insights into what it takes to build a thriving business — entirely on his own terms.
+          We have an exclusive Start to Scale Podcast interview to share as we delve into the inspiring journey of <strong style={{ color: "#fff" }}>Aytekin Tank</strong>, the founder and CEO of Jotform. His story is a testament to perseverance, innovation, and the importance of investing in one's vision. From his humble beginnings in Turkey to leading a successful tech company with 25 million users, Aytekin shares insights into what it takes to build a thriving business — entirely on his own terms.
         </Body>
 
         <Section title="Growing Up in Turkey: The Seeds of Entrepreneurship" />

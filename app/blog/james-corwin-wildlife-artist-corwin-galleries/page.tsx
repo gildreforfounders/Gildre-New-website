@@ -6,7 +6,7 @@ export const metadata = {
   title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business | Gildre",
   description:
     "Wildlife artist James Corwin on going from $20 miniatures at farmers markets to owning Corwin Galleries — a creative business built on art, grit, and no conventional blueprint.",
-  keywords: ["James Corwin", "Corwin Galleries", "wildlife artist", "creative entrepreneur", "Montana founder", "Gildre podcast"],
+  keywords: ["James Corwin", "Corwin Galleries", "wildlife artist", "creative entrepreneur", "Montana founder", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/james-corwin-wildlife-artist-corwin-galleries",
     title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
@@ -87,7 +87,7 @@ export default function JamesCorwinBlog() {
             <span style={{ color: "#C9A96E" }}>Creativity Into a Gallery Empire</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From selling $20 miniature paintings at Montana farmers markets to owning Corwin Galleries and mastering Facebook ads — wildlife artist and entrepreneur James Corwin joined the Gildre Spotlight Podcast to share the unconventional business journey behind one of the art world's most compelling founder stories.
+            From selling $20 miniature paintings at Montana farmers markets to owning Corwin Galleries and mastering Facebook ads — wildlife artist and entrepreneur James Corwin joined the Start to Scale Podcast to share the unconventional business journey behind one of the art world's most compelling founder stories.
           </p>
 
           {/* Author row */}
@@ -98,7 +98,7 @@ export default function JamesCorwinBlog() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
-                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Gildre Spotlight Podcast</p>
+                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Start to Scale Podcast</p>
               </div>
             </div>
             <div className="flex gap-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>

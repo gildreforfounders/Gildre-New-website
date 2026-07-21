@@ -6,7 +6,7 @@ export const metadata = {
   title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit | Gildre",
   description:
     "Robyn Hobson on 13 years of marketing across South Africa, China, and the US — from growing Woolworths SA to 500K fans to VP of Marketing at Remote Vans.",
-  keywords: ["Robyn Hobson", "global marketing career", "CMO", "South Africa startup", "Remote Vans", "Gildre podcast"],
+  keywords: ["Robyn Hobson", "global marketing career", "CMO", "South Africa startup", "Remote Vans", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/robyn-hobson-cape-town-to-us-cmo",
     title: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit",
@@ -51,7 +51,7 @@ const articleSchema = {
     { "@type": "Organization", name: "Mobile Guardian" },
     { "@type": "Place", name: "Cape Town, South Africa" },
   ],
-  keywords: "Robyn Hobson, Remote Vans, CMO marketing, South Africa marketing, Cape Town entrepreneur, Woolworths South Africa, UCT MBA, global marketing career, Stevie Award, Female Executive, Gildre Spotlight Podcast, startup marketing",
+  keywords: "Robyn Hobson, Remote Vans, CMO marketing, South Africa marketing, Cape Town entrepreneur, Woolworths South Africa, UCT MBA, global marketing career, Stevie Award, Female Executive, Start to Scale Podcast, startup marketing",
 };
 
 export default function RobynBlog() {
@@ -100,7 +100,7 @@ export default function RobynBlog() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
-                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Gildre Spotlight Podcast</p>
+                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Start to Scale Podcast</p>
               </div>
             </div>
             <div className="flex gap-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>

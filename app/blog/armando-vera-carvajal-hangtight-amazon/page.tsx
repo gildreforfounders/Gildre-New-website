@@ -45,7 +45,7 @@ const schema = {
   "datePublished": "2024-01-01",
   "dateModified": "2024-01-01",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon" },
-  "keywords": "Armando Vera Carvajal, Hangtight app, first-generation immigrant founder, Mexican American entrepreneur, AI social planning, GoPlanIt acquisition, UT Austin, Amazon Peru, ayahuasca entrepreneur, Gildre podcast",
+  "keywords": "Armando Vera Carvajal, Hangtight app, first-generation immigrant founder, Mexican American entrepreneur, AI social planning, GoPlanIt acquisition, UT Austin, Amazon Peru, ayahuasca entrepreneur, Start to Scale Podcast",
   "about": [
     { "@type": "Person", "name": "Armando Vera Carvajal" },
     { "@type": "Organization", "name": "Hangtight" },

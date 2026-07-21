@@ -45,7 +45,7 @@ const schema = {
   "datePublished": "2024-01-01",
   "dateModified": "2024-01-01",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing" },
-  "keywords": "John Lionberger, theater engineering pivot, pro racing entrepreneur, ESOP transition, Valvoline franchise, Houston consulting, going public, career reinvention, Gildre podcast",
+  "keywords": "John Lionberger, theater engineering pivot, pro racing entrepreneur, ESOP transition, Valvoline franchise, Houston consulting, going public, career reinvention, Start to Scale Podcast",
   "about": [
     { "@type": "Person", "name": "John Lionberger" },
     { "@type": "Organization", "name": "Valvoline" },

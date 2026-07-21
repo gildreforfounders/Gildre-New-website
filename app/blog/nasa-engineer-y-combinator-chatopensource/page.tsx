@@ -6,7 +6,7 @@ export const metadata = {
   title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers | Gildre",
   description:
     "From Louisiana's Cancer Alley to NASA's Mars rovers to Y Combinator — the founder of ChatOpenSource on physics, AI, and building startups from problems you've actually lived.",
-  keywords: ["NASA founder", "ChatOpenSource", "Y Combinator", "open source AI", "Mars rover engineer", "Gildre podcast"],
+  keywords: ["NASA founder", "ChatOpenSource", "Y Combinator", "open source AI", "Mars rover engineer", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/nasa-engineer-y-combinator-chatopensource",
     title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers",
@@ -51,7 +51,7 @@ const articleSchema = {
     { "@type": "Organization", name: "Deliv" },
     { "@type": "Organization", name: "Northrop Grumman" },
   ],
-  keywords: "NASA founder, ChatOpenSource, Y Combinator, open source AI, ChatGPT alternative, LSU physics, Curiosity rover, Maven mission, Deliv startup, Louisiana entrepreneur, Gildre Spotlight Podcast",
+  keywords: "NASA founder, ChatOpenSource, Y Combinator, open source AI, ChatGPT alternative, LSU physics, Curiosity rover, Maven mission, Deliv startup, Louisiana entrepreneur, Start to Scale Podcast",
 };
 
 export default function NasaFounderBlog() {
@@ -90,7 +90,7 @@ export default function NasaFounderBlog() {
             Building an Open-Source AI Company After Working on Mars Rovers
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From growing up in Louisiana's "Cancer Alley" to working on NASA's Curiosity and Maven missions, to founding ChatOpenSource through Y Combinator — this is what a non-linear founder journey actually looks like. Excerpts from the Gildre Spotlight Podcast.
+            From growing up in Louisiana's "Cancer Alley" to working on NASA's Curiosity and Maven missions, to founding ChatOpenSource through Y Combinator — this is what a non-linear founder journey actually looks like. Excerpts from the Start to Scale Podcast.
           </p>
 
           {/* Meta row */}
@@ -101,7 +101,7 @@ export default function NasaFounderBlog() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
-                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Gildre Spotlight Podcast</p>
+                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Start to Scale Podcast</p>
               </div>
             </div>
             <div className="flex gap-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>

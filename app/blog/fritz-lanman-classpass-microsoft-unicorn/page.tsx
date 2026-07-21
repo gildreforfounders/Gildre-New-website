@@ -6,7 +6,7 @@ export const metadata = {
   title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status | Gildre",
   description:
     "ClassPass CEO Fritz Lanman on leading Microsoft's $240M Facebook bet, losing 70 lbs on his own product, and scaling ClassPass to $285M unicorn status.",
-  keywords: ["Fritz Lanman", "ClassPass", "startup CEO", "unicorn startup", "Microsoft", "Gildre podcast"],
+  keywords: ["Fritz Lanman", "ClassPass", "startup CEO", "unicorn startup", "Microsoft", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/fritz-lanman-classpass-microsoft-unicorn",
     title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status",
@@ -88,7 +88,7 @@ export default function FritzLanmanBlog() {
             Took <span style={{ color: "#C9A96E" }}>ClassPass to Unicorn Status</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From investing a quarter-billion dollars into Facebook at Microsoft, to losing 70 lbs on his own product, to raising a $285M Series E — ClassPass CEO Fritz Lanman joined the Gildre Spotlight Podcast to share the founder journey behind one of fitness tech's biggest success stories.
+            From investing a quarter-billion dollars into Facebook at Microsoft, to losing 70 lbs on his own product, to raising a $285M Series E — ClassPass CEO Fritz Lanman joined the Start to Scale Podcast to share the founder journey behind one of fitness tech's biggest success stories.
           </p>
 
           {/* Author + meta row */}
@@ -99,7 +99,7 @@ export default function FritzLanmanBlog() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
-                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Gildre Spotlight Podcast</p>
+                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Start to Scale Podcast</p>
               </div>
             </div>
             <div className="flex gap-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
@@ -116,7 +116,7 @@ export default function FritzLanmanBlog() {
 
         {/* Intro */}
         <p className="text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          Last month we had the opportunity to sit down with industry titan and ClassPass CEO, Fritz Lanman on our <strong style={{ color: "#fff" }}>Gildre Spotlight Podcast</strong>. Fritz shared deep insights from his upbringing and how his career at Microsoft and building startups led him along the path to helping ClassPass reach unicorn status with a $285M Series E raise in 2020. Below are excerpts from the full episode.
+          Last month we had the opportunity to sit down with industry titan and ClassPass CEO, Fritz Lanman on our <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Fritz shared deep insights from his upbringing and how his career at Microsoft and building startups led him along the path to helping ClassPass reach unicorn status with a $285M Series E raise in 2020. Below are excerpts from the full episode.
         </p>
 
         {/* Fritz headshot */}

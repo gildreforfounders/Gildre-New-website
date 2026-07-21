@@ -45,7 +45,7 @@ const schema = {
   "datePublished": "2024-01-01",
   "dateModified": "2024-01-01",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup" },
-  "keywords": "Luke Ashenbrand, Princeton football, Division I athlete, startup entrepreneur, concussion recovery, Vega startup, startup consultant, Gildre podcast",
+  "keywords": "Luke Ashenbrand, Princeton football, Division I athlete, startup entrepreneur, concussion recovery, Vega startup, startup consultant, Start to Scale Podcast",
   "about": [
     { "@type": "Person", "name": "Luke Ashenbrand" },
     { "@type": "Organization", "name": "Princeton University" },

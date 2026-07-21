@@ -45,7 +45,7 @@ const schema = {
   "datePublished": "2024-01-01",
   "dateModified": "2024-01-01",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs" },
-  "keywords": "Ryan Hughes, Fan Pier Labs, Google engineer startup, Snapchat, AI consulting, Northeastern University, big tech to startup, entrepreneurship, Gildre podcast",
+  "keywords": "Ryan Hughes, Fan Pier Labs, Google engineer startup, Snapchat, AI consulting, Northeastern University, big tech to startup, entrepreneurship, Start to Scale Podcast",
   "about": [
     { "@type": "Person", "name": "Ryan Hughes" },
     { "@type": "Organization", "name": "Fan Pier Labs" },

@@ -6,7 +6,7 @@ export const metadata = {
   title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital | Gildre",
   description:
     "Divvy co-founder Alex Bean on selling before the product was built, scaling to a Bill.com acquisition, and what he looks for now as a VC at Tandem Invest.",
-  keywords: ["Alex Bean", "Divvy", "Bill.com acquisition", "fintech startup", "Tandem Invest", "venture capital", "Gildre podcast"],
+  keywords: ["Alex Bean", "Divvy", "Bill.com acquisition", "fintech startup", "Tandem Invest", "venture capital", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/alex-bean-divvy-billcom-acquisition",
     title: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
@@ -100,7 +100,7 @@ export default function AlexBeanBlog() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
-                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Gildre Spotlight Podcast</p>
+                <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>Start to Scale Podcast</p>
               </div>
             </div>
             <div className="flex gap-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
