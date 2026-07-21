@@ -87,8 +87,7 @@ export default function Footer() {
             <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Community</p>
             <ul className="mt-4 space-y-2.5">
               <li><a href="/founder-community" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Founder Community</a></li>
-              <li><a href="/membership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Membership Plans</a></li>
-              <li><a href="/memberprograms" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Member Programs</a></li>
+              <li><a href="/#pricing" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Membership Plans</a></li>
               <li><a href="/mentor" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Startup Mentors</a></li>
             </ul>
           </div>
