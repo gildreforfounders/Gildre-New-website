@@ -62,6 +62,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "What percentage should founders own at Series A?",
+    a: "At Series A, founders collectively typically own 60–70% before the new round's dilution. If combined founder ownership drops below 50% entering Series A, investors may raise concerns about alignment and team motivation through future rounds. Maintaining a healthy founder stake is one of the clearest signals of a well-managed cap table.",
+  },
+  {
+    q: "How large should a startup's employee option pool be?",
+    a: "The standard employee option pool for an early-stage startup is 10–15% of fully diluted shares, established before the seed round closes. Maintaining a 3–5% buffer within the pool is advisable for unexpected key hires. If your pool is nearly exhausted entering Series A, investors will require an expansion — which dilutes you further before the round closes.",
+  },
+  {
+    q: "What is a fully diluted cap table?",
+    a: "A fully diluted cap table shows ownership assuming all possible shares have been issued: outstanding shares plus all options (vested and unvested), warrants, and shares underlying convertible instruments like SAFEs and convertible notes. Investors always underwrite deals on a fully diluted basis, so understanding your fully diluted share count is essential before any financing conversation.",
+  },
+  {
+    q: "What cap table red flags do Series A investors look for?",
+    a: "The four most common cap table red flags are: (1) combined founder ownership below 50–60%, (2) more than 15–20 individual angel investors creating a fragmented shareholder base, (3) an option pool that is nearly exhausted requiring immediate expansion, and (4) unusual investor rights from early rounds such as broad veto powers or non-standard liquidation preferences.",
+  },
+  {
+    q: "What cap table software should startups use?",
+    a: "Carta and Pulley are the two most widely used cap table platforms for early-stage startups. Both automate vesting calculations, model future financing scenarios, and generate investor-ready reports. Carta has the broadest adoption and integrates with most law firms and transfer agents; Pulley is often preferred for its pricing at pre-seed and seed stages.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ children }: { children: React.ReactNode }) {
   return (
     <h2
@@ -172,6 +205,10 @@ export default function CapTableManagementGuide() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -477,6 +514,28 @@ export default function CapTableManagementGuide() {
               investors interpret as a signal about everything else you do.
             </Body>
           </Callout>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

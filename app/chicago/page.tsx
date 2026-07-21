@@ -11,6 +11,7 @@ const data: LocationData = {
   hook: "The Second City builds first-rate companies. And Gildre is here for it.",
   intro: "Chicago is quietly one of the most founder-dense cities in the country — with deep strengths in fintech, enterprise SaaS, and logistics tech. Gildre connects Chicago founders with the community, capital access, and mentors to go from regional to national.",
   scene: "From River North to the West Loop, Chicago's founder community is tight-knit, execution-focused, and tired of being overlooked. The talent is here, the capital is growing, and the next breakout companies from Chicago are being built right now.",
+  neighborhood: "River North",
   benefits: [
     {
       icon: "🏙️",

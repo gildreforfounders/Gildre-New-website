@@ -62,6 +62,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "How long does it take to get your first 100 customers?",
+    a: "Most early-stage SaaS founders reach their first 100 customers within 3–12 months, depending on sales cycle length and how quickly they validate their ICP. Founders using direct outreach and high-touch onboarding typically move faster than those relying on inbound channels alone.",
+  },
+  {
+    q: "What is the most effective channel for early-stage SaaS customer acquisition?",
+    a: "For most early-stage B2B SaaS companies, direct founder outreach via LinkedIn and email converts at the highest rate. The founder's personal credibility and ability to personalize each message outperforms any automated channel at the 0-to-100 stage.",
+  },
+  {
+    q: "How do you find your first customers without a marketing budget?",
+    a: "The highest-ROI approaches require time, not money: direct outreach to your ICP, leveraging your personal and professional network, joining niche communities where your target customers spend time, and doing things that don't scale — like personally onboarding every early user one-on-one.",
+  },
+  {
+    q: "What is an ideal customer profile (ICP) for a startup?",
+    a: "An ICP is a detailed description of the company or individual most likely to get maximum value from your product — defined by firmographic data (company size, industry, tech stack), demographic data (role, seniority), and psychographic data (pain points, buying triggers). Defining your ICP before any outreach is the single most important step in early customer acquisition.",
+  },
+  {
+    q: "What does 'do things that don't scale' mean in startup customer acquisition?",
+    a: "'Do things that don't scale' — a concept popularized by Paul Graham of Y Combinator — means manually doing for early customers what you intend to automate later. Examples: personally onboarding every new user, calling every signup, hand-curating early recommendations. These high-touch actions generate the deep user insight needed to build a product worth scaling.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ num, children }: { num?: string; children: React.ReactNode }) {
   return (
     <h2
@@ -168,6 +201,10 @@ export default function First100CustomersGuide() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -468,6 +505,28 @@ export default function First100CustomersGuide() {
               you&apos;re learning something every single day. The first 100 will follow.
             </p>
           </div>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

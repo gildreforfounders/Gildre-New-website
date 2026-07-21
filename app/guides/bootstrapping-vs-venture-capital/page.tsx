@@ -75,6 +75,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "Should I bootstrap or raise venture capital?",
+    a: "The right choice depends on three factors: market structure (winner-take-most markets favor VC; niche or lifestyle markets favor bootstrapping), risk tolerance (bootstrapping carries personal financial risk; VC carries dilution and exit pressure), and personal goals (bootstrapping preserves control and exit optionality; VC funds speed and scale in exchange for accountability to investors).",
+  },
+  {
+    q: "What are the main disadvantages of raising venture capital?",
+    a: "The primary disadvantages of VC funding are: significant equity dilution at each round, loss of operational control through board seats and approval rights, pressure to pursue hypergrowth over sustainability, and an implicit commitment to an exit — IPO or acquisition — within a 7–10 year timeframe. VC money is not free capital; it is a loan with expectations.",
+  },
+  {
+    q: "How much equity do you give up in a seed round?",
+    a: "Most seed rounds involve giving up 15–25% equity, depending on valuation, round size, and investor demand. Pre-seed rounds may give up 10–20%. Giving up more than 25–30% in early rounds is generally considered excessive and creates structural cap table problems before Series A, as subsequent rounds dilute an already-thin founder stake further.",
+  },
+  {
+    q: "Can you bootstrap a SaaS company to success?",
+    a: "Yes. Many highly successful SaaS companies bootstrapped to profitability, including Basecamp, Mailchimp, and ConvertKit. Bootstrapping works best for SaaS businesses with short sales cycles, high gross margins, markets that don't require massive up-front capital to capture, and founders who prioritize long-term ownership over raw growth speed.",
+  },
+  {
+    q: "What happens to founders when a startup raises VC?",
+    a: "When a startup raises VC, founders typically give a board seat to the lead investor, accept anti-dilution provisions and information rights, and implicitly commit to an exit path. Major decisions — including senior hires, spending above defined thresholds, pivots, and acquisitions — may require board approval. The founders' role evolves from sole decision-makers to accountable executives.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ children }: { children: React.ReactNode }) {
   return (
     <h2
@@ -207,6 +240,10 @@ export default function BootstrappingVsVCGuide() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -600,6 +637,28 @@ export default function BootstrappingVsVCGuide() {
               most value is the one that fits your model — not the one that gets the most press.
             </Body>
           </Callout>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

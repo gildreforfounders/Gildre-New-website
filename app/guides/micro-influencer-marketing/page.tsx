@@ -64,6 +64,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "What is a micro-influencer?",
+    a: "A micro-influencer is a content creator with a following typically between 1,000 and 100,000 who has built an engaged, trust-based community around a specific niche. Unlike macro-influencers, micro-influencers are perceived by their audience as genuine peers, producing engagement rates of 3–8% compared to 1–2% for accounts with millions of followers.",
+  },
+  {
+    q: "How do you find micro-influencers for your brand?",
+    a: "The four most effective methods are: searching niche-relevant hashtags on Instagram and TikTok and filtering by recent posting frequency; mining your existing customer base for users who already have engaged followings; using influencer platforms like AspireIQ, Grin, or Upfluence to filter by audience demographics and engagement rate; and monitoring who organically tags or mentions your brand.",
+  },
+  {
+    q: "How much does micro-influencer marketing cost?",
+    a: "Micro-influencer rates typically range from $50–$500 for Instagram Stories, $100–$1,500 for in-feed posts, $200–$2,500 for TikTok videos, and $500–$5,000 for YouTube integrations. Many early-stage brands supplement flat-fee deals with affiliate arrangements (10–20% commission), which align incentives and reduce upfront costs.",
+  },
+  {
+    q: "Is micro-influencer marketing effective for early-stage startups?",
+    a: "Yes. Micro-influencers consistently deliver higher engagement rates, better cost-per-acquisition, and stronger brand trust than macro-influencers for most early-stage products. The key advantage for startups is affordability at scale: partnering with 20 micro-influencers in a specific niche typically outperforms one campaign with a single influencer who has 2 million followers.",
+  },
+  {
+    q: "How do you measure the success of a micro-influencer campaign?",
+    a: "The five metrics that matter most are: engagement rate on the sponsored content (benchmark: 3–8% for micro-influencers), referral traffic via UTM-tagged links, conversion rate of that referral traffic, cost per acquisition versus other channels, and brand search volume lift in the week following the post. Track all five before declaring a partnership successful or scaling it.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ children }: { children: React.ReactNode }) {
   return (
     <h2
@@ -173,6 +206,10 @@ export default function MicroInfluencerMarketingGuide() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -490,6 +527,28 @@ export default function MicroInfluencerMarketingGuide() {
             what worked and what didn&apos;t. The community insight layer is often more valuable
             than the platform itself.
           </Body>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

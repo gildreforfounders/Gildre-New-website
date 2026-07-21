@@ -60,6 +60,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "How do you politely decline a customer who isn't a good fit?",
+    a: "Be direct and brief. Name the specific reason — timing, use case mismatch, or values fit — and offer an alternative or referral where one genuinely exists. A specific, honest decline is more respectful than a vague delay. The goal is to leave the prospect with clarity, not false hope.",
+  },
+  {
+    q: "What are the signs that a customer isn't right for your startup?",
+    a: "The four clearest signals are: their use case falls outside your core product, they exhibit friction or distrust during the sales process, they focus on price rather than value, and their definition of success is fundamentally incompatible with what your product delivers. The presence of any two of these signals is usually sufficient to decline.",
+  },
+  {
+    q: "How do you build a customer screening process for a startup?",
+    a: "Build your screening before sales conversations begin. Use a pre-qualification questionnaire, discovery call framework, or application form that filters misaligned prospects early. Key screening questions should reveal: primary use case, success metrics, budget range, and timeline. This keeps your pipeline focused on customers who can actually succeed with your product.",
+  },
+  {
+    q: "When should a startup say no to revenue?",
+    a: "Say no to revenue when the customer is fundamentally misaligned: their use case would pull your roadmap in the wrong direction, their expectations require custom development that dilutes your core product, or the support load is disproportionate to the revenue they generate. In the long run, wrong-fit customers consistently cost more than they are worth.",
+  },
+  {
+    q: "Does saying no to customers actually help your brand?",
+    a: "Yes. Selectivity signals confidence, expertise, and a clear product vision — all of which attract higher-quality customers. When you decline prospects that aren't a fit and explain why, you also generate referrals: the declined prospect often refers someone who is a better fit, because they respect that you were honest about the mismatch.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ children }: { children: React.ReactNode }) {
   return (
     <h2
@@ -158,6 +191,10 @@ export default function WhenToSayNoGuide() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -428,6 +465,28 @@ export default function WhenToSayNoGuide() {
               clear about who they were building for, and had the discipline to say so.
             </p>
           </div>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

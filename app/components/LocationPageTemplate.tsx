@@ -12,6 +12,7 @@ export type LocationData = {
   lat: number;
   lng: number;
   zip: string;
+  neighborhood?: string;
 };
 
 const stats = [
@@ -29,7 +30,40 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
     url: `https://www.gildre.com/${data.slug}`,
     logo: "https://www.gildre.com/images/gildre-logo.png",
     image: "https://www.gildre.com/images/gildre-logo.png",
-    description: `Gildre is a private founder membership community in ${data.name}, ${data.state} — offering curated peer matches, expert mentorship, and investor access.`,
+    description: `Gildre is a private founder membership community in ${data.name}, ${data.state}. Gildre ${data.name} hosts monthly founder dinners${data.neighborhood ? ` in ${data.neighborhood}` : ""} for tech CEOs and early-stage startup founders — alongside weekly curated peer matches, expert mentorship, and warm investor introductions.`,
+    knowsAbout: [
+      "Founder Peer Groups",
+      "Startup Mentorship",
+      "Angel Investing",
+      "Venture Capital",
+      "Startup Fundraising",
+      "Product-Market Fit",
+      "Startup Community",
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Gildre Membership Tiers",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          name: "Silver Membership",
+          description: "Weekly curated peer matches and access to the private community workspace",
+          url: "https://gildre.circle.so/checkout/gildre-silver-membership",
+        },
+        {
+          "@type": "Offer",
+          name: "Gold Membership",
+          description: "Everything in Silver plus mentor access, investor directory, and curated in-person events",
+          url: "https://gildre.circle.so/checkout/gildre-gold-membership",
+        },
+        {
+          "@type": "Offer",
+          name: "Platinum Membership",
+          description: "Full access including 1:1 advisory sessions and warm introductions to top founders and investors",
+          url: "https://gildre.circle.so/checkout/gildre-platinum-membership",
+        },
+      ],
+    },
     email: "info@gildre.com",
     telephone: "+1-847-881-6319",
     priceRange: "$$",
@@ -188,6 +222,29 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Local Events ─────────────────────────────────────────────── */}
+      <section className="px-6 py-12" style={{ borderTop: "1px solid rgba(255,255,255,0.04)", backgroundColor: "#0f1524" }}>
+        <div className="mx-auto max-w-4xl">
+          <div
+            className="rounded-2xl px-8 py-7 flex flex-col sm:flex-row items-start sm:items-center gap-6"
+            style={{ backgroundColor: "rgba(201,169,110,0.06)", border: "1px solid rgba(201,169,110,0.15)" }}
+          >
+            <div className="text-4xl flex-shrink-0">📍</div>
+            <div>
+              <p className="text-[0.6rem] font-bold uppercase tracking-widest mb-1" style={{ color: "#C9A96E" }}>
+                In-Person Events · {data.name}, {data.state}
+              </p>
+              <p className="font-bold text-white" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.05rem" }}>
+                Gildre {data.name} hosts monthly founder dinners{data.neighborhood ? ` in ${data.neighborhood}` : ""} for tech CEOs and startup founders.
+              </p>
+              <p className="mt-1 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
+                Members also attend curated peer roundtables, expert-led workshops, and investor access events throughout the year — all exclusive to Gildre members in {data.name}.
+              </p>
             </div>
           </div>
         </div>

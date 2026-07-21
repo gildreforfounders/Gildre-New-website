@@ -64,6 +64,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "What is a SAFE note in startup fundraising?",
+    a: "A SAFE (Simple Agreement for Future Equity), created by Y Combinator, is an agreement where an investor provides capital now in exchange for the right to receive equity at a future priced round. Unlike convertible notes, SAFEs carry no interest rate or maturity date, making them simpler and cheaper to execute for early-stage raises.",
+  },
+  {
+    q: "What is the difference between pre-money and post-money valuation?",
+    a: "Pre-money valuation is the value of a company before new investment is added. Post-money valuation equals pre-money valuation plus the new investment amount. Investor ownership percentage equals investment divided by post-money valuation. For example: a $10M pre-money valuation with a $2M raise creates a $12M post-money valuation, and the investor owns 16.7%.",
+  },
+  {
+    q: "What is a pro-rata right in venture capital?",
+    a: "A pro-rata right gives an existing investor the right — but not the obligation — to participate in future funding rounds to maintain their ownership percentage. For example, an investor who owns 10% can invest enough in the next round to stay at 10% rather than being diluted. Pro-rata rights are standard for lead investors and are often negotiated for larger check sizes.",
+  },
+  {
+    q: "What is a standard startup equity vesting schedule?",
+    a: "The standard vesting schedule for startup equity is four years with a one-year cliff. This means no equity vests in the first year; after month 12 (the cliff), 25% vests at once; the remaining 75% vests monthly over the following 36 months. This structure protects the company if a founder or employee leaves early while incentivizing long-term commitment.",
+  },
+  {
+    q: "What is dilution in startup fundraising?",
+    a: "Dilution occurs when a company issues new shares — through a funding round, option pool expansion, or convertible instrument conversion — reducing existing shareholders' ownership percentages. A founder who owns 60% before a round that creates 20% new shares will own approximately 48% afterward. Dilution is not inherently negative if the new capital grows total company value proportionally.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ children }: { children: React.ReactNode }) {
   return (
     <h2
@@ -148,6 +181,10 @@ export default function StartupFundraisingTerminology() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -550,6 +587,28 @@ export default function StartupFundraisingTerminology() {
               ))}
             </div>
           </Callout>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

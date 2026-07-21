@@ -11,6 +11,7 @@ const data: LocationData = {
   hook: "Build the brand. Scale the business. Gildre helps you do both.",
   intro: "LA is where consumer brands are born and creator-led businesses thrive. From Venice to Culver City, LA's founder scene is fast, creative, and capital-ready. Gildre gives LA founders the peer infrastructure to turn traction into scale.",
   scene: "LA's ecosystem runs on brand, culture, and distribution — but the best founders here know that sustainable scale requires operations, the right team, and a network of peers who've built what you're trying to build.",
+  neighborhood: "Venice Beach / Culver City",
   benefits: [
     {
       icon: "🎬",

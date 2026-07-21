@@ -11,6 +11,7 @@ const data: LocationData = {
   hook: "The density of opportunity here is unmatched. So is the noise. Gildre cuts through it.",
   intro: "The Bay Area is where startups become unicorns — but it's also where founders burn out trying to stand out in the most competitive market on earth. Gildre gives Bay Area founders a private, high-signal community to build the right relationships fast.",
   scene: "From SoMa to Palo Alto, the Bay Area's founder density is unlike anywhere else. Every coffee shop is full of builders. But proximity isn't community. Gildre gives you the structure to turn proximity into partnership.",
+  neighborhood: "SoMa, San Francisco",
   benefits: [
     {
       icon: "🦄",

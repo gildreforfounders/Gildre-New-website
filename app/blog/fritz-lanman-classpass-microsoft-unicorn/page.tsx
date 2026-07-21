@@ -53,12 +53,32 @@ const articleSchema = {
   keywords: "Fritz Lanman, ClassPass CEO, Mindbody, Microsoft, startup founder, angel investor, unicorn, $285M fundraise, founder story, Gildre",
 };
 
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Fritz Lanman",
+  jobTitle: "CEO",
+  worksFor: [
+    { "@type": "Organization", name: "ClassPass", url: "https://www.classpass.com" },
+    { "@type": "Organization", name: "Mindbody", url: "https://www.mindbodyonline.com" },
+  ],
+  alumniOf: { "@type": "EducationalOrganization", name: "Yale University", sameAs: "https://en.wikipedia.org/wiki/Yale_University" },
+  knowsAbout: ["SaaS", "Fitness Technology", "Angel Investing", "Startup Fundraising", "Product Scaling"],
+  description:
+    "Fritz Lanman is the CEO of ClassPass and Mindbody. A Yale graduate who grew up in Silicon Valley, he led Microsoft's $240M strategic investment in Facebook before becoming an angel investor and taking the helm at ClassPass, which he scaled to unicorn status with a $285M Series E raise in 2020.",
+  sameAs: "https://www.linkedin.com/in/fritzlanman/",
+};
+
 export default function FritzLanmanBlog() {
   return (
     <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
 
       {/* ── Hero ─────────────────────────────────────────────────────── */}
@@ -133,6 +153,8 @@ export default function FritzLanmanBlog() {
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Fritz Lanman, CEO of ClassPass and Mindbody</p>
           </div>
         </div>
+
+        <BioCallout />
 
         <Section title="Fritz's Introduction" />
         <Body>
@@ -393,6 +415,76 @@ export default function FritzLanmanBlog() {
             Back to Gildre.com
           </a>
         </p>
+      </div>
+    </div>
+  );
+}
+
+function BioCallout() {
+  const milestones = [
+    { year: "2002", event: "Graduates from Yale University" },
+    { year: "2006", event: "Joins Microsoft; leads $240M Facebook investment" },
+    { year: "2012", event: "Becomes active angel investor in Silicon Valley" },
+    { year: "2017", event: "Named CEO of ClassPass" },
+    { year: "2020", event: "Leads $285M Series E; ClassPass achieves unicorn status" },
+  ];
+  const lessons = [
+    {
+      n: "1",
+      title: "Invest in infrastructure before you need it",
+      body: "ClassPass built a modular, scalable backend early — a decision that enabled global expansion and new inventory types without costly full rebuilds.",
+    },
+    {
+      n: "2",
+      title: "Your product is your best proof of product-market fit",
+      body: "Fritz lost 70 lbs using ClassPass himself. Founders who are their own ideal customer understand the product at a level no user research alone can provide.",
+    },
+    {
+      n: "3",
+      title: "Capital is a tool, not a trophy",
+      body: "The $285M Series E was a strategic resource to fund global growth — not a milestone. Fritz treats capital raises as operational decisions with a specific purpose.",
+    },
+  ];
+  return (
+    <div
+      className="my-12 rounded-2xl overflow-hidden"
+      style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(201,169,110,0.04)" }}
+    >
+      <div className="px-7 pt-6 pb-5" style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
+        <p className="text-[0.6rem] font-bold uppercase tracking-widest mb-1" style={{ color: "#C9A96E" }}>Founder Profile</p>
+        <h2
+          className="text-xl font-bold text-white"
+          style={{ fontFamily: "var(--font-fraunces)" }}
+        >
+          Who is Fritz Lanman?
+        </h2>
+        <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
+          Fritz Lanman is the CEO of ClassPass and Mindbody — two of the most recognized brands in global fitness technology. A Yale graduate who grew up in Silicon Valley with close ties to Adobe founder John Warnock, Fritz joined Microsoft in the mid-2000s and rose to lead the company's $240M strategic investment in Facebook. He transitioned to angel investing before taking the helm at ClassPass, where he oversaw the company's growth to unicorn status and a $285M Series E raise in 2020.
+        </p>
+      </div>
+      <div className="grid sm:grid-cols-2">
+        <div className="px-7 py-6 sm:border-r" style={{ borderBottom: "1px solid rgba(255,255,255,0.06)", borderColor: "rgba(255,255,255,0.06)" }}>
+          <p className="text-[0.6rem] font-bold uppercase tracking-widest mb-4" style={{ color: "#C9A96E" }}>Key Milestones</p>
+          <ul className="space-y-3">
+            {milestones.map((m) => (
+              <li key={m.year} className="flex items-start gap-3 text-sm">
+                <span className="font-bold flex-shrink-0 tabular-nums" style={{ color: "#C9A96E", minWidth: "2.8rem" }}>{m.year}</span>
+                <span style={{ color: "rgba(255,255,255,0.65)" }}>{m.event}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="px-7 py-6" style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+          <p className="text-[0.6rem] font-bold uppercase tracking-widest mb-4" style={{ color: "#C9A96E" }}>Core Lessons from ClassPass</p>
+          <ul className="space-y-4">
+            {lessons.map((l) => (
+              <li key={l.n} className="text-sm">
+                <p className="font-bold mb-1 text-white">{l.n}. {l.title}</p>
+                <p style={{ color: "rgba(255,255,255,0.55)" }}>{l.body}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ const data: LocationData = {
   hook: "Amazon. Microsoft. Salesforce. The pedigree is here. So is your next chapter.",
   intro: "Seattle is the city that built some of the world's most consequential technology companies — and now it's home to a new generation of founders with deep technical expertise and big-company experience. Gildre gives Seattle founders the peer community to make that transition successfully.",
   scene: "From South Lake Union to Capitol Hill, Seattle's startup scene is powered by technical depth, product instincts, and a culture of building things that last. Gildre gives founders here the peer network to complement their builder instincts with the operator perspective they need to scale.",
+  neighborhood: "South Lake Union",
   benefits: [
     {
       icon: "☁️",

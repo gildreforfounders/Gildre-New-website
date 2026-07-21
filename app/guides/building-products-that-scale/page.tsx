@@ -65,6 +65,39 @@ const schema = {
   ],
 };
 
+const faqs = [
+  {
+    q: "What makes a product scalable?",
+    a: "A scalable product has three properties: infrastructure that handles increased load without performance degradation (horizontal scaling, caching, database optimization), a modular architecture that accommodates new features and integrations without full rebuilds, and operational processes that stay efficient as the team grows. All three are design decisions made early — not retrofits applied after growth reveals the problem.",
+  },
+  {
+    q: "What is an MVP in startup product development?",
+    a: "A Minimum Viable Product (MVP) is the smallest version of a product that delivers enough value for real users to experience its core proposition. The goal is not to build the cheapest version of your full vision — it is to generate real behavioral data from real users that validates or invalidates your key assumptions before you invest further. An MVP that nobody uses is not an MVP; it is a prototype.",
+  },
+  {
+    q: "What is customer-centric product design?",
+    a: "Customer-centric product design means building around the specific job your best customers hire your product to do, rather than around roadmap completeness or feature parity with competitors. It requires continuous feedback loops, relentless optimization of time-to-value for new users, and prioritizing the core use case for the majority before adding power-user functionality.",
+  },
+  {
+    q: "How did ClassPass scale its product?",
+    a: "ClassPass, led by CEO Fritz Lanman, scaled by investing in a robust, modular backend architecture early rather than building fast and refactoring later. This allowed the platform to onboard new fitness partners, expand into new markets, and introduce new inventory types (gym access, spa, beauty services) without requiring full rebuilds — a key enabler of the company's global expansion and $285M Series E.",
+  },
+  {
+    q: "What is the biggest product mistake early-stage founders make?",
+    a: "The most common mistake is building features instead of validating assumptions. Founders frequently build what they think users want rather than what behavioral data shows users actually need. The result is a product with many features and low retention — a sign that the core job-to-be-done was never clearly identified. Delay any feature beyond your core value proposition until at least 50–100 users demonstrate consistent, unprompted return usage.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 function H2({ children }: { children: React.ReactNode }) {
   return (
     <h2
@@ -189,6 +222,10 @@ export default function BuildingProductsThatScaleGuide() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
@@ -459,6 +496,28 @@ export default function BuildingProductsThatScaleGuide() {
             in the Gildre network — founders who&apos;ve navigated the transition from early product to
             scaled platform and can tell you where the standard advice breaks down.
           </Body>
+
+          {/* FAQ */}
+          <section className="mt-14">
+            <h2
+              className="mb-8 text-[1.5rem] font-bold text-white sm:text-[1.75rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-6"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+                >
+                  <h3 className="mb-3 font-bold" style={{ color: "#C9A96E", fontSize: "0.9rem" }}>{item.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.72)" }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
           <div

@@ -11,6 +11,7 @@ const data: LocationData = {
   hook: "MIT. Harvard. Kendall Square. The intellectual firepower is here — the founder community to match it now is too.",
   intro: "Boston's ecosystem is one of the most research-driven in the world. Gildre connects Boston founders with the peers, mentors, and resources to turn breakthrough ideas into breakout companies.",
   scene: "From Kendall Square to the Seaport Innovation District, Boston's startup scene is dense with deep-tech, biotech, and enterprise founders building companies that matter. But the best founders here know that execution is what separates research from revenue — and that takes community.",
+  neighborhood: "Kendall Square",
   benefits: [
     {
       icon: "🔬",

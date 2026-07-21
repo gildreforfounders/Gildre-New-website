@@ -11,6 +11,7 @@ const data: LocationData = {
   hook: "If you can build it here, you can build it anywhere.",
   intro: "New York City is home to the most diverse startup ecosystem in the world — fintech, consumer, media, fashion tech, and enterprise all thriving in the same zip code. Gildre connects NYC founders across industries with the peers and mentors they need to scale.",
   scene: "From Flatiron to Brooklyn Tech Triangle, NYC's founder scene moves at a different speed. The energy is relentless, the talent pool is deep, and the capital is flowing — but the right relationships are still the difference between traction and scale.",
+  neighborhood: "Flatiron District",
   benefits: [
     {
       icon: "🏙️",
