@@ -133,7 +133,7 @@ export default function Footer() {
               border: "1px solid rgba(201,169,110,0.15)",
             }}
           >
-            <div className="flex items-center gap-4">
+            <div className="flex items-start gap-4">
               <img
                 src="/images/gildre-logo.png"
                 alt="Gildre"
@@ -170,7 +170,7 @@ export default function Footer() {
               border: "1px solid rgba(201,169,110,0.15)",
             }}
           >
-            <div className="flex items-center gap-4">
+            <div className="flex items-start gap-4">
               <img
                 src="/images/start-to-scale-logo.webp"
                 alt="Start to Scale Podcast"
@@ -207,7 +207,7 @@ export default function Footer() {
               border: "1px solid rgba(201,169,110,0.15)",
             }}
           >
-            <div className="flex items-center gap-4">
+            <div className="flex items-start gap-4">
               <div
                 className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-xl"
                 style={{ backgroundColor: "rgba(201,169,110,0.12)" }}
