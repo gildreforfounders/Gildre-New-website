@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Cap Table Management From Pre-Seed to Series A: The Founder's Equity Playbook",
+    category: "Fundraising",
+    readTime: "10 min read",
+    excerpt:
+      "Your cap table is the financial story of every decision you've made — and Series A investors will read it that way. A stage-by-stage guide: authorized shares, founder vesting, option pool sizing, Series A red flags, and a 10-point readiness checklist.",
+    href: "/guides/cap-table-management",
+  },
+  {
     title: "How to Use Customer Feedback to Build a Product People Actually Want: A Founder's Growth Guide",
     category: "Growth",
     readTime: "12 min read",
