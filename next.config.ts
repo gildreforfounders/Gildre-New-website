@@ -24,6 +24,7 @@ const nextConfig: NextConfig = {
       { source: "/sdrteam",            destination: "/guides/building-high-performing-sdr-team",           permanent: true },
       // Page aliases
       { source: "/founder",             destination: "/content",                                             permanent: true },
+      { source: "/faq",                 destination: "/#faq",                                                permanent: true },
     ];
   },
 };
