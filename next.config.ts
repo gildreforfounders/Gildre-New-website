@@ -22,6 +22,8 @@ const nextConfig: NextConfig = {
       { source: "/foundergrowthguide", destination: "/guides/how-to-use-customer-feedback-build-product",  permanent: true },
       { source: "/kickingoffpreseed",  destination: "/guides/pre-seed-fundraising-playbook",               permanent: true },
       { source: "/sdrteam",            destination: "/guides/building-high-performing-sdr-team",           permanent: true },
+      // Page aliases
+      { source: "/founder",             destination: "/content",                                             permanent: true },
     ];
   },
 };
