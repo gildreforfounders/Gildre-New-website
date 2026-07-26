@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/chicago`,                      lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/seattle`,                      lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     // Blog — founder stories
+    { url: `${BASE_URL}/blog/one-to-three-million-arr-founder-community`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/blog/fritz-lanman-classpass-microsoft-unicorn`,       lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/james-corwin-wildlife-artist-corwin-galleries`,  lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/aytekin-tank-bootstrapped-jotform-no-vc`,       lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },

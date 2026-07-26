@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "The $1M–$3M ARR Gap: What Founder Communities Get Wrong — and What Actually Works",
+    category: "Leadership",
+    readTime: "8 min read",
+    excerpt:
+      "At $1M–$3M ARR, the loneliness changes shape. The people around you stop being useful — and most founder communities weren't built for what this stage actually demands. Here's what clears the bar.",
+    href: "/blog/one-to-three-million-arr-founder-community",
+  },
+  {
     title: "Building Products That Scale: Lessons from ClassPass and Mindbody CEO Fritz Lanman",
     category: "Product",
     readTime: "10 min read",
