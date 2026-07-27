@@ -16,8 +16,8 @@ const tiers = [
       {
         n: "02",
         title: "Get Access",
-        body: "Instantly unlock the Gildre community platform, weekly virtual events, our full resource library, and $5M+ in partner perks from day one.",
-        note: "Access within 24 hours",
+        body: "Instantly unlock our monthly Innovation Roundtable Cohorts, weekly virtual events, and our full resource library from day one.",
+        note: "Access Same Day",
       },
       {
         n: "03",
