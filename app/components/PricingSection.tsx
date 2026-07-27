@@ -90,10 +90,10 @@ export default function PricingSection() {
           className="mt-3 text-center text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Founder Community Membership Plans
+          Gildre Membership
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-center text-base leading-relaxed text-zinc-500">
-          Choose the startup membership plan that fits your stage. Upgrade anytime as you grow.
+          Choose the program that fits your stage. Upgrade anytime as you grow.
         </p>
 
         {/* Toggle */}
