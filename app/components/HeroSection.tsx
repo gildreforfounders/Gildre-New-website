@@ -31,7 +31,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="mb-6 inline-block rounded-full border border-white/30 bg-white/10 px-5 py-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-white backdrop-blur-sm transition-colors hover:bg-white/20"
           >
-            Private Founder Community · 250+ Members
+            Curated Founder Community · 250+ Members
           </a>
 
           <h1
