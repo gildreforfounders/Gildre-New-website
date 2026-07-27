@@ -59,8 +59,8 @@ export default function CommunityMap() {
           className="mt-3 text-[2rem] font-bold text-white sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          A Community For{" "}
-          <span style={{ color: "#C9A96E" }}>All Founders</span>
+          Where High-Caliber{" "}
+          <span style={{ color: "#C9A96E" }}>Founders Connect</span>
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-white/50">
           250+ members across 74 cities and 5 core in-person chapters.
