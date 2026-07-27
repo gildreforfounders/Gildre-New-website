@@ -60,19 +60,19 @@ const tiers = [
       {
         n: "01",
         title: "Apply",
-        body: "Your application goes to the top of the queue. A Gildre team member will personally reach out within 24 hours to understand your goals and fast-track your onboarding.",
+        body: "Your application goes to the top of the queue. One of our Managing Partners will personally reach out within 24 hours to understand your goals and fast-track your onboarding.",
         note: "Priority review in 24 hours",
       },
       {
         n: "02",
         title: "White-Glove Match",
-        body: "We personally curate your match: a senior exited founder or operator with domain expertise in your exact space, plus a hand-selected mastermind peer group at your level.",
+        body: "We curate your rotating 1:1 mentor match who adjusts as your priorities do: a senior exited founder or operator with domain expertise in your exact space, plus a hand-selected mastermind peer group at your level.",
         note: "Matched within 1 week",
       },
       {
         n: "03",
         title: "Build at the Top",
-        body: "Monthly 1:1 sessions, exclusive executive retreats and dinners, direct investor introductions, full community access, and $5M+ in partner perks. The full Gildre experience.",
+        body: "Monthly 1:1 executive mentor sessions, exclusive partnerships, direct investor introductions, full community access, and $5M+ in partner perks. The full Gildre experience.",
         note: "Full access from day one",
       },
     ],
