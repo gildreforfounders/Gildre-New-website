@@ -141,7 +141,7 @@ export default function Footer() {
               />
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
-                  Free Newsletter
+                  Gildre Newsletter
                 </p>
                 <p className="mt-1 text-sm font-semibold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
                   The Essential Founder Newsletter
