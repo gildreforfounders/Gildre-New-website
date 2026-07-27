@@ -59,8 +59,8 @@ export default function MissionSection() {
           <p className="text-base leading-[1.9] text-zinc-400">
             Our principles guide everything: curated mentor matching, genuine peer connections, and programming that gives startup founders the resources they need to grow and scale.
           </p>
-          <p className="text-sm text-zinc-500">
-            The values that shape this founder community are below.
+          <p className="text-base leading-[1.9] text-zinc-400">
+            The values that shape Gildre are below.
           </p>
         </div>
 
