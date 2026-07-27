@@ -35,19 +35,19 @@ const tiers = [
       {
         n: "01",
         title: "Apply",
-        body: "Tell us about yourself, your company, and where you're building. Every Gold application is reviewed personally by the Gildre team. We're selective because the community matters.",
+        body: "Tell us about yourself and your company. Every Gold application is reviewed personally by the Gildre team. We're selective because the quality of contributors in the community matters.",
         note: "Takes under 5 minutes",
       },
       {
         n: "02",
         title: "Get Onboarded",
-        body: "We personally welcome you into the community and set up your monthly advisory session with a Gildre Managing Partner. Someone who has built and exited at scale.",
-        note: "Onboarded within 1 week",
+        body: "We personally welcome you into the community and set up your monthly 1:1 advisory session with a Gildre Managing Partner. Someone who has built and exited at scale.",
+        note: "Onboarded the Same Week",
       },
       {
         n: "03",
         title: "Build Together",
-        body: "One advisory session per month with a Managing Partner, in-person events and dinners, weekly virtual events, the full community platform, and $5M+ in partner perks.",
+        body: "Invitations to curated in-person events and dinners, weekly virtual workshops, 1:1 advisory sessions per month, and $5M+ in partner perks.",
         note: "Start building immediately",
       },
     ],
