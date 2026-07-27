@@ -10,7 +10,7 @@ const tiers = [
       {
         n: "01",
         title: "Identify Your Peers",
-        body: "Browse the Gildre community to find founders at your stage and in your industry — connect with peers across 15+ cities instantly.",
+        body: "Explore the Gildre Community platform and find founders at your stage and industry. Connect with peers across 15+ cities instantly with direct intros.",
         note: "Join in minutes",
       },
       {
