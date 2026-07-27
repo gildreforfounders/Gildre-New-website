@@ -22,7 +22,7 @@ const tiers = [
       {
         n: "03",
         title: "Build Your Network",
-        body: "Join live virtual sessions, connect with 200+ active founders in your field, and tap into a global peer community that's always building.",
+        body: "Join live virtual sessions, connect with 250+ active founders in your field, and tap into a global peer community that's always building.",
         note: "Start connecting immediately",
       },
     ],
