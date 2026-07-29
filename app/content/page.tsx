@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Chris Yeh: The Co-Author of Blitzscaling on Winning Winner-Take-Most Markets and Building Your Tribe",
+    category: "Growth",
+    readTime: "14 min read",
+    excerpt:
+      "Blitzscaling co-author and Blitzscaling Ventures partner Chris Yeh on why the AI boom is bigger than the internet, how AI amplifies the skilled more than the unskilled, and the tribe-building philosophy that defines Silicon Valley's greatest wins.",
+    href: "/blog/chris-yeh-blitzscaling-reid-hoffman",
+  },
+  {
     title: "Chris Tsakalakis: How the StubHub CEO Grew Ticket Sales From $400M to $3.2B in Eight Years",
     category: "Growth",
     readTime: "14 min read",
