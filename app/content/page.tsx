@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Cody Graham: How SoGo Is Turning Restaurant Discovery Into Personalized Curation — One Meal at a Time",
+    category: "Product",
+    readTime: "13 min read",
+    excerpt:
+      "SoGo COO Cody Graham on building a restaurant app that actually knows you, why a Scotland study abroad turned into a Chicago startup, and the decision framework that keeps a founder moving when everyone has an opinion.",
+    href: "/blog/cody-graham-sogo-restaurant-app-chicago",
+  },
+  {
     title: "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build ENSYX — IT and AI Governance for Every Company That's Becoming a Tech Company",
     category: "Growth",
     readTime: "12 min read",
