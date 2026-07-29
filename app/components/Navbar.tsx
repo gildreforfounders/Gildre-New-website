@@ -108,10 +108,11 @@ export default function Navbar() {
 
         {/* Mobile dropdown */}
         <div
-          className="lg:hidden overflow-hidden transition-all duration-300"
+          className="lg:hidden transition-all duration-300"
           style={{
-            maxHeight: open ? "400px" : "0px",
+            maxHeight: open ? "min(540px, calc(100dvh - 6rem))" : "0px",
             opacity: open ? 1 : 0,
+            overflow: open ? "auto" : "hidden",
           }}
         >
           <div
