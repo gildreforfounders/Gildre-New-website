@@ -221,7 +221,7 @@ export default function SteveRamonaBlog() {
             quality={90}
             sizes="(max-width: 700px) 100vw, 660px"
             className="w-full object-cover"
-            style={{ maxHeight: "500px", objectFit: "cover", objectPosition: "center top" }
+            style={{ maxHeight: "500px", objectFit: "cover", objectPosition: "center top" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>

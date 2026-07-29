@@ -251,7 +251,7 @@ export default function ChrisYehBlog() {
             quality={90}
             sizes="(max-width: 640px) 100vw, 600px"
             className="w-full object-cover"
-            style={{ maxHeight: "520px", objectFit: "cover", objectPosition: "center top" }
+            style={{ maxHeight: "520px", objectFit: "cover", objectPosition: "center top" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
