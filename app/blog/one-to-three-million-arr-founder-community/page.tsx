@@ -201,6 +201,8 @@ export default function OneToThreeMillionBlog() {
             alt="Gildre founder community dinner"
             width={800}
             height={500}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "420px", objectPosition: "center" }}
           />
@@ -271,6 +273,8 @@ export default function OneToThreeMillionBlog() {
             alt="Gildre mentor match session"
             width={800}
             height={500}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "400px", objectPosition: "center" }}
           />

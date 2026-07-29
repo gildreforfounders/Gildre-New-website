@@ -120,7 +120,7 @@ export default function JohnLionbergerBlog() {
                 Fundraising
               </span>
               <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-                Start to Scale Podcast · Gildre Spotlight
+                Start to Scale Podcast
               </span>
             </div>
             <h1
@@ -157,6 +157,8 @@ export default function JohnLionbergerBlog() {
               alt="John Lionberger on the Gildre Start to Scale Podcast"
               width={640}
               height={480}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
             />
             <p className="px-4 py-3 text-[0.68rem]" style={{ color: "rgba(255,255,255,0.35)", backgroundColor: "#0a1020" }}>
@@ -201,6 +203,8 @@ export default function JohnLionbergerBlog() {
                 alt="John Lionberger — entrepreneur and pro racing driver"
                 width={800}
                 height={900}
+                quality={90}
+                sizes="(max-width: 768px) calc(100vw - 48px), 720px"
                 className="w-full"
                 style={{ objectFit: "cover", objectPosition: "top" }}
               />
@@ -241,6 +245,8 @@ export default function JohnLionbergerBlog() {
               alt="John Lionberger preparing his race car — #115"
               width={960}
               height={1200}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "520px" }}
             />
@@ -268,6 +274,8 @@ export default function JohnLionbergerBlog() {
               alt="John Lionberger at the track in racing gear"
               width={960}
               height={960}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "480px", objectPosition: "top" }}
             />
@@ -292,6 +300,8 @@ export default function JohnLionbergerBlog() {
               alt="John Lionberger in the cockpit of his race car"
               width={960}
               height={960}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "480px" }}
             />

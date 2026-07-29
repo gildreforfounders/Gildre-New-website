@@ -166,7 +166,7 @@ export default function IlianaAlvaradoBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               Member Feature · Mexico City, Mexico
@@ -180,7 +180,7 @@ export default function IlianaAlvaradoBlog() {
             <span style={{ color: "#C9A96E" }}>ENSYX</span> — IT and AI Governance for the Era When Every Company Is a Tech Company
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            After nearly a decade at one of Mexico&apos;s biggest banks, attorney Iliana Alvarado saw a gap nobody was filling: companies were getting great IT execution with zero governance context. She left in 2023, built ENSYX, and is now expanding from Mexico City to Chile. She joined the Gildre Spotlight Podcast to share the thesis, the pivot, and what a decade of building without a plan across three continents taught her about entrepreneurship.
+            After nearly a decade at one of Mexico&apos;s biggest banks, attorney Iliana Alvarado saw a gap nobody was filling: companies were getting great IT execution with zero governance context. She left in 2023, built ENSYX, and is now expanding from Mexico City to Chile. She joined the Start to Scale Podcast to share the thesis, the pivot, and what a decade of building without a plan across three continents taught her about entrepreneurship.
           </p>
 
           {/* Meta row */}
@@ -200,7 +200,7 @@ export default function IlianaAlvaradoBlog() {
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
                 <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                  Gildre Spotlight Podcast
+                  Start to Scale Podcast
                 </p>
               </div>
             </div>
@@ -219,7 +219,7 @@ export default function IlianaAlvaradoBlog() {
         <Body>
           Most founders pick a lane and stay in it. Iliana Alvarado spent fifteen years doing the opposite — moving between legal careers, service jobs, countries, and languages — and discovered that the ability to read context across radically different environments was the skill the technology industry was missing entirely. Her company,{" "}
           <strong style={{ color: "#fff" }}>ENSYX</strong>, exists at exactly that intersection: technically capable IT services wrapped in the governance and legal context that turns isolated tech decisions into a coherent corporate strategy. Iliana joined the{" "}
-          <strong style={{ color: "#fff" }}>Gildre Spotlight Podcast</strong> from Mexico City to unpack the thesis, the career arc, and the cultural lens she brings to a market that is just beginning to understand what it needs.
+          <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> from Mexico City to unpack the thesis, the career arc, and the cultural lens she brings to a market that is just beginning to understand what it needs.
         </Body>
 
         {/* Headshot */}
@@ -229,6 +229,8 @@ export default function IlianaAlvaradoBlog() {
             alt="Iliana Alvarado, founder of ENSYX, IT and AI governance firm based in Mexico City"
             width={800}
             height={800}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "500px", objectPosition: "center top" }}
           />
@@ -286,6 +288,8 @@ export default function IlianaAlvaradoBlog() {
               alt="ENSYX — Reliable. Secure. Trusted — IT and AI governance"
               width={1200}
               height={400}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ maxHeight: "210px", objectFit: "contain" }}
             />

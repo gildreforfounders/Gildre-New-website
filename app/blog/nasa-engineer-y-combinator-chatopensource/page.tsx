@@ -77,7 +77,7 @@ export default function NasaFounderBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>Podcast Recap · AI · Deep Tech · Y Combinator</span>
           </div>
@@ -124,6 +124,8 @@ export default function NasaFounderBlog() {
               alt="Founder of ChatOpenSource — from NASA to Y Combinator"
               width={600}
               height={600}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ display: "block" }}
             />
@@ -191,6 +193,8 @@ export default function NasaFounderBlog() {
             alt="ChatOpenSource — open-source alternative to ChatGPT"
             width={500}
             height={120}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-contain"
             style={{ maxWidth: "360px" }}
           />

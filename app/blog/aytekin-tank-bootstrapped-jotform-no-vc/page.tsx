@@ -74,7 +74,7 @@ export default function AytekintankBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>Podcast Recap · SaaS · Bootstrapping</span>
           </div>
@@ -120,6 +120,8 @@ export default function AytekintankBlog() {
             alt="Aytekin Tank, founder and CEO of Jotform"
             width={800}
             height={800}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "480px", objectPosition: "center top" }}
           />
@@ -147,6 +149,8 @@ export default function AytekintankBlog() {
             alt="Aytekin Tank, Jotform CEO"
             width={800}
             height={534}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
@@ -169,6 +173,8 @@ export default function AytekintankBlog() {
             alt="Jotform — online form builder with 25 million users"
             width={800}
             height={450}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
@@ -204,6 +210,8 @@ export default function AytekintankBlog() {
             alt="Aytekin Tank working at Jotform"
             width={400}
             height={400}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "420px", objectPosition: "center" }}
           />
@@ -240,6 +248,8 @@ export default function AytekintankBlog() {
             alt="Aytekin Tank at Jotform HQ"
             width={800}
             height={450}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>

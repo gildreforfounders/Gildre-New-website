@@ -171,7 +171,7 @@ export default function ChrisYehBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               Podcast Recap
@@ -248,6 +248,8 @@ export default function ChrisYehBlog() {
             alt="Chris Yeh, co-author of Blitzscaling and Venture Partner at Blitzscaling Ventures"
             width={800}
             height={800}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "520px", objectPosition: "center top" }}
           />
@@ -319,6 +321,8 @@ export default function ChrisYehBlog() {
             alt="Chris Yeh and Reid Hoffman at LinkedIn"
             width={800}
             height={533}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
@@ -347,6 +351,8 @@ export default function ChrisYehBlog() {
             alt="Chris Yeh and Reid Hoffman holding the Blitzscaling book"
             width={800}
             height={533}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>

@@ -48,7 +48,7 @@ const articleSchema = {
     { "@type": "Person", name: "James Corwin", jobTitle: "Wildlife Artist & Gallery Owner", worksFor: { "@type": "Organization", name: "Corwin Galleries" } },
     { "@type": "Organization", name: "Corwin Galleries", url: "https://www.jamescorwin.com" },
   ],
-  keywords: "James Corwin, Corwin Galleries, Montana wildlife artist, wildlife painting, art entrepreneur, art business, Gildre Spotlight, founder story, creative entrepreneur",
+  keywords: "James Corwin, Corwin Galleries, Montana wildlife artist, wildlife painting, art entrepreneur, art business, Start to Scale Podcast, founder story, creative entrepreneur",
   locationCreated: { "@type": "Place", name: "Montana, USA" },
 };
 
@@ -75,7 +75,7 @@ export default function JamesCorwinBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>Podcast Recap · Art & Entrepreneurship</span>
           </div>
@@ -121,6 +121,8 @@ export default function JamesCorwinBlog() {
               alt="James Corwin, wildlife artist and founder of Corwin Galleries"
               width={960}
               height={1200}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ display: "block" }}
             />
@@ -163,6 +165,8 @@ export default function JamesCorwinBlog() {
             alt="James Corwin holding a wildlife painting in Corwin Galleries"
             width={800}
             height={900}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "560px", objectPosition: "center" }}
           />
@@ -194,6 +198,8 @@ export default function JamesCorwinBlog() {
             alt="James Corwin teaching a painting class"
             width={800}
             height={534}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>

@@ -123,7 +123,7 @@ export default function RyanHughesBlog() {
                 Leadership
               </span>
               <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-                Start to Scale Podcast · Gildre Spotlight
+                Start to Scale Podcast
               </span>
             </div>
             <h1
@@ -158,6 +158,8 @@ export default function RyanHughesBlog() {
                 alt="Ryan Hughes — founder of Fan Pier Labs, former Google and Snapchat engineer"
                 width={512}
                 height={512}
+                quality={90}
+                sizes="(max-width: 768px) calc(100vw - 48px), 720px"
                 className="w-full"
                 style={{ objectFit: "cover", objectPosition: "top" }}
               />

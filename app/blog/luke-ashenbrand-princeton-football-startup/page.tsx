@@ -114,7 +114,7 @@ export default function LukeAshenbrandBlog() {
                 Leadership
               </span>
               <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-                Start to Scale Podcast · Gildre Spotlight
+                Start to Scale Podcast
               </span>
             </div>
             <h1
@@ -151,6 +151,8 @@ export default function LukeAshenbrandBlog() {
               alt="Luke Ashenbrand on the Gildre Start to Scale Podcast"
               width={1280}
               height={720}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
             />
             <p className="px-4 py-3 text-[0.68rem]" style={{ color: "rgba(255,255,255,0.35)", backgroundColor: "#0a1020" }}>
@@ -197,6 +199,8 @@ export default function LukeAshenbrandBlog() {
                 alt="Luke Ashenbrand — Princeton graduate and startup entrepreneur"
                 width={800}
                 height={1000}
+                quality={90}
+                sizes="(max-width: 768px) calc(100vw - 48px), 720px"
                 className="w-full"
                 style={{ objectFit: "cover", objectPosition: "top" }}
               />

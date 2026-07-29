@@ -122,7 +122,7 @@ export default function ArmandoBlog() {
                 Growth
               </span>
               <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-                Start to Scale Podcast · Gildre Spotlight
+                Start to Scale Podcast
               </span>
             </div>
             <h1
@@ -159,6 +159,8 @@ export default function ArmandoBlog() {
               alt="Young Armando Vera Carvajal arriving in the United States with his father"
               width={960}
               height={960}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "500px", objectPosition: "center" }}
             />
@@ -223,6 +225,8 @@ export default function ArmandoBlog() {
                 alt="Armando Vera Carvajal — co-founder and CEO of Hangtight"
                 width={960}
                 height={1280}
+                quality={90}
+                sizes="(max-width: 768px) calc(100vw - 48px), 720px"
                 className="w-full"
                 style={{ objectFit: "cover", objectPosition: "top", maxHeight: "560px" }}
               />
@@ -254,6 +258,8 @@ export default function ArmandoBlog() {
               alt="Armando Vera Carvajal with his family"
               width={960}
               height={960}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "480px", objectPosition: "top" }}
             />
@@ -284,6 +290,8 @@ export default function ArmandoBlog() {
               alt="Armando Vera Carvajal in the Amazon jungle in Peru"
               width={960}
               height={1280}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "560px", objectPosition: "top" }}
             />
@@ -299,6 +307,8 @@ export default function ArmandoBlog() {
               alt="Armando Vera Carvajal on the Amazon River in Peru"
               width={960}
               height={1280}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "480px", objectPosition: "center" }}
             />
@@ -354,6 +364,8 @@ export default function ArmandoBlog() {
               alt="Armando Vera Carvajal camping in the mountains"
               width={960}
               height={960}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ objectFit: "cover", maxHeight: "520px", objectPosition: "center" }}
             />

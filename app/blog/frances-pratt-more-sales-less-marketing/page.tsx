@@ -164,7 +164,7 @@ export default function FrancesPrattBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               Member Feature · Melbourne, Australia
@@ -179,7 +179,7 @@ export default function FrancesPrattBlog() {
             <em>More Sales Less Marketing</em> Rewires Founders Who Hate Selling
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Frances Pratt has spent 30 years in B2B sales and 15 years helping founders stop dreading the conversation they need most. A Gildre member based in Melbourne, she joined the Gildre Spotlight podcast to share the Wizard of Oz sales framework, why sales always comes before marketing, and what firing a $2M bully client taught her about building on her own terms.
+            Frances Pratt has spent 30 years in B2B sales and 15 years helping founders stop dreading the conversation they need most. A Gildre member based in Melbourne, she joined the Start to Scale Podcast to share the Wizard of Oz sales framework, why sales always comes before marketing, and what firing a $2M bully client taught her about building on her own terms.
           </p>
 
           {/* Meta row */}
@@ -199,7 +199,7 @@ export default function FrancesPrattBlog() {
               <div>
                 <p className="text-xs font-semibold text-white">Gildre</p>
                 <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                  Gildre Spotlight Podcast
+                  Start to Scale Podcast
                 </p>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function FrancesPrattBlog() {
 
         <Body>
           Most founders treat sales as something they have to survive. Frances Pratt has spent three decades arguing it is actually something they can love — and that the path from dread to mastery runs through one realization: great selling is not pushing. It is helping someone make a good buying decision, whether that decision is yes or no. Frances joined the{" "}
-          <strong style={{ color: "#fff" }}>Gildre Spotlight Podcast</strong> from Melbourne, Australia to unpack the Wizard of Oz framework from her book{" "}
+          <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> from Melbourne, Australia to unpack the Wizard of Oz framework from her book{" "}
           <em>More Sales Less Marketing</em>, the three pillars she uses to transform sales-averse founders, and the story of the $2M client she fired — and the $18M outcome that followed.
         </Body>
 
@@ -228,6 +228,8 @@ export default function FrancesPrattBlog() {
             alt="Frances Pratt, author of More Sales Less Marketing and sales consultant based in Melbourne"
             width={800}
             height={800}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "500px", objectPosition: "center top" }}
           />
@@ -306,6 +308,8 @@ export default function FrancesPrattBlog() {
             alt="Frances Pratt holding her book More Sales Less Marketing"
             width={800}
             height={900}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "540px", objectFit: "cover", objectPosition: "center center" }}
           />

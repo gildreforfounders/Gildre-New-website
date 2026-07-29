@@ -50,7 +50,7 @@ const articleSchema = {
     { "@type": "Organization", name: "Bill.com" },
     { "@type": "Organization", name: "Tandem Invest" },
   ],
-  keywords: "Alex Bean, Divvy founder, Bill.com acquisition, Tandem Invest, fintech startup, venture capital, Redmond Washington, expense management, bootstrapping, founder story, Gildre Spotlight",
+  keywords: "Alex Bean, Divvy founder, Bill.com acquisition, Tandem Invest, fintech startup, venture capital, Redmond Washington, expense management, bootstrapping, founder story, Start to Scale Podcast",
 };
 
 export default function AlexBeanBlog() {
@@ -76,7 +76,7 @@ export default function AlexBeanBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>Podcast Recap · Fintech · Venture Capital</span>
           </div>
@@ -123,6 +123,8 @@ export default function AlexBeanBlog() {
               alt="Alex Bean, co-founder of Divvy and Tandem Invest"
               width={600}
               height={600}
+              quality={90}
+              sizes="(max-width: 768px) calc(100vw - 48px), 720px"
               className="w-full"
               style={{ display: "block" }}
             />
@@ -167,6 +169,8 @@ export default function AlexBeanBlog() {
             alt="Divvy acquired by Bill.com"
             width={800}
             height={320}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-contain p-8"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>

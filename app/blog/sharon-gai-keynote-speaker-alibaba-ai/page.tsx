@@ -166,7 +166,7 @@ export default function SharonGaiBlog() {
               className="rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
               style={{ backgroundColor: "rgba(201,169,110,0.15)", color: "#C9A96E" }}
             >
-              Gildre Spotlight
+              Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               Podcast Recap
@@ -239,6 +239,8 @@ export default function SharonGaiBlog() {
             alt="Sharon Gai, international keynote speaker and former Alibaba Head of Global Key Accounts"
             width={800}
             height={800}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "520px", objectPosition: "center top" }}
           />
@@ -293,6 +295,8 @@ export default function SharonGaiBlog() {
             alt="Sharon Gai speaking on stage at a conference"
             width={800}
             height={800}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "580px", objectFit: "cover", objectPosition: "center top" }}
           />
@@ -335,6 +339,8 @@ export default function SharonGaiBlog() {
             alt="Sharon Gai keynote speaking at a large conference"
             width={800}
             height={1000}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
             className="w-full object-cover"
             style={{ maxHeight: "620px", objectFit: "cover", objectPosition: "center top" }}
           />
