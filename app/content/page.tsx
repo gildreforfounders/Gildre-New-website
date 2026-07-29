@@ -43,6 +43,22 @@ const categories = [
 
 const featured = [
   {
+    title: "Chris Tsakalakis: How the StubHub CEO Grew Ticket Sales From $400M to $3.2B in Eight Years",
+    category: "Growth",
+    readTime: "14 min read",
+    excerpt:
+      "Former StubHub President & CEO Chris Tsakalakis on the interactive seat map flywheel, flipping from 80% physical to 80% electronic delivery, and why the best money a founder can raise is revenue from customers.",
+    href: "/blog/chris-tsakalakis-stubhub-ceo-marketplace",
+  },
+  {
+    title: "Russell Breuer: From Studio Apartment to Nine-Figure Pet Health Empire With Spot and Tango",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Spot and Tango founder Russell Breuer on cooking dog food in a NYC studio apartment, scaling Unkibble from $2M to $20M in six months, and building his own manufacturing facility in Allentown, PA.",
+    href: "/blog/russell-breuer-spot-tango-pet-food-founder",
+  },
+  {
     title: "The $1M–$3M ARR Gap: What Founder Communities Get Wrong — and What Actually Works",
     category: "Leadership",
     readTime: "8 min read",
