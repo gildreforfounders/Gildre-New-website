@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build ENSYX — IT and AI Governance for Every Company That's Becoming a Tech Company",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "ENSYX founder Iliana Alvarado on the gap between IT execution and IT governance, why AI adoption without documentation creates real liability, and what a decade building without a plan across New York, Santiago, and Germany taught her about entrepreneurship.",
+    href: "/blog/iliana-alvarado-ensyx-it-governance-ai-mexico",
+  },
+  {
     title: "Frances Pratt: From the Ritz Carlton to $18M Exit — The Author of More Sales Less Marketing on Why Founders Who Hate Selling Are Doing It Wrong",
     category: "Growth",
     readTime: "13 min read",
