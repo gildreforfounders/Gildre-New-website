@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Sharon Gai: From Alibaba Head of Global Accounts to International Keynote Speaker on the Future of AI and Work",
+    category: "Growth",
+    readTime: "13 min read",
+    excerpt:
+      "International keynote speaker and former Alibaba Head of Global Accounts Sharon Gai on the night AI changed everything at Double Eleven, the busy bee to beekeeper framework, and why documentation beats content creation for founders building a personal brand.",
+    href: "/blog/sharon-gai-keynote-speaker-alibaba-ai",
+  },
+  {
     title: "Chris Yeh: The Co-Author of Blitzscaling on Winning Winner-Take-Most Markets and Building Your Tribe",
     category: "Growth",
     readTime: "14 min read",
