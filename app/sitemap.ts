@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/seattle`,                      lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     // Blog — founder stories
     { url: `${BASE_URL}/blog/one-to-three-million-arr-founder-community`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/alex-jekowski-cents-laundromat-tech-vertical-saas`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/cody-graham-sogo-restaurant-app-chicago`,           lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/iliana-alvarado-ensyx-it-governance-ai-mexico`,     lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/frances-pratt-more-sales-less-marketing`,           lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },

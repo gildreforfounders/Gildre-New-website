@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Alex Jekowski: From College Pinboards to $140M — How Cents Is Building the All-In-One Platform Powering America's Laundromats",
+    category: "Fundraising",
+    readTime: "15 min read",
+    excerpt:
+      "Cents founder Alex Jekowski on raising nearly $250M for laundromat tech, why the Series B nearly broke him, and the one framework that outperforms every productivity hack: do three hard things instead of ten easy ones.",
+    href: "/blog/alex-jekowski-cents-laundromat-tech-vertical-saas",
+  },
+  {
     title: "Cody Graham: How SoGo Is Turning Restaurant Discovery Into Personalized Curation — One Meal at a Time",
     category: "Product",
     readTime: "13 min read",
