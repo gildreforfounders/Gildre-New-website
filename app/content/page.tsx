@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Florian Kemmerich: The Impact Investor Who Left the Olympics, Crossed Five Languages, and Built an AI Platform to Help 54 Million People Find Their Vocation",
+    category: "Mindset",
+    readTime: "14 min read",
+    excerpt:
+      "Florian Kemmerich on walking away from the 1992 Barcelona Olympics, the coaching session at 33 that changed everything, investing in 100+ companies across 30 countries, and why he built Vocating AI — an agentic platform that refuses to tell you what to do.",
+    href: "/blog/florian-kemmerich-vocating-ai-impact-investor",
+  },
+  {
     title: "Alex Jekowski: From College Pinboards to $140M — How Cents Is Building the All-In-One Platform Powering America's Laundromats",
     category: "Fundraising",
     readTime: "15 min read",
