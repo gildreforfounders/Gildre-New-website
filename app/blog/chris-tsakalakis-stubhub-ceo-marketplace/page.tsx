@@ -47,7 +47,7 @@ const articleSchema = {
   headline:
     "Chris Tsakalakis: How the StubHub CEO Grew Ticket Sales From $400M to $3.2B in Eight Years",
   description:
-    "Chris Tsakalakis, former President and CEO of StubHub, shares the strategic decisions that drove 8x revenue growth — from interactive seat maps to electronic delivery — and the lessons that carried him through Vivino, Kiva, and into venture capital.",
+    "Chris Tsakalakis, former President and CEO of StubHub, shares the strategic decisions that drove 8x revenue growth, from interactive seat maps to electronic delivery, and the lessons that carried him through Vivino, Kiva, and into venture capital.",
   image: "https://www.gildre.com/images/chris-tsakalakis-headshot.jpeg",
   datePublished: "2025-06-01",
   author: {
@@ -118,7 +118,7 @@ const faqs = [
   },
   {
     q: "What is Vivino?",
-    a: "Vivino is a wine app that allows users to take a photo of a wine bottle label and instantly see how other users have rated that wine. Chris Tsakalakis served as CEO of Vivino after leaving StubHub. Like his other ventures — StubHub, eBay, and Kiva — Vivino operates as a marketplace, matching wine buyers with community-sourced ratings and sellers.",
+    a: "Vivino is a wine app that allows users to take a photo of a wine bottle label and instantly see how other users have rated that wine. Chris Tsakalakis served as CEO of Vivino after leaving StubHub. Like his other ventures (StubHub, eBay, and Kiva), Vivino operates as a marketplace, matching wine buyers with community-sourced ratings and sellers.",
   },
   {
     q: "What is Kiva?",
@@ -186,7 +186,7 @@ export default function ChrisTsakalakisBlog() {
             <span style={{ color: "#C9A96E" }}>$400M to $3.2B</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From a Greek-American kid who worked construction for his dad to President and CEO of one of the internet's most recognizable marketplaces — Chris Tsakalakis joined the Start to Scale Podcast to break down the product decisions, partnership plays, and team-building principles that drove eight years of compounding growth at StubHub.
+            From a Greek-American kid who worked construction for his dad to President and CEO of one of the internet's most recognizable marketplaces. Chris Tsakalakis joined the Start to Scale Podcast to break down the product decisions, partnership plays, and team-building principles that drove eight years of compounding growth at StubHub.
           </p>
 
           {/* Author + meta row */}
@@ -224,7 +224,7 @@ export default function ChrisTsakalakisBlog() {
 
         {/* Intro */}
         <p className="text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          We recently had the opportunity to sit down with Chris Tsakalakis — former President and CEO of{" "}
+          We recently had the opportunity to sit down with Chris Tsakalakis, former President and CEO of{" "}
           <a
             href="https://www.stubhub.com"
             target="_blank"
@@ -254,7 +254,7 @@ export default function ChrisTsakalakisBlog() {
           >
             Kiva
           </a>
-          , and now Venture Partner at Sirac Ventures — on the <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Chris shared the full arc of 30 years in the internet industry: the Bain consulting years, the pivot to Silicon Valley in 1995, and the product decisions at StubHub that compounded into one of the internet's most impressive marketplace growth stories. Below are excerpts from the conversation.
+          , and now Venture Partner at Sirac Ventures, on the <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Chris shared the full arc of 30 years in the internet industry: the Bain consulting years, the pivot to Silicon Valley in 1995, and the product decisions at StubHub that compounded into one of the internet's most impressive marketplace growth stories. Below are excerpts from the conversation.
         </p>
 
         {/* Headshot */}
@@ -281,35 +281,35 @@ export default function ChrisTsakalakisBlog() {
 
         <Section title="Greek-American Roots: Construction, Restaurants, and an Entrepreneurial Blueprint" />
         <Body>
-          Chris Tsakalakis grew up in the suburbs of Chicago, in a household where entrepreneurship wasn't a concept — it was the family business. His father was an electrical contractor who expanded into general construction and eventually real estate development. Two uncles and an aunt ran fast food and sit-down restaurants. Coming from Greek immigrant stock, being your own boss wasn't ambition — it was expectation.
+          Chris Tsakalakis grew up in the suburbs of Chicago, in a household where entrepreneurship wasn't a concept; it was the family business. His father was an electrical contractor who expanded into general construction and eventually real estate development. Two uncles and an aunt ran fast food and sit-down restaurants. Coming from Greek immigrant stock, being your own boss wasn't ambition; it was expectation.
         </Body>
         <Body>
-          From age 12 to 20, Chris worked construction for his dad. That physical foundation — carrying materials, figuring things out with limited resources, being accountable for a result — became the through line of how he'd later operate inside large organizations. "I was no stranger to hard work through construction," he says. The transition came when he landed his first internships and discovered air-conditioned offices. The goal posts didn't disappear. They just moved indoors.
+          From age 12 to 20, Chris worked construction for his dad. That physical foundation (carrying materials, figuring things out with limited resources, being accountable for a result) became the through line of how he'd later operate inside large organizations. "I was no stranger to hard work through construction," he says. The transition came when he landed his first internships and discovered air-conditioned offices. The goal posts didn't disappear. They just moved indoors.
         </Body>
 
         <Section title="The Wharton Accident That Changed Everything" />
         <Body>
-          Chris didn't apply to the Wharton School of Business at the University of Pennsylvania because he had a carefully mapped plan. He applied because a friend told him it existed. Growing up in the Chicago suburbs in the 1980s, Chris had heard of Harvard, Yale, and Princeton as Ivy League institutions — but not Penn. When a brochure arrived in the mail, a friend set him straight: this is a private university, Ivy League, and home to what many consider the best undergraduate business program in the country.
+          Chris didn't apply to the Wharton School of Business at the University of Pennsylvania because he had a carefully mapped plan. He applied because a friend told him it existed. Growing up in the Chicago suburbs in the 1980s, Chris had heard of Harvard, Yale, and Princeton as Ivy League institutions, but not Penn. When a brochure arrived in the mail, a friend set him straight: this is a private university, Ivy League, and home to what many consider the best undergraduate business program in the country.
         </Body>
         <Body>
-          He applied. He got in. He later graduated in 1989 with a BS in Economics, concentrating in real estate (a nod to his father's career) and entrepreneurial management (a sign of where his instincts were already pointing). The curriculum — rigorous, overlapping in many cases with MBA coursework — gave him the accounting, legal, and strategic foundations that most first-year consultants have to learn from scratch. He already had them.
+          He applied. He got in. He later graduated in 1989 with a BS in Economics, concentrating in real estate (a nod to his father's career) and entrepreneurial management (a sign of where his instincts were already pointing). The curriculum, rigorous and overlapping in many cases with MBA coursework, gave him the accounting, legal, and strategic foundations that most first-year consultants have to learn from scratch. He already had them.
         </Body>
         <Quote>
-          "Donald Trump, Elon Musk, and I all have the same degree from Penn — a BS in Economics. You pick a concentration. I chose real estate and entrepreneurial management. I didn't want to specialize in just finance or accounting. I wanted to stay at a higher level and look across disciplines."
+          "Donald Trump, Elon Musk, and I all have the same degree from Penn, a BS in Economics. You pick a concentration. I chose real estate and entrepreneurial management. I didn't want to specialize in just finance or accounting. I wanted to stay at a higher level and look across disciplines."
         </Quote>
 
         <Section title="From Bain's Boardroom to Warsaw: Finding the Entrepreneurial Bug" />
         <Body>
-          Bain & Company recruited on campus. Chris, like most Wharton graduates of his era, dropped a resume in the Career Center slot and waited. He got 80 first-round interviews. He joined Bain in Boston. For three years, he worked on complex business problems for large US corporate clients — the kind of analytical, data-driven problem-solving Bain is known for. It was intellectually stimulating. It was also, increasingly, frustrating.
+          Bain & Company recruited on campus. Chris, like most Wharton graduates of his era, dropped a resume in the Career Center slot and waited. He got 80 first-round interviews. He joined Bain in Boston. For three years, he worked on complex business problems for large US corporate clients: the kind of analytical, data-driven problem-solving Bain is known for. It was intellectually stimulating. It was also, increasingly, frustrating.
         </Body>
         <Body>
-          "After a while it started to feel like an academic exercise," Chris recalls. "You could make recommendations to your clients, but whether or not they followed them was up to them, not you." That frustration drove him to volunteer for a different kind of assignment: privatization work in Warsaw, Poland. When he arrived at the Bain Warsaw office, there were three people there — compared to 700 in Boston. One of his first tasks was going to IKEA to buy desks.
+          "After a while it started to feel like an academic exercise," Chris recalls. "You could make recommendations to your clients, but whether or not they followed them was up to them, not you." That frustration drove him to volunteer for a different kind of assignment: privatization work in Warsaw, Poland. When he arrived at the Bain Warsaw office, there were three people there, compared to 700 in Boston. One of his first tasks was going to IKEA to buy desks.
         </Body>
         <Body>
-          That was his first taste of startup-mode in a professional environment: no infrastructure, creative constraints, real accountability for outcomes. He spent a year and a half between Warsaw and Russia before returning to London — and immediately knew the consulting life, even in a new geography, wasn't the path. He wanted to build something, not advise on it.
+          That was his first taste of startup-mode in a professional environment: no infrastructure, creative constraints, real accountability for outcomes. He spent a year and a half between Warsaw and Russia before returning to London, and immediately knew the consulting life, even in a new geography, wasn't the path. He wanted to build something, not advise on it.
         </Body>
         <Quote>
-          "I&rsquo;d rather get my hands dirty and build something than sit back and advise. The Warsaw office had to draw out slides and fax them to London to be formatted. It was a logistical pain — but it forced you to be creative about overcoming obstacles. And that was more interesting to me than the actual work."
+          "I&rsquo;d rather get my hands dirty and build something than sit back and advise. The Warsaw office had to draw out slides and fax them to London to be formatted. It was a logistical pain, but it forced you to be creative about overcoming obstacles. And that was more interesting to me than the actual work."
         </Quote>
 
         <Section title="Why B2C, Not B2B: The Fishing vs. Farming Framework" />
@@ -320,29 +320,29 @@ export default function ChrisTsakalakisBlog() {
           When people ask why he chose business-to-consumer over the more predictable economics of B2B SaaS, Chris's answer is straightforward: personal empathy. He understood consumers because he was one. He could feel what made a product good or bad from the user's perspective in a way that a business customer relationship would never give him.
         </Body>
         <Body>
-          But he also articulates the structural trade-off clearly. A transaction business, he says, is like fishing every day — you have to go find your catch each morning. A subscription business is like farming: you raise fish in a pond and they're there when you need them. "You still eat either way, but it's easier to eat from the farm than to catch in the wild every day." He chose the harder model because it interested him more. It was as simple as that.
+          But he also articulates the structural trade-off clearly. A transaction business, he says, is like fishing every day: you have to go find your catch each morning. A subscription business is like farming: you raise fish in a pond and they're there when you need them. "You still eat either way, but it's easier to eat from the farm than to catch in the wild every day." He chose the harder model because it interested him more. It was as simple as that.
         </Body>
 
         <Section title="StubHub: The Three Decisions That Drove 8x Growth" />
         <Body>
-          Chris joined StubHub — already owned by eBay — as President and CEO, and over eight years grew annual ticket sales from $400 million to $3.2 billion. He's direct about the attribution: he didn't do it alone. But the strategic decisions that compounded the growth were deliberate.
+          Chris joined StubHub (already owned by eBay) as President and CEO, and over eight years grew annual ticket sales from $400 million to $3.2 billion. He's direct about the attribution: he didn't do it alone. But the strategic decisions that compounded the growth were deliberate.
         </Body>
         <Body>
-          <strong style={{ color: "#fff" }}>1. The conversion flywheel.</strong> StubHub invested in interactive seat maps — letting buyers choose their exact seat in a stadium before purchasing. This sounds obvious in retrospect. At the time, it was a competitive advantage. Higher visual clarity meant higher purchase intent meant higher conversion rate. A visitor to StubHub was more likely to become a buyer than a visitor to any competitor. That allowed StubHub to spend more on marketing per visitor and still maintain profitable unit economics. The flywheel compounded.
+          <strong style={{ color: "#fff" }}>1. The conversion flywheel.</strong> StubHub invested in interactive seat maps, letting buyers choose their exact seat in a stadium before purchasing. This sounds obvious in retrospect. At the time, it was a competitive advantage. Higher visual clarity meant higher purchase intent meant higher conversion rate. A visitor to StubHub was more likely to become a buyer than a visitor to any competitor. That allowed StubHub to spend more on marketing per visitor and still maintain profitable unit economics. The flywheel compounded.
         </Body>
         <Body>
-          <strong style={{ color: "#fff" }}>2. Electronic delivery.</strong> When Chris started, 80% of tickets were delivered physically — via FedEx or by picking up at one of nine locations across the US. By the time he left, 80% were delivered electronically. That inversion — 80% physical to 80% digital — transformed the buyer experience (tickets instantly in hand, no delivery anxiety), the seller experience (no FedEx runs), and the operational cost structure (fewer customer service contacts, lower fulfillment costs). It was a product bet that paid off in satisfaction, trust, and economics simultaneously.
+          <strong style={{ color: "#fff" }}>2. Electronic delivery.</strong> When Chris started, 80% of tickets were delivered physically: via FedEx or by picking up at one of nine locations across the US. By the time he left, 80% were delivered electronically. That inversion — 80% physical to 80% digital — transformed the buyer experience (tickets instantly in hand, no delivery anxiety), the seller experience (no FedEx runs), and the operational cost structure (fewer customer service contacts, lower fulfillment costs). It was a product bet that paid off in satisfaction, trust, and economics simultaneously.
         </Body>
         <Body>
-          <strong style={{ color: "#fff" }}>3. Strategic partnerships.</strong> The biggest was with Major League Baseball. StubHub became the official secondary marketplace for MLB, integrating directly with team ticketing systems and enabling seamless electronic delivery for baseball — the sport with the most games per season and the highest ticket volume. They extended the model to college sports: University of Michigan, University of Texas, and most major college athletic programs became partners. Each integration brought supply, trust, and higher electronic delivery rates.
+          <strong style={{ color: "#fff" }}>3. Strategic partnerships.</strong> The biggest was with Major League Baseball. StubHub became the official secondary marketplace for MLB, integrating directly with team ticketing systems and enabling seamless electronic delivery for baseball: the sport with the most games per season and the highest ticket volume. They extended the model to college sports: University of Michigan, University of Texas, and most major college athletic programs became partners. Each integration brought supply, trust, and higher electronic delivery rates.
         </Body>
         <Quote>
-          "The likelihood of a visitor coming to StubHub to actually purchase a ticket was higher than our competitors — because we had a better product. That meant we could spend more on marketing. A visitor coming to our site was worth more than a visitor going to a competitor's site."
+          "The likelihood of a visitor coming to StubHub to actually purchase a ticket was higher than our competitors because we had a better product. That meant we could spend more on marketing. A visitor coming to our site was worth more than a visitor going to a competitor's site."
         </Quote>
 
         <Section title="After StubHub: The Marketplace Pattern at Vivino and Kiva" />
         <Body>
-          After leaving StubHub in 2014, Chris ran Vivino — a wine app where users photograph a label and the app returns community ratings and pricing data. Then came{" "}
+          After leaving StubHub in 2014, Chris ran Vivino, a wine app where users photograph a label and the app returns community ratings and pricing data. Then came{" "}
           <a
             href="https://www.kiva.org"
             target="_blank"
@@ -352,21 +352,21 @@ export default function ChrisTsakalakisBlog() {
           >
             Kiva
           </a>
-          , a nonprofit crowdfunding platform for micro loans that lets individuals lend as little as $25 to borrowers across 70+ countries. On the surface, these three companies — a ticketing marketplace, a wine discovery app, and a nonprofit lending platform — look unrelated. Chris sees the common thread clearly: all four companies he ran (eBay, StubHub, Vivino, Kiva) operated as marketplace mechanisms matching buyers to sellers, or in Kiva's case, lenders to borrowers.
+          , a nonprofit crowdfunding platform for micro loans that lets individuals lend as little as $25 to borrowers across 70+ countries. On the surface, these three companies, a ticketing marketplace, a wine discovery app, and a nonprofit lending platform, look unrelated. Chris sees the common thread clearly: all four companies he ran (eBay, StubHub, Vivino, Kiva) operated as marketplace mechanisms matching buyers to sellers, or in Kiva's case, lenders to borrowers.
         </Body>
         <Body>
-          That consistent pattern wasn't accidental. Chris has a deep understanding of how marketplaces create value, what makes supply and demand sides trust each other, and how network effects compound — developed over three decades of building exactly these kinds of platforms.
+          That consistent pattern wasn't accidental. Chris has a deep understanding of how marketplaces create value, what makes supply and demand sides trust each other, and how network effects compound, developed over three decades of building exactly these kinds of platforms.
         </Body>
 
         <Section title="Building Teams That Push Your Thinking" />
         <Body>
-          Chris has a clear, two-part framework for what he looks for in leadership team members — whether he's hiring a CMO, a CTO, or a General Counsel.
+          Chris has a clear, two-part framework for what he looks for in leadership team members, whether he's hiring a CMO, a CTO, or a General Counsel.
         </Body>
         <Body>
-          The first quality: genuine expertise in their domain. Not someone who needs direction on what to do in their function — someone who arrives with opinions, ideas, and an agenda that pushes the CEO's thinking. "If I'm the one who has the ideas and I'm pushing them to marketing, I have the wrong person running marketing," Chris says. The expert should be outrunning the CEO in their own lane.
+          The first quality: genuine expertise in their domain. Not someone who needs direction on what to do in their function, someone who arrives with opinions, ideas, and an agenda that pushes the CEO's thinking. "If I'm the one who has the ideas and I'm pushing them to marketing, I have the wrong person running marketing," Chris says. The expert should be outrunning the CEO in their own lane.
         </Body>
         <Body>
-          The second quality: the ability to think strategically across the whole business, not just their vertical. Every seat at the leadership table should be occupied by someone who can contribute meaningfully to company-level decisions — not just their department's roadmap. "I want to sit around the table and have everyone provide valuable input before a decision is made," he says. The decision may ultimately rest with him, but it should be informed by people who think as broadly as he does.
+          The second quality: the ability to think strategically across the whole business, not just their vertical. Every seat at the leadership table should be occupied by someone who can contribute meaningfully to company-level decisions, not just their department's roadmap. "I want to sit around the table and have everyone provide valuable input before a decision is made," he says. The decision may ultimately rest with him, but it should be informed by people who think as broadly as he does.
         </Body>
 
         <Section title="Career Advice: Be Valuable, Not Just Tenured" />
@@ -374,27 +374,27 @@ export default function ChrisTsakalakisBlog() {
           For earlier-career professionals, Chris distills his advice into two words: be valuable. Not visible. Not tenured. Valuable.
         </Body>
         <Body>
-          At Bain, the first piece of advice he received was: your job is to make your boss's job easier. That principle stuck. The people who get ahead fastest are the ones who are proactive — who identify problems before being asked to, who bring solutions rather than flags, who get things done without waiting to be told. He pushes back directly on the idea that time served earns promotion: "No one gets promoted just because they time served. This isn't a prison. The people who move more quickly in their careers are the ones who provide more value over a period of time."
+          At Bain, the first piece of advice he received was: your job is to make your boss's job easier. That principle stuck. The people who get ahead fastest are the ones who are proactive, who identify problems before being asked to, who bring solutions rather than flags, who get things done without waiting to be told. He pushes back directly on the idea that time served earns promotion: "No one gets promoted just because they time served. This isn't a prison. The people who move more quickly in their careers are the ones who provide more value over a period of time."
         </Body>
         <Quote>
-          "Don&rsquo;t wait for something to be told to you. Be proactive and be valuable. Solve problems and get things done. Think about how much value you accumulate for the company — once you reach that point, you can be promoted. But that&rsquo;s not based on a timeline. It&rsquo;s based on how much effort you put in every day."
+          "Don&rsquo;t wait for something to be told to you. Be proactive and be valuable. Solve problems and get things done. Think about how much value you accumulate for the company; once you reach that point, you can be promoted. But that&rsquo;s not based on a timeline. It&rsquo;s based on how much effort you put in every day."
         </Quote>
 
         <Section title="Founder Advice: The Best Money Is Revenue From Customers" />
         <Body>
-          When Chris works with founders — whether as an advisor, investor, or mentor — he sees the same pattern: everyone is focused on raising money from investors. His advice is consistent and blunt.
+          When Chris works with founders (whether as an advisor, investor, or mentor), he sees the same pattern: everyone is focused on raising money from investors. His advice is consistent and blunt.
         </Body>
         <Body>
-          The best money you can get is revenue from customers. Investors take a long time to find and are difficult to manage. More importantly, they don't validate your business — customers do. If you have customers and revenue, investors will come to you. If you don't, finding investors is nearly impossible. The order of operations matters enormously.
+          The best money you can get is revenue from customers. Investors take a long time to find and are difficult to manage. More importantly, they don't validate your business; customers do. If you have customers and revenue, investors will come to you. If you don't, finding investors is nearly impossible. The order of operations matters enormously.
         </Body>
         <Body>
           He's equally direct about the culture of fundraising announcements: raising money is not the achievement people think it is. TechCrunch is full of big-round headlines. Revenue milestones rarely get the same coverage. But a company that bootstrapped to product-market fit and real revenue is worth infinitely more, structurally, than one that raised a large round without proving demand.
         </Body>
         <Quote>
-          "If I could start a business without raising any money from outside investors, I would do that first. Bootstrap it for as long as you can. Prove the model — that you have a product or service someone likes, and customers who will pay for it. That&rsquo;s much more important than raising money and getting your name in TechCrunch."
+          "If I could start a business without raising any money from outside investors, I would do that first. Bootstrap it for as long as you can. Prove the model, that you have a product or service someone likes, and customers who will pay for it. That&rsquo;s much more important than raising money and getting your name in TechCrunch."
         </Quote>
         <Body>
-          He's seen the downside up close: companies ruined by too much money, where the absence of capital constraints removed the discipline to be strategic. Capital efficiency — the investor's phrase for spending carefully — isn't just financial prudence. It's a forcing function for making better decisions faster.
+          He's seen the downside up close: companies ruined by too much money, where the absence of capital constraints removed the discipline to be strategic. Capital efficiency: the investor's phrase for spending carefully, isn't just financial prudence. It's a forcing function for making better decisions faster.
         </Body>
 
         {/* FAQ section */}
@@ -586,17 +586,17 @@ function BioCallout() {
     {
       n: "1",
       title: "Build the conversion flywheel before scaling marketing",
-      body: "StubHub's interactive seat maps increased purchase conversion. A higher conversion rate meant each marketing dollar went further — which funded more aggressive spending than any competitor could justify.",
+      body: "StubHub's interactive seat maps increased purchase conversion. A higher conversion rate meant each marketing dollar went further, which funded more aggressive spending than any competitor could justify.",
     },
     {
       n: "2",
       title: "Revenue is the only validation that matters",
-      body: "Investors don't validate your business — customers do. If you have revenue, investors will find you. If you don't, raising is nearly impossible. Get the customer money first.",
+      body: "Investors don't validate your business; customers do. If you have revenue, investors will find you. If you don't, raising is nearly impossible. Get the customer money first.",
     },
     {
       n: "3",
       title: "Hire experts who outrun you in their own lane",
-      body: "The right leadership team member brings ideas to the CEO — they don't wait for direction. If you're the one pushing marketing ideas to your CMO, you've hired the wrong CMO.",
+      body: "The right leadership team member brings ideas to the CEO; they don't wait for direction. If you're the one pushing marketing ideas to your CMO, you've hired the wrong CMO.",
     },
   ];
 
@@ -635,7 +635,7 @@ function BioCallout() {
           >
             StubHub
           </a>
-          , where he grew the online ticket marketplace from $400 million to $3.2 billion in annual ticket sales over eight years. A Wharton graduate and former Bain & Company consultant, Chris has spent 30 years building and leading B2C internet marketplace businesses — including eBay (VP), Vivino (CEO), and Kiva (CEO). He is currently a Venture Partner at Sirac Ventures and runs a CEO advisory practice at{" "}
+          , where he grew the online ticket marketplace from $400 million to $3.2 billion in annual ticket sales over eight years. A Wharton graduate and former Bain & Company consultant, Chris has spent 30 years building and leading B2C internet marketplace businesses including eBay (VP), Vivino (CEO), and Kiva (CEO). He is currently a Venture Partner at Sirac Ventures and runs a CEO advisory practice at{" "}
           <a
             href="https://www.trefo.com"
             target="_blank"

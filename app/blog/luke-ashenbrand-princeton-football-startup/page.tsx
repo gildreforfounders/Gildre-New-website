@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup" },
   title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion | Gildre",
   description:
-    "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021 — then channeled that setback into startup consulting and entrepreneurship. His story from the Gildre Start to Scale Podcast.",
+    "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021. Then channeled that setback into startup consulting and entrepreneurship. His story from the Gildre Start to Scale Podcast.",
   keywords: [
     "Luke Ashenbrand",
     "Princeton football entrepreneur",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup",
     title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur",
     description:
-      "A career-ending concussion ended Luke Ashenbrand's Princeton football dream — and launched his entrepreneurial journey. Featured on the Gildre Start to Scale Podcast.",
+      "A career-ending concussion ended Luke Ashenbrand's Princeton football dream, and launched his entrepreneurial journey. Featured on the Gildre Start to Scale Podcast.",
     type: "article",
     images: [{ url: "https://www.gildre.com/images/luke-ashenbrand-headshot.webp" }],
   },
@@ -33,7 +33,7 @@ const schema = {
   "@type": "Article",
   "headline": "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion",
   "description":
-    "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021 — then channeled that setback into startup consulting and entrepreneurship.",
+    "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021. Then channeled that setback into startup consulting and entrepreneurship.",
   "image": "https://www.gildre.com/images/luke-ashenbrand-headshot.webp",
   "author": { "@type": "Organization", "name": "Gildre", "url": "https://www.gildre.com" },
   "publisher": {
@@ -124,7 +124,7 @@ export default function LukeAshenbrandBlog() {
               Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-              A Princeton football lineman loses his career to a traumatic concussion — spends 15 days in a pitch-black room — then channels the setback into startup consulting and a new entrepreneurial path.
+              A Princeton football lineman loses his career to a traumatic concussion — spends 15 days in a pitch-black room. Then channels the setback into startup consulting and a new entrepreneurial path.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-6 text-[0.7rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               <span>Princeton University · Class of 2022</span>
@@ -172,22 +172,22 @@ export default function LukeAshenbrandBlog() {
               <li>• Princeton University, Class of 2022 — Entrepreneurship minor</li>
               <li>• Played Guard &amp; Center for Princeton Tigers football (Ivy League)</li>
               <li>• Career-ending concussion: September 2021 (vs. Stetson) — 15 days in a dark room</li>
-              <li>• Built Vega during COVID — a campus delivery algorithm — as his first startup</li>
+              <li>• Built Vega during COVID, a campus delivery algorithm, as his first startup</li>
               <li>• Currently a startup consultant working with founders and investors</li>
               <li>• Also building his own startup as a side venture</li>
-              <li>• Father is an entrepreneur — the original inspiration for the startup path</li>
+              <li>• Father is an entrepreneur: the original inspiration for the startup path</li>
             </ul>
           </div>
 
           <Section title="Meet Luke">
             <Body>
-              Luke Ashenbrand graduated from Princeton University in May 2022 — but the path to graduation was anything but straightforward. He arrived at Princeton as a recruited football player, took on one of the most physically demanding positions on the offensive line, and had every intention of finishing his career on the field.
+              Luke Ashenbrand graduated from Princeton University in May 2022, but the path to graduation was anything but straightforward. He arrived at Princeton as a recruited football player, took on one of the most physically demanding positions on the offensive line, and had every intention of finishing his career on the field.
             </Body>
             <Body>
               That plan ended in September 2021, when a concussion during a game against Stetson changed everything.
             </Body>
             <Body>
-              "I'd be lying if I said it didn't sting," Luke says. But rather than letting the setback define him, he chose to treat it as a new chapter — one shaped not by what he lost, but by what he still had the drive to build.
+              "I'd be lying if I said it didn't sting," Luke says. But rather than letting the setback define him, he chose to treat it as a new chapter, one shaped not by what he lost, but by what he still had the drive to build.
             </Body>
           </Section>
 
@@ -210,12 +210,12 @@ export default function LukeAshenbrandBlog() {
             </p>
           </div>
 
-          <Section title="A Late Start in Football — and an Early Hunger to Compete">
+          <Section title="A Late Start in Football, and an Early Hunger to Compete">
             <Body>
-              Unlike most linemen who grow up playing the sport from age six, Luke came to football late. He started at Tight End and Defensive Line his freshman year of high school at 14, then transitioned to Defensive Tackle as he developed. The late entry didn't slow him down — it sharpened his focus.
+              Unlike most linemen who grow up playing the sport from age six, Luke came to football late. He started at Tight End and Defensive Line his freshman year of high school at 14, then transitioned to Defensive Tackle as he developed. The late entry didn't slow him down; it sharpened his focus.
             </Body>
             <Body>
-              By February 2017, he had an offer from Brown. His performance at the Nike Opening camp — going up against players who would go on to play in the NFL — gave him a clear-eyed look at what he was competing against in the recruiting world. He leaned into those lessons rather than shrinking from them.
+              By February 2017, he had an offer from Brown. His performance at the Nike Opening camp (going up against players who would go on to play in the NFL) gave him a clear-eyed look at what he was competing against in the recruiting world. He leaned into those lessons rather than shrinking from them.
             </Body>
             <Body>
               Eventually, Luke chose Princeton. The rigorous academic environment, the campus, and his connection to the coaching staff made it the right fit. He enrolled with two ambitions: play Division I Ivy League football and build something of his own.
@@ -224,7 +224,7 @@ export default function LukeAshenbrandBlog() {
 
           <Section title="The First Startup: Vega">
             <Body>
-              When COVID shut down the 2020 football season, Luke didn't sit still. He used the time to build Vega — an algorithm designed to aggregate all campus orders and consolidate deliveries to a central campus pickup point. It was his entrepreneurship minor brought to life: a real problem, a real attempt at a solution.
+              When COVID shut down the 2020 football season, Luke didn't sit still. He used the time to build Vega, an algorithm designed to aggregate all campus orders and consolidate deliveries to a central campus pickup point. It was his entrepreneurship minor brought to life: a real problem, a real attempt at a solution.
             </Body>
             <Body>
               He also interned at a private equity firm that summer, getting his first look at capital, deals, and the investor mindset from the inside.
@@ -236,13 +236,13 @@ export default function LukeAshenbrandBlog() {
 
           <Section title="The Hit That Changed Everything">
             <Body>
-              Football resumed in the fall of 2021. In September, during a game against Stetson, Luke took a hit that left him unconscious for an extended period. He lost an entire month of memory. Friends dropped food at his door while he recovered alone. He spent 15 days in a completely dark room — no screens, no light, minimal stimulation.
+              Football resumed in the fall of 2021. In September, during a game against Stetson, Luke took a hit that left him unconscious for an extended period. He lost an entire month of memory. Friends dropped food at his door while he recovered alone. He spent 15 days in a completely dark room: no screens, no light, minimal stimulation.
             </Body>
             <Quote>
               "The concussion kind of switched me out of the football phase. I was unconscious for a month. I don't remember a dang thing about that month. I had people dropping off food to my door. I was in a pitch-black room for 15 days. Life was gone like that."
             </Quote>
             <Body>
-              What pulled him through wasn't a highlight reel or a pep talk. It was meditation. Luke's mother — coming from a Buddhist family background — taught him to meditate during recovery. The practice helped him process the loss, quiet the noise, and stop leading with ego.
+              What pulled him through wasn't a highlight reel or a pep talk. It was meditation. Luke's mother (coming from a Buddhist family background) taught him to meditate during recovery. The practice helped him process the loss, quiet the noise, and stop leading with ego.
             </Body>
             <Body>
               "I realized that not making a choice left a wider world of opportunity in front of me," he reflects. With football gone, everything else became possible.
@@ -251,34 +251,34 @@ export default function LukeAshenbrandBlog() {
 
           <Section title="From the Locker Room to the Startup World">
             <Body>
-              After graduation, Luke did something deliberately open-ended: he joined an agnostic company — one that worked across industries and gave him access to a wide range of investors and founders simultaneously. His goal wasn't to specialize immediately. It was to learn — fast, broadly, and from people further along than him.
+              After graduation, Luke did something deliberately open-ended: he joined an agnostic company, one that worked across industries and gave him access to a wide range of investors and founders simultaneously. His goal wasn't to specialize immediately. It was to learn — fast, broadly, and from people further along than him.
             </Body>
             <Body>
               Being an extrovert helped. He thrived in rooms full of different kinds of builders, absorbing perspectives on fundraising, company culture, product development, and failure. "I got to see the good, bad, and in-between of various contexts that most people my age don't get exposed to," he says.
             </Body>
             <Body>
-              His father's entrepreneurial path had always been the north star. Now Luke had the raw material — real-world exposure, a Princeton network, and the lived experience of navigating a major setback — to start building his own version of that path.
+              His father's entrepreneurial path had always been the north star. Now Luke had the raw material: real-world exposure, a Princeton network, and the lived experience of navigating a major setback, to start building his own version of that path.
             </Body>
           </Section>
 
           <Section title="What He's Building Now">
             <Body>
-              Today, Luke runs startup consulting as his primary work — helping early-stage founders think through strategy, positioning, and execution. Alongside that, he's nurturing a startup of his own on the side.
+              Today, Luke runs startup consulting as his primary work, helping early-stage founders think through strategy, positioning, and execution. Alongside that, he's nurturing a startup of his own on the side.
             </Body>
             <Body>
               He's methodical about it. Vega taught him that good ideas need the right moment, the right team, and the right conditions. He's not rushing to ship for the sake of shipping.
             </Body>
             <Body>
-              The resilience that carried him through two-a-days at Princeton, the recruiting grind, and 15 days in a dark room now drives how he approaches building. Patience isn't passivity for Luke — it's strategy.
+              The resilience that carried him through two-a-days at Princeton, the recruiting grind, and 15 days in a dark room now drives how he approaches building. Patience isn't passivity for Luke; it's strategy.
             </Body>
           </Section>
 
           <Section title="What Founders Can Learn from an Athlete Who Pivoted">
             <Body>
-              Luke's story isn't about football. It's about what happens when the identity you built your life around disappears overnight — and what you find on the other side if you're willing to look.
+              Luke's story isn't about football. It's about what happens when the identity you built your life around disappears overnight, and what you find on the other side if you're willing to look.
             </Body>
             <Body>
-              For founders who've watched a company fold, lost a major customer, or seen a product they believed in fail to find traction: the arc Luke describes — loss, stillness, reorientation, rebuild — is one worth sitting with.
+              For founders who've watched a company fold, lost a major customer, or seen a product they believed in fail to find traction: the arc Luke describes (loss, stillness, reorientation, rebuild) is one worth sitting with.
             </Body>
             <Body>
               The entrepreneurial muscle isn't just about building. It's about what you do when the build stops working.
@@ -294,10 +294,10 @@ export default function LukeAshenbrandBlog() {
               Start to Scale Podcast
             </p>
             <p className="text-white font-semibold text-lg mb-4" style={{ fontFamily: "var(--font-fraunces)" }}>
-              Hear Luke's full story — in his own words
+              Hear Luke's full story, in his own words
             </p>
             <p className="text-sm mb-6" style={{ color: "rgba(255,255,255,0.5)" }}>
-              This blog is adapted from Luke's episode on the Gildre Start to Scale Podcast. Listen to the full conversation for the unedited story — including his thoughts on the recruiting process, Princeton culture, and what he's building next.
+              This blog is adapted from Luke's episode on the Gildre Start to Scale Podcast. Listen to the full conversation for the unedited story including his thoughts on the recruiting process, Princeton culture, and what he's building next.
             </p>
             <a
               href="https://linktr.ee/starttoscale"
@@ -325,7 +325,7 @@ export default function LukeAshenbrandBlog() {
               Founders who've been through the fire belong here.
             </h3>
             <p className="text-sm leading-relaxed mb-8 mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Gildre is a private community for founders at every stage — including those rebuilding after a pivot, a setback, or an unexpected detour. Apply to join.
+              Gildre is a private community for founders at every stage including those rebuilding after a pivot, a setback, or an unexpected detour. Apply to join.
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a

@@ -110,7 +110,7 @@ const personSchema = {
 const faqs = [
   {
     q: "Who is Chris Yeh?",
-    a: "Chris Yeh is a Silicon Valley author, investor, and advisor best known as the co-author of Blitzscaling and The Alliance, both written with Reid Hoffman. He is a Venture Partner at Blitzscaling Ventures, which invests in startups targeting winner-take-most markets. A Stanford and Harvard Business School graduate, Chris has spent 30 years in tech — from early internet companies like Juno Online Services to advising and investing in the current AI wave. His website is chrisyeh.com.",
+    a: "Chris Yeh is a Silicon Valley author, investor, and advisor best known as the co-author of Blitzscaling and The Alliance, both written with Reid Hoffman. He is a Venture Partner at Blitzscaling Ventures, which invests in startups targeting winner-take-most markets. A Stanford and Harvard Business School graduate, Chris has spent 30 years in tech, from early internet companies like Juno Online Services to advising and investing in the current AI wave. His website is chrisyeh.com.",
   },
   {
     q: "What is Blitzscaling?",
@@ -118,7 +118,7 @@ const faqs = [
   },
   {
     q: "What is The Alliance by Reid Hoffman and Chris Yeh?",
-    a: "The Alliance: Managing Talent in the Networked Age is a book co-authored by Chris Yeh, Reid Hoffman, and Ben Casnocha. It addresses how companies should manage employees in an era where people no longer stay at one company for 30 years. The book advocates for honest, tour-of-duty-based employment relationships where companies invest in employees' growth and employees invest in the company's success — with both sides maintaining the relationship even after the employee moves on.",
+    a: "The Alliance: Managing Talent in the Networked Age is a book co-authored by Chris Yeh, Reid Hoffman, and Ben Casnocha. It addresses how companies should manage employees in an era where people no longer stay at one company for 30 years. The book advocates for honest, tour-of-duty-based employment relationships where companies invest in employees' growth and employees invest in the company's success, with both sides maintaining the relationship even after the employee moves on.",
   },
   {
     q: "What is Blitzscaling Ventures?",
@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "What advice does Chris Yeh give to early-stage founders?",
-    a: "Chris Yeh's core advice to founders has two layers. First: almost nothing about success is an individual sport — you need a tribe. The way to build that tribe is to meet as many smart and interesting people as you can, and then wait. The relationships that compound over years or decades pay off in unexpected ways. Second: focus on conviction over consensus. The most successful entrepreneurs identified overlooked opportunities that others didn't believe in and executed on them before the rest of the world caught up. Being contrarian and right — as Peter Thiel describes it — is one of the most reliable paths to outsized success.",
+    a: "Chris Yeh's core advice to founders has two layers. First: almost nothing about success is an individual sport: you need a tribe. The way to build that tribe is to meet as many smart and interesting people as you can, and then wait. The relationships that compound over years or decades pay off in unexpected ways. Second: focus on conviction over consensus. The most successful entrepreneurs identified overlooked opportunities that others didn't believe in and executed on them before the rest of the world caught up. Being contrarian and right, as Peter Thiel describes it — is one of the most reliable paths to outsized success.",
   },
 ];
 
@@ -237,8 +237,8 @@ export default function ChrisYehBlog() {
           — co-author of{" "}
           <strong style={{ color: "#fff" }}>Blitzscaling</strong> and{" "}
           <strong style={{ color: "#fff" }}>The Alliance</strong> with Reid Hoffman, Venture Partner at{" "}
-          <strong style={{ color: "#fff" }}>Blitzscaling Ventures</strong>, and instructor at Stanford — on the{" "}
-          <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Chris shared three decades of hard-won lessons: from the early internet at D.E. Shaw, to the philosophy behind Silicon Valley's greatest growth companies, to why the current AI wave is the most consequential technology shift in human history — and what founders should actually do about it.
+          <strong style={{ color: "#fff" }}>Blitzscaling Ventures</strong>, and instructor at Stanford, on the{" "}
+          <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Chris shared three decades of hard-won lessons: from the early internet at D.E. Shaw, to the philosophy behind Silicon Valley's greatest growth companies, to why the current AI wave is the most consequential technology shift in human history, and what founders should actually do about it.
         </p>
 
         {/* Headshot */}
@@ -265,28 +265,28 @@ export default function ChrisYehBlog() {
 
         <Section title="From Santa Monica to Stanford: A Storyteller Who Learned to Build" />
         <Body>
-          Chris Yeh grew up in Santa Monica, California — deep in the entertainment industry's orbit, even if that wasn't where he'd end up. The city is built on storytelling, and Chris absorbed it early. By the time he reached his teenage years, he had already decided he wanted to be an author. Then he researched the profession more carefully. "Most people don't make any money," he concluded. "This is not a good thing."
+          Chris Yeh grew up in Santa Monica, California, deep in the entertainment industry's orbit, even if that wasn't where he'd end up. The city is built on storytelling, and Chris absorbed it early. By the time he reached his teenage years, he had already decided he wanted to be an author. Then he researched the profession more carefully. "Most people don't make any money," he concluded. "This is not a good thing."
         </Body>
         <Body>
-          At Stanford, he hedged: creative writing and product design engineering, the pairing of someone who wants to tell stories but also wants to eat. His father — a PhD in electrical engineering from UCLA — had planted an early love of technology. Stanford reinforced it. He built circuit boards, cast bronze pieces in the machine shop, and calculated environmental reports for civil engineering. He trained as an engineer in full, even if he never practiced it. What he took from that training was the instinct that technology is the ultimate multiplier: it allows us to do things we couldn't otherwise do.
+          At Stanford, he hedged: creative writing and product design engineering, the pairing of someone who wants to tell stories but also wants to eat. His father, a PhD in electrical engineering from UCLA, had planted an early love of technology. Stanford reinforced it. He built circuit boards, cast bronze pieces in the machine shop, and calculated environmental reports for civil engineering. He trained as an engineer in full, even if he never practiced it. What he took from that training was the instinct that technology is the ultimate multiplier: it allows us to do things we couldn't otherwise do.
         </Body>
 
         <Section title="D.E. Shaw, Juno Online Services, and the Early Internet" />
         <Body>
           Before the Netscape IPO, before anyone outside a university lab had heard of the web, Chris Yeh was already certain the internet was going to change everything. His first job out of Stanford was at{" "}
-          <strong style={{ color: "#fff" }}>D.E. Shaw &amp; Company</strong> — the secretive quantitative hedge fund that Jeff Bezos worked at before founding Amazon. He joined D.E. Shaw specifically to work on their startup activities.
+          <strong style={{ color: "#fff" }}>D.E. Shaw &amp; Company</strong>: the secretive quantitative hedge fund that Jeff Bezos worked at before founding Amazon. He joined D.E. Shaw specifically to work on their startup activities.
         </Body>
         <Body>
           One of those activities was{" "}
-          <strong style={{ color: "#fff" }}>Juno Online Services</strong> — a free email platform that mailed floppy disks to magazine subscribers, used dial-up modems to download email, and went public in 1999. Chris tells the story with affection and self-awareness: "People listening are like, what's a magazine? What's mail?" Every lesson he learned marketing to modem users through rented magazine subscriber lists was rendered obsolete within years. That obsolescence, he argues, is the point. "If all I did was continue to rely on the lessons I learned early in my career, I'd be wandering around right now saying, how do I promote AI products by mailing floppy disks to magazine subscribers?"
+          <strong style={{ color: "#fff" }}>Juno Online Services</strong>, a free email platform that mailed floppy disks to magazine subscribers, used dial-up modems to download email, and went public in 1999. Chris tells the story with affection and self-awareness: "People listening are like, what's a magazine? What's mail?" Every lesson he learned marketing to modem users through rented magazine subscriber lists was rendered obsolete within years. That obsolescence, he argues, is the point. "If all I did was continue to rely on the lessons I learned early in my career, I'd be wandering around right now saying, how do I promote AI products by mailing floppy disks to magazine subscribers?"
         </Body>
         <Body>
-          He left D.E. Shaw for Harvard Business School — not because he'd lost interest in startups, but because he wanted to learn traditional business fundamentals from the ground up. He ran his first startup while still in school, flying to the Bay Area every Sunday night, working Monday and Tuesday, catching red-eye flights back to make Wednesday morning classes at HBS. He graduated and never stopped.
+          He left D.E. Shaw for Harvard Business School, not because he'd lost interest in startups, but because he wanted to learn traditional business fundamentals from the ground up. He ran his first startup while still in school, flying to the Bay Area every Sunday night, working Monday and Tuesday, catching red-eye flights back to make Wednesday morning classes at HBS. He graduated and never stopped.
         </Body>
 
         <Section title="Why the AI Boom Is Bigger Than the Internet" />
         <Body>
-          Chris has lived through two of the most significant technology waves in modern history: the dot-com boom of the late 1990s and the current AI explosion. He draws the comparison directly — and lands on a clear conclusion: AI is bigger.
+          Chris has lived through two of the most significant technology waves in modern history: the dot-com boom of the late 1990s and the current AI explosion. He draws the comparison directly, and lands on a clear conclusion: AI is bigger.
         </Body>
         <Body>
           The reason isn't the technology itself in isolation. It's compounding. The AI wave rides on top of everything that came before: the internet, mobile, social networks, global infrastructure. When Facebook launched, it couldn't spread on Facebook. It relied on email. When ChatGPT launched, it spread across TikTok, Twitter, LinkedIn, and Instagram simultaneously. The foundation was already there. The velocity was unprecedented.
@@ -298,21 +298,21 @@ export default function ChrisYehBlog() {
           For founders alive and active right now, Chris's message is unambiguous: you are lucky. "I have said to many people when this AI boom kicked off, thank goodness I'm still young enough to paddle out and ride this wave."
         </Body>
 
-        <Section title="How AI Actually Works — and Why It Amplifies the Skilled" />
+        <Section title="How AI Actually Works, and Why It Amplifies the Skilled" />
         <Body>
           As a Stanford instructor and working author, Chris has a more precise view of AI's capabilities than most. His framework cuts through the hype.
         </Body>
         <Body>
-          At its core, he explains, AI is a prediction machine trained on patterns. It is exceptional at producing conventional, consensus-based output. It is poor — structurally poor — at generating original human insight. That's not a bug to be fixed in the next model. That's the nature of pattern-matching at scale.
+          At its core, he explains, AI is a prediction machine trained on patterns. It is exceptional at producing conventional, consensus-based output. It is structurally poor at generating original human insight. That's not a bug to be fixed in the next model. That's the nature of pattern-matching at scale.
         </Body>
         <Body>
-          But the more important observation is this: AI amplifies the skilled far more than it amplifies the unskilled — even though it appears to do the opposite.
+          But the more important observation is this: AI amplifies the skilled far more than it amplifies the unskilled, even though it appears to do the opposite.
         </Body>
         <Quote>
-          "I ask people: have you ever used AI to do something you really didn't know a lot about? And they're like, wow, the results were amazing, magical. Have you ever used AI to do something you actually know a lot about? They're like, yeah — not really good, pretty mid. All the stuff AI produces seems magical to you because you don't know anything about it. It's helping you simulate knowledge you didn't have before. But it's mediocrity."
+          "I ask people: have you ever used AI to do something you really didn't know a lot about? And they're like, wow, the results were amazing, magical. Have you ever used AI to do something you actually know a lot about? They're like, yeah, not really good, pretty mid. All the stuff AI produces seems magical to you because you don't know anything about it. It's helping you simulate knowledge you didn't have before. But it's mediocrity."
         </Quote>
         <Body>
-          The implication for founders is direct: expertise compounds in the AI era. A generalist using AI produces mediocre output that looks impressive to other generalists. An expert using AI produces output that is genuinely exceptional — because the AI is amplifying a real point of view, real insight, real knowledge. Becoming deeply skilled at something is more valuable now than it was before AI, not less.
+          The implication for founders is direct: expertise compounds in the AI era. A generalist using AI produces mediocre output that looks impressive to other generalists. An expert using AI produces output that is genuinely exceptional because the AI is amplifying a real point of view, real insight, real knowledge. Becoming deeply skilled at something is more valuable now than it was before AI, not less.
         </Body>
 
         {/* Chris + Reid at LinkedIn */}
@@ -339,10 +339,10 @@ export default function ChrisYehBlog() {
           <strong style={{ color: "#fff" }}>Blitzscaling</strong> was one Reid Hoffman had been thinking about for years: what is actually different about Silicon Valley? Schools exist elsewhere. Capital exists elsewhere. A culture of ambition exists elsewhere. Why does the Valley produce disproportionate outcomes?
         </Body>
         <Body>
-          The answer Chris and Reid arrived at: the most successful companies won valuable, winner-take-most markets by moving faster than their competition — by being more decisive, more aggressive, and more willing to accept inefficiency in exchange for speed. Blitzscaling is the name for that strategy.
+          The answer Chris and Reid arrived at: the most successful companies won valuable, winner-take-most markets by moving faster than their competition, by being more decisive, more aggressive, and more willing to accept inefficiency in exchange for speed. Blitzscaling is the name for that strategy.
         </Body>
         <Body>
-          The book came out of a Stanford class that Reid and Chris co-taught, which gave them access to an extraordinary set of firsthand accounts. Brian Chesky walked them through Airbnb's early decisions. Reed Hastings explained Netflix's content bets. Eric Schmidt discussed Google's scaling philosophy. Sam Altman — then president of Y Combinator — came in before OpenAI existed. Chris and Reid could step back from each story and identify the through line: conviction, speed, and a willingness to blitzscale before the market agreed with you.
+          The book came out of a Stanford class that Reid and Chris co-taught, which gave them access to an extraordinary set of firsthand accounts. Brian Chesky walked them through Airbnb's early decisions. Reed Hastings explained Netflix's content bets. Eric Schmidt discussed Google's scaling philosophy. Sam Altman, then president of Y Combinator, came in before OpenAI existed. Chris and Reid could step back from each story and identify the through line: conviction, speed, and a willingness to blitzscale before the market agreed with you.
         </Body>
 
         {/* Blitzscaling book */}
@@ -369,13 +369,13 @@ export default function ChrisYehBlog() {
           <strong style={{ color: "#fff" }}>The Alliance</strong> with Reid Hoffman and Ben Casnocha. The book asks a question that only gets harder over time: how do you manage people honestly in an era where nobody stays at one company for 30 years?
         </Body>
         <Body>
-          The answer is the tour-of-duty model — explicit, honest conversations between employer and employee about what each party needs from the relationship and for how long. Companies invest in employees' growth for the duration. Employees give their full commitment during that time. When the tour ends, the relationship doesn't. LinkedIn founder Dylan Field was an intern at LinkedIn long before Figma existed. The LinkedIn team invested in him, stayed in touch, and invested in Figma when he founded it. The relationship compounded over time.
+          The answer is the tour-of-duty model: explicit, honest conversations between employer and employee about what each party needs from the relationship and for how long. Companies invest in employees' growth for the duration. Employees give their full commitment during that time. When the tour ends, the relationship doesn't. LinkedIn founder Dylan Field was an intern at LinkedIn long before Figma existed. The LinkedIn team invested in him, stayed in touch, and invested in Figma when he founded it. The relationship compounded over time.
         </Body>
         <Body>
-          That compounding relationship — not the transactional one — is what The Alliance is about. Chris's own career is built on the same principle.
+          That compounding relationship, not the transactional one, is what The Alliance is about. Chris's own career is built on the same principle.
         </Body>
 
-        <Section title="Why Chris Stepped Out of the CEO Chair — and Never Went Back" />
+        <Section title="Why Chris Stepped Out of the CEO Chair, and Never Went Back" />
         <Body>
           Chris was CEO for the first time in 1999, running a startup in Silicon Valley while simultaneously enrolled at Harvard Business School. In that era, his calculus was simple: work every available hour. His wife was still on the East Coast. He had no family obligations pulling in a different direction. He could fly to the Bay Area Sunday night and call employees in on Sunday evening and feel nothing but momentum.
         </Body>
@@ -383,7 +383,7 @@ export default function ChrisYehBlog() {
           In 2007, he went back to the CEO chair. His kids were five and three. The math was different. He was getting up at 6 a.m. for daycare, in the office all day, home for dinner, back at his desk until 2 a.m., then four hours of sleep and repeat. "Was that strictly speaking necessary? I don't know," he says. "But I did not have the ability to maintain balance, and so I concluded I needed to get out of the CEO business."
         </Body>
         <Body>
-          He's never reconsidered. The world Chris now operates in — advising, investing, writing, teaching — is the one he actually wants. He gets to live vicariously through the founders he works with: their wins, their struggles, their moments of breakthrough. And he doesn't have to be the one lying awake wondering how to make payroll in three days.
+          He's never reconsidered. The world Chris now operates in (advising, investing, writing, teaching) is the one he actually wants. He gets to live vicariously through the founders he works with: their wins, their struggles, their moments of breakthrough. And he doesn't have to be the one lying awake wondering how to make payroll in three days.
         </Body>
         <Quote>
           "It's very easy to do what the world wants you to do. The world would have wanted me to start more companies, be a CEO, get the news stories. But you have to ask yourself: what are the things you actually enjoy? Not just the things that bring you status. What actually makes you happy?"
@@ -398,19 +398,19 @@ export default function ChrisYehBlog() {
           When asked for his most important piece of advice, Chris leads not with tactics or strategy but with a philosophy of relationships.
         </Body>
         <Body>
-          Almost nothing about success, he argues — paraphrasing Reid Hoffman — is an individual sport. Even tennis players have coaches and caddies. The question isn't whether you need a tribe. The question is how you build one.
+          Almost nothing about success, he argues (paraphrasing Reid Hoffman), is an individual sport. Even tennis players have coaches and caddies. The question isn't whether you need a tribe. The question is how you build one.
         </Body>
         <Quote>
           "Meet as many smart and interesting people as you can. And then wait. You just never know where these various relationships are going to go. I met them before they were famous. I met them when they were starting out."
         </Quote>
         <Body>
-          His example: Rob Castaneda, a Colombian-Australian entrepreneur Chris met at a conference roughly 20 years ago. They struck up a conversation. Stayed in touch. Rob referred a project to Chris's startup. Years later, Rob invested in Blitzscaling Ventures and became one of its largest limited partners. Rob's company, Service Rocket — built originally on a college friend's request to support their software, that friend being one of the Atlassian founders — now has over 400 employees and serves companies including Nvidia.
+          His example: Rob Castaneda, a Colombian-Australian entrepreneur Chris met at a conference roughly 20 years ago. They struck up a conversation. Stayed in touch. Rob referred a project to Chris's startup. Years later, Rob invested in Blitzscaling Ventures and became one of its largest limited partners. Rob's company, Service Rocket (built originally on a college friend's request to support their software, that friend being one of the Atlassian founders) now has over 400 employees and serves companies including Nvidia.
         </Body>
         <Body>
-          "At that time I was not a bestselling author, he wasn't a hugely successful CEO, but we stayed in touch. And I think that is really what it's about." Patience. Trust built over time. Smart people doing interesting things — and staying connected long enough to see what those things become.
+          "At that time I was not a bestselling author, he wasn't a hugely successful CEO, but we stayed in touch. And I think that is really what it's about." Patience. Trust built over time. Smart people doing interesting things, and staying connected long enough to see what those things become.
         </Body>
         <Body>
-          He closes with one more case study: General Magic, the greatest company that ever failed. An abject business failure, but its team — including Tony Fadell, who went on to create the iPod and Nest — went on to shape entire industries. The company failed. The tribe didn't.
+          He closes with one more case study: General Magic, the greatest company that ever failed. An abject business failure, but its team including Tony Fadell, who went on to create the iPod and Nest, went on to shape entire industries. The company failed. The tribe didn't.
         </Body>
 
         {/* FAQ section */}
@@ -463,7 +463,7 @@ export default function ChrisYehBlog() {
             className="mx-auto mt-3 max-w-md text-sm leading-relaxed"
             style={{ color: "rgba(255,255,255,0.55)" }}
           >
-            Chris Yeh&rsquo;s core advice is simple: meet smart, interesting people and stay in touch. Gildre is the curated community where high-caliber founders do exactly that — with advisory sessions, warm introductions, and peer matching built for people who are playing the long game.
+            Chris Yeh&rsquo;s core advice is simple: meet smart, interesting people and stay in touch. Gildre is the curated community where high-caliber founders do exactly that, with advisory sessions, warm introductions, and peer matching built for people who are playing the long game.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
@@ -602,18 +602,18 @@ function BioCallout() {
   const lessons = [
     {
       n: "1",
-      title: "AI amplifies the skilled — not just anyone",
+      title: "AI amplifies the skilled, not just anyone",
       body: "AI lets everyone create mediocre output that looks impressive to non-experts. True value comes from using AI to amplify real expertise and original insight. Depth of knowledge is more valuable in the AI era, not less.",
     },
     {
       n: "2",
       title: "Win winner-take-most markets by moving faster",
-      body: "The companies that defined Silicon Valley didn't win by being smarter — they won by being more decisive and more willing to move aggressively before the market agreed with them. That's the core of Blitzscaling.",
+      body: "The companies that defined Silicon Valley didn't win by being smarter; they won by being more decisive and more willing to move aggressively before the market agreed with them. That's the core of Blitzscaling.",
     },
     {
       n: "3",
       title: "Meet smart people early, stay in touch, and wait",
-      body: "The most valuable relationships in Chris's career started before anyone was famous. The returns on those relationships compounded over decades — in the form of deals, investments, referrals, and friendships that shaped everything that followed.",
+      body: "The most valuable relationships in Chris's career started before anyone was famous. The returns on those relationships compounded over decades, in the form of deals, investments, referrals, and friendships that shaped everything that followed.",
     },
   ];
 

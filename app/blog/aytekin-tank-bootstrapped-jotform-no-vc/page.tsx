@@ -131,7 +131,7 @@ export default function AytekintankBlog() {
         </div>
 
         <Body>
-          We have an exclusive Start to Scale Podcast interview to share as we delve into the inspiring journey of <strong style={{ color: "#fff" }}>Aytekin Tank</strong>, the founder and CEO of Jotform. His story is a testament to perseverance, innovation, and the importance of investing in one's vision. From his humble beginnings in Turkey to leading a successful tech company with 25 million users, Aytekin shares insights into what it takes to build a thriving business — entirely on his own terms.
+          We have an exclusive Start to Scale Podcast interview to share as we delve into the inspiring journey of <strong style={{ color: "#fff" }}>Aytekin Tank</strong>, the founder and CEO of Jotform. His story is a testament to perseverance, innovation, and the importance of investing in one's vision. From his humble beginnings in Turkey to leading a successful tech company with 25 million users, Aytekin shares insights into what it takes to build a thriving business, entirely on his own terms.
         </Body>
 
         <Section title="Growing Up in Turkey: The Seeds of Entrepreneurship" />
@@ -139,7 +139,7 @@ export default function AytekintankBlog() {
           Aytekin's story begins in Turkey during the 1980s and 1990s. Despite not having a computer at home, he discovered his passion for programming through a school computer class. The thrill of coding in a basic programming language ignited a lifelong fascination with technology and problem-solving.
         </Body>
         <Body>
-          Despite the lack of resources, Aytekin was determined. He recalls spending hours thinking about the code he would write during his limited time in front of a computer. This early exposure to programming laid the groundwork for his later studies in computer science in the United States — where his dreams began to take shape.
+          Despite the lack of resources, Aytekin was determined. He recalls spending hours thinking about the code he would write during his limited time in front of a computer. This early exposure to programming laid the groundwork for his later studies in computer science in the United States, where his dreams began to take shape.
         </Body>
 
         {/* Outdoor photo */}
@@ -160,7 +160,7 @@ export default function AytekintankBlog() {
 
         <Section title="The Birth of Jotform" />
         <Body>
-          After moving to the U.S. to study computer science, Aytekin landed his dream job at a media company in New York City. However, he soon realized that despite his excitement, he lacked the freedom to work on projects that truly inspired him. This realization pushed him to start his own company, leading to the inception of Jotform in 2005. He launched the platform in 2006, and it quickly gained traction — eventually amassing over 25 million users.
+          After moving to the U.S. to study computer science, Aytekin landed his dream job at a media company in New York City. However, he soon realized that despite his excitement, he lacked the freedom to work on projects that truly inspired him. This realization pushed him to start his own company, leading to the inception of Jotform in 2005. He launched the platform in 2006, and it quickly gained traction, eventually amassing over 25 million users.
         </Body>
         <Body>
           Aytekin's decision to leave a stable job to pursue his passion was pivotal. He emphasizes the importance of investing in one's product and maintaining a long-term vision, a philosophy that has guided him through the ups and downs of entrepreneurship.
@@ -184,7 +184,7 @@ export default function AytekintankBlog() {
 
         <Section title="Lessons from Olive Picking: Investing in Your Product" />
         <Body>
-          Interestingly, Aytekin draws parallels between his childhood experiences of picking olives in Turkey and his approach to business. He likens the process of cultivating olives — investing time and effort to reap rewards — to the software industry. Just as olives are harvested once a year, successful software requires consistent investment and nurturing to yield results.
+          Interestingly, Aytekin draws parallels between his childhood experiences of picking olives in Turkey and his approach to business. He likens the process of cultivating olives, investing time and effort to reap rewards, to the software industry. Just as olives are harvested once a year, successful software requires consistent investment and nurturing to yield results.
         </Body>
         <Body>
           He believes that many founders fall into the trap of short-term thinking, focusing solely on immediate profits rather than investing in their products for long-term growth. Aytekin's commitment to continuous improvement and investment in Jotform has been a key factor in its sustained success.
@@ -195,12 +195,12 @@ export default function AytekintankBlog() {
           From the outset, Jotform offered a free version, allowing users to explore its features without financial commitment. This strategy not only attracted a large user base but also helped establish a strong feedback loop. By engaging users early on, Jotform could refine its offerings based on real-world usage and needs.
         </Body>
         <Body>
-          This approach has proven highly successful. Forms tend to have a viral nature — sharing a form introduces new users to Jotform, creating a network effect that drives compounding growth.
+          This approach has proven highly successful. Forms tend to have a viral nature: sharing a form introduces new users to Jotform, creating a network effect that drives compounding growth.
         </Body>
 
         <Section title="The Bootstrap Philosophy: A Sustainable Approach" />
         <Body>
-          Aytekin's commitment to bootstrapping has been a cornerstone of Jotform's success. By maintaining financial discipline, he ensures the company remains independent and focused on long-term goals rather than chasing external funding. This approach fosters a culture of stability and growth — and gives Aytekin the freedom to build on his own timeline.
+          Aytekin's commitment to bootstrapping has been a cornerstone of Jotform's success. By maintaining financial discipline, he ensures the company remains independent and focused on long-term goals rather than chasing external funding. This approach fosters a culture of stability and growth, and gives Aytekin the freedom to build on his own timeline.
         </Body>
 
         {/* Working photo */}
@@ -216,13 +216,13 @@ export default function AytekintankBlog() {
             style={{ maxHeight: "420px", objectPosition: "center" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Aytekin at work — building Jotform with a long-term mindset</p>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Aytekin at work, building Jotform with a long-term mindset</p>
           </div>
         </div>
 
         <Section title="Balancing Product Development and Growth: The 50/50 Rule" />
         <Body>
-          With a user base of 25 million, Aytekin adheres to the "50/50 rule" — dedicating equal time to product development and user growth. This balance ensures that Jotform not only attracts new users but also retains them by continuously improving the product based on user feedback.
+          With a user base of 25 million, Aytekin adheres to the "50/50 rule," dedicating equal time to product development and user growth. This balance ensures that Jotform not only attracts new users but also retains them by continuously improving the product based on user feedback.
         </Body>
 
         <Section title="Navigating Competition With Google Forms" />
@@ -230,7 +230,7 @@ export default function AytekintankBlog() {
           When Google Forms entered the market, Aytekin faced significant challenges. Instead of succumbing to pressure, he focused on automation and delegation. By streamlining operations and automating repetitive tasks, he freed up time to concentrate on product development and improvement.
         </Body>
         <Body>
-          This shift in mindset proved beneficial — enabling Jotform to compete effectively against one of the world's largest technology companies. Aytekin emphasizes that understanding user needs and automating processes can significantly enhance a company's efficiency and product quality.
+          This shift in mindset proved beneficial, enabling Jotform to compete effectively against one of the world's largest technology companies. Aytekin emphasizes that understanding user needs and automating processes can significantly enhance a company's efficiency and product quality.
         </Body>
 
         <Section title="Transitioning from Developer to Leader of 600 People" />
@@ -238,7 +238,7 @@ export default function AytekintankBlog() {
           Transitioning from a solo developer to leading a 600-employee company posed real challenges for Aytekin. He learned to embrace a growth mindset, focusing on building effective teams rather than micromanaging tasks. By fostering small, cross-functional teams, he created a collaborative environment that drives innovation.
         </Body>
         <Body>
-          His approach to meetings is equally intentional. He holds regular cross-functional sessions to discuss product development, encourage collaboration, and foster a culture of continuous improvement — ensuring that leadership stays connected to what the product team is actually building.
+          His approach to meetings is equally intentional. He holds regular cross-functional sessions to discuss product development, encourage collaboration, and foster a culture of continuous improvement, ensuring that leadership stays connected to what the product team is actually building.
         </Body>
 
         {/* Office photo */}
@@ -253,7 +253,7 @@ export default function AytekintankBlog() {
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Aytekin at Jotform HQ — building a culture of independence and long-term thinking</p>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Aytekin at Jotform HQ, building a culture of independence and long-term thinking</p>
           </div>
         </div>
 
@@ -262,15 +262,15 @@ export default function AytekintankBlog() {
           Looking ahead, Aytekin is excited about the integration of AI into Jotform's offerings. He envisions a future where users can interact with forms through AI agents, making the process more intuitive and efficient. This innovation aligns with his belief that AI can significantly enhance productivity by automating mundane tasks.
         </Body>
         <Body>
-          Aytekin believes that the potential of AI is comparable to the revolutions brought about by personal computers, the internet, and smartphones — and Jotform is positioned to be part of that next wave.
+          Aytekin believes that the potential of AI is comparable to the revolutions brought about by personal computers, the internet, and smartphones, and Jotform is positioned to be part of that next wave.
         </Body>
 
         <Section title="Advice for Aspiring Entrepreneurs" />
         <Body>
-          Aytekin encourages aspiring founders to start small — perhaps even while maintaining a full-time job — and to focus on product-market fit before seeking external funding. He stresses that success doesn't require massive investments; rather, it requires dedication, resilience, and a willingness to learn.
+          Aytekin encourages aspiring founders to start small, perhaps even while maintaining a full-time job, and to focus on product-market fit before seeking external funding. He stresses that success doesn't require massive investments; rather, it requires dedication, resilience, and a willingness to learn.
         </Body>
         <Body>
-          Moreover, he advises founders to enjoy the journey. Reflecting on his own experiences, Aytekin cherishes the moments spent building Jotform from the ground up — emphasizing that the journey is just as important as the destination.
+          Moreover, he advises founders to enjoy the journey. Reflecting on his own experiences, Aytekin cherishes the moments spent building Jotform from the ground up, emphasizing that the journey is just as important as the destination.
         </Body>
 
         {/* Key takeaways block */}
@@ -286,9 +286,9 @@ export default function AytekintankBlog() {
           </p>
           <ul className="flex flex-col gap-4">
             {[
-              "Bootstrap if you can — independence gives you the freedom to build for the long term, not the next funding round.",
+              "Bootstrap if you can; independence gives you the freedom to build for the long term, not the next funding round.",
               "Use the 50/50 rule: split your focus equally between improving your product and growing your user base.",
-              "A free tier isn't a giveaway — it's a feedback engine and a viral growth mechanism.",
+              "A free tier isn't a giveaway; it's a feedback engine and a viral growth mechanism.",
               "When a giant competitor enters your market, double down on automation and product quality rather than panic.",
               "Enjoy the process. The best founders cherish the building phase, not just the exit.",
             ].map((item, i) => (
@@ -305,7 +305,7 @@ export default function AytekintankBlog() {
           Aytekin Tank's story is a powerful reminder of the impact of passion, perseverance, and a long-term vision in entrepreneurship. His journey from Turkey to CEO of a 25-million-user SaaS company demonstrates that with the right mindset and dedication, you don't need VC backing to build something extraordinary.
         </Body>
         <Body>
-          As Jotform continues to grow and innovate, Aytekin remains committed to his principles — shaping a future where technology empowers users and drives success without compromising independence. For those looking to learn from his experiences: embrace challenges, seek feedback, and continuously invest in your vision. The road may be long, but the rewards are worth the effort.
+          As Jotform continues to grow and innovate, Aytekin remains committed to his principles, shaping a future where technology empowers users and drives success without compromising independence. For those looking to learn from his experiences: embrace challenges, seek feedback, and continuously invest in your vision. The road may be long, but the rewards are worth the effort.
         </Body>
 
         {/* CTA block */}

@@ -39,7 +39,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Iliana Alvarado: From Banamex to ENSYX — IT and AI Governance for the Era When Every Company Is a Tech Company",
     description:
-      "Iliana Alvarado on the governance gap in IT, AI liability most founders don't know they have, and why your value multiplier — not your credentials — is what actually builds a business.",
+      "Iliana Alvarado on the governance gap in IT, AI liability most founders don't know they have, and why your value multiplier, not your credentials — is what actually builds a business.",
   },
 };
 
@@ -105,23 +105,23 @@ const personSchema = {
 const faqs = [
   {
     q: "Who is Iliana Alvarado?",
-    a: "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City that partners with Expert Tech IT in Dallas to deliver comprehensive technology services. An attorney with more than 20 years of experience, she previously worked at Banamex — one of Mexico's most important banks — for nearly a decade before launching ENSYX in 2023. She holds a law degree from Mexico, an LLM from Heidelberg University (split between Santiago and Germany), and an undergraduate degree in linguistics. She is a Gildre member currently expanding ENSYX into Chile.",
+    a: "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City that partners with Expert Tech IT in Dallas to deliver comprehensive technology services. An attorney with more than 20 years of experience, she previously worked at Banamex, one of Mexico's most important banks, for nearly a decade before launching ENSYX in 2023. She holds a law degree from Mexico, an LLM from Heidelberg University (split between Santiago and Germany), and an undergraduate degree in linguistics. She is a Gildre member currently expanding ENSYX into Chile.",
   },
   {
     q: "What does ENSYX do?",
-    a: "ENSYX provides IT and AI governance services to businesses of all sizes, with a particular focus on companies that need their technology strategy aligned with their broader business direction. Services include endpoint management, digital transformation, fractional CTO, IT strategy, IT governance, and AI governance. ENSYX's core thesis is that the IT industry has focused heavily on technical execution while leaving a critical gap: context. Governance — understanding who has access to what, whether AI tools are putting company data at risk, and whether decisions are documented — is what ENSYX fills.",
+    a: "ENSYX provides IT and AI governance services to businesses of all sizes, with a particular focus on companies that need their technology strategy aligned with their broader business direction. Services include endpoint management, digital transformation, fractional CTO, IT strategy, IT governance, and AI governance. ENSYX's core thesis is that the IT industry has focused heavily on technical execution while leaving a critical gap: context. Governance (understanding who has access to what, whether AI tools are putting company data at risk, and whether decisions are documented) is what ENSYX fills.",
   },
   {
     q: "What is the difference between IT services and IT governance?",
-    a: "Iliana Alvarado explains it this way: most IT service providers do excellent technical work, but in isolation from business context. They manage your network. They maintain your endpoints. But they may not be asking: is your AI usage documented? Who has access to what data? Are your technology decisions aligned with where your company wants to grow? IT governance is the discipline that puts technology decisions inside the context of corporate strategy, risk, and liability. For smaller companies without a board of directors, governance may feel optional — but they are still legally liable to their clients, and undocumented AI decisions are an exposure most founders don't know they're carrying.",
+    a: "Iliana Alvarado explains it this way: most IT service providers do excellent technical work, but in isolation from business context. They manage your network. They maintain your endpoints. But they may not be asking: is your AI usage documented? Who has access to what data? Are your technology decisions aligned with where your company wants to grow? IT governance is the discipline that puts technology decisions inside the context of corporate strategy, risk, and liability. For smaller companies without a board of directors, governance may feel optional, but they are still legally liable to their clients, and undocumented AI decisions are an exposure most founders don't know they're carrying.",
   },
   {
     q: "Why does Iliana Alvarado say every company is becoming a tech company?",
-    a: "Iliana argues that regardless of industry, every company now depends on technology to operate — and that dependency will only deepen with AI. The implication: technology is no longer a support function. It needs to be at the center of corporate decision-making. Hardware costs are rising because AI is consuming supply. AI tools are proliferating without governance. If you don't have someone guiding your technology strategy within the context of your business goals, you're making critical decisions blindly. ENSYX exists to provide that guidance — particularly for mid-market companies that can't afford a full-time CTO but can't afford to operate without one either.",
+    a: "Iliana argues that regardless of industry, every company now depends on technology to operate, and that dependency will only deepen with AI. The implication: technology is no longer a support function. It needs to be at the center of corporate decision-making. Hardware costs are rising because AI is consuming supply. AI tools are proliferating without governance. If you don't have someone guiding your technology strategy within the context of your business goals, you're making critical decisions blindly. ENSYX exists to provide that guidance, particularly for mid-market companies that can't afford a full-time CTO but can't afford to operate without one either.",
   },
   {
     q: "What advice does Iliana Alvarado give to first-time founders?",
-    a: "Iliana's core advice: start from the understanding that everybody has the same capabilities as you. Nobody is more or less than you. From that baseline of equality, the question becomes not 'what can I sell' but 'what multiplier am I bringing to the table for the people I serve?' If your product or service is devoid of a clear value multiplier — a reason it makes someone else's goals more achievable — it may not work in today's market. The founders who succeed are the ones who anchor their business in what it enables for others, not just what it is.",
+    a: "Iliana's core advice: start from the understanding that everybody has the same capabilities as you. Nobody is more or less than you. From that baseline of equality, the question becomes not 'what can I sell' but 'what multiplier am I bringing to the table for the people I serve?' If your product or service is devoid of a clear value multiplier, a reason it makes someone else's goals more achievable; it may not work in today's market. The founders who succeed are the ones who anchor their business in what it enables for others, not just what it is.",
   },
 ];
 
@@ -217,7 +217,7 @@ export default function IlianaAlvaradoBlog() {
       <article className="mx-auto max-w-3xl px-6 py-16">
 
         <Body>
-          Most founders pick a lane and stay in it. Iliana Alvarado spent fifteen years doing the opposite — moving between legal careers, service jobs, countries, and languages — and discovered that the ability to read context across radically different environments was the skill the technology industry was missing entirely. Her company,{" "}
+          Most founders pick a lane and stay in it. Iliana Alvarado spent fifteen years doing the opposite, moving between legal careers, service jobs, countries, and languages, and discovered that the ability to read context across radically different environments was the skill the technology industry was missing entirely. Her company,{" "}
           <strong style={{ color: "#fff" }}>ENSYX</strong>, exists at exactly that intersection: technically capable IT services wrapped in the governance and legal context that turns isolated tech decisions into a coherent corporate strategy. Iliana joined the{" "}
           <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> from Mexico City to unpack the thesis, the career arc, and the cultural lens she brings to a market that is just beginning to understand what it needs.
         </Body>
@@ -249,13 +249,13 @@ export default function IlianaAlvaradoBlog() {
           Iliana left Mexico at 18 or 19 and didn&apos;t come back until her early thirties. In between: New York, Boston, Rhode Island, stints in Europe, odd jobs that would raise eyebrows on a traditional CV, a law degree already in hand, and a gradually forming idea of what she actually wanted her life to look like.
         </Body>
         <Body>
-          She was not unusual in one sense — leaving Latin America in your twenties to experience the world happens, particularly from a position of relative privilege, which she is the first to acknowledge. What was unusual was that she had no plan. "I was just flying and building the plane while flying," she says. "I didn&apos;t really have a plan. I just knew that I wanted this, and I knew that I needed a plan. So I made one on the go."
+          She was not unusual in one sense, leaving Latin America in your twenties to experience the world happens, particularly from a position of relative privilege, which she is the first to acknowledge. What was unusual was that she had no plan. "I was just flying and building the plane while flying," she says. "I didn&apos;t really have a plan. I just knew that I wanted this, and I knew that I needed a plan. So I made one on the go."
         </Body>
         <Body>
           The jobs she took during those years were not glamorous: ice cream service, waitressing, working in a chocolate shop, cooking. But each of them, she realized in retrospect, was doing something specific: teaching her how to connect with people across languages, cultures, and class backgrounds. "The service part was the most important part. It helped me connect with people. You get to know a lot of very interesting people."
         </Body>
         <Body>
-          The master&apos;s degree came next. While in Boston, she ruled out pursuing a US law degree and started looking for alternatives. The Heidelberg University LLM — an international master&apos;s in law split between Santiago, Chile and Germany — won her over on a single selling point: she would get a German education while living in South America first. She enrolled. She also, along the way, studied linguistics, a degree she describes as one of the most practically useful things she ever did.
+          The master&apos;s degree came next. While in Boston, she ruled out pursuing a US law degree and started looking for alternatives. The Heidelberg University LLM, an international master&apos;s in law split between Santiago, Chile and Germany, won her over on a single selling point: she would get a German education while living in South America first. She enrolled. She also, along the way, studied linguistics, a degree she describes as one of the most practically useful things she ever did.
         </Body>
         <Quote>
           "It&apos;s one thing when people tell you they&apos;re multicultural or bilingual from an academic standpoint. It&apos;s very different when you&apos;re actually there and you actually have to face different traditions, different practices, different ways of engaging with life itself. That opened up the world to me."
@@ -263,16 +263,16 @@ export default function IlianaAlvaradoBlog() {
 
         <Section title="Santiago, Banamex, and What Corporate Taught Her About Governance" />
         <Body>
-          After completing her LLM, Iliana worked at one of the most prestigious law firms in Santiago, Chile. The experience of doing serious legal work in a foreign country — one with a distinct culture, a complicated recent history, and a different structural relationship with regulation than Mexico — sharpened a skill she had already been developing: adapting not just linguistically but institutionally.
+          After completing her LLM, Iliana worked at one of the most prestigious law firms in Santiago, Chile. The experience of doing serious legal work in a foreign country, one with a distinct culture, a complicated recent history, and a different structural relationship with regulation than Mexico — sharpened a skill she had already been developing: adapting not just linguistically but institutionally.
         </Body>
         <Body>
-          "Chile has structures I haven&apos;t seen in any other country," she says. "For better or for worse — because of their past, they have a little bit of rigidity still. And that helped me shape how I do things now. Because even though you need leeway and space, you also need structure." That awareness of structure — when it serves you and when it constrains you — became central to how she eventually thought about IT governance.
+          "Chile has structures I haven&apos;t seen in any other country," she says. "For better or for worse because of their past, they have a little bit of rigidity still. And that helped me shape how I do things now. Because even though you need leeway and space, you also need structure." That awareness of structure, when it serves you and when it constrains you, became central to how she eventually thought about IT governance.
         </Body>
         <Body>
-          She returned to Mexico and spent nearly a decade at Banamex, one of the country&apos;s most important financial institutions. Corporate life suited her in ways she hadn&apos;t expected. She learned how a well-run large organization actually operates from the inside — the rhythms, the decision chains, the governance architecture. She also learned something more personal: her most productive self wasn&apos;t the version that worked the longest hours. It was the version that slept more than seven hours, ate at consistent times, and protected her cognitive capacity deliberately.
+          She returned to Mexico and spent nearly a decade at Banamex, one of the country&apos;s most important financial institutions. Corporate life suited her in ways she hadn&apos;t expected. She learned how a well-run large organization actually operates from the inside: the rhythms, the decision chains, the governance architecture. She also learned something more personal: her most productive self wasn&apos;t the version that worked the longest hours. It was the version that slept more than seven hours, ate at consistent times, and protected her cognitive capacity deliberately.
         </Body>
         <Body>
-          "My most productive self was when I slept well, when I was healthy, not stressed. I know it sounds obvious, but when you&apos;re in it, you&apos;re like, well, I&apos;m eating well, I&apos;m healthy. Are you actually?" The bank taught her what good operational habits look like at scale — and what goes wrong when they erode.
+          "My most productive self was when I slept well, when I was healthy, not stressed. I know it sounds obvious, but when you&apos;re in it, you&apos;re like, well, I&apos;m eating well, I&apos;m healthy. Are you actually?" The bank taught her what good operational habits look like at scale, and what goes wrong when they erode.
         </Body>
         <Body>
           By 2023, she had asked herself a question she could no longer defer: do I see myself doing this same thing for however many more years? The answer was uncomfortable. "No. I want to do so many things. And if I keep doing an eight-to-seven, I was never going to be able to do all of the things I wanted to do."
@@ -304,19 +304,19 @@ export default function IlianaAlvaradoBlog() {
 
         <Section title="The Gap Nobody Was Filling: IT Without Governance" />
         <Body>
-          ENSYX grew from a specific observation Iliana made after leaving Banamex. The US IT services market — and the managed service provider (MSP) space in particular — was saturated with technically capable providers. Plenty of very smart people were delivering solid infrastructure, endpoint management, and networking support. But almost universally, they were doing it detached from context.
+          ENSYX grew from a specific observation Iliana made after leaving Banamex. The US IT services market, and the managed service provider (MSP) space in particular was saturated with technically capable providers. Plenty of very smart people were delivering solid infrastructure, endpoint management, and networking support. But almost universally, they were doing it detached from context.
         </Body>
         <Body>
-          "They were doing a very good job at the IT itself, but detached from context. If I tell you I&apos;m going to manage your network — okay, good to know, but it lacks context. And context is important." Twenty years as an attorney, combined with her work in governance and risk at Banamex, gave Iliana a precise name for what was missing: IT governance.
+          "They were doing a very good job at the IT itself, but detached from context. If I tell you I&apos;m going to manage your network. Okay, good to know, but it lacks context. And context is important." Twenty years as an attorney, combined with her work in governance and risk at Banamex, gave Iliana a precise name for what was missing: IT governance.
         </Body>
         <Body>
-          ENSYX partnered with Expert Tech IT, based in Dallas, to build a combined capability: technically excellent managed IT services delivered within a governance and compliance framework. The partnership lets ENSYX serve clients with everything from endpoint management and digital transformation to fractional CTO services and strategic IT planning — with governance layered across all of it.
+          ENSYX partnered with Expert Tech IT, based in Dallas, to build a combined capability: technically excellent managed IT services delivered within a governance and compliance framework. The partnership lets ENSYX serve clients with everything from endpoint management and digital transformation to fractional CTO services and strategic IT planning, with governance layered across all of it.
         </Body>
         <Quote>
-          "Every company is going to be a tech company. You need tech to run your company. So you need to think about who is going to take care of your IT — not only your IT isolated, but your IT within the context of your company and how you want to grow and where you want to go."
+          "Every company is going to be a tech company. You need tech to run your company. So you need to think about who is going to take care of your IT, not only your IT isolated, but your IT within the context of your company and how you want to grow and where you want to go."
         </Quote>
         <Body>
-          The AI governance piece arrived as a natural extension. AI adoption is accelerating across every industry, and most companies — even those with internal IT teams — are making AI decisions without documentation, without an access framework, and without a clear understanding of what data they&apos;re exposing. That is not just a technical problem. It is a legal and liability problem.
+          The AI governance piece arrived as a natural extension. AI adoption is accelerating across every industry, and most companies, even those with internal IT teams, are making AI decisions without documentation, without an access framework, and without a clear understanding of what data they&apos;re exposing. That is not just a technical problem. It is a legal and liability problem.
         </Body>
         <Body>
           "Do you actually know what access you&apos;re granting? Do you actually know if your data is secure? Are you paying for it? If you&apos;re not, are you okay with the risk that implies?" Iliana is careful not to be prescriptive here. Risk-seeking is a legitimate posture. But it needs to be a documented decision, not an accidental omission. "As long as they are aware, there is no problem. Even if medium or small companies don&apos;t have a board of directors, they are still liable to their clients."
@@ -324,27 +324,27 @@ export default function IlianaAlvaradoBlog() {
 
         <Section title="Closing Deals Across Latam: Why Every Country Is Different" />
         <Body>
-          ENSYX now operates across Mexico and is actively expanding into Chile — where two incoming pieces of IT legislation have created real demand for exactly what the firm provides. But getting there has required learning something that Iliana frames as the hardest lesson of her entrepreneurial journey: you have to adapt not to a country&apos;s work culture, but to how that country closes deals.
+          ENSYX now operates across Mexico and is actively expanding into Chile, where two incoming pieces of IT legislation have created real demand for exactly what the firm provides. But getting there has required learning something that Iliana frames as the hardest lesson of her entrepreneurial journey: you have to adapt not to a country&apos;s work culture, but to how that country closes deals.
         </Body>
         <Body>
-          "As a company, you don&apos;t have to adapt to their work culture, but you have to adapt to the way they close deals. That is one of the biggest lessons I&apos;ve learned." The mechanics vary sharply across Latam. In Mexico, the game is relational and insular: it is entirely about who you know and what can be exchanged within that network. Cold outreach to an unknown party goes nowhere. In Chile, trust matters just as much, but the path to it is different — an introduction from a known contact opens a door that would otherwise be permanently closed.
+          "As a company, you don&apos;t have to adapt to their work culture, but you have to adapt to the way they close deals. That is one of the biggest lessons I&apos;ve learned." The mechanics vary sharply across Latam. In Mexico, the game is relational and insular: it is entirely about who you know and what can be exchanged within that network. Cold outreach to an unknown party goes nowhere. In Chile, trust matters just as much, but the path to it is different, an introduction from a known contact opens a door that would otherwise be permanently closed.
         </Body>
         <Body>
-          Germany, where she spent part of her LLM, operates differently still. What reads as coldness or detachment to most Latin American expats felt to Iliana like something she respected: structure, directness, and a clear separation between the professional and the personal. "What would translate as detachment for someone else — for me it was respect. It was organization. I loved all that."
+          Germany, where she spent part of her LLM, operates differently still. What reads as coldness or detachment to most Latin American expats felt to Iliana like something she respected: structure, directness, and a clear separation between the professional and the personal. "What would translate as detachment for someone else, for me it was respect. It was organization. I loved all that."
         </Body>
         <Body>
-          The cross-cultural fluency she built across a decade of odd jobs, legal work, and corporate life is now a competitive advantage. Most IT governance consultants understand the technical side or the legal side. Very few can read a room in Santiago the same way they read one in Mexico City — and close a deal in both.
+          The cross-cultural fluency she built across a decade of odd jobs, legal work, and corporate life is now a competitive advantage. Most IT governance consultants understand the technical side or the legal side. Very few can read a room in Santiago the same way they read one in Mexico City, and close a deal in both.
         </Body>
 
-        <Section title="Work-Life Balance Is a Myth — and So Is the 120-Hour Week" />
+        <Section title="Work-Life Balance Is a Myth, and So Is the 120-Hour Week" />
         <Body>
           Iliana is clear-eyed on a question that trips up a lot of founders: how do you structure your life when you&apos;re building something? Her answer cuts in two directions at once.
         </Body>
         <Body>
-          First: if you are genuinely passionate about what you&apos;re building, work-life balance is a category error. "Work-life balance doesn&apos;t really exist. It&apos;s a myth. If you want to be good at something, you don&apos;t budget the hours you spend doing that. Just do it because you want to be good at it, because it&apos;s your passion, because there&apos;s something at the end of that process that you want." She sleeps less some nights — not because anyone told her to, but because she chooses to. That distinction — obligation versus drive — is everything.
+          First: if you are genuinely passionate about what you&apos;re building, work-life balance is a category error. "Work-life balance doesn&apos;t really exist. It&apos;s a myth. If you want to be good at something, you don&apos;t budget the hours you spend doing that. Just do it because you want to be good at it, because it&apos;s your passion, because there&apos;s something at the end of that process that you want." She sleeps less some nights, not because anyone told her to, but because she chooses to. That distinction (obligation versus drive) is everything.
         </Body>
         <Body>
-          Second: the 80-hour week as a badge of honor is a different story entirely. "That&apos;s also untenable and not healthy." The version of Iliana that did her best work at Banamex was not the one grinding the longest — it was the one sleeping consistently, eating at regular times, and managing her cognitive load deliberately. Both things are simultaneously true: don&apos;t count the hours, and don&apos;t wreck the machine that produces them.
+          Second: the 80-hour week as a badge of honor is a different story entirely. "That&apos;s also untenable and not healthy." The version of Iliana that did her best work at Banamex was not the one grinding the longest; it was the one sleeping consistently, eating at regular times, and managing her cognitive load deliberately. Both things are simultaneously true: don&apos;t count the hours, and don&apos;t wreck the machine that produces them.
         </Body>
 
         {/* FAQ */}
@@ -489,12 +489,12 @@ function BioCallout() {
     {
       n: "1",
       title: "IT without governance is just execution",
-      body: "Most IT providers do excellent technical work in isolation. The governance layer — who has access to what, how AI is being used, whether decisions are documented — is what turns isolated tech work into a coherent, defensible corporate strategy. That gap is what ENSYX fills.",
+      body: "Most IT providers do excellent technical work in isolation. The governance layer, who has access to what, how AI is being used, whether decisions are documented, is what turns isolated tech work into a coherent, defensible corporate strategy. That gap is what ENSYX fills.",
     },
     {
       n: "2",
       title: "Every company is becoming a tech company",
-      body: "It doesn't matter what industry you're in. Technology is no longer a support function — it's infrastructure for everything. Founders who don't have someone guiding their tech strategy inside the context of their business goals are making critical decisions blindly, often creating liability they don't know exists.",
+      body: "It doesn't matter what industry you're in. Technology is no longer a support function; it's infrastructure for everything. Founders who don't have someone guiding their tech strategy inside the context of their business goals are making critical decisions blindly, often creating liability they don't know exists.",
     },
     {
       n: "3",
@@ -517,7 +517,7 @@ function BioCallout() {
         </h2>
         <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
           Iliana Alvarado is the founder of{" "}
-          <strong style={{ color: "#fff" }}>ENSYX</strong>, an IT and AI governance firm based in Mexico City that partners with Expert Tech IT in Dallas to deliver comprehensive, context-driven technology services. An attorney with 20+ years of experience across Mexico, Chile, and Germany, she spent nearly a decade at Banamex before leaving corporate in 2023 to build ENSYX. She holds an LLM from Heidelberg University, an undergrad in linguistics, and a Mexican law degree — and is currently expanding ENSYX into Chile.
+          <strong style={{ color: "#fff" }}>ENSYX</strong>, an IT and AI governance firm based in Mexico City that partners with Expert Tech IT in Dallas to deliver comprehensive, context-driven technology services. An attorney with 20+ years of experience across Mexico, Chile, and Germany, she spent nearly a decade at Banamex before leaving corporate in 2023 to build ENSYX. She holds an LLM from Heidelberg University, an undergrad in linguistics, and a Mexican law degree, and is currently expanding ENSYX into Chile.
         </p>
       </div>
       <div className="grid sm:grid-cols-2">

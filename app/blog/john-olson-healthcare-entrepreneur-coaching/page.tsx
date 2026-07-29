@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title:
       "John Olson: From Managing a Billion-Dollar Healthcare Budget to E-Commerce, Real Estate, and Executive Coaching",
     description:
-      "Healthcare executive. Wharton alum. E-commerce founder. Executive coach. John Olson's journey across four careers — and the peer groups, delegation framework, and mindset shifts that made it possible.",
+      "Healthcare executive. Wharton alum. E-commerce founder. Executive coach. John Olson's journey across four careers, and the peer groups, delegation framework, and mindset shifts that made it possible.",
     type: "article",
     images: ["/images/john-olson-headshot.webp"],
   },
@@ -209,7 +209,7 @@ export default function JohnOlsonBlog() {
 
           {/* Opening pull quote */}
           <Quote>
-            &ldquo;The moment I realized I was responsible for a billion-dollar budget with almost no formal leadership training was the moment I understood I had to invest in myself — aggressively and immediately.&rdquo;
+            &ldquo;The moment I realized I was responsible for a billion-dollar budget with almost no formal leadership training was the moment I understood I had to invest in myself, aggressively and immediately.&rdquo;
           </Quote>
 
           {/* Headshot */}
@@ -256,15 +256,15 @@ export default function JohnOlsonBlog() {
             </h2>
             <Body>
               Healthcare leadership is one of the most underrated proving grounds for business
-              founders. You are managing units that operate like autonomous ships — each one led by
+              founders. You are managing units that operate like autonomous ships, each one led by
               clinical experts who have devoted careers to becoming the best in their specialty. Your
               job is not to be the smartest person in the room. Your job is to be the person who
               makes the room work.
             </Body>
             <Body>
               John Olson learned this early. Walking into healthcare administration as a young leader,
-              he found himself responsible for teams of specialists — nurses, physicians, department
-              heads — who had decades of domain expertise he would never match. The instinct to
+              he found himself responsible for teams of specialists: nurses, physicians, department
+              heads, who had decades of domain expertise he would never match. The instinct to
               project authority was a trap. The skill that actually worked was humility: knowing
               what you don&apos;t know, asking the right questions, and building trust with people
               who have no reason to give it to you automatically.
@@ -282,12 +282,12 @@ export default function JohnOlsonBlog() {
             <Body>
               A nurse on John&apos;s team was managing a budget that exceeded one billion dollars.
               She was extraordinarily competent at her clinical work. The financial and operational
-              complexity surrounding that responsibility was another matter entirely — and as her
+              complexity surrounding that responsibility was another matter entirely, and as her
               leader, the accountability ultimately landed with him.
             </Body>
             <Body>
-              That realization — the full weight of what he was responsible for versus the formal
-              leadership preparation he had received — was the inflection point. Not a crisis, but
+              That realization: the full weight of what he was responsible for versus the formal
+              leadership preparation he had received, was the inflection point. Not a crisis, but
               a clarity. He needed to invest in himself with the same seriousness that the
               organization invested in its most critical operations.
             </Body>
@@ -297,7 +297,7 @@ export default function JohnOlsonBlog() {
             <Body>
               What followed was a deliberate, structured investment in leadership education. Wharton&apos;s
               Healthcare Leadership Initiative. Formal programs at UC Davis and Stanford. Not for
-              the credentials — for the frameworks, the networks, and the discipline of learning
+              the credentials, for the frameworks, the networks, and the discipline of learning
               alongside other high-performing professionals who were asking the same hard questions.
             </Body>
           </Section>
@@ -338,7 +338,7 @@ export default function JohnOlsonBlog() {
               Not networking events. Not LinkedIn. High-quality, curated groups of people who are
               operating at a similar level, facing similar challenges, and committed to being honest
               with each other. Groups like Gildre, where the conversations go beyond surface-level
-              business updates into the real problems — the hiring mistake you can&apos;t talk about
+              business updates into the real problems: the hiring mistake you can&apos;t talk about
               publicly, the strategic decision that keeps you up at night, the blind spot your team
               is too close to see.
             </Body>
@@ -359,8 +359,7 @@ export default function JohnOlsonBlog() {
               The Entrepreneurial Leap: E-Commerce, Real Estate, and Building With His Wife
             </h2>
             <Body>
-              The transition from healthcare administration to entrepreneurship was not impulsive —
-              it was the product of years of watching what autonomy looked like in the people he
+              The transition from healthcare administration to entrepreneurship was not impulsive; it was the product of years of watching what autonomy looked like in the people he
               admired, and gradually building the conviction that he could create it himself.
             </Body>
             <Body>
@@ -370,7 +369,7 @@ export default function JohnOlsonBlog() {
               doing to leading at a completely different scale.
             </Body>
             <Body>
-              Real estate followed as a natural extension — a different business model with
+              Real estate followed as a natural extension, a different business model with
               different leverage mechanics, different cash flow characteristics, and different
               demands on his attention. Building a portfolio of businesses, John learned something
               that healthcare had only begun to teach him: that the skill separating good operators
@@ -387,7 +386,7 @@ export default function JohnOlsonBlog() {
             <Body>
               The most common trap for high-achieving founders and executives is the belief that
               their value is in their doing. They are often excellent at a specific set of skills
-              — operations, sales, product, finance — and they have built identity and confidence
+              — operations, sales, product, finance, and they have built identity and confidence
               around those skills. Letting go feels like risk. It feels like losing control.
             </Body>
             <Body>
@@ -410,12 +409,12 @@ export default function JohnOlsonBlog() {
               {
                 num: "03",
                 title: "Define the outcome, not the method",
-                body: "Micromanagement is usually disguised as quality control. When you trust the 'who,' you define what done looks like — then get out of the way.",
+                body: "Micromanagement is usually disguised as quality control. When you trust the 'who,' you define what done looks like. Then get out of the way.",
               },
               {
                 num: "04",
                 title: "Acknowledge your team publicly",
-                body: "John is emphatic about this: the people who built his businesses with him — including his wife — deserve explicit recognition. Credit is not a finite resource. Share it.",
+                body: "John is emphatic about this: the people who built his businesses with him including his wife, deserve explicit recognition. Credit is not a finite resource. Share it.",
               },
             ].map((item) => (
               <div
@@ -468,7 +467,7 @@ export default function JohnOlsonBlog() {
               practice, John found a new source of meaning: helping others do what he had done.
             </Body>
             <Body>
-              Executive coaching was not a pivot — it was an extension. The skills he had developed
+              Executive coaching was not a pivot; it was an extension. The skills he had developed
               across healthcare, entrepreneurship, and team-building were exactly the skills that
               other founders and leaders were struggling to acquire. And the satisfaction of watching
               a client make a decision with clarity they didn&apos;t have six months ago turned out to be
@@ -476,8 +475,7 @@ export default function JohnOlsonBlog() {
               becomes more capable than they were before you worked with them.
             </Body>
             <Body>
-              The through-line across all four chapters of John&apos;s career — healthcare, e-commerce,
-              real estate, coaching — is the same: find the people around you, invest in them
+              The through-line across all four chapters of John&apos;s career (healthcare, e-commerce, real estate, coaching) is the same: find the people around you, invest in them
               relentlessly, and build systems that compound their capability over time. The vehicle
               changes. The operating philosophy doesn&apos;t.
             </Body>
@@ -497,12 +495,12 @@ export default function JohnOlsonBlog() {
               What John Would Tell His Younger Self
             </p>
             {[
-              "Invest in peer groups before you feel ready — the conversations will accelerate your readiness.",
+              "Invest in peer groups before you feel ready: the conversations will accelerate your readiness.",
               "Your humility is an asset. Not knowing is the correct starting point for learning.",
               "The 'who' is almost always more important than the 'how.' Hire for ownership.",
               "Formal education is a tool, not a credential. Use it to build frameworks, not a résumé.",
-              "Building with a partner you trust — including a life partner — is a strategic advantage, not a conflict of interest.",
-              "The same hunger that drove you to master your craft will drive you to become a great leader — if you channel it deliberately.",
+              "Building with a partner you trust including a life partner, is a strategic advantage, not a conflict of interest.",
+              "The same hunger that drove you to master your craft will drive you to become a great leader, if you channel it deliberately.",
             ].map((item, i) => (
               <div
                 key={i}

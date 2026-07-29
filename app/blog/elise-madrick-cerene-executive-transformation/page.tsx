@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
   description:
-    "Elise Madrick left a career in executive education at Kellogg to found Cerenè — an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new. Here's what she learned.",
+    "Elise Madrick left a career in executive education at Kellogg to found Cerenè, an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new. Here's what she learned.",
   keywords: [
     "Elise Madrick",
     "Cerenè",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title:
       "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
     description:
-      "Elise Madrick left Kellogg executive education to found Cerenè — 108-day immersive transformation journeys to Morocco and France. What separates change from true reinvention.",
+      "Elise Madrick left Kellogg executive education to found Cerenè, offering 108-day immersive transformation journeys to Morocco and France. What separates change from true reinvention.",
     type: "article",
     images: ["/images/elise-madrick-headshot.webp"],
   },
@@ -39,7 +39,7 @@ const schema = {
   headline:
     "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
   description:
-    "Elise Madrick left a career in executive education at Kellogg to found Cerenè — an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new.",
+    "Elise Madrick left a career in executive education at Kellogg to found Cerenè, an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new.",
   image: "https://www.gildre.com/images/elise-madrick-headshot.webp",
   author: {
     "@type": "Person",
@@ -275,7 +275,7 @@ export default function EliseMadrickBlog() {
               has fundamentally shifted.
             </Body>
             <Body>
-              Elise Madrick has spent her career studying why that gap exists — and building a program
+              Elise Madrick has spent her career studying why that gap exists, and building a program
               designed to close it. Her company, Cerenè, runs immersive eight-day experiences in
               Morocco and France, followed by 108 days of structured skill-building and community
               support. The premise is simple but counterintuitive: you cannot become someone new
@@ -301,26 +301,25 @@ export default function EliseMadrickBlog() {
               From Indiana to Kellogg to a Six-Week Journey Overseas
             </h2>
             <Body>
-              Elise grew up in Zionsville, Indiana — not an obvious starting point for a global
+              Elise grew up in Zionsville, Indiana, not an obvious starting point for a global
               executive transformation business. She studied social work, spent years in child welfare
               advocacy, and eventually found her way into executive education at the Kellogg School
               of Management, where she helped train thousands of leaders across industries and
               continents.
             </Body>
             <Body>
-              She was good at the work. But she was also, by her own account, personally stuck —
-              in an unfulfilling marriage, in routines that no longer served her, in a version of
+              She was good at the work. But she was also, by her own account, personally stuck: in an unfulfilling marriage, in routines that no longer served her, in a version of
               herself she had outgrown. The turning point came when she gave herself permission to
               do something radical: step completely outside her life and spend six weeks traveling
               internationally without an agenda.
             </Body>
             <Quote>
               &ldquo;I needed to become a totally different human. Not just a better version of the
-              same one — a different one. And I couldn&apos;t do that inside my existing context.&rdquo;
+              same one, a different one. And I couldn&apos;t do that inside my existing context.&rdquo;
             </Quote>
             <Body>
               That journey became the founding insight behind Cerenè. What Elise discovered wasn&apos;t
-              just that travel was restorative — it was that removing yourself from your environment
+              just that travel was restorative; it was that removing yourself from your environment
               makes it structurally easier to break patterns, because the cues and triggers that
               maintain those patterns are no longer present.
             </Body>
@@ -376,22 +375,22 @@ export default function EliseMadrickBlog() {
             {[
               {
                 num: "01",
-                title: "Systems — the rules you live by",
+                title: "Systems: the rules you live by",
                 body: "Every environment comes with implicit and explicit rules. When you leave that environment, those rules lose their grip. New contexts invite new operating frameworks.",
               },
               {
                 num: "02",
                 title: "Spaces — your physical environment",
-                body: "The rooms you occupy, the cities you navigate, the landscapes you move through — all of these influence your nervous system, your energy, and the mental models you default to.",
+                body: "The rooms you occupy, the cities you navigate, the landscapes you move through, all of these influence your nervous system, your energy, and the mental models you default to.",
               },
               {
                 num: "03",
-                title: "Social — the people around you",
+                title: "Social: the people around you",
                 body: "Your peer group is one of the strongest predictors of your behavior and ambition. New social environments expose you to people who carry different assumptions about what is possible.",
               },
               {
                 num: "04",
-                title: "Mindset — the lens you see through",
+                title: "Mindset: the lens you see through",
                 body: "Mindset is often treated as something you change by thinking differently. In reality, mindset shifts most reliably when the other three contexts shift first. Change the environment; the mindset follows.",
               },
             ].map((item) => (
@@ -432,7 +431,7 @@ export default function EliseMadrickBlog() {
             ))}
 
             <Body>
-              Cerenè is designed to disrupt all four simultaneously — which is why eight days in
+              Cerenè is designed to disrupt all four simultaneously, which is why eight days in
               Morocco or France produce more durable change than a year of incremental self-improvement
               at home.
             </Body>
@@ -451,7 +450,7 @@ export default function EliseMadrickBlog() {
               The Cerenè Experience: 108 Days, Three Phases
             </h2>
             <Body>
-              The number 108 is not arbitrary — it comes from the 108 beads of a mala, an ancient
+              The number 108 is not arbitrary; it comes from the 108 beads of a mala, an ancient
               counting tool used in meditation traditions to track progress over extended practice.
               Cerenè&apos;s programs use 108 days as the unit of transformation: long enough for new
               behaviors to become habitual, short enough to feel urgent.
@@ -474,7 +473,7 @@ export default function EliseMadrickBlog() {
               {
                 phase: "Mastery",
                 subtitle: "Teaching others (Days 73–108)",
-                body: "The deepest form of learning is teaching. By the end of the 108 days, participants share what they&apos;ve built with their community — cementing the skill and closing the loop on their journey.",
+                body: "The deepest form of learning is teaching. By the end of the 108 days, participants share what they&apos;ve built with their community, cementing the skill and closing the loop on their journey.",
               },
             ].map((item) => (
               <div
@@ -501,8 +500,8 @@ export default function EliseMadrickBlog() {
             ))}
 
             <Body>
-              One participant — a sales executive who had spent decades in a career that paid well
-              but didn&apos;t fit — used his 108 days to reignite a childhood passion for acting he had
+              One participant, a sales executive who had spent decades in a career that paid well
+              but didn&apos;t fit; he used his 108 days to reignite a childhood passion for acting he had
               buried at 22. By the end, he had performed in a short film. That is what Cerenè is
               built for: not incremental optimization, but genuine reinvention.
             </Body>
@@ -522,7 +521,7 @@ export default function EliseMadrickBlog() {
             </h2>
             <Body>
               Cerenè is not a retreat for people who need a vacation. It is a program for professionals
-              who are in genuine transition — starting a business, navigating a career shift, emerging
+              who are in genuine transition: starting a business, navigating a career shift, emerging
               from a significant personal disruption, or stepping into a new life chapter like retirement.
             </Body>
             <Body>
@@ -534,7 +533,7 @@ export default function EliseMadrickBlog() {
             <Quote>
               &ldquo;The people around you during a transformation either accelerate it or slow it down.
               We&apos;re very intentional about building a community where everyone is rowing in the
-              same direction — toward becoming someone they haven&apos;t been yet.&rdquo;
+              same direction: toward becoming someone they haven&apos;t been yet.&rdquo;
             </Quote>
           </Section>
 
@@ -564,7 +563,7 @@ export default function EliseMadrickBlog() {
               {
                 num: "02",
                 title: "Map your triggers",
-                body: "Notice what consistently produces joy, energy, or discomfort in your daily life. Don&apos;t just observe — write it down. Self-inquiry only compounds when it&apos;s recorded.",
+                body: "Notice what consistently produces joy, energy, or discomfort in your daily life. Don&apos;t just observe; write it down. Self-inquiry only compounds when it&apos;s recorded.",
               },
               {
                 num: "03",
@@ -579,7 +578,7 @@ export default function EliseMadrickBlog() {
               {
                 num: "05",
                 title: "Commit to a 108-day skill",
-                body: "Pick one skill — something that matters to the future version of you, not the current one — and commit 108 days to it. Tell someone. Then start.",
+                body: "Pick one skill, something that matters to the future version of you, not the current one, and commit 108 days to it. Tell someone. Then start.",
               },
             ].map((item) => (
               <div
@@ -658,7 +657,7 @@ export default function EliseMadrickBlog() {
                 marginBottom: "0.6rem",
               }}
             >
-              Ready to become unrecognizable — in the best way?
+              Ready to become unrecognizable, in the best way?
             </p>
             <p
               style={{

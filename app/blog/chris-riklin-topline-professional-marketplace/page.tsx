@@ -4,9 +4,9 @@ import Image from "next/image";
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace" },
   title:
-    "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
+    "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline, a Meritocratic Marketplace Disrupting Professional Services",
   description:
-    "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline — a frictionless marketplace that lets the best professionals win on merit, not connections.",
+    "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline, a frictionless marketplace that lets the best professionals win on merit, not connections.",
   keywords: [
     "Chris Riklin",
     "Topline",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   openGraph: {
     url: "https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace",
     title:
-      "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
+      "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline, a Meritocratic Marketplace Disrupting Professional Services",
     description:
-      "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline — a frictionless marketplace that lets the best professionals win on merit, not connections.",
+      "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline, a frictionless marketplace that lets the best professionals win on merit, not connections.",
     type: "article",
     images: ["/images/chris-riklin-headshot.webp"],
   },
@@ -35,9 +35,9 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services",
+    "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline, a Meritocratic Marketplace Disrupting Professional Services",
   description:
-    "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline — a frictionless marketplace that lets the best professionals win on merit, not connections.",
+    "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline, a frictionless marketplace that lets the best professionals win on merit, not connections.",
   image: "https://www.gildre.com/images/chris-riklin-headshot.webp",
   author: {
     "@type": "Person",
@@ -196,7 +196,7 @@ export default function ChrisRiklinBlog() {
               letterSpacing: "-0.02em",
             }}
           >
-            Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline — a Meritocratic Marketplace Disrupting Professional Services
+            Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline, a Meritocratic Marketplace Disrupting Professional Services
           </h1>
 
           {/* Byline */}
@@ -206,7 +206,7 @@ export default function ChrisRiklinBlog() {
 
           {/* Opening pull quote */}
           <Quote>
-            "The best professionals don't always win — not because they lack talent, but because current systems rely on outdated processes like resumes, inefficient hiring models, and insular industry networks."
+            "The best professionals don't always win, not because they lack talent, but because current systems rely on outdated processes like resumes, inefficient hiring models, and insular industry networks."
           </Quote>
 
           {/* Headshot */}
@@ -241,7 +241,7 @@ export default function ChrisRiklinBlog() {
           {/* Key facts */}
           <KeyFacts
             items={[
-              "Co-Founder of Topline — a meritocratic marketplace for professional services",
+              "Co-Founder of Topline, a meritocratic marketplace for professional services",
               "10+ years at NationBuilder, a pioneering SaaS platform for communities and political campaigns",
               "Background in political science; studied entrepreneurship at the London School of Economics (LSE)",
               "Saw firsthand how talented professionals lose opportunities to outdated hiring gatekeepers",
@@ -272,7 +272,7 @@ export default function ChrisRiklinBlog() {
             <Body>
               Resumes still dominate hiring. Referrals still beat merit. LinkedIn connections still
               open more doors than demonstrable results. Chris Riklin watched this play out for years
-              inside political tech — watching talented operators miss opportunities not because of
+              inside political tech, watching talented operators miss opportunities not because of
               what they could do, but because of who they happened to know.
             </Body>
             <Body>
@@ -293,7 +293,7 @@ export default function ChrisRiklinBlog() {
               Ten Years at NationBuilder: Learning What Broken Looks Like
             </h2>
             <Body>
-              Before Topline, Chris spent over a decade at NationBuilder — a SaaS platform that helped
+              Before Topline, Chris spent over a decade at NationBuilder, a SaaS platform that helped
               political campaigns, nonprofits, and community organizations manage their constituents.
               It was early-stage startup work that gave him an unusually deep view into how
               organizations actually build and leverage professional networks.
@@ -306,7 +306,7 @@ export default function ChrisRiklinBlog() {
             </Body>
             <Body>
               The longer he stayed, the clearer the problem became: the professional services industry
-              was ripe for disruption — not with a tweak, but with a fundamentally different model.
+              was ripe for disruption, not with a tweak, but with a fundamentally different model.
             </Body>
           </Section>
 
@@ -323,7 +323,7 @@ export default function ChrisRiklinBlog() {
               The Serendipitous Co-Founder Match
             </h2>
             <Body>
-              Chris had been circling the problem independently — running an entrepreneurship program
+              Chris had been circling the problem independently, running an entrepreneurship program
               at the London School of Economics and working through what a modern professional
               marketplace could look like. Then his future co-founder Alex sent him a deck.
             </Body>
@@ -333,8 +333,7 @@ export default function ChrisRiklinBlog() {
               on solving a massive, global problem."
             </Quote>
             <Body>
-              That alignment — on the problem, the target market, and the long-term ambition —
-              is the foundation most co-founder relationships collapse without. For Topline, it was
+              That alignment, on the problem, the target market, and the long-term ambition, is the foundation most co-founder relationships collapse without. For Topline, it was
               present from day one. Two people had independently arrived at the same diagnosis. That&apos;s
               a signal worth acting on.
             </Body>
@@ -353,7 +352,7 @@ export default function ChrisRiklinBlog() {
               How Topline Actually Works
             </h2>
             <Body>
-              Topline is a marketplace with an embedded SaaS layer — think less job board, more
+              Topline is a marketplace with an embedded SaaS layer: think less job board, more
               operating system for independent professional services. Four mechanisms make it different
               from what came before:
             </Body>
@@ -362,7 +361,7 @@ export default function ChrisRiklinBlog() {
               {
                 num: "01",
                 title: "Meritocratic Profiles",
-                body: "Professionals display their expertise through a transparent, structured profile that lets potential clients evaluate work directly — not just read a resume bullet point.",
+                body: "Professionals display their expertise through a transparent, structured profile that lets potential clients evaluate work directly, not just read a resume bullet point.",
               },
               {
                 num: "02",
@@ -372,7 +371,7 @@ export default function ChrisRiklinBlog() {
               {
                 num: "03",
                 title: "Community Distribution",
-                body: "Topline partners with industry associations, chambers of commerce, and niche networking groups — bringing the platform directly to professionals in communities they already trust.",
+                body: "Topline partners with industry associations, chambers of commerce, and niche networking groups, bringing the platform directly to professionals in communities they already trust.",
               },
               {
                 num: "04",
@@ -432,20 +431,20 @@ export default function ChrisRiklinBlog() {
             <Body>
               The platform is particularly powerful for fractional executives, independent consultants,
               and freelancers who spend too much time and money on self-promotion relative to their
-              actual work. A fractional CTO, a cybersecurity consultant, a growth advisor — these
+              actual work. A fractional CTO, a cybersecurity consultant, a growth advisor: these
               professionals have valuable expertise and strong track records, but traditional
               discovery mechanisms (expensive ads, cold LinkedIn outreach, conference attendance)
               are slow, costly, and hit-or-miss.
             </Body>
             <Body>
-              Topline offers a direct line between expertise and client — removing the middlemen who
+              Topline offers a direct line between expertise and client, removing the middlemen who
               inflate cost without adding value, and letting quality speak for itself through
               structured, comparable profiles.
             </Body>
             <Quote>
               "I&apos;ve always believed in taking big swings. If you&apos;re going to do something,
               it should be impactful on a large scale. And for me, that means building something
-              global — a platform that can truly change how people grow their careers."
+              global, a platform that can truly change how people grow their careers."
             </Quote>
           </Section>
 
@@ -466,12 +465,12 @@ export default function ChrisRiklinBlog() {
               the logic was straightforward even if the leap wasn&apos;t: the best time to build
               something is when you understand the problem better than anyone else, and the window
               for doing it is now. Ten years at NationBuilder didn&apos;t just give him product and
-              sales experience — it gave him an intimate understanding of a broken market and a
+              sales experience; it gave him an intimate understanding of a broken market and a
               clear picture of what the fix looked like.
             </Body>
             <Body>
-              His path — political science to political tech to enterprise SaaS to startup co-founder
-              — isn&apos;t the kind you plan. It&apos;s the kind that emerges when you stay curious,
+              His path (political science to political tech to enterprise SaaS to startup co-founder
+              ) isn&apos;t the kind you plan. It&apos;s the kind that emerges when you stay curious,
               stay close to real problems, and say yes to collaborations that align on something big.
             </Body>
           </Section>
@@ -490,19 +489,19 @@ export default function ChrisRiklinBlog() {
             </h2>
             <Body>
               Topline&apos;s near-term focus is on deepening partnerships with industry associations
-              and local business communities — channels that already aggregate the kind of
+              and local business communities, channels that already aggregate the kind of
               professionals the platform serves. Rather than fighting for organic SEO traffic or
               paying to acquire users cold, the strategy is to embed Topline into ecosystems where
               trust already exists.
             </Body>
             <Body>
-              Long-term, the mission is unchanged: give every professional — regardless of their
-              network, zip code, or career path — a fair shot at winning the work they deserve.
+              Long-term, the mission is unchanged: give every professional, regardless of their
+              network, zip code, or career path, a fair shot at winning the work they deserve.
               Merit over incumbency. Results over relationships.
             </Body>
             <Quote>
               "Building something impactful requires a community of people who believe in the same
-              mission. At Topline, we&apos;re creating that community — one connection at a time."
+              mission. At Topline, we&apos;re creating that community, one connection at a time."
             </Quote>
           </Section>
 

@@ -22,7 +22,7 @@ export const metadata = {
     url: "https://www.gildre.com/blog/steve-ramona-servant-heart-podcast-networking",
     title: "Steve Ramona: The Servant's Heart Business Philosophy That Turned a Gym Front Desk Into Millions",
     description:
-      "Steve Ramona on the ASLA principle — Ask, Shut Up, Listen Actively, Ask Again — and how a 20-year health club career built a network that launched a restaurant, a recycling company, and one of the fastest-growing servant leadership podcasts.",
+      "Steve Ramona on the ASLA principle — Ask, Shut Up, Listen Actively, Ask Again, and how a 20-year health club career built a network that launched a restaurant, a recycling company, and one of the fastest-growing servant leadership podcasts.",
     type: "article",
     images: [
       {
@@ -87,7 +87,7 @@ const personSchema = {
     "Sales",
   ],
   description:
-    "Steve Ramona is the host of Doing Business with a Servant's Heart, a top business and networking podcast with over 31,000 subscribers and 300+ episodes. Over a 40-year career spanning a family health club, a restaurant, and an electronics recycling company, Steve built and leveraged a vast network using a philosophy of transformational — not transactional — relationships.",
+    "Steve Ramona is the host of Doing Business with a Servant's Heart, a top business and networking podcast with over 31,000 subscribers and 300+ episodes. Over a 40-year career spanning a family health club, a restaurant, and an electronics recycling company, Steve built and leveraged a vast network using a philosophy of transformational, not transactional — relationships.",
 };
 
 const faqs = [
@@ -105,11 +105,11 @@ const faqs = [
   },
   {
     q: "What does transformational vs transactional mean in business?",
-    a: "Steve Ramona defines transformational relationships as ones where you genuinely improve the other person's situation — offering advice, connections, or resources — without expecting an immediate return. Transactional relationships are purely exchange-based: I give you something, you give me something now. Steve's philosophy is that consistently showing up as transformational — even when it costs you time or money — is what builds the deep network that sustains long-term business success. His career is the proof: every business he launched succeeded by activating relationships he had built transactionally years before.",
+    a: "Steve Ramona defines transformational relationships as ones where you genuinely improve the other person's situation: offering advice, connections, or resources, without expecting an immediate return. Transactional relationships are purely exchange-based: I give you something, you give me something now. Steve's philosophy is that consistently showing up as transformational, even when it costs you time or money — is what builds the deep network that sustains long-term business success. His career is the proof: every business he launched succeeded by activating relationships he had built transactionally years before.",
   },
   {
     q: "How did Steve Ramona build his professional network?",
-    a: "Steve Ramona built his network over 20 years working the front desk at a family health club in Silicon Valley, where 2,000–3,000 members came through daily. He made it a habit to remember names, ask follow-up questions about vacations and business wins, and connect with members genuinely — not as prospects, but as people. That network of gym members became the customers at his restaurant, the clients of his recycling company, and the guests and subscribers of his podcast. The lesson: repetitive, authentic contact in any regular community context builds more durable relationships than any targeted outreach campaign.",
+    a: "Steve Ramona built his network over 20 years working the front desk at a family health club in Silicon Valley, where 2,000–3,000 members came through daily. He made it a habit to remember names, ask follow-up questions about vacations and business wins, and connect with members genuinely, not as prospects, but as people. That network of gym members became the customers at his restaurant, the clients of his recycling company, and the guests and subscribers of his podcast. The lesson: repetitive, authentic contact in any regular community context builds more durable relationships than any targeted outreach campaign.",
   },
 ];
 
@@ -169,7 +169,7 @@ export default function SteveRamonaBlog() {
             Business Philosophy That Turned a Gym Front Desk Into Millions
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Steve Ramona spent 20 years behind a health club front desk in Silicon Valley — and quietly built one of the most powerful networks in the room. He joined the Start to Scale Podcast to share the ASLA principle, why transformational beats transactional, and what every founder gets wrong about networking.
+            Steve Ramona spent 20 years behind a health club front desk in Silicon Valley, and quietly built one of the most powerful networks in the room. He joined the Start to Scale Podcast to share the ASLA principle, why transformational beats transactional, and what every founder gets wrong about networking.
           </p>
 
           {/* Meta row */}
@@ -207,8 +207,8 @@ export default function SteveRamonaBlog() {
 
         {/* Intro */}
         <Body>
-          Most founders treat networking as a campaign — a set of deliberate outreaches to targeted people they want something from. Steve Ramona spent four decades proving a different model: show up consistently, make everyone in the room feel genuinely seen, ask good questions and then shut up, and let the returns arrive on their own timeline. We sat down with Steve on the{" "}
-          <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> to unpack the principles behind his <strong style={{ color: "#fff" }}>Doing Business with a Servant&apos;s Heart</strong> podcast — now over 31,000 subscribers and 300+ episodes — and the career arc that took him from a health club front desk to a recycling empire to one of Silicon Valley&apos;s most-connected business hosts.
+          Most founders treat networking as a campaign, a set of deliberate outreaches to targeted people they want something from. Steve Ramona spent four decades proving a different model: show up consistently, make everyone in the room feel genuinely seen, ask good questions and then shut up, and let the returns arrive on their own timeline. We sat down with Steve on the{" "}
+          <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> to unpack the principles behind his <strong style={{ color: "#fff" }}>Doing Business with a Servant&apos;s Heart</strong> podcast, now over 31,000 subscribers and 300+ episodes, and the career arc that took him from a health club front desk to a recycling empire to one of Silicon Valley&apos;s most-connected business hosts.
         </Body>
 
         {/* Headshot */}
@@ -238,13 +238,13 @@ export default function SteveRamonaBlog() {
           Steve Ramona&apos;s origin story doesn&apos;t start with a startup or a pitch deck. It starts with a health club front desk, a summer job, and a short Italian financial advisor who threw a book across the counter and said: "Read this. I&apos;ll be back Tuesday."
         </Body>
         <Body>
-          The book was <em>The Wealthy Barber</em>. The lesson was simple: take 10% of every paycheck, put it somewhere you never touch, and let time do the work. Steve did exactly that. Ten years later, he called Tony to say thank you — and had $68,000 in a savings account at age 28 or 29.
+          The book was <em>The Wealthy Barber</em>. The lesson was simple: take 10% of every paycheck, put it somewhere you never touch, and let time do the work. Steve did exactly that. Ten years later, he called Tony to say thank you, and had $68,000 in a savings account at age 28 or 29.
         </Body>
         <Body>
-          Tony&apos;s response stuck with him more than the money. "Steve, I&apos;m retired first of all, so I wouldn&apos;t take your money," Tony told him. "But I gave you some advice and you ran with it. The universe paid me back by bringing people into my life that allowed me to retire with abundance. That&apos;s how it works. You take care of people — not just transactional, but transforming — and good things happen."
+          Tony&apos;s response stuck with him more than the money. "Steve, I&apos;m retired first of all, so I wouldn&apos;t take your money," Tony told him. "But I gave you some advice and you ran with it. The universe paid me back by bringing people into my life that allowed me to retire with abundance. That&apos;s how it works. You take care of people, not just transactional, but transforming, and good things happen."
         </Body>
         <Quote>
-          "You take care of people — not just transactional, but transforming — and good things happen. Tony was a multimillionaire, retired, enjoying retirement. I had $68,000. Think we were both happy? Absolutely."
+          "You take care of people, not just transactional, but transforming, and good things happen. Tony was a multimillionaire, retired, enjoying retirement. I had $68,000. Think we were both happy? Absolutely."
         </Quote>
         <Body>
           That exchange became the operating philosophy behind everything Steve has built since. He didn&apos;t name it then. But the seed of what he now calls a servant&apos;s heart was planted by a guy who walked into a gym and threw a 60-page book at an 18-year-old he barely knew.
@@ -255,13 +255,13 @@ export default function SteveRamonaBlog() {
           From 1978 to 2000, Steve worked at a health club in Silicon Valley. 2,000 to 3,000 members a day. Two decades of checking people in, remembering names, asking follow-up questions, and building what he didn&apos;t yet have a word for: a network.
         </Body>
         <Body>
-          His approach was almost accidental at first. "Hey Joe, have a great workout. Hey Tony, have a great day." Then the conversations shifted — "Tony, how was your vacation in Bali? Jim, did you get that big client you were talking about?" He became friends with people twice his age. He collected relationships the way other people collect business cards — except his were genuine.
+          His approach was almost accidental at first. "Hey Joe, have a great workout. Hey Tony, have a great day." Then the conversations shifted: "Tony, how was your vacation in Bali? Jim, did you get that big client you were talking about?" He became friends with people twice his age. He collected relationships the way other people collect business cards, except his were genuine.
         </Body>
         <Body>
-          The mechanism, he explains, is repetition. "That&apos;s what you&apos;re doing when you&apos;re going to the gym. You see the same people. Think about what makes a marriage work — they go on a number of dates before they commit. That&apos;s what you&apos;re doing in a recurring community setting. You&apos;re naturally building a relationship without forcing it."
+          The mechanism, he explains, is repetition. "That&apos;s what you&apos;re doing when you&apos;re going to the gym. You see the same people. Think about what makes a marriage work; they go on a number of dates before they commit. That&apos;s what you&apos;re doing in a recurring community setting. You&apos;re naturally building a relationship without forcing it."
         </Body>
         <Body>
-          When the family sold the health club in 2000 — the deal was too good to pass up — Steve found himself at home watching Oprah, trying to figure out what came next. No degree. No resume. No corporate experience. Just a phone full of contacts who knew him, trusted him, and owed him nothing but a conversation.
+          When the family sold the health club in 2000: the deal was too good to pass up. Steve found himself at home watching Oprah, trying to figure out what came next. No degree. No resume. No corporate experience. Just a phone full of contacts who knew him, trusted him, and owed him nothing but a conversation.
         </Body>
         <Body>
           That was enough. Jim, a longtime gym member, called and asked Steve to help him launch a restaurant. "Jim, I know nothing about a restaurant," Steve said. Jim&apos;s answer: "I know. But I know all the people you know." Within six months, they were the fastest-growing restaurant in the area. The launch strategy: Steve called every gym member he was still connected with and said, "I&apos;m working at this place. I&apos;d love you to come see me." People showed up because the relationship already existed.
@@ -269,27 +269,27 @@ export default function SteveRamonaBlog() {
 
         <Section title="The 2003 Email Newsletter: Before Beehive, Before Substack" />
         <Body>
-          Inside the restaurant — Sharky&apos;s, a fish place in Silicon Valley — Steve started thinking about how to keep people coming back. A customer asked about next week&apos;s specials. Steve walked away and thought: why not just write them down and email them?
+          Inside Sharky&apos;s, a fish place in Silicon Valley, Steve started thinking about how to keep people coming back. A customer asked about next week&apos;s specials. Steve walked away and thought: why not just write them down and email them?
         </Body>
         <Body>
-          He started a pad of paper at the host stand. "Would you like to know our specials?" People signed up. Steve emailed every Monday — the specials, a note, a reminder that he was there. This was 2003. Pre-social media. Pre-everything.
+          He started a pad of paper at the host stand. "Would you like to know our specials?" People signed up. Steve emailed every Monday: the specials, a note, a reminder that he was there. This was 2003. Pre-social media. Pre-everything.
         </Body>
         <Quote>
-          "If they forget about you, they&apos;ll never come in. If you treat them bad, they&apos;ll never come back. And if you aren&apos;t someone people want to be around, they won&apos;t come back. But that&apos;s true for any business — restaurant, coaching, CPA. The newsletter just kept reminding them that we cared."
+          "If they forget about you, they&apos;ll never come in. If you treat them bad, they&apos;ll never come back. And if you aren&apos;t someone people want to be around, they won&apos;t come back. But that&apos;s true for any business: restaurant, coaching, CPA. The newsletter just kept reminding them that we cared."
         </Quote>
         <Body>
-          The lesson translates directly to any founder-led business: staying in front of your audience is not marketing — it&apos;s maintenance of a relationship. Remind them you exist. Make it valuable. Give them something to look forward to showing up for.
+          The lesson translates directly to any founder-led business: staying in front of your audience is not marketing; it&apos;s maintenance of a relationship. Remind them you exist. Make it valuable. Give them something to look forward to showing up for.
         </Body>
 
         <Section title="Earth Care Recycling: Six Figures in Six Months From a Cold Start" />
         <Body>
-          After Sharky&apos;s closed, Steve launched Earth Care Recycling — picking up and properly recycling TVs, computers, and electronics in California, where regulation created real demand. His business partner left after five months. Steve ran it alone with two employees.
+          After Sharky&apos;s closed, Steve launched Earth Care Recycling, picking up and properly recycling TVs, computers, and electronics in California, where regulation created real demand. His business partner left after five months. Steve ran it alone with two employees.
         </Body>
         <Body>
-          Six figures in six to eight months. The playbook was identical: reach out to the health club network, the restaurant network, and every new contact he&apos;d made since. "Hey, I started a recycling company. If you need your stuff picked up, we&apos;ll come get it." Then he went further — partnering with elementary schools, high schools, and colleges to run recycling fundraiser days in the parking lot. He&apos;d write a $2,000–$2,500 check to the school and take the equipment. Value in every direction.
+          Six figures in six to eight months. The playbook was identical: reach out to the health club network, the restaurant network, and every new contact he&apos;d made since. "Hey, I started a recycling company. If you need your stuff picked up, we&apos;ll come get it." Then he went further, partnering with elementary schools, high schools, and colleges to run recycling fundraiser days in the parking lot. He&apos;d write a $2,000–$2,500 check to the school and take the equipment. Value in every direction.
         </Body>
         <Body>
-          The business ran successfully until 2013, when changes in California&apos;s government recycling payment structure made it unviable. Steve&apos;s instinct was to keep going — he had employees, customers, and a deep sense of obligation. His father and his cousin Jeff, both mentors, gave him the same advice: "Steve, would you rather stop now or reach a point where you can&apos;t pay your employees for work they&apos;ve already done?"
+          The business ran successfully until 2013, when changes in California&apos;s government recycling payment structure made it unviable. Steve&apos;s instinct was to keep going; he had employees, customers, and a deep sense of obligation. His father and his cousin Jeff, both mentors, gave him the same advice: "Steve, would you rather stop now or reach a point where you can&apos;t pay your employees for work they&apos;ve already done?"
         </Body>
         <Body>
           Three months later, the business closed. Three months after that, both employees had found jobs. "Mentorship is just huge," Steve says. "It changed my life because I was stressing about it. And they just cut right through it."
@@ -309,26 +309,26 @@ export default function SteveRamonaBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Steve Ramona on the mic — his podcast Doing Business with a Servant&apos;s Heart launched October 4, 2022 and now has 31,000+ subscribers
+              Steve Ramona on the mic, his podcast Doing Business with a Servant&apos;s Heart launched October 4, 2022 and now has 31,000+ subscribers
             </p>
           </div>
         </div>
 
         <Section title="The ASLA Principle: The Networking Framework That Made Him Millions" />
         <Body>
-          When people ask Steve how to approach someone they want to connect with — a potential client, a senior operator, a heavy hitter at the gym — his answer is four steps.
+          When people ask Steve how to approach someone they want to connect with, a potential client, a senior operator, a heavy hitter at the gym, his answer is four steps.
         </Body>
         <Body>
           <strong style={{ color: "#fff" }}>Ask</strong> a question. <strong style={{ color: "#fff" }}>Shut up.</strong> <strong style={{ color: "#fff" }}>Listen Actively.</strong> <strong style={{ color: "#fff" }}>Ask</strong> another question.
         </Body>
         <Body>
-          He calls it the ASLA principle — coined by a podcast guest named Jeffrey Flacky, who gave the label to something Steve had been doing naturally for decades. The mechanics are simple: find something you genuinely want to know about the person in front of you, ask it, and then get out of the way. "Hey, I saw you doing curls at a certain angle — why do you do that?" The other person becomes the expert. You&apos;ve given them the gift of your attention. A relationship has started.
+          He calls it the ASLA principle, coined by a podcast guest named Jeffrey Flacky, who gave the label to something Steve had been doing naturally for decades. The mechanics are simple: find something you genuinely want to know about the person in front of you, ask it, and then get out of the way. "Hey, I saw you doing curls at a certain angle — why do you do that?" The other person becomes the expert. You&apos;ve given them the gift of your attention. A relationship has started.
         </Body>
         <Quote>
           "Ask, shut up, listen actively, and ask another question. Everybody&apos;s going to answer a question most of the time. You identified them, you made them the expert, and you gave them a gift. That&apos;s literally made me millions."
         </Quote>
         <Body>
-          The worry most people have — "will it seem forced, will they think I want something?" — dissolves when the question is genuine. And if someone doesn&apos;t want to engage, Steve&apos;s answer is one word: "Next. Not a fit. Move on. You can&apos;t impact everybody."
+          The worry most people have ("will it seem forced, will they think I want something?") dissolves when the question is genuine. And if someone doesn&apos;t want to engage, Steve&apos;s answer is one word: "Next. Not a fit. Move on. You can&apos;t impact everybody."
         </Body>
 
         <Section title="Why Saying 'I'm Good' Is the Most Expensive Mistake in Networking" />
@@ -336,32 +336,32 @@ export default function SteveRamonaBlog() {
           Steve spent years reflexively deflecting when people tried to help him. Someone he&apos;d given advice to would say, "How can I return the favor?" and he&apos;d wave them off: "I&apos;m good." He thought he was being gracious. He was actually, a $250M-a-year entrepreneur told him flatly, turning them into takers.
         </Body>
         <Body>
-          "You just gave that person a gift," the man told him. "They want to return the favor. When you say you don&apos;t need it, subconsciously you&apos;re not thinking they&apos;re an a-hole, but they are. They can&apos;t help you. You turned them into a taker. And who knows who they&apos;ll meet down the road — they won&apos;t remember Steve, because Steve wouldn&apos;t let them help him."
+          "You just gave that person a gift," the man told him. "They want to return the favor. When you say you don&apos;t need it, subconsciously you&apos;re not thinking they&apos;re an a-hole, but they are. They can&apos;t help you. You turned them into a taker. And who knows who they&apos;ll meet down the road; they won&apos;t remember Steve, because Steve wouldn&apos;t let them help him."
         </Body>
         <Body>
-          The fix is simple: have an answer ready. Know what you&apos;re looking for. When someone asks how they can help, tell them. "I&apos;m looking for introductions to X. I&apos;m trying to build Y. I&apos;m working on Z." Let people in. The relationship becomes two-directional, which is what makes it durable — and what makes it generate.
+          The fix is simple: have an answer ready. Know what you&apos;re looking for. When someone asks how they can help, tell them. "I&apos;m looking for introductions to X. I&apos;m trying to build Y. I&apos;m working on Z." Let people in. The relationship becomes two-directional, which is what makes it durable, and what makes it generate.
         </Body>
 
         <Section title="Doing Business with a Servant's Heart: Building a Podcast From Zero" />
         <Body>
-          Steve launched his podcast on October 4, 2022. He remembers the exact date. The origin motivation was simple: he kept asking himself how he could increase his level of service. A hand at chin level was good — he was helping people, connecting them, adding value. But how could he get to nose level? Mouth level?
+          Steve launched his podcast on October 4, 2022. He remembers the exact date. The origin motivation was simple: he kept asking himself how he could increase his level of service. A hand at chin level was good; he was helping people, connecting them, adding value. But how could he get to nose level? Mouth level?
         </Body>
         <Body>
-          He signed up for Josh Tapp&apos;s podcasting program. Josh told him: start recording. Steve&apos;s initial goal was modest — put his clients on the show, highlight them, give them a platform. Those clients started introducing him to other people. Word spread. His cadence grew to 25–30 episodes a week.
+          He signed up for Josh Tapp&apos;s podcasting program. Josh told him: start recording. Steve&apos;s initial goal was modest: put his clients on the show, highlight them, give them a platform. Those clients started introducing him to other people. Word spread. His cadence grew to 25–30 episodes a week.
         </Body>
         <Body>
-          The name came from a community setting as well. A fellow networker named Rich Kozak — someone Steve had met just one week earlier for a discovery call — stopped a group meeting mid-sentence: "Steve, I just met you last week. You have a heart for this servant thing. I think your podcast should be called Doing Business with a Servant&apos;s Heart." Steve adopted it immediately.
+          The name came from a community setting as well. A fellow networker named Rich Kozak, someone Steve had met just one week earlier for a discovery call, stopped a group meeting mid-sentence: "Steve, I just met you last week. You have a heart for this servant thing. I think your podcast should be called Doing Business with a Servant&apos;s Heart." Steve adopted it immediately.
         </Body>
         <Body>
           The guest list today spans Ivan Meisner (founder of BNI), Lee Steinberg (NFL super-agent who inspired Jerry Maguire), and founders at every stage. The through-line is always the same: people who give first, ask good questions, and let the relationship breathe.
         </Body>
 
-        <Section title="Get 1% Better Every Day — and Serve Yourself First" />
+        <Section title="Get 1% Better Every Day, and Serve Yourself First" />
         <Body>
-          Steve is 64 years old and starts every morning the same way: a Darren Hardy video, a meditation, and a two-minute cold shower. He does a weekly fast. He reads. He watches content from people he wants to learn from — and a key part of the philosophy is that age and seniority are not reasons to stop learning.
+          Steve is 64 years old and starts every morning the same way: a Darren Hardy video, a meditation, and a two-minute cold shower. He does a weekly fast. He reads. He watches content from people he wants to learn from, and a key part of the philosophy is that age and seniority are not reasons to stop learning.
         </Body>
         <Body>
-          "The more abundance I have by learning, the more I can give," he says. When a 34-year-old taught him YouTube strategies, Steve didn&apos;t filter it through ego. He took notes. He shared what he learned with the Gildre team. A chain of value passed through the relationship — and a new connection deepened.
+          "The more abundance I have by learning, the more I can give," he says. When a 34-year-old taught him YouTube strategies, Steve didn&apos;t filter it through ego. He took notes. He shared what he learned with the Gildre team. A chain of value passed through the relationship, and a new connection deepened.
         </Body>
         <Body>
           His advice for founders who want to build a servant&apos;s heart but feel too buried in survival mode to give: don&apos;t treat it as a strategy layer on top of your business. Treat it as a mindset that runs underneath everything else. "I was $50,000–$60,000 in debt three years ago. I still did 1,500 referrals that year. The debt had nothing to do with you. I could still help you."
@@ -370,7 +370,7 @@ export default function SteveRamonaBlog() {
           "Get better 1% every day. Find what that is for you. If you start today, you&apos;re up around 200% by end of year. Are you going to make more money? Are you going to have a bigger network? Are you going to be happy?"
         </Quote>
         <Body>
-          Practice the muscle in small moments: use people&apos;s names. Ask the grocery clerk how their day is going. Pay for someone&apos;s coffee when you have a bad day. Steve paid for a stranger&apos;s baby formula and diapers on a hard afternoon — didn&apos;t know her name, never saw her again. She burst into tears; her husband had lost his job the week before. "I had no idea," he says. "The universe does."
+          Practice the muscle in small moments: use people&apos;s names. Ask the grocery clerk how their day is going. Pay for someone&apos;s coffee when you have a bad day. Steve paid for a stranger&apos;s baby formula and diapers on a hard afternoon; he didn&apos;t know her name, never saw her again. She burst into tears; her husband had lost his job the week before. "I had no idea," he says. "The universe does."
         </Body>
 
         {/* FAQ */}
@@ -516,7 +516,7 @@ function BioCallout() {
     {
       n: "1",
       title: "Transformational, not transactional",
-      body: "Give value without attaching an expected return. Consistently show up to transform the people around you — with advice, connections, resources — and the business will follow. It always has, in every industry Steve entered.",
+      body: "Give value without attaching an expected return. Consistently show up to transform the people around you, with advice, connections, resources, and the business will follow. It always has, in every industry Steve entered.",
     },
     {
       n: "2",
@@ -526,7 +526,7 @@ function BioCallout() {
     {
       n: "3",
       title: "Don't block people who want to give",
-      body: "Saying 'I'm good' when someone offers to help turns them into takers. Know what you need. Have an answer ready. When you let people serve you the way you serve them, the relationship becomes two-directional — and durable.",
+      body: "Saying 'I'm good' when someone offers to help turns them into takers. Know what you need. Have an answer ready. When you let people serve you the way you serve them, the relationship becomes two-directional, and durable.",
     },
   ];
 

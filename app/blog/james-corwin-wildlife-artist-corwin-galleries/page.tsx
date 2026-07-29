@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/james-corwin-wildlife-artist-corwin-galleries" },
   title: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business | Gildre",
   description:
-    "Wildlife artist James Corwin on going from $20 miniatures at farmers markets to owning Corwin Galleries — a creative business built on art, grit, and no conventional blueprint.",
+    "Wildlife artist James Corwin on going from $20 miniatures at farmers markets to owning Corwin Galleries, a creative business built on art, grit, and no conventional blueprint.",
   keywords: ["James Corwin", "Corwin Galleries", "wildlife artist", "creative entrepreneur", "Montana founder", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/james-corwin-wildlife-artist-corwin-galleries",
@@ -133,29 +133,29 @@ export default function JamesCorwinBlog() {
         </div>
 
         <p className="mt-10 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          Growing up amidst the breathtaking landscapes of Montana, James Corwin found himself constantly lost in the beauty that surrounded him. Today, as the founder of Corwin Galleries and a nationally recognized wildlife painter, that early connection to the natural world still shapes every brushstroke — and every business decision.
+          Growing up amidst the breathtaking landscapes of Montana, James Corwin found himself constantly lost in the beauty that surrounded him. Today, as the founder of Corwin Galleries and a nationally recognized wildlife painter, that early connection to the natural world still shapes every brushstroke, and every business decision.
         </p>
 
         <Section title="From Montana's Landscapes to an Unexpected Path" />
         <Body>
-          Growing up in Montana, I consider myself lucky these days if I can soak in that beauty even once a year. The memories of weekends spent in nature's embrace, just a short drive from home, remain vivid. Montana's great outdoors — with its uncrowded trails and abundance of wildlife — has always been a source of tranquility and inspiration for me.
+          Growing up in Montana, I consider myself lucky these days if I can soak in that beauty even once a year. The memories of weekends spent in nature's embrace, just a short drive from home, remain vivid. Montana's great outdoors, with its uncrowded trails and abundance of wildlife, has always been a source of tranquility and inspiration for me.
         </Body>
         <Body>
           As a kid, I never would have imagined the direction my life would take. There was a time when music filled my world, and I dreamt of composing scores for films. I spent my teenage years notating melodies and harmonies, with aspirations of attending music schools.
         </Body>
         <Body>
-          However, life has its twists and turns. In my senior year of high school — quite unexpectedly — an art class spun my path in a new direction. Little did I know that the encouragement from my art teacher to apply for an art scholarship would so decisively shape my future. Winning the scholarship set a condition in stone: pursue an art degree. Thus, my focus shifted from music composition to visual arts.
+          However, life has its twists and turns. In my senior year of high school, quite unexpectedly, an art class spun my path in a new direction. Little did I know that the encouragement from my art teacher to apply for an art scholarship would so decisively shape my future. Winning the scholarship set a condition in stone: pursue an art degree. Thus, my focus shifted from music composition to visual arts.
         </Body>
 
         <Section title="Crafting a Career, One Miniature Painting at a Time" />
         <Body>
-          I've always harbored the entrepreneurial spirit, perhaps inherited from my parents who both ran their own businesses. This independence and drive found a unique outlet during the summer months as I navigated through my college years. I found joy in setting up stalls at local farmers markets and festivals, selling miniature paintings — some as small as a few inches across — each perched on its own little easel.
+          I've always harbored the entrepreneurial spirit, perhaps inherited from my parents who both ran their own businesses. This independence and drive found a unique outlet during the summer months as I navigated through my college years. I found joy in setting up stalls at local farmers markets and festivals, selling miniature paintings (some as small as a few inches across), each perched on its own little easel.
         </Body>
         <Quote>
           "During the week, I would paint hundreds of them and then put them all out on display, selling each little creation for about $20."
         </Quote>
         <Body>
-          This endeavor not only provided a summer income but also sharpened my skills in creating intricate details — a hallmark of the larger, more detailed paintings I do now.
+          This endeavor not only provided a summer income but also sharpened my skills in creating intricate details, a hallmark of the larger, more detailed paintings I do now.
         </Body>
 
         {/* Gallery photo */}
@@ -180,12 +180,12 @@ export default function JamesCorwinBlog() {
           Painting for me has become a meditative process. After a decade, it's become less about conscious thought and more about effortless creation. I dedicate my entire focus to a single piece, working on one painting at a time. This concentrated effort allows me to complete even the most complex paintings efficiently and imbue them with emotion and a narrative essence.
         </Body>
         <Body>
-          Choosing subjects for my art is a balance between what inspires me and what resonates with potential buyers. I seek to capture an emotion or a unique perspective in each piece, carefully constructing the story much like a filmmaker would. Yet, I also tend toward pragmatic creativity — painting compelling pieces that I know are marketable, like bisons in a snowy landscape, to sustain my artistic journey.
+          Choosing subjects for my art is a balance between what inspires me and what resonates with potential buyers. I seek to capture an emotion or a unique perspective in each piece, carefully constructing the story much like a filmmaker would. Yet, I also tend toward pragmatic creativity, painting compelling pieces that I know are marketable, like bisons in a snowy landscape, to sustain my artistic journey.
         </Body>
 
         <Section title="Building a Business, Building a Legacy" />
         <Body>
-          By my mid-twenties, my career had grown beyond my home studio in Montana. As demand for my art increased, so did the need for space and assistance. I expanded my operations, hiring employees and even opening up gallery spaces — my beloved Corwin Galleries. These expansions into the art world not only allowed me to grow as a businessperson but also sparked a dedicated mission to represent other talented artists.
+          By my mid-twenties, my career had grown beyond my home studio in Montana. As demand for my art increased, so did the need for space and assistance. I expanded my operations, hiring employees and even opening up gallery spaces, my beloved Corwin Galleries. These expansions into the art world not only allowed me to grow as a businessperson but also sparked a dedicated mission to represent other talented artists.
         </Body>
         <Body>
           My artistic focus took a turn towards wildlife after a life-changing safari in Africa. The trip not only inspired a new genre in my art but also introduced me to new audiences through safari clubs and international exhibitions.
@@ -209,12 +209,12 @@ export default function JamesCorwinBlog() {
 
         <Section title="Embracing the Digital World" />
         <Body>
-          Grasping the importance of an online presence, I delved into the world of digital marketing. Through self-education and perseverance, I mastered Facebook ads and e-commerce, honing my skills to augment art sales through online platforms — from Amazon to my own website. For any creative entrepreneur, the lesson is clear: your audience is online, and meeting them there is no longer optional.
+          Grasping the importance of an online presence, I delved into the world of digital marketing. Through self-education and perseverance, I mastered Facebook ads and e-commerce, honing my skills to augment art sales through online platforms, from Amazon to my own website. For any creative entrepreneur, the lesson is clear: your audience is online, and meeting them there is no longer optional.
         </Body>
 
         <Section title="Insights and Advice for Aspiring Creative Entrepreneurs" />
         <Body>
-          To all aspiring artists and creative entrepreneurs out there: success depends on taking chances, investing in growth, and continually learning. Surround yourself with people more knowledgeable than yourself and focus on your strengths. Art is not just a path of expression but also a viable business venture — as long as you're willing to approach it with courage and a forward-thinking mindset.
+          To all aspiring artists and creative entrepreneurs out there: success depends on taking chances, investing in growth, and continually learning. Surround yourself with people more knowledgeable than yourself and focus on your strengths. Art is not just a path of expression but also a viable business venture, as long as you're willing to approach it with courage and a forward-thinking mindset.
         </Body>
         <Body>
           For those embarking on this journey, remember to put yourself out there. Visibility is key. Utilize marketing, reach out to bloggers, arrange local events, and engage with your community. Fuel your growth through education and be open to new strategies that may elevate your work.
@@ -222,7 +222,7 @@ export default function JamesCorwinBlog() {
 
         <Section title="Conclusion: Creativity Knows No Bounds" />
         <Body>
-          The journey from the idyllic landscapes of Montana to the vibrant wildlife of Africa — and from a fledgling artist to a business-savvy gallery owner — has been a remarkable adventure. Beyond the canvas and brush strokes, it is the stories and emotions conveyed that resonate with admirers.
+          The journey from the idyllic landscapes of Montana to the vibrant wildlife of Africa, and from a fledgling artist to a business-savvy gallery owner, has been a remarkable adventure. Beyond the canvas and brush strokes, it is the stories and emotions conveyed that resonate with admirers.
         </Body>
         <Body>
           For all those curious to see where this artistic journey has led, James's work can be explored at{" "}
@@ -241,7 +241,7 @@ export default function JamesCorwinBlog() {
           "Never get rich doing art?" Well, I beg to differ.
         </Quote>
         <Body>
-          Journeying through the realm of art has taught James that creativity knows no bounds — and with determination and a business-minded approach, success is not just a possibility. It's an inevitability.
+          Journeying through the realm of art has taught James that creativity knows no bounds, and with determination and a business-minded approach, success is not just a possibility. It's an inevitability.
         </Body>
 
         {/* CTA block */}
@@ -262,7 +262,7 @@ export default function JamesCorwinBlog() {
             Meet Founders Like James at Gildre
           </h3>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Gildre connects founders across every industry — from tech and finance to creative businesses — with the peers, mentors, and resources to build something that lasts.
+            Gildre connects founders across every industry, from tech and finance to creative businesses, with the peers, mentors, and resources to build something that lasts.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a

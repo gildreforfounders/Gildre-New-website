@@ -99,15 +99,15 @@ const personSchema = {
 const faqs = [
   {
     q: "What is Spot and Tango?",
-    a: "Spot and Tango is a direct-to-consumer pet health and wellness brand founded in 2017 by Russell Breuer. The company sells human-grade, fresh frozen dog food, Unkibble (a shelf-stable fresh dry dog food), treats, supplements, and Pup Gum dental chews — all sourced and manufactured in the USA. Spot and Tango ships nationwide at spotandtango.com.",
+    a: "Spot and Tango is a direct-to-consumer pet health and wellness brand founded in 2017 by Russell Breuer. The company sells human-grade, fresh frozen dog food, Unkibble (a shelf-stable fresh dry dog food), treats, supplements, and Pup Gum dental chews, all sourced and manufactured in the USA. Spot and Tango ships nationwide at spotandtango.com.",
   },
   {
     q: "What is Unkibble by Spot and Tango?",
-    a: "Unkibble is Spot and Tango's shelf-stable dry dog food made with human-grade, whole-food ingredients. Unlike traditional kibble — which is heavily processed — Unkibble uses a fresh dry process that removes moisture while preserving nutrients, making it 30–40% less expensive than fresh frozen options and far more convenient for urban dog owners with limited freezer space. It launched in April 2020 and scaled from $2M to $20M in annual run rate within six months.",
+    a: "Unkibble is Spot and Tango's shelf-stable dry dog food made with human-grade, whole-food ingredients. Unlike traditional kibble, which is heavily processed; Unkibble uses a fresh dry process that removes moisture while preserving nutrients, making it 30–40% less expensive than fresh frozen options and far more convenient for urban dog owners with limited freezer space. It launched in April 2020 and scaled from $2M to $20M in annual run rate within six months.",
   },
   {
     q: "What is Pup Gum by Spot and Tango?",
-    a: "Pup Gum is a dental chew for dogs developed by Spot and Tango. It combines mechanical brushing action, flaxseed for cleaning, and a clinically proven post-biotic that addresses the biofilm on dogs' teeth — the root cause of bad breath and plaque buildup. Available at pupgum.com and within spotandtango.com, Pup Gum sold out within a week and a half of its launch.",
+    a: "Pup Gum is a dental chew for dogs developed by Spot and Tango. It combines mechanical brushing action, flaxseed for cleaning, and a clinically proven post-biotic that addresses the biofilm on dogs' teeth: the root cause of bad breath and plaque buildup. Available at pupgum.com and within spotandtango.com, Pup Gum sold out within a week and a half of its launch.",
   },
   {
     q: "How did Russell Breuer start Spot and Tango?",
@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: "What advice does Russell Breuer give to early-stage founders?",
-    a: "Russell Breuer's core advice for founders is grit. He emphasizes that every founder has bad days — things break, challenges pile up, and the temptation to quit is real. The founders who succeed are those who wake up the next morning, get back in the saddle, and keep making incremental progress. 'You may be in a hole, but you may be further out of the hole,' he notes. Consistency and resilience over time are what separate founders who build lasting companies.",
+    a: "Russell Breuer's core advice for founders is grit. He emphasizes that every founder has bad days: things break, challenges pile up, and the temptation to quit is real. The founders who succeed are those who wake up the next morning, get back in the saddle, and keep making incremental progress. 'You may be in a hole, but you may be further out of the hole,' he notes. Consistency and resilience over time are what separate founders who build lasting companies.",
   },
 ];
 
@@ -223,7 +223,7 @@ export default function RussellBreuerBlog() {
           >
             Spot&nbsp;and&nbsp;Tango
           </a>
-          , on the <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Russell shared the full arc of his journey — from management consulting in London to launching a fresh dog food company in a New York City studio apartment, scaling through COVID, building a factory from scratch, and launching Pup Gum, a first-of-its-kind dental innovation for dogs. Below are excerpts from the conversation.
+          , on the <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong>. Russell shared the full arc of his journey, from management consulting in London to launching a fresh dog food company in a New York City studio apartment, scaling through COVID, building a factory from scratch, and launching Pup Gum, a first-of-its-kind dental innovation for dogs. Below are excerpts from the conversation.
         </p>
 
         {/* Russell headshot */}
@@ -249,32 +249,32 @@ export default function RussellBreuerBlog() {
 
         <Section title="The Studio Apartment Origin Story" />
         <Body>
-          Russell Breuer describes himself simply: a Cleveland kid. Born in 1980, he grew up in the Rust Belt before a traditional career in management consulting and private equity took him to London for eight years. When he returned to New York City in 2012, he brought with him years of operational experience across multinationals — and a mini Golden Doodle named Jack.
+          Russell Breuer describes himself simply: a Cleveland kid. Born in 1980, he grew up in the Rust Belt before a traditional career in management consulting and private equity took him to London for eight years. When he returned to New York City in 2012, he brought with him years of operational experience across multinationals, and a mini Golden Doodle named Jack.
         </Body>
         <Body>
-          The business began as a family habit. Russell's mother-in-law had been cooking fresh, human-grade meals for her dog, George, for decades. That same approach made its way into Russell's NYC studio apartment, where he and his wife began preparing meals for Jack. What happened next is the kind of organic growth founders dream about — neighbors wanted it, friends of friends wanted it, and before long, the phones were ringing off the hook.
+          The business began as a family habit. Russell's mother-in-law had been cooking fresh, human-grade meals for her dog, George, for decades. That same approach made its way into Russell's NYC studio apartment, where he and his wife began preparing meals for Jack. What happened next is the kind of organic growth founders dream about: neighbors wanted it, friends of friends wanted it, and before long, the phones were ringing off the hook.
         </Body>
         <Quote>
           "The dog used to sleep outside. Now the dog sleeps in the bed. Everything people are doing for themselves, they&rsquo;re doing for their pets."
         </Quote>
         <Body>
-          That cultural shift — the humanization of pets — was the macro tailwind Russell had already been studying. Six to seven out of ten U.S. households own a dog, and the interest in organic, grain-free, and human-grade food had reached pets just as it had people. The demand signal was too clear to ignore.
+          That cultural shift: the humanization of pets, was the macro tailwind Russell had already been studying. Six to seven out of ten U.S. households own a dog, and the interest in organic, grain-free, and human-grade food had reached pets just as it had people. The demand signal was too clear to ignore.
         </Body>
 
         <Section title="From Side Hustle to CPG Company: The First Moves" />
         <Body>
-          Like most founders, Russell didn't wait for a perfect plan. The first version of Spot and Tango — originally named Brewer Premium Pet Foods after his surname — was a commissary kitchen operation making fresh frozen meals: ground turkey, brown rice, carrots, and fruit and veg, cooked and frozen for safe delivery. The recipes were formulated to meet the full dietary needs of dogs, using food-grade (not feed-grade) ingredients sourced from the same upstream suppliers that serve grocery stores and restaurants.
+          Like most founders, Russell didn't wait for a perfect plan. The first version of Spot and Tango (originally named Brewer Premium Pet Foods after his surname) was a commissary kitchen operation making fresh frozen meals: ground turkey, brown rice, carrots, and fruit and veg, cooked and frozen for safe delivery. The recipes were formulated to meet the full dietary needs of dogs, using food-grade (not feed-grade) ingredients sourced from the same upstream suppliers that serve grocery stores and restaurants.
         </Body>
         <Body>
-          Before going all-in on e-commerce, Russell tested the product in retail — up to 14 pet specialty stores across the five boroughs of New York City, with branded freezers at point of sale. That experiment taught him fast: brick-and-mortar required distributors who ate margin, long lead times for changes, and enormous door count to scale. DTC, by contrast, let them move quickly — update creative, adjust copy, personalize at the individual level — all in real time.
+          Before going all-in on e-commerce, Russell tested the product in retail, up to 14 pet specialty stores across the five boroughs of New York City, with branded freezers at point of sale. That experiment taught him fast: brick-and-mortar required distributors who ate margin, long lead times for changes, and enormous door count to scale. DTC, by contrast, let them move quickly — update creative, adjust copy, personalize at the individual level, all in real time.
         </Body>
         <Body>
-          They chose DTC. The company rebranded to Spot and Tango in February 2019 — the new name came from Russell's co-founder's father, and it stuck. "No one else has the word Spot and Tango if you do a Google search," Russell notes. "We were the only company that pops up." The rebrand also came with a critical product evolution: moving away from small/medium/large portion sizes to a personalized quiz-based algorithm that accounts for each dog's breed, weight, and activity level. That shift unlocked a new level of product-market fit — and a subscription model that made retention genuinely sticky.
+          They chose DTC. The company rebranded to Spot and Tango in February 2019: the new name came from Russell's co-founder's father, and it stuck. "No one else has the word Spot and Tango if you do a Google search," Russell notes. "We were the only company that pops up." The rebrand also came with a critical product evolution: moving away from small/medium/large portion sizes to a personalized quiz-based algorithm that accounts for each dog's breed, weight, and activity level. That shift unlocked a new level of product-market fit, and a subscription model that made retention genuinely sticky.
         </Body>
 
         <Section title="Unkibble: The $2M to $20M Moment" />
         <Body>
-          Fresh frozen food solved the quality problem. But it came with two friction points customers kept raising: it was expensive (cold-chain logistics and dry ice aren't cheap), and it was inconvenient (urban dog owners don't have the freezer space). Russell's team went back to the drawing board with a simple brief: same mission, same human-grade whole ingredients, nothing artificial or synthetic — but shelf-stable.
+          Fresh frozen food solved the quality problem. But it came with two friction points customers kept raising: it was expensive (cold-chain logistics and dry ice aren't cheap), and it was inconvenient (urban dog owners don't have the freezer space). Russell's team went back to the drawing board with a simple brief: same mission, same human-grade whole ingredients, nothing artificial or synthetic, but shelf-stable.
         </Body>
         <Body>
           The result was <strong style={{ color: "#fff" }}>Unkibble</strong>. Using a unique fresh dry process that removes water while preserving nutrients, Unkibble delivers the same quality as fresh frozen at 30–40% less cost. It launched in April 2020 — five people on the team, all dealing with COVID themselves.
@@ -302,23 +302,23 @@ export default function RussellBreuerBlog() {
         </div>
 
         <Body>
-          The timing was fortuitous but not accidental. The team had responded directly to customer feedback. COVID then accelerated every tailwind at once: 23 million dogs were adopted during the pandemic, competing DTC brands pulled back on performance marketing spend, and Spot and Tango was right there — with a more accessible product, at the exact moment demand surged. Unkibble wasn't a pivot; it was a customer-driven product extension that became the engine of the company.
+          The timing was fortuitous but not accidental. The team had responded directly to customer feedback. COVID then accelerated every tailwind at once: 23 million dogs were adopted during the pandemic, competing DTC brands pulled back on performance marketing spend, and Spot and Tango was right there, with a more accessible product, at the exact moment demand surged. Unkibble wasn't a pivot; it was a customer-driven product extension that became the engine of the company.
         </Body>
 
         <Section title="Why Spot and Tango Built Its Own Factory" />
         <Body>
-          At peak outsourcing, Spot and Tango was running six co-manufacturers across the country — full truckloads shipping from East Coast to West Coast, across six different buildings. That model worked at a certain scale. Then it didn't.
+          At peak outsourcing, Spot and Tango was running six co-manufacturers across the country, with full truckloads shipping from East Coast to West Coast, across six different buildings. That model worked at a certain scale. Then it didn't.
         </Body>
         <Body>
           Most DTC brands outsource indefinitely. Russell made the contrarian call to build. In October 2022, Spot and Tango launched its own manufacturing facility in Allentown, Pennsylvania. It now employs over 100 people, has been further automated, and is operating in its third year.
         </Body>
         <Body>
-          "People don't build factories because they're expensive and they're hard," Russell says plainly. "We did it." The decision took two years to execute — office trailers outside the building, a steep manufacturing learning curve, heavy reliance on an institutional investor with factory-building expertise. But the payoff was control: over quality, over margin, over the supply chain at true scale. Owning the factory wasn't a vanity move. It was a necessary one for a company with Spot and Tango's ambitions.
+          "People don't build factories because they're expensive and they're hard," Russell says plainly. "We did it." The decision took two years to execute: office trailers outside the building, a steep manufacturing learning curve, heavy reliance on an institutional investor with factory-building expertise. But the payoff was control: over quality, over margin, over the supply chain at true scale. Owning the factory wasn't a vanity move. It was a necessary one for a company with Spot and Tango's ambitions.
         </Body>
 
         <Section title="Pup Gum: First-of-Its-Kind Dental Innovation" />
         <Body>
-          Spot and Tango was always positioned as a pet health company, not just a food company. Ninety-three percent of dogs aged three and above have periodontal disease. Most dental products on the market use mechanical action — ridges and shapes that scrape plaque — or require expensive vet cleanings. Russell's team saw a white space.
+          Spot and Tango was always positioned as a pet health company, not just a food company. Ninety-three percent of dogs aged three and above have periodontal disease. Most dental products on the market use mechanical action: ridges and shapes that scrape plaque, or require expensive vet cleanings. Russell's team saw a white space.
         </Body>
         <Body>
           <a
@@ -330,23 +330,23 @@ export default function RussellBreuerBlog() {
           >
             Pup Gum
           </a>{" "}
-          combines three elements: mechanical brushing, flaxseed to help clean the surface, and a clinically proven post-biotic that targets the biofilm on dogs' teeth at the source. Biofilm is the root cause of plaque and bad breath — most products mask the symptom. Pup Gum addresses it directly. The product launched in May and sold out in a week and a half. It's available standalone at pupgum.com (including a one-time purchase option, not just subscription) and within the Spot and Tango platform. Russell views it as proof of concept for the company's broader ambition: to be the one-stop shop for pet health across all categories.
+          combines three elements: mechanical brushing, flaxseed to help clean the surface, and a clinically proven post-biotic that targets the biofilm on dogs' teeth at the source. Biofilm is the root cause of plaque and bad breath; most products mask the symptom. Pup Gum addresses it directly. The product launched in May and sold out in a week and a half. It's available standalone at pupgum.com (including a one-time purchase option, not just subscription) and within the Spot and Tango platform. Russell views it as proof of concept for the company's broader ambition: to be the one-stop shop for pet health across all categories.
         </Body>
 
         <Section title="How Spot and Tango Acquires Customers" />
         <Body>
-          Spot and Tango is a lower-funnel, direct response marketing operation. The primary channels are Meta, Google, and TikTok — paid performance advertising where creative quality is everything. "If our creative doesn't break through the noise, we won't be successful," Russell says. "We are in the entertainment business. I've got to compete with clicks from every other e-com brand out there — cat food brands, tennis shoes, t-shirts. Anything in consumer is going to draw the attention of the consumer."
+          Spot and Tango is a lower-funnel, direct response marketing operation. The primary channels are Meta, Google, and TikTok: paid performance advertising where creative quality is everything. "If our creative doesn't break through the noise, we won't be successful," Russell says. "We are in the entertainment business. I've got to compete with clicks from every other e-com brand out there — cat food brands, tennis shoes, t-shirts. Anything in consumer is going to draw the attention of the consumer."
         </Body>
         <Body>
-          The approach is test-and-learn at speed: launch new creative assets, measure customer acquisition cost efficiency, kill what's not working, and double down on what is. The same philosophy extends to product launches. Unkibble's first purchase order sold out in four days — but not because they were certain it would work. They launched it because you can only learn so much from research. Eventually you pull the trigger and get live feedback.
+          The approach is test-and-learn at speed: launch new creative assets, measure customer acquisition cost efficiency, kill what's not working, and double down on what is. The same philosophy extends to product launches. Unkibble's first purchase order sold out in four days, but not because they were certain it would work. They launched it because you can only learn so much from research. Eventually you pull the trigger and get live feedback.
         </Body>
 
         <Section title="Building the Team That Can Scale" />
         <Body>
-          Russell's framework for early hiring is clear: find athletes who can do it all. In the early days, the marketer might handle ops, customer experience, and logistics simultaneously. As the company scales, those generalists give way to specialists with deep functional expertise who unlock specific wins — margin improvements, new distribution channels, better unit economics.
+          Russell's framework for early hiring is clear: find athletes who can do it all. In the early days, the marketer might handle ops, customer experience, and logistics simultaneously. As the company scales, those generalists give way to specialists with deep functional expertise who unlock specific wins: margin improvements, new distribution channels, better unit economics.
         </Body>
         <Body>
-          The two values Russell screens for are empathy and humility. "Traveling overseas and working in London and Europe, I met so many people from very different backgrounds," he says. That exposure, he believes, made him a better manager — and it shaped the culture at Spot and Tango. Russell and his co-founder interview every hire. It's not a formality. They are looking for specific pattern recognition, and no one joins the company without them making the call directly.
+          The two values Russell screens for are empathy and humility. "Traveling overseas and working in London and Europe, I met so many people from very different backgrounds," he says. That exposure, he believes, made him a better manager, and it shaped the culture at Spot and Tango. Russell and his co-founder interview every hire. It's not a formality. They are looking for specific pattern recognition, and no one joins the company without them making the call directly.
         </Body>
 
         <Section title="The Founder's Edge: Grit" />
@@ -354,10 +354,10 @@ export default function RussellBreuerBlog() {
           Asked what advice he would give to an early-stage founder, Russell doesn't hesitate.
         </Body>
         <Quote>
-          "Grit. You need grit. Every founder has a bad day — things break every day. It can be quite an emotional journey, and it&rsquo;s easy to give up and throw in the towel. The people who are successful wake up the next day and get back on the saddle. You look back after 10 days, 25 days, 35 days, and you will have made progress. You may be in a hole — but you may be further out of the hole."
+          "Grit. You need grit. Every founder has a bad day. Things break every day. It can be quite an emotional journey, and it&rsquo;s easy to give up and throw in the towel. The people who are successful wake up the next day and get back on the saddle. You look back after 10 days, 25 days, 35 days, and you will have made progress. You may be in a hole, but you may be further out of the hole."
         </Quote>
         <Body>
-          Eight-plus years in the seat, a nine-figure business, a factory of 100+ employees, two product lines that have each sold out on launch — and the lesson Russell leads with is the same one he'd give himself in 2017: keep showing up. One day at a time, seven days a week.
+          Eight-plus years in the seat, a nine-figure business, a factory of 100+ employees, two product lines that have each sold out on launch, and the lesson Russell leads with is the same one he'd give himself in 2017: keep showing up. One day at a time, seven days a week.
         </Body>
 
         {/* FAQ section */}
@@ -539,7 +539,7 @@ function BioCallout() {
     {
       n: "1",
       title: "Respond to your customers, then move fast",
-      body: "Unkibble wasn't a strategic pivot — it was a direct response to two customer complaints: fresh frozen is too expensive and takes up too much freezer space. That feedback became a product that scaled 10x in six months.",
+      body: "Unkibble wasn't a strategic pivot; it was a direct response to two customer complaints: fresh frozen is too expensive and takes up too much freezer space. That feedback became a product that scaled 10x in six months.",
     },
     {
       n: "2",
@@ -549,7 +549,7 @@ function BioCallout() {
     {
       n: "3",
       title: "Grit compounds over time",
-      body: "Russell's single piece of advice to any founder is grit. Progress isn't always visible day to day — but the founders who wake up, get back on the saddle, and keep building are the ones who look back months later and realize they've dug out of the hole.",
+      body: "Russell's single piece of advice to any founder is grit. Progress isn't always visible day to day, but the founders who wake up, get back on the saddle, and keep building are the ones who look back months later and realize they've dug out of the hole.",
     },
   ];
 

@@ -27,7 +27,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Alex Bean: How the Co-Founder of Divvy Sold to Bill.com and Moved Into Venture Capital",
   description:
-    "Alex Bean, co-founder of Divvy (acquired by Bill.com), shares how growing up in Redmond, playing quarterback, and a conviction in expense management automation led him to build and exit one of fintech's fastest-growing startups — then co-found Tandem Invest.",
+    "Alex Bean, co-founder of Divvy (acquired by Bill.com), shares how growing up in Redmond, playing quarterback, and a conviction in expense management automation led him to build and exit one of fintech's fastest-growing startups. Then co-found Tandem Invest.",
   image: "https://www.gildre.com/images/alex-bean-headshot.webp",
   datePublished: "2024-03-01",
   author: {
@@ -89,7 +89,7 @@ export default function AlexBeanBlog() {
             and Moved Into Venture Capital
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Growing up in Redmond, Washington — blocks from Microsoft and Amazon — Alex Bean learned entrepreneurship from his family before he ever stepped into a boardroom. He went on to co-found Divvy, sell it to Bill.com, and launch Tandem Invest. This is that journey.
+            Growing up in Redmond, Washington (blocks from Microsoft and Amazon), Alex Bean learned entrepreneurship from his family before he ever stepped into a boardroom. He went on to co-found Divvy, sell it to Bill.com, and launch Tandem Invest. This is that journey.
           </p>
 
           {/* Meta row */}
@@ -135,7 +135,7 @@ export default function AlexBeanBlog() {
         </div>
 
         <Body>
-          Growing up in Redmond, Washington, <strong style={{ color: "#fff" }}>Alex Bean</strong> was surrounded by the burgeoning tech giants like Microsoft and Amazon. But it was his family's entrepreneurial spirit that truly ignited his passion for business — a passion that would eventually lead him to co-found Divvy, one of fintech's fastest-growing startups, and sell it to Bill.com before launching his own venture fund.
+          Growing up in Redmond, Washington, <strong style={{ color: "#fff" }}>Alex Bean</strong> was surrounded by the burgeoning tech giants like Microsoft and Amazon. But it was his family's entrepreneurial spirit that truly ignited his passion for business, a passion that would eventually lead him to co-found Divvy, one of fintech's fastest-growing startups, and sell it to Bill.com before launching his own venture fund.
         </Body>
 
         <Section title="The Early Days: A Family Built on Entrepreneurship" />
@@ -143,20 +143,20 @@ export default function AlexBeanBlog() {
           Alex's entrepreneurial roots run deep. His great-grandfather moved to the Pacific Northwest in the 1950s, starting a family business that inspired generations. Alex's father and brothers followed suit, each starting their own ventures. This environment fostered a natural inclination towards entrepreneurship for Alex, who began experimenting with small businesses even in high school.
         </Body>
         <Body>
-          In Redmond, the presence of tech giants like Microsoft and Amazon created a unique ecosystem that nurtured innovation and ambition. The community was buzzing with ideas and opportunities — a fertile ground for young minds eager to make their mark. Combined with his family's entrepreneurial background, this instilled in Alex a deep-seated belief in the potential of entrepreneurship to drive change and create value.
+          In Redmond, the presence of tech giants like Microsoft and Amazon created a unique ecosystem that nurtured innovation and ambition. The community was buzzing with ideas and opportunities, a fertile ground for young minds eager to make their mark. Combined with his family's entrepreneurial background, this instilled in Alex a deep-seated belief in the potential of entrepreneurship to drive change and create value.
         </Body>
 
         <Section title="Lessons from the Field: Quarterback to CEO" />
         <Body>
-          Playing quarterback in high school taught Alex invaluable lessons in leadership and vision — skills that would later prove essential in his entrepreneurial career. He learned the importance of having a clear vision and the ability to rally people around a common goal, much like leading a football team.
+          Playing quarterback in high school taught Alex invaluable lessons in leadership and vision, skills that would later prove essential in his entrepreneurial career. He learned the importance of having a clear vision and the ability to rally people around a common goal, much like leading a football team.
         </Body>
         <Body>
-          In business, as in sports, the ability to pivot and adapt to changing circumstances is crucial. Alex often draws parallels between the two — emphasizing how the discipline and teamwork required on the field translate seamlessly into the boardroom. Resilience, the willingness to call a new play when the first one fails, and the ability to inspire a team around a shared outcome — these are just as valuable at a startup as they are at the line of scrimmage.
+          In business, as in sports, the ability to pivot and adapt to changing circumstances is crucial. Alex often draws parallels between the two, emphasizing how the discipline and teamwork required on the field translate seamlessly into the boardroom. Resilience, the willingness to call a new play when the first one fails, and the ability to inspire a team around a shared outcome — these are just as valuable at a startup as they are at the line of scrimmage.
         </Body>
 
         <Section title="The Leap into Entrepreneurship: Selling Before the Product Existed" />
         <Body>
-          After studying geography at BYU, Alex's career path took him through various sales roles, where he honed his skills in driving revenue and understanding product-market fit. His big break came with the co-founding of <strong style={{ color: "#fff" }}>Divvy</strong> — a financial services company that automated expense management for businesses.
+          After studying geography at BYU, Alex's career path took him through various sales roles, where he honed his skills in driving revenue and understanding product-market fit. His big break came with the co-founding of <strong style={{ color: "#fff" }}>Divvy</strong>, a financial services company that automated expense management for businesses.
         </Body>
         <Body>
           What's remarkable about Divvy's early days is that Alex was selling the concept before the product was even built. His ability to get customers to commit to something that didn't yet exist was a testament to his sales acumen, his conviction in the idea, and his skill at articulating a vision that others immediately understood. For founders, this is one of the most important early-stage skills: selling the future, not just the present.
@@ -180,10 +180,10 @@ export default function AlexBeanBlog() {
 
         <Section title="Building Divvy: Innovation, Scale, and Acquisition" />
         <Body>
-          Divvy's success was not without its challenges. Alex and his team navigated the complexities of scaling a startup — from hiring the right people to managing explosive growth and securing funding. Their innovative approach of combining a corporate credit card with expense management software set them apart in the market, creating a product that was genuinely differentiated rather than iterative.
+          Divvy's success was not without its challenges. Alex and his team navigated the complexities of scaling a startup, from hiring the right people to managing explosive growth and securing funding. Their innovative approach of combining a corporate credit card with expense management software set them apart in the market, creating a product that was genuinely differentiated rather than iterative.
         </Body>
         <Body>
-          As Divvy grew, Alex faced the challenge of maintaining the company's culture and values while scaling operations. He emphasizes the importance of hiring individuals who not only possess the necessary skills but also align with the company's mission. Culture isn't a side project — it's a competitive advantage. The team you build in the first 20 hires sets the tone for everything that follows.
+          As Divvy grew, Alex faced the challenge of maintaining the company's culture and values while scaling operations. He emphasizes the importance of hiring individuals who not only possess the necessary skills but also align with the company's mission. Culture isn't a side project; it's a competitive advantage. The team you build in the first 20 hires sets the tone for everything that follows.
         </Body>
         <Body>
           The journey culminated in a successful acquisition by <strong style={{ color: "#fff" }}>Bill.com</strong> — one of fintech's landmark exits and a validation of everything Alex and his team had built. For the entrepreneurial community, Divvy's journey highlights the importance of innovation, resilience, and strategic positioning in achieving a successful outcome.
@@ -217,7 +217,7 @@ export default function AlexBeanBlog() {
 
         <Section title="A New Chapter: From Founder to Investor at Tandem Invest" />
         <Body>
-          Post-Divvy, Alex transitioned into venture capital, co-founding <strong style={{ color: "#fff" }}>Tandem Invest</strong>. His focus is on helping other entrepreneurs succeed — investing in promising early-stage startups and sharing the hard-won experience that comes from having built and exited a company himself.
+          Post-Divvy, Alex transitioned into venture capital, co-founding <strong style={{ color: "#fff" }}>Tandem Invest</strong>. His focus is on helping other entrepreneurs succeed, investing in promising early-stage startups and sharing the hard-won experience that comes from having built and exited a company himself.
         </Body>
         <Body>
           In his role as a venture capitalist, Alex is committed to supporting founders who are passionate about their ideas and have the potential to make a significant impact. He believes in the power of mentorship and collaboration, working closely with entrepreneurs to help them navigate the challenges of building a business. For the entrepreneurial community, Alex's hands-on approach to venture capital serves as a model for what founder-first investing looks like in practice.
@@ -225,7 +225,7 @@ export default function AlexBeanBlog() {
 
         <Section title="What Alex Looks for in Founders" />
         <Body>
-          Having been a founder himself, Alex brings a unique lens to evaluating startups. He looks for conviction — founders who believe so deeply in what they're building that they'd do it regardless of the outcome. He looks for product-market fit signals, not just TAM slides. And he looks for teams who know how to sell, even before they have something to show.
+          Having been a founder himself, Alex brings a unique lens to evaluating startups. He looks for conviction: founders who believe so deeply in what they're building that they'd do it regardless of the outcome. He looks for product-market fit signals, not just TAM slides. And he looks for teams who know how to sell, even before they have something to show.
         </Body>
         <Body>
           His journey is a reminder that the skills that build great companies — vision, resilience, the ability to inspire others, and the willingness to take calculated risks — are the same skills that make great investors. The best VCs are the ones who've felt the weight of making payroll.
@@ -233,7 +233,7 @@ export default function AlexBeanBlog() {
 
         <Section title="The Takeaway" />
         <Body>
-          Alex Bean's story — from the entrepreneurial households of Redmond, to the football fields of high school, to co-founding a fintech company that was acquired by Bill.com, to backing the next generation of founders at Tandem Invest — is a masterclass in compounding the right experiences over time.
+          Alex Bean's story, from the entrepreneurial households of Redmond, to the football fields of high school, to co-founding a fintech company that was acquired by Bill.com, to backing the next generation of founders at Tandem Invest, is a masterclass in compounding the right experiences over time.
         </Body>
         <Body>
           Success is not just about the destination. It's about the discipline built on the field, the product conviction built before the first line of code, the culture built in the first hire, and the wisdom built through every exit and every mistake along the way.
