@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Steve Ramona: The Servant's Heart Business Philosophy That Turned a Gym Front Desk Into Millions",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Podcaster and entrepreneur Steve Ramona on the ASLA networking principle — Ask, Shut Up, Listen Actively, Ask Again — and how 20 years behind a health club front desk built the network that launched a restaurant, a recycling empire, and a 31,000-subscriber podcast.",
+    href: "/blog/steve-ramona-servant-heart-podcast-networking",
+  },
+  {
     title: "Sharon Gai: From Alibaba Head of Global Accounts to International Keynote Speaker on the Future of AI and Work",
     category: "Growth",
     readTime: "13 min read",
