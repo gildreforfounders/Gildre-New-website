@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Frances Pratt: From the Ritz Carlton to $18M Exit — The Author of More Sales Less Marketing on Why Founders Who Hate Selling Are Doing It Wrong",
+    category: "Growth",
+    readTime: "13 min read",
+    excerpt:
+      "Melbourne sales consultant and author Frances Pratt on the Wizard of Oz sales framework, why sales always comes before marketing, and what firing a $2M bully client taught her about building on your own terms.",
+    href: "/blog/frances-pratt-more-sales-less-marketing",
+  },
+  {
     title: "Steve Ramona: The Servant's Heart Business Philosophy That Turned a Gym Front Desk Into Millions",
     category: "Growth",
     readTime: "12 min read",
