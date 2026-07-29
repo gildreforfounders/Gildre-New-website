@@ -222,16 +222,16 @@ export default function FrancesPrattBlog() {
         </Body>
 
         {/* Headshot */}
-        <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        <div className="my-12 overflow-hidden rounded-2xl mx-auto" style={{ border: "1px solid rgba(201,169,110,0.15)", maxWidth: "340px" }}>
           <Image
             src="/images/frances-pratt-headshot.jpeg"
             alt="Frances Pratt, author of More Sales Less Marketing and sales consultant based in Melbourne"
-            width={800}
-            height={800}
+            width={340}
+            height={340}
             quality={90}
-            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            sizes="340px"
             className="w-full object-cover"
-            style={{ maxHeight: "500px", objectPosition: "center top" }}
+            style={{ objectPosition: "center top" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
@@ -302,16 +302,16 @@ export default function FrancesPrattBlog() {
         </Body>
 
         {/* Book photo */}
-        <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        <div className="my-14 overflow-hidden rounded-2xl mx-auto" style={{ border: "1px solid rgba(201,169,110,0.15)", maxWidth: "300px" }}>
           <Image
             src="/images/frances-pratt-book.jpeg"
             alt="Frances Pratt holding her book More Sales Less Marketing"
-            width={800}
-            height={900}
+            width={300}
+            height={432}
             quality={90}
-            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            sizes="300px"
             className="w-full object-cover"
-            style={{ maxHeight: "540px", objectFit: "cover", objectPosition: "center center" }}
+            style={{ objectFit: "cover", objectPosition: "center top" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>

@@ -242,16 +242,16 @@ export default function ChrisYehBlog() {
         </p>
 
         {/* Headshot */}
-        <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        <div className="my-12 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "600px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/chris-yeh-headshot.jpeg"
             alt="Chris Yeh, co-author of Blitzscaling and Venture Partner at Blitzscaling Ventures"
-            width={800}
-            height={800}
+            width={600}
+            height={900}
             quality={90}
-            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            sizes="(max-width: 640px) 100vw, 600px"
             className="w-full object-cover"
-            style={{ maxHeight: "520px", objectPosition: "center top" }}
+            style={{ maxHeight: "520px", objectFit: "cover", objectPosition: "center top" }
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
@@ -259,6 +259,7 @@ export default function ChrisYehBlog() {
             </p>
           </div>
         </div>
+
 
         <BioCallout />
 

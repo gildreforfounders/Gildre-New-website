@@ -212,16 +212,16 @@ export default function SteveRamonaBlog() {
         </Body>
 
         {/* Headshot */}
-        <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        <div className="my-12 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "660px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/steve-ramona-headshot.jpeg"
             alt="Steve Ramona, host of Doing Business with a Servant's Heart podcast"
-            width={800}
-            height={800}
+            width={660}
+            height={660}
             quality={90}
-            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            sizes="(max-width: 700px) 100vw, 660px"
             className="w-full object-cover"
-            style={{ maxHeight: "500px", objectPosition: "center top" }}
+            style={{ maxHeight: "500px", objectFit: "cover", objectPosition: "center top" }
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
@@ -229,6 +229,7 @@ export default function SteveRamonaBlog() {
             </p>
           </div>
         </div>
+
 
         <BioCallout />
 
@@ -295,16 +296,16 @@ export default function SteveRamonaBlog() {
         </Body>
 
         {/* Podcast / full body photo */}
-        <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        <div className="my-14 overflow-hidden rounded-2xl mx-auto" style={{ border: "1px solid rgba(201,169,110,0.15)", maxWidth: "660px" }}>
           <Image
             src="/images/steve-ramona-podcast.jpeg"
             alt="Steve Ramona holding a microphone — host of Doing Business with a Servant's Heart"
-            width={800}
-            height={1000}
+            width={660}
+            height={825}
             quality={90}
-            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            sizes="(max-width: 700px) 100vw, 660px"
             className="w-full object-cover"
-            style={{ maxHeight: "600px", objectFit: "cover", objectPosition: "center top" }}
+            style={{ maxHeight: "580px", objectFit: "cover", objectPosition: "center top" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>

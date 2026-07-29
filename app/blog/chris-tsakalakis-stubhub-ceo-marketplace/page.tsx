@@ -258,16 +258,16 @@ export default function ChrisTsakalakisBlog() {
         </p>
 
         {/* Headshot */}
-        <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        <div className="my-12 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "620px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/chris-tsakalakis-headshot.jpeg"
             alt="Chris Tsakalakis, former President and CEO of StubHub"
-            width={800}
-            height={800}
+            width={620}
+            height={620}
             quality={90}
-            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            sizes="(max-width: 660px) 100vw, 620px"
             className="w-full object-cover"
-            style={{ maxHeight: "500px", objectPosition: "center top" }}
+            style={{ maxHeight: "500px", objectFit: "cover", objectPosition: "center top" }
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
@@ -275,6 +275,7 @@ export default function ChrisTsakalakisBlog() {
             </p>
           </div>
         </div>
+
 
         <BioCallout />
 
