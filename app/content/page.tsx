@@ -43,12 +43,12 @@ const categories = [
 
 const featured = [
   {
-    title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvee — the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
+    title: "Christof Gomez Mannfeld: The Bosch Engineer Who Got Fired and Built solvee — the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
     category: "Product",
     readTime: "12 min read",
     excerpt:
-      "Christof Gomez Manfeld on seven years at Bosch, getting fired, moving his whole family to Spain, and building Solvee: an AI accelerator that learns your specific business and guides you through 43 structured steps based on validation, not assumptions.",
-    href: "/blog/christof-gomez-manfeld-solvee-ai-business-coach",
+      "Christof Gomez Mannfeld on seven years at Bosch, getting fired, moving his whole family to Spain, and building solvee: an AI accelerator that learns your specific business and guides you through 43 structured steps based on validation, not assumptions.",
+    href: "/blog/christof-gomez-mannfeld-solvee-ai-business-coach",
   },
   {
     title: "Florian Kemmerich: The Impact Investor Who Left the Olympics, Crossed Five Languages, and Built an AI Platform to Help 54 Million People Find Their Vocation",
