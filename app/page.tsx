@@ -243,7 +243,7 @@ const faqSchema = {
       "name": "What is Gildre?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre is a private startup founder community offering curated 1:1 mentorship, peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR. Gildre does not take equity — it is a membership-based community, not an accelerator. Members get matched with exited founders, connected with stage-matched peers, and given access to 100+ annual events across 15+ US cities."
+        "text": "Gildre is a private startup founder community offering curated 1:1 mentorship, peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR. Gildre does not take equity; it is a membership-based community, not an accelerator. Members get matched with exited founders, connected with stage-matched peers, and given access to 100+ annual events across 15+ US cities."
       }
     },
     {
@@ -267,7 +267,7 @@ const faqSchema = {
       "name": "How does 1:1 mentorship work at Gildre?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre's 1:1 mentorship is available at Gold and Platinum tiers. After onboarding, the Gildre team personally curates a mentor match based on your industry, stage, and goals. Mentors are exited founders and domain operators — not coaches or consultants. Mentor-founder sessions happen 1–2 times per month and typically last 4–5 months before Gildre optimizes a new pairing. Platinum members receive a dedicated senior mentor with domain expertise in their specific space."
+        "text": "Gildre's 1:1 mentorship is available at Gold and Platinum tiers. After onboarding, the Gildre team personally curates a mentor match based on your industry, stage, and goals. Mentors are exited founders and domain operators, not coaches or consultants. Mentor-founder sessions happen 1–2 times per month and typically last 4–5 months before Gildre optimizes a new pairing. Platinum members receive a dedicated senior mentor with domain expertise in their specific space."
       }
     },
     {
@@ -283,7 +283,7 @@ const faqSchema = {
       "name": "Who are Gildre's mentors?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre's mentor network includes 20+ operators, exited founders, and executives. Highlighted mentors include Fritz Lanman (CEO of ClassPass/Mindbody, led Microsoft's $240M Facebook investment in 2007), Diana Stepner (VP Product at Chan Zuckerberg Initiative, former Kayak and Monster), Sam Bradley (Director of Product at PayPal), Krishna Dosapati (Founder of Clockout — $1.1M ARR in 10 months), and Jason Jacobsohn (Managing Partner at Propellant Ventures, Director of Chicago Founder Institute)."
+        "text": "Gildre's mentor network includes 20+ operators, exited founders, and executives. Highlighted mentors include Fritz Lanman (CEO of ClassPass/Mindbody, led Microsoft's $240M Facebook investment in 2007), Diana Stepner (VP Product at Chan Zuckerberg Initiative, former Kayak and Monster), Sam Bradley (Director of Product at PayPal), Krishna Dosapati (Founder of Clockout, $1.1M ARR in 10 months), and Jason Jacobsohn (Managing Partner at Propellant Ventures, Director of Chicago Founder Institute)."
       }
     },
     {
@@ -299,7 +299,7 @@ const faqSchema = {
       "name": "What cities does Gildre operate in?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events — dinners, happy hours, and co-working sessions — are hosted quarterly in each city for Gold and Platinum members."
+        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events (dinners, happy hours, and co-working sessions) are hosted quarterly in each city for Gold and Platinum members."
       }
     },
     {
@@ -315,7 +315,7 @@ const faqSchema = {
       "name": "What are Innovation Roundtables?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Innovation Roundtables are intimate, founder-only sessions of 12 or fewer people, led by an Executive Mentor on a specific operational topic. They are designed for deep, realistic conversations — founders sharing real successes and struggles, not polished presentations. Gildre hosts these monthly, with topics determined by each Executive Mentor's domain expertise."
+        "text": "Innovation Roundtables are intimate, founder-only sessions of 12 or fewer people, led by an Executive Mentor on a specific operational topic. They are designed for deep, realistic conversations: founders sharing real successes and struggles, not polished presentations. Gildre hosts these monthly, with topics determined by each Executive Mentor's domain expertise."
       }
     }
   ]

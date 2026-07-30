@@ -30,7 +30,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
     url: `https://www.gildre.com/${data.slug}`,
     logo: "https://www.gildre.com/images/gildre-logo.png",
     image: "https://www.gildre.com/images/gildre-logo.png",
-    description: `Gildre is a private founder membership community in ${data.name}, ${data.state}. Gildre ${data.name} hosts monthly founder dinners${data.neighborhood ? ` in ${data.neighborhood}` : ""} for tech CEOs and early-stage startup founders — alongside weekly curated peer matches, expert mentorship, and warm investor introductions.`,
+    description: `Gildre is a private founder membership community in ${data.name}, ${data.state}. Gildre ${data.name} hosts monthly founder dinners${data.neighborhood ? ` in ${data.neighborhood}` : ""} for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.`,
     knowsAbout: [
       "Founder Peer Groups",
       "Startup Mentorship",
@@ -243,7 +243,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
                 Gildre {data.name} hosts monthly founder dinners{data.neighborhood ? ` in ${data.neighborhood}` : ""} for tech CEOs and startup founders.
               </p>
               <p className="mt-1 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Members also attend curated peer roundtables, expert-led workshops, and investor access events throughout the year — all exclusive to Gildre members in {data.name}.
+                Members also attend curated peer roundtables, expert-led workshops, and investor access events throughout the year, all exclusive to Gildre members in {data.name}.
               </p>
             </div>
           </div>

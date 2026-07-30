@@ -17,7 +17,7 @@ const values = [
   {
     num: "04",
     title: "Community for All",
-    body: "At Gildre we want to foster a community of helping others. The Gildre community is a place where you can make meaningful connections, learn new things, and find solutions to your problems. We want you to use the community for all that it has to offer — but to keep the community healthy and vibrant, it's also important to give back. Ask yourself who you can help, what lessons you can share, and how you can be a mentor, teacher, and advocate for your fellow members.",
+    body: "At Gildre we want to foster a community of helping others. The Gildre community is a place where you can make meaningful connections, learn new things, and find solutions to your problems. We want you to use the community for all that it has to offer, but to keep the community healthy and vibrant, it's also important to give back. Ask yourself who you can help, what lessons you can share, and how you can be a mentor, teacher, and advocate for your fellow members.",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function MissionSection() {
         {/* Intro copy */}
         <div className="mx-auto mt-8 max-w-2xl space-y-5 text-center">
           <p className="text-base leading-[1.9] text-zinc-400">
-            At Gildre, we believe every startup founder deserves a real community — not a database, not a directory, but experienced mentors, peer operators, and a support system built around{" "}
+            At Gildre, we believe every startup founder deserves a real community, not a database, not a directory, but experienced mentors, peer operators, and a support system built around{" "}
             <span className="font-semibold text-white">&ldquo;Community for All&rdquo;</span>.
           </p>
           <p className="text-base leading-[1.9] text-zinc-400">

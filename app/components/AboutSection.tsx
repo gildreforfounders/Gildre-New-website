@@ -83,7 +83,7 @@ export default function AboutSection() {
             <span style={{ color: "#C9A96E" }}>Who Built</span> Gildre
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-zinc-400">
-            We have been in your shoes — raising capital, building teams, and figuring it out on the fly. We created Gildre because we wished it had existed when we needed it most.
+            We have been in your shoes, raising capital, building teams, and figuring it out on the fly. We created Gildre because we wished it had existed when we needed it most.
           </p>
         </div>
 

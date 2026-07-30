@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/building-products-that-scale" },
   title: "Building Products That Scale: Lessons from ClassPass CEO Fritz Lanman | Gildre",
   description:
-    "How to build products designed for scale from the start — infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody, and from the Gildre founder community.",
+    "How to build products designed for scale from the start: infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody, and from the Gildre founder community.",
   keywords: [
     "how to build scalable products",
     "product scaling startup",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Building Products That Scale: Lessons from ClassPass CEO Fritz Lanman",
     description:
-      "How to build products designed for scale from the start — infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody.",
+      "How to build products designed for scale from the start: infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody.",
     type: "article",
     url: "https://www.gildre.com/guides/building-products-that-scale",
     images: [{ url: "https://www.gildre.com/images/fritz-lanman-speaking-stage.webp" }],
@@ -35,7 +35,7 @@ const schema = {
   "@type": "Article",
   headline: "Building Products That Scale: Infrastructure, MVPs, and Customer Design — Lessons from Fritz Lanman and ClassPass",
   description:
-    "How to build products designed for scale from the start — infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody.",
+    "How to build products designed for scale from the start: infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody.",
   image: "https://www.gildre.com/images/fritz-lanman-speaking-stage.webp",
   author: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
   publisher: {
@@ -68,11 +68,11 @@ const schema = {
 const faqs = [
   {
     q: "What makes a product scalable?",
-    a: "A scalable product has three properties: infrastructure that handles increased load without performance degradation (horizontal scaling, caching, database optimization), a modular architecture that accommodates new features and integrations without full rebuilds, and operational processes that stay efficient as the team grows. All three are design decisions made early — not retrofits applied after growth reveals the problem.",
+    a: "A scalable product has three properties: infrastructure that handles increased load without performance degradation (horizontal scaling, caching, database optimization), a modular architecture that accommodates new features and integrations without full rebuilds, and operational processes that stay efficient as the team grows. All three are design decisions made early, not retrofits applied after growth reveals the problem.",
   },
   {
     q: "What is an MVP in startup product development?",
-    a: "A Minimum Viable Product (MVP) is the smallest version of a product that delivers enough value for real users to experience its core proposition. The goal is not to build the cheapest version of your full vision — it is to generate real behavioral data from real users that validates or invalidates your key assumptions before you invest further. An MVP that nobody uses is not an MVP; it is a prototype.",
+    a: "A Minimum Viable Product (MVP) is the smallest version of a product that delivers enough value for real users to experience its core proposition. The goal is not to build the cheapest version of your full vision; it is to generate real behavioral data from real users that validates or invalidates your key assumptions before you invest further. An MVP that nobody uses is not an MVP; it is a prototype.",
   },
   {
     q: "What is customer-centric product design?",
@@ -80,11 +80,11 @@ const faqs = [
   },
   {
     q: "How did ClassPass scale its product?",
-    a: "ClassPass, led by CEO Fritz Lanman, scaled by investing in a robust, modular backend architecture early rather than building fast and refactoring later. This allowed the platform to onboard new fitness partners, expand into new markets, and introduce new inventory types (gym access, spa, beauty services) without requiring full rebuilds — a key enabler of the company's global expansion and $285M Series E.",
+    a: "ClassPass, led by CEO Fritz Lanman, scaled by investing in a robust, modular backend architecture early rather than building fast and refactoring later. This allowed the platform to onboard new fitness partners, expand into new markets, and introduce new inventory types (gym access, spa, beauty services) without requiring full rebuilds, a key enabler of the company's global expansion and $285M Series E.",
   },
   {
     q: "What is the biggest product mistake early-stage founders make?",
-    a: "The most common mistake is building features instead of validating assumptions. Founders frequently build what they think users want rather than what behavioral data shows users actually need. The result is a product with many features and low retention — a sign that the core job-to-be-done was never clearly identified. Delay any feature beyond your core value proposition until at least 50–100 users demonstrate consistent, unprompted return usage.",
+    a: "The most common mistake is building features instead of validating assumptions. Founders frequently build what they think users want rather than what behavioral data shows users actually need. The result is a product with many features and low retention, a sign that the core job-to-be-done was never clearly identified. Delay any feature beyond your core value proposition until at least 50–100 users demonstrate consistent, unprompted return usage.",
   },
 ];
 
@@ -264,7 +264,7 @@ export default function BuildingProductsThatScaleGuide() {
               Building Products That Scale: Lessons from ClassPass and Mindbody CEO Fritz Lanman
             </h1>
             <p className="mt-5 text-lg leading-relaxed" style={{ color: "rgba(255,255,255,0.62)", maxWidth: "640px" }}>
-              Scaling a product isn&apos;t just about growth — it&apos;s about building something that
+              Scaling a product isn&apos;t just about growth; it&apos;s about building something that
               stays effective as it grows. The founders who get this right make specific structural
               decisions early. Here&apos;s what those decisions look like.
             </p>
@@ -275,7 +275,7 @@ export default function BuildingProductsThatScaleGuide() {
         <article className="mx-auto max-w-3xl px-6 pb-24 pt-10">
 
           <Body>
-            Most early-stage founders think about scaling as a future problem — something to solve
+            Most early-stage founders think about scaling as a future problem, something to solve
             after product-market fit, after the first significant revenue milestone, after the team
             is bigger. The founders who build companies that actually scale think about it differently:
             scaling is a design constraint from day one, not a phase that comes later.
@@ -283,14 +283,14 @@ export default function BuildingProductsThatScaleGuide() {
 
           <Body>
             <EL href="https://classpass.com">Fritz Lanman</EL>&apos;s trajectory across <EL href="https://classpass.com">ClassPass</EL> and <EL href="https://www.mindbodyonline.com">Mindbody</EL> offers one of the clearest
-            illustrations of this principle in practice. ClassPass didn&apos;t just grow — it grew into
+            illustrations of this principle in practice. ClassPass didn&apos;t just grow; it grew into
             a category it helped define, across thousands of fitness partners and millions of members,
             without the backend becoming the thing that held it back. That kind of growth is not
             accidental. It reflects a set of deliberate product decisions made early and consistently.
           </Body>
 
           <KeyTakeaway>
-            Scalable products share three design properties: infrastructure that handles load without degradation, architecture that evolves without full rebuilds, and processes that stay efficient as the team grows. All three are decisions made at the beginning — not problems solved after the fact.
+            Scalable products share three design properties: infrastructure that handles load without degradation, architecture that evolves without full rebuilds, and processes that stay efficient as the team grows. All three are decisions made at the beginning, not problems solved after the fact.
           </KeyTakeaway>
 
           {/* Fritz photo */}
@@ -312,7 +312,7 @@ export default function BuildingProductsThatScaleGuide() {
               <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.62)", fontStyle: "italic" }}>
                 &ldquo;By prioritizing a robust backend and flexible design from the start, ClassPass could
                 rapidly expand its services without the infrastructure becoming the constraint on growth.
-                Scalability isn&apos;t a phase — it&apos;s a design decision.&rdquo;
+                Scalability isn&apos;t a phase; it&apos;s a design decision.&rdquo;
               </p>
               <p className="mt-3 text-xs font-bold" style={{ color: "#C9A96E" }}>
                 Fritz Lanman — CEO, ClassPass &amp; Mindbody · Gildre Member
@@ -326,7 +326,7 @@ export default function BuildingProductsThatScaleGuide() {
           <Body>
             Scaling is a word that gets used loosely. In product terms, it means something specific:
             your product maintains its efficiency, reliability, and user value as demand grows. More
-            users, more transactions, more data — none of it should degrade the experience or require
+            users, more transactions, more data: none of it should degrade the experience or require
             a complete rebuild to accommodate.
           </Body>
 
@@ -345,14 +345,13 @@ export default function BuildingProductsThatScaleGuide() {
             </PrincipleCard>
             <PrincipleCard number="Architecture" title="A codebase that can evolve without collapsing">
               Modular design and well-documented APIs allow new features and third-party integrations
-              to be added without breaking existing functionality. Microservices architecture — where
-              discrete parts of the product run as independent services — is particularly effective
+              to be added without breaking existing functionality. Microservices architecture, where
+              discrete parts of the product run as independent services, is particularly effective
               for scaling because failures in one area don&apos;t cascade across the system, and teams
               can deploy updates to individual services without coordinating full-stack releases.
             </PrincipleCard>
             <PrincipleCard number="Operations" title="Processes that scale with the team, not against it">
-              As the product grows, so do the teams building it. Operational processes — development
-              workflows, QA processes, deployment pipelines, communication structures — need to
+              As the product grows, so do the teams building it. Operational processes (development workflows, QA processes, deployment pipelines, communication structures) need to
               stay lean and clear even as headcount increases. Agile methodologies, automated testing,
               and continuous integration pipelines exist precisely to prevent the operational overhead
               of growth from eating the speed advantage that made a startup fast in the first place.
@@ -361,7 +360,7 @@ export default function BuildingProductsThatScaleGuide() {
 
           <Callout title="The ClassPass pattern">
             <Body>
-              When ClassPass entered a new city, it wasn&apos;t rebuilding the product — it was
+              When ClassPass entered a new city, it wasn&apos;t rebuilding the product; it was
               extending a system already designed to accommodate new partners, new markets, and new
               inventory types. That&apos;s what scalable architecture looks like in practice: the
               hard engineering work is done upfront so that growth becomes a configuration change,
@@ -372,20 +371,19 @@ export default function BuildingProductsThatScaleGuide() {
           {/* Section 2: MVP */}
           <H2>How Should Founders Use the MVP Approach to Build for Scale?</H2>
           <KeyTakeaway>
-            A Minimum Viable Product should test your single riskiest assumption, not showcase your full product vision. The goal is to generate real behavioral data from real users on the smallest possible build — not to demonstrate how much you've built or how complete the product feels.
+            A Minimum Viable Product should test your single riskiest assumption, not showcase your full product vision. The goal is to generate real behavioral data from real users on the smallest possible build, not to demonstrate how much you've built or how complete the product feels.
           </KeyTakeaway>
 
           <Body>
             A Minimum Viable Product is not a stripped-down version of your full vision. It&apos;s a
-            deliberately scoped version of the core value proposition — the smallest thing you can
+            deliberately scoped version of the core value proposition: the smallest thing you can
             build that lets a real user solve a real problem. The goal isn&apos;t to launch something
             cheap. It&apos;s to learn before you build things that don&apos;t matter.
           </Body>
 
           <Body>
             The MVP discipline is what separates founders who scale from founders who rebuild.
-            When you know exactly what your users value — because you watched them use a minimal
-            version of it — you invest your engineering resources in the right places.
+            When you know exactly what your users value, because you watched them use a minimal version of it, you invest your engineering resources in the right places.
             Here&apos;s how to run an MVP process that produces real signal:
           </Body>
 
@@ -402,7 +400,7 @@ export default function BuildingProductsThatScaleGuide() {
             </MVPStep>
             <MVPStep step={3} title="Launch to a small, honest group">
               Early adopters who will tell you what doesn&apos;t work are more valuable than enthusiastic
-              supporters who won&apos;t. Release to a group willing to be critical — early customers,
+              supporters who won&apos;t. Release to a group willing to be critical: early customers,
               a founder community, or a niche audience where your product either solves the problem
               or clearly doesn&apos;t.
             </MVPStep>
@@ -418,13 +416,13 @@ export default function BuildingProductsThatScaleGuide() {
             </MVPStep>
             <MVPStep step={6} title="Track the metrics that measure the core value">
               Define success metrics before you launch, not after. Engagement rate, retention at
-              Day 7 and Day 30, time-to-value for new users — whatever measures whether the core
+              Day 7 and Day 30, time-to-value for new users: whatever measures whether the core
               problem is actually being solved. Vanity metrics (signups, page views) tell you about
               marketing. Retention tells you about product.
             </MVPStep>
             <MVPStep step={7} title="Pivot when the data says to, not when pride says not to">
               The hardest MVP lesson is that a negative result is still a result. If users aren&apos;t
-              retaining, the product isn&apos;t solving the problem — and the answer is to change
+              retaining, the product isn&apos;t solving the problem; the answer is to change
               something meaningful, not to acquire more users into a leaky bucket.
             </MVPStep>
           </div>
@@ -438,19 +436,19 @@ export default function BuildingProductsThatScaleGuide() {
           <Body>
             Scalable architecture gets you the capacity to grow. Customer-centric design is what
             gives you the reason to. The products that achieve long-term scale aren&apos;t just
-            technically capable of handling more users — they become more valuable as they grow
+            technically capable of handling more users; they become more valuable as they grow
             because they were designed around real human needs from the start.
           </Body>
 
           <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
             <DesignPillar icon="🎯" title="Start with the user's job to be done">
-              Users don&apos;t buy products — they hire them to do something. ClassPass wasn&apos;t hired
+              Users don&apos;t buy products; they hire them to do something. ClassPass wasn&apos;t hired
               because users wanted a fitness membership; it was hired because they wanted variety
               and flexibility without commitment. Understanding the job precisely determines what
               you build, what you deprioritize, and what &quot;done&quot; looks like for your user.
             </DesignPillar>
             <DesignPillar icon="🔁" title="Build feedback loops into the product itself">
-              The best products are designed to surface user signal continuously — through NPS
+              The best products are designed to surface user signal continuously: through NPS
               prompts, usage analytics, in-app feedback mechanisms, and structured customer
               interviews. Don&apos;t treat user research as a phase. Treat it as an ongoing function
               of the product team.
@@ -475,7 +473,7 @@ export default function BuildingProductsThatScaleGuide() {
               result compounds: you build faster because you&apos;re building less, you iterate better
               because your feedback loops are tight, and you scale without rebuilding because the
               architecture was designed to accommodate growth from the start. This is how ClassPass
-              expanded from one city to a global platform — not through brute-force engineering
+              expanded from one city to a global platform, not through brute-force engineering
               effort, but through early decisions that made each subsequent expansion cheaper and faster.
             </Body>
           </Callout>
@@ -485,7 +483,7 @@ export default function BuildingProductsThatScaleGuide() {
 
           <Body>
             Principles for building scalable products are widely available. What&apos;s harder to find
-            is judgment — the ability to apply those principles to your specific situation, market,
+            is judgment: the ability to apply those principles to your specific situation, market,
             and team. That kind of judgment comes from people who&apos;ve made the decisions before you.
           </Body>
 
@@ -493,7 +491,7 @@ export default function BuildingProductsThatScaleGuide() {
             Fritz Lanman is part of the Gildre community precisely because of what he can offer
             founders working through these questions: not just what ClassPass did, but why, and what
             he would do differently. The same is true of the other seasoned operators and executives
-            in the Gildre network — founders who&apos;ve navigated the transition from early product to
+            in the Gildre network, founders who&apos;ve navigated the transition from early product to
             scaled platform and can tell you where the standard advice breaks down.
           </Body>
 

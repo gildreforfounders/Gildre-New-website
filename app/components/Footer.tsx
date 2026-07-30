@@ -147,7 +147,7 @@ export default function Footer() {
                   The Essential Founder Newsletter
                 </p>
                 <p className="mt-0.5 text-xs text-zinc-500">
-                  Insights, resources, and stories for founders — delivered to your inbox.
+                  Insights, resources, and stories for founders, delivered to your inbox.
                 </p>
               </div>
             </div>

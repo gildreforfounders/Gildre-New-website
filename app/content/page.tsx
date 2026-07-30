@@ -25,7 +25,7 @@ const categories = [
     slug: "leadership",
     label: "Leadership",
     icon: "🧭",
-    description: "Hiring, culture, managing yourself — the hard stuff nobody talks about.",
+    description: "Hiring, culture, managing yourself: the hard stuff nobody talks about.",
   },
   {
     slug: "product",
@@ -47,7 +47,7 @@ const featured = [
     category: "Product",
     readTime: "12 min read",
     excerpt:
-      "Christof Gomez Manfeld on seven years at Bosch, getting fired, moving his whole family to Spain, and building Solvi — an AI accelerator that learns your specific business and guides you through 43 structured steps based on validation, not assumptions.",
+      "Christof Gomez Manfeld on seven years at Bosch, getting fired, moving his whole family to Spain, and building Solvi: an AI accelerator that learns your specific business and guides you through 43 structured steps based on validation, not assumptions.",
     href: "/blog/christof-gomez-manfeld-solvi-ai-business-coach",
   },
   {
@@ -55,7 +55,7 @@ const featured = [
     category: "Mindset",
     readTime: "14 min read",
     excerpt:
-      "Florian Kemmerich on walking away from the 1992 Barcelona Olympics, the coaching session at 33 that changed everything, investing in 100+ companies across 30 countries, and why he built Vocating AI — an agentic platform that refuses to tell you what to do.",
+      "Florian Kemmerich on walking away from the 1992 Barcelona Olympics, the coaching session at 33 that changed everything, investing in 100+ companies across 30 countries, and why he built Vocating AI: an agentic platform that refuses to tell you what to do.",
     href: "/blog/florian-kemmerich-vocating-ai-impact-investor",
   },
   {
@@ -95,7 +95,7 @@ const featured = [
     category: "Growth",
     readTime: "12 min read",
     excerpt:
-      "Podcaster and entrepreneur Steve Ramona on the ASLA networking principle — Ask, Shut Up, Listen Actively, Ask Again — and how 20 years behind a health club front desk built the network that launched a restaurant, a recycling empire, and a 31,000-subscriber podcast.",
+      "Podcaster and entrepreneur Steve Ramona on the ASLA networking principle (Ask, Shut Up, Listen Actively, Ask Again) and how 20 years behind a health club front desk built the network that launched a restaurant, a recycling empire, and a 31,000-subscriber podcast.",
     href: "/blog/steve-ramona-servant-heart-podcast-networking",
   },
   {
@@ -135,7 +135,7 @@ const featured = [
     category: "Leadership",
     readTime: "8 min read",
     excerpt:
-      "At $1M–$3M ARR, the loneliness changes shape. The people around you stop being useful — and most founder communities weren't built for what this stage actually demands. Here's what clears the bar.",
+      "At $1M–$3M ARR, the loneliness changes shape. The people around you stop being useful, and most founder communities weren't built for what this stage actually demands. Here's what clears the bar.",
     href: "/blog/one-to-three-million-arr-founder-community",
   },
   {
@@ -143,7 +143,7 @@ const featured = [
     category: "Product",
     readTime: "10 min read",
     excerpt:
-      "Scaling a product isn't a phase — it's a design decision made early. Fritz Lanman's experience at ClassPass and Mindbody reveals the infrastructure, MVP discipline, and customer-centric principles that separate products that scale from products that rebuild.",
+      "Scaling a product isn't a phase; it's a design decision made early. Fritz Lanman's experience at ClassPass and Mindbody reveals the infrastructure, MVP discipline, and customer-centric principles that separate products that scale from products that rebuild.",
     href: "/guides/building-products-that-scale",
   },
   {
@@ -159,7 +159,7 @@ const featured = [
     category: "Fundraising",
     readTime: "11 min read",
     excerpt:
-      "The real tradeoffs between bootstrapping and raising VC — from control and hiring to exit strategy and risk. Insights from founders who've done both, with a side-by-side comparison and a decision framework for your specific situation.",
+      "The real tradeoffs between bootstrapping and raising VC: from control and hiring to exit strategy and risk. Insights from founders who've done both, with a side-by-side comparison and a decision framework for your specific situation.",
     href: "/guides/bootstrapping-vs-venture-capital",
   },
   {
@@ -167,7 +167,7 @@ const featured = [
     category: "Fundraising",
     readTime: "10 min read",
     excerpt:
-      "Your cap table is the financial story of every decision you've made — and Series A investors will read it that way. A stage-by-stage guide: authorized shares, founder vesting, option pool sizing, Series A red flags, and a 10-point readiness checklist.",
+      "Your cap table is the financial story of every decision you've made, and Series A investors will read it that way. A stage-by-stage guide: authorized shares, founder vesting, option pool sizing, Series A red flags, and a 10-point readiness checklist.",
     href: "/guides/cap-table-management",
   },
   {
@@ -175,7 +175,7 @@ const featured = [
     category: "Growth",
     readTime: "12 min read",
     excerpt:
-      "Intuition gets you started. Customer feedback is what helps you scale. A practical guide on collecting, prioritizing, and acting on what your users are telling you — with the Airbnb, Slack, and Superhuman case studies plus a full tool stack.",
+      "Intuition gets you started. Customer feedback is what helps you scale. A practical guide on collecting, prioritizing, and acting on what your users are telling you, with the Airbnb, Slack, and Superhuman case studies plus a full tool stack.",
     href: "/guides/how-to-use-customer-feedback-build-product",
   },
   {
@@ -183,7 +183,7 @@ const featured = [
     category: "Growth",
     readTime: "15 min read",
     excerpt:
-      "The three highest-performing go-to-market channels Gildre founders used in 2026 — high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With exact tools, workflows, and tactics.",
+      "The three highest-performing go-to-market channels Gildre founders used in 2026: high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With exact tools, workflows, and tactics.",
     href: "/guides/next-100-customers-gtm-playbook",
   },
   {
@@ -199,7 +199,7 @@ const featured = [
     category: "Growth",
     readTime: "11 min read",
     excerpt:
-      "No brand, no budget, no traction. Eight strategies that work precisely because of those constraints — from ICP clarity and personal network outreach to picking a single traction channel and building a referral flywheel.",
+      "No brand, no budget, no traction. Eight strategies that work precisely because of those constraints: from ICP clarity and personal network outreach to picking a single traction channel and building a referral flywheel.",
     href: "/guides/first-100-customers",
   },
   {
@@ -207,7 +207,7 @@ const featured = [
     category: "Fundraising",
     readTime: "10 min read",
     excerpt:
-      "Every fundraising term founders need to know — runway, burn rate, dilution, convertible notes, SAFEs, term sheets, and 20+ more. Plain-language definitions with context on when each term actually matters.",
+      "Every fundraising term founders need to know: runway, burn rate, dilution, convertible notes, SAFEs, term sheets, and 20+ more. Plain-language definitions with context on when each term actually matters.",
     href: "/guides/startup-fundraising-terminology",
   },
   {
@@ -223,7 +223,7 @@ const featured = [
     category: "Mindset",
     readTime: "10 min read",
     excerpt:
-      "Elise Madrick left Kellogg executive education to found Cerenè — immersive 108-day transformation programs in Morocco and France. Her insight: you can't become someone new inside the same context that created the old version of you.",
+      "Elise Madrick left Kellogg executive education to found Cerenè: immersive 108-day transformation programs in Morocco and France. Her insight: you can't become someone new inside the same context that created the old version of you.",
     href: "/blog/elise-madrick-cerene-executive-transformation",
   },
   {
@@ -231,7 +231,7 @@ const featured = [
     category: "Product",
     readTime: "9 min read",
     excerpt:
-      "Ryan Hughes worked inside Google and Snapchat before founding Fan Pier Labs, an AI-driven software consulting firm for startups. He shares what big tech teaches you — and what it can't — on the Start to Scale Podcast.",
+      "Ryan Hughes worked inside Google and Snapchat before founding Fan Pier Labs, an AI-driven software consulting firm for startups. He shares what big tech teaches you, and what it can't, on the Start to Scale Podcast.",
     href: "/blog/ryan-hughes-google-snapchat-fan-pier-labs",
   },
   {
@@ -247,7 +247,7 @@ const featured = [
     category: "Fundraising",
     readTime: "12 min read",
     excerpt:
-      "How to split founder equity fairly, structure employee stock options, survive investor dilution, and avoid the cap table mistakes that haunt founders for years — with benchmarks, tables, and worked examples.",
+      "How to split founder equity fairly, structure employee stock options, survive investor dilution, and avoid the cap table mistakes that haunt founders for years, with benchmarks, tables, and worked examples.",
     href: "/guides/startup-equity-101",
   },
   {
@@ -255,7 +255,7 @@ const featured = [
     category: "Mindset",
     readTime: "12 min read",
     excerpt:
-      "His parents gave up careers in Mexico for the American Dream. Armando sold cheesecakes door-to-door, studied in Paris and Singapore, trekked into the Peruvian Amazon — then came home and built an AI startup that acquired its competition.",
+      "His parents gave up careers in Mexico for the American Dream. Armando sold cheesecakes door-to-door, studied in Paris and Singapore, trekked into the Peruvian Amazon, then came home and built an AI startup that acquired its competition.",
     href: "/blog/armando-vera-carvajal-hangtight-amazon",
   },
   {
@@ -263,7 +263,7 @@ const featured = [
     category: "Operations",
     readTime: "10 min read",
     excerpt:
-      "Theater. Engineering. A $500M consulting firm. Valvoline franchises. An ESOP. An IPO. And still racing competitively on weekends — John Lionberger's career refuses to stay in a single lane.",
+      "Theater. Engineering. A $500M consulting firm. Valvoline franchises. An ESOP. An IPO. And still racing competitively on weekends; John Lionberger's career refuses to stay in a single lane.",
     href: "/blog/john-lionberger-broadway-engineer-racing",
   },
   {
@@ -279,7 +279,7 @@ const featured = [
     category: "Fundraising",
     readTime: "14 min read",
     excerpt:
-      "How to raise your first pre-seed round — from defining your goals and building your narrative to targeting the right investors, perfecting your deck, and closing the deal. Includes instrument comparison, pitch deck breakdown, and objection handling.",
+      "How to raise your first pre-seed round: from defining your goals and building your narrative to targeting the right investors, perfecting your deck, and closing the deal. Includes instrument comparison, pitch deck breakdown, and objection handling.",
     href: "/guides/pre-seed-fundraising-playbook",
   },
   {
@@ -287,7 +287,7 @@ const featured = [
     category: "Product",
     readTime: "9 min read",
     excerpt:
-      "Chris Riklin spent 10+ years at NationBuilder watching talented professionals lose opportunities to outdated hiring gatekeepers. So he left to co-found Topline — a frictionless marketplace where the best professionals win on merit, not connections.",
+      "Chris Riklin spent 10+ years at NationBuilder watching talented professionals lose opportunities to outdated hiring gatekeepers. So he left to co-found Topline: a frictionless marketplace where the best professionals win on merit, not connections.",
     href: "/blog/chris-riklin-topline-professional-marketplace",
   },
   {
@@ -295,7 +295,7 @@ const featured = [
     category: "Leadership",
     readTime: "8 min read",
     excerpt:
-      "Princeton lineman Luke Ashenbrand lost his football career to a traumatic concussion — spent 15 days in a dark room recovering — then channeled the setback into startup consulting and entrepreneurship.",
+      "Princeton lineman Luke Ashenbrand lost his football career to a traumatic concussion, spent 15 days in a dark room recovering, then channeled the setback into startup consulting and entrepreneurship.",
     href: "/blog/luke-ashenbrand-princeton-football-startup",
   },
   {
@@ -311,7 +311,7 @@ const featured = [
     category: "Leadership",
     readTime: "8 min read",
     excerpt:
-      "From growing Woolworths South Africa to 500K fans to marketing Sprinter vans — Robyn Hobson on 13 years of marketing across Africa, China, and the US and what it actually takes to build a global career.",
+      "From growing Woolworths South Africa to 500K fans to marketing Sprinter vans: Robyn Hobson on 13 years of marketing across Africa, China, and the US and what it actually takes to build a global career.",
     href: "/blog/robyn-hobson-cape-town-to-us-cmo",
   },
   {
@@ -319,7 +319,7 @@ const featured = [
     category: "Product",
     readTime: "11 min read",
     excerpt:
-      "From Louisiana's Cancer Alley to NASA's Curiosity mission to founding ChatOpenSource through Y Combinator — one of the most unconventional founder paths you'll read about.",
+      "From Louisiana's Cancer Alley to NASA's Curiosity mission to founding ChatOpenSource through Y Combinator: one of the most unconventional founder paths you'll read about.",
     href: "/blog/nasa-engineer-y-combinator-chatopensource",
   },
   {
@@ -343,7 +343,7 @@ const featured = [
     category: "Leadership",
     readTime: "10 min read",
     excerpt:
-      "From selling $20 miniature paintings at farmers markets to owning galleries — wildlife artist James Corwin on building a creative business with no blueprint and no shortcuts.",
+      "From selling $20 miniature paintings at farmers markets to owning galleries: wildlife artist James Corwin on building a creative business with no blueprint and no shortcuts.",
     href: "/blog/james-corwin-wildlife-artist-corwin-galleries",
   },
   {
@@ -351,7 +351,7 @@ const featured = [
     category: "Growth",
     readTime: "6 min read",
     excerpt:
-      "The frameworks Gildre founders use to get from zero to traction — before you have a pipeline, a playbook, or a sales hire.",
+      "The frameworks Gildre founders use to get from zero to traction: before you have a pipeline, a playbook, or a sales hire.",
     href: "https://gildre-for-founders.beehiiv.com/",
   },
   {
@@ -367,7 +367,7 @@ const featured = [
     category: "Fundraising",
     readTime: "7 min read",
     excerpt:
-      "We talked to 12 investors about what makes them move fast on a deal — and what immediately kills interest.",
+      "We talked to 12 investors about what makes them move fast on a deal, and what immediately kills interest.",
     href: "https://gildre-for-founders.beehiiv.com/",
   },
   {
@@ -383,7 +383,7 @@ const featured = [
     category: "Mindset",
     readTime: "4 min read",
     excerpt:
-      "It doesn't look like exhaustion. It looks like productivity — until the day it doesn't.",
+      "It doesn't look like exhaustion. It looks like productivity, until the day it doesn't.",
     href: "https://gildre-for-founders.beehiiv.com/",
   },
   {
@@ -441,7 +441,7 @@ export default function ContentPage() {
             <span style={{ color: "#C9A96E" }}>Founders Who Execute</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Blogs, guides, and playbooks built for founders at every stage — from your first customers to your first exit.
+            Blogs, guides, and playbooks built for founders at every stage: from your first customers to your first exit.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -545,7 +545,7 @@ export default function ContentPage() {
           {visibleArticles.length === 0 && (
             <div className="mt-12 text-center py-16" style={{ color: "rgba(255,255,255,0.35)" }}>
               <p className="text-lg">No articles yet in this category.</p>
-              <p className="text-sm mt-2">More coming soon — subscribe to the newsletter to get notified.</p>
+              <p className="text-sm mt-2">More coming soon; subscribe to the newsletter to get notified.</p>
             </div>
           )}
 
@@ -634,7 +634,7 @@ export default function ContentPage() {
             New content drops every week.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Subscribe to The Essential Founder Newsletter and get tactical insights delivered directly to your inbox — no fluff, no filler.
+            Subscribe to The Essential Founder Newsletter and get tactical insights delivered directly to your inbox, no fluff, no filler.
           </p>
           <a
             href="https://gildre-for-founders.beehiiv.com/"

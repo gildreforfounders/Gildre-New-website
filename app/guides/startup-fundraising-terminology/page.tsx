@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/startup-fundraising-terminology" },
   title: "Startup Fundraising Terminology: The Complete Founder's Glossary — From Pre-Seed to Series C | Gildre",
   description:
-    "Every fundraising term founders need to know — runway, burn rate, dilution, convertible notes, term sheets, SAFEs, and 20+ more. Plain-language definitions with context on when each term actually matters.",
+    "Every fundraising term founders need to know: runway, burn rate, dilution, convertible notes, term sheets, SAFEs, and 20+ more. Plain-language definitions with context on when each term actually matters.",
   keywords: [
     "startup fundraising terminology",
     "startup fundraising glossary",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Startup Fundraising Terminology: The Complete Founder's Glossary",
     description:
-      "Every fundraising term founders need — runway, burn rate, dilution, convertible notes, term sheets, and 20+ more. Plain-language definitions with real context.",
+      "Every fundraising term founders need: runway, burn rate, dilution, convertible notes, term sheets, and 20+ more. Plain-language definitions with real context.",
     type: "article",
     url: "https://www.gildre.com/guides/startup-fundraising-terminology",
     images: [{ url: "https://www.gildre.com/images/fundraising-plant-coins.webp" }],
@@ -37,7 +37,7 @@ const schema = {
   "@type": "Article",
   headline: "Startup Fundraising Terminology: The Complete Founder's Glossary — From Pre-Seed to Series C",
   description:
-    "Every fundraising term founders need to know — runway, burn rate, dilution, convertible notes, term sheets, and 20+ more. Plain-language definitions with context.",
+    "Every fundraising term founders need to know: runway, burn rate, dilution, convertible notes, term sheets, and 20+ more. Plain-language definitions with context.",
   image: "https://www.gildre.com/images/fundraising-plant-coins.webp",
   author: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
   publisher: {
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: "What is a pro-rata right in venture capital?",
-    a: "A pro-rata right gives an existing investor the right — but not the obligation — to participate in future funding rounds to maintain their ownership percentage. For example, an investor who owns 10% can invest enough in the next round to stay at 10% rather than being diluted. Pro-rata rights are standard for lead investors and are often negotiated for larger check sizes.",
+    a: "A pro-rata right gives an existing investor the right (but not the obligation) to participate in future funding rounds to maintain their ownership percentage. For example, an investor who owns 10% can invest enough in the next round to stay at 10% rather than being diluted. Pro-rata rights are standard for lead investors and are often negotiated for larger check sizes.",
   },
   {
     q: "What is a standard startup equity vesting schedule?",
@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     q: "What is dilution in startup fundraising?",
-    a: "Dilution occurs when a company issues new shares — through a funding round, option pool expansion, or convertible instrument conversion — reducing existing shareholders' ownership percentages. A founder who owns 60% before a round that creates 20% new shares will own approximately 48% afterward. Dilution is not inherently negative if the new capital grows total company value proportionally.",
+    a: "Dilution occurs when a company issues new shares (through a funding round, option pool expansion, or convertible instrument conversion), reducing existing shareholders' ownership percentages. A founder who owns 60% before a round that creates 20% new shares will own approximately 48% afterward. Dilution is not inherently negative if the new capital grows total company value proportionally.",
   },
 ];
 
@@ -226,7 +226,7 @@ export default function StartupFundraisingTerminology() {
               className="mt-5 text-lg leading-relaxed"
               style={{ color: "rgba(255,255,255,0.62)", maxWidth: "640px" }}
             >
-              From pre-seed to Series C, from burn rate to anti-dilution provisions — every
+              From pre-seed to Series C, from burn rate to anti-dilution provisions: every
               fundraising term you&apos;ll encounter, explained plainly and with the context that actually
               matters when you&apos;re sitting across from an investor.
             </p>
@@ -249,20 +249,20 @@ export default function StartupFundraisingTerminology() {
         <article className="mx-auto max-w-3xl px-6 pb-24 pt-4">
 
           {/* Intro */}
-          <H2>Why Fundraising Terminology Matters — Even If You&apos;re Not Raising</H2>
+          <H2>Why Fundraising Terminology Matters, Even If You&apos;re Not Raising</H2>
           <KeyTakeaway>
             Knowing startup fundraising terminology before your first investor meeting gives you negotiating leverage, helps you identify unfavorable terms early, and signals to investors that you understand the mechanics of the deal you're entering. Even founders who don't plan to raise VC benefit from fluency in these terms.
           </KeyTakeaway>
           <Body>
             Startup fundraising has its own language, and it&apos;s denser than most. VCs, angels,
-            term sheets, convertible notes, SAFEs, dilution, runway — every conversation with an
+            term sheets, convertible notes, SAFEs, dilution, runway: every conversation with an
             investor, advisor, or even a well-funded peer assumes you know what these words mean.
             The founders who stumble in those rooms usually don&apos;t stumble on the idea. They stumble
             on the vocabulary.
           </Body>
           <Body>
             That said, understanding fundraising terminology is not the same as deciding to fundraise.
-            Not every startup should raise venture capital — bootstrapping, staying profitable, or
+            Not every startup should raise venture capital; bootstrapping, staying profitable, or
             raising a single angel round can be the right answer depending on your market, margins,
             and ambitions. But every founder should understand the terms regardless, because they
             define the rules of the game even when you choose not to play it the conventional way.
@@ -272,7 +272,7 @@ export default function StartupFundraisingTerminology() {
           <H2>What Are the Stages of Startup Fundraising?</H2>
           <Body>
             Startups typically move through a sequence of funding stages, each designed for a
-            different level of maturity and risk. The progression is not rigid — some companies skip
+            different level of maturity and risk. The progression is not rigid; some companies skip
             stages, some raise rounds out of order, and some raise seed rounds that are larger than
             some Series As. But the general arc holds.
           </Body>
@@ -281,7 +281,7 @@ export default function StartupFundraisingTerminology() {
             <StageCard
               round="Bootstrapping"
               range="Self-funded"
-              description="Founders fund the company from personal savings, early revenue, or income from other ventures. You retain 100% of equity but grow at the pace your cash allows. Many successful companies — including Jotform, which has 25M+ users — have never raised a dollar of external capital."
+              description="Founders fund the company from personal savings, early revenue, or income from other ventures. You retain 100% of equity but grow at the pace your cash allows. Many successful companies (including Jotform, which has 25M+ users) have never raised a dollar of external capital."
             />
             <StageCard
               round="Pre-Seed"
@@ -296,7 +296,7 @@ export default function StartupFundraisingTerminology() {
             <StageCard
               round="Series A"
               range="$2M – $15M"
-              description="Raised once the company has demonstrated consistent revenue growth and a repeatable go-to-market motion. Investors want to see evidence that the model works — not just a promising product. Used to scale sales, marketing, and operations."
+              description="Raised once the company has demonstrated consistent revenue growth and a repeatable go-to-market motion. Investors want to see evidence that the model works, not just a promising product. Used to scale sales, marketing, and operations."
             />
             <StageCard
               round="Series B and Beyond"
@@ -307,7 +307,7 @@ export default function StartupFundraisingTerminology() {
 
           <Callout title="The trade-off every founder should understand">
             <Body>
-              Raising capital lets you grow faster. It also means giving up ownership — a piece of
+              Raising capital lets you grow faster. It also means giving up ownership: a piece of
               every outcome, good or bad. Bootstrapping means slower growth but higher ownership at
               exit. Neither is universally better. The right answer depends on how big your market is,
               how fast your competitors are moving, and how much of the upside you want to own when
@@ -329,17 +329,17 @@ export default function StartupFundraisingTerminology() {
           {/* Deal mechanics */}
           <H2>What Terms Govern Every Startup Funding Round?</H2>
           <KeyTakeaway>
-            The most consequential terms in any funding round are valuation, dilution, and the provisions that govern what happens at exit. Founders who understand pro rata rights, anti-dilution clauses, and liquidation preferences before signing avoid surprises that can cost significant equity — sometimes the difference between a meaningful outcome and a disappointing one.
+            The most consequential terms in any funding round are valuation, dilution, and the provisions that govern what happens at exit. Founders who understand pro rata rights, anti-dilution clauses, and liquidation preferences before signing avoid surprises that can cost significant equity, sometimes the difference between a meaningful outcome and a disappointing one.
           </KeyTakeaway>
           <Body>
-            These are the terms that define how a deal actually works — what you give, what you get,
+            These are the terms that define how a deal actually works: what you give, what you get,
             and what happens to your ownership over time.
           </Body>
 
           <Term term="Runway">
             The number of months a company can operate before running out of cash, given its current
             burn rate. If you have $600K in the bank and spend $50K per month, you have 12 months
-            of runway. Extending runway is one of the most important levers available to a founder —
+            of runway. Extending runway is one of the most important levers available to a founder;
             it gives you time to hit milestones before you need to raise again, which almost always
             means raising at a better valuation.
           </Term>
@@ -355,14 +355,14 @@ export default function StartupFundraisingTerminology() {
             Valuation is how much your company is worth. Pre-money valuation is the value before
             new investment is added. Post-money valuation is pre-money plus the investment. If an
             investor puts in $1M at a $4M pre-money valuation, the post-money valuation is $5M and
-            the investor owns 20%. Always clarify which valuation you&apos;re negotiating — the difference
+            the investor owns 20%. Always clarify which valuation you&apos;re negotiating; the difference
             matters.
           </Term>
 
           <Term term="Dilution">
             When you issue new shares to investors, existing shareholders own a smaller percentage
             of the total. If you own 80% and raise a 20% round, you now own 64% (80% × 80%).
-            Dilution is normal and often necessary — the goal is for your smaller percentage of a
+            Dilution is normal and often necessary; the goal is for your smaller percentage of a
             larger, more valuable company to be worth more than your larger percentage of the
             earlier-stage version.
           </Term>
@@ -370,7 +370,7 @@ export default function StartupFundraisingTerminology() {
           <Term term="Term Sheet">
             A non-binding document that outlines the key terms of a proposed investment: valuation,
             investment amount, ownership percentage, liquidation preferences, board seats, and
-            investor rights. It&apos;s a summary, not the final contract — but the terms in it typically
+            investor rights. It&apos;s a summary, not the final contract, but the terms in it typically
             carry forward into the binding legal documents. Read everything in a term sheet carefully,
             especially the liquidation preferences and anti-dilution clauses.
           </Term>
@@ -384,14 +384,13 @@ export default function StartupFundraisingTerminology() {
 
           <Term term="SAFE (Simple Agreement for Future Equity)">
             Created by Y Combinator as a simpler alternative to convertible notes. A SAFE is not
-            a loan — it carries no interest rate and no maturity date. Investors receive the right
+            a loan; it carries no interest rate and no maturity date. Investors receive the right
             to convert their investment into equity at a future round, subject to a cap and/or
             discount. SAFEs are now the most common instrument for pre-seed and seed raises.
           </Term>
 
           <Term term="Lead Investor">
-            The investor who anchors a round — setting the valuation, negotiating the term sheet,
-            and often taking a board seat. Once you have a lead, other investors follow on the same
+            The investor who anchors a round (setting the valuation, negotiating the term sheet, and often taking a board seat). Once you have a lead, other investors follow on the same
             terms. Finding a lead is usually the hardest part of fundraising; once you have one,
             the rest of the round tends to close faster.
           </Term>
@@ -412,7 +411,7 @@ export default function StartupFundraisingTerminology() {
           </Body>
 
           <Term term="Angel Investor">
-            Individuals who invest their own money — not a fund&apos;s — in early-stage startups, typically
+            Individuals who invest their own money (not a fund's) in early-stage startups, typically
             at pre-seed or seed. Angels often invest because of a personal connection to the founder,
             the market, or the problem. The best angels bring networks and operating experience
             alongside capital. Check size typically ranges from $10K to $250K per deal.
@@ -423,7 +422,7 @@ export default function StartupFundraisingTerminology() {
             such as university endowments, pension funds, and family offices. VCs invest in exchange
             for equity with the goal of returning capital to their LPs through exits (IPOs or
             acquisitions). Most VCs target a specific stage (seed, Series A, growth) and sector.
-            They have a portfolio mentality — expecting most investments to fail, a few to return
+            They have a portfolio mentality: expecting most investments to fail, a few to return
             the fund.
           </Term>
 
@@ -441,7 +440,7 @@ export default function StartupFundraisingTerminology() {
           <Term term="Anti-Dilution Protection">
             Provisions that protect investors if future shares are issued at a lower price than what
             they paid (a &ldquo;down round&rdquo;). Full ratchet anti-dilution adjusts the investor&apos;s price all the
-            way down to the new lower price — the most founder-unfriendly version. Weighted average
+            way down to the new lower price: the most founder-unfriendly version. Weighted average
             anti-dilution is more common and more balanced. Understand what you&apos;re agreeing to before
             signing.
           </Term>
@@ -458,7 +457,7 @@ export default function StartupFundraisingTerminology() {
             A secure digital repository of documents shared with investors during due diligence:
             financials, cap table, contracts, IP assignments, incorporation documents, and any
             material agreements. A well-organized data room signals professionalism and speeds up
-            close. Disorganized data rooms kill deals — not because the company is bad, but because
+            close. Disorganized data rooms kill deals, not because the company is bad, but because
             they create doubt.
           </Term>
 
@@ -477,7 +476,7 @@ export default function StartupFundraisingTerminology() {
           </KeyTakeaway>
           <Body>
             Investors don&apos;t evaluate companies on vibes. They evaluate them on metrics. Knowing
-            these terms — and knowing your own numbers — is the difference between a confident
+            these terms and knowing your own numbers is the difference between a confident
             investor conversation and a fumbled one.
           </Body>
 
@@ -488,27 +487,26 @@ export default function StartupFundraisingTerminology() {
           <Term term="ARR / MRR (Annual / Monthly Recurring Revenue)">
             The normalized annual or monthly value of all active subscriptions or recurring contracts.
             ARR is the standard benchmark for SaaS businesses. Investors use it to project growth
-            trajectories and compare across companies. MRR × 12 = ARR — but be careful about
+            trajectories and compare across companies. MRR × 12 = ARR, but be careful about
             including one-time or non-recurring revenue in the calculation.
           </Term>
 
           <Term term="CAC (Customer Acquisition Cost)">
-            The total cost to acquire a single customer — sales, marketing, and overhead divided by
+            The total cost to acquire a single customer: sales, marketing, and overhead divided by
             new customers added. A CAC of $500 means you spend $500 in aggregate to win each new
             customer. CAC matters most in relation to LTV.
           </Term>
 
           <Term term="LTV (Lifetime Value)">
             The total revenue a single customer is expected to generate over their relationship with
-            your company. LTV:CAC ratio is one of the most important indicators of business health
-            — most investors want to see at least 3:1. LTV below CAC means you&apos;re paying more to
+            your company. LTV:CAC ratio is one of the most important indicators of business health; most investors want to see at least 3:1. LTV below CAC means you&apos;re paying more to
             acquire customers than they&apos;re worth.
           </Term>
 
           <Term term="NDR (Net Dollar Retention)">
             The percentage of revenue retained from existing customers after accounting for
             expansions, downgrades, and churn. 110% NDR means existing customers spend 10% more
-            next year than this year — a sign of a healthy, sticky product. 80% NDR means you&apos;re
+            next year than this year: a sign of a healthy, sticky product. 80% NDR means you&apos;re
             losing ground even before factoring in new customer acquisition.
           </Term>
 
@@ -530,14 +528,14 @@ export default function StartupFundraisingTerminology() {
 
           <Term term="TAM (Total Addressable Market)">
             The total global revenue opportunity if your product captured 100% market share. Used
-            to establish the upper bound of opportunity. Investors want large TAMs — not because
+            to establish the upper bound of opportunity. Investors want large TAMs, not because
             they expect you to capture all of it, but because even a small slice of a large market
             can be a significant business.
           </Term>
 
           <Term term="SAM (Serviceable Addressable Market)">
             The portion of TAM that your specific product and go-to-market approach can realistically
-            reach today — filtered by geography, customer segment, or distribution constraints. More
+            reach today, filtered by geography, customer segment, or distribution constraints. More
             grounded than TAM and the number that actually drives near-term revenue projections.
           </Term>
 
@@ -566,7 +564,7 @@ export default function StartupFundraisingTerminology() {
           </Term>
 
           <Term term="COGS (Cost of Goods Sold)">
-            The direct costs associated with delivering your product or service — hosting, support,
+            The direct costs associated with delivering your product or service: hosting, support,
             third-party services embedded in the product. Distinguished from operating expenses like
             sales, marketing, and G&amp;A. Reducing COGS is often the fastest path to improving
             gross margin.
@@ -576,9 +574,9 @@ export default function StartupFundraisingTerminology() {
           <Callout title="Recommended Reading for Founders Exploring Fundraising">
             <div className="flex flex-col gap-3">
               {[
-                { title: "The Young VC's Handbook", desc: "Practical fundraising mechanics from the investor's perspective — useful for understanding how VCs evaluate deals." },
-                { title: "Start. Scale. Exit. Repeat.", desc: "Colin C. Campbell's framework for building businesses designed to exit — essential for understanding what investors are optimizing for." },
-                { title: "The Venture Mindset", desc: "How to think like a VC — useful for founders who want to understand the decision-making frameworks on the other side of the table." },
+                { title: "The Young VC's Handbook", desc: "Practical fundraising mechanics from the investor's perspective: useful for understanding how VCs evaluate deals." },
+                { title: "Start. Scale. Exit. Repeat.", desc: "Colin C. Campbell's framework for building businesses designed to exit: essential for understanding what investors are optimizing for." },
+                { title: "The Venture Mindset", desc: "How to think like a VC: useful for founders who want to understand the decision-making frameworks on the other side of the table." },
               ].map((book) => (
                 <div key={book.title} style={{ borderLeft: "2px solid rgba(201,169,110,0.4)", paddingLeft: "1rem" }}>
                   <p className="font-semibold text-white text-sm">{book.title}</p>
@@ -623,8 +621,7 @@ export default function StartupFundraisingTerminology() {
             </p>
             <p className="mb-6 text-sm leading-relaxed mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
               Understanding terminology is the entry point. Working through your actual fundraising
-              strategy — which round is right for you, which investors to target, how to structure
-              your pitch — requires peers and mentors who have done it. That&apos;s what Gildre is for.
+              strategy (which round is right for you, which investors to target, how to structure your pitch): requires peers and mentors who have done it. That&apos;s what Gildre is for.
             </p>
             <a
               href="/#pricing"

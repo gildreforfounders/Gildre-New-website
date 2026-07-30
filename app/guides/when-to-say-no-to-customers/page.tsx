@@ -63,7 +63,7 @@ const schema = {
 const faqs = [
   {
     q: "How do you politely decline a customer who isn't a good fit?",
-    a: "Be direct and brief. Name the specific reason — timing, use case mismatch, or values fit — and offer an alternative or referral where one genuinely exists. A specific, honest decline is more respectful than a vague delay. The goal is to leave the prospect with clarity, not false hope.",
+    a: "Be direct and brief. Name the specific reason (timing, use case mismatch, or values fit) and offer an alternative or referral where one genuinely exists. A specific, honest decline is more respectful than a vague delay. The goal is to leave the prospect with clarity, not false hope.",
   },
   {
     q: "What are the signs that a customer isn't right for your startup?",
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Does saying no to customers actually help your brand?",
-    a: "Yes. Selectivity signals confidence, expertise, and a clear product vision — all of which attract higher-quality customers. When you decline prospects that aren't a fit and explain why, you also generate referrals: the declined prospect often refers someone who is a better fit, because they respect that you were honest about the mismatch.",
+    a: "Yes. Selectivity signals confidence, expertise, and a clear product vision: all of which attract higher-quality customers. When you decline prospects that aren't a fit and explain why, you also generate referrals: the declined prospect often refers someone who is a better fit, because they respect that you were honest about the mismatch.",
   },
 ];
 
@@ -257,7 +257,7 @@ export default function WhenToSayNoGuide() {
           {/* Intro */}
           <H2>What Is the Real Cost of Saying Yes to the Wrong Customer?</H2>
           <KeyTakeaway>
-            Saying yes to wrong-fit customers is one of the most expensive mistakes early-stage founders make. A misaligned customer consumes disproportionate support time, pulls your roadmap away from your best users, and generates revenue that masks the underlying problem — you're building for the wrong person.
+            Saying yes to wrong-fit customers is one of the most expensive mistakes early-stage founders make. A misaligned customer consumes disproportionate support time, pulls your roadmap away from your best users, and generates revenue that masks the underlying problem: you're building for the wrong person.
           </KeyTakeaway>
           <Body>
             Early in a startup, the pressure to accept revenue from anyone willing to pay is intense.
@@ -273,7 +273,7 @@ export default function WhenToSayNoGuide() {
             the customer was wrong for the product from day one.
           </Body>
           <Body>
-            The ability to say no — clearly, confidently, and without burning the relationship — is
+            The ability to say no, clearly, confidently, and without burning the relationship, is
             one of the most underleveraged skills in early-stage company building. This guide covers
             when to use it, and how.
           </Body>
@@ -290,13 +290,13 @@ export default function WhenToSayNoGuide() {
           </KeyTakeaway>
           <Body>
             Not every wrong customer announces themselves. Some come with budget, urgency, and a
-            reasonable-sounding use case. The signals are often subtle — and the mistake is usually
+            reasonable-sounding use case. The signals are often subtle, and the mistake is usually
             ignoring them because the deal looked attractive on the surface.
           </Body>
 
           <div className="mt-6 flex flex-col gap-4">
             <SignalCard num="01" title="Their use case sits outside your core product">
-              They&apos;re asking you to solve a related-but-different problem — one that would require
+              They&apos;re asking you to solve a related-but-different problem, one that would require
               building features you weren&apos;t planning to build, for a segment you weren&apos;t planning
               to serve. Taking this customer means one of two things: you either underpromise and
               disappoint them, or you overpromise and distract your team for months building for
@@ -304,7 +304,7 @@ export default function WhenToSayNoGuide() {
             </SignalCard>
             <SignalCard num="02" title="Their values or communication style create immediate friction">
               Trust your instincts about people. If a sales conversation already feels adversarial,
-              entitled, or relentlessly high-maintenance before they&apos;ve signed a contract — it will
+              entitled, or relentlessly high-maintenance before they&apos;ve signed a contract; it will
               be worse after. Difficult customers consume disproportionate support resources, generate
               disproportionate internal frustration, and frequently churn anyway.
             </SignalCard>
@@ -312,14 +312,13 @@ export default function WhenToSayNoGuide() {
               A customer who spent the entire sales process negotiating your price down is telling
               you something important: they don&apos;t believe your product is worth what you&apos;re charging.
               Even if you close them at a discount, you&apos;ve started the relationship with them
-              unconvinced of your value — and you&apos;ll spend the contract proving it rather than
+              unconvinced of your value, and you&apos;ll spend the contract proving it rather than
               delivering it.
             </SignalCard>
             <SignalCard num="04" title="They&apos;re trying to buy something you don&apos;t sell">
-              Sometimes a customer&apos;s problem genuinely does not fit what you do — not a stretch,
+              Sometimes a customer&apos;s problem genuinely does not fit what you do, not a stretch,
               not a customization, but a fundamental mismatch. Taking their money and trying to make
-              it work is unfair to them and corrosive to you. The transparent path — telling them
-              what you do and don&apos;t do, and helping them find a better fit — builds long-term
+              it work is unfair to them and corrosive to you. The transparent path (telling them what you do and don’t do, and helping them find a better fit) builds long-term
               credibility that saying yes never could.
             </SignalCard>
           </div>
@@ -336,16 +335,16 @@ export default function WhenToSayNoGuide() {
             <div className="flex flex-col gap-4">
               {[
                 {
-                  title: "Define your ICP in writing — and make it specific",
-                  body: "Not 'B2B SaaS companies' but 'B2B SaaS companies between $1M and $10M ARR, with a sales team of 5–20 reps, selling into mid-market accounts.' The more specific your ICP, the faster you can identify a fit or a non-fit — and the more honest you can be with prospects about whether they belong in the first category.",
+                  title: "Define your ICP in writing, and make it specific",
+                  body: "Not 'B2B SaaS companies' but 'B2B SaaS companies between $1M and $10M ARR, with a sales team of 5–20 reps, selling into mid-market accounts.' The more specific your ICP, the faster you can identify a fit or a non-fit, and the more honest you can be with prospects about whether they belong in the first category.",
                 },
                 {
                   title: "Ask qualifying questions on intake",
-                  body: "A short discovery form or a structured first call with 3–4 qualifying questions tells you what you need to know before committing to a full demo. Revenue range, team size, what they're currently using, what outcome they're trying to achieve. These aren't gatekeeping — they're respect for everyone's time.",
+                  body: "A short discovery form or a structured first call with 3–4 qualifying questions tells you what you need to know before committing to a full demo. Revenue range, team size, what they're currently using, what outcome they're trying to achieve. These aren't gatekeeping; they're respect for everyone's time.",
                 },
                 {
                   title: "Make your fit criteria visible to prospects",
-                  body: "Publish who you're built for on your website. When you're explicit about your ICP publicly, wrong-fit customers often self-select out before they even contact you — and right-fit customers convert faster because they feel understood from the first touchpoint.",
+                  body: "Publish who you're built for on your website. When you're explicit about your ICP publicly, wrong-fit customers often self-select out before they even contact you, and right-fit customers convert faster because they feel understood from the first touchpoint.",
                 },
               ].map((item, i) => (
                 <div key={i} style={{ borderLeft: "2px solid rgba(201,169,110,0.35)", paddingLeft: "1rem" }}>
@@ -368,14 +367,14 @@ export default function WhenToSayNoGuide() {
           </div>
 
           {/* How to say no */}
-          <H2>How to Say No — Without Burning the Relationship</H2>
+          <H2>How to Say No Without Burning the Relationship</H2>
           <KeyTakeaway>
-            When declining a prospect, be direct, brief, and specific. Name the reason clearly — timing, use case, or values fit — and offer an alternative or referral where one genuinely exists. A clear, respectful no preserves the relationship far better than a vague delay or an over-qualified yes.
+            When declining a prospect, be direct, brief, and specific. Name the reason clearly (timing, use case, or values fit) and offer an alternative or referral where one genuinely exists. A clear, respectful no preserves the relationship far better than a vague delay or an over-qualified yes.
           </KeyTakeaway>
           <Body>
             The mechanics of a no matter as much as the decision itself. A poorly delivered no
             leaves the prospect feeling rejected, confused, or misled. A well-delivered no leaves
-            them feeling respected — and often more interested in you than they were before.
+            them feeling respected, and often more interested in you than they were before.
           </Body>
           <Body>
             The key is to be honest, specific, and genuinely helpful. Don&apos;t invent a vague reason.
@@ -387,19 +386,19 @@ export default function WhenToSayNoGuide() {
           <div className="mt-6 flex flex-col gap-3">
             <Script label="When the timing isn't right">
               &ldquo;Based on where you are right now, I don&apos;t think we&apos;d be able to deliver the
-              outcome you&apos;re looking for — and I&apos;d rather be upfront about that now than have
+              outcome you&apos;re looking for, and I&apos;d rather be upfront about that now than have
               you invest time and budget in something that isn&apos;t set up to work. That said,
               I&apos;d genuinely love to revisit this when [specific condition]. Would it be helpful
               if I followed up in [timeframe]?&rdquo;
             </Script>
             <Script label="When the use case doesn't fit">
               &ldquo;What you&apos;re describing is a real problem, but it&apos;s not quite the problem we
-              solve — and I don&apos;t want to oversell what we can do for you. We&apos;re built specifically
+              solve, and I don&apos;t want to oversell what we can do for you. We&apos;re built specifically
               for [your ICP]. For what you&apos;re dealing with, [alternative] would likely be a better
               fit, and I&apos;m happy to make an introduction if that&apos;s helpful.&rdquo;
             </Script>
             <Script label="When the values or fit feel off">
-              &ldquo;I want to be honest with you — I&apos;m not sure we&apos;re the right partner for what
+              &ldquo;I want to be honest with you: I&apos;m not sure we&apos;re the right partner for what
               you&apos;re trying to accomplish. Our approach works best when [specific condition], and
               I don&apos;t think we&apos;re set up to give you what you need here. I&apos;d rather tell you
               that directly than waste your time.&rdquo;
@@ -408,8 +407,7 @@ export default function WhenToSayNoGuide() {
 
           <Body>
             Notice what each of these has in common: they&apos;re honest about the reason, they center
-            the customer&apos;s outcome (not the vendor&apos;s preference), and they offer something useful
-            — a referral, a future conversation, a specific alternative. A no delivered this way
+            the customer&apos;s outcome (not the vendor&apos;s preference), and they offer something useful: a referral, a future conversation, a specific alternative. A no delivered this way
             is often remembered as a more professional interaction than a yes delivered poorly.
           </Body>
 
@@ -420,8 +418,7 @@ export default function WhenToSayNoGuide() {
             discover: saying no to the wrong customers makes you more attractive to the right ones.
           </Body>
           <Body>
-            When a company is willing to turn down revenue because a customer doesn&apos;t fit — and
-            when that company can clearly articulate why — it signals something important to the
+            When a company is willing to turn down revenue because a customer doesn&apos;t fit, and when that company can clearly articulate why: it signals something important to the
             market. It signals that the company knows exactly who it&apos;s for. That specificity builds
             trust. Ideal customers see a vendor who understands their situation well enough to know
             the difference.
@@ -433,7 +430,7 @@ export default function WhenToSayNoGuide() {
             Saying no with clarity is how you become that brand.
           </Body>
 
-          <Callout title="Keep the relationship — even when the answer is no">
+          <Callout title="Keep the relationship, even when the answer is no">
             <Body>
               A customer who isn&apos;t right for you today may be right for you in 12 months.
               A prospect you decline professionally may refer you to someone who is a perfect fit.
@@ -461,7 +458,7 @@ export default function WhenToSayNoGuide() {
               Every wrong customer you take on is time, attention, and resources not given to the
               right one. Every feature you build for a misaligned user is roadmap space taken from
               the feature your ideal customer is waiting for. The founders who build products people
-              love aren&apos;t the ones who said yes to everyone — they&apos;re the ones who were relentlessly
+              love aren&apos;t the ones who said yes to everyone; they&apos;re the ones who were relentlessly
               clear about who they were building for, and had the discipline to say so.
             </p>
           </div>
@@ -500,8 +497,7 @@ export default function WhenToSayNoGuide() {
               Work through your ICP and customer decisions with founders who&apos;ve faced them.
             </p>
             <p className="mb-6 text-sm leading-relaxed mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
-              The hardest customer decisions — who to take on, who to turn away, when to fire a
-              customer — are easier when you can talk them through with peers who&apos;ve already lived
+              The hardest customer decisions (who to take on, who to turn away, when to fire a customer) are easier when you can talk them through with peers who&apos;ve already lived
               through similar situations. That&apos;s the conversation happening inside Gildre every week.
             </p>
             <a

@@ -19,7 +19,7 @@ const faqGroups: FAQGroup[] = [
       {
         question: "What is Gildre?",
         answer:
-          "Gildre is a private startup founder community offering curated 1:1 mentorship, peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR.\n\nBuilding a company is a journey — you shouldn't have to do it alone. Gildre connects you with exited founders, experienced operators, and ambitious peers who help you move faster and make better decisions.",
+          "Gildre is a private startup founder community offering curated 1:1 mentorship, peer introductions, and expert-led programming for founders from pre-revenue to $5M+ ARR.\n\nBuilding a company is a journey; you shouldn't have to do it alone. Gildre connects you with exited founders, experienced operators, and ambitious peers who help you move faster and make better decisions.",
       },
       {
         question: "What is included in the Gildre membership?",
@@ -49,7 +49,7 @@ const faqGroups: FAQGroup[] = [
       {
         question: "How does 1:1 mentorship work?",
         answer:
-          "As part of our white-glove onboarding, we'll ask you questions about what you're building and the current stage you're at. This allows us to find the best mentor in our community to help support your professional goals.\n\nOur mentors are volunteers who support Gildre through their passion for entrepreneurship and networking. They're founders, investors, executives, and startup leaders — many of whom have gone through the same issues you're facing daily.\n\nMembers and mentors typically meet 1-2 times per month to discuss a variety of topics. Whether you're looking for guidance on vetting your first product, making a key hire, or raising a future round, our mentors have got you covered. Who knows — you may even find your next advisor or co-founder in this process!",
+          "As part of our white-glove onboarding, we'll ask you questions about what you're building and the current stage you're at. This allows us to find the best mentor in our community to help support your professional goals.\n\nOur mentors are volunteers who support Gildre through their passion for entrepreneurship and networking. They're founders, investors, executives, and startup leaders, many of whom have gone through the same issues you're facing daily.\n\nMembers and mentors typically meet 1-2 times per month to discuss a variety of topics. Whether you're looking for guidance on vetting your first product, making a key hire, or raising a future round, our mentors have got you covered. Who knows, you may even find your next advisor or co-founder in this process!",
       },
       {
         question: "How are the sessions structured?",
@@ -64,7 +64,7 @@ const faqGroups: FAQGroup[] = [
       {
         question: "How many events are available per month?",
         answer:
-          "We build our programming around our founders' goals and curate world-class speakers, panelists, and coaches to drive value across core areas. We have 3-4 Gildre-focused events per month both virtually and in-person, along with 2-3 ecosystem events per week — so you'll never run out of ways to continue growing your founder network.",
+          "We build our programming around our founders' goals and curate world-class speakers, panelists, and coaches to drive value across core areas. We have 3-4 Gildre-focused events per month both virtually and in-person, along with 2-3 ecosystem events per week, so you'll never run out of ways to continue growing your founder network.",
       },
       {
         question: "Are events virtual or in-person?",
@@ -74,7 +74,7 @@ const faqGroups: FAQGroup[] = [
       {
         question: "What are Innovation Roundtables?",
         answer:
-          "Innovation Roundtables are intimate, \"Founder-only\" sessions led by an Executive Mentor to cover the deep, realistic conversations that founders should be having. These are spaces to share successes — and most importantly, struggles throughout the entrepreneurial journey — in order to scale your business.\n\nWe host these workshops every month, focused on core topics determined by each Executive Mentor's expertise, to allow you to grow with your cohort and fellow founders.",
+          "Innovation Roundtables are intimate, \"Founder-only\" sessions led by an Executive Mentor to cover the deep, realistic conversations that founders should be having. These are spaces to share successes, and most importantly, struggles throughout the entrepreneurial journey, in order to scale your business.\n\nWe host these workshops every month, focused on core topics determined by each Executive Mentor's expertise, to allow you to grow with your cohort and fellow founders.",
       },
     ],
   },

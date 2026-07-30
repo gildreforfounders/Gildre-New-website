@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/next-100-customers-gtm-playbook" },
   title: "Your Next 100 Customers: The Gildre GTM Playbook for Founders (2026 Edition) | Gildre",
   description:
-    "The exact go-to-market playbook Gildre founders used to acquire their next 100 customers in 2026 — three high-signal acquisition channels: high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With specific tools, workflows, and tactics.",
+    "The exact go-to-market playbook Gildre founders used to acquire their next 100 customers in 2026: three high-signal acquisition channels: high-intent content marketing, precision outbound email, and the strategic partnership flywheel. With specific tools, workflows, and tactics.",
   keywords: [
     "GTM playbook for founders",
     "how to get your first 100 customers startup",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Your Next 100 Customers: The Gildre GTM Playbook",
     description:
-      "Three acquisition channels Gildre founders used to land their next 100 customers — content, outbound, and partnerships — with exact tools, workflows, and tactics.",
+      "Three acquisition channels Gildre founders used to land their next 100 customers: content, outbound, and partnerships, with exact tools, workflows, and tactics.",
     type: "article",
     url: "https://www.gildre.com/guides/next-100-customers-gtm-playbook",
     images: [{ url: "https://www.gildre.com/images/gtm-analytics-laptop.webp" }],
@@ -34,7 +34,7 @@ const schema = {
   "@type": "Article",
   "headline": "Your Next 100 Customers: The Gildre GTM Playbook for Founders (2026 Edition)",
   "description":
-    "The exact go-to-market playbook Gildre founders used to acquire their next 100 customers in 2026 — three high-signal acquisition channels with specific tools, workflows, and tactics.",
+    "The exact go-to-market playbook Gildre founders used to acquire their next 100 customers in 2026: three high-signal acquisition channels with specific tools, workflows, and tactics.",
   "image": "https://www.gildre.com/images/gtm-analytics-laptop.webp",
   "author": { "@type": "Organization", "name": "Gildre", "url": "https://www.gildre.com" },
   "publisher": {
@@ -165,7 +165,7 @@ export default function Next100Customers() {
               The Gildre GTM Playbook: Three Acquisition Channels That Actually Worked in 2026
             </p>
             <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-              After six months of running these strategies with our founder cohorts, we're sharing the three highest-performing go-to-market channels of 2026 — with the exact steps, tools, and workflows used to execute them.
+              After six months of running these strategies with our founder cohorts, we're sharing the three highest-performing go-to-market channels of 2026, with the exact steps, tools, and workflowsws used to execute them.
             </p>
           </div>
         </section>
@@ -182,10 +182,10 @@ export default function Next100Customers() {
               Quick Background
             </p>
             <p className="text-base leading-relaxed text-white font-medium">
-              The secret to your next 100 customers isn't more volume — it's more relevance.
+              The secret to your next 100 customers isn't more volume; it's more relevance.
             </p>
             <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-              Most founders default to spray-and-pray automation. Gildre cohorts have moved away from that entirely — toward a high-signal, high-velocity framework built on clear positive buying signals. The results over the past six months have been significant. Below are the three channels that outperformed everything else.
+              Most founders default to spray-and-pray automation. Gildre cohorts have moved away from that entirely, toward a high-signal, high-velocity framework built on clear positive buying signals. The results over the past six months have been significant. Below are the three channels that outperformed everything else.
             </p>
           </div>
 
@@ -218,10 +218,10 @@ export default function Next100Customers() {
               </div>
               <div className="pl-12">
                 <Body>
-                  Stop creating generic blog posts. The highest-converting content in B2B is Comparison Pages — <em style={{ color: "rgba(255,255,255,0.85)" }}>[Your Tool] vs. [Competitor]</em> — because they capture people who are already in a buying decision, not people casually browsing.
+                  Stop creating generic blog posts. The highest-converting content in B2B is Comparison Pages (<em style={{ color: "rgba(255,255,255,0.85)" }}>[Your Tool] vs. [Competitor]</em>) because they capture people who are already in a buying decision, not people casually browsing.
                 </Body>
                 <Body>
-                  Use SEMRush or Ahrefs to find the exact comparison queries your prospects are searching, then optimize for both traditional SEO and AI search (AIO) — since an increasing share of B2B research now happens through AI tools, not just Google.
+                  Use SEMRush or Ahrefs to find the exact comparison queries your prospects are searching, then optimize for both traditional SEO and AI search (AIO), since an increasing share of B2B research now happens through AI tools, not just Google.
                 </Body>
                 <div
                   className="mt-4 rounded-xl p-5"
@@ -247,7 +247,7 @@ export default function Next100Customers() {
               </div>
               <div className="pl-12">
                 <Body>
-                  Take your strongest insight or framework and turn it into a single-page SOP or cheat sheet. Offer it freely — in LinkedIn comments, as a landing page lead magnet, anywhere your prospects already are. When someone asks for it, you've earned the right to start a conversation without it feeling like a cold pitch.
+                  Take your strongest insight or framework and turn it into a single-page SOP or cheat sheet. Offer it freely: in LinkedIn comments, as a landing page lead magnet, anywhere your prospects already are. When someone asks for it, you've earned the right to start a conversation without it feeling like a cold pitch.
                 </Body>
                 <Body>
                   The key: it has to be genuinely useful. A mediocre asset won't generate hand-raisers. The goal is something specific enough that when prospects read it, they immediately think <em style={{ color: "rgba(255,255,255,0.85)" }}>"I need to talk to whoever built this."</em>
@@ -263,7 +263,7 @@ export default function Next100Customers() {
               </div>
               <div className="pl-12">
                 <Body>
-                  Once someone engages with your content, don't send them a generic follow-up. Tools like Arrows let you build personalized Sales Rooms for each lead — a dedicated page that includes a 1:1 Loom video, relevant assets, and a direct booking link. The Video Bridge converts at significantly higher rates than a standard email follow-up.
+                  Once someone engages with your content, don't send them a generic follow-up. Tools like Arrows let you build personalized Sales Rooms for each lead: a dedicated page that includes a 1:1 Loom video, relevant assets, and a direct booking link. The Video Bridge converts at significantly higher rates than a standard email follow-up.
                 </Body>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <ToolPill name="Arrows" href="https://arrows.to" />
@@ -345,7 +345,7 @@ export default function Next100Customers() {
                   Stop emailing static lists. Email trigger events. A prospect who just raised a round, hired a VP of Sales, or posted about a specific pain point is infinitely more likely to respond than someone pulled from a cold export.
                 </Body>
                 <Body>
-                  Tools like Clay or ppl.contact let you aggregate these signals across data sources and auto-enrich each lead with company size, tech stack, growth signals, and contact details — so your message can be specific before you ever hit send.
+                  Tools like Clay or ppl.contact let you aggregate these signals across data sources and auto-enrich each lead with company size, tech stack, growth signals, and contact details, so your message can be specific before you ever hit send.
                 </Body>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <ToolPill name="Clay" href="https://clay.com" />
@@ -463,7 +463,7 @@ export default function Next100Customers() {
                   Identify tools or services that sit upstream or downstream from your product in your customer's workflow. If you sell SEO software, your natural partners are the web development agencies building the sites you optimize. If you sell HR software, it's the PEOs and benefits brokers your buyers already trust.
                 </Body>
                 <Body>
-                  Use Reveal or Crossbeam to overlay your CRM against a potential partner's. These tools show you exactly which of your target accounts they already have a relationship with — without you exposing your full list to them. This lets you prioritize the partnerships with the highest overlap before making any introductions.
+                  Use Reveal or Crossbeam to overlay your CRM against a potential partner's. These tools show you exactly which of your target accounts they already have a relationship with, without you exposing your full list to them. This lets you prioritize the partnerships with the highest overlap before making any introductions.
                 </Body>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <ToolPill name="Reveal" href="https://reveal.co" />
@@ -576,7 +576,7 @@ export default function Next100Customers() {
               Scaling isn't a solo sport.
             </h3>
             <p className="text-sm leading-relaxed mb-8 mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Book a 30-minute advisory session to see how Gildre's network of founders and operators can accelerate your growth timeline — and help you pressure-test which of these three channels fits your specific stage and market.
+              Book a 30-minute advisory session to see how Gildre's network of founders and operators can accelerate your growth timeline, and help you pressure-test which of these three channels fits your specific stage and market.
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a

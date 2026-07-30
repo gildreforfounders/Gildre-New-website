@@ -29,7 +29,7 @@ const boxes = [
     emoji: "⚡",
     color: "#C9A96E",
     description:
-      "Designed for founders who want to sharpen focus and fuel their growth mindset. The Elevate box is packed with tools, resources, and wellness essentials to help you perform at your peak — mentally and professionally.",
+      "Designed for founders who want to sharpen focus and fuel their growth mindset. The Elevate box is packed with tools, resources, and wellness essentials to help you perform at your peak, mentally and professionally.",
     bestFor: [
       "Deep work and focus sessions",
       "High-output founders and operators",
@@ -43,7 +43,7 @@ const boxes = [
     emoji: "🤝",
     color: "#5B7FA6",
     description:
-      "Built to bring teams closer together. The Bond box is a curated team experience that fosters connection, communication, and culture — perfect for founders who want to invest in the people building alongside them.",
+      "Built to bring teams closer together. The Bond box is a curated team experience that fosters connection, communication, and culture, perfect for founders who want to invest in the people building alongside them.",
     bestFor: [
       "Leadership teams and co-founders",
       "Remote or distributed teams",
@@ -122,7 +122,7 @@ export default function MindHappyPage() {
             <span style={{ color: "#C9A96E" }}>Founders</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-center text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Gildre has partnered with MindHappy — as featured in Forbes — to bring exclusive curated wellness boxes to our founder community. Choose the experience that fits where you are right now.
+            Gildre has partnered with MindHappy (as featured in Forbes) to bring exclusive curated wellness boxes to our founder community. Choose the experience that fits where you are right now.
           </p>
 
           {/* Two-column: copy + Forbes image */}
@@ -146,7 +146,7 @@ export default function MindHappyPage() {
                 Building a company takes everything you have. MindHappy helps you keep giving it.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-                MindHappy creates intentional wellness experiences for high-performers — founders, teams, and operators who know that peak performance starts with taking care of yourself and the people around you.
+                MindHappy creates intentional wellness experiences for high-performers: founders, teams, and operators who know that peak performance starts with taking care of yourself and the people around you.
               </p>
               <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
                 Through our partnership, Gildre members get exclusive access to three curated box experiences designed around the real challenges founders face: staying focused, building culture, and avoiding burnout.
@@ -301,7 +301,7 @@ export default function MindHappyPage() {
             You build better when you feel better.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Not sure which box is right for you? Start with what your week has felt like — and go from there.
+            Not sure which box is right for you? Start with what your week has felt like, and go from there.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             {boxes.map((box) => (

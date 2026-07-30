@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/memberprograms" },
   title: "Gildre Member Programs — What You Get at Every Tier",
   description:
-    "From White-Glove Onboarding to weekly 1:1 matches and quarterly executive workshops — a full breakdown of everything Gildre members access at Silver, Gold, and Platinum.",
+    "From White-Glove Onboarding to weekly 1:1 matches and quarterly executive workshops: a full breakdown of everything Gildre members access at Silver, Gold, and Platinum.",
   keywords: ["Gildre member programs", "founder benefits", "startup membership benefits", "founder community perks"],
   openGraph: {
     title: "Gildre Member Programs — What You Get at Every Tier",
     description:
-      "White-Glove Onboarding, weekly 1:1 matches, and quarterly executive workshops — everything Gildre members access at Silver, Gold, and Platinum.",
+      "White-Glove Onboarding, weekly 1:1 matches, and quarterly executive workshops, everything Gildre members access at Silver, Gold, and Platinum.",
     url: "https://www.gildre.com/memberprograms",
     siteName: "Gildre",
     type: "website",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Gildre Member Programs — What You Get at Every Tier",
-    description: "White-Glove Onboarding, weekly 1:1 matches, and executive workshops — everything at Silver, Gold, and Platinum.",
+    description: "White-Glove Onboarding, weekly 1:1 matches, and executive workshops, everything at Silver, Gold, and Platinum.",
   },
 };
 

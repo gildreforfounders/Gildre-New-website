@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/startup-equity-101" },
   title: "Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting Schedules, and Managing Your Cap Table | Gildre",
   description:
-    "A practical guide to startup equity for founders — how to split shares with co-founders, structure employee stock options, understand dilution, and avoid the mistakes that destroy cap tables. Includes equity benchmarks, vesting schedules, and dilution examples.",
+    "A practical guide to startup equity for founders: how to split shares with co-founders, structure employee stock options, understand dilution, and avoid the mistakes that destroy cap tables. Includes equity benchmarks, vesting schedules, and dilution examples.",
   keywords: [
     "startup equity guide",
     "how to split equity co-founders",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Startup Equity 101: The Complete Founder's Guide",
     description:
-      "How to split shares with co-founders, structure employee options, understand dilution, and avoid the mistakes that sink cap tables — explained without legal jargon.",
+      "How to split shares with co-founders, structure employee options, understand dilution, and avoid the mistakes that sink cap tables, explained without legal jargon.",
     type: "article",
     url: "https://www.gildre.com/guides/startup-equity-101",
     images: [{ url: "https://www.gildre.com/images/equity-growth-coins.webp" }],
@@ -36,7 +36,7 @@ const schema = {
   "@type": "Article",
   "headline": "Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting Schedules, and Managing Your Cap Table",
   "description":
-    "A practical guide to startup equity for founders — how to split shares with co-founders, structure employee stock options, understand dilution, and avoid the mistakes that destroy cap tables.",
+    "A practical guide to startup equity for founders: how to split shares with co-founders, structure employee stock options, understand dilution, and avoid the mistakes that destroy cap tables.",
   "image": "https://www.gildre.com/images/equity-growth-coins.webp",
   "author": { "@type": "Organization", "name": "Gildre", "url": "https://www.gildre.com" },
   "publisher": {
@@ -159,7 +159,7 @@ export default function StartupEquity101() {
               Startup Equity 101: The Complete Founder's Guide to Splitting Shares, Vesting, and Managing Your Cap Table
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-              How to split shares with co-founders fairly, structure employee stock options, survive dilution from investors, and avoid the equity mistakes that haunt founders for years — explained without legal jargon.
+              How to split shares with co-founders fairly, structure employee stock options, survive dilution from investors, and avoid the equity mistakes that haunt founders for years, explained without legal jargon.
             </p>
           </div>
         </section>
@@ -170,12 +170,12 @@ export default function StartupEquity101() {
           {/* Quick reference */}
           <Callout title="What You'll Learn in This Guide">
             <ul className="space-y-2 text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>
-              <li>• <span className="text-white font-medium">Founder equity splits</span> — why 50/50 is often wrong, and how to use contribution-based frameworks instead</li>
-              <li>• <span className="text-white font-medium">Vesting schedules</span> — the 4-year / 1-year cliff standard, and why it protects everyone</li>
-              <li>• <span className="text-white font-medium">Employee option pools</span> — how much to allocate, and how much equity each role should get</li>
-              <li>• <span className="text-white font-medium">Dilution mechanics</span> — how funding rounds change ownership, with a worked example</li>
-              <li>• <span className="text-white font-medium">Common vs. preferred shares</span> — what investors get that employees don't</li>
-              <li>• <span className="text-white font-medium">Exit scenarios</span> — what happens to equity at acquisition or IPO</li>
+              <li>• <span className="text-white font-medium">Founder equity splits</span>: why 50/50 is often wrong, and how to use contribution-based frameworks instead</li>
+              <li>• <span className="text-white font-medium">Vesting schedules</span>: the 4-year / 1-year cliff standard, and why it protects everyone</li>
+              <li>• <span className="text-white font-medium">Employee option pools</span>: how much to allocate, and how much equity each role should get</li>
+              <li>• <span className="text-white font-medium">Dilution mechanics</span>: how funding rounds change ownership, with a worked example</li>
+              <li>• <span className="text-white font-medium">Common vs. preferred shares</span>: what investors get that employees don't</li>
+              <li>• <span className="text-white font-medium">Exit scenarios</span>: what happens to equity at acquisition or IPO</li>
             </ul>
           </Callout>
 
@@ -192,7 +192,7 @@ export default function StartupEquity101() {
           </div>
 
           <Body>
-            Equity is the most consequential decision you'll make as a founder — and one of the most frequently botched. The mistakes happen early, before anyone knows what they're doing, and they compound quietly for years until they blow up at the worst possible moment: during a raise, a hire, or an acquisition.
+            Equity is the most consequential decision you'll make as a founder , and one of the most frequently botched. The mistakes happen early, before anyone knows what they're doing, and they compound quietly for years until they blow up at the worst possible moment: during a raise, a hire, or an acquisition.
           </Body>
           <Body>
             This guide covers the fundamentals clearly, so you can make decisions with confidence rather than hope.
@@ -202,7 +202,7 @@ export default function StartupEquity101() {
           <H2>Part 1: Splitting Founder Equity</H2>
 
           <Body>
-            The most common founder equity mistake isn't greed — it's false fairness. A 50/50 split feels democratic, but it's almost never accurate to what each person actually contributes. And when the split doesn't match reality, resentment follows.
+            The most common founder equity mistake isn't greed; it's false fairness. A 50/50 split feels democratic, but it's almost never accurate to what each person actually contributes. And when the split doesn't match reality, resentment follows.
           </Body>
 
           <H3>What to factor in before you split anything</H3>
@@ -217,7 +217,7 @@ export default function StartupEquity101() {
               </thead>
               <tbody style={{ backgroundColor: "#0a1020" }}>
                 {[
-                  ["Who originated the idea", "Idea credit matters less than execution — weight this lightly"],
+                  ["Who originated the idea", "Idea credit matters less than execution; weight this lightly"],
                   ["Time commitment", "Full-time vs. part-time is the biggest single lever"],
                   ["Capital contribution", "Cash in deserves higher weight than unpaid time"],
                   ["Skills that are hardest to replace", "A CTO who can actually build the product is worth more than an advisor"],
@@ -241,7 +241,7 @@ export default function StartupEquity101() {
           <ul className="mb-6 space-y-3 text-sm pl-1" style={{ color: "rgba(255,255,255,0.72)" }}>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> Each contribution type (time, cash, IP, equipment) is assigned a relative value</li>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> Your equity percentage = your total contributions ÷ all contributions combined</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> If a founder stops contributing, their slice stops growing — they don't dilute the people still working</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> If a founder stops contributing, their slice stops growing; they don't dilute the people still working</li>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> Cash is typically weighted at 2× unpaid time, since it carries more risk</li>
           </ul>
 
@@ -263,7 +263,7 @@ export default function StartupEquity101() {
           </ul>
 
           <Warning>
-            Without vesting, a co-founder can disappear after six months and still own 30% of your company. Investors will immediately flag this as a red flag during due diligence — and they're right to.
+            Without vesting, a co-founder can disappear after six months and still own 30% of your company. Investors will immediately flag this as a red flag during due diligence, and they're right to.
           </Warning>
 
           <H3>What happens when a founder leaves</H3>
@@ -273,7 +273,7 @@ export default function StartupEquity101() {
           </Body>
           <ul className="mb-6 space-y-2 text-sm pl-1" style={{ color: "rgba(255,255,255,0.72)" }}>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> Does the departing founder keep their vested shares or are they required to sell them back?</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> If shares are sold back, at what price — original cost or fair market value?</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> If shares are sold back, at what price: original cost or fair market value?</li>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> Do remaining founders get right of first refusal on those shares?</li>
           </ul>
           <Body>
@@ -296,13 +296,13 @@ export default function StartupEquity101() {
           </div>
 
           <Body>
-            Equity is your primary recruiting and retention tool at the early stage — before you can compete on salary with established companies. Done right, it turns employees into co-owners who care about outcomes, not just outputs.
+            Equity is your primary recruiting and retention tool at the early stage, before you can compete on salary with established companies. Done right, it turns employees into co-owners who care about outcomes, not just outputs.
           </Body>
 
           <H3>The employee option pool</H3>
 
           <Body>
-            Before raising your first institutional round, set aside <strong className="text-white">10–20% of total shares</strong> as an employee stock option pool (ESOP). This is standard, and investors will expect it. If you don't do it before the round, they'll require it after — which means the dilution comes entirely out of the founder pool.
+            Before raising your first institutional round, set aside <strong className="text-white">10–20% of total shares</strong> as an employee stock option pool (ESOP). This is standard, and investors will expect it. If you don't do it before the round, they'll require it after , which means the dilution comes entirely out of the founder pool.
           </Body>
 
           <Body>
@@ -357,7 +357,7 @@ export default function StartupEquity101() {
           </ul>
 
           <Body>
-            Performance vesting aligns incentives well — but only when milestones are clearly defined and mutually agreed on before the grant. Vague targets lead to disputes. Specific, measurable ones don't.
+            Performance vesting aligns incentives well, but only when milestones are clearly defined and mutually agreed on before the grant. Vague targets lead to disputes. Specific, measurable ones don't.
           </Body>
 
           {/* ── Part 3: Investors & Dilution ─────────────────────────── */}
@@ -390,7 +390,7 @@ export default function StartupEquity101() {
           </div>
 
           <Body>
-            The liquidation preference is the most important term in preferred shares. A 1× non-participating liquidation preference means investors get their money back first — then everyone splits the remainder. A 2× preference means they get 2× their investment before anyone else sees anything. Know what you're agreeing to.
+            The liquidation preference is the most important term in preferred shares. A 1× non-participating liquidation preference means investors get their money back first; then everyone splits the remainder. A 2× preference means they get 2× their investment before anyone else sees anything. Know what you're agreeing to.
           </Body>
 
           <H3>How dilution actually works: a worked example</H3>
@@ -429,11 +429,11 @@ export default function StartupEquity101() {
           </div>
 
           <Body>
-            Each founder goes from 50% to 30% through two rounds — and that's before any employee pool dilution. The percentage shrinks, but the value of that 30% may be far greater than the original 50% if the business has grown. Dilution isn't inherently bad. Dilution at a bad valuation is.
+            Each founder goes from 50% to 30% through two rounds, and that's before any employee pool dilution. The percentage shrinks, but the value of that 30% may be far greater than the original 50% if the business has grown. Dilution isn't inherently bad. Dilution at a bad valuation is.
           </Body>
 
           <Warning>
-            A pre-money valuation determines how much your existing ownership is worth before new money comes in. Always negotiate on pre-money, and understand how the option pool shuffle works — investors sometimes require the pool to be created pre-investment, which dilutes founders before they've counted the investment.
+            A pre-money valuation determines how much your existing ownership is worth before new money comes in. Always negotiate on pre-money, and understand how the option pool shuffle works; investors sometimes require the pool to be created pre-investment, which dilutes founders before they've counted the investment.
           </Warning>
 
           {/* ── Part 4: Long-Term Equity Management ──────────────────── */}
@@ -441,12 +441,12 @@ export default function StartupEquity101() {
 
           <H3>Equity refreshers</H3>
           <Body>
-            After 2–3 years, early employees may have most of their options vested — which removes a key retention lever. Many fast-growing startups issue equity refresher grants to keep top performers engaged and feeling ownership over what they're building. Budget for this in your option pool planning.
+            After 2–3 years, early employees may have most of their options vested, which removes a key retention lever. Many fast-growing startups issue equity refresher grants to keep top performers engaged and feeling ownership over what they're building. Budget for this in your option pool planning.
           </Body>
 
           <H3>Secondary sales</H3>
           <Body>
-            As the company gains traction, founders and employees may want to sell a portion of their vested shares before an exit — to pay off debt, buy a house, or simply diversify. Secondary sales can happen on company-approved tender offers or through secondary market platforms. Some companies allow them; others restrict them to avoid creating a "short-timer" culture. Have a clear policy before employees ask.
+            As the company gains traction, founders and employees may want to sell a portion of their vested shares before an exit: to pay off debt, buy a house, or simply diversify. Secondary sales can happen on company-approved tender offers or through secondary market platforms. Some companies allow them; others restrict them to avoid creating a "short-timer" culture. Have a clear policy before employees ask.
           </Body>
 
           <H3>Exit scenarios: what happens at acquisition or IPO</H3>
@@ -455,8 +455,8 @@ export default function StartupEquity101() {
           </Body>
           <ul className="mb-6 space-y-2 text-sm pl-1" style={{ color: "rgba(255,255,255,0.72)" }}>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Liquidation waterfall:</strong> preferred shareholders (investors) typically get paid before common shareholders (founders and employees)</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Participating preferred:</strong> investors get their preference AND participate in the remainder — worse for founders</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Acceleration clauses:</strong> some employee option grants include single or double-trigger acceleration — all unvested options vest immediately on acquisition or termination post-acquisition</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Participating preferred:</strong> investors get their preference AND participate in the remainder: worse for founders</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Acceleration clauses:</strong> some employee option grants include single or double-trigger acceleration: all unvested options vest immediately on acquisition or termination post-acquisition</li>
             <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Lock-up period:</strong> post-IPO, insiders typically can't sell shares for 180 days</li>
           </ul>
 
@@ -471,7 +471,7 @@ export default function StartupEquity101() {
               </li>
               <li className="flex gap-3">
                 <span style={{ color: "#C9A96E", flexShrink: 0 }}>✓</span>
-                <span><strong className="text-white">Vest everything.</strong> Founders, employees, advisors — 4 years with a 1-year cliff is standard. No exceptions.</span>
+                <span><strong className="text-white">Vest everything.</strong> Founders, employees, advisors: 4 years with a 1-year cliff is standard. No exceptions.</span>
               </li>
               <li className="flex gap-3">
                 <span style={{ color: "#C9A96E", flexShrink: 0 }}>✓</span>

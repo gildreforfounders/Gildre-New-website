@@ -93,7 +93,7 @@ export default function ComparisonTable() {
           See How We Stack Up
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-          Built specifically for early-stage founders — not executives with $5M+ in revenue.
+          Built specifically for early-stage founders, not executives with $5M+ in revenue.
         </p>
 
         {/* Table wrapper — scrollable on mobile */}

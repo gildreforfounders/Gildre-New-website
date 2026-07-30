@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Founder Community for Startups | Gildre — Join 250+ Founders",
     description:
-      "A founder community is a curated network of startup founders, mentors, and operators. Join Gildre — 250+ members, 1:1 mentorship, weekly events, no equity taken.",
+      "A founder community is a curated network of startup founders, mentors, and operators. Join Gildre: 250+ members, 1:1 mentorship, weekly events, no equity taken.",
     url: "https://www.gildre.com/founder-community",
     siteName: "Gildre",
     type: "article",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Founder Community for Startups | Gildre",
-    description: "Join 250+ startup founders. 1:1 mentorship, curated peer matching, weekly events — no equity taken.",
+    description: "Join 250+ startup founders. 1:1 mentorship, curated peer matching, weekly events, no equity taken.",
   },
 };
 
@@ -43,7 +43,7 @@ const faqSchema = {
       name: "What is a founder community?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A founder community is a curated network of startup founders, operators, and mentors who share knowledge, make introductions, and support each other through the challenges of building a company. Unlike a general business network, a founder community is organized around the specific needs of company builders — fundraising, hiring, product development, growth, and exit.",
+        text: "A founder community is a curated network of startup founders, operators, and mentors who share knowledge, make introductions, and support each other through the challenges of building a company. Unlike a general business network, a founder community is organized around the specific needs of company builders: fundraising, hiring, product development, growth, and exit.",
       },
     },
     {
@@ -67,7 +67,7 @@ const faqSchema = {
       name: "What is the best founder community for early-stage startups?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For early-stage founders (pre-revenue to $500K ARR), Gildre's Silver membership ($59/month) offers weekly curated peer introductions, virtual events, expert mentorship access, and $5M+ in partner perks — with no equity taken. For founders who want intensive funding and a cohort experience, Y Combinator or Techstars are alternatives, though they take 5–7% equity.",
+        text: "For early-stage founders (pre-revenue to $500K ARR), Gildre's Silver membership ($59/month) offers weekly curated peer introductions, virtual events, expert mentorship access, and $5M+ in partner perks, with no equity taken. For founders who want intensive funding and a cohort experience, Y Combinator or Techstars are alternatives, though they take 5–7% equity.",
       },
     },
     {
@@ -83,7 +83,7 @@ const faqSchema = {
       name: "What should I look for in a founder community?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Look for: (1) Curation — are members and mentors vetted? (2) Stage-specificity — are peers at your ARR level? (3) Mentor quality — are they exited founders and operators, not just coaches? (4) Programming — live events, AMAs, workshops? (5) Equity model — does it take equity or charge a membership fee? Gildre checks all five with no equity taken.",
+        text: "Look for: (1) Curation: are members and mentors vetted? (2) Stage-specificity: are peers at your ARR level? (3) Mentor quality: are they exited founders and operators, not just coaches? (4) Programming: live events, AMAs, workshops? (5) Equity model: does it take equity or charge a membership fee? Gildre checks all five with no equity taken.",
       },
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       name: "What cities does Gildre's founder community operate in?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Gildre's founder community has active chapters in Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle — with virtual membership available worldwide. In-person events are hosted quarterly in each city for Gold and Platinum members.",
+        text: "Gildre's founder community has active chapters in Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle, with virtual membership available worldwide. In-person events are hosted quarterly in each city for Gold and Platinum members.",
       },
     },
   ],
@@ -169,7 +169,7 @@ export default function FounderCommunityPage() {
             <span style={{ color: "#C9A96E" }}>Built for Operators Who Execute</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-            A founder community is a curated network of startup founders, mentors, and operators who share knowledge, make introductions, and support each other through every stage of company building. Gildre is the private founder community where 250+ founders connect, learn, and build — no equity taken.
+            A founder community is a curated network of startup founders, mentors, and operators who share knowledge, make introductions, and support each other through every stage of company building. Gildre is the private founder community where 250+ founders connect, learn, and build, no equity taken.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
@@ -208,10 +208,10 @@ export default function FounderCommunityPage() {
             A <strong>founder community</strong> is a curated membership network of startup founders, operators, and experienced mentors organized around the specific challenges of building a company. Unlike a general business network or a LinkedIn group, a founder community provides structured programming, vetted introductions, and expert access focused on what founders actually need: fundraising support, hiring guidance, product feedback, revenue growth strategies, and peer accountability.
           </p>
           <p className="mt-4 text-base leading-[1.9] text-zinc-600">
-            The best founder communities are stage-specific — matching founders with peers who are solving the same problems at the same ARR level — and mentor-led, connecting members with operators who have actually built and exited companies rather than coaches or consultants.
+            The best founder communities are stage-specific, matching founders with peers who are solving the same problems at the same ARR level, and mentor-led, connecting members with operators who have actually built and exited companies rather than coaches or consultants.
           </p>
           <p className="mt-4 text-base leading-[1.9] text-zinc-600">
-            Founder communities differ from accelerators in a critical way: they do not take equity. An accelerator like Y Combinator or Techstars takes 5–10% of your company in exchange for a short cohort program. A founder community like Gildre charges a monthly membership fee and takes zero ownership stake, making it accessible at any stage — not just when you're raising a round.
+            Founder communities differ from accelerators in a critical way: they do not take equity. An accelerator like Y Combinator or Techstars takes 5–10% of your company in exchange for a short cohort program. A founder community like Gildre charges a monthly membership fee and takes zero ownership stake, making it accessible at any stage, not just when you're raising a round.
           </p>
         </div>
       </section>
@@ -233,12 +233,12 @@ export default function FounderCommunityPage() {
           </p>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Peer accountability", body: "Founders in communities move faster because they have peers who hold them accountable to their goals — not just cheerleaders, but honest advisors." },
+              { title: "Peer accountability", body: "Founders in communities move faster because they have peers who hold them accountable to their goals, not just cheerleaders, but honest advisors." },
               { title: "Mentors who've done it", body: "Access to operators who have built and exited companies in your space, not generalist coaches. Gildre mentors include a $285M unicorn CEO, a PayPal Director of Product, and a NASA engineer turned YC founder." },
               { title: "Warm investor introductions", body: "The most efficient fundraising happens through warm intros. Founder communities with investor networks unlock introductions that cold outreach can't." },
               { title: "Avoiding costly mistakes", body: "The fastest ROI of any founder community is avoiding a bad hire, a bad contract, or a bad fundraising strategy that a peer or mentor has already lived through." },
-              { title: "Finding co-founders and hires", body: "Many founders find their next co-founder, early hire, or advisor inside a founder community — people who already share the same values and ambition." },
-              { title: "Mental resilience", body: "Founders in communities report significantly lower burnout rates. Knowing that other people understand what you're going through is not a nice-to-have — it's a performance variable." },
+              { title: "Finding co-founders and hires", body: "Many founders find their next co-founder, early hire, or advisor inside a founder community: people who already share the same values and ambition." },
+              { title: "Mental resilience", body: "Founders in communities report significantly lower burnout rates. Knowing that other people understand what you're going through is not a nice-to-have; it's a performance variable." },
             ].map((item, i) => (
               <div
                 key={i}
@@ -271,11 +271,11 @@ export default function FounderCommunityPage() {
           </h2>
           <div className="mt-10 flex flex-col gap-6">
             {[
-              { n: "01", title: "Curation — Is every member vetted?", body: "The value of a founder community is directly proportional to the quality of its members. Open communities attract noise. The best founder communities review applications and selectively admit members who meet criteria around ambition, experience, and contribution mindset." },
-              { n: "02", title: "Stage-specificity — Are peers at your level?", body: "A pre-revenue founder and a $10M ARR founder have almost nothing to learn from each other on a day-to-day basis. Look for communities that segment by stage — Build, Growth, Scale — so you're talking to people solving the same problems you're facing this quarter." },
-              { n: "03", title: "Mentor quality — Operators or coaches?", body: "There is a meaningful difference between a mentor who has built and sold a company and a coach who has a certification. The best founder communities have mentors with operating track records: people who have raised rounds, managed boards, hired and fired at scale, and navigated exits." },
-              { n: "04", title: "Programming — Events, AMAs, workshops?", body: "A community is not a forum. Look for live programming: weekly AMAs, Innovation Roundtables with domain experts, Fireside Chats from peer founders, and Executive Workshops on topics you're actively working through. Programming is what turns a directory into a community." },
-              { n: "05", title: "Equity model — Does it take a stake?", body: "Accelerators take equity. Founder communities should not. If a community takes equity as part of membership, it is structurally an accelerator with different branding. A true founder community charges a membership fee and takes zero ownership in your business." },
+              { n: "01", title: "Curation: Is every member vetted?", body: "The value of a founder community is directly proportional to the quality of its members. Open communities attract noise. The best founder communities review applications and selectively admit members who meet criteria around ambition, experience, and contribution mindset." },
+              { n: "02", title: "Stage-specificity: Are peers at your level?", body: "A pre-revenue founder and a $10M ARR founder have almost nothing to learn from each other on a day-to-day basis. Look for communities that segment by stage (Build, Growth, Scale), so you're talking to people solving the same problems you're facing this quarter." },
+              { n: "03", title: "Mentor quality: Operators or coaches?", body: "There is a meaningful difference between a mentor who has built and sold a company and a coach who has a certification. The best founder communities have mentors with operating track records: people who have raised rounds, managed boards, hired and fired at scale, and navigated exits." },
+              { n: "04", title: "Programming: Events, AMAs, workshops?", body: "A community is not a forum. Look for live programming: weekly AMAs, Innovation Roundtables with domain experts, Fireside Chats from peer founders, and Executive Workshops on topics you're actively working through. Programming is what turns a directory into a community." },
+              { n: "05", title: "Equity model: Does it take a stake?", body: "Accelerators take equity. Founder communities should not. If a community takes equity as part of membership, it is structurally an accelerator with different branding. A true founder community charges a membership fee and takes zero ownership in your business." },
             ].map((item) => (
               <div
                 key={item.n}
@@ -374,7 +374,7 @@ export default function FounderCommunityPage() {
               Why Gildre Is the Right Founder Community
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-              Gildre is a private, application-based startup founder community serving 250+ founders across 15+ US cities. Members get weekly curated 1:1 peer introductions, monthly advisory sessions with exited founders, 3–4 curated events per month, and $5M+ in partner perks — starting at $59/month with no equity taken.
+              Gildre is a private, application-based startup founder community serving 250+ founders across 15+ US cities. Members get weekly curated 1:1 peer introductions, monthly advisory sessions with exited founders, 3–4 curated events per month, and $5M+ in partner perks, starting at $59/month with no equity taken.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               {[
@@ -426,7 +426,7 @@ export default function FounderCommunityPage() {
             {[
               {
                 q: "What is a founder community?",
-                a: "A founder community is a curated network of startup founders, operators, and mentors organized around the specific challenges of building a company — fundraising, hiring, product development, and growth. Unlike a general business network, a founder community provides structured programming, vetted introductions, and expert access.",
+                a: "A founder community is a curated network of startup founders, operators, and mentors organized around the specific challenges of building a company: fundraising, hiring, product development, and growth. Unlike a general business network, a founder community provides structured programming, vetted introductions, and expert access.",
               },
               {
                 q: "How is a founder community different from an accelerator?",
@@ -434,7 +434,7 @@ export default function FounderCommunityPage() {
               },
               {
                 q: "Do founder communities take equity?",
-                a: "Most membership-based founder communities do not take equity — they charge a monthly fee. Gildre takes zero equity. Accelerators take 5–10% equity but are technically a different structure. Always confirm the equity model before joining any program.",
+                a: "Most membership-based founder communities do not take equity; they charge a monthly fee. Gildre takes zero equity. Accelerators take 5–10% equity but are technically a different structure. Always confirm the equity model before joining any program.",
               },
               {
                 q: "What is the best founder community for early-stage startups?",
@@ -446,11 +446,11 @@ export default function FounderCommunityPage() {
               },
               {
                 q: "What cities does Gildre's founder community operate in?",
-                a: "Gildre has active in-person chapters in Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events — dinners, co-working sessions, happy hours — are hosted quarterly in each city.",
+                a: "Gildre has active in-person chapters in Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events (dinners, co-working sessions, happy hours) are hosted quarterly in each city.",
               },
               {
                 q: "What should I look for in a founder community?",
-                a: "Look for: (1) Curation — vetted members and mentors; (2) Stage-specificity — peers at your ARR level; (3) Mentor quality — exited founders, not coaches; (4) Live programming — events, AMAs, workshops; (5) No equity taken. Gildre checks all five.",
+                a: "Look for: (1) Curation: vetted members and mentors; (2) Stage-specificity: peers at your ARR level; (3) Mentor quality: exited founders, not coaches; (4) Live programming: events, AMAs, workshops; (5) No equity taken. Gildre checks all five.",
               },
             ].map((item, i) => (
               <div key={i} className="py-6">

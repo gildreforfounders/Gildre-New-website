@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/equity-dilution-explained" },
   title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks | Gildre",
   description:
-    "A practical guide to equity dilution for startup founders — how much equity to give away at pre-seed, seed, Series A, B, and beyond. Includes ownership benchmarks, a worked dilution table, the Facebook example, and strategies to minimize unnecessary dilution.",
+    "A practical guide to equity dilution for startup founders: how much equity to give away at pre-seed, seed, Series A, B, and beyondnd. Includes ownership benchmarks, a worked dilution table, the Facebook example, and strategies to minimize unnecessary dilution.",
   keywords: [
     "equity dilution startup",
     "how much equity to give investors",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round",
     description:
-      "How much equity do founders actually give away at each stage — and how do you protect your ownership without killing your growth? Real numbers, benchmarks, and the Facebook case study.",
+      "How much equity do founders actually give away at each stage: how do you protect your ownership without killing your growth? Real numbers, benchmarks, and the Facebook case study.",
     type: "article",
     url: "https://www.gildre.com/guides/equity-dilution-explained",
     images: [{ url: "https://www.gildre.com/images/dilution-venture-capital.webp" }],
@@ -36,7 +36,7 @@ const schema = {
   "@type": "Article",
   "headline": "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks",
   "description":
-    "A practical guide to equity dilution for startup founders — how much equity to give away at pre-seed, seed, Series A, B, and beyond, with ownership benchmarks and strategies to minimize unnecessary dilution.",
+    "A practical guide to equity dilution for startup founders: how much equity to give away at pre-seed, seed, Series A, B, and beyondnd, with ownership benchmarks and strategies to minimize unnecessary dilution.",
   "image": "https://www.gildre.com/images/dilution-venture-capital.webp",
   "author": { "@type": "Organization", "name": "Gildre", "url": "https://www.gildre.com" },
   "publisher": {
@@ -175,7 +175,7 @@ export default function EquityDilution() {
           </Quote>
 
           <Body>
-            That feeling is universal among first-time fundraisers. And it's partly right — dilution does reduce your percentage. But percentage isn't the same as value, and it isn't the same as control. The founders who navigate this well are the ones who understand the difference before they start negotiating.
+            That feeling is universal among first-time fundraisers. And it's partly right; dilution does reduce your percentage. But percentage isn't the same as value, and it isn't the same as control. The founders who navigate this well are the ones who understand the difference before they start negotiating.
           </Body>
 
           {/* Building image */}
@@ -193,7 +193,7 @@ export default function EquityDilution() {
           <H2>What Is Equity Dilution?</H2>
 
           <Body>
-            Equity dilution happens when a company issues new shares — reducing each existing shareholder's percentage of ownership. It's the mathematical consequence of bringing in outside capital: you create new shares, sell them to investors, and everyone's slice of the pie gets smaller even as the pie itself gets bigger.
+            Equity dilution happens when a company issues new shares, reducing each existing shareholder's percentage of ownership. It's the mathematical consequence of bringing in outside capital: you create new shares, sell them to investors, and everyone's slice of the pie gets smaller even as the pie itself gets bigger.
           </Body>
 
           <Body>
@@ -232,7 +232,7 @@ export default function EquityDilution() {
           <H2>How Much Equity Do Founders Give Away at Each Stage?</H2>
 
           <Body>
-            These ranges reflect market norms. They vary significantly by sector, geography, traction, and the competitive dynamics of a specific raise — but they're solid anchors for any first-time fundraiser.
+            These ranges reflect market norms. They vary significantly by sector, geography, traction, and the competitive dynamics of a specific raise, but they're solid anchors for any first-time fundraiser.
           </Body>
 
           <div className="my-6 overflow-hidden rounded-xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
@@ -265,12 +265,12 @@ export default function EquityDilution() {
           </div>
 
           <Warning>
-            These ranges describe what's typical — not what's optimal. Giving away 25% at seed when you could have raised at 15% is a permanent cost you pay on every future round. The strongest negotiating position is always a competing term sheet or genuine optionality to not raise at all.
+            These ranges describe what's typical, not what's optimal. Giving away 25% at seed when you could have raised at 15% is a permanent cost you pay on every future round. The strongest negotiating position is always a competing term sheet or genuine optionality to not raise at all.
           </Warning>
 
           <H3>Pre-Seed and Seed: High risk, high stakes</H3>
           <Body>
-            At the earliest stages, investors are betting on you personally — not your metrics. That risk premium is real, and it justifies giving up meaningful equity. But "meaningful" doesn't mean reckless. Giving away 30%+ at pre-seed before you have any traction leaves you cornered before the real game starts.
+            At the earliest stages, investors are betting on you personally, not your metrics. That risk premium is real, and it justifies giving up meaningful equity. But "meaningful" doesn't mean reckless. Giving away 30%+ at pre-seed before you have any traction leaves you cornered before the real game starts.
           </Body>
           <Body>
             A common mistake here: optimizing for the dollar amount raised rather than the valuation. Raising $1M at a $4M pre-money is very different from raising $1M at a $9M pre-money. The former leaves you with 80%; the latter leaves you with ~90%. Over multiple rounds, the compounding difference is significant.
@@ -278,7 +278,7 @@ export default function EquityDilution() {
 
           <H3>Series A: Where real dilution math starts to hurt</H3>
           <Body>
-            By Series A, you typically have revenue or strong user growth, and institutional VCs want a seat at the table — literally. Expect board representation requests alongside the check. The equity ask (15–25%) is standard, but the valuation is now heavily scrutinized. Revenue multiples, growth rate, market size, and competitive dynamics all factor in.
+            By Series A, you typically have revenue or strong user growth, and institutional VCs want a seat at the table, literally. Expect board representation requests alongside the check. The equity ask (15–25%) is standard, but the valuation is now heavily scrutinized. Revenue multiples, growth rate, market size, and competitive dynamics all factor in.
           </Body>
           <Body>
             Founders should aim to own at least 50% post-Series A to maintain strong governance control and meaningful financial upside. If you're below 40% post-A, you've likely either raised too much, at too low a valuation, or both.
@@ -336,13 +336,13 @@ export default function EquityDilution() {
           </div>
 
           <Body>
-            After three rounds, each founder owns roughly 23–24%. That's significant dilution — but if the Series B values the company at $100M+, their remaining stake is worth $23M+. The question isn't "how much did I give up?" It's "what was I able to build with that capital?"
+            After three rounds, each founder owns roughly 23–24%. That's significant dilution, but if the Series B values the company at $100M+, their remaining stake is worth $23M+. The question isn't "how much did I give up?" It's "what was I able to build with that capital?"
           </Body>
 
           <H2>Case Study: How Mark Zuckerberg Managed Dilution at Facebook</H2>
 
           <Body>
-            Facebook's fundraising history is the most studied dilution case in startup history — because the outcome was so extreme that it illustrates every principle at once.
+            Facebook's fundraising history is the most studied dilution case in startup history, because the outcome was so extreme that it illustrates every principle at once.
           </Body>
 
           <div className="my-6 overflow-hidden rounded-xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
@@ -356,9 +356,9 @@ export default function EquityDilution() {
               </thead>
               <tbody style={{ backgroundColor: "#0a1020" }}>
                 {[
-                  ["Seed (2004)", "$500K — Peter Thiel (~10.2%)", "$4.9M"],
-                  ["Series A (2005)", "$12.7M — Accel Partners", "~$98M"],
-                  ["Series B (2006)", "$27.5M — Greylock + others", "~$525M"],
+                  ["Seed (2004)", "$500K: Peter Thiel (~10.2%)", "$4.9M"],
+                  ["Series A (2005)", "$12.7M: Accel Partners", "~$98M"],
+                  ["Series B (2006)", "$27.5M: Greylock + others", "~$525M"],
                   ["Microsoft (2007)", "$240M for 1.6% stake", "$15B"],
                   ["IPO (2012)", "$16B raised", "$104B"],
                 ].map(([round, detail, val], i) => (
@@ -373,16 +373,16 @@ export default function EquityDilution() {
           </div>
 
           <Body>
-            By the time Facebook went public, Zuckerberg owned approximately 28% of the company. More importantly, he retained voting control through a dual-class share structure — Class B shares carried 10× the voting weight of Class A. His financial stake was diluted; his decision-making power was not.
+            By the time Facebook went public, Zuckerberg owned approximately 28% of the company. More importantly, he retained voting control through a dual-class share structure; Class B shares carried 10× the voting weight of Class A. His financial stake was diluted; his decision-making power was not.
           </Body>
 
           <Body>
-            The lesson isn't "raise from Peter Thiel at a $5M valuation." It's that the best founders separate economic dilution from governance dilution — and protect both independently.
+            The lesson isn't "raise from Peter Thiel at a $5M valuation." It's that the best founders separate economic dilution from governance dilution, and protect both independently.
           </Body>
 
           <H2>How to Minimize Unnecessary Dilution</H2>
 
-          <H3>1. Raise what you need — not what looks impressive</H3>
+          <H3>1. Raise what you need, not what looks impressive</H3>
           <Body>
             Every dollar you raise that you don't need is dilution you didn't have to take. A $10M Series A at a $40M valuation leaves you with 75% post-money. Raising $15M at the same valuation leaves you with 62.5%. The delta is 12.5 percentage points that compound across every future round and exit.
           </Body>
@@ -392,7 +392,7 @@ export default function EquityDilution() {
 
           <H3>2. Negotiate on valuation, not just check size</H3>
           <Body>
-            A 20% equity ask for a $3M raise at a $12M pre-money is very different from a 20% ask for a $3M raise at a $15M pre-money. Push hard on the valuation. It requires defensible metrics — ARR, growth rate, retention, market size — but those are worth building before you enter a process.
+            A 20% equity ask for a $3M raise at a $12M pre-money is very different from a 20% ask for a $3M raise at a $15M pre-money. Push hard on the valuation. It requires defensible metrics: ARR, growth rate, retention, market size, but those are worth building before you enter a process.
           </Body>
 
           <H3>3. Know your ownership floor before you walk into a room</H3>
@@ -423,15 +423,15 @@ export default function EquityDilution() {
             Not every dollar of growth capital has to come with a new cap table entry. Before a round, consider:
           </Body>
           <ul className="mb-6 space-y-2 text-sm pl-1" style={{ color: "rgba(255,255,255,0.72)" }}>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Revenue-based financing</strong> — repay from a % of revenue, no equity exchanged</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">SBIR / government grants</strong> — non-dilutive but highly competitive and sector-specific</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Venture debt</strong> — available post-Series A if you have strong ARR; preserves equity while providing runway</li>
-            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">SAFE notes</strong> — defer dilution until a priced round, useful for bridging to a stronger negotiating position</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Revenue-based financing</strong>: repay from a % of revenue, no equity exchanged</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">SBIR / government grants</strong>: non-dilutive but highly competitive and sector-specific</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">Venture debt</strong>: available post-Series A if you have strong ARR; preserves equity while providing runway</li>
+            <li className="flex gap-3"><span style={{ color: "#C9A96E", flexShrink: 0 }}>→</span> <strong className="text-white">SAFE notes</strong>: defer dilution until a priced round, useful for bridging to a stronger negotiating position</li>
           </ul>
 
           <H3>5. Manage the option pool proactively</H3>
           <Body>
-            Investors often require a 10–20% option pool as a condition of the round — and frequently insist it be created pre-investment, which means it dilutes founders before the round closes. If you can demonstrate a hiring plan that justifies a smaller pool (say 10% instead of 15%), negotiate it. Every percentage point matters.
+            Investors often require a 10–20% option pool as a condition of the round, and frequently insist it be created pre-investment, which means it dilutes founders before the round closes. If you can demonstrate a hiring plan that justifies a smaller pool (say 10% instead of 15%), negotiate it. Every percentage point matters.
           </Body>
 
           <Warning>
@@ -445,7 +445,7 @@ export default function EquityDilution() {
           </Body>
 
           <Body>
-            Dilution is a tool, not a threat. The question to ask at every round isn't "how much am I giving up?" — it's "does this capital, at this valuation, from this investor, meaningfully increase the probability and magnitude of what I'm building?" When the answer is yes, take it. When it isn't, don't.
+            Dilution is a tool, not a threat. The question to ask at every round isn't "how much am I giving up?"; it's "does this capital, at this valuation, from this investor, meaningfully increase the probability and magnitude of what I'm building?" When the answer is yes, take it. When it isn't, don't.
           </Body>
 
           <Callout title="Quick Reference: Dilution Checklist">
@@ -467,7 +467,7 @@ export default function EquityDilution() {
             <div className="flex-1">
               <p className="text-[0.6rem] font-bold uppercase tracking-widest mb-1" style={{ color: "#C9A96E" }}>Related Guide</p>
               <p className="text-white font-semibold text-sm leading-snug">Startup Equity 101: The Complete Guide to Founder Splits, Vesting, and Cap Table Management</p>
-              <p className="text-xs mt-1" style={{ color: "rgba(255,255,255,0.4)" }}>Covers the full equity picture — founder splits, employee options, and ESOP structure</p>
+              <p className="text-xs mt-1" style={{ color: "rgba(255,255,255,0.4)" }}>Covers the full equity picture: founder splits, employee options, and ESOP structure</p>
             </div>
             <a
               href="/guides/startup-equity-101"

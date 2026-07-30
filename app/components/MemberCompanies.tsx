@@ -37,7 +37,7 @@ export default function MemberCompanies() {
               Companies our members are building
             </p>
             <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
-              Founders across every industry — from fintech and healthcare to consumer and B2B SaaS.
+              Founders across every industry: from fintech and healthcare to consumer and B2B SaaS.
             </p>
           </div>
 

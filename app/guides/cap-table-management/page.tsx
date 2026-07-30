@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/cap-table-management" },
   title: "Cap Table Management From Pre-Seed to Series A: The Founder's Equity Playbook | Gildre",
   description:
-    "How to structure your cap table from day one through Series A — founder vesting, option pool sizing, seed round mechanics, and the red flags that kill deals. With benchmarks and a Series A readiness checklist.",
+    "How to structure your cap table from day one through Series A: founder vesting, option pool sizing, seed round mechanics, and the red flags that kill deals. With benchmarks and a Series A readiness checklist.",
   keywords: [
     "cap table management startup",
     "cap table pre-seed to Series A",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cap Table Management From Pre-Seed to Series A: The Founder's Equity Playbook",
     description:
-      "How to structure your cap table from day one through Series A — founder vesting, option pool sizing, seed round mechanics, and the red flags that kill deals.",
+      "How to structure your cap table from day one through Series A: founder vesting, option pool sizing, seed round mechanics, and the red flags that kill deals.",
     type: "article",
     url: "https://www.gildre.com/guides/cap-table-management",
     images: [{ url: "https://www.gildre.com/images/cap-table-meeting-laptops.webp" }],
@@ -35,7 +35,7 @@ const schema = {
   "@type": "Article",
   headline: "Cap Table Management From Pre-Seed to Series A: The Founder's Equity Playbook",
   description:
-    "How to structure your cap table from day one through Series A — founder vesting, option pool sizing, seed round mechanics, and the four red flags Series A investors look for.",
+    "How to structure your cap table from day one through Series A: founder vesting, option pool sizing, seed round mechanics, and the four red flags Series A investors look for.",
   image: "https://www.gildre.com/images/cap-table-meeting-laptops.webp",
   author: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
   publisher: {
@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "How large should a startup's employee option pool be?",
-    a: "The standard employee option pool for an early-stage startup is 10–15% of fully diluted shares, established before the seed round closes. Maintaining a 3–5% buffer within the pool is advisable for unexpected key hires. If your pool is nearly exhausted entering Series A, investors will require an expansion — which dilutes you further before the round closes.",
+    a: "The standard employee option pool for an early-stage startup is 10–15% of fully diluted shares, established before the seed round closes. Maintaining a 3–5% buffer within the pool is advisable for unexpected key hires. If your pool is nearly exhausted entering Series A, investors will require an expansion, which dilutes you further before the round closes.",
   },
   {
     q: "What is a fully diluted cap table?",
@@ -248,7 +248,7 @@ export default function CapTableManagementGuide() {
             </h1>
             <p className="mt-5 text-lg leading-relaxed" style={{ color: "rgba(255,255,255,0.62)", maxWidth: "640px" }}>
               Your cap table is not just a record of who owns what. It&apos;s the financial story of every
-              major decision you&apos;ve made — and Series A investors will read it that way. Here&apos;s how
+              major decision you&apos;ve made, and Series A investors will read it that way. Here&apos;s how
               to structure it right from day one.
             </p>
 
@@ -275,7 +275,7 @@ export default function CapTableManagementGuide() {
           >
             <p className="text-lg leading-relaxed" style={{ color: "#e8dcc8", fontStyle: "italic" }}>
               &ldquo;When we raised our Series A, I discovered that our cap table wasn&apos;t just a spreadsheet
-              — it was the story of every critical decision we&apos;d made. Having a strong cap table
+              : it was the story of every critical decision we'd made. Having a strong cap table
               wasn&apos;t just about numbers; it became our strategic advantage in attracting top-tier investors.&rdquo;
             </p>
             <p className="mt-4 text-sm font-semibold" style={{ color: "#C9A96E" }}>
@@ -285,8 +285,8 @@ export default function CapTableManagementGuide() {
 
           <Body>
             The transition from pre-seed to Series A is the most consequential equity period of a
-            startup&apos;s life. The decisions you make in the first 18–24 months — how many shares to
-            authorize, how to structure founder vesting, how large to make your option pool — will
+            startup&apos;s life. The decisions you make in the first 18–24 months (how many shares to
+            authorize, how to structure founder vesting, how large to make your option pool) will
             either open doors or close them when institutional investors arrive.
           </Body>
           <Body>
@@ -296,13 +296,13 @@ export default function CapTableManagementGuide() {
           </Body>
 
           <KeyTakeaway>
-            A clean cap table is not just an administrative record — it's a signal to Series A investors about your operational judgment. The three most common deal-breakers are excessive early dilution, a messy shareholder structure with too many small holders, and an option pool that's nearly exhausted before you raise.
+            A clean cap table is not just an administrative record; it's a signal to Series A investors about your operational judgment. The three most common deal-breakers are excessive early dilution, a messy shareholder structure with too many small holders, and an option pool that's nearly exhausted before you raise.
           </KeyTakeaway>
 
           {/* Pre-seed */}
           <H2>How Should You Structure Your Cap Table at Pre-Seed?</H2>
           <KeyTakeaway>
-            At pre-seed, authorize 10–15 million shares and immediately put all founder equity on a four-year vest with a one-year cliff. These two decisions prevent the structural problems that most commonly derail Series A fundraising — and they're far harder to fix retroactively.
+            At pre-seed, authorize 10–15 million shares and immediately put all founder equity on a four-year vest with a one-year cliff. These two decisions prevent the structural problems that most commonly derail Series A fundraising, and they're far harder to fix retroactively.
           </KeyTakeaway>
           <Body>
             At pre-seed, your cap table looks deceptively simple: a few founders splitting 100%.
@@ -314,14 +314,14 @@ export default function CapTableManagementGuide() {
           <Body>
             Authorize between 10 and 15 million shares at incorporation. This range gives you enough
             room to grant options, bring on early investors, and handle future dilution rounds without
-            amending your certificate of incorporation — a process that requires legal fees and
+            amending your certificate of incorporation: a process that requires legal fees and
             shareholder approval. Starting too low (e.g., 1M shares) forces you to do a stock split
             later, which is a nuisance. Starting too high signals inexperience without any benefit.
           </Body>
 
           <H3>What is the right vesting schedule for founders?</H3>
           <Body>
-            Implement a vesting schedule for all founder shares immediately — even if it feels
+            Implement a vesting schedule for all founder shares immediately, even if it feels
             unnecessary when everyone is aligned and excited. Standard structure: four-year vest
             with a one-year cliff, meaning founders earn 25% of their shares after 12 months and
             the remaining 75% monthly over the following three years.
@@ -330,7 +330,7 @@ export default function CapTableManagementGuide() {
           <Callout title="Why founder vesting matters to investors">
             <Body>
               A co-founder who leaves after six months with a significant chunk of equity creates
-              a structural problem for the company — and a red flag for investors. Vesting protects
+              a structural problem for the company, and a red flag for investors. Vesting protects
               the cap table against this scenario and signals to Series A investors that you&apos;ve
               thought about governance from the start. Founders who skip vesting at pre-seed almost
               always regret it.
@@ -346,7 +346,7 @@ export default function CapTableManagementGuide() {
           {/* Seed */}
           <H2>How Do You Manage Your Option Pool at the Seed Stage?</H2>
           <KeyTakeaway>
-            Create your employee option pool before your seed round closes, not after. Option pool expansion is calculated pre-money and dilutes existing shareholders — front-loading this dilution once across the seed round is significantly cheaper than taking it twice across seed and Series A separately.
+            Create your employee option pool before your seed round closes, not after. Option pool expansion is calculated pre-money and dilutes existing shareholders; front-loading this dilution once across the seed round is significantly cheaper than taking it twice across seed and Series A separately.
           </KeyTakeaway>
           <Body>
             As you enter the seed stage, your cap table begins to earn its complexity. New investors
@@ -357,7 +357,7 @@ export default function CapTableManagementGuide() {
           <H3>When should you create your employee option pool?</H3>
           <Body>
             Create an employee option pool of 10–15% before your seed round closes, not after.
-            This matters because option pool expansion is typically calculated pre-money — meaning
+            This matters because option pool expansion is typically calculated pre-money, meaning
             it dilutes founders and existing shareholders, not new investors. If you create the pool
             after the round, you&apos;ll need to expand it at Series A, which happens pre-money and
             dilutes you again. Front-load the dilution once.
@@ -369,7 +369,7 @@ export default function CapTableManagementGuide() {
           </Body>
           <div className="mt-4 flex flex-col gap-3">
             {[
-              { title: "Reserve larger grants for senior hires", body: "Early-stage companies need experienced operators to scale. Key executive hires — a VP of Sales, CTO, or COO — warrant meaningful equity packages. Avoid distributing significant equity too broadly to early individual contributors; it depletes your pool before you can make the hires that matter most." },
+              { title: "Reserve larger grants for senior hires", body: "Early-stage companies need experienced operators to scale. Key executive hires (a VP of Sales, CTO, or COO) warrant meaningful equity packages. Avoid distributing significant equity too broadly to early individual contributors; it depletes your pool before you can make the hires that matter most." },
               { title: "Maintain a buffer for unexpected needs", body: "Your hiring plan will change. Markets shift, opportunities emerge, and key personnel need retention packages. Keep 3–5% unallocated within your option pool so you can respond to these situations without requiring a shareholder vote to expand the pool every time." },
             ].map((item, i) => (
               <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)" }}>
@@ -411,7 +411,7 @@ export default function CapTableManagementGuide() {
           </KeyTakeaway>
           <Body>
             Series A investors will spend meaningful time on your cap table during due diligence.
-            They&apos;re not just checking numbers — they&apos;re reading the decisions you made and forming
+            They&apos;re not just checking numbers; they&apos;re reading the decisions you made and forming
             an opinion about your judgment. Four patterns kill deals or give investors leverage in
             negotiations.
           </Body>
@@ -431,7 +431,7 @@ export default function CapTableManagementGuide() {
             </RedFlag>
             <RedFlag>
               <strong>Insufficient option pool.</strong> If your option pool is nearly exhausted before Series A,
-              investors know they&apos;ll need to require you to expand it — which dilutes you, not them —
+              investors know they&apos;ll need to require you to expand it, which dilutes you, not them,
               before the round closes. They will factor this into valuation negotiations. Having 8–12%
               of fully diluted shares available in the pool signals you&apos;ve planned ahead.
             </RedFlag>
@@ -470,7 +470,7 @@ export default function CapTableManagementGuide() {
             Every equity event generates a document. Every document needs to be filed and retrievable.
             The minimum set: board approvals for all option grants, signed stock purchase agreements,
             investor rights agreements, SAFE and convertible note instruments, and transfer documentation
-            for any secondary sales. Investors will ask for all of these in a data room — not being
+            for any secondary sales. Investors will ask for all of these in a data room; not being
             able to produce them quickly is a yellow flag even when the underlying equity is properly
             structured.
           </Body>
@@ -478,7 +478,7 @@ export default function CapTableManagementGuide() {
           <H3>4. How quickly should cap table changes be recorded?</H3>
           <Body>
             When an investor sells their position, when equity is transferred as part of an
-            agreement, or when a former employee&apos;s unvested shares are recaptured — update the
+            agreement, or when a former employee&apos;s unvested shares are recaptured: update the
             cap table the same week. Stale records create discrepancies that are time-consuming
             to reconcile and confusing to new investors trying to understand the ownership structure.
           </Body>
@@ -510,7 +510,7 @@ export default function CapTableManagementGuide() {
               The founders who navigate from pre-seed to Series A smoothly are rarely the ones
               with the most complex equity structures. They&apos;re the ones who made simple, consistent
               decisions early and kept meticulous records of them. A clean cap table doesn&apos;t just
-              make due diligence easier — it reflects the kind of operational discipline that
+              make due diligence easier; it reflects the kind of operational discipline that
               investors interpret as a signal about everything else you do.
             </Body>
           </Callout>
@@ -549,8 +549,7 @@ export default function CapTableManagementGuide() {
               Work through your cap table decisions with founders who&apos;ve been there.
             </p>
             <p className="mb-6 text-sm leading-relaxed mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Equity structure questions — how to size your option pool, how to handle a difficult
-              investor term, how to model Series A dilution — are exactly the kind of decisions
+              Equity structure questions (how to size your option pool, how to handle a difficult investor term, how to model Series A dilution) are exactly the kind of decisions
               that benefit from peer input. Gildre members navigate these questions together.
             </p>
             <a

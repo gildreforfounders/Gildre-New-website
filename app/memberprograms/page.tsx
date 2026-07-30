@@ -23,7 +23,7 @@ const stages = [
     tag: "Stage 1 · Build",
     headline: "Validate & Launch",
     sub: "<$500K ARR",
-    body: "You're building your MVP, locking in early customers, and chasing product-market fit. Gildre connects you with founders who've navigated your exact stage — so you move faster and avoid costly mistakes.",
+    body: "You're building your MVP, locking in early customers, and chasing product-market fit. Gildre connects you with founders who've navigated your exact stage, so you move faster and avoid costly mistakes.",
     dark: false,
   },
   {
@@ -37,7 +37,7 @@ const stages = [
     tag: "Stage 3 · Scale",
     headline: "Expanding & Exiting",
     sub: "$5M+ ARR",
-    body: "You're building at the top. Enterprise deals, board dynamics, strategic M&A, or the path to exit — Gildre's Platinum network pairs you with founders who've already been there and come out ahead.",
+    body: "You're building at the top. Enterprise deals, board dynamics, strategic M&A, or the path to exit: Gildre's Platinum network pairs you with founders who've already been there and come out ahead.",
     dark: false,
   },
 ];
@@ -46,7 +46,7 @@ const benefits = [
   {
     icon: "M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75",
     title: "Private Community Platform",
-    body: "Instant access to a curated workspace with 250+ active founders across every industry — ongoing conversations, peer support, and resources, 24/7.",
+    body: "Instant access to a curated workspace with 250+ active founders across every industry: ongoing conversations, peer support, and resources, 24/7.",
     tier: "All Members",
   },
   {
@@ -64,19 +64,19 @@ const benefits = [
   {
     icon: "M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zM1 7l11-4 11 4",
     title: "$5M+ in Partner Perks",
-    body: "Exclusive deals from 500+ partners — software tools, legal, finance, marketing, and more. Everything you need to build faster from day one.",
+    body: "Exclusive deals from 500+ partners: software tools, legal, finance, marketing, and more. Everything you need to build faster from day one.",
     tier: "Platinum Only",
   },
   {
     icon: "M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2z",
     title: "Advisory Sessions",
-    body: "Monthly 1:1 sessions with a Gildre Managing Partner — an exited founder with deep domain expertise matched to your business and stage.",
+    body: "Monthly 1:1 sessions with a Gildre Managing Partner: an exited founder with deep domain expertise matched to your business and stage.",
     tier: "Gold & Platinum",
   },
   {
     icon: "M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z",
     title: "In-Person Events & Dinners",
-    body: "Exclusive chapter dinners, executive retreats, and in-person events across 5 core cities — for founders who value real-world connections.",
+    body: "Exclusive chapter dinners, executive retreats, and in-person events across 5 core cities, for founders who value real-world connections.",
     tier: "Gold & Platinum",
   },
 ];
@@ -175,7 +175,7 @@ export default function MembershipPage() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-            Your challenges are specific to your stage and industry. Unlock a curated ecosystem of peers and advisors designed to accelerate your specific company journey — from First Check to Market Leader.
+            Your challenges are specific to your stage and industry. Unlock a curated ecosystem of peers and advisors designed to accelerate your specific company journey: from First Check to Market Leader.
           </p>
 
           <p className="mx-auto mt-4 max-w-xl text-base font-semibold text-white">
@@ -304,7 +304,7 @@ export default function MembershipPage() {
             Your Growth Operating System
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Every Gildre member gets the infrastructure, community, and guidance to build faster — at every tier.
+            Every Gildre member gets the infrastructure, community, and guidance to build faster, at every tier.
           </p>
 
           <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">

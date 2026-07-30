@@ -122,7 +122,7 @@ export default function ReferralPage() {
             <span style={{ color: "#C9A96E" }}>the Gildre Community.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Referrers earn an ongoing 20% Membership Stipend for any qualified founder, investor, or executive who joins and retains their membership — for as long as they stay.
+            Referrers earn an ongoing 20% Membership Stipend for any qualified founder, investor, or executive who joins and retains their membership, for as long as they stay.
           </p>
 
           {/* Stipend callout */}

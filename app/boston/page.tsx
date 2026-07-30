@@ -8,9 +8,9 @@ const data: LocationData = {
   lat: 42.3601,
   lng: -71.0589,
   tagline: "The Biotech & DeepTech Capital of the World",
-  hook: "MIT. Harvard. Kendall Square. The intellectual firepower is here — the founder community to match it now is too.",
+  hook: "MIT. Harvard. Kendall Square. The intellectual firepower is here; the founder community to match it now is too.",
   intro: "Boston's ecosystem is one of the most research-driven in the world. Gildre connects Boston founders with the peers, mentors, and resources to turn breakthrough ideas into breakout companies.",
-  scene: "From Kendall Square to the Seaport Innovation District, Boston's startup scene is dense with deep-tech, biotech, and enterprise founders building companies that matter. But the best founders here know that execution is what separates research from revenue — and that takes community.",
+  scene: "From Kendall Square to the Seaport Innovation District, Boston's startup scene is dense with deep-tech, biotech, and enterprise founders building companies that matter. But the best founders here know that execution is what separates research from revenue, and that takes community.",
   neighborhood: "Kendall Square",
   benefits: [
     {
@@ -21,12 +21,12 @@ const data: LocationData = {
     {
       icon: "🏛️",
       title: "Access to Academic Networks",
-      body: "Tap into a member base with direct ties to MIT, Harvard, and Boston's world-class research institutions — for hiring, partnerships, and advisor relationships.",
+      body: "Tap into a member base with direct ties to MIT, Harvard, and Boston's world-class research institutions, for hiring, partnerships, and advisor relationships.",
     },
     {
       icon: "💼",
       title: "East Coast Investor Connections",
-      body: "Get warm intros to investors who understand the Boston market — from biotech VCs to enterprise-focused funds backing the next generation of Kendall Square companies.",
+      body: "Get warm intros to investors who understand the Boston market: from biotech VCs to enterprise-focused funds backing the next generation of Kendall Square companies.",
     },
   ],
 };

@@ -59,7 +59,7 @@ const sections = [
     subsections: [
       {
         n: "7.1",
-        body: "A Completed Referral is when a Referring User refers this Program to one of its contacts. Subsequently, that contact will either sign-up, make a purchase or complete whatever action is determined as a referral above — which is not canceled or disputed in accordance with Section 4.",
+        body: "A Completed Referral is when a Referring User refers this Program to one of its contacts. Subsequently, that contact will either sign-up, make a purchase or complete whatever action is determined as a referral above, which is not canceled or disputed in accordance with Section 4.",
       },
       {
         n: "7.2",

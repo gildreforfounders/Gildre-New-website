@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/first-100-customers" },
   title: "How to Get Your First 100 Customers: 8 Proven Strategies for Early-Stage Founders | Gildre",
   description:
-    "No brand, no budget, no traction. Here's how early-stage founders get their first 100 customers — from nailing your ICP and mining your network to picking a single traction channel and building a referral flywheel.",
+    "No brand, no budget, no traction. Here's how early-stage founders get their first 100 customers: from nailing your ICP and mining your network to picking a single traction channel and building a referral flywheel.",
   keywords: [
     "how to get first 100 customers",
     "first 100 customers startup",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How to Get Your First 100 Customers: 8 Proven Strategies for Early-Stage Founders",
     description:
-      "No brand, no budget, no traction. 8 tactics for getting your first 100 customers — from ICP clarity and network outreach to traction channels, referral flywheels, and founder-led support.",
+      "No brand, no budget, no traction. 8 tactics for getting your first 100 customers: from ICP clarity and network outreach to traction channels, referral flywheels, and founder-led support.",
     type: "article",
     url: "https://www.gildre.com/guides/first-100-customers",
     images: [{ url: "https://www.gildre.com/images/first-100-customers-whiteboard.webp" }],
@@ -35,7 +35,7 @@ const schema = {
   "@type": "Article",
   headline: "How to Get Your First 100 Customers: 8 Proven Strategies for Early-Stage Founders",
   description:
-    "No brand, no budget, no traction. Here's how early-stage founders get their first 100 customers — ICP clarity, network outreach, traction channels, referral flywheels, and more.",
+    "No brand, no budget, no traction. Here's how early-stage founders get their first 100 customers: ICP clarity, network outreach, traction channels, referral flywheels, and more.",
   image: "https://www.gildre.com/images/first-100-customers-whiteboard.webp",
   author: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
   publisher: {
@@ -73,15 +73,15 @@ const faqs = [
   },
   {
     q: "How do you find your first customers without a marketing budget?",
-    a: "The highest-ROI approaches require time, not money: direct outreach to your ICP, leveraging your personal and professional network, joining niche communities where your target customers spend time, and doing things that don't scale — like personally onboarding every early user one-on-one.",
+    a: "The highest-ROI approaches require time, not money: direct outreach to your ICP, leveraging your personal and professional network, joining niche communities where your target customers spend time, and doing things that don't scale, like personally onboarding every early user one-on-one.",
   },
   {
     q: "What is an ideal customer profile (ICP) for a startup?",
-    a: "An ICP is a detailed description of the company or individual most likely to get maximum value from your product — defined by firmographic data (company size, industry, tech stack), demographic data (role, seniority), and psychographic data (pain points, buying triggers). Defining your ICP before any outreach is the single most important step in early customer acquisition.",
+    a: "An ICP is a detailed description of the company or individual most likely to get maximum value from your product, defined by firmographic data (company size, industry, tech stack), demographic data (role, seniority), and psychographic data (pain points, buying triggers). Defining your ICP before any outreach is the single most important step in early customer acquisition.",
   },
   {
     q: "What does 'do things that don't scale' mean in startup customer acquisition?",
-    a: "'Do things that don't scale' — a concept popularized by Paul Graham of Y Combinator — means manually doing for early customers what you intend to automate later. Examples: personally onboarding every new user, calling every signup, hand-curating early recommendations. These high-touch actions generate the deep user insight needed to build a product worth scaling.",
+    a: "'Do things that don't scale,' a concept popularized by Paul Graham of Y Combinator, means manually doing for early customers what you intend to automate later. Examples: personally onboarding every new user, calling every signup, hand-curating early recommendations. These high-touch actions generate the deep user insight needed to build a product worth scaling.",
   },
 ];
 
@@ -244,7 +244,7 @@ export default function First100CustomersGuide() {
             </h1>
             <p className="mt-5 text-lg leading-relaxed" style={{ color: "rgba(255,255,255,0.62)", maxWidth: "640px" }}>
               No brand recognition, no word-of-mouth momentum, often no budget. Eight strategies
-              that work precisely because of those constraints — not in spite of them.
+              that work precisely because of those constraints, not in spite of them.
             </p>
 
             <div className="relative mt-10 overflow-hidden rounded-2xl" style={{ aspectRatio: "16/8" }}>
@@ -268,27 +268,26 @@ export default function First100CustomersGuide() {
             The first 100 customers are unlike any others you&apos;ll ever acquire. They come before
             the product is polished, before anyone has heard of you, and before you have data to
             prove any of your assumptions. They require a fundamentally different approach than
-            what scales later — because at this stage, scalability is not the goal. Signal is.
+            what scales later, because at this stage, scalability is not the goal. Signal is.
           </Body>
           <Body>
             Every tactic below is optimized for the same constraint: maximum learning per hour
-            spent, with minimal budget required. The strategies that work at 100K customers —
-            paid acquisition, SEO, brand — are largely irrelevant here. What works at zero
+            spent, with minimal budget required. The strategies that work at 100K customers (paid acquisition, SEO, brand) are largely irrelevant here. What works at zero
             is founder intensity, personal trust, and relentless iteration.
           </Body>
 
           <KeyTakeaway>
-            To get your first 100 customers, direct founder outreach, community participation, and one focused traction channel consistently outperform paid advertising for early-stage companies. Most successful founders reach 100 customers through personal effort and high-touch engagement — not marketing systems or ad spend.
+            To get your first 100 customers, direct founder outreach, community participation, and one focused traction channel consistently outperform paid advertising for early-stage companies. Most successful founders reach 100 customers through personal effort and high-touch engagement, not marketing systems or ad spend.
           </KeyTakeaway>
 
           {/* 1 */}
           <H2 num="01">Who Should You Target First? Defining Your Ideal Customer Profile</H2>
           <KeyTakeaway>
-            Your Ideal Customer Profile should describe a specific person at a specific company facing a specific pain point — not a broad demographic. Founders who define their ICP before starting outreach typically close their first customers 3x faster than those who begin with broad messaging and narrow down later.
+            Your Ideal Customer Profile should describe a specific person at a specific company facing a specific pain point, not a broad demographic. Founders who define their ICP before starting outreach typically close their first customers 3x faster than those who begin with broad messaging and narrow down later.
           </KeyTakeaway>
           <Body>
             The most common early-stage customer acquisition mistake is not being wrong about the
-            channel — it&apos;s being wrong about who you&apos;re targeting. &ldquo;Everyone&rdquo; is not a customer.
+            channel; it&apos;s being wrong about who you&apos;re targeting. &ldquo;Everyone&rdquo; is not a customer.
             Neither is &ldquo;SMBs&rdquo; or &ldquo;marketing teams.&rdquo; You need a specific person with a specific
             problem who feels it acutely enough to try an unproven solution.
           </Body>
@@ -300,14 +299,14 @@ export default function First100CustomersGuide() {
           </Body>
           <Callout title="Three questions to sharpen your ICP">
             <BulletList items={[
-              "What are they using today instead of you — and what frustrates them most about it?",
+              "What are they using today instead of you, and what frustrates them most about it?",
               "Why would they take a chance on an unproven solution? What makes the status quo painful enough?",
               "Can they make the decision themselves, or do they need internal approval?",
             ]} />
             <Body>
               A strong ICP makes every downstream effort more efficient. The narrower and more
               specific your definition, the easier it is to find these people, message them
-              precisely, and convert them into paying customers — and then into advocates.
+              precisely, and convert them into paying customers, and then into advocates.
             </Body>
           </Callout>
 
@@ -315,23 +314,22 @@ export default function First100CustomersGuide() {
           <H2 num="02">How Do You Leverage Your Personal Network to Land First Customers?</H2>
           <Body>
             Your first customers are almost certainly closer than you think. Former colleagues,
-            LinkedIn connections, college classmates, industry contacts — these are people who
+            LinkedIn connections, college classmates, industry contacts: these are people who
             already have baseline trust in you as a human, which is the hardest thing to earn cold.
             Do not waste this asset with a generic announcement post.
           </Body>
           <Body>
             Instead, go one-to-one. Go through your contacts and identify the 30–50 people who
-            most closely fit your ICP, then send each of them a personalized message. Not a pitch
-            — a genuine conversation starter that acknowledges why you thought of them specifically.
+            most closely fit your ICP, then send each of them a personalized message. Not a pitch: a genuine conversation starter that acknowledges why you thought of them specifically.
           </Body>
           <BulletList items={[
-            "Be specific about why you reached out to them in particular — not a mass copy-paste.",
+            "Be specific about why you reached out to them in particular, not a mass copy-paste.",
             "Ask for a 20-minute conversation, not a sale. Early-stage customers often buy after they feel heard.",
-            "Use 'Who do you know who might be dealing with [problem]?' — referrals from your network are warm by proxy.",
+            "Use 'Who do you know who might be dealing with [problem]?': referrals from your network are warm by proxy.",
             "Offer early access benefits: a lower price, direct access to you, influence over the roadmap. Make it feel like an insider invitation.",
           ]} />
           <Body>
-            Your goal in this phase is not revenue — it&apos;s qualified conversations. Every person who
+            Your goal in this phase is not revenue; it&apos;s qualified conversations. Every person who
             says yes tells you something. Every person who says no tells you something more.
           </Body>
 
@@ -347,8 +345,7 @@ export default function First100CustomersGuide() {
             simultaneously is one.
           </Body>
           <Body>
-            Spreading attention across three channels doesn&apos;t give you three chances to succeed —
-            it gives you three chances to do mediocre work on each. Pick the channel that best
+            Spreading attention across three channels doesn&apos;t give you three chances to succeed; it gives you three chances to do mediocre work on each. Pick the channel that best
             fits your ICP&apos;s behavior and your business model, and pursue it until you either
             find signal or definitively rule it out. Then move.
           </Body>
@@ -362,7 +359,7 @@ export default function First100CustomersGuide() {
             <ChannelCard
               label="Founder-led cold email"
               tag="B2B"
-              desc="A 200-word email from the founder to a precisely targeted list — not a sales tool, just an email from one person to another — still outperforms most paid channels at early stage. The key is ultra-specific personalization and a clear, low-friction ask."
+              desc="A 200-word email from the founder to a precisely targeted list (not a sales tool, just an email from one person to another) still outperforms most paid channels at early stage. The key is ultra-specific personalization and a clear, low-friction ask."
             />
             <ChannelCard
               label="Niche communities (Reddit, Slack, Discord, Facebook Groups)"
@@ -395,19 +392,19 @@ export default function First100CustomersGuide() {
           {/* 4 */}
           <H2 num="04">Why Should Founders Do Things That Don&apos;t Scale to Reach 100 Customers?</H2>
           <KeyTakeaway>
-            The fastest path to your first 100 customers is almost always manual: handwritten outreach, personal onboarding calls, direct feedback sessions. Airbnb photographed early listings themselves; Stripe manually activated accounts. Don't automate what you haven't done manually first — the friction is where the learning lives.
+            The fastest path to your first 100 customers is almost always manual: handwritten outreach, personal onboarding calls, direct feedback sessions. Airbnb photographed early listings themselves; Stripe manually activated accounts. Don't automate what you haven't done manually first; the friction is where the learning lives.
           </KeyTakeaway>
           <Body>
-            <EL href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)">Paul Graham</EL>&apos;s most cited advice — &ldquo;do things that don&apos;t scale&rdquo; — is especially relevant
+            <EL href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)">Paul Graham</EL>&apos;s most cited advice, &ldquo;do things that don&apos;t scale,&rdquo; is especially relevant
             for the first 100 customers. <EL href="https://www.airbnb.com">Airbnb</EL>&apos;s founders personally photographed early hosts&apos;
             apartments. <EL href="https://stripe.com">Stripe</EL>&apos;s founders installed Stripe on users&apos; laptops in person. These
-            weren&apos;t inefficiencies — they were deliberate decisions to do things that only worked
+            weren&apos;t inefficiencies; they were deliberate decisions to do things that only worked
             for small numbers of customers, so they could learn things that couldn&apos;t be learned any
             other way.
           </Body>
           <BulletList items={[
             "Onboard your first 20 customers manually, one-on-one. Watch them use the product. Listen to what confuses them.",
-            "Follow up personally with every churned user. Not an automated email — a personal message asking what went wrong.",
+            "Follow up personally with every churned user. Not an automated email: a personal message asking what went wrong.",
             "Offer your first customers direct access to you: your personal email, a Slack channel, or a recurring call. This is your research lab.",
             "Personally demo to every qualified prospect, even if the product sells itself. You&apos;ll hear objections no survey would surface.",
           ]} />
@@ -415,7 +412,7 @@ export default function First100CustomersGuide() {
           {/* 5 */}
           <H2 num="05">How Do You Get Press Coverage Without a PR Agency or Ad Budget?</H2>
           <Body>
-            You don&apos;t need a PR agency to get media coverage — you need a story that a journalist
+            You don&apos;t need a PR agency to get media coverage; you need a story that a journalist
             or podcast host can tell their audience. The key is leading with the angle they care
             about, not the product you want to promote. Journalists write for their readers. Podcast
             hosts book guests their audience wants to hear from. Position yourself as serving them,
@@ -432,7 +429,7 @@ export default function First100CustomersGuide() {
           <H2 num="06">Should You Build a Community Before You Have a Product to Sell?</H2>
           <Body>
             The most durable early customer acquisition strategy is also the most counterintuitive:
-            don&apos;t build a following for your product — build a community around the problem your
+            don&apos;t build a following for your product; build a community around the problem your
             product solves. People join communities organized around their identity and challenges.
             They rarely join communities organized around a vendor.
           </Body>
@@ -444,23 +441,23 @@ export default function First100CustomersGuide() {
           </Body>
           <BulletList items={[
             "Start a small Slack or Discord group and seed it with 20 high-quality people. Quality over quantity at early stage.",
-            "Run a weekly AMA or office hours on the problem — not on your product.",
+            "Run a weekly AMA or office hours on the problem, not on your product.",
             "Share customer wins publicly on social. Real success stories from real users are more persuasive than any ad.",
-            "The community members who engage most become your warmest prospects — they self-select.",
+            "The community members who engage most become your warmest prospects; they self-select.",
           ]} />
 
           {/* 7 */}
           <H2 num="07">How Do You Build a Referral Program That Actually Drives Growth?</H2>
           <Body>
             Every happy customer is a distribution channel you haven&apos;t fully utilized. A referral
-            program doesn&apos;t need to be sophisticated to work — it needs to make the incentive clear,
+            program doesn&apos;t need to be sophisticated to work; it needs to make the incentive clear,
             the ask easy, and the reward immediate. The founders who wait until they have 1,000
             customers to build a referral program leave dozens of organic customers on the table.
           </Body>
           <Callout title="What great referral programs have in common">
             <BulletList items={[
-              "Dropbox gave users extra storage for referring friends — the reward was the product itself, making it feel natural rather than transactional.",
-              "Tesla offered free Supercharging miles — high-perceived-value reward with near-zero marginal cost.",
+              "Dropbox gave users extra storage for referring friends; the reward was the product itself, making it feel natural rather than transactional.",
+              "Tesla offered free Supercharging miles: a high-perceived-value reward with near-zero marginal cost.",
               "The best early-stage referral programs are bilateral: both the referrer and the new customer get something. This removes friction from the ask.",
               "Make it frictionless: a unique link, a one-sentence ask, and a clear reward. Complicated referral programs don't get used.",
             ]} />
@@ -475,7 +472,7 @@ export default function First100CustomersGuide() {
           <H2 num="08">How Can Customer Support Become a Customer Acquisition Channel?</H2>
           <Body>
             At first-100 scale, your support function and your growth function are the same function.
-            Every customer interaction is an opportunity to turn a user into an advocate — or into
+            Every customer interaction is an opportunity to turn a user into an advocate, or into
             someone who warns everyone they know to stay away. The math here is asymmetric: a
             delighted customer might tell two people. A disappointed one tells eleven.
           </Body>
@@ -537,11 +534,11 @@ export default function First100CustomersGuide() {
               Gildre Founder Community
             </p>
             <p className="mb-3 text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-              Get your first 100 faster — with founders who&apos;ve already done it.
+              Get your first 100 faster, with founders who&apos;ve already done it.
             </p>
             <p className="mb-6 text-sm leading-relaxed mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
               Strategy is one thing. Having a peer group of founders who have already navigated
-              early customer acquisition — and mentors who can look at your specific situation —
+              early customer acquisition, and mentors who can look at your specific situation,
               is another. That&apos;s what Gildre is built for.
             </p>
             <a

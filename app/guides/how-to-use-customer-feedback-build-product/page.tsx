@@ -35,7 +35,7 @@ const schema = {
   "@type": "Article",
   "headline": "How to Use Customer Feedback to Build a Product People Actually Want: A Founder's Growth Guide",
   "description":
-    "A practical guide for startup founders on collecting, analyzing, and acting on customer feedback to achieve product-market fit — with case studies, frameworks, and tool recommendations.",
+    "A practical guide for startup founders on collecting, analyzing, and acting on customer feedback to achieve product-market fit: with case studies, frameworks, and tool recommendations.",
   "image": "https://www.gildre.com/images/feedback-team-working.webp",
   "author": { "@type": "Organization", "name": "Gildre", "url": "https://www.gildre.com" },
   "publisher": {
@@ -140,7 +140,7 @@ export default function FounderGrowthGuide() {
             </h1>
             <p className="mt-3 text-lg font-medium" style={{ color: "#C9A96E", fontFamily: "var(--font-fraunces)" }}>A Founder's Growth Guide</p>
             <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-              Intuition and vision get you started. Customer feedback is what helps you scale. This guide breaks down how to collect, prioritize, and act on what your users are actually telling you — with real case studies and a tool stack that works.
+              Intuition and vision get you started. Customer feedback is what helps you scale. This guide breaks down how to collect, prioritize, and act on what your users are actually telling you: with real case studies and a tool stack that works.
             </p>
           </div>
         </section>
@@ -149,7 +149,7 @@ export default function FounderGrowthGuide() {
         <article className="mx-auto max-w-3xl px-6 py-16">
 
           <Quote>
-            "Your customers are your best advisors." One founder told us this after pivoting his SaaS startup three times before finally nailing product-market fit. Each iteration was painful — but every change was guided by a single principle: listening to customers.
+            "Your customers are your best advisors." One founder told us this after pivoting his SaaS startup three times before finally nailing product-market fit. Each iteration was painful, but every change was guided by a single principle: listening to customers.
           </Quote>
 
           {/* Hero image */}
@@ -165,13 +165,13 @@ export default function FounderGrowthGuide() {
           </div>
 
           <Body>
-            The best founders aren't just building products. They're building solutions. And the only way to ensure you're solving real problems — not just assumed ones — is to make customer feedback a core part of how your company operates, not an afterthought.
+            The best founders aren't just building products. They're building solutions. And the only way to ensure you're solving real problems, not just assumed ones, is to make customer feedback a core part of how your company operates, not an afterthought.
           </Body>
 
           <H2>Why Customer Feedback Is a Growth Lever, Not a Chore</H2>
 
           <Body>
-            Most founders treat customer feedback as something they "have to" collect — a box to check before the next sprint. The most successful companies treat it differently: they integrate it into every product decision, every roadmap discussion, and every hire they make.
+            Most founders treat customer feedback as something they "have to" collect: a box to check before the next sprint. The most successful companies treat it differently: they integrate it into every product decision, every roadmap discussion, and every hire they make.
           </Body>
 
           <CaseStudy company="Airbnb" subtitle="How a photography pivot changed everything">
@@ -181,7 +181,7 @@ export default function FounderGrowthGuide() {
           </CaseStudy>
 
           <Body>
-            Your customers are already telling you what they need. The question is whether you're set up to hear it — and act on it.
+            Your customers are already telling you what they need. The question is whether you're set up to hear it, and act on it.
           </Body>
 
           <H2>How to Collect Feedback That's Actually Useful</H2>
@@ -218,7 +218,7 @@ export default function FounderGrowthGuide() {
 
           <H3>2. In-App Surveys and Feedback Forms</H3>
           <Body>
-            Short, targeted surveys capture feedback at the moment of highest relevance — right when a user has just completed an action or hit a friction point. Keep them to one or two questions maximum. The ones that consistently produce actionable data:
+            Short, targeted surveys capture feedback at the moment of highest relevance: right when a user has just completed an action or hit a friction point. Keep them to one or two questions maximum. The ones that consistently produce actionable data:
           </Body>
           <div className="mb-6 rounded-xl overflow-hidden" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <table className="w-full text-sm">
@@ -254,10 +254,10 @@ export default function FounderGrowthGuide() {
 
           <H3>3. Support Tickets and Customer Reviews</H3>
           <Body>
-            Your support inbox is one of the most underrated product research tools you have. Every ticket is a data point about where your product fails to explain itself, fails to work, or fails to meet expectations. Read them systematically — not just to resolve individual issues but to spot patterns across hundreds of conversations.
+            Your support inbox is one of the most underrated product research tools you have. Every ticket is a data point about where your product fails to explain itself, fails to work, or fails to meet expectations. Read them systematically, not just to resolve individual issues but to spot patterns across hundreds of conversations.
           </Body>
           <Body>
-            Public reviews on G2, Trustpilot, and app stores give you unfiltered feedback from users who don't have a relationship with you — often the most honest signal you'll find.
+            Public reviews on G2, Trustpilot, and app stores give you unfiltered feedback from users who don't have a relationship with you: often the most honest signal you'll find.
           </Body>
           <div className="mb-6 flex flex-wrap gap-2">
             <ToolPill name="Zendesk" href="https://zendesk.com" />
@@ -269,7 +269,7 @@ export default function FounderGrowthGuide() {
 
           <H3>4. Social Media and Online Communities</H3>
           <Body>
-            Reddit threads, X (Twitter) discussions, LinkedIn comments, and niche Slack communities are where your customers talk about your category without any filter. The feedback isn't directed at you — which makes it more honest than anything you'd collect through an official channel.
+            Reddit threads, X (Twitter) discussions, LinkedIn comments, and niche Slack communities are where your customers talk about your category without any filter. The feedback isn't directed at you, which makes it more honest than anything you'd collect through an official channel.
           </Body>
 
           {/* Twitter/social image */}
@@ -333,7 +333,7 @@ export default function FounderGrowthGuide() {
 
           <H3>Step 2: Build a Customer-Driven Product Roadmap</H3>
           <Body>
-            Your roadmap shouldn't be a wish list from your last internal brainstorm. Every item should be traceable to a customer insight. Use a tool that lets you link roadmap items back to the specific feedback that generated them — so when you ship something, you can close the loop with the users who asked for it.
+            Your roadmap shouldn't be a wish list from your last internal brainstorm. Every item should be traceable to a customer insight. Use a tool that lets you link roadmap items back to the specific feedback that generated them , so when you ship something, you can close the loop with the users who asked for it.
           </Body>
           <div className="mb-6 flex flex-wrap gap-2">
             <ToolPill name="Productboard" href="https://productboard.com" />
@@ -350,13 +350,13 @@ export default function FounderGrowthGuide() {
 
           <CaseStudy company="Slack" subtitle="From failed gaming company to $27B acquisition">
             <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-              Slack started as an internal communication tool at Tiny Speck, a gaming startup whose game never found an audience. When the game failed, founder Stewart Butterfield noticed something unexpected: his team loved using the internal tool they'd built for themselves. Rather than shutting everything down, he started gathering feedback from other teams willing to test it. Each interview revealed new ways people wanted to collaborate. He refined relentlessly based on that input — and what started as an internal tool became the dominant workplace communication platform in the world, acquired by Salesforce for $27.7B in 2021.
+              Slack started as an internal communication tool at Tiny Speck, a gaming startup whose game never found an audience. When the game failed, founder Stewart Butterfield noticed something unexpected: his team loved using the internal tool they'd built for themselves. Rather than shutting everything down, he started gathering feedback from other teams willing to test it. Each interview revealed new ways people wanted to collaborate. He refined relentlessly based on that input, and what started as an internal tool became the dominant workplace communication platform in the world, acquired by Salesforce for $27.7B in 2021.
             </p>
           </CaseStudy>
 
           <CaseStudy company="Superhuman" subtitle="How obsessive user feedback built a cult product">
             <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-              Superhuman could have launched broadly and optimized based on aggregate data. Instead, founder Rahul Vohra interviewed hundreds of potential users before launch — and used Sean Ellis's PMF survey ("How would you feel if you could no longer use this product?") to measure fit rigorously. He only opened the product to users who scored "very disappointed." Every feature decision was traced directly to what that high-intent cohort wanted. The result: a premium email client with a waitlist of tens of thousands and a user base that defends it passionately — because it was built specifically for them.
+              Superhuman could have launched broadly and optimized based on aggregate data. Instead, founder Rahul Vohra interviewed hundreds of potential users before launch, and used Sean Ellis's PMF survey ("How would you feel if you could no longer use this product?") to measure fit rigorously. He only opened the product to users who scored "very disappointed." Every feature decision was traced directly to what that high-intent cohort wanted. The result: a premium email client with a waitlist of tens of thousands and a user base that defends it passionately, because it was built specifically for them.
             </p>
           </CaseStudy>
 
@@ -370,11 +370,11 @@ export default function FounderGrowthGuide() {
               },
               {
                 title: "Building for the loudest voices",
-                body: "Not every piece of feedback deserves a roadmap slot. Power users who email you five times a week are an important signal — but they're not your average customer. Build for the majority use case, not the most vocal edge case. If only one user has requested something in six months, it's probably not your priority."
+                body: "Not every piece of feedback deserves a roadmap slot. Power users who email you five times a week are an important signal, but they're not your average customer. Build for the majority use case, not the most vocal edge case. If only one user has requested something in six months, it's probably not your priority."
               },
               {
                 title: "Failing to close the feedback loop",
-                body: "When a customer takes time to share feedback — especially critical feedback — and never hears anything back, they feel ignored. That silence becomes a retention risk. When you ship something a user asked for, tell them directly. A short email that says 'We shipped the feature you suggested — here's how to try it' builds more loyalty than any marketing campaign."
+                body: "When a customer takes time to share feedback, especially critical feedback, and never hears anything back, they feel ignored. That silence becomes a retention risk. When you ship something a user asked for, tell them directly. A short email that says 'We shipped the feature you suggested: here's how to try it' builds more loyalty than any marketing campaign."
               },
             ].map(({ title, body }, i) => (
               <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "rgba(200,80,80,0.06)", border: "1px solid rgba(200,80,80,0.15)" }}>
@@ -389,21 +389,21 @@ export default function FounderGrowthGuide() {
           <H2>Building a Feedback-Driven Culture</H2>
 
           <Body>
-            Customer feedback can't live only in the support inbox or in the product team's Notion doc. The companies that execute on it best make it everyone's job — not just the customer success team's.
+            Customer feedback can't live only in the support inbox or in the product team's Notion doc. The companies that execute on it best make it everyone's job, not just the customer success team's.
           </Body>
 
           <Callout title="What a Feedback-Driven Culture Looks Like in Practice">
             <ul className="space-y-3 text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>
-              <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>Every team member — engineering, marketing, ops — does at least one customer call per month</span></li>
+              <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>Every team member (engineering, marketing, ops) does at least one customer call per month</span></li>
               <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>A weekly "feedback digest" is shared across the company, summarizing the top themes from support, surveys, and reviews</span></li>
-              <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>Every roadmap item has a source — the specific feedback that justified prioritizing it</span></li>
+              <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>Every roadmap item has a source: the specific feedback that justified prioritizing it</span></li>
               <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>When a feature ships, the users who requested it hear about it first</span></li>
               <li className="flex gap-3"><span style={{ color: "#C9A96E" }}>→</span><span>NPS and PMF scores are tracked as core company metrics alongside revenue and retention</span></li>
             </ul>
           </Callout>
 
           <Body>
-            The companies that scale fastest aren't the ones with the best initial ideas. They're the ones that are fastest at discovering what their customers actually need — and building it.
+            The companies that scale fastest aren't the ones with the best initial ideas. They're the ones that are fastest at discovering what their customers actually need, and building it.
           </Body>
 
           <div className="my-10 rounded-2xl p-7" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
@@ -435,7 +435,7 @@ export default function FounderGrowthGuide() {
               Your next breakthrough is already in your customers' feedback.
             </h3>
             <p className="text-sm leading-relaxed mb-8 mx-auto max-w-md" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Gildre connects founders who are navigating product development, customer discovery, and growth — with peers who've been through the same loops. Apply to join.
+              Gildre connects founders who are navigating product development, customer discovery, and growth, with peers who've been through the same loops. Apply to join.
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a href="/membership" className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>Apply to Gildre →</a>

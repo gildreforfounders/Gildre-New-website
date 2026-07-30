@@ -255,7 +255,7 @@ export default function MentorCodePage() {
               Acknowledgement Received
             </h3>
             <p className="mx-auto mt-3 max-w-sm text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Thank you, <span className="text-white font-semibold">{form.firstName} {form.lastName}</span>. Your electronic acknowledgement of the Gildre Mentor Code of Conduct has been submitted. Please check your email — a confirmation has been sent to <span className="text-white">{form.email}</span>.
+              Thank you, <span className="text-white font-semibold">{form.firstName} {form.lastName}</span>. Your electronic acknowledgement of the Gildre Mentor Code of Conduct has been submitted. Please check your email: a confirmation has been sent to <span className="text-white">{form.email}</span>.
             </p>
             <p className="mt-5 text-xs" style={{ color: "rgba(255,255,255,0.3)" }}>
               If you have questions, contact us at{" "}

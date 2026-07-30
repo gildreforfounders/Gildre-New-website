@@ -65,7 +65,7 @@ const CheckIcon = () => (
 const benefits = [
   {
     title: "Curated Community",
-    body: "Access 250+ active founders across every industry — ongoing conversations, peer support, and resources 24/7.",
+    body: "Access 250+ active founders across every industry: ongoing conversations, peer support, and resources 24/7.",
   },
   {
     title: "1:1 Matching",
@@ -73,7 +73,7 @@ const benefits = [
   },
   {
     title: "Advisory Sessions",
-    body: "Monthly 1:1 sessions with a Gildre Managing Partner — an exited founder matched to your business.",
+    body: "Monthly 1:1 sessions with a Gildre Managing Partner: an exited founder matched to your business.",
   },
   {
     title: "In-Person Events",
@@ -85,7 +85,7 @@ const benefits = [
   },
   {
     title: "$5M+ in Perks",
-    body: "Exclusive deals from 500+ partners — software, legal, finance, marketing, and more.",
+    body: "Exclusive deals from 500+ partners: software, legal, finance, marketing, and more.",
   },
 ];
 
@@ -153,7 +153,7 @@ export default function PropellantVenturesPage() {
                   className="text-xl font-bold leading-snug text-white sm:text-2xl"
                   style={{ fontFamily: "var(--font-fraunces)" }}
                 >
-                  Building a company is a journey — you don&rsquo;t have to do it alone.
+                  Building a company is a journey; you don&rsquo;t have to do it alone.
                 </p>
               </div>
 

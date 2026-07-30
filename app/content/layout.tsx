@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/content" },
   title: "Founder Playbooks, Guides & Stories | Gildre Content Hub",
   description:
-    "Fundraising playbooks, GTM guides, equity breakdowns, and real founder stories. Browse by topic — practical insight for founders at every stage, not theory.",
+    "Fundraising playbooks, GTM guides, equity breakdowns, and real founder stories. Browse by topic: practical insight for founders at every stage, not theory.",
   keywords: [
     "founder content",
     "startup guides",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Founder Playbooks, Guides & Stories | Gildre Content Hub",
     description:
-      "Fundraising playbooks, GTM guides, equity breakdowns, and real founder stories — built for founders who need practical insight, not theory.",
+      "Fundraising playbooks, GTM guides, equity breakdowns, and real founder stories, built for founders who need practical insight, not theory.",
     url: "https://www.gildre.com/content",
     siteName: "Gildre",
     type: "website",

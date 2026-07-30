@@ -9,14 +9,14 @@ const data: LocationData = {
   lng: -97.7431,
   tagline: "The Fastest-Growing Startup City in America",
   hook: "Austin doesn't do slow. Neither does Gildre.",
-  intro: "Austin has become one of the top startup cities in the country — attracting founders, capital, and talent from across the US. Gildre gives Austin founders the structured peer community to keep pace with the city's explosive growth.",
-  scene: "From Downtown to the Domain, Austin's founder scene runs on a no-BS culture that rewards execution over talk. Thousands of founders have relocated here for the energy — Gildre gives them the community to channel it.",
+  intro: "Austin has become one of the top startup cities in the country, attracting founders, capital, and talent from across the US. Gildre gives Austin founders the structured peer community to keep pace with the city's explosive growth.",
+  scene: "From Downtown to the Domain, Austin's founder scene runs on a no-BS culture that rewards execution over talk. Thousands of founders have relocated here for the energy; Gildre gives them the community to channel it.",
   neighborhood: "Downtown Austin",
   benefits: [
     {
       icon: "⚡",
       title: "Move Fast, Together",
-      body: "Get matched weekly with Austin founders who share your urgency. No fluff — just high-signal introductions to peers building at your speed and stage.",
+      body: "Get matched weekly with Austin founders who share your urgency. No fluff: just high-signal introductions to peers building at your speed and stage.",
     },
     {
       icon: "🤠",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
   description:
-    "A complete founder's guide to raising your first pre-seed round — from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal. With investor tools, instrument comparison, and real founder quotes.",
+    "A complete founder's guide to raising your first pre-seed round : from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal. With investor tools, instrument comparison, and real founder quotes.",
   keywords: [
     "pre-seed fundraising",
     "how to raise pre-seed",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title:
       "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
     description:
-      "A complete founder's guide to raising your first pre-seed round — from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal.",
+      "A complete founder's guide to raising your first pre-seed round : from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal.",
     type: "article",
     images: ["/images/preseed-pitch-deck.webp"],
   },
@@ -38,7 +38,7 @@ const schema = {
   headline:
     "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
   description:
-    "A complete founder's guide to raising your first pre-seed round — from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal.",
+    "A complete founder's guide to raising your first pre-seed round : from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal.",
   image: "https://www.gildre.com/images/preseed-pitch-deck.webp",
   author: {
     "@type": "Organization",
@@ -368,7 +368,7 @@ export default function KickingOffPreSeed() {
           {/* Intro */}
           <Body>
             Raising a pre-seed round is the first major fundraising milestone for most startups. You&apos;re
-            turning an idea into a viable business — and convincing investors to back you before you
+            turning an idea into a viable business, and convincing investors to back you before you
             have the metrics to justify it. Only about 25–30% of startups that attempt a pre-seed raise
             actually close one. Understanding why the others fail is where your edge starts.
           </Body>
@@ -381,7 +381,7 @@ export default function KickingOffPreSeed() {
           {/* What is pre-seed */}
           <H2>What Is Pre-Seed Funding?</H2>
           <Body>
-            Pre-seed is the earliest stage of venture financing — typically used to validate an idea,
+            Pre-seed is the earliest stage of venture financing, typically used to validate an idea,
             build an MVP, and make the first one or two hires. Rounds range from $100K to $2M, and
             come from angel investors, pre-seed VC funds, accelerators, or friends and family.
           </Body>
@@ -420,8 +420,8 @@ export default function KickingOffPreSeed() {
               </thead>
               <tbody>
                 {[
-                  ["SAFE Note", "Converts to equity at next round", "Pre-seed / seed", "No interest, no maturity date — simpler but valuation deferred"],
-                  ["Convertible Note", "Debt that converts to equity", "Pre-seed / seed", "Carries interest rate and maturity — adds deadline pressure"],
+                  ["SAFE Note", "Converts to equity at next round", "Pre-seed / seed", "No interest, no maturity date: simpler but valuation deferred"],
+                  ["Convertible Note", "Debt that converts to equity", "Pre-seed / seed", "Carries interest rate and maturity: adds deadline pressure"],
                   ["Equity Round", "Priced round with valuation set now", "Seed / Series A", "Cleaner cap table, but requires agreeing on valuation early"],
                 ].map(([inst, how, best, trade], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? "#0a1020" : "#0d1428" }}>
@@ -452,7 +452,7 @@ export default function KickingOffPreSeed() {
           {/* Step 1 */}
           <StepHeader num="1" title="Clarify Your Fundraising Goals" />
           <Body>
-            Before you send a single email, define what you actually need from this round — and why.
+            Before you send a single email, define what you actually need from this round, and why.
             Founders who skip this step almost always raise either too much (and over-dilute) or too
             little (and run out of runway before hitting a meaningful milestone).
           </Body>
@@ -460,7 +460,7 @@ export default function KickingOffPreSeed() {
           {[
             {
               q: "How much capital do you need, and what milestones will it achieve?",
-              a: "Define the specific amount required to reach your next inflection point — product development, early customer acquisition, or a key hire. Investors want to see their capital driving measurable progress, not just extending runway.",
+              a: "Define the specific amount required to reach your next inflection point: product development, early customer acquisition, or a key hire. Investors want to see their capital driving measurable progress, not just extending runway.",
             },
             {
               q: "What type of investor aligns with your vision?",
@@ -468,7 +468,7 @@ export default function KickingOffPreSeed() {
             },
             {
               q: "How will the funds de-risk your business for the next stage?",
-              a: "Clearly outlining how investment reduces key risks — validating product-market fit, proving unit economics, or proving demand — shows investors you're thinking ahead, not just spending to spend.",
+              a: "Clearly outlining how investment reduces key risks (validating product-market fit, proving unit economics, or proving demand) shows investors you're thinking ahead, not just spending to spend.",
             },
           ].map((item, i) => (
             <div
@@ -505,7 +505,7 @@ export default function KickingOffPreSeed() {
           {/* Step 2 */}
           <StepHeader num="2" title="Build a Compelling Narrative" />
           <Body>
-            Pre-seed investors don&apos;t fund spreadsheets — they fund conviction. Your narrative must
+            Pre-seed investors don&apos;t fund spreadsheets; they fund conviction. Your narrative must
             answer four questions so clearly that the investor leaves the meeting able to explain your
             company to their partners without notes.
           </Body>
@@ -545,9 +545,9 @@ export default function KickingOffPreSeed() {
                 {[
                   ["The Problem", "Does this pain point actually exist, and is it bad enough that people will pay to fix it?"],
                   ["The Solution", "Is your approach genuinely differentiated, or is it a slight variation on what already exists?"],
-                  ["Market Potential", "Is the market large enough to justify a venture return — or is this a lifestyle business at scale?"],
-                  ["Why You?", "What makes this team uniquely positioned to win — domain expertise, unfair access, prior experience?"],
-                  ["Why Now?", "What has changed recently — regulation, technology, behavior — that makes this the right moment?"],
+                  ["Market Potential", "Is the market large enough to justify a venture return, or is this a lifestyle business at scale?"],
+                  ["Why You?", "What makes this team uniquely positioned to win: domain expertise, unfair access, prior experience?"],
+                  ["Why Now?", "What has changed recently (regulation, technology, behavior) that makes this the right moment?"],
                 ].map(([q, a], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? "#0a1020" : "#0d1428" }}>
                     <td
@@ -583,14 +583,14 @@ export default function KickingOffPreSeed() {
           {/* Step 3 */}
           <StepHeader num="3" title="Identify and Target the Right Investors" />
           <Body>
-            Not every investor writes pre-seed checks — and among those who do, their focus varies by
+            Not every investor writes pre-seed checks; among those who do, their focus varies by
             sector, geography, and stage. Sending the same cold pitch to 200 investors is less effective
             than sending a targeted, personalized approach to 30 who already invest in your space.
           </Body>
 
           <H3>Angel Investors</H3>
           <Body>
-            High-net-worth individuals who invest their own capital at the earliest stages — often
+            High-net-worth individuals who invest their own capital at the earliest stages, often
             providing the first check before institutional VCs enter.
           </Body>
           <div style={{ marginBottom: "1rem" }}>
@@ -650,8 +650,8 @@ export default function KickingOffPreSeed() {
           </Body>
           <Callout>
             <ul style={{ margin: 0, paddingLeft: "1.25rem", lineHeight: 2 }}>
-              <li>Ask portfolio founders from target funds for a referral — investors trust their existing founders</li>
-              <li>Engage publicly with an investor&apos;s content before reaching out — build familiarity first</li>
+              <li>Ask portfolio founders from target funds for a referral; investors trust their existing founders</li>
+              <li>Engage publicly with an investor&apos;s content before reaching out: build familiarity first</li>
               <li>Attend industry events and pitch competitions where investors are actively sourcing</li>
             </ul>
           </Callout>
@@ -719,11 +719,11 @@ export default function KickingOffPreSeed() {
               </thead>
               <tbody>
                 {[
-                  ["Problem", "The specific pain, who has it, and how bad it is", "Being too broad — \"healthcare is broken\" is not a problem"],
+                  ["Problem", "The specific pain, who has it, and how bad it is", "Being too broad: \"healthcare is broken\" is not a problem"],
                   ["Solution", "How you solve the problem uniquely", "Describing features instead of outcomes"],
                   ["Market Opportunity", "TAM, SAM, SOM with sources", "Citing $500B TAM without explaining why you can capture any of it"],
                   ["Business Model", "How you make money, unit economics if known", "Skipping this because you haven't figured it out yet"],
-                  ["Traction", "Users, signups, LOIs, pilots, revenue — whatever you have", "Hiding weak traction — sparse but real beats inflated"],
+                  ["Traction", "Users, signups, LOIs, pilots, revenue: whatever you have", "Hiding weak traction; sparse but real beats inflated"],
                   ["Go-to-Market", "How you'll reach your first 100 customers", "A generic \"content + sales\" answer with no specifics"],
                   ["Team", "Why this team, why now", "Listing credentials without connecting them to the problem"],
                   ["Financials & Ask", "How much, what milestones it buys, 18–24 month runway", "Asking for too much without justifying what it achieves"],
@@ -778,7 +778,7 @@ export default function KickingOffPreSeed() {
           </div>
           <Body>
             DocSend is particularly underused: it lets you track which slides investors spend the most
-            time on — giving you live signal about where interest peaks and where attention drops before
+            time on, giving you live signal about where interest peaks and where attention drops before
             your follow-up call.
           </Body>
 
@@ -791,13 +791,13 @@ export default function KickingOffPreSeed() {
           <StepHeader num="5" title="Build Momentum With Early Wins" />
           <Body>
             You don&apos;t need revenue at pre-seed. But you do need evidence that something real is
-            happening — that your idea is connecting with the world beyond your own head. The
+            happening: that your idea is connecting with the world beyond your own head. The
             highest-leverage signals at this stage:
           </Body>
 
           <Callout title="Traction signals that move pre-seed investors">
             <ul style={{ margin: 0, paddingLeft: "1.25rem", lineHeight: 2 }}>
-              <li>Beta users — even 20 engaged users who give you honest feedback</li>
+              <li>Beta users: even 20 engaged users who give you honest feedback</li>
               <li>Waitlist signups with strong conversion from a specific channel</li>
               <li>Letters of intent (LOIs) or verbal commitments from future customers</li>
               <li>An MVP, however scrappy, that solves the core problem</li>
@@ -818,7 +818,7 @@ export default function KickingOffPreSeed() {
           {/* Step 6 */}
           <StepHeader num="6" title="Leverage Warm Introductions Strategically" />
           <Body>
-            Warm intros are not just helpful — they&apos;re often the difference between getting a meeting
+            Warm intros are not just helpful; they&apos;re often the difference between getting a meeting
             and getting ignored. But getting the right intro matters as much as getting any intro.
             A weak referral from someone the investor barely knows can actually hurt more than a
             well-crafted cold email.
@@ -826,10 +826,10 @@ export default function KickingOffPreSeed() {
 
           <H3>The Intro Hierarchy</H3>
           {[
-            { rank: "Highest value", source: "A founder the investor has backed before", why: "Direct trust transfer — the investor already respects their judgment" },
+            { rank: "Highest value", source: "A founder the investor has backed before", why: "Direct trust transfer: the investor already respects their judgment" },
             { rank: "High value", source: "A mutual advisor or board member", why: "Signals you have access to quality networks" },
             { rank: "Medium value", source: "A peer founder in the same ecosystem", why: "Weaker trust transfer, but still beats cold" },
-            { rank: "Lower value", source: "A LinkedIn connection you barely know", why: "Almost never moves the needle — better to go direct" },
+            { rank: "Lower value", source: "A LinkedIn connection you barely know", why: "Almost never moves the needle; better to go direct" },
           ].map((item, i) => (
             <div
               key={i}
@@ -868,7 +868,7 @@ export default function KickingOffPreSeed() {
           {/* Step 7 */}
           <StepHeader num="7" title="Navigate Negotiations and Close the Round" />
           <Body>
-            Pre-seed valuations vary widely — anywhere from $2M to $12M post-money depending on
+            Pre-seed valuations vary widely, anywhere from $2M to $12M post-money depending on
             founder pedigree, market, and geography. The most important thing is not to optimize
             for valuation at the expense of the right partner or closing speed.
           </Body>
@@ -884,18 +884,18 @@ export default function KickingOffPreSeed() {
               <li>Founder agreements, vesting schedules, and IP assignment docs</li>
               <li>Customer testimonials, LOIs, or early traction data</li>
               <li>Articles of incorporation and any existing investor agreements</li>
-              <li>Financial model — even a simple 18-month projection is better than nothing</li>
+              <li>Financial model: even a simple 18-month projection is better than nothing</li>
             </ul>
           </Callout>
 
           <Warning>
             Don&apos;t let one investor string you along for months without a term sheet. Set a soft close
-            date and communicate it clearly — scarcity and momentum are real forces in fundraising.
+            date and communicate it clearly; scarcity and momentum are real forces in fundraising.
           </Warning>
 
           <H3>Handling Common Objections</H3>
           {[
-            { objection: "\"You don't have enough traction\"", response: "Acknowledge it directly, then redirect to leading indicators — engagement quality, user interviews, waitlist conversion. Show you know what the right traction looks like at the next milestone." },
+            { objection: "\"You don't have enough traction\"", response: "Acknowledge it directly, then redirect to leading indicators: engagement quality, user interviews, waitlist conversion. Show you know what the right traction looks like at the next milestone." },
             { objection: "\"The market is too small\"", response: "Show the adjacent market expansion path. Most great companies started in a market that looked small (Airbnb = air mattresses, Stripe = developers). Where does your wedge lead?" },
             { objection: "\"I don't understand why you win\"", response: "This is a narrative failure. Sharpen your unfair advantage: proprietary data, a specific distribution channel, a founder insight no one else has. Make the moat concrete, not abstract." },
           ].map((item, i) => (
@@ -931,7 +931,7 @@ export default function KickingOffPreSeed() {
 
           {/* Final checklist */}
           <H2>Pre-Seed Fundraising Checklist</H2>
-          <Callout title="Before you start outreach — are you ready?">
+          <Callout title="Before you start outreach: are you ready?">
             <ul style={{ margin: 0, paddingLeft: "1.25rem", lineHeight: 2.1 }}>
               <li>☐ Fundraising goal defined: amount, milestones, and timeline</li>
               <li>☐ Narrative locked: problem, solution, market, team, timing</li>
@@ -957,7 +957,7 @@ export default function KickingOffPreSeed() {
               },
               {
                 title: "Equity Dilution Explained",
-                desc: "How much equity founders actually give away at each funding stage — with benchmarks and a worked example.",
+                desc: "How much equity founders actually give away at each funding stage: with benchmarks and a worked example.",
                 href: "/equitydilution",
               },
             ].map((link) => (
@@ -1031,7 +1031,7 @@ export default function KickingOffPreSeed() {
                 lineHeight: 1.6,
               }}
             >
-              Gildre hosted a live workshop with Jason Jacobsohn — Managing Partner at Propellant Ventures —
+              Gildre hosted a live workshop with Jason Jacobsohn, Managing Partner at Propellant Ventures,
               on how to pitch to VCs. Watch the full session and get direct feedback on your deck.
             </p>
             <a

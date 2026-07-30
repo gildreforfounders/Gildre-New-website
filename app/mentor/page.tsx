@@ -30,7 +30,7 @@ const mentors = [
     name: "Fritz Lanman",
     title: "CEO",
     company: "ClassPass & MindBody",
-    bio: "Fritz is the CEO at ClassPass, which attained unicorn status in 2019 with a $285M financing round. He led Microsoft's $240M Facebook investment in 2007 — a deal now worth over $8 billion.",
+    bio: "Fritz is the CEO at ClassPass, which attained unicorn status in 2019 with a $285M financing round. He led Microsoft's $240M Facebook investment in 2007: a deal now worth over $8 billion.",
     photo: "/mentors/fritz-lanman.png",
   },
   {
@@ -88,7 +88,7 @@ const benefits = [
   {
     icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
     title: "Advisory Board & Board of Director Opportunities",
-    body: "Gain formal advisory or board roles with high-potential companies — expand your portfolio and your impact.",
+    body: "Gain formal advisory or board roles with high-potential companies: expand your portfolio and your impact.",
   },
   {
     icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
@@ -138,7 +138,7 @@ const mentorListSchema = {
         "name": "Fritz Lanman",
         "jobTitle": "CEO",
         "worksFor": { "@type": "Organization", "name": "ClassPass & MindBody" },
-        "description": "Fritz Lanman is CEO of ClassPass, which attained unicorn status in 2019 with a $285M financing round. He led Microsoft's $240M investment in Facebook in 2007 — a deal now worth over $8 billion.",
+        "description": "Fritz Lanman is CEO of ClassPass, which attained unicorn status in 2019 with a $285M financing round. He led Microsoft's $240M investment in Facebook in 2007: a deal now worth over $8 billion.",
         "url": "https://www.gildre.com/mentor"
       }
     },
@@ -273,7 +273,7 @@ export default function MentorPage() {
             className="mx-auto mt-6 max-w-2xl text-base leading-relaxed"
             style={{ color: "rgba(255,255,255,0.65)" }}
           >
-            At Gildre we believe mentors play one of the most crucial roles in an entrepreneur&rsquo;s journey. As a mentor you&rsquo;ll impact the entire community and help founders solve real-world problems. Our goal is to facilitate meaningful connections and long-lasting relationships — geared towards providing value to both entrepreneur and mentor.
+            At Gildre we believe mentors play one of the most crucial roles in an entrepreneur&rsquo;s journey. As a mentor you&rsquo;ll impact the entire community and help founders solve real-world problems. Our goal is to facilitate meaningful connections and long-lasting relationships, geared towards providing value to both entrepreneur and mentor.
           </p>
 
           <div className="mt-10 flex justify-center">
@@ -306,7 +306,7 @@ export default function MentorPage() {
             Who Are Our Mentors?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-base leading-relaxed text-zinc-500">
-            Our mentors come from every corner of the business world — operators, executives, and founders who have built, scaled, and exited at the highest levels.
+            Our mentors come from every corner of the business world: operators, executives, and founders who have built, scaled, and exited at the highest levels.
           </p>
 
           <div className="mt-14 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
@@ -378,7 +378,7 @@ export default function MentorPage() {
                 Why Mentor at Gildre?
               </h2>
               <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-                Mentors impact the lives of so many individuals — not just entrepreneurs and founders. The right piece of advice can positively change the trajectory of a company and impact countless stories.
+                Mentors impact the lives of so many individuals, not just entrepreneurs and founders. The right piece of advice can positively change the trajectory of a company and impact countless stories.
               </p>
               <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
                 This is your opportunity to support innovation in the ecosystem and meet an amazing network of passionate leaders across the globe.
@@ -497,7 +497,7 @@ export default function MentorPage() {
                 Mentor Requirements
               </h2>
               <p className="mt-5 text-base leading-relaxed text-zinc-500">
-                Mentors come from all different industries and backgrounds to provide a wide range of advice through experience. We carefully vet each mentor to ensure they&rsquo;re here for the right reasons — to ensure a world-class experience for every founder.
+                Mentors come from all different industries and backgrounds to provide a wide range of advice through experience. We carefully vet each mentor to ensure they&rsquo;re here for the right reasons: to ensure a world-class experience for every founder.
               </p>
 
               <ul className="mt-8 flex flex-col gap-5">
