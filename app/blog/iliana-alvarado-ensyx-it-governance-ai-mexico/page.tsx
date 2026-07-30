@@ -76,7 +76,7 @@ const articleSchema = {
     {
       "@type": "Organization",
       name: "ENSYX",
-      description: "IT and AI governance services firm based in Mexico, partnered with Expert Tech IT in Dallas",
+      description: "IT and AI governance services firm based in Mexico, partnered with XPERTEKIT.Inc in Dallas",
     },
   ],
   keywords:
@@ -99,13 +99,13 @@ const personSchema = {
     "Change Management",
   ],
   description:
-    "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City partnered with Expert Tech IT in Dallas. An attorney with 20+ years of experience, she previously spent nearly a decade at Banamex before launching ENSYX in 2023. She holds an LLM from Heidelberg University (split between Santiago, Chile and Germany), an undergraduate degree in linguistics, and a law degree from Mexico. She is a Gildre member actively expanding ENSYX to Chile.",
+    "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City partnered with XPERTEKIT.Inc in Dallas. An attorney with 20+ years of experience, she previously spent nearly a decade at Banamex before launching ENSYX in 2023. She holds an LLM from Heidelberg University (split between Santiago, Chile and Germany), an undergraduate degree in linguistics, and a law degree from Mexico. She is a Gildre member actively expanding ENSYX to Chile.",
 };
 
 const faqs = [
   {
     q: "Who is Iliana Alvarado?",
-    a: "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City that partners with Expert Tech IT in Dallas to deliver comprehensive technology services. An attorney with more than 20 years of experience, she previously worked at Banamex, one of Mexico's most important banks, for nearly a decade before launching ENSYX in 2023. She holds a law degree from Mexico, an LLM from Heidelberg University (split between Santiago and Germany), and an undergraduate degree in linguistics. She is a Gildre member currently expanding ENSYX into Chile.",
+    a: "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City that partners with XPERTEKIT.Inc in Dallas to deliver comprehensive technology services. An attorney with more than 20 years of experience, she previously worked at Banamex, one of Mexico's most important banks, for nearly a decade before launching ENSYX in 2023. She holds a law degree from Mexico, an LLM from Heidelberg University (split between Santiago and Germany), and an undergraduate degree in linguistics. She is a Gildre member currently expanding ENSYX into Chile.",
   },
   {
     q: "What does ENSYX do?",
@@ -310,7 +310,7 @@ export default function IlianaAlvaradoBlog() {
           "They were doing a very good job at the IT itself, but detached from context. If I tell you I&apos;m going to manage your network. Okay, good to know, but it lacks context. And context is important." Twenty years as an attorney, combined with her work in governance and risk at Banamex, gave Iliana a precise name for what was missing: IT governance.
         </Body>
         <Body>
-          ENSYX partnered with Expert Tech IT, based in Dallas, to build a combined capability: technically excellent managed IT services delivered within a governance and compliance framework. The partnership lets ENSYX serve clients with everything from endpoint management and digital transformation to fractional CTO services and strategic IT planning, with governance layered across all of it.
+          ENSYX partnered with XPERTEKIT.Inc, based in Dallas, to build a combined capability: technically excellent managed IT services delivered within a governance and compliance framework. The partnership lets ENSYX serve clients with everything from endpoint management and digital transformation to fractional CTO services and strategic IT planning, with governance layered across all of it.
         </Body>
         <Quote>
           "Every company is going to be a tech company. You need tech to run your company. So you need to think about who is going to take care of your IT, not only your IT isolated, but your IT within the context of your company and how you want to grow and where you want to go."
@@ -482,7 +482,7 @@ function BioCallout() {
     { year: "Age 18–19", event: "Leaves Mexico; spends years in New York, Boston, Rhode Island, and Europe working service jobs" },
     { year: "Santiago", event: "Works at one of Chile's most prestigious law firms after completing LLM through Heidelberg University (split Santiago/Germany)" },
     { year: "Post-LLM", event: "Returns to Mexico; joins Banamex, one of the country's largest banks; spends ~9 years in corporate governance and risk" },
-    { year: "2023", event: "Leaves Banamex; launches ENSYX in partnership with Expert Tech IT (Dallas) to fill the IT governance gap" },
+    { year: "2023", event: "Leaves Banamex; launches ENSYX in partnership with XPERTEKIT.Inc (Dallas) to fill the IT governance gap" },
     { year: "Now", event: "Growing ENSYX across Mexico; expanding into Chile ahead of new IT legislation; active Gildre member" },
   ];
   const lessons = [
@@ -517,7 +517,7 @@ function BioCallout() {
         </h2>
         <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
           Iliana Alvarado is the founder of{" "}
-          <strong style={{ color: "#fff" }}>ENSYX</strong>, an IT and AI governance firm based in Mexico City that partners with Expert Tech IT in Dallas to deliver comprehensive, context-driven technology services. An attorney with 20+ years of experience across Mexico, Chile, and Germany, she spent nearly a decade at Banamex before leaving corporate in 2023 to build ENSYX. She holds an LLM from Heidelberg University, an undergrad in linguistics, and a Mexican law degree, and is currently expanding ENSYX into Chile.
+          <strong style={{ color: "#fff" }}>ENSYX</strong>, an IT and AI governance firm based in Mexico City that partners with XPERTEKIT.Inc in Dallas to deliver comprehensive, context-driven technology services. An attorney with 20+ years of experience across Mexico, Chile, and Germany, she spent nearly a decade at Banamex before leaving corporate in 2023 to build ENSYX. She holds an LLM from Heidelberg University, an undergrad in linguistics, and a Mexican law degree, and is currently expanding ENSYX into Chile.
         </p>
       </div>
       <div className="grid sm:grid-cols-2">
