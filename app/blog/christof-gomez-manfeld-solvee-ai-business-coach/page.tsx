@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  alternates: { canonical: "https://www.gildre.com/blog/christof-gomez-manfeld-solvi-ai-business-coach" },
+  alternates: { canonical: "https://www.gildre.com/blog/christof-gomez-manfeld-solvee-ai-business-coach" },
   title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvee: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps | Gildre",
   description:
     "Christof Gomez Manfeld, founder of Solvee and Gildre member, on leaving Bosch, moving his whole family back to Spain, and building an AI-powered personalized accelerator that guides founders from first idea to scale, by asking the right questions instead of giving generic answers.",
@@ -21,7 +21,7 @@ export const metadata = {
     "solvee app",
   ],
   openGraph: {
-    url: "https://www.gildre.com/blog/christof-gomez-manfeld-solvi-ai-business-coach",
+    url: "https://www.gildre.com/blog/christof-gomez-manfeld-solvee-ai-business-coach",
     title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvee: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
     description:
       "Christof Gomez Manfeld on growing up between Spain and Germany, a NASA girlfriend who took him to Houston and Pasadena, seven years at Bosch, and why getting fired was the best thing that ever happened to him, leading to Solvee, an AI business coach that knows your specific business and refuses to hallucinate about it.",
@@ -66,7 +66,7 @@ const articleSchema = {
     },
   },
   mainEntityOfPage:
-    "https://www.gildre.com/blog/christof-gomez-manfeld-solvi-ai-business-coach",
+    "https://www.gildre.com/blog/christof-gomez-manfeld-solvee-ai-business-coach",
   about: [
     {
       "@type": "Person",

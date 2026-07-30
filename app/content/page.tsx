@@ -48,7 +48,7 @@ const featured = [
     readTime: "12 min read",
     excerpt:
       "Christof Gomez Manfeld on seven years at Bosch, getting fired, moving his whole family to Spain, and building Solvee: an AI accelerator that learns your specific business and guides you through 43 structured steps based on validation, not assumptions.",
-    href: "/blog/christof-gomez-manfeld-solvi-ai-business-coach",
+    href: "/blog/christof-gomez-manfeld-solvee-ai-business-coach",
   },
   {
     title: "Florian Kemmerich: The Impact Investor Who Left the Olympics, Crossed Five Languages, and Built an AI Platform to Help 54 Million People Find Their Vocation",

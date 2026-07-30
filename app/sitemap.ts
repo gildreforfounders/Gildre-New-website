@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/seattle`,                      lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     // Blog — founder stories
     { url: `${BASE_URL}/blog/one-to-three-million-arr-founder-community`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
-    { url: `${BASE_URL}/blog/christof-gomez-manfeld-solvi-ai-business-coach`,      lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
+    { url: `${BASE_URL}/blog/christof-gomez-manfeld-solvee-ai-business-coach`,      lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/florian-kemmerich-vocating-ai-impact-investor`,       lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/alex-jekowski-cents-laundromat-tech-vertical-saas`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/cody-graham-sogo-restaurant-app-chicago`,           lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
