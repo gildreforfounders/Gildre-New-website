@@ -528,6 +528,25 @@ export default function DrMichaelFilosiBlog() {
           He does not regret the decision. He describes the full arc, from the run-down practice nobody wanted to the exit with four buyers competing, as a remarkable ride. He is still figuring out what comes next. The qualities that built Fullarton Park Dental, the systems thinking, the obsessive attention to patient experience, the willingness to be unconventional, do not disappear when the business is sold.
         </Body>
 
+        {/* Photo 5 — with partner */}
+        <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+          <Image
+            src="/images/dr-michael-filosi-with-partner.jpeg"
+            alt="Dr. Michael Filosi with his partner at a restaurant in Adelaide after the Fullarton Park Dental exit"
+            width={720}
+            height={480}
+            quality={90}
+            sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+            className="w-full object-cover"
+            style={{ objectFit: "cover", objectPosition: "center top" }}
+          />
+          <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
+              Dr. Michael Filosi after the exit: the ten-year sprint of building Adelaide&apos;s largest dental practice made way for life beyond the chair
+            </p>
+          </div>
+        </div>
+
         {/* Photo 6 — original building */}
         <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
