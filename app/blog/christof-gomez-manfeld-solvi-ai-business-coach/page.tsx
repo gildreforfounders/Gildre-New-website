@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/christof-gomez-manfeld-solvi-ai-business-coach" },
-  title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvi: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps | Gildre",
+  title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvee: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps | Gildre",
   description:
-    "Christof Gomez Manfeld, founder of Solvi and Gildre member, on leaving Bosch, moving his whole family back to Spain, and building an AI-powered personalized accelerator that guides founders from first idea to scale, by asking the right questions instead of giving generic answers.",
+    "Christof Gomez Manfeld, founder of Solvee and Gildre member, on leaving Bosch, moving his whole family back to Spain, and building an AI-powered personalized accelerator that guides founders from first idea to scale, by asking the right questions instead of giving generic answers.",
   keywords: [
     "Christof Gomez Manfeld",
-    "Solvi AI",
-    "Solvi business coach",
+    "Solvee AI",
+    "Solvee business coach",
     "AI accelerator for founders",
     "startup strategy tool",
     "founder operating system",
@@ -18,28 +18,28 @@ export const metadata = {
     "startup validation tool",
     "Bosch engineer entrepreneur",
     "Gildre member Spain",
-    "solvi app",
+    "solvee app",
   ],
   openGraph: {
     url: "https://www.gildre.com/blog/christof-gomez-manfeld-solvi-ai-business-coach",
-    title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvi: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
+    title: "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvee: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
     description:
-      "Christof Gomez Manfeld on growing up between Spain and Germany, a NASA girlfriend who took him to Houston and Pasadena, seven years at Bosch, and why getting fired was the best thing that ever happened to him, leading to Solvi, an AI business coach that knows your specific business and refuses to hallucinate about it.",
+      "Christof Gomez Manfeld on growing up between Spain and Germany, a NASA girlfriend who took him to Houston and Pasadena, seven years at Bosch, and why getting fired was the best thing that ever happened to him, leading to Solvee, an AI business coach that knows your specific business and refuses to hallucinate about it.",
     type: "article",
     images: [
       {
         url: "https://www.gildre.com/images/christof-gomez-manfeld-headshot.jpeg",
         width: 800,
         height: 600,
-        alt: "Christof Gomez Manfeld, founder of Solvi AI",
+        alt: "Christof Gomez Manfeld, founder of Solvee AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Christof Gomez Manfeld of Solvi: The AI Accelerator Built on Systems Thinking That Guides Founders 43 Steps from Idea to Exit",
+    title: "Christof Gomez Manfeld of Solvee: The AI Accelerator Built on Systems Thinking That Guides Founders 43 Steps from Idea to Exit",
     description:
-      "How a Bosch engineer went from automotive machine learning to building Solvi, an AI advisor that learns everything about your specific business and guides you based on validation, not assumptions.",
+      "How a Bosch engineer went from automotive machine learning to building Solvee, an AI advisor that learns everything about your specific business and guides you based on validation, not assumptions.",
   },
 };
 
@@ -47,9 +47,9 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvi: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
+    "Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built Solvee: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
   description:
-    "Christof Gomez Manfeld, founder of Solvi (solvi.app) and Gildre member based in southern Spain, on growing up between Spanish and German culture, seven years at Bosch in automotive machine learning, getting fired and moving his family back to Spain, and building an AI-powered personalized accelerator that guides founders from idea to scale and exit through 43 structured steps — based on validation, not assumptions.",
+    "Christof Gomez Manfeld, founder of Solvee (solvee.app) and Gildre member based in southern Spain, on growing up between Spanish and German culture, seven years at Bosch in automotive machine learning, getting fired and moving his family back to Spain, and building an AI-powered personalized accelerator that guides founders from idea to scale and exit through 43 structured steps — based on validation, not assumptions.",
   image: "https://www.gildre.com/images/christof-gomez-manfeld-headshot.jpeg",
   datePublished: "2026-07-29",
   author: {
@@ -71,23 +71,23 @@ const articleSchema = {
     {
       "@type": "Person",
       name: "Christof Gomez Manfeld",
-      jobTitle: "Founder, Solvi",
+      jobTitle: "Founder, Solvee",
     },
     {
       "@type": "Organization",
-      name: "Solvi",
+      name: "Solvee",
       description: "AI-powered personalized accelerator that guides founders from idea to scale and exit in 43 structured steps, using business-specific data to eliminate hallucinations and provide actionable strategic advice.",
     },
   ],
   keywords:
-    "Christof Gomez Manfeld, Solvi, Solvi AI, AI business coach, startup accelerator, founder operating system, systems thinking, validation not assumptions, Bosch engineer, Gildre Spain",
+    "Christof Gomez Manfeld, Solvee, Solvee AI, AI business coach, startup accelerator, founder operating system, systems thinking, validation not assumptions, Bosch engineer, Gildre Spain",
 };
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Christof Gomez Manfeld",
-  jobTitle: "Founder, Solvi",
+  jobTitle: "Founder, Solvee",
   knowsAbout: [
     "AI Business Coaching",
     "Systems Thinking",
@@ -100,25 +100,25 @@ const personSchema = {
     "Business Model Design",
   ],
   description:
-    "Christof Gomez Manfeld is the founder of Solvi (solvi.app), an AI-powered personalized accelerator for founders, and a Gildre member based in southern Spain. Born and raised in Madrid for 18 years, he studied electrical engineering in Germany, spent time in Houston and Pasadena during a relationship with a NASA engineer, and worked seven years at Bosch in automotive machine learning before being let go and starting Solvi. He is bilingual in Spanish and German and holds a European trademark on the Solvi name.",
+    "Christof Gomez Manfeld is the founder of Solvee (solvee.app), an AI-powered personalized accelerator for founders, and a Gildre member based in southern Spain. Born and raised in Madrid for 18 years, he studied electrical engineering in Germany, spent time in Houston and Pasadena during a relationship with a NASA engineer, and worked seven years at Bosch in automotive machine learning before being let go and starting Solvee. He is bilingual in Spanish and German and holds a European trademark on the Solvee name.",
 };
 
 const faqs = [
   {
     q: "Who is Christof Gomez Manfeld?",
-    a: "Christof Gomez Manfeld is the founder of Solvi (solvi.app), an AI-powered personalized accelerator for founders, and a Gildre member based in southern Spain. Born and raised in Madrid, he studied electrical engineering in Germany, lived briefly in Houston and Pasadena while his then-girlfriend worked at NASA's Jet Propulsion Laboratory, and spent seven years at Bosch in automotive project and organizational development before being let go and starting Solvi.",
+    a: "Christof Gomez Manfeld is the founder of Solvee (solvee.app), an AI-powered personalized accelerator for founders, and a Gildre member based in southern Spain. Born and raised in Madrid, he studied electrical engineering in Germany, lived briefly in Houston and Pasadena while his then-girlfriend worked at NASA's Jet Propulsion Laboratory, and spent seven years at Bosch in automotive project and organizational development before being let go and starting Solvee.",
   },
   {
-    q: "What is Solvi?",
-    a: "Solvi is an AI-powered personalized accelerator that guides founders from idea to scale and exit in 43 structured steps. Unlike generalist AI tools like ChatGPT or Claude, Solvi builds a deep, business-specific knowledge base about each founder's company by asking targeted questions and tracking their answers. This allows it to give highly contextual advice with near-zero hallucination because it is only advising based on data the founder has provided. It can also connect to financials, flag strategic gaps, and eventually serve as the operating system for an entire organization.",
+    q: "What is Solvee?",
+    a: "Solvee is an AI-powered personalized accelerator that guides founders from idea to scale and exit in 43 structured steps. Unlike generalist AI tools like ChatGPT or Claude, Solvee builds a deep, business-specific knowledge base about each founder's company by asking targeted questions and tracking their answers. This allows it to give highly contextual advice with near-zero hallucination because it is only advising based on data the founder has provided. It can also connect to financials, flag strategic gaps, and eventually serve as the operating system for an entire organization.",
   },
   {
-    q: "How is Solvi different from using ChatGPT or Claude for business advice?",
-    a: "Generalist AI tools like ChatGPT and Claude give broad answers that may not be applicable to a specific business. Solvi builds a proprietary knowledge base of each founder's business through a structured curriculum. Then advises based on that specific data rather than general training. This eliminates hallucination (there's nothing to fabricate when the AI only draws on what you've told it), ensures advice is contextual rather than generic, and creates continuity: the more you use Solvi, the more it understands your business and the better its advice becomes.",
+    q: "How is Solvee different from using ChatGPT or Claude for business advice?",
+    a: "Generalist AI tools like ChatGPT and Claude give broad answers that may not be applicable to a specific business. Solvee builds a proprietary knowledge base of each founder's business through a structured curriculum. Then advises based on that specific data rather than general training. This eliminates hallucination (there's nothing to fabricate when the AI only draws on what you've told it), ensures advice is contextual rather than generic, and creates continuity: the more you use Solvee, the more it understands your business and the better its advice becomes.",
   },
   {
-    q: "What are the 43 steps in Solvi?",
-    a: "Solvi's 43-step curriculum takes founders through the full journey from initial idea to scale and exit. It begins with a business assessment and moves through validation of assumptions, business model design, go-to-market strategy, financials, and scaling decisions. At each step, Solvi asks questions rather than providing prescriptive answers, tracking the founder's responses and building a complete operating picture of the business. The number of steps may evolve as the product develops.",
+    q: "What are the 43 steps in Solvee?",
+    a: "Solvee's 43-step curriculum takes founders through the full journey from initial idea to scale and exit. It begins with a business assessment and moves through validation of assumptions, business model design, go-to-market strategy, financials, and scaling decisions. At each step, Solvee asks questions rather than providing prescriptive answers, tracking the founder's responses and building a complete operating picture of the business. The number of steps may evolve as the product develops.",
   },
   {
     q: "What advice does Christof Gomez Manfeld give to early-stage founders?",
@@ -174,11 +174,11 @@ function BioCallout() {
     >
       <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
         <strong style={{ color: "#C9A96E" }}>Christof Gomez Manfeld</strong> is the founder of{" "}
-        <strong style={{ color: "#fff" }}>Solvi</strong> (solvi.app), an AI-powered personalized
+        <strong style={{ color: "#fff" }}>Solvee</strong>{" "}(<a href="https://www.solvee.app/" target="_blank" rel="noopener noreferrer" style={{ color: "#C9A96E" }}>solvee.app</a>), an AI-powered personalized
         accelerator for founders, and a Gildre member based in southern Spain. After 18 years in Madrid,
         an electrical engineering degree in Germany, time in Houston and Pasadena, and seven years at
         Bosch in automotive machine learning and organizational development, he was let go, and built
-        Solvi. He holds a European trademark on the Solvi name.
+        Solvee. He holds a European trademark on the Solvee name.
       </p>
     </div>
   );
@@ -226,10 +226,10 @@ export default function ChristofGomezManfeldBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Christof Gomez Manfeld: The Bosch Engineer Who Got Fired and Built{" "}
-            <span style={{ color: "#C9A96E" }}>Solvi</span>: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps
+            <span style={{ color: "#C9A96E" }}>Solvee</span>: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            He grew up caught between Spanish warmth and German precision. He studied electrical engineering in Germany with great difficulty, spent two years following a NASA engineer to Houston and Pasadena, and spent seven years at Bosch working on machine learning and organizational strategy. Then he was let go, and moved his entire family back to Spain to build Solvi: an AI accelerator that learns everything about a founder&apos;s specific business and guides them through 43 structured steps, asking the right questions instead of giving generic answers.
+            He grew up caught between Spanish warmth and German precision. He studied electrical engineering in Germany with great difficulty, spent two years following a NASA engineer to Houston and Pasadena, and spent seven years at Bosch working on machine learning and organizational strategy. Then he was let go, and moved his entire family back to Spain to build Solvee: an AI accelerator that learns everything about a founder&apos;s specific business and guides them through 43 structured steps, asking the right questions instead of giving generic answers.
           </p>
 
           {/* Meta row */}
@@ -267,7 +267,7 @@ export default function ChristofGomezManfeldBlog() {
 
         <Body>
           Most people who leave a big corporate job to start a company have a plan. Christof Gomez Manfeld had a problem: he&apos;d spent seven years watching large organizations fail to make good decisions because their strategy lived in silos, their teams didn&apos;t know the business direction, and nobody had a system for connecting daily work to long-term outcomes. When he got fired from Bosch, he didn&apos;t pivot industries. He took everything he&apos;d learned about systems thinking, machine learning, and organizational development, and built{" "}
-          <strong style={{ color: "#fff" }}>Solvi</strong>, the AI-powered accelerator that gives founders the strategic clarity that most companies spend millions trying to achieve. He joined the{" "}
+          <strong style={{ color: "#fff" }}>Solvee</strong>, the AI-powered accelerator that gives founders the strategic clarity that most companies spend millions trying to achieve. He joined the{" "}
           <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> from southern Spain to share how he got there.
         </Body>
 
@@ -275,7 +275,7 @@ export default function ChristofGomezManfeldBlog() {
         <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/christof-gomez-manfeld-headshot.jpeg"
-            alt="Christof Gomez Manfeld, founder of Solvi AI and Gildre member"
+            alt="Christof Gomez Manfeld, founder of Solvee AI and Gildre member"
             width={720}
             height={540}
             quality={90}
@@ -285,7 +285,7 @@ export default function ChristofGomezManfeldBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Christof Gomez Manfeld — founder of Solvi, Gildre member, and bilingual Spaniard-German building the AI accelerator for founders from southern Spain
+              Christof Gomez Manfeld — founder of Solvee, Gildre member, and bilingual Spaniard-German building the AI accelerator for founders from southern Spain
             </p>
           </div>
         </div>
@@ -318,7 +318,7 @@ export default function ChristofGomezManfeldBlog() {
         <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/christof-gomez-manfeld-solvi.jpeg"
-            alt="Christof Gomez Manfeld and Solvi — AI accelerator for startup founders"
+            alt="Christof Gomez Manfeld and Solvee — AI accelerator for startup founders"
             width={720}
             height={331}
             quality={90}
@@ -328,7 +328,7 @@ export default function ChristofGomezManfeldBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Christof Gomez Manfeld — seven years at Bosch led to the insight that built Solvi: founders need the same strategic clarity that big companies spend millions trying to create
+              Christof Gomez Manfeld — seven years at Bosch led to the insight that built Solvee: founders need the same strategic clarity that big companies spend millions trying to create
             </p>
           </div>
         </div>
@@ -355,25 +355,25 @@ export default function ChristofGomezManfeldBlog() {
           His parents did something similar after his father&apos;s early retirement: they built a small tourism business combining Spanish wines, theaters, and museums. Not a startup aiming for scale, just something built with passion, for the love of it. "It didn&apos;t have to make millions. Just to do something that you&apos;re passionate about and you enjoy doing." That became Christof&apos;s permission structure. When the opportunity came, he took it.
         </Body>
 
-        <Section title="What Is Solvi? The AI Accelerator Built to Know Your Business" />
+        <Section title="What Is Solvee? The AI Accelerator Built to Know Your Business" />
         <Body>
-          Solvi is not a chatbot. It is not a generic AI assistant. Christof is careful about this distinction, and for good reason. The problem with using ChatGPT or Claude for business strategy, he explains, is not that they&apos;re bad tools. It&apos;s that they&apos;re general-purpose tools. They give good answers. But those answers have no connection to your specific business, your specific stage, your specific assumptions, your specific gaps.
+          Solvee is not a chatbot. It is not a generic AI assistant. Christof is careful about this distinction, and for good reason. The problem with using ChatGPT or Claude for business strategy, he explains, is not that they&apos;re bad tools. It&apos;s that they&apos;re general-purpose tools. They give good answers. But those answers have no connection to your specific business, your specific stage, your specific assumptions, your specific gaps.
         </Body>
         <Body>
-          Solvi is built differently. It starts with a business assessment and moves through a structured curriculum of 43 steps, from initial idea through validation, business model design, go-to-market strategy, financial planning, scaling decisions, and eventually exit. At every step, it asks questions. The founder answers. The AI builds a proprietary knowledge base about that specific business. And once that base exists, everything changes: the advice Solvi gives is no longer generic. It is drawn from what the founder has told it, and only that.
+          Solvee is built differently. It starts with a business assessment and moves through a structured curriculum of 43 steps, from initial idea through validation, business model design, go-to-market strategy, financial planning, scaling decisions, and eventually exit. At every step, it asks questions. The founder answers. The AI builds a proprietary knowledge base about that specific business. And once that base exists, everything changes: the advice Solvee gives is no longer generic. It is drawn from what the founder has told it, and only that.
         </Body>
         <Quote>
           "We want to make sure that the founder builds based on validation and not assumptions. There is a very, very big difference, and from my experience, people are very thankful for the clarity they get."
         </Quote>
         <Body>
-          The hallucination problem that plagues most AI business tools is, in Solvi&apos;s architecture, structurally eliminated. If the AI only advises based on data the founder has provided, there is nothing to fabricate. "We try to reduce hallucinations to zero because we have all the data. There&apos;s no reason for the AI to hallucinate."
+          The hallucination problem that plagues most AI business tools is, in Solvee&apos;s architecture, structurally eliminated. If the AI only advises based on data the founder has provided, there is nothing to fabricate. "We try to reduce hallucinations to zero because we have all the data. There&apos;s no reason for the AI to hallucinate."
         </Body>
 
         {/* Photo 3 — wide landscape (800×368) */}
         <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/christof-gomez-manfeld-spain.jpeg"
-            alt="Solvi AI: the founder operating system built by Christof Gomez Manfeld in Spain"
+            alt="Solvee AI: the founder operating system built by Christof Gomez Manfeld in Spain"
             width={720}
             height={331}
             quality={90}
@@ -383,45 +383,47 @@ export default function ChristofGomezManfeldBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Solvi: the AI-powered personalized accelerator that guides founders from idea to scale and exit, built in southern Spain by Christof Gomez Manfeld
+              Solvee: the AI-powered personalized accelerator that guides founders from idea to scale and exit, built in southern Spain by Christof Gomez Manfeld
             </p>
           </div>
         </div>
 
         <Section title="Systems Thinking: The Framework Behind the Product" />
         <Body>
-          The intellectual foundation of Solvi is systems thinking, a discipline Christof discovered through Donella Meadows&apos; book and describes as one of the hardest and most rewarding frameworks he&apos;s encountered. Systems are not linear. They are full of feedback loops, time delays, and non-obvious interconnections that make them genuinely difficult to hold in one&apos;s head. "It doesn&apos;t come really natural to think in systems. They have so many interconnections that for us as humans it&apos;s very difficult to grasp how systems work."
+          The intellectual foundation of Solvee is systems thinking, a discipline Christof discovered through Donella Meadows&apos; book and describes as one of the hardest and most rewarding frameworks he&apos;s encountered. Systems are not linear. They are full of feedback loops, time delays, and non-obvious interconnections that make them genuinely difficult to hold in one&apos;s head. "It doesn&apos;t come really natural to think in systems. They have so many interconnections that for us as humans it&apos;s very difficult to grasp how systems work."
         </Body>
         <Body>
-          When ChatGPT launched and Christof started interacting with it, he found something unexpected: he could use the AI to make systems thinking more accessible on a daily basis. The model already knew the theory. He could ask it questions, test applications, and practice applying the framework to real organizational problems far faster than any book or course had allowed. That experience of AI as an accelerator for a rigorous but hard-to-apply discipline is baked into Solvi&apos;s design.
+          When ChatGPT launched and Christof started interacting with it, he found something unexpected: he could use the AI to make systems thinking more accessible on a daily basis. The model already knew the theory. He could ask it questions, test applications, and practice applying the framework to real organizational problems far faster than any book or course had allowed. That experience of AI as an accelerator for a rigorous but hard-to-apply discipline is baked into Solvee&apos;s design.
         </Body>
         <Body>
-          Solvi is what happens when systems thinking and business strategy are packaged into a product that guides a founder through structured questions, captures the answers, and then applies frameworks precisely to the situation the founder has described. Not in theory. Not generally. To their specific business.
+          Solvee is what happens when systems thinking and business strategy are packaged into a product that guides a founder through structured questions, captures the answers, and then applies frameworks precisely to the situation the founder has described. Not in theory. Not generally. To their specific business.
         </Body>
 
         <Section title="The Long Game: From Founder Operating System to Company-Wide Strategy" />
         <Body>
-          The current focus of Solvi is early-stage founders: the people with an idea, or running a company of two or three years, who have gaps in their business model they haven&apos;t named yet. Those founders often don&apos;t know what they don&apos;t know, and when Solvi&apos;s curriculum surfaces a gap, the response is usually gratitude. "From my experience, people are very thankful for the clarity they get."
+          The current focus of Solvee is early-stage founders: the people with an idea, or running a company of two or three years, who have gaps in their business model they haven&apos;t named yet. Those founders often don&apos;t know what they don&apos;t know, and when Solvee&apos;s curriculum surfaces a gap, the response is usually gratitude. "From my experience, people are very thankful for the clarity they get."
         </Body>
         <Body>
-          But the roadmap extends further. As Solvi connects to financials, not just strategy, and it can flag problems the founder might have missed. Track performance against the strategic plan in real time. Alert when execution diverges from direction. Christof describes the end state as a founder&apos;s operating system: one place to see what needs to happen today, how the financials are performing, what the AI strategic advisor recommends, and how to prepare for the next funding round.
+          But the roadmap extends further. As Solvee connects to financials, not just strategy, and it can flag problems the founder might have missed. Track performance against the strategic plan in real time. Alert when execution diverges from direction. Christof describes the end state as a founder&apos;s operating system: one place to see what needs to happen today, how the financials are performing, what the AI strategic advisor recommends, and how to prepare for the next funding round.
         </Body>
         <Body>
-          Further out: employees. The same dysfunction Christof watched at Bosch (teams working in isolation, strategies never converging) is the problem Solvi&apos;s organizational module will eventually address. When a company can give any employee real-time access to the business strategy, explain how their work connects to it, and flag when their work is drifting away from it, the misalignment that costs companies millions dissolves. "If you&apos;re working on things that have nothing to do with the business, you will very quickly notice."
+          Further out: employees. The same dysfunction Christof watched at Bosch (teams working in isolation, strategies never converging) is the problem Solvee&apos;s organizational module will eventually address. When a company can give any employee real-time access to the business strategy, explain how their work connects to it, and flag when their work is drifting away from it, the misalignment that costs companies millions dissolves. "If you&apos;re working on things that have nothing to do with the business, you will very quickly notice."
         </Body>
 
         <Section title="Getting Fired Was the Best Thing That Happened to Him" />
         <Body>
-          After seven years at Bosch, Christof was let go. He took his family (wife, kids, all of them) and moved back to Spain. To a small town in the south. He&apos;s been building Solvi since. "Despite the uncertainty, it is an amazing ride. I get to meet people from Australia to the United States, sitting in Spain in a little town. It&apos;s an absolute blast."
+          After seven years at Bosch, Christof was let go. He took his family (wife, kids, all of them) and moved back to Spain. To a small town in the south. He&apos;s been building Solvee since. "Despite the uncertainty, it is an amazing ride. I get to meet people from Australia to the United States, sitting in Spain in a little town. It&apos;s an absolute blast."
         </Body>
         <Body>
-          His vision for Solvi has always been larger than revenue. The displacement happening right now (people losing jobs to AI, redundancies everywhere, workers without a path) is the problem Solvi is designed to meet. "For all the people getting fired right now, for whatever reason: there needs to be something they can build with their passion, their knowledge, their motivation to do something that actually has value in the world. They just need the structure."
+          His vision for Solvee has always been larger than revenue. The displacement happening right now (people losing jobs to AI, redundancies everywhere, workers without a path) is the problem Solvee is designed to meet. "For all the people getting fired right now, for whatever reason: there needs to be something they can build with their passion, their knowledge, their motivation to do something that actually has value in the world. They just need the structure."
         </Body>
         <Quote>
           "Give yourself the space. Believe in yourself that you can build something. If you&apos;re unhappy at your job, don&apos;t be miserable. I was fired, and I&apos;m happy I was. Just go for it. It is an amazing ride."
         </Quote>
         <Body>
-          Solvi is available now at solvi.app with a free version that Christof says delivers real value before any payment is required. The paid tier goes deeper. The feedback loop (what users love, what confuses them, where they drop off) is the most important metric right now, more than revenue. User experience workshops are running. Features are in the pipeline. And one of the biggest problems in the startup ecosystem (founders building on assumptions they mistake for validation) has finally found its product.
+          Solvee is available now at{" "}
+          <a href="https://www.solvee.app/" target="_blank" rel="noopener noreferrer" style={{ color: "#C9A96E" }}>solvee.app</a>{" "}
+          with a free version that Christof says delivers real value before any payment is required. The paid tier goes deeper. The feedback loop (what users love, what confuses them, where they drop off) is the most important metric right now, more than revenue. User experience workshops are running. Features are in the pipeline. And one of the biggest problems in the startup ecosystem (founders building on assumptions they mistake for validation) has finally found its product.
         </Body>
 
         {/* FAQs */}
