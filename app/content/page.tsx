@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Dr. Michael Filosi: From Two Dental Chairs to Adelaide's Biggest Practice and a Private Equity Exit",
+    category: "Operations",
+    readTime: "16 min read",
+    excerpt:
+      "Dr. Michael Filosi scaled Fullarton Park Dental from a run-down two-chair Adelaide practice into the largest dental clinic in the city over ten years: 400 five-star Google reviews, ten chairs, and four private equity firms competing to buy. His full playbook on hiring, patient experience, and exit.",
+    href: "/blog/dr-michael-filosi-fullarton-park-dental-adelaide",
+  },
+  {
     title: "Christof Gomez Mannfeld: The Bosch Engineer Who Got Fired and Built solvee — the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps",
     category: "Product",
     readTime: "12 min read",
