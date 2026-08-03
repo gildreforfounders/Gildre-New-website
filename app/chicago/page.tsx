@@ -194,10 +194,28 @@ const faqItems = [
 ];
 
 const peers = [
-  { name: "Cody Graham", title: "COO & Head of Product", company: "SoGo", photo: "/images/cody-graham-headshot.jpeg" },
-  { name: "Alex Jekowski", title: "Founder & CEO", company: "Cents", photo: "/images/alex-jekowski-headshot.webp" },
-  { name: "Chris Riklin", title: "Founder", company: "Topline", photo: "/images/chris-riklin-headshot.webp" },
-  { name: "Russell Breuer", title: "Founder", company: "Spot & Tango", photo: "/images/russell-breuer-headshot.png" },
+  { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Chicago Ecosystem", photo: null, initials: "JJ", color: "#3B6CC9" },
+  { name: "Brittany Canty", title: "Founder", company: "Chicago", photo: null, initials: "BC", color: "#C97B3B" },
+  { name: "Ivan Rahman", title: "Founder", company: "Chicago", photo: null, initials: "IR", color: "#3BC97B" },
+];
+
+const chapterLeads = [
+  {
+    name: "Taiga Gamell",
+    role: "Co-Founder & Managing Partner, Gildre",
+    bio: "Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then co-founded and raised funding for a sustainability startup called Kudos. As a GTM and revenue leader, he has led sales teams at multiple startups scaling to $20M+ ARR. You can find him hiking, water skiing, or practicing taekwondo.",
+    linkedin: "https://www.linkedin.com/in/taigagamell-gildre/",
+    photo: "/team/taiga-gamell.jpg",
+    color: "#3BC97B",
+  },
+  {
+    name: "Dan Hernandez",
+    role: "Chapter Lead, Gildre Chicago",
+    bio: "Dan is a Chicago-based founder and operator who brings deep roots in the city's startup ecosystem. He has built and scaled companies across B2B and consumer markets and is passionate about creating the kind of high-trust founder community in Chicago that he wished had existed earlier in his career.",
+    linkedin: "https://www.linkedin.com/",
+    photo: "/reviews/dan-hernandez.jpg",
+    color: "#C97B3B",
+  },
 ];
 
 export default function ChicagoPage() {
@@ -227,8 +245,7 @@ export default function ChicagoPage() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>Chicago&rsquo;s</span> Fintech,
-            Enterprise &amp; Deep-Tech Builders.
+            <span style={{ color: "#C9A96E" }}>Chicago&rsquo;s</span> Most Active Builders.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
@@ -237,7 +254,7 @@ export default function ChicagoPage() {
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://gildre.circle.so/checkout/gildre-silver-membership"
+              href="https://tally.so/r/VLERVa"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
@@ -253,10 +270,17 @@ export default function ChicagoPage() {
               Explore Chicago Gatherings
             </Link>
           </div>
-          {/* Trust signal */}
-          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
-            Seed · Series A · Operator-led · High-signal only
-          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {["Pre-Seed — Series A", "Executive Operators", "Active Builders"].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
+                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -341,7 +365,7 @@ export default function ChicagoPage() {
             className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            The founders you&rsquo;ve been<br />trying to get in the room with.
+            The curated founder room designed to<br />unblock your growth.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
             Gildre members are hand-selected founders, operators, and builders who are active,
@@ -402,19 +426,28 @@ export default function ChicagoPage() {
                 style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}
               >
                 <div className="relative mx-auto h-16 w-16 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
-                  <Image
-                    src={p.photo}
-                    alt={p.name}
-                    fill
-                    sizes="64px"
-                    className="object-cover object-top"
-                  />
+                  {p.photo ? (
+                    <Image
+                      src={p.photo}
+                      alt={p.name}
+                      fill
+                      sizes="64px"
+                      className="object-cover object-top"
+                    />
+                  ) : (
+                    <div
+                      className="flex h-full w-full items-center justify-center text-lg font-bold text-white"
+                      style={{ backgroundColor: p.color }}
+                    >
+                      {p.initials}
+                    </div>
+                  )}
                 </div>
                 <p className="mt-3 text-sm font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
                   {p.name}
                 </p>
                 <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                  {p.company}
+                  {p.title}
                 </p>
               </div>
             ))}
@@ -442,7 +475,7 @@ export default function ChicagoPage() {
               />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>West Loop · Chicago</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>Wicker Park, Chicago</p>
               </div>
             </div>
 
@@ -466,16 +499,16 @@ export default function ChicagoPage() {
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   {
-                    title: "Monthly Founder Dinners",
-                    detail: "Private seated dinners in West Loop and Fulton Market. 12–20 founders per table. No pitches, no panels — just high-density peer conversation.",
+                    title: "Monthly Founder Meet-Ups",
+                    detail: "Casual, low-pressure meet-ups — coffee chats, founder walks, and drop-in sessions across the city. The best relationships start with showing up before you need anything.",
                   },
                   {
-                    title: "Peer Operator Roundtables",
-                    detail: "Quarterly deep-dives on scaling challenges — product-market fit, hiring, pricing, fundraising — facilitated by operators who have crossed the same threshold.",
+                    title: "Curated Dinners",
+                    detail: "Private seated dinners across the city. 10–12 founders per table. No pitches, no panels — just high-density peer conversation.",
                   },
                   {
-                    title: "Investor Office Hours",
-                    detail: "Direct access sessions with active Chicago-area VCs and angels who are deploying into the verticals you are building in.",
+                    title: "Partner Events Across the Local Ecosystem",
+                    detail: "Our members are on the boards and lead other organizations including 1 Million Cups, FuckUp Nights Chicago, and others that bring the most engaged founders across the city. We collaborate with them to expand the network effect and meet other world-class builders.",
                   },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
@@ -559,7 +592,7 @@ export default function ChicagoPage() {
               className="mt-3 text-[1.5rem] font-bold leading-snug text-white sm:text-[1.9rem]"
               style={{ fontFamily: "var(--font-fraunces)" }}
             >
-              Built for Seed-to-Series A founders, deep-tech operators, and high-growth builders in Chicago.
+              Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in Chicago.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
               Gildre Chicago is selective by design. We review every application to ensure the
@@ -569,9 +602,9 @@ export default function ChicagoPage() {
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {[
-                "Seed to Series A stage",
-                "Tech-enabled business",
-                "Active builder — not ideating",
+                "Pre-Seed to Series A",
+                "Executive Operators",
+                "Active Builders",
               ].map((crit) => (
                 <div
                   key={crit}
@@ -585,7 +618,7 @@ export default function ChicagoPage() {
             </div>
             <div className="mt-8">
               <a
-                href="https://gildre.circle.so/checkout/gildre-silver-membership"
+                href="https://tally.so/r/VLERVa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
@@ -594,6 +627,69 @@ export default function ChicagoPage() {
                 Apply for Membership →
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Meet the Chapter Leads ───────────────────────────────────── */}
+      <section className="px-6 py-24" style={{ backgroundColor: "#0f1524", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
+        <div className="mx-auto max-w-5xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
+            Chapter Leads
+          </p>
+          <h2
+            className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            Meet the team behind Gildre Chicago.
+          </h2>
+          <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2">
+            {chapterLeads.map((lead) => (
+              <div
+                key={lead.name}
+                className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6"
+                style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}
+              >
+                <div className="relative mx-auto sm:mx-0 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
+                  {lead.photo ? (
+                    <Image
+                      src={lead.photo}
+                      alt={lead.name}
+                      fill
+                      sizes="80px"
+                      className="object-cover object-top"
+                    />
+                  ) : (
+                    <div
+                      className="flex h-full w-full items-center justify-center text-xl font-bold text-white"
+                      style={{ backgroundColor: lead.color }}
+                    >
+                      {lead.name.split(" ").map((n: string) => n[0]).join("")}
+                    </div>
+                  )}
+                </div>
+                <div className="flex flex-col justify-center text-center sm:text-left">
+                  <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                    {lead.name}
+                  </p>
+                  <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>
+                    {lead.role}
+                  </p>
+                  <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
+                    {lead.bio}
+                  </p>
+                  <a
+                    href={lead.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start"
+                    style={{ color: "#C9A96E" }}
+                  >
+                    LinkedIn →
+                  </a>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -659,7 +755,7 @@ export default function ChicagoPage() {
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://gildre.circle.so/checkout/gildre-silver-membership"
+              href="https://tally.so/r/VLERVa"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90"
@@ -667,13 +763,15 @@ export default function ChicagoPage() {
             >
               Apply for Membership →
             </a>
-            <Link
-              href="/contact"
+            <a
+              href="https://calendly.com/taiga-gildre/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80"
               style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}
             >
               Talk to Us
-            </Link>
+            </a>
           </div>
         </div>
       </section>
