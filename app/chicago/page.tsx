@@ -1,45 +1,27 @@
-import LocationPageTemplate, { LocationData } from "../components/LocationPageTemplate";
-
-const data: LocationData = {
-  name: "Chicago",
-  slug: "chicago",
-  state: "IL",
-  zip: "60601",
-  lat: 41.8781,
-  lng: -87.6298,
-  tagline: "The Midwest's Most Underrated Startup Hub",
-  hook: "The Second City builds first-rate companies. And Gildre is here for it.",
-  intro: "Chicago is quietly one of the most founder-dense cities in the country, with deep strengths in fintech, enterprise SaaS, and logistics tech. Gildre connects Chicago founders with the community, capital access, and mentors to go from regional to national.",
-  scene: "From River North to the West Loop, Chicago's founder community is tight-knit, execution-focused, and tired of being overlooked. The talent is here, the capital is growing, and the next breakout companies from Chicago are being built right now.",
-  neighborhood: "River North",
-  benefits: [
-    {
-      icon: "🏙️",
-      title: "Fintech & Enterprise SaaS Peers",
-      body: "Chicago's fintech and B2B ecosystem is thriving. Get matched weekly with founders building in your space who understand Chicago's unique strengths in financial services and enterprise software.",
-    },
-    {
-      icon: "🌎",
-      title: "Go National from the Midwest",
-      body: "Chicago companies often underestimate their national potential. Gildre connects you with mentors and operators who've scaled Chicago businesses beyond the Midwest.",
-    },
-    {
-      icon: "🤝",
-      title: "A Tight-Knit, High-Trust Network",
-      body: "Chicago's founder community is smaller and more collaborative than coastal cities. Gildre amplifies that dynamic with structured intros and curated events you can't get anywhere else.",
-    },
-  ],
-};
+import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/chicago" },
-  title: "Founder Community in Chicago | Gildre",
+  title: "Founder Community Chicago | Gildre",
   description:
-    "Gildre connects Chicago founders with curated peer matches, mentorship, and investor access. Built for Chicago's fintech, enterprise, and logistics startup ecosystem.",
-  keywords: ["Chicago founder community", "Chicago startup network", "Chicago entrepreneurs", "Gildre Chicago", "fintech founders Chicago"],
+    "Gildre connects Chicago's top founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners in West Loop and Fulton Market. Built for fintech, enterprise SaaS, logistics, and deep-tech builders.",
+  keywords: [
+    "Chicago founder community",
+    "Chicago startup network",
+    "Chicago entrepreneurs",
+    "Gildre Chicago",
+    "fintech founders Chicago",
+    "enterprise SaaS Chicago",
+    "Chicago startup dinners",
+    "founder peer groups Chicago",
+    "Chicago tech founders",
+    "West Loop startup community",
+  ],
   openGraph: {
-    title: "Founder Community in Chicago | Gildre",
-    description: "Curated peer matches, mentorship, and investor access for Chicago founders in fintech, enterprise, and logistics.",
+    title: "Founder Community Chicago | Gildre",
+    description:
+      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Chicago's fintech, enterprise SaaS, and deep-tech builders.",
     url: "https://www.gildre.com/chicago",
     siteName: "Gildre",
     type: "website",
@@ -47,11 +29,671 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Founder Community in Chicago | Gildre",
-    description: "Curated peer matches, mentorship, and investor access for Chicago founders in fintech, enterprise, and logistics.",
+    title: "Founder Community Chicago | Gildre",
+    description:
+      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Chicago's fintech, enterprise SaaS, and deep-tech builders.",
   },
 };
 
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "ProfessionalService"],
+      name: "Gildre — Chicago",
+      url: "https://www.gildre.com/chicago",
+      logo: "https://www.gildre.com/images/gildre-logo.png",
+      image: "https://www.gildre.com/og-home.png",
+      description:
+        "Gildre is a private founder membership community in Chicago, IL. Gildre Chicago hosts monthly founder dinners in West Loop and Fulton Market for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
+      email: "info@gildre.com",
+      telephone: "+1-847-881-6319",
+      priceRange: "$$",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Chicago",
+        addressRegion: "IL",
+        postalCode: "60601",
+        addressCountry: "US",
+      },
+      geo: { "@type": "GeoCoordinates", latitude: 41.8781, longitude: -87.6298 },
+      areaServed: [{ "@type": "City", name: "Chicago" }, { "@type": "Country", name: "United States" }],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Fintech", "Enterprise SaaS"],
+      sameAs: [
+        "https://www.gildre.com",
+        "https://www.instagram.com/gildreforfounders",
+        "https://www.linkedin.com/company/gildre/",
+        "https://www.youtube.com/@GildreforFounders",
+        "https://x.com/Gildre_",
+      ],
+      parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How are 1:1 founder introductions curated in Chicago?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Every week, Gildre's team actively reviews your profile, stage, and goals to match you with a specific Chicago founder or operator who is solving a complementary problem or has relevant experience. These are warm, intentional intros — not algorithm-generated requests you have to cold-follow up on.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where are Chicago founder dinners and events held?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Gildre Chicago hosts monthly founder dinners in West Loop and Fulton Market — Chicago's most active tech and dining corridors. Peer roundtables and investor office hours rotate across River North and the downtown Loop depending on the format and partner venue.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What types of founders join Gildre Chicago?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Gildre Chicago is built for seed-to-Series A founders and high-growth operators primarily in fintech, enterprise SaaS, logistics tech, and restaurant or hospitality technology. Members typically have product-market traction and are actively scaling — not just ideating.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How is Gildre different from 1871 or other Chicago startup communities?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Gildre is a curated private membership — not an open coworking hub or events calendar. You are selected, matched, and actively facilitated. Every introduction, dinner, and roundtable is built around you specifically, not general networking. 1871 is a great physical space; Gildre is the high-signal peer layer on top of it.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I attend a Chicago event before becoming a member?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Occasionally Gildre opens select Chicago events to prospective members by invitation. The best path is to apply and mention your interest in Chicago events — we often prioritize local applicants for preview dinners so you can experience the community firsthand before committing.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
+const verticals = [
+  {
+    label: "Fintech & Trading Tech",
+    description:
+      "Chicago owns global derivatives trading. If you are building in payments, trading infrastructure, credit, or financial data — you are in the right city. Get matched with operators who have built in the shadow of CME and Morningstar.",
+    tags: ["Payments", "Credit Tech", "Trading Infrastructure", "Financial Data"],
+  },
+  {
+    label: "Enterprise SaaS & B2B",
+    description:
+      "Chicago's enterprise sales culture is second to none. Founders building vertical SaaS, CRM tooling, or B2B platforms find a dense network of enterprise buyers and operators here who have closed seven-figure contracts.",
+    tags: ["Vertical SaaS", "CRM & RevOps", "B2B Platforms", "Enterprise Sales"],
+  },
+  {
+    label: "Logistics & Supply Chain",
+    description:
+      "O'Hare, the rail hub, and the Great Lakes make Chicago a logistics nerve center. Founders building in supply chain visibility, last-mile, or freight tech are matching with operators and investors who have scaled in this exact space.",
+    tags: ["Supply Chain", "Freight Tech", "Last-Mile", "Warehouse Automation"],
+  },
+  {
+    label: "Restaurant & Hospitality Tech",
+    description:
+      "From Michelin-starred dining to the world's most competitive restaurant market, Chicago is the proving ground for hospitality technology. Founders building in reservations, discovery, loyalty, or back-of-house software find real test beds here.",
+    tags: ["Restaurant Discovery", "Hospitality SaaS", "Loyalty Tech", "Back-of-House"],
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "Being in Gildre feels like having founder co-workers that actually get it. They've saved me hours of research just by sharing what's worked for them.",
+    name: "Caitlin Van Berkel",
+    title: "Founder",
+    company: "Silver Lining Career Coach",
+    photo: "/reviews/caitlin-van-berkel.webp",
+  },
+  {
+    quote:
+      "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    name: "Christof Mannfeld",
+    title: "Founder",
+    company: "Solvee",
+    photo: "/reviews/christof-mannfeld.webp",
+  },
+  {
+    quote:
+      "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that — a community where I can both give and gain exceptional value.",
+    name: "Elise Madrick",
+    title: "Founder",
+    company: "Cerené",
+    photo: "/reviews/elise-madrick.webp",
+  },
+];
+
+const faqItems = [
+  {
+    q: "How are 1:1 founder introductions curated in Chicago?",
+    a: "Every week, Gildre's team actively reviews your profile, stage, and goals to match you with a specific Chicago founder or operator who is solving a complementary problem or has directly relevant experience. These are warm, intentional introductions — not algorithm-generated requests you have to cold-follow up on.",
+  },
+  {
+    q: "Where are Chicago founder dinners and events held?",
+    a: "Gildre Chicago hosts monthly founder dinners in West Loop and Fulton Market — Chicago's most active tech and dining corridors. Peer roundtables and investor office hours rotate across River North and the downtown Loop depending on the format and partner venue.",
+  },
+  {
+    q: "What types of founders join Gildre Chicago?",
+    a: "Gildre Chicago is built for seed-to-Series A founders and high-growth operators primarily in fintech, enterprise SaaS, logistics tech, and restaurant or hospitality technology. Members typically have product-market traction and are actively scaling — not just ideating.",
+  },
+  {
+    q: "How is Gildre different from 1871 or other Chicago startup communities?",
+    a: "Gildre is a curated private membership — not an open coworking hub or events calendar. Every introduction, dinner, and roundtable is built around you specifically. 1871 is a great physical space; Gildre is the high-signal peer layer that operates inside and beyond it.",
+  },
+  {
+    q: "Can I attend a Chicago event before becoming a member?",
+    a: "Occasionally Gildre opens select Chicago events to prospective members by invitation. The best path is to apply and mention your interest in a Chicago preview dinner — we regularly prioritize local applicants so you can experience the community firsthand before committing.",
+  },
+];
+
+const peers = [
+  { name: "Cody Graham", title: "COO & Head of Product", company: "SoGo", photo: "/images/cody-graham-headshot.jpeg" },
+  { name: "Alex Jekowski", title: "Founder & CEO", company: "Cents", photo: "/images/alex-jekowski-headshot.webp" },
+  { name: "Chris Riklin", title: "Founder", company: "Topline", photo: "/images/chris-riklin-headshot.webp" },
+  { name: "Russell Breuer", title: "Founder", company: "Spot & Tango", photo: "/images/russell-breuer-headshot.png" },
+];
+
 export default function ChicagoPage() {
-  return <LocationPageTemplate data={data} />;
+  return (
+    <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+
+      {/* ── Hero ─────────────────────────────────────────────────────── */}
+      <section
+        className="relative overflow-hidden px-6 pb-28 pt-36"
+        style={{ background: "linear-gradient(155deg, #080e1a 0%, #1C2744 50%, #0a1020 100%)" }}
+      >
+        {/* Glow */}
+        <div
+          className="pointer-events-none absolute left-1/2 top-0 h-[560px] w-[900px] -translate-x-1/2 -translate-y-1/3 rounded-full opacity-10"
+          style={{ background: "radial-gradient(ellipse, #C9A96E 0%, transparent 65%)" }}
+        />
+        <div className="relative mx-auto max-w-3xl text-center">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
+            Gildre · Chicago, IL
+          </p>
+          <h1
+            className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            The Curated Growth Network for{" "}
+            <span style={{ color: "#C9A96E" }}>Chicago&rsquo;s</span> Fintech,
+            Enterprise &amp; Deep-Tech Builders.
+          </h1>
+          <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
+            Replace surface-level networking with active 1:1 matchmaking, expert operator
+            mentorship, and high-impact peer roundtables — built for Chicago&rsquo;s most
+            focused founders, from West Loop to River North.
+          </p>
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <a
+              href="https://gildre.circle.so/checkout/gildre-silver-membership"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+            >
+              Apply for Membership →
+            </a>
+            <Link
+              href="/membership"
+              className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80"
+              style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}
+            >
+              Explore Chicago Gatherings
+            </Link>
+          </div>
+          {/* Trust signal */}
+          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
+            Seed · Series A · Operator-led · High-signal only
+          </p>
+        </div>
+      </section>
+
+      {/* ── Stats Bar ────────────────────────────────────────────────── */}
+      <section
+        className="px-6 py-10"
+        style={{ backgroundColor: "#080e1a", borderBottom: "1px solid rgba(255,255,255,0.05)" }}
+      >
+        <div className="mx-auto max-w-4xl grid grid-cols-2 gap-6 sm:grid-cols-4">
+          {[
+            { value: "250+", label: "Active Members" },
+            { value: "$2.4B+", label: "Member Valuations" },
+            { value: "Weekly", label: "Curated Intros" },
+            { value: "15+", label: "Cities Represented" },
+          ].map((s) => (
+            <div key={s.label} className="text-center">
+              <p className="text-3xl font-bold" style={{ fontFamily: "var(--font-fraunces)", color: "#C9A96E" }}>
+                {s.value}
+              </p>
+              <p className="mt-1 text-xs uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.4)" }}>
+                {s.label}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Chicago Ecosystem Verticals ──────────────────────────────── */}
+      <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
+        <div className="mx-auto max-w-5xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
+            Built for Chicago&rsquo;s Core Verticals
+          </p>
+          <h2
+            className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            Deep expertise in the industries<br />Chicago owns.
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
+            Gildre matches you with peers and operators who have already navigated the exact
+            terrain you&rsquo;re crossing — in your vertical, at your stage.
+          </p>
+
+          <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
+            {verticals.map((v) => (
+              <div
+                key={v.label}
+                className="rounded-2xl p-7"
+                style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}
+              >
+                <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                  {v.label}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
+                  {v.description}
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {v.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider"
+                      style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Member Spotlight ─────────────────────────────────────────── */}
+      <section className="px-6 py-24" style={{ backgroundColor: "#080e1a" }}>
+        <div className="mx-auto max-w-5xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
+            Your Future Peers
+          </p>
+          <h2
+            className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            The founders you&rsquo;ve been<br />trying to get in the room with.
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
+            Gildre members are hand-selected founders, operators, and builders who are active,
+            giving, and at your level. Not LinkedIn connections. Actual peers.
+          </p>
+
+          {/* Featured Chicago member */}
+          <div
+            className="mt-12 rounded-2xl overflow-hidden"
+            style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(255,255,255,0.02)" }}
+          >
+            <div className="flex flex-col sm:flex-row">
+              <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
+                <Image
+                  src="/images/cody-graham-headshot.jpeg"
+                  alt="Cody Graham, COO and Head of Product at SoGo — Chicago Gildre member"
+                  fill
+                  sizes="(max-width: 640px) 100vw, 192px"
+                  className="object-cover object-top"
+                />
+              </div>
+              <div className="flex flex-col justify-center p-8">
+                <span
+                  className="mb-3 inline-block rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
+                  style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}
+                >
+                  Chicago Member Spotlight
+                </span>
+                <h3 className="text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                  Cody Graham
+                </h3>
+                <p className="mt-1 text-sm font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>
+                  COO &amp; Head of Product · SoGo
+                </p>
+                <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
+                  Cody is building SoGo — a personalized restaurant curation app that learns who
+                  you are, not just what&rsquo;s nearby. He brought SoGo from concept to product in
+                  Chicago&rsquo;s hyper-competitive restaurant market, and is one of the most
+                  thoughtful product operators in the Gildre community.
+                </p>
+                <Link
+                  href="/blog/cody-graham-sogo-restaurant-app-chicago"
+                  className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70"
+                  style={{ color: "#C9A96E" }}
+                >
+                  Read his story →
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Peer grid */}
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {peers.map((p) => (
+              <div
+                key={p.name}
+                className="rounded-2xl p-5 text-center"
+                style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}
+              >
+                <div className="relative mx-auto h-16 w-16 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
+                  <Image
+                    src={p.photo}
+                    alt={p.name}
+                    fill
+                    sizes="64px"
+                    className="object-cover object-top"
+                  />
+                </div>
+                <p className="mt-3 text-sm font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+                  {p.name}
+                </p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
+                  {p.company}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Events & Programs ────────────────────────────────────────── */}
+      <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
+        <div className="mx-auto max-w-5xl">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
+            {/* Photo */}
+            <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
+              <Image
+                src="/images/community/dinner.webp"
+                alt="Gildre Chicago founder dinner — monthly gatherings for Chicago's top tech founders"
+                fill
+                sizes="(max-width: 1024px) calc(100vw - 48px), 480px"
+                className="object-cover"
+                style={{ objectPosition: "center center" }}
+              />
+              <div
+                className="absolute inset-0"
+                style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }}
+              />
+              <div className="absolute bottom-5 left-5">
+                <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>West Loop · Chicago</p>
+              </div>
+            </div>
+
+            {/* Events content */}
+            <div>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
+                In-Person Events · Chicago, IL
+              </p>
+              <h2
+                className="mt-3 text-[1.75rem] font-bold leading-tight text-white sm:text-[2.1rem]"
+                style={{ fontFamily: "var(--font-fraunces)" }}
+              >
+                Real rooms. Real conversations. Active facilitation.
+              </h2>
+              <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
+                Gildre Chicago hosts curated in-person programming every month — not open
+                mixers, but small, intentional gatherings where every attendee is selected and
+                every conversation has a point.
+              </p>
+
+              <ul className="mt-7 flex flex-col gap-5">
+                {[
+                  {
+                    title: "Monthly Founder Dinners",
+                    detail: "Private seated dinners in West Loop and Fulton Market. 12–20 founders per table. No pitches, no panels — just high-density peer conversation.",
+                  },
+                  {
+                    title: "Peer Operator Roundtables",
+                    detail: "Quarterly deep-dives on scaling challenges — product-market fit, hiring, pricing, fundraising — facilitated by operators who have crossed the same threshold.",
+                  },
+                  {
+                    title: "Investor Office Hours",
+                    detail: "Direct access sessions with active Chicago-area VCs and angels who are deploying into the verticals you are building in.",
+                  },
+                ].map((ev) => (
+                  <li key={ev.title} className="flex items-start gap-4">
+                    <span
+                      className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold"
+                      style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}
+                    >
+                      ✓
+                    </span>
+                    <div>
+                      <p className="text-sm font-bold text-white">{ev.title}</p>
+                      <p className="mt-0.5 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
+                        {ev.detail}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Testimonials ─────────────────────────────────────────────── */}
+      <section className="px-6 py-24" style={{ backgroundColor: "#080e1a" }}>
+        <div className="mx-auto max-w-5xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
+            From Gildre Members
+          </p>
+          <h2
+            className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            What building inside Gildre<br />actually feels like.
+          </h2>
+
+          <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-3">
+            {testimonials.map((t) => (
+              <div
+                key={t.name}
+                className="rounded-2xl p-7 flex flex-col"
+                style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}
+              >
+                <div
+                  className="text-4xl mb-5 flex-shrink-0"
+                  style={{ color: "rgba(201,169,110,0.4)", fontFamily: "Georgia, serif", lineHeight: 1 }}
+                >
+                  &ldquo;
+                </div>
+                <p className="text-sm leading-relaxed flex-1" style={{ color: "rgba(255,255,255,0.65)" }}>
+                  {t.quote}
+                </p>
+                <div className="mt-7 flex items-center gap-3 border-t pt-5" style={{ borderColor: "rgba(255,255,255,0.06)" }}>
+                  <div className="relative h-10 w-10 flex-shrink-0 overflow-hidden rounded-full">
+                    <Image src={t.photo} alt={t.name} fill sizes="40px" className="object-cover" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-bold text-white">{t.name}</p>
+                    <p className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
+                      {t.title} · {t.company}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Qualification / Who This Is For ──────────────────────────── */}
+      <section className="px-6 py-20" style={{ backgroundColor: "#0f1524", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
+        <div className="mx-auto max-w-4xl">
+          <div
+            className="rounded-2xl px-8 py-10 sm:px-12"
+            style={{ backgroundColor: "rgba(201,169,110,0.05)", border: "1px solid rgba(201,169,110,0.18)" }}
+          >
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
+              Selection Criteria
+            </p>
+            <h2
+              className="mt-3 text-[1.5rem] font-bold leading-snug text-white sm:text-[1.9rem]"
+              style={{ fontFamily: "var(--font-fraunces)" }}
+            >
+              Built for Seed-to-Series A founders, deep-tech operators, and high-growth builders in Chicago.
+            </h2>
+            <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
+              Gildre Chicago is selective by design. We review every application to ensure the
+              community stays high-signal. You are a good fit if you are actively building a
+              tech-enabled company, have initial traction or prior founder experience, and are
+              serious about peer-to-peer growth — not just collecting contacts.
+            </p>
+            <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
+              {[
+                "Seed to Series A stage",
+                "Tech-enabled business",
+                "Active builder — not ideating",
+              ].map((crit) => (
+                <div
+                  key={crit}
+                  className="flex items-center gap-2 rounded-xl px-4 py-3"
+                  style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}
+                >
+                  <span style={{ color: "#C9A96E" }}>✓</span>
+                  <span className="text-sm font-medium text-white">{crit}</span>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8">
+              <a
+                href="https://gildre.circle.so/checkout/gildre-silver-membership"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
+                style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+              >
+                Apply for Membership →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Chicago FAQ ──────────────────────────────────────────────── */}
+      <section className="px-6 py-20" style={{ backgroundColor: "#080e1a" }}>
+        <div className="mx-auto max-w-3xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
+            Chicago FAQ
+          </p>
+          <h2
+            className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2rem]"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            Questions about Gildre Chicago.
+          </h2>
+
+          <div className="mt-10 flex flex-col gap-3">
+            {faqItems.map((item) => (
+              <details
+                key={item.q}
+                className="group rounded-2xl"
+                style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}
+              >
+                <summary
+                  className="flex cursor-pointer items-center justify-between gap-4 px-6 py-5 text-sm font-semibold text-white list-none"
+                  style={{ fontFamily: "var(--font-fraunces)" }}
+                >
+                  {item.q}
+                  <span
+                    className="flex-shrink-0 text-lg font-light transition-transform group-open:rotate-45"
+                    style={{ color: "#C9A96E" }}
+                  >
+                    +
+                  </span>
+                </summary>
+                <div className="px-6 pb-5 pt-0">
+                  <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
+                    {item.a}
+                  </p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Final CTA ────────────────────────────────────────────────── */}
+      <section className="px-6 py-28 text-center" style={{ backgroundColor: "#1C2744" }}>
+        <div className="mx-auto max-w-2xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
+            Chicago, IL
+          </p>
+          <h2
+            className="mt-4 text-[2rem] font-bold leading-tight text-white sm:text-[2.75rem]"
+            style={{ fontFamily: "var(--font-fraunces)" }}
+          >
+            Your next breakthrough starts with the right room.
+          </h2>
+          <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
+            Apply today and get actively matched with Chicago founders who are building at your
+            level — with 1:1 introductions starting in your first week.
+          </p>
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <a
+              href="https://gildre.circle.so/checkout/gildre-silver-membership"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
+            >
+              Apply for Membership →
+            </a>
+            <Link
+              href="/contact"
+              className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80"
+              style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}
+            >
+              Talk to Us
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Footer ───────────────────────────────────────────────────── */}
+      <div
+        className="px-6 py-8 text-center text-[0.7rem] text-zinc-600"
+        style={{ backgroundColor: "#080e1a", borderTop: "1px solid rgba(255,255,255,0.05)" }}
+      >
+        <p>
+          &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+            Privacy Policy
+          </a>
+          {" · "}
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+            Back to Gildre.com
+          </a>
+        </p>
+      </div>
+    </div>
+  );
 }
