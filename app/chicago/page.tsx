@@ -201,12 +201,12 @@ const peers = [
 
 const chapterLeads = [
   {
-    name: "Taiga Gamell",
+    name: "Brian Lee",
     role: "Co-Founder & Managing Partner, Gildre",
-    bio: "Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then co-founded and raised funding for a sustainability startup called Kudos. As a GTM and revenue leader, he has led sales teams at multiple startups scaling to $20M+ ARR. You can find him hiking, water skiing, or practicing taekwondo.",
-    linkedin: "https://www.linkedin.com/in/taigagamell-gildre/",
-    photo: "/team/taiga-gamell.jpg",
-    color: "#3BC97B",
+    bio: "Brian is a 2X exited entrepreneur who has spent the past decade working with bootstrapped and venture-backed companies. He launched his first company in 2015 and has since co-founded multiple 7-figure ARR startups. His most recent role was Head of Product at a global accelerator working with hundreds of Series A-Pre Seed founders across high-growth industries. He currently sits on two advisory boards and mentors for organizations like Founders Institute, Techstars and Watson Institute where he serves as their Entrepreneur-in-Residence.",
+    linkedin: "https://www.linkedin.com/in/brianconnorlee-gildre/",
+    photo: "/team/brian-lee.png",
+    color: "#3B6CC9",
   },
   {
     name: "Dan Hernandez",
@@ -764,7 +764,7 @@ export default function ChicagoPage() {
               Apply for Membership →
             </a>
             <a
-              href="https://calendly.com/taiga-gildre/30min"
+              href="https://calendly.com/briangildre/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80"
