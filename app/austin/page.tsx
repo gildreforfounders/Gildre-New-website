@@ -392,22 +392,37 @@ export default function AustinPage() {
           <h2 className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
             Meet the team behind Gildre Austin.
           </h2>
-          <div className="mt-12 flex justify-center">
-            <div className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6 max-w-xl w-full" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
-              <div className="relative mx-auto sm:mx-0 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
-                <Image src="/team/taiga-gamell.jpg" alt="Taiga Gamell" fill sizes="80px" className="object-cover object-top" />
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            {[
+              {
+                name: "Ola George",
+                title: "Chapter Lead · Gildre Austin",
+                bio: "Ola is a founder and community builder rooted in Austin's fast-growing tech scene. She is dedicated to building the connective tissue that turns a city full of ambitious builders into a true peer network.",
+                photo: "/team/ola-george.webp",
+                linkedin: "#",
+              },
+              {
+                name: "Diana Muturia",
+                title: "Chapter Lead · Gildre Austin",
+                bio: "Diana is an entrepreneur and connector in Austin's startup community. She brings energy and intentionality to every room she builds — focused on the high-quality introductions and honest conversations that move founders forward.",
+                photo: "/team/diana-muturia.webp",
+                linkedin: "#",
+              },
+            ].map((lead) => (
+              <div key={lead.name} className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
+                <div className="relative mx-auto sm:mx-0 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
+                  <Image src={lead.photo} alt={lead.name} fill sizes="80px" className="object-cover object-top" />
+                </div>
+                <div className="flex flex-col justify-center text-center sm:text-left">
+                  <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{lead.name}</p>
+                  <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>{lead.title}</p>
+                  <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>{lead.bio}</p>
+                  <a href={lead.linkedin} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start" style={{ color: "#C9A96E" }}>
+                    LinkedIn →
+                  </a>
+                </div>
               </div>
-              <div className="flex flex-col justify-center text-center sm:text-left">
-                <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Taiga Gamell</p>
-                <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>Co-Founder &amp; Managing Partner, Gildre</p>
-                <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-                  Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then co-founded and raised funding for a sustainability startup called Kudos. As a GTM and revenue leader, he has led sales teams at multiple startups scaling to $20M+ ARR. You can find him hiking, water skiing, or practicing taekwondo.
-                </p>
-                <a href="https://www.linkedin.com/in/taigagamell-gildre/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start" style={{ color: "#C9A96E" }}>
-                  LinkedIn →
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
