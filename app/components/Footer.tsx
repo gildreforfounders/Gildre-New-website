@@ -94,12 +94,12 @@ export default function Footer() {
           <div>
             <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Cities</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/boston" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Boston</a></li>
-              <li><a href="/nyc" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">New York City</a></li>
-              <li><a href="/bayarea" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Bay Area</a></li>
-              <li><a href="/chicago" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Chicago</a></li>
               <li><a href="/austin" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Austin</a></li>
+              <li><a href="/bayarea" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Bay Area</a></li>
+              <li><a href="/boston" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Boston</a></li>
+              <li><a href="/chicago" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Chicago</a></li>
               <li><a href="/la" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Los Angeles</a></li>
+              <li><a href="/nyc" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">New York City</a></li>
               <li><a href="/seattle" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Seattle</a></li>
             </ul>
           </div>

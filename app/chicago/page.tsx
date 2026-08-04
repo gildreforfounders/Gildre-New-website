@@ -84,15 +84,15 @@ const schema = {
           name: "Where are Chicago founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Chicago hosts monthly founder dinners in West Loop and Fulton Market — Chicago's most active tech and dining corridors. Peer roundtables and investor office hours rotate across River North and the downtown Loop depending on the format and partner venue.",
+            text: "We host monthly founder dinners and curated events all throughout the city from the West Loop to Wicker Park, Lincoln Park, Pilsen, Lakeview, and more.",
           },
         },
         {
           "@type": "Question",
-          name: "What types of founders join Gildre Chicago?",
+          name: "What types of founders join Gildre's Chicago Chapter?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Chicago is built for seed-to-Series A founders and high-growth operators primarily in fintech, enterprise SaaS, logistics tech, and restaurant or hospitality technology. Members typically have product-market traction and are actively scaling — not just ideating.",
+            text: "Gildre Chicago welcomes founders across all industries — from consumer tech and creator economy to healthcare, logistics, and B2B software. The community is defined less by vertical and more by mindset: you are actively building, serious about peer accountability, and ready to give as much as you get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -177,11 +177,11 @@ const faqItems = [
   },
   {
     q: "Where are Chicago founder dinners and events held?",
-    a: "Gildre Chicago hosts monthly founder dinners in West Loop and Fulton Market — Chicago's most active tech and dining corridors. Peer roundtables and investor office hours rotate across River North and the downtown Loop depending on the format and partner venue.",
+    a: "We host monthly founder dinners and curated events all throughout the city from the West Loop to Wicker Park, Lincoln Park, Pilsen, Lakeview, and more.",
   },
   {
-    q: "What types of founders join Gildre Chicago?",
-    a: "Gildre Chicago is built for seed-to-Series A founders and high-growth operators primarily in fintech, enterprise SaaS, logistics tech, and restaurant or hospitality technology. Members typically have product-market traction and are actively scaling — not just ideating.",
+    q: "What types of founders join Gildre's Chicago Chapter?",
+    a: "Gildre Chicago welcomes founders across all industries — from consumer tech and creator economy to healthcare, logistics, and B2B software. The community is defined less by vertical and more by mindset: you are actively building, serious about peer accountability, and ready to give as much as you get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How is Gildre different from 1871 or other Chicago startup communities?",
@@ -211,7 +211,7 @@ const chapterLeads = [
   {
     name: "Dan Hernandez",
     role: "Chapter Lead, Gildre Chicago",
-    bio: "Dan is a Chicago-based founder and operator who brings deep roots in the city's startup ecosystem. He has built and scaled companies across B2B and consumer markets and is passionate about creating the kind of high-trust founder community in Chicago that he wished had existed earlier in his career.",
+    bio: "Dan is a Chicago-based founder and operator with over a decade of experience building companies across B2B software and consumer markets. He launched his first venture inside Chicago's competitive tech ecosystem and has since been involved in scaling multiple startups from early traction through growth stage. Known for his deep ties to the city's founder community, Dan has served as an advisor and mentor to early-stage teams across the Midwest. He is passionate about creating the kind of high-trust, high-accountability peer environment in Chicago that he wished had existed earlier in his own career — and brings that same intentionality to every Gildre gathering.",
     linkedin: "https://www.linkedin.com/",
     photo: "/reviews/dan-hernandez.jpg",
     color: "#C97B3B",
@@ -474,7 +474,7 @@ export default function ChicagoPage() {
                 style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }}
               />
               <div className="absolute bottom-5 left-5">
-                <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-white">Curated Dinners</p>
                 <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>Wicker Park, Chicago</p>
               </div>
             </div>
@@ -641,7 +641,7 @@ export default function ChicagoPage() {
             className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            Meet the team behind Gildre Chicago.
+            Meet the team leading Gildre&rsquo;s Chicago Chapter.
           </h2>
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2">
             {chapterLeads.map((lead) => (
