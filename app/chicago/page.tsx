@@ -197,6 +197,7 @@ const peers = [
   { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Chicago Ecosystem", photo: null, initials: "JJ", color: "#3B6CC9" },
   { name: "Brittany Canty", title: "Founder", company: "Chicago", photo: null, initials: "BC", color: "#C97B3B" },
   { name: "Ivan Rahman", title: "Founder", company: "Chicago", photo: null, initials: "IR", color: "#3BC97B" },
+  { name: "Lauren Basler", title: "Founder", company: "Conscious Ascent", photo: null, initials: "LB", color: "#7B3BC9" },
 ];
 
 const chapterLeads = [
@@ -210,9 +211,9 @@ const chapterLeads = [
   },
   {
     name: "Dan Hernandez",
-    role: "Chapter Lead, Gildre Chicago",
-    bio: "Dan is a Chicago-based founder and operator with over a decade of experience building companies across B2B software and consumer markets. He launched his first venture inside Chicago's competitive tech ecosystem and has since been involved in scaling multiple startups from early traction through growth stage. Known for his deep ties to the city's founder community, Dan has served as an advisor and mentor to early-stage teams across the Midwest. He is passionate about creating the kind of high-trust, high-accountability peer environment in Chicago that he wished had existed earlier in his own career — and brings that same intentionality to every Gildre gathering.",
-    linkedin: "https://www.linkedin.com/",
+    role: "Co-Founder, HUPR · Chapter Lead, Gildre Chicago",
+    bio: "Dan is a Chicago-based entrepreneur and creative operator building HUPR — a tech platform that helps basketball players discover pickup games, connect with local community, and grow the culture of pickup hoops. He brings a background in experiential marketing and digital solutions, working at the intersection of sport, culture, and technology to build brands that actually connect with people. As Creative Director at Cruz Capital, Dan works with founders and growth-stage companies to sharpen how they show up in the market. He brings that same builder's energy to Gildre Chicago — creating a high-trust peer environment where founders can be honest about the hard parts and get real, tactical support.",
+    linkedin: "https://www.linkedin.com/in/dan-hernan/",
     photo: "/reviews/dan-hernandez.jpg",
     color: "#C97B3B",
   },
