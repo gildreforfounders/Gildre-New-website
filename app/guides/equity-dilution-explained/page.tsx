@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/equity-dilution-explained" },
-  title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks | Gildre",
+  title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round, With Real Numbers and Benchmarks | Gildre",
   description:
     "A practical guide to equity dilution for startup founders: how much equity to give away at pre-seed, seed, Series A, B, and beyondnd. Includes ownership benchmarks, a worked dilution table, the Facebook example, and strategies to minimize unnecessary dilution.",
   keywords: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks",
+  "headline": "Equity Dilution Explained: How Much to Give Away at Each Funding Round, With Real Numbers and Benchmarks",
   "description":
     "A practical guide to equity dilution for startup founders: how much equity to give away at pre-seed, seed, Series A, B, and beyondnd, with ownership benchmarks and strategies to minimize unnecessary dilution.",
   "image": "https://www.gildre.com/images/dilution-venture-capital.webp",
@@ -159,7 +159,7 @@ export default function EquityDilution() {
               className="text-[clamp(2rem,5vw,3.25rem)] font-bold leading-[1.1] text-white"
               style={{ fontFamily: "var(--font-fraunces)" }}
             >
-              Equity Dilution Explained: How Much to Give Away at Each Funding Round — With Real Numbers and Benchmarks
+              Equity Dilution Explained: How Much to Give Away at Each Funding Round, With Real Numbers and Benchmarks
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
               What equity dilution actually means, how much founders typically give away at each stage, when dilution works in your favor, and the ownership floors you should fight to protect.
@@ -182,7 +182,7 @@ export default function EquityDilution() {
           <div className="my-10 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <Image
               src="/images/dilution-financial-building.webp"
-              alt="Financial institution — equity dilution and venture capital fundraising"
+              alt="Financial institution, equity dilution and venture capital fundraising"
               width={1400}
               height={933}
               className="w-full"
@@ -293,7 +293,7 @@ export default function EquityDilution() {
           <div className="my-10 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <Image
               src="/images/dilution-venture-capital.webp"
-              alt="Typewriter with 'VENTURE CAPITAL' text — startup fundraising and equity dilution"
+              alt="Typewriter with 'VENTURE CAPITAL' text, startup fundraising and equity dilution"
               width={1400}
               height={933}
               className="w-full"

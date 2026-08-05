@@ -25,9 +25,9 @@ export const metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Robyn Hobson: From Cape Town Startup to US CMO — A Global Marketing Career Built on Grit and Reinvention",
+  headline: "Robyn Hobson: From Cape Town Startup to US CMO, A Global Marketing Career Built on Grit and Reinvention",
   description:
-    "Robyn Hobson shares how 13 years of marketing across South Africa, China, and the US, from growing Woolworths SA to 500K fans to becoming VP of Marketing at Remote Vans — created one of the most varied and resilient career paths in global marketing.",
+    "Robyn Hobson shares how 13 years of marketing across South Africa, China, and the US, from growing Woolworths SA to 500K fans to becoming VP of Marketing at Remote Vans, created one of the most varied and resilient career paths in global marketing.",
   image: "https://www.gildre.com/images/robyn-hobson-headshot.jpg",
   datePublished: "2024-05-01",
   author: {
@@ -86,7 +86,7 @@ export default function RobynBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Robyn Hobson: From Cape Town Startup to{" "}
-            <span style={{ color: "#C9A96E" }}>US CMO</span> — A Global Marketing Career Built on Grit and Reinvention
+            <span style={{ color: "#C9A96E" }}>US CMO</span>: A Global Marketing Career Built on Grit and Reinvention
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Digital agencies. Mobile tech exits. Crisis comms at a low-cost airline. An MBA from UCT. EdTech at scale. And now, marketing Sprinter vans. Robyn Hobson's 13-year career across South Africa, China, and the US is one of the most genuinely global, and genuinely varied, marketing journeys you'll come across. This is that story.
@@ -120,7 +120,7 @@ export default function RobynBlog() {
           <div className="overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)", maxWidth: "360px", width: "100%" }}>
             <Image
               src="/images/robyn-hobson-headshot.jpg"
-              alt="Robyn Hobson — VP of Marketing at Remote Vans"
+              alt="Robyn Hobson, VP of Marketing at Remote Vans"
               width={400}
               height={400}
               quality={90}
@@ -129,7 +129,7 @@ export default function RobynBlog() {
               style={{ display: "block" }}
             />
             <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Robyn Hobson — VP of Marketing at Remote Vans, Bronze Stevie Award winner</p>
+              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Robyn Hobson, VP of Marketing at Remote Vans and Bronze Stevie Award winner</p>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function RobynBlog() {
 
         <Section title="13 Years, 6 Industries: The Career No One Would Have Planned" />
         <Body>
-          Robyn's marketing career began at a digital agency in South Africa, home to some of the best creative minds on the continent. It was a high-energy introduction to the craft, and she thrived in it. From there, she joined a high-growth mobile technology startup as one of their first hires — experiencing firsthand what it means to build something from nothing and then watch it successfully exit.
+          Robyn's marketing career began at a digital agency in South Africa, home to some of the best creative minds on the continent. It was a high-energy introduction to the craft, and she thrived in it. From there, she joined a high-growth mobile technology startup as one of their first hires, experiencing firsthand what it means to build something from nothing and then watch it successfully exit.
         </Body>
         <Body>
           That startup exit opened a door to entrepreneurship. Robyn launched her own digital marketing consulting firm, attracting major clients including Africa's premium lifestyle retailer. Building something independently (owning client relationships, managing outcomes, carrying the risk) gave her a founder's perspective that would shape every corporate role that followed.
@@ -186,7 +186,7 @@ export default function RobynBlog() {
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>The Remote Vans team — Robyn serves as VP of Marketing</p>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>The Remote Vans team. Robyn serves as VP of Marketing.</p>
           </div>
         </div>
 

@@ -224,7 +224,7 @@ export default function AlexJekowskiBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Alex Jekowski: From College Pinboards to{" "}
-            <span style={{ color: "#C9A96E" }}>$140M</span> — How Cents Is Building the All-In-One Platform Powering America&apos;s Laundromats
+            <span style={{ color: "#C9A96E" }}>$140M</span>: How Cents Is Building the All-In-One Platform Powering America&apos;s Laundromats
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Alex Jekowski left Chapman University sophomore year to build his first company. He sold it before he was thirty. Then he stumbled into laundromats, realized nobody had ever built real software for them, and decided to fix that, raising nearly a quarter billion dollars in the process. He joined the Start to Scale Podcast to share what it actually takes: the brutal early advisors, the Series B he almost couldn&apos;t close, and why doing three hard things beats ten easy ones every time.
@@ -283,7 +283,7 @@ export default function AlexJekowskiBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Alex Jekowski — founder and CEO of Cents, the all-in-one vertical SaaS platform for laundromats
+              Alex Jekowski, founder and CEO of Cents, the all-in-one vertical SaaS platform for laundromats
             </p>
           </div>
         </div>
@@ -332,7 +332,7 @@ export default function AlexJekowskiBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Alex Jekowski — serial founder who went from college campus software to the backbone of the American laundry industry
+              Alex Jekowski, serial founder who went from college campus software to the backbone of the American laundry industry
             </p>
           </div>
         </div>
@@ -375,7 +375,7 @@ export default function AlexJekowskiBlog() {
         <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/cents-app-screenshot.jpg"
-            alt="Cents platform — all-in-one business management software for laundromats"
+            alt="Cents platform, all-in-one business management software for laundromats"
             width={804}
             height={518}
             quality={90}

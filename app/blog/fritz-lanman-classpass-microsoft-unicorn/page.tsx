@@ -108,7 +108,7 @@ export default function FritzLanmanBlog() {
             Took <span style={{ color: "#C9A96E" }}>ClassPass to Unicorn Status</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From investing a quarter-billion dollars into Facebook at Microsoft, to losing 70 lbs on his own product, to raising a $285M Series E — ClassPass CEO Fritz Lanman joined the Start to Scale Podcast to share the founder journey behind one of fitness tech's biggest success stories.
+            From investing a quarter-billion dollars into Facebook at Microsoft, to losing 70 lbs on his own product, to raising a $285M Series E. ClassPass CEO Fritz Lanman joined the Start to Scale Podcast to share the founder journey behind one of fitness tech's biggest success stories.
           </p>
 
           {/* Author + meta row */}
@@ -285,7 +285,7 @@ export default function FritzLanmanBlog() {
           ClassPass was actually the result of two or three pivots and multiple years of experimentation by Payal and her partners, and when I got involved it was still called Classtivity. Initially, it operated as a listing site for various classes. However, Payal recognized that the real genius lay in the class-pass model, which eliminated the friction of attending different studios with excess capacity.
         </Body>
         <Body>
-          Personally, as someone who struggled with maintaining fitness, traditional gyms didn't appeal to me. The monotony of running on a treadmill or lifting weights without accountability wasn't motivating. I craved the team dynamic, the instructor's guidance, the energizing music, a complete experience that made working out enjoyable. To me, group fitness offered the closest experience to team sports. I saw firsthand the transformative power of group fitness — <strong style={{ color: "#C9A96E" }}>I lost 70 pounds using the product.</strong>
+          Personally, as someone who struggled with maintaining fitness, traditional gyms didn't appeal to me. The monotony of running on a treadmill or lifting weights without accountability wasn't motivating. I craved the team dynamic, the instructor's guidance, the energizing music, a complete experience that made working out enjoyable. To me, group fitness offered the closest experience to team sports. I saw firsthand the transformative power of group fitness. <strong style={{ color: "#C9A96E" }}>I lost 70 pounds using the product.</strong>
         </Body>
         <Body>
           The emergence of trends like CrossFit and SoulCycle affirmed my bullish outlook on health and wellness as a macro theme. With the fitness industry being highly fragmented, ClassPass's role as an aggregator made perfect sense.
@@ -467,7 +467,7 @@ function BioCallout() {
           Who is Fritz Lanman?
         </h2>
         <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          Fritz Lanman is the CEO of ClassPass and Mindbody — two of the most recognized brands in global fitness technology. A Yale graduate who grew up in Silicon Valley with close ties to Adobe founder John Warnock, Fritz joined Microsoft in the mid-2000s and rose to lead the company's $240M strategic investment in Facebook. He transitioned to angel investing before taking the helm at ClassPass, where he oversaw the company's growth to unicorn status and a $285M Series E raise in 2020.
+          Fritz Lanman is the CEO of ClassPass and Mindbody, two of the most recognized brands in global fitness technology. A Yale graduate who grew up in Silicon Valley with close ties to Adobe founder John Warnock, Fritz joined Microsoft in the mid-2000s and rose to lead the company's $240M strategic investment in Facebook. He transitioned to angel investing before taking the helm at ClassPass, where he oversaw the company's growth to unicorn status and a $285M Series E raise in 2020.
         </p>
       </div>
       <div className="grid sm:grid-cols-2">

@@ -382,7 +382,7 @@ export default function First100CustomersGuide() {
           <div className="relative my-10 overflow-hidden rounded-2xl" style={{ aspectRatio: "4/3" }}>
             <Image
               src="/images/linkedin-logo.webp"
-              alt="LinkedIn — the highest-signal B2B customer acquisition channel for early-stage founders"
+              alt="LinkedIn, the highest-signal B2B customer acquisition channel for early-stage founders"
               fill
               sizes="(max-width: 768px) 100vw, 800px"
               className="object-cover"

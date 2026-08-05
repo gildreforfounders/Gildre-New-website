@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Building Products That Scale: Infrastructure, MVPs, and Customer Design — Lessons from Fritz Lanman and ClassPass",
+  headline: "Building Products That Scale: Infrastructure, MVPs, and Customer Design, Lessons from Fritz Lanman and ClassPass",
   description:
     "How to build products designed for scale from the start: infrastructure, MVP discipline, and customer-centric design. Drawn from Fritz Lanman's experience scaling ClassPass and Mindbody.",
   image: "https://www.gildre.com/images/fritz-lanman-speaking-stage.webp",
@@ -315,7 +315,7 @@ export default function BuildingProductsThatScaleGuide() {
                 Scalability isn&apos;t a phase; it&apos;s a design decision.&rdquo;
               </p>
               <p className="mt-3 text-xs font-bold" style={{ color: "#C9A96E" }}>
-                Fritz Lanman — CEO, ClassPass &amp; Mindbody · Gildre Member
+                Fritz Lanman, CEO, ClassPass &amp; Mindbody · Gildre Member
               </p>
             </div>
           </div>

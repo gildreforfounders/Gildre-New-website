@@ -63,7 +63,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in the Bay Area?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Bay Area founder or operator with directly relevant experience. In a market where everyone is a founder, quality of connection matters more than volume — every intro is intentional.",
+            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Bay Area founder or operator with directly relevant experience. In a market where everyone is a founder, quality of connection matters more than volume. Every intro is intentional.",
           },
         },
         {
@@ -71,7 +71,7 @@ const schema = {
           name: "Where are Bay Area founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Bay Area hosts monthly founder dinners in SoMa and Palo Alto — the two most active nodes of the Bay Area's founder ecosystem. Peer roundtables and investor sessions rotate across the Peninsula and East Bay depending on the cohort.",
+            text: "Gildre Bay Area hosts monthly founder dinners in SoMa and Palo Alto, the two most active nodes of the Bay Area's founder ecosystem. Peer roundtables and investor sessions rotate across the Peninsula and East Bay depending on the cohort.",
           },
         },
         {
@@ -87,7 +87,7 @@ const schema = {
           name: "How is Gildre different from other Bay Area founder communities?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every coffee shop in SoMa is full of founders. Proximity isn't community. Gildre is the curated, private peer layer — selected members, intentional 1:1 introductions, and small-group dinners where every person was chosen deliberately. It is designed for depth, not volume.",
+            text: "Every coffee shop in SoMa is full of founders. Proximity isn't community. Gildre is the curated, private peer layer: selected members, intentional 1:1 introductions, and small-group dinners where every person was chosen deliberately. It is designed for depth, not volume.",
           },
         },
         {
@@ -95,7 +95,7 @@ const schema = {
           name: "Can I attend a Bay Area event before becoming a member?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Occasionally Gildre opens select Bay Area events to prospective members by invitation. Apply and mention your interest in a Bay Area preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+            text: "Occasionally Gildre opens select Bay Area events to prospective members by invitation. Apply and mention your interest in a Bay Area preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
           },
         },
       ],
@@ -107,7 +107,7 @@ const verticals = [
   {
     label: "AI & Foundation Model Applications",
     description:
-      "The Bay Area is the global capital of artificial intelligence. Founders building AI-native products, fine-tuned model applications, or AI infrastructure find the most sophisticated peer density and investor appetite here. Gildre connects you with operators who have shipped AI products at scale — not just theorized about them.",
+      "The Bay Area is the global capital of artificial intelligence. Founders building AI-native products, fine-tuned model applications, or AI infrastructure find the most sophisticated peer density and investor appetite here. Gildre connects you with operators who have shipped AI products at scale, not just theorized about them.",
     tags: ["AI-Native Products", "LLM Applications", "AI Infrastructure", "Autonomous Systems"],
   },
   {
@@ -139,14 +139,14 @@ const testimonials = [
     photo: "/reviews/caitlin-van-berkel.webp",
   },
   {
-    quote: "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    quote: "The structure at Gildre is impressive. It's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
     company: "Solvee",
     photo: "/reviews/christof-mannfeld.webp",
   },
   {
-    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that — a community where I can both give and gain exceptional value.",
+    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
     name: "Elise Madrick",
     title: "Founder",
     company: "Cerené",
@@ -157,23 +157,23 @@ const testimonials = [
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in the Bay Area?",
-    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Bay Area founder or operator with directly relevant experience. In a market where everyone is a founder, quality of connection matters more than volume — every intro is intentional.",
+    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Bay Area founder or operator with directly relevant experience. In a market where everyone is a founder, quality of connection matters more than volume. Every intro is intentional.",
   },
   {
     q: "Where are Bay Area founder dinners and events held?",
-    a: "Gildre Bay Area hosts monthly founder dinners in SoMa and Palo Alto — the two most active nodes of the Bay Area's founder ecosystem. Peer roundtables and investor sessions rotate across the Peninsula and East Bay depending on the cohort.",
+    a: "Gildre Bay Area hosts monthly founder dinners in SoMa and Palo Alto, the two most active nodes of the Bay Area's founder ecosystem. Peer roundtables and investor sessions rotate across the Peninsula and East Bay depending on the cohort.",
   },
   {
     q: "What types of founders join Gildre Bay Area?",
-    a: "Gildre Bay Area is built for seed-to-Series A founders primarily in AI, deep-tech, enterprise SaaS, and climate tech. The common thread is ambition to build something that matters at scale — not just to participate in the Bay Area ecosystem.",
+    a: "Gildre Bay Area is built for seed-to-Series A founders primarily in AI, deep-tech, enterprise SaaS, and climate tech. The common thread is ambition to build something that matters at scale, not just to participate in the Bay Area ecosystem.",
   },
   {
     q: "How is Gildre different from other Bay Area founder communities?",
-    a: "Every coffee shop in SoMa is full of founders. Proximity isn't community. Gildre is the curated, private peer layer — selected members, intentional 1:1 introductions, and small dinners where every person was chosen deliberately. Depth over volume.",
+    a: "Every coffee shop in SoMa is full of founders. Proximity isn't community. Gildre is the curated, private peer layer: selected members, intentional 1:1 introductions, and small dinners where every person was chosen deliberately. Depth over volume.",
   },
   {
     q: "Can I attend a Bay Area event before becoming a member?",
-    a: "Occasionally Gildre opens select Bay Area events to prospective members by invitation. Apply and mention your interest in a preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+    a: "Occasionally Gildre opens select Bay Area events to prospective members by invitation. Apply and mention your interest in a preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
   },
 ];
 
@@ -201,7 +201,7 @@ export default function BayAreaPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             In the noisiest founder market on earth, replace surface-level networking with active
-            1:1 matchmaking, expert operator mentorship, and high-impact peer roundtables — built
+            1:1 matchmaking, expert operator mentorship, and high-impact peer roundtables, built
             for the Bay Area&rsquo;s most focused builders, from SoMa to Palo Alto.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -238,7 +238,7 @@ export default function BayAreaPage() {
             Deep expertise in the industries<br />Silicon Valley is defining for the world.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing — in your vertical, at your stage.
+            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {verticals.map((v) => (
@@ -271,7 +271,7 @@ export default function BayAreaPage() {
           <div className="mt-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(255,255,255,0.02)" }}>
             <div className="flex flex-col sm:flex-row">
               <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
-                <Image src="/images/chris-yeh-headshot.jpeg" alt="Chris Yeh, Blitzscaling co-author and Silicon Valley partner — Gildre Bay Area member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
+                <Image src="/images/chris-yeh-headshot.jpeg" alt="Chris Yeh, Blitzscaling co-author and Silicon Valley partner, Gildre Bay Area member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
               </div>
               <div className="flex flex-col justify-center p-8">
                 <span className="mb-3 inline-block rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>
@@ -280,7 +280,7 @@ export default function BayAreaPage() {
                 <h3 className="text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Chris Yeh</h3>
                 <p className="mt-1 text-sm font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>Partner · Blitzscaling Ventures</p>
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-                  Chris Yeh co-authored Blitzscaling with Reid Hoffman — the definitive playbook for scaling winner-take-most companies in Silicon Valley. As a partner at Blitzscaling Ventures, he brings direct operator knowledge of how the Bay Area&rsquo;s most consequential companies were built.
+                  Chris Yeh co-authored Blitzscaling with Reid Hoffman, the definitive playbook for scaling winner-take-most companies in Silicon Valley. As a partner at Blitzscaling Ventures, he brings direct operator knowledge of how the Bay Area&rsquo;s most consequential companies were built.
                 </p>
                 <Link href="/blog/chris-yeh-blitzscaling-reid-hoffman" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
@@ -308,7 +308,7 @@ export default function BayAreaPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre Bay Area founder dinner — monthly gatherings in SoMa and Palo Alto" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre Bay Area founder dinner, monthly gatherings in SoMa and Palo Alto" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
@@ -321,13 +321,13 @@ export default function BayAreaPage() {
                 Real rooms. Real conversations. Active facilitation.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Bay Area hosts curated in-person programming every month — small, intentional gatherings where every attendee is selected and every conversation has a point.
+                Gildre Bay Area hosts curated in-person programming every month: small, intentional gatherings where every attendee is selected and every conversation has a point.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in SoMa and Palo Alto. 12–20 founders per table. No pitches, no panels — high-density peer conversation for Bay Area's most focused builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on Bay Area-specific scaling challenges — AI product differentiation, enterprise sales cycles, recruiting against FAANG — facilitated by operators who have navigated the same terrain." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Bay Area VCs and angels deploying into AI, deep-tech, enterprise SaaS, and climate tech — the categories Silicon Valley is defining for the next decade." },
+                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in SoMa and Palo Alto. 12–20 founders per table. No pitches, no panels. High-density peer conversation for Bay Area's most focused builders." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on Bay Area-specific scaling challenges: AI product differentiation, enterprise sales cycles, and recruiting against FAANG, facilitated by operators who have navigated the same terrain." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Bay Area VCs and angels deploying into AI, deep-tech, enterprise SaaS, and climate tech, the categories Silicon Valley is defining for the next decade." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
@@ -379,7 +379,7 @@ export default function BayAreaPage() {
               Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in the Bay Area.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre Bay Area is selective by design. In the world&rsquo;s most founder-dense market, the only way to build a high-signal community is through deliberate curation. We review every application. You are a good fit if you are actively building a tech-enabled company with traction, and are serious about peer-to-peer growth — not just proximity to other founders.
+              Gildre Bay Area is selective by design. In the world&rsquo;s most founder-dense market, the only way to build a high-signal community is through deliberate curation. We review every application. You are a good fit if you are actively building a tech-enabled company with traction, and are serious about peer-to-peer growth, not just proximity to other founders.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -473,7 +473,7 @@ export default function BayAreaPage() {
             Your next breakthrough starts with the right room.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with Bay Area founders building at your level — with 1:1 introductions starting in your first week.
+            Apply today and get actively matched with Bay Area founders building at your level, with 1:1 introductions starting in your first week.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>

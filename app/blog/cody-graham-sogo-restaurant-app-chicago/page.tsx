@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     q: "What is the SoGo app?",
-    a: "SoGo is a restaurant curation app that learns who you are and recommends restaurants that match your specific preferences, dietary needs, mood, and the people you're dining with. Unlike broad discovery platforms like Google or Yelp, SoGo filters out everything that doesn't fit you — whether you keep kosher, have a gluten intolerance, avoid seed oils, or simply want a great taco that matches tonight's vibe. The more you use it, the better the recommendations get. It is currently live and focused on Chicago, with plans to expand to Michigan and Charlotte.",
+    a: "SoGo is a restaurant curation app that learns who you are and recommends restaurants that match your specific preferences, dietary needs, mood, and the people you're dining with. Unlike broad discovery platforms like Google or Yelp, SoGo filters out everything that doesn't fit you, whether you keep kosher, have a gluten intolerance, avoid seed oils, or simply want a great taco that matches tonight's vibe. The more you use it, the better the recommendations get. It is currently live and focused on Chicago, with plans to expand to Michigan and Charlotte.",
   },
   {
     q: "How did the founders of SoGo meet?",
@@ -117,7 +117,7 @@ const faqs = [
   },
   {
     q: "What is Cody Graham's advice for startup founders?",
-    a: "Cody's core advice is to 'keep the main thing the main thing,' a line he credits to Super Bowl MVP Jalen Hurts. He frames every decision through three possible outcomes: the right decision (best outcome), the wrong decision (second-best, because you learn from it), and no decision (worst — decision paralysis is the real enemy). He also emphasizes lifelong learning, rolling with the punches on things you didn't know you didn't know, and surrounding yourself with people who challenge your assumptions.",
+    a: "Cody's core advice is to 'keep the main thing the main thing,' a line he credits to Super Bowl MVP Jalen Hurts. He frames every decision through three possible outcomes: the right decision (best outcome), the wrong decision (second-best, because you learn from it), and no decision (worst of all, because decision paralysis is the real enemy). He also emphasizes lifelong learning, rolling with the punches on things you didn't know you didn't know, and surrounding yourself with people who challenge your assumptions.",
   },
   {
     q: "Is SoGo free to use?",
@@ -224,7 +224,7 @@ export default function CodyGrahamBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Cody Graham: How{" "}
-            <span style={{ color: "#C9A96E" }}>SoGo</span> Is Turning Restaurant Discovery Into Personalized Curation — One Meal at a Time
+            <span style={{ color: "#C9A96E" }}>SoGo</span> Is Turning Restaurant Discovery Into Personalized Curation, One Meal at a Time
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Cody Graham didn&apos;t set out to build a restaurant app. He set out to build the best possible product for real people with real dietary needs, real preferences, and real frustration with the generic discovery tools everyone already uses. As COO and Head of Product at SoGo, he joined the Start to Scale Podcast to share how a Scotland study abroad turned into a Chicago startup, why personalization beats proximity every time, and the decision framework that keeps a founder focused when everyone has an opinion.
@@ -283,7 +283,7 @@ export default function CodyGrahamBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Cody Graham — COO and Head of Product at SoGo, and Gildre member based in Chicago
+              Cody Graham, COO and Head of Product at SoGo and Gildre member based in Chicago
             </p>
           </div>
         </div>
@@ -376,7 +376,7 @@ export default function CodyGrahamBlog() {
           >
             <Image
               src="/images/sogo-logo.webp"
-              alt="SoGo — restaurant curation app by Some Good People"
+              alt="SoGo, restaurant curation app by Some Good People"
               width={286}
               height={116}
               quality={90}
@@ -411,7 +411,7 @@ export default function CodyGrahamBlog() {
           Cody takes a measured view on AI, not a fearful one, and not a breathlessly optimistic one either. "I take the middle ground where it&apos;s a really great tool for people who know how to use it." His framing is simple: AI should be doing the things that prevent you from doing the real knowledge work. Use it to build a project plan. Use it to scaffold a roadmap. Use it to accelerate the path from vision to execution.
         </Body>
         <Body>
-          Where he draws the line is at the idea that AI replaces expertise. "Something like a vibe-coded app: you can spit out a million of them. Is it secure? Can it scale? Is it stable? Those are questions that somebody just jumping into this doesn&apos;t have good answers to. That&apos;s the value of having subject matter experts use these tools, not just novices." AI makes everyone capable of more. But what you do with the output — how you evaluate it, improve it, and ship something that actually works, still requires judgment that only comes from experience.
+          Where he draws the line is at the idea that AI replaces expertise. "Something like a vibe-coded app: you can spit out a million of them. Is it secure? Can it scale? Is it stable? Those are questions that somebody just jumping into this doesn&apos;t have good answers to. That&apos;s the value of having subject matter experts use these tools, not just novices." AI makes everyone capable of more. But what you do with the output, how you evaluate it, improve it, and ship something that actually works, still requires judgment that only comes from experience.
         </Body>
         <Quote>
           "AI is an accelerant for good ideas. When you approach it like that, as a tool to get the vision from your head to people&apos;s hands: that&apos;s the most successful way to use it."
@@ -420,7 +420,7 @@ export default function CodyGrahamBlog() {
           SoGo has leaned in. Early on, one of their biggest constraints was developer bandwidth. AI tooling has dramatically changed what the team can build with the resources they have, shifting the bottleneck from technical capacity to the quality of the ideas themselves. Which is exactly where Cody wants it.
         </Body>
 
-        <Section title="Chicago First — Then Michigan, Charlotte, and Beyond" />
+        <Section title="Chicago First, Then Michigan, Charlotte, and Beyond" />
         <Body>
           SoGo is live and focused on Chicago. The logic is simple: it&apos;s where Cody and Joe are based, it&apos;s one of the great food cities in the country, and it&apos;s where their network is deepest. Starting local means the feedback is real, the relationships are genuine, and the community they&apos;re trying to build has a foundation to grow from.
         </Body>

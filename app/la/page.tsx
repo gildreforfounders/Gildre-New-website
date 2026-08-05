@@ -71,7 +71,7 @@ const schema = {
           name: "Where are LA founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre LA hosts monthly founder dinners in Venice and West Hollywood — two of LA's most active founder neighborhoods. Peer roundtables and investor sessions rotate across Culver City and Santa Monica venues depending on the cohort.",
+            text: "Gildre LA hosts monthly founder dinners in Venice and West Hollywood, two of LA's most active founder neighborhoods. Peer roundtables and investor sessions rotate across Culver City and Santa Monica venues depending on the cohort.",
           },
         },
         {
@@ -87,7 +87,7 @@ const schema = {
           name: "How is Gildre different from LA's existing startup and brand communities?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "LA has a rich creative community but fewer high-density founder peer networks than SF or NYC. Gildre brings the curated, operator-level peer layer that LA founders have had to travel to other cities to find — right here in your own backyard.",
+            text: "LA has a rich creative community but fewer high-density founder peer networks than SF or NYC. Gildre brings the curated, operator-level peer layer that LA founders have had to travel to other cities to find, right here in your own backyard.",
           },
         },
         {
@@ -95,7 +95,7 @@ const schema = {
           name: "Can I attend an LA event before becoming a member?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in a Los Angeles preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+            text: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in a Los Angeles preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
           },
         },
       ],
@@ -139,7 +139,7 @@ const testimonials = [
     photo: "/reviews/caitlin-van-berkel.webp",
   },
   {
-    quote: "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    quote: "The structure at Gildre is impressive. It's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
     company: "Solvee",
@@ -161,7 +161,7 @@ const faqItems = [
   },
   {
     q: "Where are LA founder dinners and events held?",
-    a: "Gildre LA hosts monthly founder dinners in Venice and West Hollywood — two of LA's most active founder neighborhoods. Peer roundtables and investor sessions rotate across Culver City and Santa Monica venues.",
+    a: "Gildre LA hosts monthly founder dinners in Venice and West Hollywood, two of LA's most active founder neighborhoods. Peer roundtables and investor sessions rotate across Culver City and Santa Monica venues.",
   },
   {
     q: "What types of founders join Gildre LA?",
@@ -169,11 +169,11 @@ const faqItems = [
   },
   {
     q: "How is Gildre different from LA's existing startup and brand communities?",
-    a: "LA has a rich creative community but fewer high-density founder peer networks than SF or NYC. Gildre brings the curated, operator-level peer layer that LA founders have had to travel to other cities to find — right here in your own backyard.",
+    a: "LA has a rich creative community but fewer high-density founder peer networks than SF or NYC. Gildre brings the curated, operator-level peer layer that LA founders have had to travel to other cities to find, right here in your own backyard.",
   },
   {
     q: "Can I attend an LA event before becoming a member?",
-    a: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in a Los Angeles preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+    a: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in a Los Angeles preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
   },
 ];
 
@@ -201,7 +201,7 @@ export default function LaPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables — built for LA&rsquo;s most focused
+            mentorship, and high-impact peer roundtables, built for LA&rsquo;s most focused
             founders, from Venice to West Hollywood.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -238,7 +238,7 @@ export default function LaPage() {
             Deep expertise in the industries<br />LA sets the cultural agenda for.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing — in your vertical, at your stage.
+            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {verticals.map((v) => (
@@ -285,7 +285,7 @@ export default function LaPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre LA founder dinner — monthly gatherings in Venice and West Hollywood" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre LA founder dinner, monthly gatherings in Venice and West Hollywood" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
@@ -298,13 +298,13 @@ export default function LaPage() {
                 Real rooms. Real conversations. Active facilitation.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre LA hosts curated in-person programming every month — small, intentional gatherings where every attendee is selected and every conversation has a point.
+                Gildre LA hosts curated in-person programming every month: small, intentional gatherings where every attendee is selected and every conversation has a point.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in Venice and West Hollywood. 12–20 founders per table. No pitches, no panels — high-density peer conversation for LA's most serious builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on LA-specific scaling challenges — DTC unit economics, creator monetization, HealthTech regulation, brand-to-product transitions — facilitated by operators who have crossed the same threshold." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active LA-area VCs and angels deploying into consumer, creator economy, HealthTech, and PropTech — the categories LA is defining for the next decade." },
+                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in Venice and West Hollywood. 12–20 founders per table. No pitches, no panels. High-density peer conversation for LA's most serious builders." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on LA-specific scaling challenges: DTC unit economics, creator monetization, HealthTech regulation, and brand-to-product transitions, facilitated by operators who have crossed the same threshold." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active LA-area VCs and angels deploying into consumer, creator economy, HealthTech, and PropTech, the categories LA is defining for the next decade." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
@@ -356,7 +356,7 @@ export default function LaPage() {
               Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in Los Angeles.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre LA is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled or brand-driven company, have initial traction or prior founder experience, and are serious about peer-to-peer growth — not just attending events.
+              Gildre LA is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled or brand-driven company, have initial traction or prior founder experience, and are serious about peer-to-peer growth, not just attending events.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -435,7 +435,7 @@ export default function LaPage() {
             Your next breakthrough starts with the right room.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with LA founders building at your level — with 1:1 introductions starting in your first week.
+            Apply today and get actively matched with LA founders building at your level, with 1:1 introductions starting in your first week.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>

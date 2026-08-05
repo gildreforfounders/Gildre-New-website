@@ -346,7 +346,7 @@ export default function DrMichaelFilosiBlog() {
         <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/dr-michael-filosi-early-practice.jpeg"
-            alt="Dr. Michael Filosi in the early days at Fullarton Park Dental, Adelaide — before the renovations"
+            alt="Dr. Michael Filosi in the early days at Fullarton Park Dental, Adelaide, before the renovations"
             width={720}
             height={960}
             quality={90}

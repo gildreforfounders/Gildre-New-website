@@ -24,7 +24,7 @@ export const metadata = {
     url: "https://www.gildre.com/blog/florian-kemmerich-vocating-ai-impact-investor",
     title: "Florian Kemmerich: The Impact Investor Who Left the Olympics, Crossed Five Languages, and Built an AI Platform to Help 54 Million People Find Their Vocation",
     description:
-      "Florian Kemmerich on walking away from the Barcelona '92 Olympics, 15 years in corporate healthcare before a coaching session broke him open, deploying capital across 100+ companies in 30 countries, and why he built Vocating AI to ensure humans, not algorithms — decide what they want their lives to be.",
+      "Florian Kemmerich on walking away from the Barcelona '92 Olympics, 15 years in corporate healthcare before a coaching session broke him open, deploying capital across 100+ companies in 30 countries, and why he built Vocating AI to ensure humans, not algorithms, decide what they want their lives to be.",
     type: "article",
     images: [
       {
@@ -101,7 +101,7 @@ const personSchema = {
     "Organizational Transformation",
   ],
   description:
-    "Florian Kemmerich is a German-born, Geneva-based multi-time founder, impact investor, and author of On Vocation: How to Align Purpose with Your Profession. He spent 15 years in a healthcare corporation before a coaching session at 33 set him on an entrepreneurial path. He has invested in over 100 companies across 30+ countries, primarily in rural areas of Africa, Asia, and Latin America. He speaks five to six languages, was part of Germany's national judo team, and was on track for the 1992 Barcelona Olympics before choosing a different path. His current venture, Vocating AI, uses agentic AI to help people, especially young people — identify their vocation and build lives anchored in purpose rather than algorithms.",
+    "Florian Kemmerich is a German-born, Geneva-based multi-time founder, impact investor, and author of On Vocation: How to Align Purpose with Your Profession. He spent 15 years in a healthcare corporation before a coaching session at 33 set him on an entrepreneurial path. He has invested in over 100 companies across 30+ countries, primarily in rural areas of Africa, Asia, and Latin America. He speaks five to six languages, was part of Germany's national judo team, and was on track for the 1992 Barcelona Olympics before choosing a different path. His current venture, Vocating AI, uses agentic AI to help people, especially young people, to identify their vocation and build lives anchored in purpose rather than algorithms.",
 };
 
 const faqs = [
@@ -288,7 +288,7 @@ export default function FlorianKemmerichBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Florian Kemmerich — multi-time founder, impact investor, author of On Vocation, and founder of Vocating AI
+              Florian Kemmerich, multi-time founder, impact investor, author of On Vocation, and founder of Vocating AI
             </p>
           </div>
         </div>
@@ -327,7 +327,7 @@ export default function FlorianKemmerichBlog() {
         <div className="my-14 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "560px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/florian-kemmerich-speaking.jpeg"
-            alt="Florian Kemmerich speaking — impact investor and Vocating AI founder"
+            alt="Florian Kemmerich speaking, impact investor and Vocating AI founder"
             width={560}
             height={560}
             quality={90}
@@ -381,7 +381,7 @@ export default function FlorianKemmerichBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              On Vocation: How to Align Purpose with Your Profession — Florian Kemmerich&apos;s seven-step methodology, built from 200+ conversations over a decade
+              On Vocation: How to Align Purpose with Your Profession, Florian Kemmerich&apos;s seven-step methodology, built from 200+ conversations over a decade
             </p>
           </div>
         </div>
@@ -409,7 +409,7 @@ export default function FlorianKemmerichBlog() {
         <div className="my-14 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "660px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/florian-kemmerich-portrait.jpeg"
-            alt="Florian Kemmerich — founder of Vocating AI and author of On Vocation"
+            alt="Florian Kemmerich, founder of Vocating AI and author of On Vocation"
             width={660}
             height={685}
             quality={90}

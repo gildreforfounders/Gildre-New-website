@@ -124,7 +124,7 @@ export default function LukeAshenbrandBlog() {
               Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-              A Princeton football lineman loses his career to a traumatic concussion — spends 15 days in a pitch-black room. Then channels the setback into startup consulting and a new entrepreneurial path.
+              A Princeton football lineman loses his career to a traumatic concussion. He spends 15 days in a pitch-black room. Then channels the setback into startup consulting and a new entrepreneurial path.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-6 text-[0.7rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               <span>Princeton University · Class of 2022</span>
@@ -169,9 +169,9 @@ export default function LukeAshenbrandBlog() {
               Luke Ashenbrand at a Glance
             </p>
             <ul className="space-y-2 text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>
-              <li>• Princeton University, Class of 2022 — Entrepreneurship minor</li>
+              <li>• Princeton University, Class of 2022, Entrepreneurship minor</li>
               <li>• Played Guard &amp; Center for Princeton Tigers football (Ivy League)</li>
-              <li>• Career-ending concussion: September 2021 (vs. Stetson) — 15 days in a dark room</li>
+              <li>• Career-ending concussion: September 2021 (vs. Stetson), 15 days in a dark room</li>
               <li>• Built Vega during COVID, a campus delivery algorithm, as his first startup</li>
               <li>• Currently a startup consultant working with founders and investors</li>
               <li>• Also building his own startup as a side venture</li>
@@ -196,7 +196,7 @@ export default function LukeAshenbrandBlog() {
             <div className="overflow-hidden rounded-2xl" style={{ maxWidth: "400px", width: "100%", border: "1px solid rgba(255,255,255,0.07)" }}>
               <Image
                 src="/images/luke-ashenbrand-headshot.webp"
-                alt="Luke Ashenbrand — Princeton graduate and startup entrepreneur"
+                alt="Luke Ashenbrand, Princeton graduate and startup entrepreneur"
                 width={800}
                 height={1000}
                 quality={90}
@@ -251,7 +251,7 @@ export default function LukeAshenbrandBlog() {
 
           <Section title="From the Locker Room to the Startup World">
             <Body>
-              After graduation, Luke did something deliberately open-ended: he joined an agnostic company, one that worked across industries and gave him access to a wide range of investors and founders simultaneously. His goal wasn't to specialize immediately. It was to learn — fast, broadly, and from people further along than him.
+              After graduation, Luke did something deliberately open-ended: he joined an agnostic company, one that worked across industries and gave him access to a wide range of investors and founders simultaneously. His goal wasn't to specialize immediately. It was to learn, fast, broadly, and from people further along than him.
             </Body>
             <Body>
               Being an extrovert helped. He thrived in rooms full of different kinds of builders, absorbing perspectives on fundraising, company culture, product development, and failure. "I got to see the good, bad, and in-between of various contexts that most people my age don't get exposed to," he says.

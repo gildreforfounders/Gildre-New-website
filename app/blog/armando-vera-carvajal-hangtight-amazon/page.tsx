@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon",
     title: "Armando Vera Carvajal: From First-Generation Immigrant to AI Startup Founder",
     description:
-      "His parents gave up careers in Mexico to pursue the American Dream. Armando Vera Carvajal is building Hangtight to honor what they sacrificed — one AI-powered group hangout at a time.",
+      "His parents gave up careers in Mexico to pursue the American Dream. Armando Vera Carvajal is building Hangtight to honor what they sacrificed, one AI-powered group hangout at a time.",
     type: "article",
     images: [{ url: "https://www.gildre.com/images/armando-vera-headshot.webp" }],
   },
@@ -178,14 +178,14 @@ export default function ArmandoBlog() {
               Armando Vera Carvajal at a Glance
             </p>
             <ul className="space-y-2 text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>
-              <li>• Born in Mexico — immigrated to the US at age four with parents and sister Gloria</li>
+              <li>• Born in Mexico, immigrated to the US at age four with parents and sister Gloria</li>
               <li>• Parents gave up careers (aspiring politician + physician) to work as missionaries in the US</li>
               <li>• First entrepreneurial venture: selling homemade cheesecakes door-to-door in high school</li>
-              <li>• University of Texas at Austin — double major: International Relations + Corporate Communication</li>
+              <li>• University of Texas at Austin, double major: International Relations + Corporate Communication</li>
               <li>• Studied abroad in Paris and Singapore; twice rejected by UT's McCombs School of Business</li>
-              <li>• Trekked into the Amazon jungle in Peru — experienced ayahuasca plant medicine</li>
-              <li>• Co-Founder &amp; CEO of Hangtight — AI-powered social planning app</li>
-              <li>• Acquired competitor GoPlanIt (formerly Gathr) — adding ML models, tech stack, and user base</li>
+              <li>• Trekked into the Amazon jungle in Peru, experienced ayahuasca plant medicine</li>
+              <li>• Co-Founder &amp; CEO of Hangtight, an AI-powered social planning app</li>
+              <li>• Acquired competitor GoPlanIt (formerly Gathr), adding ML models, tech stack, and user base</li>
               <li>• Advisor team includes former COO of OpenTable, early TikTok employee, former VP Engineering at Indeed</li>
             </ul>
           </div>
@@ -222,7 +222,7 @@ export default function ArmandoBlog() {
             <div className="overflow-hidden rounded-2xl" style={{ maxWidth: "440px", width: "100%", border: "1px solid rgba(255,255,255,0.07)" }}>
               <Image
                 src="/images/armando-vera-headshot.webp"
-                alt="Armando Vera Carvajal — co-founder and CEO of Hangtight"
+                alt="Armando Vera Carvajal, co-founder and CEO of Hangtight"
                 width={960}
                 height={1280}
                 quality={90}
@@ -232,7 +232,7 @@ export default function ArmandoBlog() {
               />
             </div>
             <p className="mt-3 text-[0.68rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Armando Vera Carvajal — co-founder and CEO of Hangtight
+              Armando Vera Carvajal, co-founder and CEO of Hangtight
             </p>
           </div>
 
@@ -344,12 +344,12 @@ export default function ArmandoBlog() {
             </Body>
             <div className="mb-6 rounded-xl p-6" style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)" }}>
               <ul className="space-y-3 text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
-                <li>• <span className="text-white font-medium">Former COO of OpenTable</span> — marketplace scaling and operations</li>
-                <li>• <span className="text-white font-medium">Former VP of Consumer Marketing, OpenTable / Lyft / SurveyMonkey</span> — growth and retention at scale</li>
-                <li>• <span className="text-white font-medium">Former Director of Data Science &amp; Analytics, Bird Scooter</span> — computational neuroscientist with 20+ years in ML/AI</li>
-                <li>• <span className="text-white font-medium">Former VP of Engineering, Indeed</span> — engineering leadership at one of the world's highest-traffic platforms</li>
-                <li>• <span className="text-white font-medium">Former Head of Product Design, LinkedIn</span> — consumer product design at global scale</li>
-                <li>• <span className="text-white font-medium">Early TikTok team member</span> — built the influencer and celebrity platform from zero to one</li>
+                <li>• <span className="text-white font-medium">Former COO of OpenTable</span>, marketplace scaling and operations</li>
+                <li>• <span className="text-white font-medium">Former VP of Consumer Marketing, OpenTable / Lyft / SurveyMonkey</span>, growth and retention at scale</li>
+                <li>• <span className="text-white font-medium">Former Director of Data Science &amp; Analytics, Bird Scooter</span>, computational neuroscientist with 20+ years in ML/AI</li>
+                <li>• <span className="text-white font-medium">Former VP of Engineering, Indeed</span>, engineering leadership at one of the world's highest-traffic platforms</li>
+                <li>• <span className="text-white font-medium">Former Head of Product Design, LinkedIn</span>, consumer product design at global scale</li>
+                <li>• <span className="text-white font-medium">Early TikTok team member</span>, built the influencer and celebrity platform from zero to one</li>
               </ul>
             </div>
             <Body>

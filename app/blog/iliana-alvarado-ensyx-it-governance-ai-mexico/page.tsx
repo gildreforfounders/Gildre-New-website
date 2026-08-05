@@ -39,7 +39,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Iliana Alvarado: From Banamex to ENSYX — IT and AI Governance for the Era When Every Company Is a Tech Company",
     description:
-      "Iliana Alvarado on the governance gap in IT, AI liability most founders don't know they have, and why your value multiplier, not your credentials — is what actually builds a business.",
+      "Iliana Alvarado on the governance gap in IT, AI liability most founders don't know they have, and why your value multiplier, not your credentials, is what actually builds a business.",
   },
 };
 
@@ -177,7 +177,7 @@ export default function IlianaAlvaradoBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build{" "}
-            <span style={{ color: "#C9A96E" }}>ENSYX</span> — IT and AI Governance for the Era When Every Company Is a Tech Company
+            <span style={{ color: "#C9A96E" }}>ENSYX</span>: IT and AI Governance for the Era When Every Company Is a Tech Company
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             After nearly a decade at one of Mexico&apos;s biggest banks, attorney Iliana Alvarado saw a gap nobody was filling: companies were getting great IT execution with zero governance context. She left in 2023, built ENSYX, and is now expanding from Mexico City to Chile. She joined the Start to Scale Podcast to share the thesis, the pivot, and what a decade of building without a plan across three continents taught her about entrepreneurship.
@@ -236,7 +236,7 @@ export default function IlianaAlvaradoBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Iliana Alvarado — founder of ENSYX and Gildre member based in Mexico City
+              Iliana Alvarado, founder of ENSYX and Gildre member based in Mexico City
             </p>
           </div>
         </div>
@@ -263,7 +263,7 @@ export default function IlianaAlvaradoBlog() {
 
         <Section title="Santiago, Banamex, and What Corporate Taught Her About Governance" />
         <Body>
-          After completing her LLM, Iliana worked at one of the most prestigious law firms in Santiago, Chile. The experience of doing serious legal work in a foreign country, one with a distinct culture, a complicated recent history, and a different structural relationship with regulation than Mexico — sharpened a skill she had already been developing: adapting not just linguistically but institutionally.
+          After completing her LLM, Iliana worked at one of the most prestigious law firms in Santiago, Chile. The experience of doing serious legal work in a foreign country, one with a distinct culture, a complicated recent history, and a different structural relationship with regulation than Mexico, sharpened a skill she had already been developing: adapting not just linguistically but institutionally.
         </Body>
         <Body>
           "Chile has structures I haven&apos;t seen in any other country," she says. "For better or for worse because of their past, they have a little bit of rigidity still. And that helped me shape how I do things now. Because even though you need leeway and space, you also need structure." That awareness of structure, when it serves you and when it constrains you, became central to how she eventually thought about IT governance.
@@ -286,7 +286,7 @@ export default function IlianaAlvaradoBlog() {
           >
             <Image
               src="/images/iliana-alvarado-ensyx-banner.jpeg"
-              alt="ENSYX — Reliable. Secure. Trusted — IT and AI governance"
+              alt="ENSYX, Reliable. Secure. Trusted. IT and AI governance"
               width={1200}
               height={400}
               quality={90}
@@ -297,7 +297,7 @@ export default function IlianaAlvaradoBlog() {
           </div>
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              ENSYX — Reliable. Secure. Trusted. IT and AI governance services for companies that need technology decisions inside a business context.
+              ENSYX: Reliable. Secure. Trusted. IT and AI governance services for companies that need technology decisions inside a business context.
             </p>
           </div>
         </div>

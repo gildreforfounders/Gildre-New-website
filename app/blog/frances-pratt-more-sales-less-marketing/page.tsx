@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Frances Pratt: From Ritz Carlton to $18M Exit on Sales as Service",
     description:
-      "Frances Pratt on the Wizard of Oz sales model, why founders should sell before they market, and how courage, not charisma — is the real skill behind great selling.",
+      "Frances Pratt on the Wizard of Oz sales model, why founders should sell before they market, and how courage, not charisma, is the real skill behind great selling.",
   },
 };
 
@@ -111,11 +111,11 @@ const faqs = [
   },
   {
     q: "What is the difference between sales and marketing according to Frances Pratt?",
-    a: "Frances Pratt teaches that sales always comes before marketing. At the earliest stage of a business, the questions you need to answer: does this problem exist, is my solution viable, will someone pay for it — are answered through sales conversations, not marketing campaigns. Marketing is about herding a group of people through a funnel until they become a marketing-qualified lead. Selling is sitting with one person and understanding exactly what they need. A third distinction: the marketing mindset says get everything perfect before launching; the sales mindset says take what you have, even a napkin sketch, and go ask the market now.",
+    a: "Frances Pratt teaches that sales always comes before marketing. At the earliest stage of a business, the questions you need to answer: does this problem exist, is my solution viable, will someone pay for it, are answered through sales conversations, not marketing campaigns. Marketing is about herding a group of people through a funnel until they become a marketing-qualified lead. Selling is sitting with one person and understanding exactly what they need. A third distinction: the marketing mindset says get everything perfect before launching; the sales mindset says take what you have, even a napkin sketch, and go ask the market now.",
   },
   {
     q: "How do you fix a founder who hates selling?",
-    a: "Frances Pratt works on three areas. First, mindset: the fear of selling comes from a mental image of the pushy used-car salesman. Replace that with the truth: great selling is helping someone make a good buying decision for themselves, yes or no. Second, activities: selling should start with listening, not telling. Understand their problem, reflect it back, get confirmation, then ask permission to share how you can help. Third, results: the only result isn't a closed deal. Every step, a good conversation, a referral, something learned — is a result. Reframing success makes the process far less threatening.",
+    a: "Frances Pratt works on three areas. First, mindset: the fear of selling comes from a mental image of the pushy used-car salesman. Replace that with the truth: great selling is helping someone make a good buying decision for themselves, yes or no. Second, activities: selling should start with listening, not telling. Understand their problem, reflect it back, get confirmation, then ask permission to share how you can help. Third, results: the only result isn't a closed deal. Every step, a good conversation, a referral, something learned, is a result. Reframing success makes the process far less threatening.",
   },
   {
     q: "How do you make sales conversations feel comfortable?",
@@ -175,7 +175,7 @@ export default function FrancesPrattBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Frances Pratt: From the Ritz Carlton to{" "}
-            <span style={{ color: "#C9A96E" }}>$18M Exit</span> — How the Author of{" "}
+            <span style={{ color: "#C9A96E" }}>$18M Exit</span>: How the Author of{" "}
             <em>More Sales Less Marketing</em> Rewires Founders Who Hate Selling
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
@@ -235,7 +235,7 @@ export default function FrancesPrattBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Frances Pratt — sales consultant, author, and Gildre member based in Melbourne, Australia
+              Frances Pratt, sales consultant, author, and Gildre member based in Melbourne, Australia
             </p>
           </div>
         </div>

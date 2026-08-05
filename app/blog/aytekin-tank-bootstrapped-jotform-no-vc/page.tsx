@@ -87,7 +87,7 @@ export default function AytekintankBlog() {
             Without a Dollar of VC Funding
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From coding on a school computer in Turkey with no computer at home, to building a 600-person SaaS company that competes with Google — Jotform founder and CEO Aytekin Tank joined the Start to Scale Podcast to share the bootstrapper's playbook behind one of the most quietly impressive companies in tech.
+            From coding on a school computer in Turkey with no computer at home, to building a 600-person SaaS company that competes with Google. Jotform founder and CEO Aytekin Tank joined the Start to Scale Podcast to share the bootstrapper's playbook behind one of the most quietly impressive companies in tech.
           </p>
 
           {/* Meta row */}
@@ -126,7 +126,7 @@ export default function AytekintankBlog() {
             style={{ maxHeight: "480px", objectPosition: "center top" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Aytekin Tank — founder and CEO of Jotform</p>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Aytekin Tank, founder and CEO of Jotform</p>
           </div>
         </div>
 
@@ -170,7 +170,7 @@ export default function AytekintankBlog() {
         <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/jotform-logo.webp"
-            alt="Jotform — online form builder with 25 million users"
+            alt="Jotform, online form builder with 25 million users"
             width={800}
             height={450}
             quality={90}
@@ -178,7 +178,7 @@ export default function AytekintankBlog() {
             className="w-full object-cover"
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Jotform — founded in 2006, now serving 25 million users worldwide</p>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Jotform, founded in 2006, now serving 25 million users worldwide</p>
           </div>
         </div>
 

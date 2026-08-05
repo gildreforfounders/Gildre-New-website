@@ -155,7 +155,7 @@ export default function RyanHughesBlog() {
             <div className="overflow-hidden rounded-2xl" style={{ maxWidth: "360px", width: "100%", border: "1px solid rgba(255,255,255,0.07)" }}>
               <Image
                 src="/images/ryan-hughes-headshot.webp"
-                alt="Ryan Hughes — founder of Fan Pier Labs, former Google and Snapchat engineer"
+                alt="Ryan Hughes, founder of Fan Pier Labs, former Google and Snapchat engineer"
                 width={512}
                 height={512}
                 quality={90}
@@ -165,7 +165,7 @@ export default function RyanHughesBlog() {
               />
             </div>
             <p className="mt-3 text-[0.68rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Ryan Hughes — founder of Fan Pier Labs, former Google and Snapchat engineer
+              Ryan Hughes, founder of Fan Pier Labs, former Google and Snapchat engineer
             </p>
           </div>
 
@@ -178,11 +178,11 @@ export default function RyanHughesBlog() {
               Ryan Hughes at a Glance
             </p>
             <ul className="space-y-2 text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>
-              <li>• Boston native — started in competitive robotics (VEX) in high school</li>
-              <li>• Computer Science, Northeastern University — used the co-op program to intern at Google and Snapchat</li>
+              <li>• Boston native, started in competitive robotics (VEX) in high school</li>
+              <li>• Computer Science, Northeastern University, used the co-op program to intern at Google and Snapchat</li>
               <li>• At Google: first-hand look at large-scale engineering and the pace trade-offs of big company structure</li>
               <li>• At Snapchat: joined the privacy team post-IPO, watched a startup transition into a public company</li>
-              <li>• Founded Fan Pier Labs — AI-driven software consulting for early-stage startups</li>
+              <li>• Founded Fan Pier Labs, an AI-driven software consulting firm for early-stage startups</li>
               <li>• Bootstrapped credibility by leading with his Google/Snapchat pedigree when landing first clients</li>
               <li>• Focus areas: AI integration, engineering infrastructure, and helping founders move faster</li>
             </ul>

@@ -175,7 +175,7 @@ export default function RussellBreuerBlog() {
             <span style={{ color: "#C9A96E" }}>Nine-Figure Pet Health Empire</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            A Cleveland kid with a management consulting background who started cooking fresh dog food for his mini Golden Doodle in a NYC studio apartment — Spot&nbsp;and&nbsp;Tango founder Russell Breuer joined the Start to Scale Podcast to share how grit, vertical integration, and a relentless commitment to quality turned a side project into one of the fastest-growing pet health companies in the country.
+            A Cleveland kid with a management consulting background who started cooking fresh dog food for his mini Golden Doodle in a NYC studio apartment. Spot&nbsp;and&nbsp;Tango founder Russell Breuer joined the Start to Scale Podcast to share how grit, vertical integration, and a relentless commitment to quality turned a side project into one of the fastest-growing pet health companies in the country.
           </p>
 
           {/* Author + meta row */}
@@ -266,7 +266,7 @@ export default function RussellBreuerBlog() {
           Like most founders, Russell didn't wait for a perfect plan. The first version of Spot and Tango (originally named Brewer Premium Pet Foods after his surname) was a commissary kitchen operation making fresh frozen meals: ground turkey, brown rice, carrots, and fruit and veg, cooked and frozen for safe delivery. The recipes were formulated to meet the full dietary needs of dogs, using food-grade (not feed-grade) ingredients sourced from the same upstream suppliers that serve grocery stores and restaurants.
         </Body>
         <Body>
-          Before going all-in on e-commerce, Russell tested the product in retail, up to 14 pet specialty stores across the five boroughs of New York City, with branded freezers at point of sale. That experiment taught him fast: brick-and-mortar required distributors who ate margin, long lead times for changes, and enormous door count to scale. DTC, by contrast, let them move quickly — update creative, adjust copy, personalize at the individual level, all in real time.
+          Before going all-in on e-commerce, Russell tested the product in retail, up to 14 pet specialty stores across the five boroughs of New York City, with branded freezers at point of sale. That experiment taught him fast: brick-and-mortar required distributors who ate margin, long lead times for changes, and enormous door count to scale. DTC, by contrast, let them move quickly: update creative, adjust copy, personalize at the individual level, all in real time.
         </Body>
         <Body>
           They chose DTC. The company rebranded to Spot and Tango in February 2019: the new name came from Russell's co-founder's father, and it stuck. "No one else has the word Spot and Tango if you do a Google search," Russell notes. "We were the only company that pops up." The rebrand also came with a critical product evolution: moving away from small/medium/large portion sizes to a personalized quiz-based algorithm that accounts for each dog's breed, weight, and activity level. That shift unlocked a new level of product-market fit, and a subscription model that made retention genuinely sticky.
@@ -277,7 +277,7 @@ export default function RussellBreuerBlog() {
           Fresh frozen food solved the quality problem. But it came with two friction points customers kept raising: it was expensive (cold-chain logistics and dry ice aren't cheap), and it was inconvenient (urban dog owners don't have the freezer space). Russell's team went back to the drawing board with a simple brief: same mission, same human-grade whole ingredients, nothing artificial or synthetic, but shelf-stable.
         </Body>
         <Body>
-          The result was <strong style={{ color: "#fff" }}>Unkibble</strong>. Using a unique fresh dry process that removes water while preserving nutrients, Unkibble delivers the same quality as fresh frozen at 30–40% less cost. It launched in April 2020 — five people on the team, all dealing with COVID themselves.
+          The result was <strong style={{ color: "#fff" }}>Unkibble</strong>. Using a unique fresh dry process that removes water while preserving nutrients, Unkibble delivers the same quality as fresh frozen at 30–40% less cost. It launched in April 2020. Five people on the team, all dealing with COVID themselves.
         </Body>
         <Quote>
           "We ordered what we thought was three or four months of product. The first purchase order sold out in four days. The business went from $2 million run rate to $5, $10, and $20 million in six months."
@@ -335,7 +335,7 @@ export default function RussellBreuerBlog() {
 
         <Section title="How Spot and Tango Acquires Customers" />
         <Body>
-          Spot and Tango is a lower-funnel, direct response marketing operation. The primary channels are Meta, Google, and TikTok: paid performance advertising where creative quality is everything. "If our creative doesn't break through the noise, we won't be successful," Russell says. "We are in the entertainment business. I've got to compete with clicks from every other e-com brand out there — cat food brands, tennis shoes, t-shirts. Anything in consumer is going to draw the attention of the consumer."
+          Spot and Tango is a lower-funnel, direct response marketing operation. The primary channels are Meta, Google, and TikTok: paid performance advertising where creative quality is everything. "If our creative doesn't break through the noise, we won't be successful," Russell says. "We are in the entertainment business. I've got to compete with clicks from every other e-com brand out there: cat food brands, tennis shoes, t-shirts. Anything in consumer is going to draw the attention of the consumer."
         </Body>
         <Body>
           The approach is test-and-learn at speed: launch new creative assets, measure customer acquisition cost efficiency, kill what's not working, and double down on what is. The same philosophy extends to product launches. Unkibble's first purchase order sold out in four days, but not because they were certain it would work. They launched it because you can only learn so much from research. Eventually you pull the trigger and get live feedback.
@@ -544,7 +544,7 @@ function BioCallout() {
     {
       n: "2",
       title: "Vertical integration is hard, but the moat is real",
-      body: "Building a factory in Allentown was contrarian, expensive, and took two years. Now it's one of Spot and Tango's most defensible assets — quality control, margin ownership, and supply chain certainty at scale.",
+      body: "Building a factory in Allentown was contrarian, expensive, and took two years. Now it's one of Spot and Tango's most defensible assets: quality control, margin ownership, and supply chain certainty at scale.",
     },
     {
       n: "3",

@@ -276,7 +276,7 @@ export default function FounderGrowthGuide() {
           <div className="my-8 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <Image
               src="/images/feedback-social-listening.webp"
-              alt="Social media listening — monitoring customer feedback on X and online communities"
+              alt="Social media listening, monitoring customer feedback on X and online communities"
               width={1400}
               height={933}
               className="w-full"
@@ -407,7 +407,7 @@ export default function FounderGrowthGuide() {
           </Body>
 
           <div className="my-10 rounded-2xl p-7" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
-            <p className="mb-4 text-[0.65rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>Full Tool Stack — Referenced in This Guide</p>
+            <p className="mb-4 text-[0.65rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>Full Tool Stack Referenced in This Guide</p>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
                 <p className="mb-3 text-xs font-bold text-white">Customer Interviews</p>

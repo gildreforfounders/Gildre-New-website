@@ -278,7 +278,7 @@ export default function Next100Customers() {
             <div className="mt-8 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
               <Image
                 src="/images/gtm-feature-dashboard.webp"
-                alt="Feature.com dashboard — AI-powered content marketing and partnership discovery"
+                alt="Feature.com dashboard, AI-powered content marketing and partnership discovery"
                 width={1400}
                 height={800}
                 className="w-full"
@@ -302,7 +302,7 @@ export default function Next100Customers() {
                   <iframe
                     className="absolute inset-0 h-full w-full"
                     src="https://www.youtube.com/embed/YH1Y06eMEqM"
-                    title="Gildre GTM Playbook — High-Intent Content Marketing"
+                    title="Gildre GTM Playbook: High-Intent Content Marketing"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -330,7 +330,7 @@ export default function Next100Customers() {
             >
               The Precision Outbound Engine
             </h2>
-            <p className="mb-6 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>Cold Email — because signal beats volume every time</p>
+            <p className="mb-6 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>Cold Email: signal beats volume every time</p>
 
             <PhilosophyBar>Stop acting like a "sender." Start acting like a "solver."</PhilosophyBar>
 
@@ -409,7 +409,7 @@ export default function Next100Customers() {
                   <iframe
                     className="absolute inset-0 h-full w-full"
                     src="https://www.youtube.com/embed/gReszNnykpg"
-                    title="Gildre GTM Playbook — Precision Outbound"
+                    title="Gildre GTM Playbook: Precision Outbound"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -444,7 +444,7 @@ export default function Next100Customers() {
             <div className="mb-8 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
               <Image
                 src="/images/gtm-analytics-laptop.webp"
-                alt="Analytics dashboard on a laptop — tracking partnership and acquisition metrics"
+                alt="Analytics dashboard on a laptop, tracking partnership and acquisition metrics"
                 width={1400}
                 height={933}
                 className="w-full"
@@ -527,7 +527,7 @@ export default function Next100Customers() {
             style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}
           >
             <p className="mb-5 text-[0.65rem] font-bold uppercase tracking-widest" style={{ color: "#C9A96E" }}>
-              Full Stack — Tools Referenced in This Playbook
+              Full Stack: Tools Referenced in This Playbook
             </p>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               <div>

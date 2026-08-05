@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "What advice does Chris Yeh give to early-stage founders?",
-    a: "Chris Yeh's core advice to founders has two layers. First: almost nothing about success is an individual sport: you need a tribe. The way to build that tribe is to meet as many smart and interesting people as you can, and then wait. The relationships that compound over years or decades pay off in unexpected ways. Second: focus on conviction over consensus. The most successful entrepreneurs identified overlooked opportunities that others didn't believe in and executed on them before the rest of the world caught up. Being contrarian and right, as Peter Thiel describes it — is one of the most reliable paths to outsized success.",
+    a: "Chris Yeh's core advice to founders has two layers. First: almost nothing about success is an individual sport: you need a tribe. The way to build that tribe is to meet as many smart and interesting people as you can, and then wait. The relationships that compound over years or decades pay off in unexpected ways. Second: focus on conviction over consensus. The most successful entrepreneurs identified overlooked opportunities that others didn't believe in and executed on them before the rest of the world caught up. Being contrarian and right, as Peter Thiel describes it, is one of the most reliable paths to outsized success.",
   },
 ];
 
@@ -186,7 +186,7 @@ export default function ChrisYehBlog() {
             <span style={{ color: "#C9A96E" }}>Winning Winner-Take-Most Markets</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From writing free-email software at D.E. Shaw to co-authoring a bestseller with Reid Hoffman that defined how Silicon Valley thinks about scale — Chris Yeh joined the Start to Scale Podcast to unpack 30 years of lessons in startups, venture capital, AI, and the one relationship strategy that compounds louder than any fundraise.
+            From writing free-email software at D.E. Shaw to co-authoring a bestseller with Reid Hoffman that defined how Silicon Valley thinks about scale. Chris Yeh joined the Start to Scale Podcast to unpack 30 years of lessons in startups, venture capital, AI, and the one relationship strategy that compounds louder than any fundraise.
           </p>
 
           {/* Author + meta row */}
@@ -234,7 +234,7 @@ export default function ChrisYehBlog() {
           >
             Chris Yeh
           </a>{" "}
-          — co-author of{" "}
+          co-author of{" "}
           <strong style={{ color: "#fff" }}>Blitzscaling</strong> and{" "}
           <strong style={{ color: "#fff" }}>The Alliance</strong> with Reid Hoffman, Venture Partner at{" "}
           <strong style={{ color: "#fff" }}>Blitzscaling Ventures</strong>, and instructor at Stanford, on the{" "}
@@ -358,7 +358,7 @@ export default function ChrisYehBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Chris Yeh and Reid Hoffman with Blitzscaling — published October 2018
+              Chris Yeh and Reid Hoffman with Blitzscaling, published October 2018
             </p>
           </div>
         </div>

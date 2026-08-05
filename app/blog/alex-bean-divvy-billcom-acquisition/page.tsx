@@ -129,7 +129,7 @@ export default function AlexBeanBlog() {
               style={{ display: "block" }}
             />
             <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Alex Bean — co-founder of Divvy and Tandem Invest</p>
+              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>Alex Bean, co-founder of Divvy and Tandem Invest</p>
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function AlexBeanBlog() {
           Playing quarterback in high school taught Alex invaluable lessons in leadership and vision, skills that would later prove essential in his entrepreneurial career. He learned the importance of having a clear vision and the ability to rally people around a common goal, much like leading a football team.
         </Body>
         <Body>
-          In business, as in sports, the ability to pivot and adapt to changing circumstances is crucial. Alex often draws parallels between the two, emphasizing how the discipline and teamwork required on the field translate seamlessly into the boardroom. Resilience, the willingness to call a new play when the first one fails, and the ability to inspire a team around a shared outcome — these are just as valuable at a startup as they are at the line of scrimmage.
+          In business, as in sports, the ability to pivot and adapt to changing circumstances is crucial. Alex often draws parallels between the two, emphasizing how the discipline and teamwork required on the field translate seamlessly into the boardroom. Resilience, the willingness to call a new play when the first one fails, and the ability to inspire a team around a shared outcome, these are just as valuable at a startup as they are at the line of scrimmage.
         </Body>
 
         <Section title="The Leap into Entrepreneurship: Selling Before the Product Existed" />
@@ -186,7 +186,7 @@ export default function AlexBeanBlog() {
           As Divvy grew, Alex faced the challenge of maintaining the company's culture and values while scaling operations. He emphasizes the importance of hiring individuals who not only possess the necessary skills but also align with the company's mission. Culture isn't a side project; it's a competitive advantage. The team you build in the first 20 hires sets the tone for everything that follows.
         </Body>
         <Body>
-          The journey culminated in a successful acquisition by <strong style={{ color: "#fff" }}>Bill.com</strong> — one of fintech's landmark exits and a validation of everything Alex and his team had built. For the entrepreneurial community, Divvy's journey highlights the importance of innovation, resilience, and strategic positioning in achieving a successful outcome.
+          The journey culminated in a successful acquisition by <strong style={{ color: "#fff" }}>Bill.com</strong>, one of fintech's landmark exits and a validation of everything Alex and his team had built. For the entrepreneurial community, Divvy's journey highlights the importance of innovation, resilience, and strategic positioning in achieving a successful outcome.
         </Body>
 
         {/* Key lessons callout */}
@@ -202,9 +202,9 @@ export default function AlexBeanBlog() {
           </p>
           <ul className="flex flex-col gap-4">
             {[
-              "Sell the vision before the product — conviction is your earliest competitive advantage.",
+              "Sell the vision before the product. Conviction is your earliest competitive advantage.",
               "Combine two existing categories (credit cards + expense software) into one seamless product.",
-              "Hire for values alignment, not just skill — culture is built in the first 20 hires.",
+              "Hire for values alignment, not just skill. Culture is built in the first 20 hires.",
               "Know when a strategic partnership or acquisition creates more value than going it alone.",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3">
@@ -228,7 +228,7 @@ export default function AlexBeanBlog() {
           Having been a founder himself, Alex brings a unique lens to evaluating startups. He looks for conviction: founders who believe so deeply in what they're building that they'd do it regardless of the outcome. He looks for product-market fit signals, not just TAM slides. And he looks for teams who know how to sell, even before they have something to show.
         </Body>
         <Body>
-          His journey is a reminder that the skills that build great companies — vision, resilience, the ability to inspire others, and the willingness to take calculated risks — are the same skills that make great investors. The best VCs are the ones who've felt the weight of making payroll.
+          His journey is a reminder that the skills that build great companies, vision, resilience, the ability to inspire others, and the willingness to take calculated risks, are the same skills that make great investors. The best VCs are the ones who've felt the weight of making payroll.
         </Body>
 
         <Section title="The Takeaway" />

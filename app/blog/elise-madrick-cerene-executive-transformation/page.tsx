@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     canonical: "https://www.gildre.com/blog/elise-madrick-cerene-executive-transformation",
   },
   title:
-    "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
+    "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context, Not Just Your Habits",
   description:
     "Elise Madrick left a career in executive education at Kellogg to found Cerenè, an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new. Here's what she learned.",
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: "https://www.gildre.com/blog/elise-madrick-cerene-executive-transformation",
     title:
-      "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
+      "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context, Not Just Your Habits",
     description:
       "Elise Madrick left Kellogg executive education to found Cerenè, offering 108-day immersive transformation journeys to Morocco and France. What separates change from true reinvention.",
     type: "article",
@@ -37,7 +37,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits",
+    "Elise Madrick on Why Real Transformation Requires Changing Your Entire Context, Not Just Your Habits",
   description:
     "Elise Madrick left a career in executive education at Kellogg to found Cerenè, an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new.",
   image: "https://www.gildre.com/images/elise-madrick-headshot.webp",
@@ -200,7 +200,7 @@ export default function EliseMadrickBlog() {
               letterSpacing: "-0.02em",
             }}
           >
-            Elise Madrick on Why Real Transformation Requires Changing Your Entire Context — Not Just Your Habits
+            Elise Madrick on Why Real Transformation Requires Changing Your Entire Context, Not Just Your Habits
           </h1>
 
           {/* Byline */}
@@ -246,7 +246,7 @@ export default function EliseMadrickBlog() {
           {/* Key facts */}
           <KeyFacts
             items={[
-              "Founder & CEO of Cerenè — immersive 108-day executive transformation experiences",
+              "Founder & CEO of Cerenè, immersive 108-day executive transformation experiences",
               "Former executive education faculty at Kellogg School of Management",
               "Background in clinical social work and child welfare advocacy",
               "Spent years training thousands of leaders across global organizations",
@@ -380,7 +380,7 @@ export default function EliseMadrickBlog() {
               },
               {
                 num: "02",
-                title: "Spaces — your physical environment",
+                title: "Spaces: your physical environment",
                 body: "The rooms you occupy, the cities you navigate, the landscapes you move through, all of these influence your nervous system, your energy, and the mental models you default to.",
               },
               {
@@ -490,7 +490,7 @@ export default function EliseMadrickBlog() {
                 <p style={{ color: "#f0e6d3", fontWeight: 700, fontSize: "1rem", marginBottom: "0.2rem" }}>
                   {item.phase}
                   <span style={{ color: "#7a8499", fontWeight: 400, fontSize: "0.9rem", marginLeft: "0.5rem" }}>
-                    — {item.subtitle}
+                    {item.subtitle}
                   </span>
                 </p>
                 <p style={{ color: "#c8cdd8", fontSize: "0.97rem", lineHeight: "1.75", margin: 0 }}>

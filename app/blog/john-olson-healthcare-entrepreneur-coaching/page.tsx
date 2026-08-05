@@ -245,7 +245,7 @@ export default function JohnOlsonBlog() {
               "Built a diversified portfolio spanning e-commerce, real estate, and services",
               "Executive coach helping entrepreneurs and leaders navigate complexity and growth",
               "Practitioner of the 'Who Not How' delegation framework for scaling without burnout",
-              "Active member of Gildre — invests in peer groups as a core leadership strategy",
+              "Active member of Gildre, invests in peer groups as a core leadership strategy",
             ]}
           />
 
@@ -386,7 +386,7 @@ export default function JohnOlsonBlog() {
             <Body>
               The most common trap for high-achieving founders and executives is the belief that
               their value is in their doing. They are often excellent at a specific set of skills
-              — operations, sales, product, finance, and they have built identity and confidence
+              covering operations, sales, product, and finance, they have built identity and confidence
               around those skills. Letting go feels like risk. It feels like losing control.
             </Body>
             <Body>

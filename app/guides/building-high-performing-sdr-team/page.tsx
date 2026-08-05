@@ -304,7 +304,7 @@ export default function SDRTeam() {
               letterSpacing: "-0.02em",
             }}
           >
-            The Founder&apos;s Playbook for Building a High-Performing SDR Team — From First Hire to Hypergrowth
+            The Founder&apos;s Playbook for Building a High-Performing SDR Team: From First Hire to Hypergrowth
           </h1>
 
           <p style={{ color: "#7a8499", fontSize: "0.9rem", marginBottom: "2.5rem" }}>

@@ -63,7 +63,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in Boston?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Boston founder or operator who has directly relevant experience — in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Boston founder or operator who has directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
           },
         },
         {
@@ -71,7 +71,7 @@ const schema = {
           name: "Where are Boston founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Boston hosts monthly founder dinners in Kendall Square and the Seaport Innovation District — the two densest nodes of Boston's tech ecosystem. Peer roundtables and investor sessions rotate across Cambridge and Back Bay venues.",
+            text: "Gildre Boston hosts monthly founder dinners in Kendall Square and the Seaport Innovation District, the two densest nodes of Boston's tech ecosystem. Peer roundtables and investor sessions rotate across Cambridge and Back Bay venues.",
           },
         },
         {
@@ -87,7 +87,7 @@ const schema = {
           name: "How is Gildre different from Boston's university innovation programs?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "MIT's entrepreneurship programs and Harvard Innovation Labs are excellent institutional resources. Gildre is the peer layer for founders who have already left those programs — building companies at speed and needing operator-level mentorship and active 1:1 introductions, not coursework.",
+            text: "MIT's entrepreneurship programs and Harvard Innovation Labs are excellent institutional resources. Gildre is the peer layer for founders who have already left those programs, building companies at speed and needing operator-level mentorship and active 1:1 introductions, not coursework.",
           },
         },
         {
@@ -95,7 +95,7 @@ const schema = {
           name: "Can I attend a Boston event before becoming a member?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Occasionally Gildre opens select Boston events to prospective members by invitation. Apply and mention your interest in a Boston preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+            text: "Occasionally Gildre opens select Boston events to prospective members by invitation. Apply and mention your interest in a Boston preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
           },
         },
       ],
@@ -125,7 +125,7 @@ const verticals = [
   {
     label: "Enterprise SaaS & Cybersecurity",
     description:
-      "HubSpot's success has seeded a generation of enterprise SaaS founders in Boston. The city's cybersecurity cluster — anchored by a dense federal and financial services client base — is equally deep.",
+      "HubSpot's success has seeded a generation of enterprise SaaS founders in Boston. The city's cybersecurity cluster, anchored by a dense federal and financial services client base, is equally deep.",
     tags: ["CRM & MarTech", "Cybersecurity", "Vertical SaaS", "Enterprise Platforms"],
   },
 ];
@@ -139,14 +139,14 @@ const testimonials = [
     photo: "/reviews/caitlin-van-berkel.webp",
   },
   {
-    quote: "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    quote: "The structure at Gildre is impressive. It's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
     company: "Solvee",
     photo: "/reviews/christof-mannfeld.webp",
   },
   {
-    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that — a community where I can both give and gain exceptional value.",
+    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
     name: "Elise Madrick",
     title: "Founder",
     company: "Cerené",
@@ -157,11 +157,11 @@ const testimonials = [
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in Boston?",
-    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Boston founder or operator with directly relevant experience — in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Boston founder or operator with directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
   },
   {
     q: "Where are Boston founder dinners and events held?",
-    a: "Gildre Boston hosts monthly founder dinners in Kendall Square and the Seaport Innovation District — the two densest nodes of Boston's tech ecosystem. Peer roundtables and investor sessions rotate across Cambridge and Back Bay venues.",
+    a: "Gildre Boston hosts monthly founder dinners in Kendall Square and the Seaport Innovation District, the two densest nodes of Boston's tech ecosystem. Peer roundtables and investor sessions rotate across Cambridge and Back Bay venues.",
   },
   {
     q: "What types of founders join Gildre Boston?",
@@ -169,11 +169,11 @@ const faqItems = [
   },
   {
     q: "How is Gildre different from Boston's university innovation programs?",
-    a: "MIT's entrepreneurship programs and Harvard Innovation Labs are excellent institutional resources. Gildre is the peer layer for founders who have already left those programs — building companies at speed and needing operator-level mentorship and active 1:1 introductions, not coursework.",
+    a: "MIT's entrepreneurship programs and Harvard Innovation Labs are excellent institutional resources. Gildre is the peer layer for founders who have already left those programs, building companies at speed and needing operator-level mentorship and active 1:1 introductions, not coursework.",
   },
   {
     q: "Can I attend a Boston event before becoming a member?",
-    a: "Occasionally Gildre opens select Boston events to prospective members by invitation. Apply and mention your interest in a Boston preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+    a: "Occasionally Gildre opens select Boston events to prospective members by invitation. Apply and mention your interest in a Boston preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
   },
 ];
 
@@ -212,7 +212,7 @@ export default function BostonPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables — built for Boston&rsquo;s most focused
+            mentorship, and high-impact peer roundtables, built for Boston&rsquo;s most focused
             founders, from Kendall Square to the Seaport.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -270,7 +270,7 @@ export default function BostonPage() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
             Gildre matches you with peers and operators who have already navigated the exact
-            terrain you&rsquo;re crossing — in your vertical, at your stage.
+            terrain you&rsquo;re crossing, in your vertical, at your stage.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {verticals.map((v) => (
@@ -309,7 +309,7 @@ export default function BostonPage() {
           <div className="mt-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(255,255,255,0.02)" }}>
             <div className="flex flex-col sm:flex-row">
               <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
-                <Image src="/images/ryan-hughes-headshot.webp" alt="Ryan Hughes, Founder of Fan Pier Labs — Boston Gildre member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
+                <Image src="/images/ryan-hughes-headshot.webp" alt="Ryan Hughes, Founder of Fan Pier Labs, Boston Gildre member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
               </div>
               <div className="flex flex-col justify-center p-8">
                 <span className="mb-3 inline-block rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>
@@ -318,7 +318,7 @@ export default function BostonPage() {
                 <h3 className="text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Ryan Hughes</h3>
                 <p className="mt-1 text-sm font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>Founder &amp; CEO · Fan Pier Labs</p>
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-                  Ryan left senior engineering roles at Google and Snapchat to found Fan Pier Labs, an AI-driven software consultancy for startups — named after Boston&rsquo;s iconic waterfront. He brings a rare combination of big-tech depth and founder urgency to the Gildre community.
+                  Ryan left senior engineering roles at Google and Snapchat to found Fan Pier Labs, an AI-driven software consultancy for startups, named after Boston&rsquo;s iconic waterfront. He brings a rare combination of big-tech depth and founder urgency to the Gildre community.
                 </p>
                 <Link href="/blog/ryan-hughes-google-snapchat-fan-pier-labs" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
@@ -347,7 +347,7 @@ export default function BostonPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre Boston founder dinner — monthly gatherings in Kendall Square and the Seaport" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre Boston founder dinner, monthly gatherings in Kendall Square and the Seaport" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
@@ -360,13 +360,13 @@ export default function BostonPage() {
                 Real rooms. Real conversations. Active facilitation.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Boston hosts curated in-person programming every month — small, intentional gatherings where every attendee is selected and every conversation has a point.
+                Gildre Boston hosts curated in-person programming every month: small, intentional gatherings where every attendee is selected and every conversation has a point.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in Kendall Square and the Seaport Innovation District. 12–20 founders per table. No pitches, no panels — high-density peer conversation." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on scaling challenges — navigating FDA timelines, deep-tech fundraising, hiring PhD talent — facilitated by operators who have crossed the same threshold." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Boston-area VCs and angels deploying into biotech, deep-tech, and enterprise — the verticals you are building in." },
+                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in Kendall Square and the Seaport Innovation District. 12–20 founders per table. No pitches, no panels. High-density peer conversation." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on scaling challenges: navigating FDA timelines, deep-tech fundraising, and hiring PhD talent, facilitated by operators who have crossed the same threshold." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Boston-area VCs and angels deploying into biotech, deep-tech, and enterprise, the verticals you are building in." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
@@ -418,7 +418,7 @@ export default function BostonPage() {
               Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in Boston.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre Boston is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior founder experience, and are serious about peer-to-peer growth — not just collecting contacts.
+              Gildre Boston is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior founder experience, and are serious about peer-to-peer growth, not just collecting contacts.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -451,7 +451,7 @@ export default function BostonPage() {
               {
                 name: "Shweta Agrawal",
                 title: "Chapter Lead · Gildre Boston",
-                bio: "Shweta is a founder and operator deeply embedded in Boston's innovation ecosystem. She brings a thoughtful, people-first approach to community building — focused on the kind of peer relationships that create real leverage for early-stage founders.",
+                bio: "Shweta is a founder and operator deeply embedded in Boston's innovation ecosystem. She brings a thoughtful, people-first approach to community building, focused on the kind of peer relationships that create real leverage for early-stage founders.",
                 photo: "/team/shweta-agrawal.webp",
                 linkedin: "#",
               },
@@ -512,7 +512,7 @@ export default function BostonPage() {
             Your next breakthrough starts with the right room.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with Boston founders who are building at your level — with 1:1 introductions starting in your first week.
+            Apply today and get actively matched with Boston founders who are building at your level, with 1:1 introductions starting in your first week.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>

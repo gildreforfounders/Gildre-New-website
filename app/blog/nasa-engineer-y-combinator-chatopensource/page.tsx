@@ -144,7 +144,7 @@ export default function NasaFounderBlog() {
           Growing up in South Louisiana, I was immersed in a place you might come across if you Google "Cancer Alley." It's a region with a significant amount of pollution due to the abundance of chemical plants, one of which my father worked for. Health problems were common in our family and among our friends.
         </Body>
         <Body>
-          Determined to find a different path, I went to Louisiana State University (LSU) where I earned a degree in physics and mathematics. Initially, I thought I might become a physicist. But I also had another dream brewing — one that had taken root at around age ten, when my parents gave me an old computer and, with it, access to a world beyond my front door.
+          Determined to find a different path, I went to Louisiana State University (LSU) where I earned a degree in physics and mathematics. Initially, I thought I might become a physicist. But I also had another dream brewing, one that had taken root at around age ten, when my parents gave me an old computer and, with it, access to a world beyond my front door.
         </Body>
         <Body>
           I encountered the Bay Area tech culture through that screen and it stirred a feeling of optimism that was in stark contrast with my surroundings. Google was gaining momentum just as I was discovering the world beyond South Louisiana. The first AI winter, that period of reduced funding and interest in artificial intelligence, was waning. These experiences ignited a desire for something grounded in science and evidence, underscored by fresh mindsets and new technology.
@@ -190,7 +190,7 @@ export default function NasaFounderBlog() {
         >
           <Image
             src="/images/chatopensource-logo.webp"
-            alt="ChatOpenSource — open-source alternative to ChatGPT"
+            alt="ChatOpenSource, open-source alternative to ChatGPT"
             width={500}
             height={120}
             quality={90}
@@ -238,7 +238,7 @@ export default function NasaFounderBlog() {
           </p>
           <ul className="flex flex-col gap-4">
             {[
-              "Non-linear paths build non-obvious advantages — NASA gave a startup founder skills no CS degree does.",
+              "Non-linear paths build non-obvious advantages. NASA gave a startup founder skills no CS degree does.",
               "Bureaucracy is a signal, not a life sentence. Use it to clarify what you actually want to build.",
               "Speed is a feature. Going from zero to 1M deliveries/day at Deliv rewired how fast 'fast' really is.",
               "Build what your customers love, not what you love. Pivots are the curriculum, not the failure.",

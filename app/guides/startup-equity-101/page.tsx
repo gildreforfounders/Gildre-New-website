@@ -183,7 +183,7 @@ export default function StartupEquity101() {
           <div className="my-10 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <Image
               src="/images/equity-stock-charts.webp"
-              alt="Stock market charts — startup equity and cap table management"
+              alt="Stock market charts, startup equity and cap table management"
               width={1400}
               height={933}
               className="w-full"
@@ -287,7 +287,7 @@ export default function StartupEquity101() {
           <div className="my-8 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <Image
               src="/images/equity-growth-coins.webp"
-              alt="Coins with a plant growing — startup equity as long-term investment"
+              alt="Coins with a plant growing, startup equity as long-term investment"
               width={1400}
               height={933}
               className="w-full"

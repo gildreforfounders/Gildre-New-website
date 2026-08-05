@@ -22,7 +22,7 @@ export const metadata = {
     url: "https://www.gildre.com/blog/steve-ramona-servant-heart-podcast-networking",
     title: "Steve Ramona: The Servant's Heart Business Philosophy That Turned a Gym Front Desk Into Millions",
     description:
-      "Steve Ramona on the ASLA principle — Ask, Shut Up, Listen Actively, Ask Again, and how a 20-year health club career built a network that launched a restaurant, a recycling company, and one of the fastest-growing servant leadership podcasts.",
+      "Steve Ramona on the ASLA principle: Ask, Shut Up, Listen Actively, Ask Again, and how a 20-year health club career built a network that launched a restaurant, a recycling company, and one of the fastest-growing servant leadership podcasts.",
     type: "article",
     images: [
       {
@@ -87,7 +87,7 @@ const personSchema = {
     "Sales",
   ],
   description:
-    "Steve Ramona is the host of Doing Business with a Servant's Heart, a top business and networking podcast with over 31,000 subscribers and 300+ episodes. Over a 40-year career spanning a family health club, a restaurant, and an electronics recycling company, Steve built and leveraged a vast network using a philosophy of transformational, not transactional — relationships.",
+    "Steve Ramona is the host of Doing Business with a Servant's Heart, a top business and networking podcast with over 31,000 subscribers and 300+ episodes. Over a 40-year career spanning a family health club, a restaurant, and an electronics recycling company, Steve built and leveraged a vast network using a philosophy of transformational, not transactional, relationships.",
 };
 
 const faqs = [
@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     q: "What does transformational vs transactional mean in business?",
-    a: "Steve Ramona defines transformational relationships as ones where you genuinely improve the other person's situation: offering advice, connections, or resources, without expecting an immediate return. Transactional relationships are purely exchange-based: I give you something, you give me something now. Steve's philosophy is that consistently showing up as transformational, even when it costs you time or money — is what builds the deep network that sustains long-term business success. His career is the proof: every business he launched succeeded by activating relationships he had built transactionally years before.",
+    a: "Steve Ramona defines transformational relationships as ones where you genuinely improve the other person's situation: offering advice, connections, or resources, without expecting an immediate return. Transactional relationships are purely exchange-based: I give you something, you give me something now. Steve's philosophy is that consistently showing up as transformational, even when it costs you time or money, is what builds the deep network that sustains long-term business success. His career is the proof: every business he launched succeeded by activating relationships he had built transactionally years before.",
   },
   {
     q: "How did Steve Ramona build his professional network?",
@@ -225,7 +225,7 @@ export default function SteveRamonaBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Steve Ramona — podcaster, TV host, entrepreneur, and host of Doing Business with a Servant&apos;s Heart
+              Steve Ramona, podcaster, TV host, entrepreneur, and host of Doing Business with a Servant&apos;s Heart
             </p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function SteveRamonaBlog() {
           That exchange became the operating philosophy behind everything Steve has built since. He didn&apos;t name it then. But the seed of what he now calls a servant&apos;s heart was planted by a guy who walked into a gym and threw a 60-page book at an 18-year-old he barely knew.
         </Body>
 
-        <Section title="20 Years Behind the Front Desk — And What It Actually Built" />
+        <Section title="20 Years Behind the Front Desk: What It Actually Built" />
         <Body>
           From 1978 to 2000, Steve worked at a health club in Silicon Valley. 2,000 to 3,000 members a day. Two decades of checking people in, remembering names, asking follow-up questions, and building what he didn&apos;t yet have a word for: a network.
         </Body>
@@ -299,7 +299,7 @@ export default function SteveRamonaBlog() {
         <div className="my-14 overflow-hidden rounded-2xl mx-auto" style={{ border: "1px solid rgba(201,169,110,0.15)", maxWidth: "660px" }}>
           <Image
             src="/images/steve-ramona-podcast.jpeg"
-            alt="Steve Ramona holding a microphone — host of Doing Business with a Servant's Heart"
+            alt="Steve Ramona holding a microphone, host of Doing Business with a Servant's Heart"
             width={660}
             height={825}
             quality={90}
@@ -322,7 +322,7 @@ export default function SteveRamonaBlog() {
           <strong style={{ color: "#fff" }}>Ask</strong> a question. <strong style={{ color: "#fff" }}>Shut up.</strong> <strong style={{ color: "#fff" }}>Listen Actively.</strong> <strong style={{ color: "#fff" }}>Ask</strong> another question.
         </Body>
         <Body>
-          He calls it the ASLA principle, coined by a podcast guest named Jeffrey Flacky, who gave the label to something Steve had been doing naturally for decades. The mechanics are simple: find something you genuinely want to know about the person in front of you, ask it, and then get out of the way. "Hey, I saw you doing curls at a certain angle — why do you do that?" The other person becomes the expert. You&apos;ve given them the gift of your attention. A relationship has started.
+          He calls it the ASLA principle, coined by a podcast guest named Jeffrey Flacky, who gave the label to something Steve had been doing naturally for decades. The mechanics are simple: find something you genuinely want to know about the person in front of you, ask it, and then get out of the way. "Hey, I saw you doing curls at a certain angle. Why do you do that?" The other person becomes the expert. You&apos;ve given them the gift of your attention. A relationship has started.
         </Body>
         <Quote>
           "Ask, shut up, listen actively, and ask another question. Everybody&apos;s going to answer a question most of the time. You identified them, you made them the expert, and you gave them a gift. That&apos;s literally made me millions."

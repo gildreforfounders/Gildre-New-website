@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Sharon Gai: From Alibaba to International Keynote Speaker on the Future of AI and Work",
     description:
-      "Sharon Gai on the night AI changed everything inside Alibaba, why human taste, not output — will define the future of work, and how founders should build in public.",
+      "Sharon Gai on the night AI changed everything inside Alibaba, why human taste, not output, will define the future of work, and how founders should build in public.",
   },
 };
 
@@ -219,7 +219,7 @@ export default function SharonGaiBlog() {
 
         {/* Intro */}
         <p className="text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          We recently sat down with Sharon Gai — international keynote speaker, author, and former Head of Global Key Accounts at{" "}
+          We recently sat down with Sharon Gai, international keynote speaker, author, and former Head of Global Key Accounts at{" "}
           <a
             href="https://www.alibaba.com"
             target="_blank"
@@ -246,7 +246,7 @@ export default function SharonGaiBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Sharon Gai — international keynote speaker, author, and former Head of Global Key Accounts at Alibaba
+              Sharon Gai, international keynote speaker, author, and former Head of Global Key Accounts at Alibaba
             </p>
           </div>
         </div>
@@ -323,7 +323,7 @@ export default function SharonGaiBlog() {
           Sharon's book is called <strong style={{ color: "#fff" }}>How to Do More with Less: Future Proofing Yourself in the Age of AI</strong>. The cover features a bee. The metaphor is intentional.
         </Body>
         <Body>
-          Most professionals, she argues, are busy bees: executing endless task lists, checking boxes, doing what's in front of them. The traditional corporate path reinforces this: four-year degree, climb the ladder, earn your 10–15% annual raise, repeat. The problem is that the work that makes busy bees valuable: the rote, mechanical, repeatable output — is exactly what AI is now able to do at far greater scale and speed.
+          Most professionals, she argues, are busy bees: executing endless task lists, checking boxes, doing what's in front of them. The traditional corporate path reinforces this: four-year degree, climb the ladder, earn your 10–15% annual raise, repeat. The problem is that the work that makes busy bees valuable, the rote, mechanical, repeatable output, is exactly what AI is now able to do at far greater scale and speed.
         </Body>
         <Quote>
           "Human potential is so vast and we shouldn't mire ourselves with those boring rote mechanical tasks that are meant for a machine to do. We should be left with the truly creative and truly strategic tasks that deserve our human attention. I hope work in the future is where we spend human precious hours on human necessary tasks."

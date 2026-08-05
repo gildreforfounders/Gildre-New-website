@@ -63,7 +63,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in Seattle?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience — in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
           },
         },
         {
@@ -71,7 +71,7 @@ const schema = {
           name: "Where are Seattle founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill — the two most active nodes of Seattle's founder ecosystem. Peer roundtables and investor sessions rotate across Pioneer Square and Belltown venues.",
+            text: "Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill, the two most active nodes of Seattle's founder ecosystem. Peer roundtables and investor sessions rotate across Pioneer Square and Belltown venues.",
           },
         },
         {
@@ -87,7 +87,7 @@ const schema = {
           name: "How does Gildre help big-tech alumni transition to founder life?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The leap from FAANG to founder is a specific challenge — different from general entrepreneurship. Gildre Seattle has a concentrated cohort of big-tech alumni founders who have crossed that threshold and can offer the specific mentorship and peer support that transition requires, from the first hire to the first enterprise contract.",
+            text: "The leap from FAANG to founder is a specific challenge, different from general entrepreneurship. Gildre Seattle has a concentrated cohort of big-tech alumni founders who have crossed that threshold and can offer the specific mentorship and peer support that transition requires, from the first hire to the first enterprise contract.",
           },
         },
         {
@@ -95,7 +95,7 @@ const schema = {
           name: "Can I attend a Seattle event before becoming a member?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Occasionally Gildre opens select Seattle events to prospective members by invitation. Apply and mention your interest in a Seattle preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+            text: "Occasionally Gildre opens select Seattle events to prospective members by invitation. Apply and mention your interest in a Seattle preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
           },
         },
       ],
@@ -107,7 +107,7 @@ const verticals = [
   {
     label: "Cloud & Enterprise Infrastructure",
     description:
-      "AWS and Azure were both built in Seattle. A generation of founders is now building the next layer of cloud infrastructure — DevOps tooling, security platforms, data infrastructure, and API-first enterprise software — with access to enterprise buyers and operators who have deployed at planetary scale.",
+      "AWS and Azure were both built in Seattle. A generation of founders is now building the next layer of cloud infrastructure: DevOps tooling, security platforms, data infrastructure, and API-first enterprise software, with access to enterprise buyers and operators who have deployed at planetary scale.",
     tags: ["DevOps & Platform Eng", "Security Infrastructure", "Data Platforms", "API-First SaaS"],
   },
   {
@@ -119,7 +119,7 @@ const verticals = [
   {
     label: "Biotech & Genomics",
     description:
-      "The Institute for Systems Biology and UW&rsquo;s world-class research programs have seeded a biotech ecosystem in Seattle that operates very differently from Boston — more engineer-led, more computational, and deeply connected to the Pacific Northwest&rsquo;s life sciences infrastructure.",
+      "The Institute for Systems Biology and UW&rsquo;s world-class research programs have seeded a biotech ecosystem in Seattle that operates very differently from Boston, more engineer-led, more computational, and deeply connected to the Pacific Northwest&rsquo;s life sciences infrastructure.",
     tags: ["Genomics", "Computational Biology", "Digital Therapeutics", "Biomedical Devices"],
   },
   {
@@ -139,14 +139,14 @@ const testimonials = [
     photo: "/reviews/caitlin-van-berkel.webp",
   },
   {
-    quote: "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    quote: "The structure at Gildre is impressive. It's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
     company: "Solvee",
     photo: "/reviews/christof-mannfeld.webp",
   },
   {
-    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that — a community where I can both give and gain exceptional value.",
+    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
     name: "Elise Madrick",
     title: "Founder",
     company: "Cerené",
@@ -157,11 +157,11 @@ const testimonials = [
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in Seattle?",
-    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience — in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
   },
   {
     q: "Where are Seattle founder dinners and events held?",
-    a: "Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill — the two most active nodes of Seattle's founder ecosystem. Peer roundtables and investor sessions rotate across Pioneer Square and Belltown venues.",
+    a: "Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill, the two most active nodes of Seattle's founder ecosystem. Peer roundtables and investor sessions rotate across Pioneer Square and Belltown venues.",
   },
   {
     q: "What types of founders join Gildre Seattle?",
@@ -169,11 +169,11 @@ const faqItems = [
   },
   {
     q: "How does Gildre help big-tech alumni transition to founder life?",
-    a: "The leap from FAANG to founder is a specific challenge — very different from general entrepreneurship. Gildre Seattle has a concentrated cohort of big-tech alumni founders who have crossed that threshold and can offer the specific mentorship the transition requires, from the first hire to the first enterprise contract.",
+    a: "The leap from FAANG to founder is a specific challenge, very different from general entrepreneurship. Gildre Seattle has a concentrated cohort of big-tech alumni founders who have crossed that threshold and can offer the specific mentorship the transition requires, from the first hire to the first enterprise contract.",
   },
   {
     q: "Can I attend a Seattle event before becoming a member?",
-    a: "Occasionally Gildre opens select Seattle events to prospective members by invitation. Apply and mention your interest in a Seattle preview dinner — we regularly prioritize local applicants so you can experience the community before committing.",
+    a: "Occasionally Gildre opens select Seattle events to prospective members by invitation. Apply and mention your interest in a Seattle preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
   },
 ];
 
@@ -201,7 +201,7 @@ export default function SeattlePage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables — built for Seattle&rsquo;s most focused
+            mentorship, and high-impact peer roundtables, built for Seattle&rsquo;s most focused
             founders, from South Lake Union to Capitol Hill.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -238,7 +238,7 @@ export default function SeattlePage() {
             Deep expertise in the industries<br />Seattle built for the planet.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing — in your vertical, at your stage.
+            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {verticals.map((v) => (
@@ -285,7 +285,7 @@ export default function SeattlePage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre Seattle founder dinner — monthly gatherings in South Lake Union and Capitol Hill" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre Seattle founder dinner, monthly gatherings in South Lake Union and Capitol Hill" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
@@ -298,13 +298,13 @@ export default function SeattlePage() {
                 Real rooms. Real conversations. Active facilitation.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Seattle hosts curated in-person programming every month — small, intentional gatherings where every attendee is selected and every conversation has a point.
+                Gildre Seattle hosts curated in-person programming every month: small, intentional gatherings where every attendee is selected and every conversation has a point.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in South Lake Union and Capitol Hill. 12–20 founders per table. No pitches, no panels — high-density peer conversation for Seattle's most serious builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on Seattle-specific challenges — transitioning from big-tech to startup, hiring against Amazon and Microsoft, enterprise sales to technical buyers — facilitated by operators who have navigated the same terrain." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Pacific Northwest VCs and angels deploying into cloud infrastructure, applied AI, biotech, and marketplace tech — the categories Seattle has built its global reputation in." },
+                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in South Lake Union and Capitol Hill. 12–20 founders per table. No pitches, no panels. High-density peer conversation for Seattle's most serious builders." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on Seattle-specific challenges: transitioning from big-tech to startup, hiring against Amazon and Microsoft, and enterprise sales to technical buyers, facilitated by operators who have navigated the same terrain." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Pacific Northwest VCs and angels deploying into cloud infrastructure, applied AI, biotech, and marketplace tech, the categories Seattle has built its global reputation in." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
@@ -356,7 +356,7 @@ export default function SeattlePage() {
               Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in Seattle.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre Seattle is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior big-tech experience, and are serious about peer-to-peer growth — not just collecting contacts.
+              Gildre Seattle is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior big-tech experience, and are serious about peer-to-peer growth, not just collecting contacts.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -435,7 +435,7 @@ export default function SeattlePage() {
             Your next breakthrough starts with the right room.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with Seattle founders building at your level — with 1:1 introductions starting in your first week.
+            Apply today and get actively matched with Seattle founders building at your level, with 1:1 introductions starting in your first week.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>

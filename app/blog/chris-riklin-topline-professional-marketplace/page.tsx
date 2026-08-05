@@ -247,7 +247,7 @@ export default function ChrisRiklinBlog() {
               "Saw firsthand how talented professionals lose opportunities to outdated hiring gatekeepers",
               "Topline removes friction for fractional executives, consultants, and freelancers finding clients",
               "Believes the future of work is multi-role, multi-income-stream, and non-linear",
-              "Mission: build a platform that empowers professionals globally — one connection at a time",
+              "Mission: build a platform that empowers professionals globally, one connection at a time",
             ]}
           />
 

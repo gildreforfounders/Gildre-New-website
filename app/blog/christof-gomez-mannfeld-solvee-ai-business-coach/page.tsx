@@ -285,7 +285,7 @@ export default function ChristofGomezMannfeldBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Christof Gomez Mannfeld — founder of solvee, Gildre member, and bilingual Spaniard-German building the AI accelerator for founders from southern Spain
+              Christof Gomez Mannfeld, founder of solvee, Gildre member, and bilingual Spaniard-German building the AI accelerator for founders from southern Spain
             </p>
           </div>
         </div>
@@ -318,7 +318,7 @@ export default function ChristofGomezMannfeldBlog() {
         <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/christof-gomez-manfeld-solvi.jpeg"
-            alt="Christof Gomez Mannfeld and solvee — AI accelerator for startup founders"
+            alt="Christof Gomez Mannfeld and solvee, AI accelerator for startup founders"
             width={720}
             height={331}
             quality={90}
@@ -328,7 +328,7 @@ export default function ChristofGomezMannfeldBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Christof Gomez Mannfeld — seven years at Bosch led to the insight that built solvee: founders need the same strategic clarity that big companies spend millions trying to create
+              Christof Gomez Mannfeld. Seven years at Bosch led to the insight that built solvee: founders need the same strategic clarity that big companies spend millions trying to create
             </p>
           </div>
         </div>

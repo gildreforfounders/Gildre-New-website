@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Startup Fundraising Terminology: The Complete Founder's Glossary — From Pre-Seed to Series C",
+  headline: "Startup Fundraising Terminology: The Complete Founder's Glossary, From Pre-Seed to Series C",
   description:
     "Every fundraising term founders need to know: runway, burn rate, dilution, convertible notes, term sheets, and 20+ more. Plain-language definitions with context.",
   image: "https://www.gildre.com/images/fundraising-plant-coins.webp",
@@ -235,7 +235,7 @@ export default function StartupFundraisingTerminology() {
             <div className="relative mt-10 overflow-hidden rounded-2xl" style={{ aspectRatio: "16/7" }}>
               <Image
                 src="/images/fundraising-plant-coins.webp"
-                alt="Plant growing from coins — startup fundraising guide"
+                alt="Plant growing from coins, startup fundraising guide"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 800px"

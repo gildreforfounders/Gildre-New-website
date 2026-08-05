@@ -63,7 +63,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in Austin?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an Austin founder or operator who has directly relevant experience — in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an Austin founder or operator who has directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
           },
         },
         {
@@ -71,7 +71,7 @@ const schema = {
           name: "Where are Austin founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Austin hosts monthly founder dinners Downtown and in East Austin — the two most active corridors of Austin's startup scene. Peer roundtables and investor sessions rotate across South Lamar and Domain-area venues.",
+            text: "Gildre Austin hosts monthly founder dinners Downtown and in East Austin, the two most active corridors of Austin's startup scene. Peer roundtables and investor sessions rotate across South Lamar and Domain-area venues.",
           },
         },
         {
@@ -87,7 +87,7 @@ const schema = {
           name: "How is Gildre different from Capital Factory or other Austin startup hubs?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Capital Factory and the Austin startup scene are great open ecosystems. Gildre is the curated, private peer layer built for founders who are past the idea stage — actively scaling and needing high-signal 1:1 introductions, operator mentorship, and a room with other builders at their exact level.",
+            text: "Capital Factory and the Austin startup scene are great open ecosystems. Gildre is the curated, private peer layer built for founders who are past the idea stage, actively scaling and needing high-signal 1:1 introductions, operator mentorship, and a room with other builders at their exact level.",
           },
         },
         {
@@ -95,7 +95,7 @@ const schema = {
           name: "I just relocated to Austin. Is Gildre a good way to build my local network fast?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes — this is one of the most common entry points for Gildre Austin members. Founders who relocated from SF, NYC, or Chicago use Gildre to build the high-trust peer relationships in Austin that took years to develop in their previous city. The 1:1 intro program accelerates that dramatically.",
+            text: "Yes. This is one of the most common entry points for Gildre Austin members. Founders who relocated from SF, NYC, or Chicago use Gildre to build the high-trust peer relationships in Austin that took years to develop in their previous city. The 1:1 intro program accelerates that dramatically.",
           },
         },
       ],
@@ -139,7 +139,7 @@ const testimonials = [
     photo: "/reviews/caitlin-van-berkel.webp",
   },
   {
-    quote: "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+    quote: "The structure at Gildre is impressive. It's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
     company: "Solvee",
@@ -157,11 +157,11 @@ const testimonials = [
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in Austin?",
-    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an Austin founder or operator with directly relevant experience — in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an Austin founder or operator with directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
   },
   {
     q: "Where are Austin founder dinners and events held?",
-    a: "Gildre Austin hosts monthly founder dinners Downtown and in East Austin — the two most active corridors of Austin's startup scene. Peer roundtables and investor sessions rotate across South Lamar and Domain-area venues.",
+    a: "Gildre Austin hosts monthly founder dinners Downtown and in East Austin, the two most active corridors of Austin's startup scene. Peer roundtables and investor sessions rotate across South Lamar and Domain-area venues.",
   },
   {
     q: "What types of founders join Gildre Austin?",
@@ -169,11 +169,11 @@ const faqItems = [
   },
   {
     q: "How is Gildre different from Capital Factory or other Austin startup hubs?",
-    a: "Capital Factory and the Austin ecosystem are great open resources. Gildre is the curated, private peer layer for founders past the idea stage — actively scaling and needing high-signal 1:1 introductions, operator mentorship, and a room with builders at their exact level.",
+    a: "Capital Factory and the Austin ecosystem are great open resources. Gildre is the curated, private peer layer for founders past the idea stage, actively scaling and needing high-signal 1:1 introductions, operator mentorship, and a room with builders at their exact level.",
   },
   {
     q: "I just relocated to Austin. Is Gildre a good way to build my local network fast?",
-    a: "Yes — this is one of the most common entry points for Gildre Austin members. Founders who relocated from SF, NYC, or Chicago use Gildre to build the high-trust peer relationships that took years to develop in their previous city. The 1:1 intro program accelerates that dramatically.",
+    a: "Yes. This is one of the most common entry points for Gildre Austin members. Founders who relocated from SF, NYC, or Chicago use Gildre to build the high-trust peer relationships that took years to develop in their previous city. The 1:1 intro program accelerates that dramatically.",
   },
 ];
 
@@ -204,7 +204,7 @@ export default function AustinPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables — built for Austin&rsquo;s most focused
+            mentorship, and high-impact peer roundtables, built for Austin&rsquo;s most focused
             founders, from Downtown to East Austin.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -246,7 +246,7 @@ export default function AustinPage() {
             Deep expertise in the industries<br />Austin is redefining.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing — in your vertical, at your stage.
+            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {verticals.map((v) => (
@@ -293,7 +293,7 @@ export default function AustinPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre Austin founder dinner — monthly gatherings Downtown and East Austin" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre Austin founder dinner, monthly gatherings Downtown and East Austin" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
@@ -306,13 +306,13 @@ export default function AustinPage() {
                 Real rooms. Real conversations. Active facilitation.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Austin hosts curated in-person programming every month — small, intentional gatherings where every attendee is selected and every conversation has a point.
+                Gildre Austin hosts curated in-person programming every month: small, intentional gatherings where every attendee is selected and every conversation has a point.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Private seated dinners Downtown and in East Austin. 12–20 founders per table. No pitches, no panels — high-density peer conversation built for execution-focused builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on scaling challenges — hiring in a competitive talent market, navigating Texas regulations, pricing SaaS or energy products — facilitated by operators who have crossed the same threshold." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Austin-area VCs, angels, and family offices deploying into SaaS, clean energy, and fintech — the verticals Austin is betting on." },
+                  { title: "Monthly Founder Dinners", detail: "Private seated dinners Downtown and in East Austin. 12–20 founders per table. No pitches, no panels. High-density peer conversation built for execution-focused builders." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on scaling challenges: hiring in a competitive talent market, navigating Texas regulations, and pricing SaaS or energy products, facilitated by operators who have crossed the same threshold." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Austin-area VCs, angels, and family offices deploying into SaaS, clean energy, and fintech, the verticals Austin is betting on." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
@@ -364,7 +364,7 @@ export default function AustinPage() {
               Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in Austin.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre Austin is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior founder experience, and are serious about peer-to-peer growth — not just collecting contacts.
+              Gildre Austin is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior founder experience, and are serious about peer-to-peer growth, not just collecting contacts.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -404,7 +404,7 @@ export default function AustinPage() {
               {
                 name: "Diana Muturia",
                 title: "Chapter Lead · Gildre Austin",
-                bio: "Diana is an entrepreneur and connector in Austin's startup community. She brings energy and intentionality to every room she builds — focused on the high-quality introductions and honest conversations that move founders forward.",
+                bio: "Diana is an entrepreneur and connector in Austin's startup community. She brings energy and intentionality to every room she builds, focused on the high-quality introductions and honest conversations that move founders forward.",
                 photo: "/team/diana-muturia.webp",
                 linkedin: "#",
               },
@@ -458,7 +458,7 @@ export default function AustinPage() {
             Your next breakthrough starts with the right room.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with Austin founders building at your level — with 1:1 introductions starting in your first week.
+            Apply today and get actively matched with Austin founders building at your level, with 1:1 introductions starting in your first week.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>

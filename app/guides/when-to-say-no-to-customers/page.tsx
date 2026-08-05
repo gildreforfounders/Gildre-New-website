@@ -241,7 +241,7 @@ export default function WhenToSayNoGuide() {
             <div className="relative mt-10 overflow-hidden rounded-2xl" style={{ aspectRatio: "16/7" }}>
               <Image
                 src="/images/when-to-say-no-handshake.webp"
-                alt="Founders shaking hands — the right customer relationship"
+                alt="Founders shaking hands, the right customer relationship"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 800px"
@@ -359,7 +359,7 @@ export default function WhenToSayNoGuide() {
           <div className="relative my-10 overflow-hidden rounded-2xl" style={{ aspectRatio: "16/9" }}>
             <Image
               src="/images/when-to-say-no-headset.webp"
-              alt="Customer support headset — every customer conversation is a signal"
+              alt="Customer support headset, every customer conversation is a signal"
               fill
               sizes="(max-width: 768px) 100vw, 800px"
               className="object-cover"

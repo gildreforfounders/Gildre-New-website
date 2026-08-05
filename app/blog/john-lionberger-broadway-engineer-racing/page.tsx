@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: "https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing",
     title: "John Lionberger: From Broadway to Engineering to Pro Racing — A Half-Billion-Dollar Journey",
     description:
-      "Broadway technician, electrical engineer, race car driver, franchise owner, ESOP architect — John Lionberger's career doesn't fit a single lane. And that's exactly the point.",
+      "Broadway technician, electrical engineer, race car driver, franchise owner, ESOP architect: John Lionberger's career doesn't fit a single lane. And that's exactly the point.",
     type: "article",
     images: [{ url: "https://www.gildre.com/images/john-lionberger-headshot.webp" }],
   },
@@ -127,10 +127,10 @@ export default function JohnLionbergerBlog() {
               className="text-[clamp(2rem,5vw,3.25rem)] font-bold leading-[1.1] text-white"
               style={{ fontFamily: "var(--font-fraunces)" }}
             >
-              John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racer — Building a Half-Billion-Dollar Business Along the Way
+              John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racer: Building a Half-Billion-Dollar Business Along the Way
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-              Theater. Engineering. A $500M consulting firm. Valvoline franchises. ESOPs. Going public. And still racing competitively on weekends — John Lionberger's career refuses to stay in a single lane.
+              Theater. Engineering. A $500M consulting firm. Valvoline franchises. ESOPs. Going public. And still racing competitively on weekends. John Lionberger's career refuses to stay in a single lane.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-6 text-[0.7rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
               <span>Electrical Engineer · Entrepreneur · Pro Racing Driver</span>
@@ -175,10 +175,10 @@ export default function JohnLionbergerBlog() {
               John Lionberger at a Glance
             </p>
             <ul className="space-y-2 text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>
-              <li>• Career start: theater technician — rock bands and Broadway productions</li>
-              <li>• Pivot to electrical engineering — one of the most unconventional transitions in his industry</li>
+              <li>• Career start: theater technician, rock bands and Broadway productions</li>
+              <li>• Pivot to electrical engineering, one of the most unconventional transitions in his industry</li>
               <li>• Built a regional engineering consulting office in Houston from $0 to ~$500M revenue (1999–2012)</li>
-              <li>• Developed Valvoline Quick Lube franchises — combining business with his passion for motorsports</li>
+              <li>• Developed Valvoline Quick Lube franchises, combining business with his passion for motorsports</li>
               <li>• Navigated a full ESOP (Employee Stock Ownership Plan) transition</li>
               <li>• Helped take a portfolio company public, and gained firsthand IPO experience</li>
               <li>• Has raced competitively since age 25, still on the track today</li>
@@ -200,7 +200,7 @@ export default function JohnLionbergerBlog() {
             <div className="overflow-hidden rounded-2xl" style={{ maxWidth: "420px", width: "100%", border: "1px solid rgba(255,255,255,0.07)" }}>
               <Image
                 src="/images/john-lionberger-headshot.webp"
-                alt="John Lionberger — entrepreneur and pro racing driver"
+                alt="John Lionberger, entrepreneur and pro racing driver"
                 width={800}
                 height={900}
                 quality={90}
@@ -210,7 +210,7 @@ export default function JohnLionbergerBlog() {
               />
             </div>
             <p className="mt-3 text-[0.68rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-              John Lionberger — engineer, entrepreneur, and competitive racing driver
+              John Lionberger, engineer, entrepreneur, and competitive racing driver
             </p>
           </div>
 
@@ -242,7 +242,7 @@ export default function JohnLionbergerBlog() {
           <div className="my-10 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             <Image
               src="/images/john-lionberger-racing-garage.webp"
-              alt="John Lionberger preparing his race car — #115"
+              alt="John Lionberger preparing his race car, #115"
               width={960}
               height={1200}
               quality={90}

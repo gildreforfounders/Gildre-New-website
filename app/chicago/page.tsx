@@ -76,7 +76,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in Chicago?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team actively reviews your profile, stage, and goals to match you with a specific Chicago founder or operator who is solving a complementary problem or has relevant experience. These are warm, intentional intros — not algorithm-generated requests you have to cold-follow up on.",
+            text: "Every week, Gildre's team actively reviews your profile, stage, and goals to match you with a specific Chicago founder or operator who is solving a complementary problem or has relevant experience. These are warm, intentional intros, not algorithm-generated requests you have to cold-follow up on.",
           },
         },
         {
@@ -92,7 +92,7 @@ const schema = {
           name: "What types of founders join Gildre's Chicago Chapter?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Chicago welcomes founders across all industries — from consumer tech and creator economy to healthcare, logistics, and B2B software. The community is defined less by vertical and more by mindset: you are actively building, serious about peer accountability, and ready to give as much as you get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
+            text: "Gildre Chicago welcomes founders across all industries, from consumer tech and creator economy to healthcare, logistics, and B2B software. The community is defined less by vertical and more by mindset: you are actively building, serious about peer accountability, and ready to give as much as you get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -100,7 +100,7 @@ const schema = {
           name: "How is Gildre different from 1871 or other Chicago startup communities?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre is a curated private membership — not an open coworking hub or events calendar. You are selected, matched, and actively facilitated. Every introduction, dinner, and roundtable is built around you specifically, not general networking. 1871 is a great physical space; Gildre is the high-signal peer layer on top of it.",
+            text: "Gildre is a curated private membership, not an open coworking hub or events calendar. You are selected, matched, and actively facilitated. Every introduction, dinner, and roundtable is built around you specifically, not general networking. 1871 is a great physical space; Gildre is the high-signal peer layer on top of it.",
           },
         },
         {
@@ -108,7 +108,7 @@ const schema = {
           name: "Can I attend a Chicago event before becoming a member?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Occasionally Gildre opens select Chicago events to prospective members by invitation. The best path is to apply and mention your interest in Chicago events — we often prioritize local applicants for preview dinners so you can experience the community firsthand before committing.",
+            text: "Occasionally Gildre opens select Chicago events to prospective members by invitation. The best path is to apply and mention your interest in Chicago events. We often prioritize local applicants for preview dinners so you can experience the community firsthand before committing.",
           },
         },
       ],
@@ -120,7 +120,7 @@ const verticals = [
   {
     label: "Fintech & Trading Tech",
     description:
-      "Chicago owns global derivatives trading. If you are building in payments, trading infrastructure, credit, or financial data — you are in the right city. Get matched with operators who have built in the shadow of CME and Morningstar.",
+      "Chicago owns global derivatives trading. If you are building in payments, trading infrastructure, credit, or financial data. You are in the right city. Get matched with operators who have built in the shadow of CME and Morningstar.",
     tags: ["Payments", "Credit Tech", "Trading Infrastructure", "Financial Data"],
   },
   {
@@ -154,7 +154,7 @@ const testimonials = [
   },
   {
     quote:
-      "The structure at Gildre is impressive — it's truly a space where founders challenge each other and mentorship isn't abstract.",
+      "The structure at Gildre is impressive. It's truly a space where founders challenge each other and mentorship isn't abstract.",
     name: "Christof Mannfeld",
     title: "Founder",
     company: "Solvee",
@@ -162,7 +162,7 @@ const testimonials = [
   },
   {
     quote:
-      "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that — a community where I can both give and gain exceptional value.",
+      "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
     name: "Elise Madrick",
     title: "Founder",
     company: "Cerené",
@@ -173,7 +173,7 @@ const testimonials = [
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in Chicago?",
-    a: "Every week, Gildre's team actively reviews your profile, stage, and goals to match you with a specific Chicago founder or operator who is solving a complementary problem or has directly relevant experience. These are warm, intentional introductions — not algorithm-generated requests you have to cold-follow up on.",
+    a: "Every week, Gildre's team actively reviews your profile, stage, and goals to match you with a specific Chicago founder or operator who is solving a complementary problem or has directly relevant experience. These are warm, intentional introductions, not algorithm-generated requests you have to cold-follow up on.",
   },
   {
     q: "Where are Chicago founder dinners and events held?",
@@ -181,15 +181,15 @@ const faqItems = [
   },
   {
     q: "What types of founders join Gildre's Chicago Chapter?",
-    a: "Gildre Chicago welcomes founders across all industries — from consumer tech and creator economy to healthcare, logistics, and B2B software. The community is defined less by vertical and more by mindset: you are actively building, serious about peer accountability, and ready to give as much as you get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
+    a: "Gildre Chicago welcomes founders across all industries, from consumer tech and creator economy to healthcare, logistics, and B2B software. The community is defined less by vertical and more by mindset: you are actively building, serious about peer accountability, and ready to give as much as you get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How is Gildre different from 1871 or other Chicago startup communities?",
-    a: "Gildre is a curated private membership — not an open coworking hub or events calendar. Every introduction, dinner, and roundtable is built around you specifically. 1871 is a great physical space; Gildre is the high-signal peer layer that operates inside and beyond it.",
+    a: "Gildre is a curated private membership, not an open coworking hub or events calendar. Every introduction, dinner, and roundtable is built around you specifically. 1871 is a great physical space; Gildre is the high-signal peer layer that operates inside and beyond it.",
   },
   {
     q: "Can I attend a Chicago event before becoming a member?",
-    a: "Occasionally Gildre opens select Chicago events to prospective members by invitation. The best path is to apply and mention your interest in a Chicago preview dinner — we regularly prioritize local applicants so you can experience the community firsthand before committing.",
+    a: "Occasionally Gildre opens select Chicago events to prospective members by invitation. The best path is to apply and mention your interest in a Chicago preview dinner. We regularly prioritize local applicants so you can experience the community firsthand before committing.",
   },
 ];
 
@@ -212,7 +212,7 @@ const chapterLeads = [
   {
     name: "Dan Hernandez",
     role: "Co-Founder, HUPR · Chapter Lead, Gildre Chicago",
-    bio: "Dan is a Chicago-based entrepreneur and creative operator building HUPR — a tech platform that helps basketball players discover pickup games, connect with local community, and grow the culture of pickup hoops. He brings a background in experiential marketing and digital solutions, working at the intersection of sport, culture, and technology to build brands that actually connect with people. As Creative Director at Cruz Capital, Dan works with founders and growth-stage companies to sharpen how they show up in the market. He brings that same builder's energy to Gildre Chicago — creating a high-trust peer environment where founders can be honest about the hard parts and get real, tactical support.",
+    bio: "Dan is a Chicago-based entrepreneur and creative operator building HUPR, a tech platform that helps basketball players discover pickup games, connect with local community, and grow the culture of pickup hoops. He brings a background in experiential marketing and digital solutions, working at the intersection of sport, culture, and technology to build brands that actually connect with people. As Creative Director at Cruz Capital, Dan works with founders and growth-stage companies to sharpen how they show up in the market. He brings that same builder's energy to Gildre Chicago, creating a high-trust peer environment where founders can be honest about the hard parts and get real, tactical support.",
     linkedin: "https://www.linkedin.com/in/dan-hernan/",
     photo: "/reviews/dan-hernandez.jpg",
     color: "#C97B3B",
@@ -250,7 +250,7 @@ export default function ChicagoPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables — built for Chicago&rsquo;s most
+            mentorship, and high-impact peer roundtables, built for Chicago&rsquo;s most
             focused founders, from West Loop to River North.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -272,7 +272,7 @@ export default function ChicagoPage() {
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
-            {["Pre-Seed — Series A", "Executive Operators", "Active Builders"].map((tag) => (
+            {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
@@ -323,7 +323,7 @@ export default function ChicagoPage() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
             Gildre matches you with peers and operators who have already navigated the exact
-            terrain you&rsquo;re crossing — in your vertical, at your stage.
+            terrain you&rsquo;re crossing, in your vertical, at your stage.
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -382,7 +382,7 @@ export default function ChicagoPage() {
               <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
                 <Image
                   src="/images/cody-graham-headshot.jpeg"
-                  alt="Cody Graham, COO and Head of Product at SoGo — Chicago Gildre member"
+                  alt="Cody Graham, COO and Head of Product at SoGo, Chicago Gildre member"
                   fill
                   sizes="(max-width: 640px) 100vw, 192px"
                   className="object-cover object-top"
@@ -402,7 +402,7 @@ export default function ChicagoPage() {
                   COO &amp; Head of Product · SoGo
                 </p>
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-                  Cody is building SoGo — a personalized restaurant curation app that learns who
+                  Cody is building SoGo, a personalized restaurant curation app that learns who
                   you are, not just what&rsquo;s nearby. He brought SoGo from concept to product in
                   Chicago&rsquo;s hyper-competitive restaurant market, and is one of the most
                   thoughtful product operators in the Gildre community.
@@ -464,7 +464,7 @@ export default function ChicagoPage() {
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
               <Image
                 src="/images/community/dinner.webp"
-                alt="Gildre Chicago founder dinner — monthly gatherings for Chicago's top tech founders"
+                alt="Gildre Chicago founder dinner, monthly gatherings for Chicago's top tech founders"
                 fill
                 sizes="(max-width: 1024px) calc(100vw - 48px), 480px"
                 className="object-cover"
@@ -492,7 +492,7 @@ export default function ChicagoPage() {
                 Real rooms. Real conversations. Active facilitation.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Chicago hosts curated in-person programming every month — not open
+                Gildre Chicago hosts curated in-person programming every month: not open
                 mixers, but small, intentional gatherings where every attendee is selected and
                 every conversation has a point.
               </p>
@@ -501,11 +501,11 @@ export default function ChicagoPage() {
                 {[
                   {
                     title: "Monthly Founder Meet-Ups",
-                    detail: "Casual, low-pressure meet-ups — coffee chats, founder walks, and drop-in sessions across the city. The best relationships start with showing up before you need anything.",
+                    detail: "Casual, low-pressure meet-ups: coffee chats, founder walks, and drop-in sessions across the city. The best relationships start with showing up before you need anything.",
                   },
                   {
                     title: "Curated Dinners",
-                    detail: "Private seated dinners across the city. 10–12 founders per table. No pitches, no panels — just high-density peer conversation.",
+                    detail: "Private seated dinners across the city. 10–12 founders per table. No pitches, no panels. Just high-density peer conversation.",
                   },
                   {
                     title: "Partner Events Across the Local Ecosystem",
@@ -599,7 +599,7 @@ export default function ChicagoPage() {
               Gildre Chicago is selective by design. We review every application to ensure the
               community stays high-signal. You are a good fit if you are actively building a
               tech-enabled company, have initial traction or prior founder experience, and are
-              serious about peer-to-peer growth — not just collecting contacts.
+              serious about peer-to-peer growth, not just collecting contacts.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {[
@@ -752,7 +752,7 @@ export default function ChicagoPage() {
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
             Apply today and get actively matched with Chicago founders who are building at your
-            level — with 1:1 introductions starting in your first week.
+            level, with 1:1 introductions starting in your first week.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a

@@ -673,7 +673,7 @@ export default function KickingOffPreSeed() {
           >
             <Image
               src="/images/preseed-pitch-deck.webp"
-              alt="Startup pitch deck displayed on a MacBook Pro — Uber's original UberCab concept deck"
+              alt="Startup pitch deck displayed on a MacBook Pro, Uber's original UberCab concept deck"
               fill
               style={{ objectFit: "cover" }}
               sizes="800px"

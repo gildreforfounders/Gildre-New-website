@@ -27,7 +27,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "James Corwin: How a Montana Wildlife Artist Built Corwin Galleries into a Thriving Business",
   description:
-    "James Corwin — wildlife painter, gallery owner, and entrepreneur — shares how growing up in Montana, a surprise art scholarship, and a life-changing African safari shaped his path from selling $20 miniatures to running Corwin Galleries.",
+    "James Corwin, wildlife painter, gallery owner, and entrepreneur, shares how growing up in Montana, a surprise art scholarship, and a life-changing African safari shaped his path from selling $20 miniatures to running Corwin Galleries.",
   image: "https://www.gildre.com/images/james-corwin-headshot.webp",
   datePublished: "2024-01-15",
   author: {
@@ -87,7 +87,7 @@ export default function JamesCorwinBlog() {
             <span style={{ color: "#C9A96E" }}>Creativity Into a Gallery Empire</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            From selling $20 miniature paintings at Montana farmers markets to owning Corwin Galleries and mastering Facebook ads — wildlife artist and entrepreneur James Corwin joined the Start to Scale Podcast to share the unconventional business journey behind one of the art world's most compelling founder stories.
+            From selling $20 miniature paintings at Montana farmers markets to owning Corwin Galleries and mastering Facebook ads. Wildlife artist and entrepreneur James Corwin joined the Start to Scale Podcast to share the unconventional business journey behind one of the art world's most compelling founder stories.
           </p>
 
           {/* Author row */}
@@ -127,7 +127,7 @@ export default function JamesCorwinBlog() {
               style={{ display: "block" }}
             />
             <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>James Corwin — wildlife artist and founder of Corwin Galleries</p>
+              <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>James Corwin, wildlife artist and founder of Corwin Galleries</p>
             </div>
           </div>
         </div>
