@@ -45,7 +45,7 @@ const schema = {
       logo: "https://www.gildre.com/images/gildre-logo.png",
       image: "https://www.gildre.com/og-home.png",
       description:
-        "Gildre is a private founder membership community in Chicago, IL. Gildre Chicago hosts monthly founder dinners in West Loop and Fulton Market for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
+        "Gildre is a private founder membership community in Chicago, IL. Gildre Chicago hosts monthly founder dinners and curated events throughout the city for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",
       telephone: "+1-847-881-6319",
       priceRange: "$$",
@@ -84,7 +84,7 @@ const schema = {
           name: "Where are Chicago founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "We host monthly founder dinners and curated events all throughout the city from the West Loop to Wicker Park, Lincoln Park, Pilsen, Lakeview, and more.",
+            text: "We host monthly founder dinners and curated events throughout Chicago. Venues rotate across the city so no matter where you're based in the metro area, you're in range.",
           },
         },
         {
@@ -173,7 +173,7 @@ const faqItems = [
   },
   {
     q: "Where are Chicago founder dinners and events held?",
-    a: "We host monthly founder dinners and curated events all throughout the city from the West Loop to Wicker Park, Lincoln Park, Pilsen, Lakeview, and more.",
+    a: "We host monthly founder dinners and curated events throughout Chicago. Venues rotate across the city, so no matter where you're based in the metro area, you're in range.",
   },
   {
     q: "What types of founders join Gildre's Chicago Chapter?",
@@ -190,9 +190,9 @@ const faqItems = [
 ];
 
 const peers = [
-  { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Chicago Ecosystem", photo: null, initials: "JJ", color: "#3B6CC9" },
-  { name: "Brittany Canty", title: "Founder", company: "Chicago", photo: null, initials: "BC", color: "#C97B3B" },
-  { name: "Ivan Rahman", title: "Founder", company: "Chicago", photo: null, initials: "IR", color: "#3BC97B" },
+  { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Jumpstart Capital", photo: "/mentors/jason-jacobsohn.jpg", initials: "JJ", color: "#3B6CC9" },
+  { name: "Brittany Canty", title: "Founder", company: "", photo: null, initials: "BC", color: "#C97B3B" },
+  { name: "Ivan Rahman", title: "Founder", company: "", photo: null, initials: "IR", color: "#3BC97B" },
   { name: "Lauren Basler", title: "Founder", company: "Conscious Ascent", photo: null, initials: "LB", color: "#7B3BC9" },
 ];
 
@@ -429,7 +429,7 @@ export default function ChicagoPage() {
                   {p.name}
                 </p>
                 <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                  {p.title}
+                  {p.company ? `${p.title} · ${p.company}` : p.title}
                 </p>
               </div>
             ))}
