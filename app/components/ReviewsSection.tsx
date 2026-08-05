@@ -138,6 +138,18 @@ const testimonials = [
 
 import Image from "next/image";
 
+function Stars() {
+  return (
+    <div className="flex items-center gap-0.5">
+      {[...Array(5)].map((_, i) => (
+        <svg key={i} width="12" height="12" viewBox="0 0 12 12" fill="#C9A96E">
+          <path d="M6 1l1.39 2.82L10.5 4.27l-2.25 2.19.53 3.1L6 8.02 3.22 9.56l.53-3.1L1.5 4.27l3.11-.45L6 1z" />
+        </svg>
+      ))}
+    </div>
+  );
+}
+
 function initials(name: string) {
   return name.split(" ").slice(0, 2).map((n) => n[0]).join("");
 }
@@ -198,6 +210,9 @@ export default function ReviewsSection() {
             className="flex flex-col gap-3 p-6"
             style={{ backgroundColor: "#080e1a" }}
           >
+            {/* Stars */}
+            <Stars />
+
             {/* Headline */}
             <h3
               className="text-lg font-bold leading-snug text-white"

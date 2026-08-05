@@ -29,7 +29,7 @@ const tiers = [
   },
   {
     label: "Gold",
-    color: "#C9A520",
+    color: "#C9A96E",
     price: "$149/mo",
     steps: [
       {
@@ -54,7 +54,7 @@ const tiers = [
   },
   {
     label: "Platinum",
-    color: "#1C2744",
+    color: "#a0b4d0",
     price: "$349/mo",
     steps: [
       {
@@ -84,18 +84,24 @@ export default function HowItWorks() {
   const tier = tiers[active];
 
   return (
-    <section className="px-6 py-12 sm:py-20" style={{ backgroundColor: "#F5F0E8" }}>
+    <section className="relative overflow-hidden px-6 py-12 sm:py-20" style={{ backgroundColor: "#0f1524" }}>
+      {/* Subtle top border */}
+      <div
+        className="pointer-events-none absolute inset-x-0 top-0 h-[1px] opacity-30"
+        style={{ background: "linear-gradient(to right, transparent, rgba(201,169,110,0.5), transparent)" }}
+      />
+
       <div className="mx-auto max-w-5xl">
-        <p className="text-center text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
+        <p className="text-center text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
           The Process
         </p>
         <h2
-          className="mt-3 text-center text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
+          className="mt-3 text-center text-[2rem] font-bold text-white sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
           Engineered for Your Stage. Tailored for Action.
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-center text-base leading-relaxed text-zinc-500">
+        <p className="mx-auto mt-4 max-w-xl text-center text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.42)" }}>
           We built Gildre to be the community we wished existed when we were building. Here&rsquo;s how it works.
         </p>
 
@@ -108,14 +114,20 @@ export default function HowItWorks() {
               className="rounded-full px-5 py-2 text-sm font-semibold transition-all duration-200"
               style={
                 active === i
-                  ? { backgroundColor: "#1C2744", color: "#C9A96E" }
-                  : { backgroundColor: "rgba(28,39,68,0.07)", color: "#1C2744" }
+                  ? {
+                      backgroundColor: "rgba(201,169,110,0.15)",
+                      color: "#C9A96E",
+                      border: "1px solid rgba(201,169,110,0.35)",
+                    }
+                  : {
+                      backgroundColor: "rgba(255,255,255,0.04)",
+                      color: "rgba(255,255,255,0.45)",
+                      border: "1px solid rgba(255,255,255,0.07)",
+                    }
               }
             >
               {t.label}
-              <span
-                className="ml-2 text-[0.65rem] font-normal opacity-60"
-              >
+              <span className="ml-2 text-[0.65rem] font-normal opacity-60">
                 {t.price}
               </span>
             </button>
@@ -127,7 +139,7 @@ export default function HowItWorks() {
           {/* Connecting line, desktop only */}
           <div
             className="absolute left-[16.5%] right-[16.5%] top-7 hidden h-[1px] sm:block"
-            style={{ backgroundColor: "rgba(201,169,110,0.25)" }}
+            style={{ backgroundColor: "rgba(201,169,110,0.2)" }}
           />
 
           {tier.steps.map((step) => (
@@ -138,18 +150,20 @@ export default function HowItWorks() {
                   backgroundColor: "#1C2744",
                   color: "#C9A96E",
                   fontFamily: "var(--font-fraunces)",
-                  boxShadow: "0 0 0 4px #F5F0E8, 0 0 0 5px rgba(201,169,110,0.3)",
+                  boxShadow: "0 0 0 4px #0f1524, 0 0 0 5px rgba(201,169,110,0.3)",
                 }}
               >
                 {step.n}
               </div>
               <h3
-                className="mt-5 text-xl font-bold text-[#1C2744]"
+                className="mt-5 text-xl font-bold text-white"
                 style={{ fontFamily: "var(--font-fraunces)" }}
               >
                 {step.title}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-zinc-500">{step.body}</p>
+              <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
+                {step.body}
+              </p>
               <span
                 className="mt-4 text-[0.65rem] font-semibold uppercase tracking-widest"
                 style={{ color: "#C9A96E" }}
@@ -166,8 +180,12 @@ export default function HowItWorks() {
             href={active === 0 ? "https://gildre.circle.so/checkout/gildre-silver-membership" : "https://tally.so/r/VLERVa"}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
-            style={{ backgroundColor: "#1C2744", color: "#fff" }}
+            className="rounded-full px-8 py-3.5 text-sm font-bold transition-all hover:opacity-90"
+            style={{
+              backgroundColor: "#C9A96E",
+              color: "#1C2744",
+              boxShadow: "0 0 24px rgba(201,169,110,0.35)",
+            }}
           >
             {active === 0 ? "Get Access" : "Start Your Application"}
           </a>
@@ -175,7 +193,8 @@ export default function HowItWorks() {
             href="https://calendly.com/taiga-gildre/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-zinc-400 underline underline-offset-4 hover:text-zinc-600 transition-colors"
+            className="text-sm underline underline-offset-4 transition-colors hover:text-white"
+            style={{ color: "rgba(255,255,255,0.4)" }}
           >
             Have questions? Schedule a call first
           </a>
