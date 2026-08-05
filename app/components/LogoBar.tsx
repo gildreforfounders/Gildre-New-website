@@ -18,7 +18,7 @@ export default function LogoBar() {
 
   return (
     <section
-      className="py-14 overflow-hidden"
+      className="py-10 sm:py-14 overflow-hidden"
       style={{
         background: "linear-gradient(135deg, #0f1524 0%, #1C2744 50%, #0f1524 100%)",
       }}

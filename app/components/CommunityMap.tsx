@@ -44,7 +44,7 @@ const cities: { name: string; coords: [number, number] }[] = [
 export default function CommunityMap() {
   return (
     <section
-      className="relative overflow-hidden py-20"
+      className="relative overflow-hidden py-12 sm:py-20"
       style={{
         background:
           "radial-gradient(ellipse at 50% 40%, #1C2744 0%, #0f1524 65%, #080e1a 100%)",

@@ -20,7 +20,7 @@ export default function StagesSection() {
           Build alongside founders solving the same problems as you, at your stage.
         </p>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {/* Build stage */}
           <div
             className="relative overflow-hidden rounded-2xl p-8"
@@ -71,7 +71,7 @@ export default function StagesSection() {
 
           {/* Scale stage */}
           <div
-            className="relative overflow-hidden rounded-2xl p-8 sm:col-span-2 lg:col-span-1"
+            className="relative overflow-hidden rounded-2xl p-8"
             style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1.5px solid rgba(255,255,255,0.07)" }}
           >
             <div

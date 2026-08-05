@@ -128,7 +128,7 @@ function FAQItem({ item }: { item: FAQItem }) {
 export default function FAQSection() {
   return (
     <section id="faq" style={{ backgroundColor: "#0c1628" }}>
-      <div className="mx-auto max-w-3xl px-6 py-24">
+      <div className="mx-auto max-w-3xl px-6 py-16 sm:py-24">
 
         {/* Header */}
         <div className="mb-16 text-center">

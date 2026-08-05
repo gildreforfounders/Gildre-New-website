@@ -61,7 +61,7 @@ const row2: Card[] = [
 
 function PhotoCardEl({ card }: { card: PhotoCard }) {
   return (
-    <div className="flip-card h-[400px] rounded-2xl">
+    <div className="flip-card h-[300px] sm:h-[400px] rounded-2xl">
       <div className="flip-card-inner rounded-2xl">
 
         {/* Front — photo */}
@@ -92,7 +92,7 @@ function PhotoCardEl({ card }: { card: PhotoCard }) {
 
         {/* Back — navy with text */}
         <div
-          className="flip-card-back flex flex-col justify-center p-8"
+          className="flip-card-back flex flex-col justify-center p-5 sm:p-8"
           style={{
             background: "linear-gradient(135deg, #1C2744 0%, #0f1a2e 100%)",
             border: "1px solid rgba(201,169,110,0.2)",
@@ -120,7 +120,7 @@ function PhotoCardEl({ card }: { card: PhotoCard }) {
 function TextCardEl({ card }: { card: TextCard }) {
   return (
     <div
-      className="relative flex h-[400px] flex-col justify-end overflow-hidden rounded-2xl p-8"
+      className="relative flex h-[300px] sm:h-[400px] flex-col justify-end overflow-hidden rounded-2xl p-6 sm:p-8"
       style={{
         backgroundColor: "#0a1020",
         border: "1px solid rgba(201,169,110,0.15)",

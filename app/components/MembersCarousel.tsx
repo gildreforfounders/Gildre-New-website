@@ -18,7 +18,6 @@ export default function MembersCarousel({
   initialIndex?: number;
 }) {
   const n = members.length;
-  // Triple the array so wrapping is invisible — we always stay in the middle copy
   const items = [...members, ...members, ...members];
 
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -30,7 +29,6 @@ export default function MembersCarousel({
   const didDrag = useRef(false);
   const isSilentJump = useRef(false);
 
-  // Pixel offset so the given card is centered in the scroll container
   const getLeft = useCallback((index: number): number => {
     const el = scrollRef.current;
     if (!el) return 0;
@@ -51,27 +49,22 @@ export default function MembersCarousel({
     el.scrollLeft = getLeft(index);
   }, [getLeft]);
 
-  // Normalize any absolute index to the middle copy [n, 2n)
   function toMiddle(index: number): number {
     return ((index % n) + n) % n + n;
   }
 
-  // On mount: instantly center the initial card (Fritz = index 0 in middle copy)
   useEffect(() => {
     requestAnimationFrame(() => {
       instantScrollTo(initialIndex + n);
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Auto-advance
   useEffect(() => {
     if (paused) return;
     const id = setInterval(() => {
       setActive((prev) => {
         const next = prev + 1;
         if (next >= 2 * n) {
-          // About to enter the 3rd copy — silently jump to the middle copy's
-          // equivalent position, then smooth-scroll forward from there.
           const middlePrev = prev - n;
           isSilentJump.current = true;
           instantScrollTo(middlePrev);
@@ -79,7 +72,7 @@ export default function MembersCarousel({
             isSilentJump.current = false;
             smoothScrollTo(middlePrev + 1);
           });
-          return middlePrev + 1; // = n (first card of middle copy)
+          return middlePrev + 1;
         }
         smoothScrollTo(next);
         return next;
@@ -113,7 +106,6 @@ export default function MembersCarousel({
     if (isSilentJump.current) return;
     const found = getActiveFromScroll();
     setActive(found);
-    // Silently jump back to middle copy if user scrolled into an outer copy
     if (found < n || found >= 2 * n) {
       const mid = toMiddle(found);
       isSilentJump.current = true;
@@ -156,25 +148,24 @@ export default function MembersCarousel({
   const realActive = ((active - n) % n + n) % n;
 
   return (
-    <section className="py-12 sm:py-20" style={{ backgroundColor: "#F5F0E8" }}>
+    <section className="py-12 sm:py-20" style={{ backgroundColor: "#1C2744" }}>
       {/* Heading */}
       <div className="px-6 text-center">
-        <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-[#C9A96E]">
+        <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>
           Meet Your Peers
         </p>
         <h2
-          className="mt-3 text-[2rem] font-bold text-[#1C2744] sm:text-[2.5rem]"
+          className="mt-3 text-[2rem] font-bold text-white sm:text-[2.5rem]"
           style={{ fontFamily: "var(--font-fraunces)" }}
         >
-          Build alongside founders solving the same<br />
-          problems as you, at your stage.
+          Build alongside founders solving the same problems as you, at your stage.
         </h2>
       </div>
 
-      {/* Carousel — tripled array for seamless infinite loop */}
+      {/* Carousel */}
       <div
         ref={scrollRef}
-        className="no-scrollbar mt-12 flex gap-5 overflow-x-auto px-6 pb-2 select-none cursor-grab active:cursor-grabbing"
+        className="no-scrollbar mt-10 flex gap-5 overflow-x-auto px-6 pb-2 select-none cursor-grab active:cursor-grabbing"
         style={{ scrollSnapType: "x mandatory" }}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
@@ -189,12 +180,18 @@ export default function MembersCarousel({
             <div
               key={`${member.name}-${i}`}
               onClick={() => { if (!didDrag.current) goTo(i); }}
-              className="flex w-[min(80vw,300px)] flex-shrink-0 cursor-pointer flex-col items-center rounded-2xl border border-[#e8e0d0] bg-white p-7 text-center transition-all duration-300"
+              className="flex w-[min(80vw,300px)] flex-shrink-0 cursor-pointer flex-col items-center rounded-2xl p-6 text-center transition-all duration-300"
               style={{
                 scrollSnapAlign: "center",
-                opacity: isActive ? 1 : 0.6,
+                backgroundColor: isActive ? "rgba(255,255,255,0.07)" : "rgba(255,255,255,0.03)",
+                border: isActive
+                  ? "1px solid rgba(201,169,110,0.35)"
+                  : "1px solid rgba(255,255,255,0.07)",
+                opacity: isActive ? 1 : 0.55,
                 transform: isActive ? "scale(1.02)" : "scale(0.97)",
-                boxShadow: isActive ? "0 8px 32px rgba(28,39,68,0.10)" : "none",
+                boxShadow: isActive
+                  ? "0 8px 32px rgba(0,0,0,0.4), 0 0 20px rgba(201,169,110,0.08)"
+                  : "none",
                 pointerEvents: isDragging.current ? "none" : "auto",
               }}
             >
@@ -209,23 +206,23 @@ export default function MembersCarousel({
                 />
               </div>
               <h3
-                className="mt-4 text-base font-bold text-[#1C2744]"
+                className="mt-4 text-base font-bold text-white"
                 style={{ fontFamily: "var(--font-fraunces)" }}
               >
                 {member.name}
               </h3>
-              <p className="mt-0.5 text-xs font-medium text-zinc-400">
+              <p className="mt-0.5 text-xs font-medium text-zinc-500">
                 {member.title}
                 {member.company ? ` · ${member.company}` : ""}
               </p>
-              <div className="my-4 h-px w-12" style={{ backgroundColor: "rgba(201,169,110,0.35)" }} />
-              <p className="text-sm leading-relaxed text-zinc-500">{member.bio}</p>
+              <div className="my-4 h-px w-12" style={{ backgroundColor: "rgba(201,169,110,0.3)" }} />
+              <p className="text-sm leading-relaxed text-zinc-400">{member.bio}</p>
             </div>
           );
         })}
       </div>
 
-      {/* Dots — always reflect position in original members array */}
+      {/* Dots */}
       <div className="mt-6 flex justify-center gap-2 px-6">
         {members.map((_, i) => (
           <button
@@ -234,7 +231,7 @@ export default function MembersCarousel({
             className="h-2 rounded-full transition-all duration-300"
             style={{
               width: realActive === i ? "1.5rem" : "0.5rem",
-              backgroundColor: realActive === i ? "#C9A96E" : "rgba(28,39,68,0.18)",
+              backgroundColor: realActive === i ? "#C9A96E" : "rgba(255,255,255,0.2)",
             }}
           />
         ))}

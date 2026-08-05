@@ -18,7 +18,7 @@ const members = [
 
 export default function MemberCompanies() {
   return (
-    <section className="px-6 py-20" style={{ backgroundColor: "#0f1524" }}>
+    <section className="px-6 py-12 sm:py-20" style={{ backgroundColor: "#0f1524" }}>
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-col gap-10 lg:flex-row lg:gap-16">
 
