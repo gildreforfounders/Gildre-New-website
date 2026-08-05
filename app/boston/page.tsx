@@ -450,15 +450,15 @@ export default function BostonPage() {
             {[
               {
                 name: "Shweta Agrawal",
-                title: "Chapter Lead · Gildre Boston",
-                bio: "Shweta is a founder and operator deeply embedded in Boston's innovation ecosystem. She brings a thoughtful, people-first approach to community building, focused on the kind of peer relationships that create real leverage for early-stage founders.",
+                title: "Co-Director & Chief AI Product Officer, Boston New Technology · Boston Chapter Lead, Gildre",
+                bio: "Shweta is an AI product leader and ecosystem builder who serves as Co-Director and Chief AI Product Officer at Boston New Technology. She is the founder of SheBuildsProduct and SheBuildsStartupWeekends, and Chair at StartOut Boston, having mentored hundreds of founders from first-time entrepreneurs to seasoned operators on product strategy, go-to-market, and the path to product-market fit. A Forbes Technology Council member and speaker at Venture Café Cambridge, she brings both the institutional perspective of an operator and the personal stake of a founder to her community work. Shweta leads Gildre Boston with a focus on underrepresented builders and the kind of intentional programming that creates real leverage.",
                 photo: "/team/shweta-agrawal.webp",
                 linkedin: "#",
               },
               {
                 name: "Connor Fitzgerald",
-                title: "Chapter Lead · Gildre Boston",
-                bio: "Connor is a founder and community builder who understands the Boston startup landscape from the inside. He is committed to running a chapter where every introduction is intentional and every room is worth being in.",
+                title: "Founder, AGI Beacon · Boston Chapter Lead, Gildre",
+                bio: "Connor is the founder of AGI Beacon, a platform that helps companies make smarter technology decisions by sourcing the right providers across AI, cloud, cybersecurity, and connectivity faster and at better prices. Based in the Greater Boston area, he has built AGI Beacon into a trusted resource for businesses navigating a rapidly changing technology landscape. Connor brings a sharp operator's eye to Gildre Boston, focused on connecting founders who are serious about building well with the peers, mentors, and introductions that actually move the needle. He believes the best founder communities are defined not by who attends events but by who shows up for each other between them.",
                 photo: "/team/connor-fitzgerald.webp",
                 linkedin: "#",
               },

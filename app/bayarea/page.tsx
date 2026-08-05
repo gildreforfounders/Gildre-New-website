@@ -411,15 +411,15 @@ export default function BayAreaPage() {
             {[
               {
                 name: "Fred Zirdung",
-                title: "Chapter Lead · Gildre Bay Area",
-                bio: "Fred is a founder and operator with deep roots in the Bay Area's startup ecosystem. He brings a builder's instinct to community, focused on creating the high-density peer connections that actually move companies forward.",
+                title: "Founder, Rocket House · Bay Area Chapter Lead, Gildre",
+                bio: "Fred is the founder of Rocket House, bringing over 20 years of experience designing and scaling large-scale software systems. He has led engineering teams across local and distributed environments, mentored technical founders on architecture decisions, and served as VP of Learning and Development at Talent Path. Fred is an IT Advisor at Stride and volunteers with the SF SPCA and Rocket Dog Rescue, reflecting the community-first values he brings to his chapter leadership. At Gildre Bay Area, he creates the kind of high-trust peer environment where technical founders can think out loud and move faster together.",
                 photo: "/team/fred-zirdung.webp",
                 linkedin: "#",
               },
               {
                 name: "Tony Xiong",
-                title: "Chapter Lead · Gildre Bay Area",
-                bio: "Tony is a driven entrepreneur embedded in San Francisco's technology community. He is committed to building the kind of high-signal, founder-first environment where early-stage companies find their most important relationships.",
+                title: "Founder, Bubbl AI · Bay Area Chapter Lead, Gildre",
+                bio: "Tony is a serial entrepreneur and product designer building Bubbl AI, a platform focused on cutting through message chaos for fast-moving teams and founders. A Northwestern University graduate with experience at Invisible Product Inc., Tony describes himself as an intuitive product builder who thinks deeply about how people communicate and collaborate. He has built across multiple ventures in the Bay Area and brings a product-first perspective to every founder conversation. At Gildre Bay Area, Tony is committed to creating the kind of community he wished he had earlier: high-signal, low-noise, and built on the trust that only comes from showing up consistently.",
                 photo: "/team/tony-xiong.webp",
                 linkedin: "#",
               },

@@ -387,15 +387,15 @@ export default function NycPage() {
             {[
               {
                 name: "Michael J. Frank",
-                title: "Chapter Lead · Gildre New York City",
-                bio: "Michael is a seasoned entrepreneur and community builder based in New York City. He brings decades of experience connecting high-caliber founders with the operators, capital, and peers who accelerate their growth.",
+                title: "Co-Founder & Managing Partner, Gildre · NYC Chapter Lead",
+                bio: "Michael is the Co-Founder and Managing Partner of Gildre, where he has built a global community of 250+ founders and innovators spanning AI, machine learning, and high-growth sectors. A non-linear strategist whose career spans startup founding, board leadership, mentorship, and arbitration, he has guided companies through capital raises, pivotal scaling decisions, and the hard conversations that define a founder's trajectory. He has mentored MBA students at Zicklin School of Business and engaged at Columbia Business School, bringing institutional-grade thinking to early-stage operators. Michael leads Gildre New York with the conviction that the right room, built intentionally, is one of the highest-leverage moves a founder can make.",
                 photo: "/team/michael-frank.webp",
                 linkedin: "#",
               },
               {
                 name: "Darshita Raval",
-                title: "Chapter Lead · Gildre New York City",
-                bio: "Darshita is a founder and connector embedded in New York's tech and venture ecosystem. She is passionate about building high-signal communities where founders get the real conversations that move companies forward.",
+                title: "Founder, MindHappy · NYC Chapter Lead, Gildre",
+                bio: "Darshita is the founder of MindHappy, a creative wellness platform making mindfulness accessible through hands-on, screen-free experiences built from her own discovery that making things is one of the most powerful ways to reset. She came to the U.S. at 15 and built her foundation in operations and supply chain at Amazon and Boeing before turning to entrepreneurship full-time. Featured in Forbes for her work on accessible wellness, she brings a builder's grounded perspective and a people-first approach to the Gildre New York community. She believes founders build better when they feel genuinely supported and connected to something beyond the metrics.",
                 photo: "/team/darshita-raval.webp",
                 linkedin: "#",
               },
