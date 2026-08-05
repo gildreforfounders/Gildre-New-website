@@ -119,6 +119,11 @@ export default function Footer() {
               <li><a href="/referral" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Refer a Founder</a></li>
               <li><a href="/privacy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Privacy Policy</a></li>
             </ul>
+            <p className="mt-6 text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Partners</p>
+            <ul className="mt-4 space-y-2.5">
+              <li><a href="/gatherlypartnership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Gatherly</a></li>
+              <li><a href="https://www.mindhappy.co" target="_blank" rel="noopener noreferrer" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">MindHappy</a></li>
+            </ul>
           </div>
         </div>
 
