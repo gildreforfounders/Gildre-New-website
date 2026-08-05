@@ -448,14 +448,14 @@ export default function BostonPage() {
                 title: "Co-Director & Chief AI Product Officer, Boston New Technology · Boston Chapter Lead, Gildre",
                 bio: "Shweta is an AI product leader and ecosystem builder who serves as Co-Director and Chief AI Product Officer at Boston New Technology. She is the founder of SheBuildsProduct and SheBuildsStartupWeekends, and Chair at StartOut Boston, having mentored hundreds of founders from first-time entrepreneurs to seasoned operators on product strategy, go-to-market, and the path to product-market fit. A Forbes Technology Council member and speaker at Venture Café Cambridge, she brings both the institutional perspective of an operator and the personal stake of a founder to her community work. Shweta leads Gildre Boston with a focus on underrepresented builders and the kind of intentional programming that creates real leverage.",
                 photo: "/team/shweta-agrawal.webp",
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/shwetaragrawal/",
               },
               {
                 name: "Connor Fitzgerald",
                 title: "Founder, AGI Beacon · Boston Chapter Lead, Gildre",
                 bio: "Connor is the founder of AGI Beacon, a platform that helps companies make smarter technology decisions by sourcing the right providers across AI, cloud, cybersecurity, and connectivity faster and at better prices. Based in the Greater Boston area, he has built AGI Beacon into a trusted resource for businesses navigating a rapidly changing technology landscape. Connor brings a sharp operator's eye to Gildre Boston, focused on connecting founders who are serious about building well with the peers, mentors, and introductions that actually move the needle. He believes the best founder communities are defined not by who attends events but by who shows up for each other between them.",
                 photo: "/team/connor-fitzgerald.webp",
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/connor-fitzgerald-boston/",
               },
             ].map((lead) => (
               <div key={lead.name} className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>

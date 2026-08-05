@@ -410,14 +410,14 @@ export default function BayAreaPage() {
                 title: "Founder, Rocket House · Bay Area Chapter Lead, Gildre",
                 bio: "Fred is the founder of Rocket House, bringing over 20 years of experience designing and scaling large-scale software systems. He has led engineering teams across local and distributed environments, mentored technical founders on architecture decisions, and served as VP of Learning and Development at Talent Path. Fred is an IT Advisor at Stride and volunteers with the SF SPCA and Rocket Dog Rescue, reflecting the community-first values he brings to his chapter leadership. At Gildre Bay Area, he creates the kind of high-trust peer environment where technical founders can think out loud and move faster together.",
                 photo: "/team/fred-zirdung.webp",
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/fredzirdung/",
               },
               {
                 name: "Tony Xiong",
                 title: "Founder, Bubbl AI · Bay Area Chapter Lead, Gildre",
                 bio: "Tony is a serial entrepreneur and product designer building Bubbl AI, a platform focused on cutting through message chaos for fast-moving teams and founders. A Northwestern University graduate with experience at Invisible Product Inc., Tony describes himself as an intuitive product builder who thinks deeply about how people communicate and collaborate. He has built across multiple ventures in the Bay Area and brings a product-first perspective to every founder conversation. At Gildre Bay Area, Tony is committed to creating the kind of community he wished he had earlier: high-signal, low-noise, and built on the trust that only comes from showing up consistently.",
                 photo: "/team/tony-xiong.webp",
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/haoyu-tony-xiong/",
               },
             ].map((lead) => (
               <div key={lead.name} className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>

@@ -394,14 +394,14 @@ export default function AustinPage() {
                 title: "Chapter Lead, Gildre Austin",
                 bio: "Ola is an Austin-based entrepreneur and community builder with deep ties to the city's growing founder ecosystem. She brings energy and warmth to every room she builds, focused on connecting founders across industries who share a bias for action and a commitment to genuine peer accountability. Having navigated the challenges of building in a competitive, fast-moving city, she understands what founders actually need from a community: honest relationships, useful introductions, and people who show up when it matters. She leads Gildre Austin with the belief that the best founder networks are built on trust first and everything else follows.",
                 photo: "/team/ola-george.webp",
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/olageorge/",
               },
               {
                 name: "Diana Muturia",
                 title: "Founder & CEO, Clyn · Austin Chapter Lead, Gildre",
                 bio: "Diana is the founder and CEO of Clyn, a platform automating cleaning operations for short-term and vacation rental hosts, built after she worked as a cleaner herself and saw firsthand the operational gaps the industry was ignoring. Originally from Kenya, she came to the U.S. at 18 on a math and engineering scholarship, taught herself to code during the pandemic, and built the first version of Clyn from the ground up. A Techstars Austin alumna, Diana's path from scholarship loss to homelessness to a funded startup is one of the most honest founder stories in the Austin community. She brings that same candor and resilience to every room she leads at Gildre.",
                 photo: "/team/diana-muturia.webp",
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/dianamuturia/",
               },
             ].map((lead) => (
               <div key={lead.name} className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
