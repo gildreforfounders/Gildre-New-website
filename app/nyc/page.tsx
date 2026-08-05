@@ -106,22 +106,22 @@ const memberTraits = [
   {
     label: "They're actively building",
     description:
-      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
+      "Not planning to build. Building. Gildre members are shipping, closing, and navigating the hard stuff in real time. The conversations match.",
   },
   {
     label: "They give before they ask",
     description:
-      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
+      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other founder event you've sat through.",
   },
   {
     label: "Every industry. One standard.",
     description:
-      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre NYC has members building across all of it. Industry is never the filter. Ambition and accountability are.",
+      "SaaS, consumer, healthcare, hardware, creator economy, services. Gildre NYC has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be useful to someone else.",
   },
   {
     label: "Past the point of no return",
     description:
-      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
+      "Most members crossed a line where the company stopped being a project and became the thing. That changes how honest they are, how much they share, and how much they help.",
   },
 ];
 
@@ -190,13 +190,11 @@ export default function NycPage() {
         <div className="relative mx-auto max-w-3xl text-center">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · New York City, NY</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-            The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>New York&rsquo;s</span> Most Serious Builders.
+            The most useful thing that will happen to your company this year is a dinner in{" "}
+            <span style={{ color: "#C9A96E" }}>New York.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables, built for New York&rsquo;s most
-            serious founders.
+            Gildre is a private founder membership for New York&rsquo;s active builders. Monthly curated dinners. Weekly 1:1 introductions. A community where everyone was chosen.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -207,7 +205,7 @@ export default function NycPage() {
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
-            {["All Industries", "Seed to Growth Stage", "High Signal Only"].map((tag) => (
+            {["Private Membership", "Hand-Curated Introductions", "Monthly Founder Dinners"].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
@@ -235,13 +233,12 @@ export default function NycPage() {
       {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What Gildre NYC Members Have in Common</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Why founders join and stay</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
+            Most founder communities give you more noise.<br />Gildre gives you fewer, better conversations.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
-            commitment. Every member ships, gives, and shows up.
+            The dinner is the visible part. What actually changes is who calls you on a Tuesday when something goes sideways.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {memberTraits.map((v) => (
@@ -293,16 +290,16 @@ export default function NycPage() {
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>In-Person Events · New York City, NY</p>
               <h2 className="mt-3 text-[1.75rem] font-bold leading-tight text-white sm:text-[2.1rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-                Real rooms. Real conversations. Active facilitation.
+                A dinner where you don&rsquo;t have to explain what you do.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre NYC hosts curated in-person programming every month: small, intentional gatherings where every attendee is selected and every conversation has a point.
+                Twelve founders. A good table somewhere between Flatiron and Tribeca. No name tags, no panels, no pitching to the room. Just the people you&rsquo;ve been trying to meet in an environment that&rsquo;s actually worth showing up to.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Private seated dinners in Flatiron and Tribeca. 12–20 founders per table. No pitches, no panels. High-density peer conversation for New York's most ambitious builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on the hardest parts of scaling: hiring, GTM, fundraising, and the decisions founders don't talk about publicly." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active NYC-area VCs and angels. Sessions are open across industries — the focus is stage and fit, not sector." },
+                  { title: "Monthly Founder Dinners", detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen anywhere else in New York because the room is built for them." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly sessions on the decisions that don't have clean answers. Hiring your first real executive. Letting someone go. The fundraising round that almost killed morale. Facilitated by someone who's been through it." },
+                  { title: "Investor Office Hours", detail: "Direct sessions with active New York-area investors. No pitch decks required. These are conversations, not auditions." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
@@ -351,10 +348,10 @@ export default function NycPage() {
           <div className="rounded-2xl px-8 py-10 sm:px-12" style={{ backgroundColor: "rgba(201,169,110,0.05)", border: "1px solid rgba(201,169,110,0.18)" }}>
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Selection Criteria</p>
             <h2 className="mt-3 text-[1.5rem] font-bold leading-snug text-white sm:text-[1.9rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-              Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in New York City.
+              Membership isn&rsquo;t automatic. That&rsquo;s what makes it worth having.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre NYC is selective by design. We review every application to ensure the community stays high-signal. You are a good fit if you are actively building a tech-enabled company, have initial traction or prior founder experience, and are serious about peer-to-peer growth.
+              We review every application. Not to be difficult — because who&rsquo;s in the room determines what the room is worth. If the bar drops, the conversations drop with it. The people already inside are the reason you want in.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -445,10 +442,10 @@ export default function NycPage() {
         <div className="mx-auto max-w-2xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>New York City, NY</p>
           <h2 className="mt-4 text-[2rem] font-bold leading-tight text-white sm:text-[2.75rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Your next breakthrough starts with the right room.
+            The next dinner already has a guest list. Apply to be on it.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with New York founders building at your level, with 1:1 introductions starting in your first week.
+            Applications take less than five minutes. If you&rsquo;re a fit, you&rsquo;ll hear from us within a week. The founders you&rsquo;ve been trying to get in the room with are already members.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>

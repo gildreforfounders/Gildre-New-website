@@ -120,22 +120,22 @@ const memberTraits = [
   {
     label: "They're actively building",
     description:
-      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
+      "Not planning to build. Building. Gildre members are shipping, closing, and navigating the hard stuff in real time. The conversations match.",
   },
   {
     label: "They give before they ask",
     description:
-      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
+      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other founder event you've sat through.",
   },
   {
     label: "Every industry. One standard.",
     description:
-      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre Chicago has members building across all of it. Industry is never the filter. Ambition and accountability are.",
+      "SaaS, consumer, healthcare, hardware, creator economy, services. Gildre Chicago has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be useful to someone else.",
   },
   {
     label: "Past the point of no return",
     description:
-      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
+      "Most members crossed a line where the company stopped being a project and became the thing. That changes how honest they are, how much they share, and how much they help.",
   },
 ];
 
@@ -241,13 +241,10 @@ export default function ChicagoPage() {
             className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>Chicago&rsquo;s</span> Most Active Builders.
+            <span style={{ color: "#C9A96E" }}>Chicago</span> builds companies the hard way. Gildre is where those builders find each other.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables, built for Chicago&rsquo;s most
-            focused founders, from West Loop to River North.
+            Gildre is a private founder membership for Chicago&rsquo;s active builders. Monthly dinners. Weekly introductions made by hand. A room with standards.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -268,7 +265,7 @@ export default function ChicagoPage() {
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
-            {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((tag) => (
+            {["Private Membership", "Hand-Curated Introductions", "Monthly Founder Dinners"].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
@@ -309,17 +306,16 @@ export default function ChicagoPage() {
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
-            What Gildre Chicago Members Have in Common
+            Why founders join and stay
           </p>
           <h2
             className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
+            Most founder communities give you more noise.<br />Gildre gives you fewer, better conversations.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
-            commitment. Every member ships, gives, and shows up.
+            The dinner is the visible part. What actually changes is who calls you on a Tuesday when something goes sideways.
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -474,27 +470,25 @@ export default function ChicagoPage() {
                 className="mt-3 text-[1.75rem] font-bold leading-tight text-white sm:text-[2.1rem]"
                 style={{ fontFamily: "var(--font-fraunces)" }}
               >
-                Real rooms. Real conversations. Active facilitation.
+                A dinner where you don&rsquo;t have to explain what you do.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Chicago hosts curated in-person programming every month: not open
-                mixers, but small, intentional gatherings where every attendee is selected and
-                every conversation has a point.
+                Twelve founders. A good table somewhere in Chicago. No pitching, no panels. The people across from you are building real companies and will tell you what&rsquo;s actually going on in theirs.
               </p>
 
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   {
                     title: "Monthly Founder Meet-Ups",
-                    detail: "Casual, low-pressure meet-ups: coffee chats, founder walks, and drop-in sessions across the city. The best relationships start with showing up before you need anything.",
+                    detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen anywhere else in Chicago because the room is built for them.",
                   },
                   {
                     title: "Curated Dinners",
-                    detail: "Private seated dinners across the city. 10–12 founders per table. No pitches, no panels. Just high-density peer conversation.",
+                    detail: "Quarterly sessions on the decisions that don't have clean answers. Hiring your first real executive. Letting someone go. The fundraising round that almost killed morale. Facilitated by someone who's been through it.",
                   },
                   {
                     title: "Partner Events Across the Local Ecosystem",
-                    detail: "Our members are on the boards and lead other organizations including 1 Million Cups, FuckUp Nights Chicago, and others that bring the most engaged founders across the city. We collaborate with them to expand the network effect and meet other world-class builders.",
+                    detail: "Direct sessions with active Chicago-area investors. No pitch decks required. These are conversations, not auditions.",
                   },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
@@ -578,13 +572,10 @@ export default function ChicagoPage() {
               className="mt-3 text-[1.5rem] font-bold leading-snug text-white sm:text-[1.9rem]"
               style={{ fontFamily: "var(--font-fraunces)" }}
             >
-              Built for Pre-Seed to Series A founders, executive operators, and high-growth builders in Chicago.
+              Membership isn&rsquo;t automatic. That&rsquo;s what makes it worth having.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              Gildre Chicago is selective by design. We review every application to ensure the
-              community stays high-signal. You are a good fit if you are actively building a
-              tech-enabled company, have initial traction or prior founder experience, and are
-              serious about peer-to-peer growth, not just collecting contacts.
+              We review every application. Not to be difficult — because who&rsquo;s in the room determines what the room is worth. If the bar drops, the conversations drop with it. The people already inside are the reason you want in.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {[
@@ -733,11 +724,10 @@ export default function ChicagoPage() {
             className="mt-4 text-[2rem] font-bold leading-tight text-white sm:text-[2.75rem]"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            Your next breakthrough starts with the right room.
+            The next dinner already has a guest list. Apply to be on it.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Apply today and get actively matched with Chicago founders who are building at your
-            level, with 1:1 introductions starting in your first week.
+            Applications take less than five minutes. If you&rsquo;re a fit, you&rsquo;ll hear from us within a week. The founders you&rsquo;ve been trying to get in the room with are already members.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
