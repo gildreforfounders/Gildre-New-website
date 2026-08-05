@@ -394,7 +394,7 @@ export default function AustinPage() {
                 title: "Chapter Lead, Gildre Austin",
                 bio: "Ola is an Austin-based entrepreneur and community builder with deep ties to the city's growing founder ecosystem. She brings energy and warmth to every room she builds, focused on connecting founders across industries who share a bias for action and a commitment to genuine peer accountability. Having navigated the challenges of building in a competitive, fast-moving city, she understands what founders actually need from a community: honest relationships, useful introductions, and people who show up when it matters. She leads Gildre Austin with the belief that the best founder networks are built on trust first and everything else follows.",
                 photo: "/team/ola-george.webp",
-                linkedin: "https://www.linkedin.com/in/olageorge/",
+                linkedin: "https://www.linkedin.com/in/ola-george/",
               },
               {
                 name: "Diana Muturia",
