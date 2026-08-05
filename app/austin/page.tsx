@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/austin" },
   title: "Founder Community Austin | Gildre",
   description:
-    "Gildre connects Austin founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners Downtown and in East Austin. Built for SaaS, clean energy, creator economy, and fintech builders.",
+    "Gildre connects Austin founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   keywords: [
     "Austin founder community",
     "Austin startup network",
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Founder Community Austin | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Austin's SaaS, clean energy, creator economy, and fintech builders.",
+      "Gildre connects Austin founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/austin",
     siteName: "Gildre",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Founder Community Austin | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Austin's SaaS, clean energy, creator economy, and fintech builders.",
+      "Gildre connects Austin founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -51,7 +51,7 @@ const schema = {
       address: { "@type": "PostalAddress", addressLocality: "Austin", addressRegion: "TX", postalCode: "78701", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 30.2672, longitude: -97.7431 },
       areaServed: [{ "@type": "City", name: "Austin" }, { "@type": "Country", name: "United States" }],
-      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "SaaS", "Clean Energy", "Creator Economy", "Fintech"],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
     },
@@ -79,7 +79,7 @@ const schema = {
           name: "What types of founders join Gildre Austin?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Austin is built for seed-to-Series A founders primarily in SaaS and cloud infrastructure, clean energy and climate tech, creator economy platforms, and fintech. Many members have relocated to Austin from coastal cities and are building their local operator network at speed.",
+            text: "Gildre Austin welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -103,30 +103,26 @@ const schema = {
   ],
 };
 
-const verticals = [
+const memberTraits = [
   {
-    label: "SaaS & Cloud Infrastructure",
+    label: "They're actively building",
     description:
-      "Dell, Oracle, and IBM made Austin a proven enterprise technology city. A new generation of SaaS founders is building vertical software, developer tools, and cloud-native platforms with the benefit of deep enterprise buyer access and a growing VC ecosystem.",
-    tags: ["Vertical SaaS", "Developer Tools", "Cloud Infrastructure", "B2B Platforms"],
+      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
   },
   {
-    label: "Clean Energy & Climate Tech",
+    label: "They give before they ask",
     description:
-      "Texas&rsquo;s energy grid, solar capacity, and battery storage infrastructure make Austin a natural home for climate tech founders. Gildre connects you with operators who have navigated energy markets, DOE grant programs, and the specific capital dynamics of hardware-plus-software climate businesses.",
-    tags: ["Solar & Battery", "Energy Grid Tech", "Carbon Markets", "Climate Infrastructure"],
+      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
   },
   {
-    label: "Creator Economy & Live Events",
+    label: "Every industry. One standard.",
     description:
-      "SXSW put Austin on the global map for media, music, and live culture. Founders building in creator monetization, live events tech, media platforms, and the intersection of culture and technology find dense peer density and brand-forward investor appetite in Austin.",
-    tags: ["Creator Monetization", "Live Events Tech", "Music Tech", "Media Platforms"],
+      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre Austin has members building across all of it. Industry is never the filter. Ambition and accountability are.",
   },
   {
-    label: "Fintech & Payments",
+    label: "Past the point of no return",
     description:
-      "Capital One&rsquo;s major campus and a growing cohort of fintech founders have made Austin a serious player in financial technology. Founders in payments, lending infrastructure, and embedded finance find operators and investors who understand the Texas regulatory and consumer landscape.",
-    tags: ["Payments", "Embedded Finance", "Lending Tech", "Wealth Tech"],
+      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
   },
 ];
 
@@ -165,7 +161,7 @@ const faqItems = [
   },
   {
     q: "What types of founders join Gildre Austin?",
-    a: "Gildre Austin is built for seed-to-Series A founders primarily in SaaS, clean energy, creator economy, and fintech. Many members have relocated from coastal cities and are building their local operator network at speed.",
+    a: "Gildre Austin welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How is Gildre different from Capital Factory or other Austin startup hubs?",
@@ -199,13 +195,12 @@ export default function AustinPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · Austin, TX</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
             The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>Austin&rsquo;s</span> SaaS,
-            Clean Energy &amp; High-Growth Builders.
+            <span style={{ color: "#C9A96E" }}>Austin&rsquo;s</span> Founders Who Mean It.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables, built for Austin&rsquo;s most focused
-            founders, from Downtown to East Austin.
+            mentorship, and high-impact peer roundtables, built for Austin&rsquo;s founders
+            who mean it.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -215,9 +210,17 @@ export default function AustinPage() {
               Explore Austin Gatherings
             </Link>
           </div>
-          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
-            Seed · Series A · Operator-led · High-signal only
-          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {["All Industries", "Seed to Growth Stage", "High Signal Only"].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
+                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -238,26 +241,22 @@ export default function AustinPage() {
         </div>
       </section>
 
-      {/* ── Ecosystem Verticals ──────────────────────────────────────── */}
+      {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Built for Austin&rsquo;s Core Verticals</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What Gildre Austin Members Have in Common</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Deep expertise in the industries<br />Austin is redefining.
+            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
+            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
+            commitment. Every member ships, gives, and shows up.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {verticals.map((v) => (
+            {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
                 <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {v.tags.map((tag) => (
-                    <span key={tag} className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}>{tag}</span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
@@ -311,8 +310,8 @@ export default function AustinPage() {
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   { title: "Monthly Founder Dinners", detail: "Private seated dinners Downtown and in East Austin. 12–20 founders per table. No pitches, no panels. High-density peer conversation built for execution-focused builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on scaling challenges: hiring in a competitive talent market, navigating Texas regulations, and pricing SaaS or energy products, facilitated by operators who have crossed the same threshold." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Austin-area VCs, angels, and family offices deploying into SaaS, clean energy, and fintech, the verticals Austin is betting on." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on the hardest parts of scaling: hiring, GTM, fundraising, and the decisions founders don't talk about publicly." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Austin-area VCs, angels, and family offices. Sessions are open across industries — the focus is stage and fit, not sector." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>

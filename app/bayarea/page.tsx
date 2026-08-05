@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/bayarea" },
   title: "Founder Community Bay Area | Gildre",
   description:
-    "Gildre connects Bay Area founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners in SoMa and Palo Alto. Built for AI, deep-tech, enterprise SaaS, and climate tech builders.",
+    "Gildre connects Bay Area founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   keywords: [
     "Bay Area founder community",
     "Silicon Valley startup network",
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Founder Community Bay Area | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Bay Area AI, deep-tech, enterprise SaaS, and climate tech builders.",
+      "Gildre connects Bay Area founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/bayarea",
     siteName: "Gildre",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Founder Community Bay Area | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Bay Area AI, deep-tech, enterprise SaaS, and climate tech builders.",
+      "Gildre connects Bay Area founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -51,7 +51,7 @@ const schema = {
       address: { "@type": "PostalAddress", addressLocality: "San Francisco", addressRegion: "CA", postalCode: "94102", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 37.7749, longitude: -122.4194 },
       areaServed: [{ "@type": "City", name: "San Francisco" }, { "@type": "State", name: "California" }, { "@type": "Country", name: "United States" }],
-      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "AI", "Deep-Tech", "Enterprise SaaS", "Climate Tech", "Venture Capital"],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
     },
@@ -79,7 +79,7 @@ const schema = {
           name: "What types of founders join Gildre Bay Area?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Bay Area is built for seed-to-Series A founders primarily in AI and foundation model applications, deep-tech and hardware, enterprise SaaS and developer tools, and climate tech. The common thread is ambition to build something that matters at scale.",
+            text: "Gildre Bay Area welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -103,30 +103,26 @@ const schema = {
   ],
 };
 
-const verticals = [
+const memberTraits = [
   {
-    label: "AI & Foundation Model Applications",
+    label: "They're actively building",
     description:
-      "The Bay Area is the global capital of artificial intelligence. Founders building AI-native products, fine-tuned model applications, or AI infrastructure find the most sophisticated peer density and investor appetite here. Gildre connects you with operators who have shipped AI products at scale, not just theorized about them.",
-    tags: ["AI-Native Products", "LLM Applications", "AI Infrastructure", "Autonomous Systems"],
+      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
   },
   {
-    label: "Deep-Tech & Hardware",
+    label: "They give before they ask",
     description:
-      "From semiconductor design to quantum computing to robotics, the Bay Area&rsquo;s deep-tech ecosystem is where the world&rsquo;s hardest technical problems get funded. Gildre members in this space find peers who understand long development cycles, DARPA and NSF grant pathways, and the unique capital structures of hardware-plus-software businesses.",
-    tags: ["Semiconductors", "Quantum Computing", "Robotics", "Photonics"],
+      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
   },
   {
-    label: "Enterprise SaaS & Developer Tools",
+    label: "Every industry. One standard.",
     description:
-      "Salesforce, GitHub, Stripe, and Twilio were all built here. A new generation of enterprise SaaS founders is building the infrastructure layer for the next decade. Gildre connects you with operators who have sold seven-figure enterprise contracts, built product-led growth engines, and navigated the Bay Area&rsquo;s intense hiring competition.",
-    tags: ["Developer Platforms", "Product-Led Growth", "Enterprise Sales", "API Infrastructure"],
+      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre Bay Area has members building across all of it. Industry is never the filter. Ambition and accountability are.",
   },
   {
-    label: "Climate Tech & Clean Energy",
+    label: "Past the point of no return",
     description:
-      "California&rsquo;s climate ambition and the Bay Area&rsquo;s capital density have made this the most active climate tech ecosystem in the world. Founders in solar, battery storage, grid technology, carbon markets, and sustainable materials find investors and operators with domain expertise and patient capital.",
-    tags: ["Battery & Grid Tech", "Carbon Markets", "Sustainable Materials", "Climate Infrastructure"],
+      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
   },
 ];
 
@@ -165,7 +161,7 @@ const faqItems = [
   },
   {
     q: "What types of founders join Gildre Bay Area?",
-    a: "Gildre Bay Area is built for seed-to-Series A founders primarily in AI, deep-tech, enterprise SaaS, and climate tech. The common thread is ambition to build something that matters at scale, not just to participate in the Bay Area ecosystem.",
+    a: "Gildre Bay Area welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How is Gildre different from other Bay Area founder communities?",
@@ -196,13 +192,12 @@ export default function BayAreaPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · Bay Area, CA</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
             The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>the Bay Area&rsquo;s</span> AI,
-            Deep-Tech &amp; Enterprise Builders.
+            <span style={{ color: "#C9A96E" }}>the Bay Area&rsquo;s</span> Founders Who Are Actually Building.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             In the noisiest founder market on earth, replace surface-level networking with active
             1:1 matchmaking, expert operator mentorship, and high-impact peer roundtables, built
-            for the Bay Area&rsquo;s most focused builders, from SoMa to Palo Alto.
+            for the Bay Area&rsquo;s founders who are actually building.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -212,9 +207,17 @@ export default function BayAreaPage() {
               Explore Bay Area Gatherings
             </Link>
           </div>
-          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
-            Seed · Series A · Operator-led · High-signal only
-          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {["All Industries", "Seed to Growth Stage", "High Signal Only"].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
+                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -230,26 +233,22 @@ export default function BayAreaPage() {
         </div>
       </section>
 
-      {/* ── Ecosystem Verticals ──────────────────────────────────────── */}
+      {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Built for the Bay Area&rsquo;s Core Verticals</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What Gildre Bay Area Members Have in Common</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Deep expertise in the industries<br />Silicon Valley is defining for the world.
+            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
+            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
+            commitment. Every member ships, gives, and shows up.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {verticals.map((v) => (
+            {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
                 <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {v.tags.map((tag) => (
-                    <span key={tag} className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}>{tag}</span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
@@ -326,8 +325,8 @@ export default function BayAreaPage() {
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   { title: "Monthly Founder Dinners", detail: "Private seated dinners in SoMa and Palo Alto. 12–20 founders per table. No pitches, no panels. High-density peer conversation for Bay Area's most focused builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on Bay Area-specific scaling challenges: AI product differentiation, enterprise sales cycles, and recruiting against FAANG, facilitated by operators who have navigated the same terrain." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Bay Area VCs and angels deploying into AI, deep-tech, enterprise SaaS, and climate tech, the categories Silicon Valley is defining for the next decade." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on the hardest parts of scaling: hiring, GTM, fundraising, and the decisions founders don't talk about publicly." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Bay Area VCs and angels. Sessions are open across industries — the focus is stage and fit, not sector." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>

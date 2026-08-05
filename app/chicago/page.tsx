@@ -58,7 +58,7 @@ const schema = {
       },
       geo: { "@type": "GeoCoordinates", latitude: 41.8781, longitude: -87.6298 },
       areaServed: [{ "@type": "City", name: "Chicago" }, { "@type": "Country", name: "United States" }],
-      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Fintech", "Enterprise SaaS"],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: [
         "https://www.gildre.com",
         "https://www.instagram.com/gildreforfounders",
@@ -116,30 +116,26 @@ const schema = {
   ],
 };
 
-const verticals = [
+const memberTraits = [
   {
-    label: "Fintech & Trading Tech",
+    label: "They're actively building",
     description:
-      "Chicago owns global derivatives trading. If you are building in payments, trading infrastructure, credit, or financial data. You are in the right city. Get matched with operators who have built in the shadow of CME and Morningstar.",
-    tags: ["Payments", "Credit Tech", "Trading Infrastructure", "Financial Data"],
+      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
   },
   {
-    label: "Enterprise SaaS & B2B",
+    label: "They give before they ask",
     description:
-      "Chicago's enterprise sales culture is second to none. Founders building vertical SaaS, CRM tooling, or B2B platforms find a dense network of enterprise buyers and operators here who have closed seven-figure contracts.",
-    tags: ["Vertical SaaS", "CRM & RevOps", "B2B Platforms", "Enterprise Sales"],
+      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
   },
   {
-    label: "Logistics & Supply Chain",
+    label: "Every industry. One standard.",
     description:
-      "O'Hare, the rail hub, and the Great Lakes make Chicago a logistics nerve center. Founders building in supply chain visibility, last-mile, or freight tech are matching with operators and investors who have scaled in this exact space.",
-    tags: ["Supply Chain", "Freight Tech", "Last-Mile", "Warehouse Automation"],
+      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre Chicago has members building across all of it. Industry is never the filter. Ambition and accountability are.",
   },
   {
-    label: "Restaurant & Hospitality Tech",
+    label: "Past the point of no return",
     description:
-      "From Michelin-starred dining to the world's most competitive restaurant market, Chicago is the proving ground for hospitality technology. Founders building in reservations, discovery, loyalty, or back-of-house software find real test beds here.",
-    tags: ["Restaurant Discovery", "Hospitality SaaS", "Loyalty Tech", "Back-of-House"],
+      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
   },
 ];
 
@@ -309,25 +305,25 @@ export default function ChicagoPage() {
         </div>
       </section>
 
-      {/* ── Chicago Ecosystem Verticals ──────────────────────────────── */}
+      {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
-            Built for Chicago&rsquo;s Core Verticals
+            What Gildre Chicago Members Have in Common
           </p>
           <h2
             className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            Deep expertise in the industries<br />Chicago owns.
+            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact
-            terrain you&rsquo;re crossing, in your vertical, at your stage.
+            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
+            commitment. Every member ships, gives, and shows up.
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {verticals.map((v) => (
+            {memberTraits.map((v) => (
               <div
                 key={v.label}
                 className="rounded-2xl p-7"
@@ -339,17 +335,6 @@ export default function ChicagoPage() {
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
                   {v.description}
                 </p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {v.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider"
-                      style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>

@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/la" },
   title: "Founder Community Los Angeles | Gildre",
   description:
-    "Gildre connects LA founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners in Venice and West Hollywood. Built for consumer brands, creator economy, HealthTech, and PropTech builders.",
+    "Gildre connects Los Angeles founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   keywords: [
     "Los Angeles founder community",
     "LA startup network",
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Founder Community Los Angeles | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for LA's consumer brand, creator economy, HealthTech, and PropTech builders.",
+      "Gildre connects Los Angeles founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/la",
     siteName: "Gildre",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Founder Community Los Angeles | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for LA's consumer brand, creator economy, HealthTech, and PropTech builders.",
+      "Gildre connects Los Angeles founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -51,7 +51,7 @@ const schema = {
       address: { "@type": "PostalAddress", addressLocality: "Los Angeles", addressRegion: "CA", postalCode: "90001", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 34.0522, longitude: -118.2437 },
       areaServed: [{ "@type": "City", name: "Los Angeles" }, { "@type": "Country", name: "United States" }],
-      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Consumer Brands", "Creator Economy", "HealthTech", "PropTech"],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
     },
@@ -79,7 +79,7 @@ const schema = {
           name: "What types of founders join Gildre LA?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre LA is built for seed-to-Series A founders primarily in consumer brands and DTC, creator economy and media tech, HealthTech and FemTech, and PropTech. Many members are building brand-forward businesses where distribution, culture, and product have to work together.",
+            text: "Gildre LA welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -103,30 +103,26 @@ const schema = {
   ],
 };
 
-const verticals = [
+const memberTraits = [
   {
-    label: "Consumer Brands & DTC",
+    label: "They're actively building",
     description:
-      "The Honest Company, Dollar Shave Club, and a generation of digitally-native brands were built in LA. Founders in DTC, CPG, beauty, wellness, and lifestyle brands find the densest concentration of brand operators, performance marketers, and consumer-focused investors in the country right here.",
-    tags: ["DTC & CPG", "Beauty & Wellness", "Lifestyle Brands", "Performance Marketing"],
+      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
   },
   {
-    label: "Creator Economy & Media Tech",
+    label: "They give before they ask",
     description:
-      "YouTube, Spotify, and the streaming wars have made LA the global capital of the creator economy. Founders building creator monetization platforms, live events technology, music tech, and content infrastructure find both the buyer base and the investor appetite to match their ambition.",
-    tags: ["Creator Monetization", "Streaming Tech", "Music Tech", "Content Platforms"],
+      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
   },
   {
-    label: "HealthTech & FemTech",
+    label: "Every industry. One standard.",
     description:
-      "LA&rsquo;s wellness culture and the post-pandemic surge in consumer health have made it one of the strongest HealthTech markets in the US. Founders building in digital health, FemTech, mental wellness, and tech-enabled fitness find real test beds and consumer-forward investors ready to deploy.",
-    tags: ["Digital Health", "FemTech", "Mental Wellness", "Tech-Enabled Fitness"],
+      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre Los Angeles has members building across all of it. Industry is never the filter. Ambition and accountability are.",
   },
   {
-    label: "PropTech & Real Estate Tech",
+    label: "Past the point of no return",
     description:
-      "In the most expensive housing market outside of NYC, LA has produced some of the most ambitious PropTech founders in the country. Founders building in residential technology, construction software, short-term rentals, and real estate data have access to real buyer networks and operators here.",
-    tags: ["Residential Tech", "Short-Term Rentals", "Construction Tech", "Real Estate Data"],
+      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
   },
 ];
 
@@ -165,7 +161,7 @@ const faqItems = [
   },
   {
     q: "What types of founders join Gildre LA?",
-    a: "Gildre LA is built for seed-to-Series A founders primarily in consumer brands, creator economy, HealthTech, and PropTech. Many members are building brand-forward businesses where distribution, culture, and product have to work together.",
+    a: "Gildre LA welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How is Gildre different from LA's existing startup and brand communities?",
@@ -196,13 +192,12 @@ export default function LaPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · Los Angeles, CA</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
             The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>LA&rsquo;s</span> Consumer,
-            Creator &amp; High-Growth Builders.
+            <span style={{ color: "#C9A96E" }}>Los Angeles&rsquo;</span> Most Driven Builders.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables, built for LA&rsquo;s most focused
-            founders, from Venice to West Hollywood.
+            mentorship, and high-impact peer roundtables, built for Los Angeles&rsquo; most
+            driven builders.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -212,9 +207,17 @@ export default function LaPage() {
               Explore LA Gatherings
             </Link>
           </div>
-          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
-            Seed · Series A · Operator-led · High-signal only
-          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {["All Industries", "Seed to Growth Stage", "High Signal Only"].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
+                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -230,26 +233,22 @@ export default function LaPage() {
         </div>
       </section>
 
-      {/* ── Ecosystem Verticals ──────────────────────────────────────── */}
+      {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Built for LA&rsquo;s Core Verticals</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What Gildre Los Angeles Members Have in Common</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Deep expertise in the industries<br />LA sets the cultural agenda for.
+            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
+            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
+            commitment. Every member ships, gives, and shows up.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {verticals.map((v) => (
+            {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
                 <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {v.tags.map((tag) => (
-                    <span key={tag} className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}>{tag}</span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
@@ -303,8 +302,8 @@ export default function LaPage() {
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   { title: "Monthly Founder Dinners", detail: "Private seated dinners in Venice and West Hollywood. 12–20 founders per table. No pitches, no panels. High-density peer conversation for LA's most serious builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on LA-specific scaling challenges: DTC unit economics, creator monetization, HealthTech regulation, and brand-to-product transitions, facilitated by operators who have crossed the same threshold." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active LA-area VCs and angels deploying into consumer, creator economy, HealthTech, and PropTech, the categories LA is defining for the next decade." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on the hardest parts of scaling: hiring, GTM, fundraising, and the decisions founders don't talk about publicly." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active LA-area VCs and angels. Sessions are open across industries — the focus is stage and fit, not sector." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>

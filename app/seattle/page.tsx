@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/seattle" },
   title: "Founder Community Seattle | Gildre",
   description:
-    "Gildre connects Seattle founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners in South Lake Union and Capitol Hill. Built for cloud infrastructure, AI, biotech, and big-tech-alumni builders.",
+    "Gildre connects Seattle founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   keywords: [
     "Seattle founder community",
     "Seattle startup network",
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Founder Community Seattle | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Seattle's cloud infrastructure, AI, biotech, and big-tech-alumni builders.",
+      "Gildre connects Seattle founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/seattle",
     siteName: "Gildre",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Founder Community Seattle | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for Seattle's cloud infrastructure, AI, biotech, and big-tech-alumni builders.",
+      "Gildre connects Seattle founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -51,7 +51,7 @@ const schema = {
       address: { "@type": "PostalAddress", addressLocality: "Seattle", addressRegion: "WA", postalCode: "98101", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 47.6062, longitude: -122.3321 },
       areaServed: [{ "@type": "City", name: "Seattle" }, { "@type": "Country", name: "United States" }],
-      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Cloud Infrastructure", "AI", "Biotech", "Enterprise Software"],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
     },
@@ -79,7 +79,7 @@ const schema = {
           name: "What types of founders join Gildre Seattle?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Seattle is built for seed-to-Series A founders primarily in cloud and enterprise infrastructure, applied AI and ML, biotech and genomics, and consumer marketplace tech. Many members have Amazon, Microsoft, or Salesforce pedigree and are making the leap to building their own company.",
+            text: "Gildre Seattle welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -103,30 +103,26 @@ const schema = {
   ],
 };
 
-const verticals = [
+const memberTraits = [
   {
-    label: "Cloud & Enterprise Infrastructure",
+    label: "They're actively building",
     description:
-      "AWS and Azure were both built in Seattle. A generation of founders is now building the next layer of cloud infrastructure: DevOps tooling, security platforms, data infrastructure, and API-first enterprise software, with access to enterprise buyers and operators who have deployed at planetary scale.",
-    tags: ["DevOps & Platform Eng", "Security Infrastructure", "Data Platforms", "API-First SaaS"],
+      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
   },
   {
-    label: "AI & ML Applications",
+    label: "They give before they ask",
     description:
-      "The Allen Institute for AI and a dense community of ML engineers have made Seattle one of the most important cities for applied AI outside of San Francisco. Founders building AI-native products, fine-tuned model applications, and autonomous systems find peer operators who have shipped AI at scale.",
-    tags: ["Applied ML", "AI-Native Products", "Autonomous Systems", "AI Research"],
+      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
   },
   {
-    label: "Biotech & Genomics",
+    label: "Every industry. One standard.",
     description:
-      "The Institute for Systems Biology and UW&rsquo;s world-class research programs have seeded a biotech ecosystem in Seattle that operates very differently from Boston, more engineer-led, more computational, and deeply connected to the Pacific Northwest&rsquo;s life sciences infrastructure.",
-    tags: ["Genomics", "Computational Biology", "Digital Therapeutics", "Biomedical Devices"],
+      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre Seattle has members building across all of it. Industry is never the filter. Ambition and accountability are.",
   },
   {
-    label: "Consumer Marketplace & Sustainability",
+    label: "Past the point of no return",
     description:
-      "Amazon&rsquo;s alumni network has produced some of the most sophisticated marketplace founders in the world. Seattle&rsquo;s outdoor culture and proximity to Pacific Northwest supply chains also makes it a natural home for sustainability, outdoor, and climate-conscious consumer brands.",
-    tags: ["Marketplace Tech", "Outdoor & Sustainability", "Supply Chain", "Consumer Platforms"],
+      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
   },
 ];
 
@@ -165,7 +161,7 @@ const faqItems = [
   },
   {
     q: "What types of founders join Gildre Seattle?",
-    a: "Gildre Seattle is built for seed-to-Series A founders primarily in cloud and enterprise infrastructure, applied AI, biotech, and consumer marketplace tech. Many members have Amazon, Microsoft, or Salesforce pedigree and are making the leap to building their own company.",
+    a: "Gildre Seattle welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How does Gildre help big-tech alumni transition to founder life?",
@@ -196,13 +192,12 @@ export default function SeattlePage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · Seattle, WA</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
             The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>Seattle&rsquo;s</span> Cloud,
-            AI &amp; Big-Tech-Alumni Builders.
+            <span style={{ color: "#C9A96E" }}>Seattle&rsquo;s</span> Founders Who Are All In.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables, built for Seattle&rsquo;s most focused
-            founders, from South Lake Union to Capitol Hill.
+            mentorship, and high-impact peer roundtables, built for Seattle&rsquo;s founders
+            who are all in.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -212,9 +207,17 @@ export default function SeattlePage() {
               Explore Seattle Gatherings
             </Link>
           </div>
-          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
-            Seed · Series A · Operator-led · High-signal only
-          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {["All Industries", "Seed to Growth Stage", "High Signal Only"].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
+                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -230,26 +233,22 @@ export default function SeattlePage() {
         </div>
       </section>
 
-      {/* ── Ecosystem Verticals ──────────────────────────────────────── */}
+      {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Built for Seattle&rsquo;s Core Verticals</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What Gildre Seattle Members Have in Common</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Deep expertise in the industries<br />Seattle built for the planet.
+            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
+            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
+            commitment. Every member ships, gives, and shows up.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {verticals.map((v) => (
+            {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
                 <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {v.tags.map((tag) => (
-                    <span key={tag} className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}>{tag}</span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
@@ -303,8 +302,8 @@ export default function SeattlePage() {
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   { title: "Monthly Founder Dinners", detail: "Private seated dinners in South Lake Union and Capitol Hill. 12–20 founders per table. No pitches, no panels. High-density peer conversation for Seattle's most serious builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on Seattle-specific challenges: transitioning from big-tech to startup, hiring against Amazon and Microsoft, and enterprise sales to technical buyers, facilitated by operators who have navigated the same terrain." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active Pacific Northwest VCs and angels deploying into cloud infrastructure, applied AI, biotech, and marketplace tech, the categories Seattle has built its global reputation in." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on the hardest parts of scaling: hiring, GTM, fundraising, and the decisions founders don't talk about publicly." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active Pacific Northwest VCs and angels. Sessions are open across industries — the focus is stage and fit, not sector." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>

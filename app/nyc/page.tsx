@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/nyc" },
   title: "Founder Community New York City | Gildre",
   description:
-    "Gildre connects NYC founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners in Flatiron and Tribeca. Built for fintech, consumer brands, media tech, and PropTech builders.",
+    "Gildre connects New York City founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   keywords: [
     "NYC founder community",
     "New York startup network",
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Founder Community New York City | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for NYC's fintech, consumer brand, media tech, and PropTech builders.",
+      "Gildre connects New York City founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/nyc",
     siteName: "Gildre",
     type: "website",
@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Founder Community New York City | Gildre",
     description:
-      "Active 1:1 matchmaking, expert operator mentorship, and private founder dinners for NYC's fintech, consumer brand, media tech, and PropTech builders.",
+      "Gildre connects New York City founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -50,7 +50,7 @@ const schema = {
       address: { "@type": "PostalAddress", addressLocality: "New York City", addressRegion: "NY", postalCode: "10001", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 40.7128, longitude: -74.006 },
       areaServed: [{ "@type": "City", name: "New York City" }, { "@type": "Country", name: "United States" }],
-      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Fintech", "Consumer Brands", "Media Tech", "PropTech"],
+      knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
     },
@@ -78,7 +78,7 @@ const schema = {
           name: "What types of founders join Gildre NYC?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre NYC is built for seed-to-Series A founders primarily in fintech, consumer brands and DTC, media and AdTech, and PropTech. NYC's diversity means Gildre members here often get valuable cross-industry perspective alongside deep-vertical peer matching.",
+            text: "Gildre NYC welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
           },
         },
         {
@@ -102,30 +102,26 @@ const schema = {
   ],
 };
 
-const verticals = [
+const memberTraits = [
   {
-    label: "Fintech & Insurtech",
+    label: "They're actively building",
     description:
-      "Wall Street&rsquo;s legacy and a generation of challenger fintech companies have made New York the capital of financial technology. Founders in payments, trading infrastructure, lending, wealth management, and insurtech find peer density and investor appetite unlike anywhere else.",
-    tags: ["Payments", "Wealth Tech", "Insurtech", "Banking Infrastructure"],
+      "Not ideating, not studying the market. Gildre members are shipping, selling, and scaling. The conversations reflect it.",
   },
   {
-    label: "Consumer Brands & DTC",
+    label: "They give before they ask",
     description:
-      "New York is where consumer brands are born and scaled. Founders building DTC, CPG, beauty, wellness, and digitally-native brands find a community of operators who understand brand equity, customer acquisition, and the specific dynamics of New York&rsquo;s retail and media ecosystem.",
-    tags: ["DTC & CPG", "Beauty & Wellness", "Retail Tech", "Brand Strategy"],
+      "The community runs on reciprocity. Every member contributes. That's what keeps the signal high and the trust real.",
   },
   {
-    label: "Media & AdTech",
+    label: "Every industry. One standard.",
     description:
-      "From TV networks to streaming platforms to digital advertising infrastructure, New York owns media at scale. Founders building in content technology, programmatic advertising, creator tools, and audience monetization find operators and investors here who have built these categories from the ground up.",
-    tags: ["Streaming Tech", "Programmatic Ads", "Creator Tools", "Content Platforms"],
+      "Consumer, healthcare, SaaS, hardware, creator economy, services. Gildre NYC has members building across all of it. Industry is never the filter. Ambition and accountability are.",
   },
   {
-    label: "PropTech & Real Estate Tech",
+    label: "Past the point of no return",
     description:
-      "The world&rsquo;s most valuable real estate market creates the world&rsquo;s most ambitious PropTech founders. Whether building in residential, commercial, construction technology, or real estate data infrastructure. New York&rsquo;s operator density and buyer access are unmatched.",
-    tags: ["Residential Tech", "Commercial PropTech", "Construction Tech", "Real Estate Data"],
+      "Most members have crossed a threshold where going back isn't the plan. That changes how they show up, what they share, and how much they're willing to help.",
   },
 ];
 
@@ -164,7 +160,7 @@ const faqItems = [
   },
   {
     q: "What types of founders join Gildre NYC?",
-    a: "Gildre NYC is built for seed-to-Series A founders primarily in fintech, consumer brands, media and AdTech, and PropTech. NYC's diversity means members often get valuable cross-industry perspective alongside deep-vertical peer matching.",
+    a: "Gildre NYC welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
   },
   {
     q: "How is Gildre different from NYC's existing startup communities?",
@@ -195,13 +191,12 @@ export default function NycPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · New York City, NY</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
             The Curated Growth Network for{" "}
-            <span style={{ color: "#C9A96E" }}>New York&rsquo;s</span> Fintech,
-            Consumer &amp; Media Builders.
+            <span style={{ color: "#C9A96E" }}>New York&rsquo;s</span> Most Serious Builders.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Replace surface-level networking with active 1:1 matchmaking, expert operator
-            mentorship, and high-impact peer roundtables, built for New York&rsquo;s most focused
-            founders, from Flatiron to Tribeca.
+            mentorship, and high-impact peer roundtables, built for New York&rsquo;s most
+            serious founders.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -211,9 +206,17 @@ export default function NycPage() {
               Explore NYC Gatherings
             </Link>
           </div>
-          <p className="mt-8 text-[0.7rem] uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.25)" }}>
-            Seed · Series A · Operator-led · High-signal only
-          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {["All Industries", "Seed to Growth Stage", "High Signal Only"].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
+                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -229,26 +232,22 @@ export default function NycPage() {
         </div>
       </section>
 
-      {/* ── Ecosystem Verticals ──────────────────────────────────────── */}
+      {/* ── What Members Have in Common ──────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Built for NYC&rsquo;s Core Verticals</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What Gildre NYC Members Have in Common</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Deep expertise in the industries<br />New York runs the world in.
+            It&rsquo;s not what you&rsquo;re building.<br />It&rsquo;s how serious you are about building it.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre matches you with peers and operators who have already navigated the exact terrain you&rsquo;re crossing, in your vertical, at your stage.
+            The right people are already in the room. The filter isn&rsquo;t industry — it&rsquo;s
+            commitment. Every member ships, gives, and shows up.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {verticals.map((v) => (
+            {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
                 <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {v.tags.map((tag) => (
-                    <span key={tag} className="rounded-full px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.08)", color: "rgba(201,169,110,0.7)" }}>{tag}</span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
@@ -302,8 +301,8 @@ export default function NycPage() {
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   { title: "Monthly Founder Dinners", detail: "Private seated dinners in Flatiron and Tribeca. 12–20 founders per table. No pitches, no panels. High-density peer conversation for New York's most ambitious builders." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on scaling challenges: DTC unit economics, fintech regulation, and consumer acquisition in a competitive market, facilitated by operators who have crossed the same threshold." },
-                  { title: "Investor Office Hours", detail: "Direct access sessions with active NYC-area VCs and angels deploying into fintech, consumer, media, and PropTech, the verticals New York owns." },
+                  { title: "Peer Operator Roundtables", detail: "Quarterly deep-dives on the hardest parts of scaling: hiring, GTM, fundraising, and the decisions founders don't talk about publicly." },
+                  { title: "Investor Office Hours", detail: "Direct access sessions with active NYC-area VCs and angels. Sessions are open across industries — the focus is stage and fit, not sector." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
