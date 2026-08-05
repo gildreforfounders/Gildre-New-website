@@ -142,10 +142,9 @@ export default function PricingSection() {
             return (
               <div
                 key={plan.id}
-                className="relative flex flex-col rounded-2xl transition-all duration-300"
+                className={`relative flex flex-col rounded-2xl transition-all duration-300 ${!isGold ? "md:mb-5" : ""}`}
                 style={{
                   padding: isGold ? "2.25rem" : "1.75rem",
-                  marginBottom: isGold ? "0" : "1.25rem",
                   backgroundColor: isGold ? "rgba(28,39,68,0.9)" : "rgba(255,255,255,0.03)",
                   border: isGold
                     ? "1.5px solid rgba(201,169,110,0.55)"
