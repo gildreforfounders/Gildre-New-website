@@ -14,7 +14,7 @@ export const metadata = {
     "fintech founders New York",
     "consumer brand founders NYC",
     "New York City startup dinners",
-    "Flatiron startup community",
+    "founder peer groups New York",
   ],
   openGraph: {
     title: "Founder Community New York City | Gildre",
@@ -43,7 +43,7 @@ const schema = {
       logo: "https://www.gildre.com/images/gildre-logo.png",
       image: "https://www.gildre.com/og-home.png",
       description:
-        "Gildre is a private founder membership community in New York City, NY. Gildre NYC hosts monthly founder dinners in Flatiron and Tribeca for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
+        "Gildre is a private founder membership community in New York City, NY. Gildre NYC hosts monthly founder dinners and curated events throughout the city for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",
       telephone: "+1-847-881-6319",
       priceRange: "$$",
@@ -70,7 +70,7 @@ const schema = {
           name: "Where are NYC founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre NYC hosts monthly founder dinners in Flatiron and Tribeca, two of New York's most concentrated founder neighborhoods. Peer roundtables and investor sessions rotate across SoHo and Midtown South venues.",
+            text: "Gildre NYC hosts monthly founder dinners and curated events throughout the city. Venues rotate across Manhattan and Brooklyn so no matter where you're based in the metro area, you're in range.",
           },
         },
         {
@@ -104,24 +104,24 @@ const schema = {
 
 const memberTraits = [
   {
-    label: "They're actively building",
+    label: "They move faster than the city.",
     description:
-      "Not planning to build. Building. Gildre members are shipping, closing, and navigating the hard stuff in real time. The conversations match.",
+      "In New York, everyone is busy. Gildre members are actually shipping, closing, and navigating the hard parts in real time. The conversations match the pace — and then some.",
   },
   {
-    label: "They give before they ask",
+    label: "They give before they ask.",
     description:
-      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other founder event you've sat through.",
+      "The community runs on reciprocity. Every member comes in ready to contribute introductions, candid feedback, and operator knowledge. That standard is what separates a Gildre dinner from every other NYC event you've been invited to.",
   },
   {
     label: "Every industry. One standard.",
     description:
-      "SaaS, consumer, healthcare, hardware, creator economy, services. Gildre NYC has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be useful to someone else.",
+      "Fintech, consumer, media, healthcare, SaaS, creator economy. Gildre NYC has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be useful to someone else.",
   },
   {
-    label: "Past the point of no return",
+    label: "They've already said no to the wrong rooms.",
     description:
-      "Most members crossed a line where the company stopped being a project and became the thing. That changes how honest they are, how much they share, and how much they help.",
+      "Most members tried the open meetups, the accelerator cohorts, the casual networking dinners. Gildre is what they found after they realized those rooms weren't built for what they're actually doing.",
   },
 ];
 
@@ -156,7 +156,7 @@ const faqItems = [
   },
   {
     q: "Where are NYC founder dinners and events held?",
-    a: "Gildre NYC hosts monthly founder dinners in Flatiron and Tribeca, two of New York's most concentrated founder neighborhoods. Peer roundtables and investor sessions rotate across SoHo and Midtown South venues.",
+    a: "Gildre NYC hosts monthly founder dinners and curated events throughout the city. Venues rotate across Manhattan and Brooklyn so no matter where you're based in the metro area, you're in range.",
   },
   {
     q: "What types of founders join Gildre NYC?",
@@ -204,7 +204,10 @@ export default function NycPage() {
               Explore NYC Gatherings
             </Link>
           </div>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+          <p className="mt-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.28)" }}>
+            Applications reviewed weekly · Limited spots per chapter
+          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
             {["Private Membership", "Hand-Curated Introductions", "Monthly Founder Dinners"].map((tag) => (
               <span
                 key={tag}
@@ -256,19 +259,42 @@ export default function NycPage() {
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Your Future Peers</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            The founders you&rsquo;ve been<br />trying to get in the room with.
+            The room you&rsquo;ve been trying<br />to get into.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre members are hand-selected founders, operators, and builders who are active, giving, and at your level.
+            Gildre members are hand-selected founders, operators, and builders who are active, giving, and at your level. Not LinkedIn connections. Actual peers.
           </p>
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+
+          {/* Featured member */}
+          <div className="mt-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(255,255,255,0.02)" }}>
+            <div className="flex flex-col sm:flex-row">
+              <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
+                <Image src="/images/aytekin-tank-headshot.webp" alt="Aytekin Tank, Founder and CEO of Jotform, New York Gildre member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
+              </div>
+              <div className="flex flex-col justify-center p-8">
+                <span className="mb-3 inline-block rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>
+                  NYC Member Spotlight
+                </span>
+                <h3 className="text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Aytekin Tank</h3>
+                <p className="mt-1 text-sm font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>Founder &amp; CEO · Jotform</p>
+                <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
+                  Aytekin bootstrapped Jotform to over 20 million users without ever raising venture capital — proving that a disciplined, founder-controlled approach can compete with, and outlast, companies with ten times the funding. His perspective on building a durable business without dependency is one of the most valuable in the Gildre community.
+                </p>
+                <Link href="/blog/aytekin-tank-jotform" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                  Read his story →
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {peers.map((p) => (
               <div key={p.name} className="rounded-2xl p-5 text-center" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}>
                 <div className="relative mx-auto h-16 w-16 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
                   <Image src={p.photo} alt={p.name} fill sizes="64px" className="object-cover object-top" />
                 </div>
                 <p className="mt-3 text-sm font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{p.name}</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>{p.company}</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>{p.title} · {p.company}</p>
               </div>
             ))}
           </div>
@@ -280,11 +306,11 @@ export default function NycPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre NYC founder dinner, monthly gatherings in Flatiron and Tribeca" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre NYC founder dinner, monthly curated gatherings in New York City" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>Flatiron District · New York City</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>New York City, NY</p>
               </div>
             </div>
             <div>
@@ -293,7 +319,7 @@ export default function NycPage() {
                 A dinner where you don&rsquo;t have to explain what you do.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Twelve founders. A good table somewhere between Flatiron and Tribeca. No name tags, no panels, no pitching to the room. Just the people you&rsquo;ve been trying to meet in an environment that&rsquo;s actually worth showing up to.
+                Twelve founders. A good table somewhere in New York. No name tags, no panels, no pitching to the room. Just the people you&rsquo;ve been trying to meet in an environment that&rsquo;s actually worth showing up to.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
@@ -373,9 +399,7 @@ export default function NycPage() {
       {/* ── Meet the Chapter Leads ───────────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
         <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
-            Chapter Leads
-          </p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Chapter Leads</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
             Meet the team behind Gildre New York City.
           </h2>
@@ -391,7 +415,7 @@ export default function NycPage() {
               {
                 name: "Darshita Raval",
                 title: "Founder, MindHappy · NYC Chapter Lead, Gildre",
-                bio: "Darshita is the founder of MindHappy, a creative wellness platform making mindfulness accessible through hands-on, screen-free experiences built from her own discovery that making things is one of the most powerful ways to reset. She came to the U.S. at 15 and built her foundation in operations and supply chain at Amazon and Boeing before turning to entrepreneurship full-time. Featured in Forbes for her work on accessible wellness, she brings a builder's grounded perspective and a people-first approach to the Gildre New York community. She believes founders build better when they feel genuinely supported and connected to something beyond the metrics.",
+                bio: "Darshita is the founder of MindHappy, a creative wellness platform making mindfulness accessible through hands-on, screen-free experiences built from her own discovery that making things is one of the most powerful ways to reset. She came to the U.S. at 15 and built her foundation in operations and supply chain at Amazon and Boeing before turning to entrepreneurship full-time. Featured in Forbes for her work on accessible wellness, she brings a builder's grounded perspective and a people-first approach to the Gildre New York community.",
                 photo: "/team/darshita-raval.webp",
                 linkedin: "https://www.linkedin.com/in/darshita-raval-54a2b046/",
               },
@@ -442,7 +466,7 @@ export default function NycPage() {
         <div className="mx-auto max-w-2xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>New York City, NY</p>
           <h2 className="mt-4 text-[2rem] font-bold leading-tight text-white sm:text-[2.75rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            The next dinner already has a guest list. Apply to be on it.
+            The next dinner already has a guest list.<br />Apply to be on it.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
             Applications take less than five minutes. If you&rsquo;re a fit, you&rsquo;ll hear from us within a week. The founders you&rsquo;ve been trying to get in the room with are already members.
@@ -451,9 +475,9 @@ export default function NycPage() {
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/contact" className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
+            <a href="https://calendly.com/briangildre/30min" target="_blank" rel="noopener noreferrer" className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
               Talk to Us
-            </Link>
+            </a>
           </div>
         </div>
       </section>

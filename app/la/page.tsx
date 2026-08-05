@@ -3,34 +3,33 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/la" },
-  title: "Founder Community Los Angeles | Gildre",
+  title: "Founder Community Los Angeles CA | Gildre",
   description:
-    "Gildre connects Los Angeles founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
+    "Gildre connects Los Angeles founders across every industry with curated 1:1 peer introductions, expert operator mentorship, and private monthly dinners. A growing chapter for serious founders at the Seed to Growth stage.",
   keywords: [
     "Los Angeles founder community",
     "LA startup network",
-    "LA entrepreneurs",
-    "Gildre LA",
-    "creator economy founders Los Angeles",
+    "Southern California entrepreneur community",
+    "Gildre Los Angeles",
     "consumer brand founders LA",
-    "LA startup dinners",
-    "Venice Beach startup community",
-    "LA tech founders",
+    "startup dinners Los Angeles",
+    "founder peer groups LA",
+    "creator economy founders community",
   ],
   openGraph: {
-    title: "Founder Community Los Angeles | Gildre",
+    title: "Founder Community Los Angeles CA | Gildre",
     description:
-      "Gildre connects Los Angeles founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
+      "Gildre connects Los Angeles founders across every industry with curated 1:1 peer introductions, expert operator mentorship, and private monthly dinners. A growing chapter for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/la",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Los Angeles" }],
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Los Angeles, California" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Founder Community Los Angeles | Gildre",
+    title: "Founder Community Los Angeles CA | Gildre",
     description:
-      "Gildre connects Los Angeles founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
+      "Gildre connects Los Angeles founders across every industry with curated 1:1 peer introductions, expert operator mentorship, and private monthly dinners. A growing chapter for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -44,13 +43,13 @@ const schema = {
       logo: "https://www.gildre.com/images/gildre-logo.png",
       image: "https://www.gildre.com/og-home.png",
       description:
-        "Gildre is a private founder membership community in Los Angeles, CA. Gildre LA hosts monthly founder dinners in Venice and West Hollywood for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
+        "Gildre is a private founder membership community in Los Angeles, CA. Gildre LA is a growing chapter hosting founder dinners and curated events throughout the city for tech founders, consumer brand builders, and operators, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",
       telephone: "+1-847-881-6319",
       priceRange: "$$",
       address: { "@type": "PostalAddress", addressLocality: "Los Angeles", addressRegion: "CA", postalCode: "90001", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 34.0522, longitude: -118.2437 },
-      areaServed: [{ "@type": "City", name: "Los Angeles" }, { "@type": "Country", name: "United States" }],
+      areaServed: [{ "@type": "City", name: "Los Angeles" }, { "@type": "State", name: "California" }],
       knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
@@ -63,7 +62,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in Los Angeles?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an LA founder or operator with directly relevant experience. In a city built on brand and culture, these are warm, intentional introductions focused on operators who have turned awareness into durable businesses.",
+            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an LA founder or operator with directly relevant experience. These are warm, intentional introductions, not algorithm-generated connection requests.",
           },
         },
         {
@@ -71,7 +70,7 @@ const schema = {
           name: "Where are LA founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre LA hosts monthly founder dinners in Venice and West Hollywood, two of LA's most active founder neighborhoods. Peer roundtables and investor sessions rotate across Culver City and Santa Monica venues depending on the cohort.",
+            text: "Gildre LA hosts founder dinners and curated events throughout Los Angeles. Venues rotate so no matter where you're based in the metro area, you're in range.",
           },
         },
         {
@@ -79,15 +78,15 @@ const schema = {
           name: "What types of founders join Gildre LA?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre LA welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
+            text: "Gildre LA has members building across consumer, creator economy, fintech, SaaS, healthcare, and entertainment tech. LA's cultural edge is an asset — Gildre is specifically for founders who are leveraging it to build scalable companies, not just building a brand. Members typically range from pre-seed to Series A.",
           },
         },
         {
           "@type": "Question",
-          name: "How is Gildre different from LA's existing startup and brand communities?",
+          name: "Is Gildre LA a full chapter or a growing chapter?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "LA has a rich creative community but fewer high-density founder peer networks than SF or NYC. Gildre brings the curated, operator-level peer layer that LA founders have had to travel to other cities to find, right here in your own backyard.",
+            text: "Gildre LA is a growing chapter, which means the founding cohort is being built right now. Joining early means you help shape the community's culture, have direct access to Gildre leadership, and get in before the chapter is full.",
           },
         },
         {
@@ -95,7 +94,7 @@ const schema = {
           name: "Can I attend an LA event before becoming a member?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in a Los Angeles preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
+            text: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in an LA preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
           },
         },
       ],
@@ -105,28 +104,35 @@ const schema = {
 
 const memberTraits = [
   {
-    label: "They're actively building",
+    label: "They&rsquo;re building companies, not content.",
     description:
-      "Not planning to build. Building. Gildre members are shipping, closing, and navigating the hard stuff in real time. The conversations match.",
+      "LA has no shortage of creators and brand builders. Gildre is specifically for founders who are building scalable businesses — using the city's cultural edge as a strategic advantage, not the whole strategy.",
   },
   {
-    label: "They give before they ask",
+    label: "They give before they ask.",
     description:
-      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other founder event you've sat through.",
+      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other LA event you've been invited to and then regretted attending.",
   },
   {
     label: "Every industry. One standard.",
     description:
-      "SaaS, consumer, healthcare, hardware, creator economy, services. Gildre Los Angeles has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be useful to someone else.",
+      "Consumer, creator economy, fintech, SaaS, healthcare, entertainment tech. Gildre LA has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be genuinely useful to someone else.",
   },
   {
-    label: "Past the point of no return",
+    label: "They think in years, not campaigns.",
     description:
-      "Most members crossed a line where the company stopped being a project and became the thing. That changes how honest they are, how much they share, and how much they help.",
+      "The founders who stay at Gildre are playing a long game. They care about real revenue, real retention, and real peer accountability — not just the next round, the next press hit, or the next viral moment.",
   },
 ];
 
 const testimonials = [
+  {
+    quote: "I wanted to surround myself with others going through similar growth and challenges. Gildre gives me exactly that, a community where I can both give and gain exceptional value.",
+    name: "Elise Madrick",
+    title: "Founder",
+    company: "Cerené",
+    photo: "/reviews/elise-madrick.webp",
+  },
   {
     quote: "Being in Gildre feels like having founder co-workers that actually get it. They've saved me hours of research just by sharing what's worked for them.",
     name: "Caitlin Van Berkel",
@@ -141,42 +147,35 @@ const testimonials = [
     company: "Solvee",
     photo: "/reviews/christof-mannfeld.webp",
   },
-  {
-    quote: "This is the first membership where I truly feel like I'm getting what I paid for. The value and time the Gildre team spends with us on our business is remarkable.",
-    name: "Iliana Alvarado",
-    title: "President",
-    company: "Ensyx Systems",
-    photo: "/reviews/iliana-alvarado.webp",
-  },
 ];
 
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in Los Angeles?",
-    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an LA founder or operator with directly relevant experience. In a city built on brand and culture, these are warm, intentional introductions focused on operators who have turned awareness into durable businesses.",
+    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with an LA founder or operator with directly relevant experience. These are warm, intentional introductions, not algorithm-generated connection requests.",
   },
   {
     q: "Where are LA founder dinners and events held?",
-    a: "Gildre LA hosts monthly founder dinners in Venice and West Hollywood, two of LA's most active founder neighborhoods. Peer roundtables and investor sessions rotate across Culver City and Santa Monica venues.",
+    a: "Gildre LA hosts founder dinners and curated events throughout Los Angeles. Venues rotate so no matter where you're based in the metro area, you're in range.",
   },
   {
     q: "What types of founders join Gildre LA?",
-    a: "Gildre LA welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
+    a: "Gildre LA has members building across consumer, creator economy, fintech, SaaS, healthcare, and entertainment tech. LA's cultural edge is an asset — Gildre is specifically for founders who are leveraging it to build scalable companies, not just building a brand. Members typically range from pre-seed to Series A.",
   },
   {
-    q: "How is Gildre different from LA's existing startup and brand communities?",
-    a: "LA has a rich creative community but fewer high-density founder peer networks than SF or NYC. Gildre brings the curated, operator-level peer layer that LA founders have had to travel to other cities to find, right here in your own backyard.",
+    q: "Is Gildre LA a full chapter or a growing chapter?",
+    a: "Gildre LA is a growing chapter, which means the founding cohort is being built right now. Joining early means you help shape the community's culture, have direct access to Gildre leadership, and get in before the chapter is full.",
   },
   {
     q: "Can I attend an LA event before becoming a member?",
-    a: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in a Los Angeles preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
+    a: "Occasionally Gildre opens select LA events to prospective members by invitation. Apply and mention your interest in an LA preview dinner. We regularly prioritize local applicants so you can experience the community before committing.",
   },
 ];
 
 const peers = [
   { name: "Elise Madrick", title: "Founder", company: "Cerené", photo: "/images/elise-madrick-headshot.webp" },
-  { name: "Robyn Hobson", title: "VP Marketing", company: "Remote Vans", photo: "/images/robyn-hobson-headshot.jpg" },
-  { name: "Russell Breuer", title: "Founder", company: "Spot & Tango", photo: "/images/russell-breuer-headshot.png" },
+  { name: "Robyn Hobson", title: "Co-Founder", company: "Remote Vans", photo: "/images/robyn-hobson-headshot.webp" },
+  { name: "Russell Breuer", title: "Founder", company: "Spot & Tango", photo: "/images/russell-breuer-headshot.webp" },
   { name: "Sharon Gai", title: "Keynote Speaker", company: "Alibaba / AI", photo: "/images/sharon-gai-headshot.jpg" },
 ];
 
@@ -189,28 +188,32 @@ export default function LaPage() {
       <section className="relative overflow-hidden px-6 pb-28 pt-36" style={{ background: "linear-gradient(155deg, #080e1a 0%, #1C2744 50%, #0a1020 100%)" }}>
         <div className="pointer-events-none absolute left-1/2 top-0 h-[560px] w-[900px] -translate-x-1/2 -translate-y-1/3 rounded-full opacity-10" style={{ background: "radial-gradient(ellipse, #C9A96E 0%, transparent 65%)" }} />
         <div className="relative mx-auto max-w-3xl text-center">
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full px-4 py-1.5" style={{ backgroundColor: "rgba(201,169,110,0.08)", border: "1px dashed rgba(201,169,110,0.3)" }}>
+            <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: "#C9A96E" }} />
+            <span className="text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "rgba(201,169,110,0.8)" }}>Growing Chapter · Get in Early</span>
+          </div>
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · Los Angeles, CA</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-            <span style={{ color: "#C9A96E" }}>Los Angeles</span> has more founders than it has good founder rooms. Gildre is one of them.
+            Los Angeles has more founders than it has good{" "}
+            <span style={{ color: "#C9A96E" }}>founder rooms.</span>{" "}Gildre is one of them.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Gildre is a private founder membership for Los Angeles&rsquo; most serious builders. Monthly curated dinners. Weekly introductions curated by hand. The community you didn&rsquo;t know existed until now.
+            Gildre LA is a growing chapter — which means the founding cohort is being built right now. Join early, shape the culture, and build the peer relationships that compound over the next decade.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/membership" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
-              Explore LA Gatherings
-            </Link>
+            <a href="https://calendly.com/briangildre/30min" target="_blank" rel="noopener noreferrer" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
+              Talk to Us
+            </a>
           </div>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
-            {["Private Membership", "Hand-Curated Introductions", "Monthly Founder Dinners"].map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
-                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
-              >
+          <p className="mt-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.28)" }}>
+            Applications reviewed weekly · Founding cohort spots are limited
+          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
+            {["Private Membership", "Hand-Curated Introductions", "Founding Cohort"].map((tag) => (
+              <span key={tag} className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}>
                 {tag}
               </span>
             ))}
@@ -235,7 +238,7 @@ export default function LaPage() {
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Why founders join and stay</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Most founder communities give you more noise.<br />Gildre gives you fewer, better conversations.
+            LA has the culture.<br />Gildre has the right people in the room.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
             The dinner is the visible part. What actually changes is who calls you on a Tuesday when something goes sideways.
@@ -243,7 +246,7 @@ export default function LaPage() {
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
-                <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
+                <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }} dangerouslySetInnerHTML={{ __html: v.label }} />
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
               </div>
             ))}
@@ -259,16 +262,39 @@ export default function LaPage() {
             The founders you&rsquo;ve been<br />trying to get in the room with.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre members are hand-selected founders, operators, and builders who are active, giving, and at your level.
+            Gildre members are hand-selected founders, operators, and builders who are active, giving, and at your level. Not LinkedIn connections. Actual peers.
           </p>
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+
+          {/* Featured member spotlight */}
+          <div className="mt-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(255,255,255,0.02)" }}>
+            <div className="flex flex-col sm:flex-row">
+              <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
+                <Image src="/images/elise-madrick-headshot.webp" alt="Elise Madrick, Founder of Cerené, Los Angeles Gildre member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
+              </div>
+              <div className="flex flex-col justify-center p-8">
+                <span className="mb-3 inline-block rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>
+                  LA Member Spotlight
+                </span>
+                <h3 className="text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Elise Madrick</h3>
+                <p className="mt-1 text-sm font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>Founder · Cerené</p>
+                <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
+                  Elise founded Cerené, a wellness and beauty brand built on the conviction that luxury shouldn&rsquo;t mean complicated. She has navigated the challenge every consumer founder knows: building a brand with genuine depth in a market full of noise and short attention spans. One of the most thoughtful operators in the Gildre community, she&rsquo;s a consistent contributor to the conversations that actually matter — the ones about what works and what doesn&rsquo;t.
+                </p>
+                <Link href="/blog/elise-madrick-cerene-los-angeles" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                  Read her story →
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {peers.map((p) => (
               <div key={p.name} className="rounded-2xl p-5 text-center" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}>
                 <div className="relative mx-auto h-16 w-16 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
                   <Image src={p.photo} alt={p.name} fill sizes="64px" className="object-cover object-top" />
                 </div>
                 <p className="mt-3 text-sm font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{p.name}</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>{p.company}</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>{p.title} · {p.company}</p>
               </div>
             ))}
           </div>
@@ -280,11 +306,11 @@ export default function LaPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre LA founder dinner, monthly gatherings in Venice and West Hollywood" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre LA founder dinner, monthly curated gatherings in Los Angeles CA" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
-                <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>Venice · Los Angeles</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-white">Founder Dinner</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>Los Angeles, CA</p>
               </div>
             </div>
             <div>
@@ -293,12 +319,12 @@ export default function LaPage() {
                 A dinner where you don&rsquo;t have to explain what you do.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Twelve founders. A good table somewhere in Los Angeles. No panels, no pitching, no sponsored mixers. The kind of dinner you leave with three genuine relationships and one idea you&rsquo;ll still be thinking about next week.
+                Twelve founders. A good table somewhere in Los Angeles. No name tags, no panels, no pitching to the room. Just the people you&rsquo;ve been trying to meet in an environment that&rsquo;s actually worth showing up to.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen anywhere else in Los Angeles because the room is built for them." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly sessions on the decisions that don't have clean answers. Hiring your first real executive. Letting someone go. The fundraising round that almost killed morale. Facilitated by someone who's been through it." },
+                  { title: "Founder Dinners", detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen at the average LA startup event because this room was deliberately built for them." },
+                  { title: "Peer Operator Roundtables", detail: "Sessions on the decisions that don't have clean answers. Hiring your first real executive. The funding round that almost killed morale. Facilitated by someone who's navigated it." },
                   { title: "Investor Office Hours", detail: "Direct sessions with active LA-area investors. No pitch decks required. These are conversations, not auditions." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
@@ -351,7 +377,7 @@ export default function LaPage() {
               Membership isn&rsquo;t automatic. That&rsquo;s what makes it worth having.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              We review every application. Not to be difficult — because who&rsquo;s in the room determines what the room is worth. If the bar drops, the conversations drop with it. The people already inside are the reason you want in.
+              We review every application. Not to be difficult — because who&rsquo;s in the room determines what the room is worth. LA&rsquo;s founding cohort is being built carefully, so the right people are in the room from day one.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -370,27 +396,25 @@ export default function LaPage() {
         </div>
       </section>
 
-      {/* ── Meet the Chapter Leads ───────────────────────────────────── */}
+      {/* ── Chapter Lead ─────────────────────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
-        <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
-            Chapter Leads
-          </p>
+        <div className="mx-auto max-w-3xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Chapter Lead</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
             Meet the team behind Gildre Los Angeles.
           </h2>
           <div className="mt-12 flex justify-center">
-            <div className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6 max-w-xl w-full" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
+            <div className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6 w-full max-w-2xl" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
               <div className="relative mx-auto sm:mx-0 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
-                <Image src="/team/taiga-gamell.jpg" alt="Taiga Gamell" fill sizes="80px" className="object-cover object-top" />
+                <Image src="/team/taiga-gamell.webp" alt="Taiga Gamell, Los Angeles Chapter Lead at Gildre" fill sizes="80px" className="object-cover object-top" />
               </div>
               <div className="flex flex-col justify-center text-center sm:text-left">
                 <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Taiga Gamell</p>
-                <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>Co-Founder &amp; Managing Partner, Gildre</p>
+                <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>Co-Founder, Gildre · Los Angeles Chapter Lead</p>
                 <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-                  Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then co-founded and raised funding for a sustainability startup called Kudos. As a GTM and revenue leader, he has led sales teams at multiple startups scaling to $20M+ ARR. You can find him hiking, water skiing, or practicing taekwondo.
+                  Taiga is the co-founder of Gildre and a builder who has spent years creating high-trust founder communities across the US. Born in Japan, raised in Montana, and educated at the University of Redlands, she started her first business at 15 and has since built a reputation for creating the kinds of curated, high-signal rooms that most communities only aspire to. She leads the Los Angeles chapter with the conviction that the right peer group is one of the most consequential investments a founder can make.
                 </p>
-                <a href="https://www.linkedin.com/in/taigagamell-gildre/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start" style={{ color: "#C9A96E" }}>
+                <a href="https://www.linkedin.com/in/taiga-gamell/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start" style={{ color: "#C9A96E" }}>
                   LinkedIn →
                 </a>
               </div>
@@ -402,7 +426,7 @@ export default function LaPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────── */}
       <section className="px-6 py-20" style={{ backgroundColor: "#080e1a" }}>
         <div className="mx-auto max-w-3xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Los Angeles FAQ</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>LA FAQ</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
             Questions about Gildre Los Angeles.
           </h2>
@@ -425,20 +449,20 @@ export default function LaPage() {
       {/* ── Final CTA ────────────────────────────────────────────────── */}
       <section className="px-6 py-28 text-center" style={{ backgroundColor: "#1C2744" }}>
         <div className="mx-auto max-w-2xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Los Angeles, CA</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Los Angeles, CA · Growing Chapter</p>
           <h2 className="mt-4 text-[2rem] font-bold leading-tight text-white sm:text-[2.75rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            The next dinner already has a guest list. Apply to be on it.
+            The founding cohort is being built now.<br />Get in while spots remain.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Applications take less than five minutes. If you&rsquo;re a fit, you&rsquo;ll hear from us within a week. The founders you&rsquo;ve been trying to get in the room with are already members.
+            Founding members help shape the culture of Gildre LA from day one — and build the peer relationships that compound for years. Applications take less than five minutes.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/contact" className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
+            <a href="https://calendly.com/briangildre/30min" target="_blank" rel="noopener noreferrer" className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
               Talk to Us
-            </Link>
+            </a>
           </div>
         </div>
       </section>

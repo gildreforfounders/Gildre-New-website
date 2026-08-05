@@ -3,34 +3,33 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/seattle" },
-  title: "Founder Community Seattle | Gildre",
+  title: "Founder Community Seattle WA | Gildre",
   description:
-    "Gildre connects Seattle founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
+    "Gildre connects Seattle founders across every industry with curated 1:1 peer introductions, expert operator mentorship, and private monthly dinners. A growing chapter for serious founders at the Seed to Growth stage.",
   keywords: [
     "Seattle founder community",
     "Seattle startup network",
-    "Seattle entrepreneurs",
+    "Washington entrepreneur community",
     "Gildre Seattle",
-    "big tech alumni founders Seattle",
-    "enterprise software Seattle",
-    "cloud infrastructure founders",
-    "Amazon alumni startup",
-    "South Lake Union founders",
+    "enterprise SaaS founders Seattle",
+    "startup dinners Seattle WA",
+    "founder peer groups Seattle",
+    "Amazon alumni founder community",
   ],
   openGraph: {
-    title: "Founder Community Seattle | Gildre",
+    title: "Founder Community Seattle WA | Gildre",
     description:
-      "Gildre connects Seattle founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
+      "Gildre connects Seattle founders across every industry with curated 1:1 peer introductions, expert operator mentorship, and private monthly dinners. A growing chapter for serious founders at the Seed to Growth stage.",
     url: "https://www.gildre.com/seattle",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Seattle" }],
+    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Seattle, Washington" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Founder Community Seattle | Gildre",
+    title: "Founder Community Seattle WA | Gildre",
     description:
-      "Gildre connects Seattle founders across every industry with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners. Built for serious founders at the Seed to Growth stage.",
+      "Gildre connects Seattle founders across every industry with curated 1:1 peer introductions, expert operator mentorship, and private monthly dinners. A growing chapter for serious founders at the Seed to Growth stage.",
   },
 };
 
@@ -44,13 +43,13 @@ const schema = {
       logo: "https://www.gildre.com/images/gildre-logo.png",
       image: "https://www.gildre.com/og-home.png",
       description:
-        "Gildre is a private founder membership community in Seattle, WA. Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
+        "Gildre is a private founder membership community in Seattle, WA. Gildre Seattle is a growing chapter hosting founder dinners and curated events throughout the city for tech founders and operators, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",
       telephone: "+1-847-881-6319",
       priceRange: "$$",
       address: { "@type": "PostalAddress", addressLocality: "Seattle", addressRegion: "WA", postalCode: "98101", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: 47.6062, longitude: -122.3321 },
-      areaServed: [{ "@type": "City", name: "Seattle" }, { "@type": "Country", name: "United States" }],
+      areaServed: [{ "@type": "City", name: "Seattle" }, { "@type": "State", name: "Washington" }],
       knowsAbout: ["Founder Peer Groups", "Startup Mentorship", "Angel Investing", "Venture Capital", "Startup Fundraising", "Community Building"],
       sameAs: ["https://www.gildre.com", "https://www.instagram.com/gildreforfounders", "https://www.linkedin.com/company/gildre/"],
       parentOrganization: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
@@ -63,7 +62,7 @@ const schema = {
           name: "How are 1:1 founder introductions curated in Seattle?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+            text: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience. These are warm, intentional introductions, not algorithm-generated connection requests.",
           },
         },
         {
@@ -71,7 +70,7 @@ const schema = {
           name: "Where are Seattle founder dinners and events held?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill, the two most active nodes of Seattle's founder ecosystem. Peer roundtables and investor sessions rotate across Pioneer Square and Belltown venues.",
+            text: "Gildre Seattle hosts founder dinners and curated events throughout the city. Venues rotate so no matter where you're based in the Seattle metro area, you're in range.",
           },
         },
         {
@@ -79,15 +78,15 @@ const schema = {
           name: "What types of founders join Gildre Seattle?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Gildre Seattle welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
+            text: "Gildre Seattle has members building across enterprise SaaS, AI, consumer, cloud infrastructure, and health tech. Many have made the leap from Amazon, Microsoft, or other large tech companies. The filter isn't your background. It's whether you're serious, giving, and ready to be genuinely useful to a peer.",
           },
         },
         {
           "@type": "Question",
-          name: "How does Gildre help big-tech alumni transition to founder life?",
+          name: "Is Gildre Seattle a full chapter or a growing chapter?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The leap from FAANG to founder is a specific challenge, different from general entrepreneurship. Gildre Seattle has a concentrated cohort of big-tech alumni founders who have crossed that threshold and can offer the specific mentorship and peer support that transition requires, from the first hire to the first enterprise contract.",
+            text: "Gildre Seattle is a growing chapter, which means the founding cohort is being built right now. Joining early means you help shape the community's culture, have direct access to Gildre leadership, and get in before the chapter is full.",
           },
         },
         {
@@ -105,24 +104,24 @@ const schema = {
 
 const memberTraits = [
   {
-    label: "They're actively building",
+    label: "They left the big company. They don&rsquo;t want to go back.",
     description:
-      "Not planning to build. Building. Gildre members are shipping, closing, and navigating the hard stuff in real time. The conversations match.",
+      "Seattle has an extraordinary concentration of tech talent that has made the leap from Amazon, Microsoft, or Google to founding something. Gildre Seattle is built around people who've crossed that threshold — and can offer the specific peer support it requires.",
   },
   {
-    label: "They give before they ask",
+    label: "They give before they ask.",
     description:
-      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other founder event you've sat through.",
+      "The community runs on reciprocity. Every member comes in ready to contribute. That standard is what separates a Gildre dinner from every other founder event in the Pacific Northwest.",
   },
   {
     label: "Every industry. One standard.",
     description:
-      "SaaS, consumer, healthcare, hardware, creator economy, services. Gildre Seattle has members building across all of it. The filter isn't your sector. It's whether you're serious enough to be useful to someone else.",
+      "Enterprise SaaS, AI, consumer, cloud infrastructure, health tech. Gildre Seattle has members building across all of it. The filter isn't your stack or your exit history. It's whether you're serious enough to be genuinely useful to someone else.",
   },
   {
-    label: "Past the point of no return",
+    label: "They build with rigor.",
     description:
-      "Most members crossed a line where the company stopped being a project and became the thing. That changes how honest they are, how much they share, and how much they help.",
+      "Engineers who became founders. Operators who started companies. Seattle's founder culture runs deep on execution. Gildre reflects that: a community that values honest assessment, precise feedback, and real accountability over hype.",
   },
 ];
 
@@ -153,19 +152,19 @@ const testimonials = [
 const faqItems = [
   {
     q: "How are 1:1 founder introductions curated in Seattle?",
-    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience, in your vertical, at your funding stage. These are warm, intentional introductions, not cold algorithm requests.",
+    a: "Every week, Gildre's team reviews your profile, stage, and goals to match you with a Seattle founder or operator with directly relevant experience. These are warm, intentional introductions, not algorithm-generated connection requests.",
   },
   {
     q: "Where are Seattle founder dinners and events held?",
-    a: "Gildre Seattle hosts monthly founder dinners in South Lake Union and Capitol Hill, the two most active nodes of Seattle's founder ecosystem. Peer roundtables and investor sessions rotate across Pioneer Square and Belltown venues.",
+    a: "Gildre Seattle hosts founder dinners and curated events throughout the city. Venues rotate so no matter where you're based in the Seattle metro area, you're in range.",
   },
   {
     q: "What types of founders join Gildre Seattle?",
-    a: "Gildre Seattle welcomes founders across every industry — SaaS, consumer, healthcare, creator economy, hardware, services, and beyond. What members share is not a sector. It's a stage of seriousness: actively building, accountable to peers, and ready to give as much as they get. Members typically range between the Build (<$500K) and Growth ($5M+ ARR) stages.",
+    a: "Gildre Seattle has members building across enterprise SaaS, AI, consumer, cloud infrastructure, and health tech. Many have made the leap from Amazon, Microsoft, or other large tech companies. The filter isn't your background. It's whether you're serious, giving, and ready to be genuinely useful to a peer.",
   },
   {
-    q: "How does Gildre help big-tech alumni transition to founder life?",
-    a: "The leap from FAANG to founder is a specific challenge, very different from general entrepreneurship. Gildre Seattle has a concentrated cohort of big-tech alumni founders who have crossed that threshold and can offer the specific mentorship the transition requires, from the first hire to the first enterprise contract.",
+    q: "Is Gildre Seattle a full chapter or a growing chapter?",
+    a: "Gildre Seattle is a growing chapter, which means the founding cohort is being built right now. Joining early means you help shape the community's culture, have direct access to Gildre leadership, and get in before the chapter is full.",
   },
   {
     q: "Can I attend a Seattle event before becoming a member?",
@@ -189,28 +188,32 @@ export default function SeattlePage() {
       <section className="relative overflow-hidden px-6 pb-28 pt-36" style={{ background: "linear-gradient(155deg, #080e1a 0%, #1C2744 50%, #0a1020 100%)" }}>
         <div className="pointer-events-none absolute left-1/2 top-0 h-[560px] w-[900px] -translate-x-1/2 -translate-y-1/3 rounded-full opacity-10" style={{ background: "radial-gradient(ellipse, #C9A96E 0%, transparent 65%)" }} />
         <div className="relative mx-auto max-w-3xl text-center">
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full px-4 py-1.5" style={{ backgroundColor: "rgba(201,169,110,0.08)", border: "1px dashed rgba(201,169,110,0.3)" }}>
+            <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: "#C9A96E" }} />
+            <span className="text-[0.6rem] font-bold uppercase tracking-widest" style={{ color: "rgba(201,169,110,0.8)" }}>Growing Chapter · Get in Early</span>
+          </div>
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Gildre · Seattle, WA</p>
           <h1 className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-            <span style={{ color: "#C9A96E" }}>Seattle&rsquo;s</span> best founders are already in the room. The question is whether you are.
+            Seattle&rsquo;s best founders are already{" "}
+            <span style={{ color: "#C9A96E" }}>in the room.</span>{" "}The question is whether you are.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Gildre is a private founder membership for Seattle&rsquo;s most focused builders. Monthly dinners. Weekly curated 1:1 introductions. A community that gets smaller and better as you go deeper into it.
+            Gildre Seattle is a growing chapter — which means the founding cohort is being built right now. Join early, shape the culture, and build the peer relationships that compound over the next decade.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/membership" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
-              Explore Seattle Gatherings
-            </Link>
+            <a href="https://calendly.com/briangildre/30min" target="_blank" rel="noopener noreferrer" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
+              Talk to Us
+            </a>
           </div>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
-            {["Private Membership", "Hand-Curated Introductions", "Monthly Founder Dinners"].map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider"
-                style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
-              >
+          <p className="mt-5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.28)" }}>
+            Applications reviewed weekly · Founding cohort spots are limited
+          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
+            {["Private Membership", "Hand-Curated Introductions", "Founding Cohort"].map((tag) => (
+              <span key={tag} className="rounded-full px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wider" style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "rgba(201,169,110,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}>
                 {tag}
               </span>
             ))}
@@ -235,7 +238,7 @@ export default function SeattlePage() {
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Why founders join and stay</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Most founder communities give you more noise.<br />Gildre gives you fewer, better conversations.
+            Seattle has the talent.<br />Gildre is where it gathers.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
             The dinner is the visible part. What actually changes is who calls you on a Tuesday when something goes sideways.
@@ -243,7 +246,7 @@ export default function SeattlePage() {
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {memberTraits.map((v) => (
               <div key={v.label} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
-                <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{v.label}</h3>
+                <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }} dangerouslySetInnerHTML={{ __html: v.label }} />
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{v.description}</p>
               </div>
             ))}
@@ -259,16 +262,39 @@ export default function SeattlePage() {
             The founders you&rsquo;ve been<br />trying to get in the room with.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre members are hand-selected founders, operators, and builders who are active, giving, and at your level.
+            Gildre members are hand-selected founders, operators, and builders who are active, giving, and at your level. Not LinkedIn connections. Actual peers.
           </p>
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+
+          {/* Featured member spotlight */}
+          <div className="mt-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(201,169,110,0.2)", backgroundColor: "rgba(255,255,255,0.02)" }}>
+            <div className="flex flex-col sm:flex-row">
+              <div className="relative h-56 sm:h-auto sm:w-48 flex-shrink-0">
+                <Image src="/images/alex-bean-headshot.webp" alt="Alex Bean, Co-Founder of Divvy acquired by Bill.com, Seattle Gildre member" fill sizes="(max-width: 640px) 100vw, 192px" className="object-cover object-top" />
+              </div>
+              <div className="flex flex-col justify-center p-8">
+                <span className="mb-3 inline-block rounded-full px-3 py-1 text-[0.6rem] font-bold uppercase tracking-widest" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>
+                  Seattle Member Spotlight
+                </span>
+                <h3 className="text-xl font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Alex Bean</h3>
+                <p className="mt-1 text-sm font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>Co-Founder · Divvy (acquired by Bill.com)</p>
+                <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
+                  Alex co-founded Divvy, the spend management and business credit platform acquired by Bill.com in a deal valued at approximately $2.5 billion. He brings a rare combination of founder grit, product depth, and hard-won exit experience that most communities talk about in the abstract. In Gildre Seattle, that knowledge is accessible to you directly — in the same room, at the same table.
+                </p>
+                <Link href="/blog/alex-bean-divvy-bill-com-seattle" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                  Read his story →
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {peers.map((p) => (
               <div key={p.name} className="rounded-2xl p-5 text-center" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}>
                 <div className="relative mx-auto h-16 w-16 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
                   <Image src={p.photo} alt={p.name} fill sizes="64px" className="object-cover object-top" />
                 </div>
                 <p className="mt-3 text-sm font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{p.name}</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>{p.company}</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>{p.title} · {p.company}</p>
               </div>
             ))}
           </div>
@@ -280,11 +306,11 @@ export default function SeattlePage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
-              <Image src="/images/community/dinner.webp" alt="Gildre Seattle founder dinner, monthly gatherings in South Lake Union and Capitol Hill" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
+              <Image src="/images/community/dinner.webp" alt="Gildre Seattle founder dinner, monthly curated gatherings in Seattle WA" fill sizes="(max-width: 1024px) calc(100vw - 48px), 480px" className="object-cover" style={{ objectPosition: "center center" }} />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(8,14,26,0.6) 0%, transparent 50%)" }} />
               <div className="absolute bottom-5 left-5">
-                <p className="text-xs font-bold uppercase tracking-widest text-white">Monthly Founder Dinner</p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>South Lake Union · Seattle</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-white">Founder Dinner</p>
+                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.5)" }}>Seattle, WA</p>
               </div>
             </div>
             <div>
@@ -293,12 +319,12 @@ export default function SeattlePage() {
                 A dinner where you don&rsquo;t have to explain what you do.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Twelve founders. A table somewhere in Seattle. No panels, no pitching, no awkward speed networking. The person across from you has been where you are. They&rsquo;ll be honest about it.
+                Twelve founders. A good table somewhere in Seattle. No name tags, no panels, no pitching to the room. Just the people you&rsquo;ve been trying to meet in an environment that&rsquo;s actually worth showing up to.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Monthly Founder Dinners", detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen anywhere else in Seattle because the room is built for them." },
-                  { title: "Peer Operator Roundtables", detail: "Quarterly sessions on the decisions that don't have clean answers. Hiring your first real executive. Letting someone go. The fundraising round that almost killed morale. Facilitated by someone who's been through it." },
+                  { title: "Founder Dinners", detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen at the average Seattle tech event because this room was built for them." },
+                  { title: "Peer Operator Roundtables", detail: "Sessions on the decisions that don't have clean answers. Hiring your first real executive. The funding round that almost killed morale. Facilitated by someone who's navigated it." },
                   { title: "Investor Office Hours", detail: "Direct sessions with active Pacific Northwest investors. No pitch decks required. These are conversations, not auditions." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
@@ -351,7 +377,7 @@ export default function SeattlePage() {
               Membership isn&rsquo;t automatic. That&rsquo;s what makes it worth having.
             </h2>
             <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-              We review every application. Not to be difficult — because who&rsquo;s in the room determines what the room is worth. If the bar drops, the conversations drop with it. The people already inside are the reason you want in.
+              We review every application. Not to be difficult — because who&rsquo;s in the room determines what the room is worth. Seattle&rsquo;s founding cohort is being built carefully, so the right people are in the room from day one.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {["Pre-Seed to Series A", "Executive Operators", "Active Builders"].map((crit) => (
@@ -370,27 +396,25 @@ export default function SeattlePage() {
         </div>
       </section>
 
-      {/* ── Meet the Chapter Leads ───────────────────────────────────── */}
+      {/* ── Chapter Lead ─────────────────────────────────────────────── */}
       <section className="px-6 py-24" style={{ backgroundColor: "#0f1524", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
-        <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
-            Chapter Leads
-          </p>
+        <div className="mx-auto max-w-3xl">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Chapter Lead</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold text-white sm:text-[2.1rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
             Meet the team behind Gildre Seattle.
           </h2>
           <div className="mt-12 flex justify-center">
-            <div className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6 max-w-xl w-full" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
+            <div className="rounded-2xl p-8 flex flex-col sm:flex-row gap-6 w-full max-w-2xl" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
               <div className="relative mx-auto sm:mx-0 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
-                <Image src="/team/taiga-gamell.jpg" alt="Taiga Gamell" fill sizes="80px" className="object-cover object-top" />
+                <Image src="/team/taiga-gamell.webp" alt="Taiga Gamell, Seattle Chapter Lead at Gildre" fill sizes="80px" className="object-cover object-top" />
               </div>
               <div className="flex flex-col justify-center text-center sm:text-left">
                 <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>Taiga Gamell</p>
-                <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>Co-Founder &amp; Managing Partner, Gildre</p>
+                <p className="mt-0.5 text-xs font-medium" style={{ color: "#C9A96E" }}>Co-Founder, Gildre · Seattle Chapter Lead</p>
                 <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-                  Taiga was born in Japan and grew up in an entrepreneurial family. He ran a family-owned EdTech platform then co-founded and raised funding for a sustainability startup called Kudos. As a GTM and revenue leader, he has led sales teams at multiple startups scaling to $20M+ ARR. You can find him hiking, water skiing, or practicing taekwondo.
+                  Taiga is the co-founder of Gildre and a Pacific Northwest native who has been building founder communities for years. Born in Japan, raised in Montana, and educated at the University of Redlands, she started her first business at 15 and has since built a reputation for creating the kinds of high-trust, high-signal communities that most networks only aspire to. She leads the Seattle chapter with the conviction that the right peer group is one of the most consequential investments a founder can make.
                 </p>
-                <a href="https://www.linkedin.com/in/taigagamell-gildre/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start" style={{ color: "#C9A96E" }}>
+                <a href="https://www.linkedin.com/in/taiga-gamell/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70 justify-center sm:justify-start" style={{ color: "#C9A96E" }}>
                   LinkedIn →
                 </a>
               </div>
@@ -425,20 +449,20 @@ export default function SeattlePage() {
       {/* ── Final CTA ────────────────────────────────────────────────── */}
       <section className="px-6 py-28 text-center" style={{ backgroundColor: "#1C2744" }}>
         <div className="mx-auto max-w-2xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Seattle, WA</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Seattle, WA · Growing Chapter</p>
           <h2 className="mt-4 text-[2rem] font-bold leading-tight text-white sm:text-[2.75rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            The next dinner already has a guest list. Apply to be on it.
+            The founding cohort is being built now.<br />Get in while spots remain.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Applications take less than five minutes. If you&rsquo;re a fit, you&rsquo;ll hear from us within a week. The founders you&rsquo;ve been trying to get in the room with are already members.
+            Founding members help shape the culture of Gildre Seattle from day one — and build the peer relationships that compound for years. Applications take less than five minutes.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/contact" className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
+            <a href="https://calendly.com/briangildre/30min" target="_blank" rel="noopener noreferrer" className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
               Talk to Us
-            </Link>
+            </a>
           </div>
         </div>
       </section>

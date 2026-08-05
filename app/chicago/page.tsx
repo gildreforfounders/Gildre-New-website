@@ -191,9 +191,9 @@ const faqItems = [
 
 const peers = [
   { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Jumpstart Capital", photo: "/mentors/jason-jacobsohn.jpg", initials: "JJ", color: "#3B6CC9" },
-  { name: "Brittany Canty", title: "Founder", company: "Inciteful App", photo: null, initials: "BC", color: "#C97B3B" },
-  { name: "Ivan Rahman", title: "CEO & Founder", company: "Avistar.ai", photo: null, initials: "IR", color: "#3BC97B" },
-  { name: "Lauren Basler", title: "Founder", company: "Conscious Ascent", photo: null, initials: "LB", color: "#7B3BC9" },
+  { name: "Brittany Canty", title: "Founder", company: "Inciteful App", photo: "/mentors/brittany-canty.png", initials: "BC", color: "#C97B3B" },
+  { name: "Ivan Rahman", title: "CEO & Founder", company: "Avistar.ai", photo: "/mentors/ivan-rahman.png", initials: "IR", color: "#3BC97B" },
+  { name: "Lauren Basler", title: "Founder", company: "Conscious Ascent", photo: "/mentors/lauren-basler.jpeg", initials: "LB", color: "#7B3BC9" },
 ];
 
 const chapterLeads = [
