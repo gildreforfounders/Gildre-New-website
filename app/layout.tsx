@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -73,6 +74,7 @@ export default function RootLayout({
         </Script>
           <Navbar />
           {children}
+          <ScrollToTop />
         </body>
     </html>
   );

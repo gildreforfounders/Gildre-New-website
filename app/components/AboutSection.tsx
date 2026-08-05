@@ -134,6 +134,16 @@ export default function AboutSection() {
                   {person.name}
                 </h3>
 
+                {/* Role */}
+                <p className="mt-1.5 text-[0.65rem] font-bold uppercase tracking-[0.18em]" style={{ color: "#C9A96E" }}>
+                  {person.role}
+                </p>
+
+                {/* Tagline */}
+                <p className="mt-2.5 text-sm italic leading-snug" style={{ color: "rgba(255,255,255,0.38)" }}>
+                  &ldquo;{person.tagline}&rdquo;
+                </p>
+
                 {/* Divider */}
                 <div
                   className="my-5 h-px w-10"

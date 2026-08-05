@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 type PhotoCard = {
@@ -124,18 +126,11 @@ function TextCardEl({ card }: { card: TextCard }) {
         border: "1px solid rgba(201,169,110,0.15)",
       }}
     >
-      {/* Subtle gold glow */}
       <div
         className="pointer-events-none absolute right-0 top-0 h-48 w-48 rounded-bl-full opacity-20"
-        style={{
-          background:
-            "radial-gradient(circle at top right, #C9A96E 0%, transparent 70%)",
-        }}
+        style={{ background: "radial-gradient(circle at top right, #C9A96E 0%, transparent 70%)" }}
       />
-      <div
-        className="mb-3 h-[2px] w-8 rounded-full"
-        style={{ backgroundColor: "#C9A96E" }}
-      />
+      <div className="mb-3 h-[2px] w-8 rounded-full" style={{ backgroundColor: "#C9A96E" }} />
       <h3
         className="text-[2rem] font-bold leading-tight text-white"
         style={{ fontFamily: "var(--font-fraunces)" }}
@@ -154,33 +149,54 @@ function CardEl({ card }: { card: Card }) {
   return <TextCardEl card={card} />;
 }
 
+const rowVariants = {
+  hidden: { opacity: 0, y: 28 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] } },
+};
+
 export default function BenefitsSection() {
   return (
     <section id="benefits" className="px-6 py-12 sm:py-20" style={{ backgroundColor: "#1C2744" }}>
       <div className="mx-auto max-w-6xl">
-        {/* Heading — left-aligned, editorial style */}
-        <h2
+        <motion.h2
           className="mb-8 sm:mb-10 text-[clamp(2rem,5vw,3.5rem)] font-bold leading-[1.15]"
           style={{ fontFamily: "var(--font-fraunces)" }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
           <span className="text-white">Everything you need</span>
           <br />
           <span style={{ color: "#C9A96E" }}>to build, raise &amp; scale</span>
-        </h2>
+        </motion.h2>
 
         {/* Row 1 */}
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <motion.div
+          className="grid grid-cols-1 gap-3 sm:grid-cols-3"
+          variants={rowVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.15 }}
+        >
           {row1.map((card, i) => (
             <CardEl key={i} card={card} />
           ))}
-        </div>
+        </motion.div>
 
         {/* Row 2 */}
-        <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <motion.div
+          className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3"
+          variants={rowVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.65, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
+        >
           {row2.map((card, i) => (
             <CardEl key={i} card={card} />
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
