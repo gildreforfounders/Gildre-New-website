@@ -136,7 +136,7 @@ export default function PricingSection() {
         </div>
 
         {/* Cards */}
-        <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3 md:items-end">
+        <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3 md:items-stretch">
           {plans.map((plan) => {
             const price = yearly ? plan.annualMonthly : plan.monthlyPrice;
             const isGold = plan.id === "gold";
@@ -144,7 +144,7 @@ export default function PricingSection() {
             return (
               <div
                 key={plan.id}
-                className={`relative flex flex-col rounded-2xl transition-all duration-300 ${!isGold ? "md:mb-5" : ""}`}
+                className="relative flex flex-col rounded-2xl transition-all duration-300"
                 style={{
                   padding: isGold ? "2.25rem" : "1.75rem",
                   backgroundColor: isGold ? "rgba(28,39,68,0.9)" : "rgba(255,255,255,0.03)",
