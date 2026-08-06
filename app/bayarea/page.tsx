@@ -406,8 +406,8 @@ export default function BayAreaPage() {
             {[
               {
                 name: "Fred Zirdung",
-                title: "Co-Founder, Gildre · Bay Area Chapter Lead",
-                bio: "Fred co-founded Gildre with a mission to build the highest-signal founder community in the world. Based in the Bay Area, he has spent years at the intersection of entrepreneurship, technology, and community building, advising early-stage founders on the decisions that compound over time. His networks span the full Bay Area ecosystem from early-stage AI to late-stage enterprise SaaS.",
+                title: "Founding Member & Bay Area Chapter Lead, Gildre",
+                bio: "Fred has been a Gildre member for over three years — one of the founding cohort who helped shape what the community is today. Based in the Bay Area, he has been on the ground for countless dinners, off-sites, and the kind of high-trust conversations that only happen when you've been building alongside the same people for years. As chapter lead, he brings that depth of relationship and genuine investment in the Bay Area ecosystem to every event he runs.",
                 photo: "/team/fred-zirdung.webp",
                 linkedin: "https://www.linkedin.com/in/fredzirdung/",
               },
