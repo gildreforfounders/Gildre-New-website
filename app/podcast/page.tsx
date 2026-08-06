@@ -226,7 +226,7 @@ const episodes = [
     title: "The Entrepreneurial Odyssey of Andrew Ackerman",
     guest: "Andrew Ackerman",
     role: "Two-Time Exit Founder & Author",
-    date: "Aug 2024",
+    date: "Sep 2024",
     duration: "47 min",
     description:
       "Andrew has navigated two startup exits and written a book about it — The Entrepreneurial Odyssey. He shares the resilience frameworks that got him through the hard parts, the mental models he wishes he'd had earlier, and what he tells first-time founders who are just starting to feel the pressure.",
@@ -242,7 +242,7 @@ const episodes = [
     title: "Overcoming the Fear of Selling: Insights from Frances Pratt",
     guest: "Frances Pratt",
     role: "Founder & CEO, Metisan",
-    date: "Jul 2024",
+    date: "Aug 2024",
     duration: "44 min",
     description:
       "Frances built a sales consulting firm for founders who are brilliant at their craft but uncomfortable in the room. She explains why most selling fails at listening, how storytelling closes deals that decks can't, and the community-building strategies that create revenue without cold outreach.",
@@ -258,7 +258,7 @@ const episodes = [
     title: "From Microsoft to Startup: Aya Kikimova's Journey",
     guest: "Aya Kikimova",
     role: "Founder & Former Microsoft",
-    date: "Jun 2024",
+    date: "Jul 2024",
     duration: "42 min",
     description:
       "Aya left the stability of Microsoft to build from scratch — and she's honest about how different the two worlds are. She maps the psychological and operational challenges of the transition, the obstacles she didn't see coming, and how she found her footing as a first-time solo founder.",
