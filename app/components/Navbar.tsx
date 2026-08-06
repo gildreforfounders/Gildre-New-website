@@ -58,12 +58,6 @@ export default function Navbar() {
               </button>
             ))}
             <a
-              href="/podcast"
-              className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
-            >
-              Podcast
-            </a>
-            <a
               href="https://login.circle.so/sign_in?request_host=gildre.circle.so"
               target="_blank"
               rel="noopener noreferrer"
@@ -137,12 +131,6 @@ export default function Navbar() {
                 {l.label}
               </button>
             ))}
-            <a
-              href="/podcast"
-              className="w-full text-left py-3 text-base text-white/80 hover:text-white transition-colors border-b border-white/5"
-            >
-              Podcast
-            </a>
             <a
               href="https://login.circle.so/sign_in?request_host=gildre.circle.so"
               target="_blank"

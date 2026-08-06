@@ -194,13 +194,11 @@ export default function Footer() {
               </div>
             </div>
             <a
-              href="https://linktr.ee/starttoscale"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/podcast"
               className="inline-block self-start rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
             >
-              Follow →
+              Browse Episodes →
             </a>
           </div>
 
