@@ -280,7 +280,7 @@ export default function NycPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Aytekin bootstrapped Jotform to over 20 million users without ever raising venture capital — proving that a disciplined, founder-controlled approach can compete with, and outlast, companies with ten times the funding. His perspective on building a durable business without dependency is one of the most valuable in the Gildre community.
                 </p>
-                <Link href="/blog/aytekin-tank-jotform" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/aytekin-tank-bootstrapped-jotform-no-vc" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
                 </Link>
               </div>

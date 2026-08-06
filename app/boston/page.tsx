@@ -276,7 +276,7 @@ export default function BostonPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Ryan co-founded Fan Pier Labs in Boston, where he sits at the intersection of technical depth and venture-stage execution. He has navigated the specific inflection points that Boston founders face — institution to company, research to product, local talent to global market — and brings that perspective directly to the Gildre community. His candor and willingness to share what actually happened make him one of the most valuable people in the room.
                 </p>
-                <Link href="/blog/ryan-hughes-fan-pier-labs-boston" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/ryan-hughes-google-snapchat-fan-pier-labs" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
                 </Link>
               </div>

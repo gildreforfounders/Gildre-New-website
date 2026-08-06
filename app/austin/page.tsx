@@ -276,7 +276,7 @@ export default function AustinPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Armando grew up in the Amazon rainforest in Peru, arrived in the United States with very little, and built his way from working at Amazon to founding HangTight — a platform connecting people through shared experiences. His story is one of the most honest in the Gildre Austin community: resourcefulness over resources, community over credentials, and the conviction that where you started doesn&rsquo;t determine where you land.
                 </p>
-                <Link href="/blog/armando-vera-hangtight-austin" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/armando-vera-carvajal-hangtight-amazon" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
                 </Link>
               </div>

@@ -280,7 +280,7 @@ export default function SeattlePage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Alex co-founded Divvy, the spend management and business credit platform acquired by Bill.com in a deal valued at approximately $2.5 billion. He brings a rare combination of founder grit, product depth, and hard-won exit experience that most communities talk about in the abstract. In Gildre Seattle, that knowledge is accessible to you directly — in the same room, at the same table.
                 </p>
-                <Link href="/blog/alex-bean-divvy-bill-com-seattle" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/alex-bean-divvy-billcom-acquisition" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
                 </Link>
               </div>

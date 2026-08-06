@@ -25,6 +25,14 @@ const nextConfig: NextConfig = {
       // Page aliases
       { source: "/founder",             destination: "/content",                                             permanent: true },
       { source: "/faq",                 destination: "/#faq",                                                permanent: true },
+      { source: "/apply",               destination: "/membership",                                          permanent: true },
+      // Broken blog slugs used in city pages
+      { source: "/blog/armando-vera-hangtight-austin",        destination: "/blog/armando-vera-carvajal-hangtight-amazon",        permanent: true },
+      { source: "/blog/alex-bean-divvy-bill-com-seattle",     destination: "/blog/alex-bean-divvy-billcom-acquisition",           permanent: true },
+      { source: "/blog/chris-yeh-blitzscaling-bay-area",      destination: "/blog/chris-yeh-blitzscaling-reid-hoffman",           permanent: true },
+      { source: "/blog/ryan-hughes-fan-pier-labs-boston",     destination: "/blog/ryan-hughes-google-snapchat-fan-pier-labs",     permanent: true },
+      { source: "/blog/elise-madrick-cerene-los-angeles",     destination: "/blog/elise-madrick-cerene-executive-transformation", permanent: true },
+      { source: "/blog/aytekin-tank-jotform",                 destination: "/blog/aytekin-tank-bootstrapped-jotform-no-vc",       permanent: true },
     ];
   },
 };

@@ -276,7 +276,7 @@ export default function BayAreaPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Chris co-authored <em>Blitzscaling</em> with Reid Hoffman and has spent two decades helping founders navigate the specific decisions that determine whether a company captures a market or loses it. As a venture partner at Blitzscaling Ventures, he brings a rare combination of operator depth and investor perspective to every conversation. In Gildre, that knowledge is accessible to you directly — not through a conference talk.
                 </p>
-                <Link href="/blog/chris-yeh-blitzscaling-bay-area" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/chris-yeh-blitzscaling-reid-hoffman" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
                 </Link>
               </div>
