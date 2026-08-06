@@ -123,6 +123,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5">
               <li><a href="/gatherlypartnership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Gatherly</a></li>
               <li><a href="/matchplay" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Matchplay Group</a></li>
+              <li><a href="/solvee" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">solvee AI</a></li>
               <li><a href="https://www.mindhappy.co" target="_blank" rel="noopener noreferrer" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">MindHappy</a></li>
             </ul>
           </div>

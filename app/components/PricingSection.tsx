@@ -27,6 +27,7 @@ const plans = [
       "Private Community Workspace",
       "Weekly 1:1 Curated Introductions",
       "Individualized Goal Tracking Roadmap",
+      "solvee AI — Personalized Founder Accelerator",
     ],
   },
   {

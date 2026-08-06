@@ -98,6 +98,7 @@ const plans = [
       "Private Community Workspace",
       "Personalized, Weekly 1:1 Matches & Introductions",
       "Individualized Goal Tracking Roadmap",
+      "solvee AI — Personalized Founder Accelerator",
     ],
   },
   {
