@@ -89,6 +89,7 @@ const episodes = [
     photo: "/images/cody-graham-headshot.jpeg",
     initials: "CG",
     color: "#3B6CC9",
+    articleUrl: "/blog/cody-graham-sogo-restaurant-app-chicago",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -104,6 +105,7 @@ const episodes = [
     photo: "/images/steve-ramona-headshot.webp",
     initials: "SR",
     color: "#C97B3B",
+    articleUrl: "/blog/steve-ramona-servant-heart-podcast-networking",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -119,6 +121,7 @@ const episodes = [
     photo: "/images/iliana-alvarado-headshot.jpeg",
     initials: "IA",
     color: "#3BC97B",
+    articleUrl: "/blog/iliana-alvarado-ensyx-it-governance-ai-mexico",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -134,6 +137,7 @@ const episodes = [
     photo: "/images/sharon-gai-headshot.jpg",
     initials: "SG",
     color: "#9B3BC9",
+    articleUrl: "/blog/sharon-gai-keynote-speaker-alibaba-ai",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -149,6 +153,7 @@ const episodes = [
     photo: "/images/russell-breuer-headshot.webp",
     initials: "RB",
     color: "#C93B3B",
+    articleUrl: "/blog/russell-breuer-spot-tango-pet-food-founder",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -164,6 +169,7 @@ const episodes = [
     photo: null,
     initials: "GH",
     color: "#3B9BC9",
+    articleUrl: null,
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -179,6 +185,7 @@ const episodes = [
     photo: null,
     initials: "RW",
     color: "#C9A93B",
+    articleUrl: null,
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -194,6 +201,7 @@ const episodes = [
     photo: "/images/chris-tsakalakis-headshot.jpeg",
     initials: "CT",
     color: "#3BC97B",
+    articleUrl: "/blog/chris-tsakalakis-stubhub-ceo-marketplace",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -209,6 +217,7 @@ const episodes = [
     photo: "/images/chris-yeh-headshot.webp",
     initials: "CY",
     color: "#C9A96E",
+    articleUrl: "/blog/chris-yeh-blitzscaling-reid-hoffman",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -224,6 +233,7 @@ const episodes = [
     photo: null,
     initials: "AA",
     color: "#3B6CC9",
+    articleUrl: null,
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -239,6 +249,7 @@ const episodes = [
     photo: "/images/frances-pratt-headshot.jpeg",
     initials: "FP",
     color: "#9B3BC9",
+    articleUrl: "/blog/frances-pratt-more-sales-less-marketing",
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -254,6 +265,7 @@ const episodes = [
     photo: null,
     initials: "AK",
     color: "#C93B6C",
+    articleUrl: null,
     spotifyUrl: "https://open.spotify.com/show/3loSk2bBTZQdklXJdJ5r72",
     appleUrl: "https://podcasts.apple.com/us/podcast/start-to-scale-the-founders-podcast-by-gildre/id1706846585",
   },
@@ -389,8 +401,8 @@ function EpisodeCard({ ep }: { ep: (typeof episodes)[0] }) {
           {ep.description}
         </p>
 
-        {/* Listen links */}
-        <div className="flex gap-2 mt-auto">
+        {/* Listen + article links */}
+        <div className="flex flex-wrap gap-2 mt-auto">
           {ep.spotifyUrl && (
             <a
               href={ep.spotifyUrl}
@@ -417,6 +429,22 @@ function EpisodeCard({ ep }: { ep: (typeof episodes)[0] }) {
                 <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701z" />
               </svg>
               Apple
+            </a>
+          )}
+          {ep.articleUrl && (
+            <a
+              href={ep.articleUrl}
+              className="flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold transition-all duration-200 hover:opacity-80"
+              style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "#C9A96E", border: "1px solid rgba(201,169,110,0.25)" }}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5">
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
+              Read Article
             </a>
           )}
         </div>
