@@ -316,16 +316,19 @@ export default function LaPage() {
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>In-Person Events · Los Angeles, CA</p>
               <h2 className="mt-3 text-[1.75rem] font-bold leading-tight text-white sm:text-[2.1rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-                A dinner where you don&rsquo;t have to explain what you do.
+                More than dinners. A full calendar built around founders.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Twelve founders. A good table somewhere in Los Angeles. No name tags, no panels, no pitching to the room. Just the people you&rsquo;ve been trying to meet in an environment that&rsquo;s actually worth showing up to.
+                Gildre LA events run the full range — from intimate curated dinners to tech-powered Match House networking, escape rooms, co-hosted startup events, BBQs, and investor office hours. Every format is designed for one thing: getting the right people in the right room.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
-                  { title: "Founder Dinners", detail: "Seated. Small. Every attendee selected. The conversations that happen here don't happen at the average LA startup event because this room was deliberately built for them." },
-                  { title: "Peer Operator Roundtables", detail: "Sessions on the decisions that don't have clean answers. Hiring your first real executive. The funding round that almost killed morale. Facilitated by someone who's navigated it." },
-                  { title: "Investor Office Hours", detail: "Direct sessions with active LA-area investors. No pitch decks required. These are conversations, not auditions." },
+                  { title: "Founder Dinners", detail: "Seated. Small. Every attendee selected. Twelve founders around a good table — no panels, no pitching. The conversations here don't happen at the average LA startup event because this room was deliberately built for them." },
+                  { title: "Match House Networking Events", detail: "Gildre's signature format uses technology to match you with the right people before you walk in — and sends automated follow-ups after so connections don't die in someone's pocket. You leave with threads already started." },
+                  { title: "Team Building Experiences", detail: "Escape rooms, off-sites, and challenges designed to build trust faster than a conference ever could. The best peer relationships start when you're solving something together." },
+                  { title: "Co-Hosted Events with Other Startups", detail: "Gildre partners with top startups and ecosystem organizations across Los Angeles to co-host events. Curated cross-pollination — access to complementary communities, not just ours." },
+                  { title: "BBQs & Social Gatherings", detail: "LA was made for this. Some of the best founder relationships start over good food and good weather. Gildre hosts seasonal social events where the agenda is just being around the right people." },
+                  { title: "Investor Office Hours", detail: "Direct sessions with active LA-area investors. No pitch decks required. These are conversations, not auditions — designed to build real relationships before you ever need to fundraise." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>

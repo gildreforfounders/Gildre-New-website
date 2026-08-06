@@ -75,8 +75,8 @@ const benefits = [
   },
   {
     icon: "M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z",
-    title: "In-Person Events & Dinners",
-    body: "Exclusive chapter dinners, executive retreats, and in-person events across 5 core cities, for founders who value real-world connections.",
+    title: "In-Person Events",
+    body: "Founder dinners, Match House networking with automated follow-ups, escape rooms and team building, co-hosted startup events, BBQs, and investor office hours — across 5 core cities.",
     tier: "Gold & Platinum",
   },
 ];

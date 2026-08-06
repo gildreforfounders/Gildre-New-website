@@ -43,7 +43,7 @@ const row2: Card[] = [
     kind: "photo",
     src: "/images/community/workshops.webp",
     title: "Workshops & Events",
-    sub: "Curated virtual and in-person events including Executive Workshops, Innovation Roundtables, Founder Fireside Chats, and intimate dinners, all bridging connections across the globe.",
+    sub: "Curated virtual and in-person events including founder dinners, Match House networking with tech-powered matching and automated follow-ups, escape rooms, co-hosted startup events, BBQs, investor office hours, and Innovation Roundtables.",
   },
   {
     kind: "photo",
