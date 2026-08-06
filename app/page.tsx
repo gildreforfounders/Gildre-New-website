@@ -215,7 +215,7 @@ const organizationSchema = {
       {
         "@type": "Offer",
         "name": "Gold Membership",
-        "description": "For founders in the Growth stage ($500K–$5M ARR). Includes everything in Silver plus 1 monthly advisory session with a Gildre Managing Partner, in-person events, podcasting opportunities, and investor directory access.",
+        "description": "For founders in the Growth stage ($500K–$5M ARR). Includes everything in Silver plus 1 monthly advisory session with a Gildre Managing Partner, in-person events (founder dinners, Match House networking, escape rooms, co-hosted startup events, BBQs, and investor office hours), podcasting opportunities, and investor directory access.",
         "price": "149.00",
         "priceCurrency": "USD",
         "priceSpecification": { "@type": "UnitPriceSpecification", "price": "149.00", "priceCurrency": "USD", "unitText": "MONTH" },
@@ -299,7 +299,7 @@ const faqSchema = {
       "name": "What cities does Gildre operate in?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events (dinners, happy hours, and co-working sessions) are hosted quarterly in each city for Gold and Platinum members."
+        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events for Gold and Platinum members include founder dinners, Match House networking events with tech-powered matching and automated follow-ups, team building experiences like escape rooms, co-hosted startup events, BBQs, and investor office hours."
       }
     },
     {
@@ -307,7 +307,7 @@ const faqSchema = {
       "name": "How many events does Gildre host per month?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre hosts 3–4 curated virtual events per month including weekly AMAs, Innovation Roundtables (intimate founder-only sessions of 12 or fewer people), Founder Fireside Chats, and Executive Workshops. Members also get access to 2–3 ecosystem events per week from partner organizations. Gold and Platinum members attend quarterly in-person dinners and events in their city."
+        "text": "Gildre hosts 3–4 curated virtual events per month including weekly AMAs, Innovation Roundtables (intimate founder-only sessions of 12 or fewer people), Founder Fireside Chats, and Executive Workshops. Members also get access to 2–3 ecosystem events per week from partner organizations. Gold and Platinum members attend in-person events across their city including founder dinners, Match House networking with automated follow-ups, team building experiences like escape rooms, co-hosted startup events, BBQs, and investor office hours."
       }
     },
     {

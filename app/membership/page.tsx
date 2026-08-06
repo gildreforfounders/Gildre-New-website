@@ -112,7 +112,9 @@ const plans = [
     includesNote: "All Silver Benefits plus:",
     features: [
       "1 Monthly Advisory Session",
-      "Access to Exclusive, In-Person Events",
+      "Founder Dinners, Match House Networking & Team Building",
+      "Co-Hosted Startup Events, BBQs & Social Gatherings",
+      "Investor Office Hours — Conversations, Not Auditions",
       "Podcasting & Personal Brand Opportunities",
       "Access to Investor Directory & Warm Intros",
     ],
