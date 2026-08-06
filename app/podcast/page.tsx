@@ -82,7 +82,7 @@ const episodes = [
     title: "The Hidden Power of Challenging Yourself Every Day as an Entrepreneur",
     guest: "Cody Graham",
     role: "COO, SoGo",
-    date: "Jul 2025",
+    date: "Jul 2026",
     duration: "46 min",
     description:
       "Cody walks through the mindset shifts required to move from corporate operator to startup builder — covering AI integration, building community-driven products, and why the best founders stay deliberately uncomfortable.",
@@ -98,7 +98,7 @@ const episodes = [
     title: "How Asking Questions With the ASLA Principle Can Double Your Income",
     guest: "Steve Ramona",
     role: "Founder & Podcast Host",
-    date: "May 2025",
+    date: "May 2026",
     duration: "54 min",
     description:
       "Steve breaks down his ASLA framework — Ask, Listen, Learn, Act — and demonstrates how authentic networking can turn a casual conversation into a long-term business relationship. One of the most practical episodes on relationship capital we've recorded.",
@@ -114,7 +114,7 @@ const episodes = [
     title: "How Traveling and Odd Jobs Shaped Entrepreneurial Success",
     guest: "Iliana Alvarado",
     role: "Founder, N6 Systems",
-    date: "Mar 2025",
+    date: "Mar 2026",
     duration: "46 min",
     description:
       "Iliana built a tech venture across three countries after a career defined by embracing the unpredictable — from odd jobs to international roles. She makes a compelling case that cultural agility is the most underrated founder skill.",
@@ -130,7 +130,7 @@ const episodes = [
     title: "Why Sharing Your Failures Is the Ultimate Trust Builder Online",
     guest: "Sharon Gai",
     role: "Former Alibaba Executive & Keynote Speaker",
-    date: "Feb 2025",
+    date: "Feb 2026",
     duration: "43 min",
     description:
       "Sharon went from leading Alibaba's global growth to building her own personal brand — and discovered that documenting failures outperforms polished success stories. She shares the counterintuitive rules of digital presence and why AI is the great equalizer for solo founders.",
@@ -146,7 +146,7 @@ const episodes = [
     title: "From Apartment Kitchen to 9-Figure Pet Food Brand: The Spot & Tango Story",
     guest: "Russell Breuer",
     role: "Founder, Spot & Tango",
-    date: "Jan 2025",
+    date: "Jan 2026",
     duration: "38 min",
     description:
       "Russell left management consulting to cook dog food in his apartment. Nine figures later, Spot & Tango is one of the fastest-growing DTC pet brands in the country. He breaks down the direct-to-consumer playbook and the bet on personalized nutrition that changed everything.",
@@ -162,7 +162,7 @@ const episodes = [
     title: "From Bahamas to Yale: Gadareth Higgs' Journey",
     guest: "Gadareth Higgs",
     role: "Investment Analyst, Grander",
-    date: "Dec 2024",
+    date: "Dec 2025",
     duration: "43 min",
     description:
       "Gadareth went from the Bahamas to Yale to the front lines of life sciences investing — and shares how he evaluates early-stage biomedical companies, why continuous improvement is his operating system, and how AI is reshaping the due diligence process.",
@@ -178,7 +178,7 @@ const episodes = [
     title: "From Track to Tech: Robie Webster Jr.'s Entrepreneurial Leap",
     guest: "Robie Webster Jr.",
     role: "Founder, Mtrc",
-    date: "Nov 2024",
+    date: "Nov 2025",
     duration: "46 min",
     description:
       "Former Division I athlete Robie Webster Jr. turned the discipline of competitive sport into a fitness technology company. He talks about finding a co-founder, the grit it takes to build without a safety net, and why learning never stops for a first-time founder.",
@@ -194,7 +194,7 @@ const episodes = [
     title: "From StubHub to AI: Chris Tsakalakis on Innovation",
     guest: "Chris Tsakalakis",
     role: "Former CEO, StubHub · Venture Partner, Starhawk",
-    date: "Oct 2024",
+    date: "Oct 2025",
     duration: "49 min",
     description:
       "Chris ran one of the most recognizable B2C marketplaces in the world before pivoting to venture. He traces the lessons from Bain to StubHub, the aggressive marketing bets that paid off, and why he believes AI's impact on business will be bigger than the internet.",
@@ -210,7 +210,7 @@ const episodes = [
     title: "Blitzscaling and Beyond: Chris Yeh's Journey",
     guest: "Chris Yeh",
     role: "Co-Author, Blitzscaling · Investor & Speaker",
-    date: "Sep 2024",
+    date: "Sep 2025",
     duration: "51 min",
     description:
       "Chris co-wrote the book on blitzscaling with Reid Hoffman — and in this episode he goes deeper on what actually separates companies that scale from those that plateau. He covers conviction, lifelong learning, and building the kind of collaborative network that compounds over decades.",
@@ -226,7 +226,7 @@ const episodes = [
     title: "The Entrepreneurial Odyssey of Andrew Ackerman",
     guest: "Andrew Ackerman",
     role: "Two-Time Exit Founder & Author",
-    date: "Sep 2024",
+    date: "Sep 2025",
     duration: "47 min",
     description:
       "Andrew has navigated two startup exits and written a book about it — The Entrepreneurial Odyssey. He shares the resilience frameworks that got him through the hard parts, the mental models he wishes he'd had earlier, and what he tells first-time founders who are just starting to feel the pressure.",
@@ -242,7 +242,7 @@ const episodes = [
     title: "Overcoming the Fear of Selling: Insights from Frances Pratt",
     guest: "Frances Pratt",
     role: "Founder & CEO, Metisan",
-    date: "Aug 2024",
+    date: "Aug 2025",
     duration: "44 min",
     description:
       "Frances built a sales consulting firm for founders who are brilliant at their craft but uncomfortable in the room. She explains why most selling fails at listening, how storytelling closes deals that decks can't, and the community-building strategies that create revenue without cold outreach.",
@@ -258,7 +258,7 @@ const episodes = [
     title: "From Microsoft to Startup: Aya Kikimova's Journey",
     guest: "Aya Kikimova",
     role: "Founder & Former Microsoft",
-    date: "Jul 2024",
+    date: "Jul 2025",
     duration: "42 min",
     description:
       "Aya left the stability of Microsoft to build from scratch — and she's honest about how different the two worlds are. She maps the psychological and operational challenges of the transition, the obstacles she didn't see coming, and how she found her footing as a first-time solo founder.",
