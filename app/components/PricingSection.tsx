@@ -43,7 +43,8 @@ const plans = [
     extraLabel: "All Silver, plus:",
     coreFeatures: [
       "1 Monthly Advisory Session",
-      "Exclusive In-Person Founder Dinners",
+      "Dinners, Match House Networking & Team Building",
+      "Co-Hosted Startup Events, BBQs & Investor Office Hours",
       "Podcasting & Personal Brand Opportunities",
       "Investor Directory & Warm Introductions",
     ],
