@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Fellowship or Membership: How to Choose the Right Founder Community Model",
+    category: "Growth",
+    readTime: "8 min read",
+    excerpt:
+      "Fellowships bundle curriculum, cohort peers, and a fixed end date. Memberships offer ongoing, stage-matched access with no equity. Here is how to tell which model fits where you are right now.",
+    href: "/blog/fellowship-vs-membership-founder-community",
+  },
+  {
     title: "From Solo Decisions to Shared Ones: What Founders at $200K ARR Actually Do About the Isolation Problem",
     category: "Growth",
     readTime: "9 min read",
