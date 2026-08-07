@@ -67,6 +67,14 @@ const featured = [
     href: "/blog/founder-proximity-bias-test-market-fit",
   },
   {
+    title: "From Co-Founder to Loneliest Job: Why Two People at the Helm Still Feel Isolated",
+    category: "Mindset",
+    readTime: "10 min read",
+    excerpt:
+      "A co-founder shares your risk and your workload. They don't share the pattern-matched experience of having done this before. Both founders are often equally uncertain at the same time, and neither says so. Here is why peer scarcity produces isolation even in a two-person founding team, and what actually closes the gap.",
+    href: "/blog/co-founder-startup-isolation-peer-scarcity-not-headcount",
+  },
+  {
     title: "From Supported to Understood: Why Founder Isolation Doesn't Go Away With Encouragement",
     category: "Mindset",
     readTime: "10 min read",
