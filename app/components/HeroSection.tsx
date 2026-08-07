@@ -13,8 +13,8 @@ const avatars = [
 export default function HeroSection() {
   return (
     <section
-      className="relative flex min-h-[90vh] items-center justify-center overflow-hidden"
-      style={{ backgroundColor: "#000" }}
+      className="relative flex items-center justify-center overflow-hidden"
+      style={{ backgroundColor: "#000", minHeight: "100svh" }}
     >
       <Image
         src="/images/community/hero.webp"
@@ -33,7 +33,7 @@ export default function HeroSection() {
         style={{ background: "radial-gradient(ellipse, #C9A96E 0%, transparent 65%)" }}
       />
 
-      <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center">
+      <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center pt-28 pb-16 sm:pt-16 sm:pb-12 lg:pt-0 lg:pb-0">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
