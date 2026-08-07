@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "From Solo Decisions to Shared Ones: What Founders at $200K ARR Actually Do About the Isolation Problem",
+    category: "Growth",
+    readTime: "9 min read",
+    excerpt:
+      "Isolation peaks at $200K ARR for a structural reason: generic advice stops working and your existing network stops matching your stage. Here is what founders who navigate it well actually do differently.",
+    href: "/blog/founder-isolation-200k-arr-peer-community",
+  },
+  {
     title: "From Coaching Calls to Cap Tables: Where Healthtech Founders Find Mentors Who've Actually Exited",
     category: "Growth",
     readTime: "9 min read",
