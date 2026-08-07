@@ -67,6 +67,14 @@ const featured = [
     href: "/blog/founder-proximity-bias-test-market-fit",
   },
   {
+    title: "From Polite Nods to Real Signal: Why Honest Startup Feedback Is So Rare",
+    category: "Mindset",
+    readTime: "10 min read",
+    excerpt:
+      "Friends default to encouragement. Family lacks domain context. Investors filter for fund math. The feedback that actually changes a decision comes from operators who have lived your exact stage and can pattern-match against real outcomes. Here is why that kind is so hard to find and what produces it.",
+    href: "/blog/honest-startup-feedback-why-founders-rarely-get-it",
+  },
+  {
     title: "From Co-Founder to Loneliest Job: Why Two People at the Helm Still Feel Isolated",
     category: "Mindset",
     readTime: "10 min read",

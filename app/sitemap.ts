@@ -70,6 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/why-founder-isolation-happens-first-two-years`,             lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     { url: `${BASE_URL}/blog/founder-isolation-support-vs-understanding-peer-mentorship`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     { url: `${BASE_URL}/blog/co-founder-startup-isolation-peer-scarcity-not-headcount`,  lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
+    { url: `${BASE_URL}/blog/honest-startup-feedback-why-founders-rarely-get-it`,        lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     // Guides & articles
     { url: `${BASE_URL}/guides/building-products-that-scale`,                 lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/micro-influencer-marketing`,                   lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
