@@ -583,10 +583,16 @@ const categoryColor: Record<string, string> = {
 
 export default function ContentPage() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const visibleArticles = activeCategory
-    ? featured.filter((a) => a.category === activeCategory)
-    : featured;
+  const visibleArticles = featured.filter((a) => {
+    const matchesCategory = activeCategory ? a.category === activeCategory : true;
+    const q = searchQuery.trim().toLowerCase();
+    const matchesSearch = q
+      ? a.title.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q)
+      : true;
+    return matchesCategory && matchesSearch;
+  });
 
   function toggleCategory(label: string) {
     setActiveCategory((prev) => (prev === label ? null : label));
@@ -717,10 +723,64 @@ export default function ContentPage() {
             )}
           </div>
 
+          {/* Search */}
+          <div className="mt-6 relative">
+            <svg
+              className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4"
+              style={{ color: "rgba(255,255,255,0.3)" }}
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Search articles by title or topic..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full rounded-full py-3 pl-11 pr-12 text-sm text-white placeholder:text-white/30 outline-none transition-all"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.04)",
+                border: searchQuery ? "1px solid rgba(201,169,110,0.4)" : "1px solid rgba(255,255,255,0.08)",
+              }}
+            />
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery("")}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-xs transition-opacity hover:opacity-80"
+                style={{ color: "rgba(255,255,255,0.4)" }}
+                aria-label="Clear search"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+          {(searchQuery || activeCategory) && (
+            <p className="mt-3 text-xs" style={{ color: "rgba(255,255,255,0.35)" }}>
+              {visibleArticles.length} article{visibleArticles.length !== 1 ? "s" : ""} found
+              {activeCategory ? ` in ${activeCategory}` : ""}
+              {searchQuery ? ` matching "${searchQuery}"` : ""}
+            </p>
+          )}
+
           {visibleArticles.length === 0 && (
             <div className="mt-12 text-center py-16" style={{ color: "rgba(255,255,255,0.35)" }}>
-              <p className="text-lg">No articles yet in this category.</p>
-              <p className="text-sm mt-2">More coming soon; subscribe to the newsletter to get notified.</p>
+              <p className="text-lg">No articles found.</p>
+              <p className="text-sm mt-2">
+                {searchQuery ? "Try a different search term." : "More coming soon — subscribe to the newsletter to get notified."}
+              </p>
+              {(searchQuery || activeCategory) && (
+                <button
+                  onClick={() => { setSearchQuery(""); setActiveCategory(null); }}
+                  className="mt-4 rounded-full px-5 py-2 text-xs font-semibold transition-opacity hover:opacity-80"
+                  style={{ border: "1px solid rgba(255,255,255,0.15)", color: "rgba(255,255,255,0.5)" }}
+                >
+                  Clear all filters
+                </button>
+              )}
             </div>
           )}
 
