@@ -67,6 +67,14 @@ const featured = [
     href: "/blog/founder-proximity-bias-test-market-fit",
   },
   {
+    title: "From Zero to $500K: Why Generic Startup Advice Fails the Founders Who Need It Most",
+    category: "Growth",
+    readTime: "10 min read",
+    excerpt:
+      "Most startup advice online was written for a company that no longer exists at your stage. It skips sequencing, comes from operators too far removed from the zero-to-$500K seat, and collapses every stage into one undifferentiated blob. The fix is not more content. It is narrower input.",
+    href: "/blog/zero-to-500k-arr-why-generic-startup-advice-fails",
+  },
+  {
     title: "From Polite Nods to Real Signal: Why Honest Startup Feedback Is So Rare",
     category: "Mindset",
     readTime: "10 min read",
