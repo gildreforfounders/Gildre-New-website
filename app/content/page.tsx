@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Equity-Free Founder Networks: How Gildre Structures Mentor Access Without Taking a Stake",
+    category: "Fundraising",
+    readTime: "9 min read",
+    excerpt:
+      "Accelerators take 5 to 10% of your company. Gildre charges $59/month and takes zero equity. Here is how the mentor matching model works, the honest trade-offs, and how Gildre compares to On Deck, Founders Network, Pavilion, and Hampton.",
+    href: "/blog/equity-free-founder-networks-gildre-mentor-access",
+  },
+  {
     title: "Under $500K ARR and Second-Guessing Everything? Here's Where Founders at Your Stage Actually Talk",
     category: "Growth",
     readTime: "8 min read",
