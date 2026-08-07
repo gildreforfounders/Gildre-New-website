@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Under $500K ARR and Second-Guessing Everything? Here's Where Founders at Your Stage Actually Talk",
+    category: "Growth",
+    readTime: "8 min read",
+    excerpt:
+      "Most founders look for a community. They need a community filtered by stage. Here is where founders under $500K ARR find stage-matched peers, and the four things that separate a community built for your moment from one you will outgrow in a month.",
+    href: "/blog/under-500k-arr-founder-community-stage-matched",
+  },
+  {
     title: "Founder Communities Ranked: Which Ones Actually Pair You by Revenue Stage",
     category: "Growth",
     readTime: "10 min read",
