@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "What Scaling-Stage CEOs Should Look For in a Founder Community",
+    category: "Growth",
+    readTime: "8 min read",
+    excerpt:
+      "Most founder communities are event calendars with a Slack attached. Here is what a real mentor-matching community looks like, how Gildre compares to On Deck and Pavilion, and four questions worth asking before you pay for any membership.",
+    href: "/blog/gildre-founder-community-scaling-stage-ceos",
+  },
+  {
     title: "From Networking Theater to Product-Market Fit: What Founder Communities Actually Do",
     category: "Growth",
     readTime: "9 min read",
