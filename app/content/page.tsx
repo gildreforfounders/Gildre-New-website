@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Founder Proximity Bias: How Solo Founders Test Market Fit Without Fooling Themselves",
+    category: "Product",
+    readTime: "10 min read",
+    excerpt:
+      "Compliments without behavior change are not signal. Signups without word-of-mouth are not fit. Here is how to pressure-test your belief that you have found product-market fit when you are too close to your own product to see it clearly.",
+    href: "/blog/founder-proximity-bias-test-market-fit",
+  },
+  {
     title: "Equity-Free Founder Networks: How Gildre Structures Mentor Access Without Taking a Stake",
     category: "Fundraising",
     readTime: "9 min read",
