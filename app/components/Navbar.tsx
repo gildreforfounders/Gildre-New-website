@@ -42,7 +42,7 @@ export default function Navbar() {
             href="/"
             className="text-2xl font-semibold text-white flex-shrink-0"
             style={{ fontFamily: "var(--font-fraunces)" }}
-          >
+           target="_blank" rel="noopener noreferrer">
             Gildre
           </a>
 

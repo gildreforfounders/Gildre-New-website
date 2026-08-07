@@ -586,7 +586,7 @@ export default function ChrisRiklinBlog() {
                 borderRadius: "8px",
                 textDecoration: "none",
               }}
-            >
+             target="_blank" rel="noopener noreferrer">
               Join Gildre
             </a>
           </div>

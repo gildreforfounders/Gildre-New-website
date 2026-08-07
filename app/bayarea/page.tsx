@@ -200,7 +200,7 @@ export default function BayAreaPage() {
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/membership" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
+            <Link href="/membership" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }} target="_blank" rel="noopener noreferrer">
               Explore Bay Area Gatherings
             </Link>
           </div>
@@ -276,7 +276,7 @@ export default function BayAreaPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Chris co-authored <em>Blitzscaling</em> with Reid Hoffman and has spent two decades helping founders navigate the specific decisions that determine whether a company captures a market or loses it. As a venture partner at Blitzscaling Ventures, he brings a rare combination of operator depth and investor perspective to every conversation. In Gildre, that knowledge is accessible to you directly — not through a conference talk.
                 </p>
-                <Link href="/blog/chris-yeh-blitzscaling-reid-hoffman" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/chris-yeh-blitzscaling-reid-hoffman" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }} target="_blank" rel="noopener noreferrer">
                   Read his story →
                 </Link>
               </div>
@@ -485,9 +485,9 @@ export default function BayAreaPage() {
       <div className="px-6 py-8 text-center text-[0.7rem] text-zinc-600" style={{ backgroundColor: "#080e1a", borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Privacy Policy</a>
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Back to Gildre.com</a>
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Back to Gildre.com</a>
         </p>
       </div>
     </div>

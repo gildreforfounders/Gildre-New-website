@@ -539,7 +539,7 @@ export default function ReferralAgreementPage() {
         <p className="mt-6 text-center text-xs text-zinc-600">
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
           &nbsp;&middot;&nbsp;{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Privacy Policy
           </a>
         </p>

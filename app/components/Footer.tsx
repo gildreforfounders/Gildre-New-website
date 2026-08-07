@@ -86,45 +86,45 @@ export default function Footer() {
           <div>
             <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Community</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/founder-community" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Founder Community</a></li>
-              <li><a href="/#pricing" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Membership Plans</a></li>
-              <li><a href="/mentor" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Startup Mentors</a></li>
+              <li><a href="/founder-community" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Founder Community</a></li>
+              <li><a href="/#pricing" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Membership Plans</a></li>
+              <li><a href="/mentor" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Startup Mentors</a></li>
             </ul>
           </div>
           <div>
             <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Cities</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/austin" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Austin</a></li>
-              <li><a href="/bayarea" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Bay Area</a></li>
-              <li><a href="/boston" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Boston</a></li>
-              <li><a href="/chicago" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Chicago</a></li>
-              <li><a href="/la" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Los Angeles</a></li>
-              <li><a href="/nyc" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">New York City</a></li>
-              <li><a href="/seattle" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Seattle</a></li>
+              <li><a href="/austin" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Austin</a></li>
+              <li><a href="/bayarea" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Bay Area</a></li>
+              <li><a href="/boston" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Boston</a></li>
+              <li><a href="/chicago" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Chicago</a></li>
+              <li><a href="/la" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Los Angeles</a></li>
+              <li><a href="/nyc" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">New York City</a></li>
+              <li><a href="/seattle" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Seattle</a></li>
             </ul>
           </div>
           <div>
             <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Resources</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/content" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Founder Content</a></li>
-              <li><a href="/guides/startup-equity-101" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Startup Equity 101</a></li>
-              <li><a href="/guides/pre-seed-fundraising-playbook" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Fundraising Playbook</a></li>
-              <li><a href="/guides/next-100-customers-gtm-playbook" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">GTM Playbook</a></li>
+              <li><a href="/content" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Founder Content</a></li>
+              <li><a href="/guides/startup-equity-101" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Startup Equity 101</a></li>
+              <li><a href="/guides/pre-seed-fundraising-playbook" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Fundraising Playbook</a></li>
+              <li><a href="/guides/next-100-customers-gtm-playbook" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">GTM Playbook</a></li>
             </ul>
           </div>
           <div>
             <p className="text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Company</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/contact" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Contact</a></li>
-              <li><a href="/referral" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Refer a Founder</a></li>
-              <li><a href="/privacy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Privacy Policy</a></li>
+              <li><a href="/contact" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Contact</a></li>
+              <li><a href="/referral" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Refer a Founder</a></li>
+              <li><a href="/privacy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
             </ul>
             <p className="mt-6 text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Partners</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/gatherlypartnership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Gatherly</a></li>
-              <li><a href="/matchplaygroup" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Matchplay Group</a></li>
-              <li><a href="/solvee" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">solvee AI</a></li>
-              <li><a href="/mindhappy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">MindHappy</a></li>
+              <li><a href="/gatherlypartnership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Gatherly</a></li>
+              <li><a href="/matchplaygroup" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">Matchplay Group</a></li>
+              <li><a href="/solvee" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">solvee AI</a></li>
+              <li><a href="/mindhappy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300" target="_blank" rel="noopener noreferrer">MindHappy</a></li>
             </ul>
           </div>
         </div>
@@ -199,7 +199,7 @@ export default function Footer() {
               href="/podcast"
               className="inline-block self-start rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               Browse Episodes →
             </a>
           </div>
@@ -237,7 +237,7 @@ export default function Footer() {
               href="/content"
               className="inline-block self-start rounded-full px-6 py-2.5 text-xs font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               Explore →
             </a>
           </div>
@@ -251,8 +251,8 @@ export default function Footer() {
         >
           <p>&copy; {new Date().getFullYear()} Gildre. All rights reserved.</p>
           <div className="flex gap-5">
-            <a href="/contact" className="hover:text-zinc-400 transition-colors">Contact Us</a>
-            <a href="/privacy" className="hover:text-zinc-400 transition-colors">Privacy Policy</a>
+            <a href="/contact" className="hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Contact Us</a>
+            <a href="/privacy" className="hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           </div>
         </div>
       </div>

@@ -465,7 +465,7 @@ export default function ContentPage() {
               href="#articles"
               className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80"
               style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               Browse Articles
             </a>
           </div>
@@ -570,7 +570,7 @@ export default function ContentPage() {
                   backgroundColor: "#0a1020",
                   border: "1px solid rgba(255,255,255,0.07)",
                 }}
-              >
+               target="_blank" rel="noopener noreferrer">
                 <div className="flex items-center gap-2 mb-4">
                   <span
                     className="rounded-full px-2.5 py-1 text-[0.6rem] font-bold uppercase tracking-widest"
@@ -663,11 +663,11 @@ export default function ContentPage() {
       >
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Privacy Policy
           </a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Back to Gildre.com
           </a>
         </p>

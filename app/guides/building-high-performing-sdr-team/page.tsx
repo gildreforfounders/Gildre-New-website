@@ -1122,7 +1122,7 @@ export default function SDRTeam() {
                 textDecoration: "none",
                 letterSpacing: "0.03em",
               }}
-            >
+             target="_blank" rel="noopener noreferrer">
               Access Member Content →
             </a>
           </div>

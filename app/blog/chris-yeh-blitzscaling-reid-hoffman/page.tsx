@@ -556,7 +556,7 @@ export default function ChrisYehBlog() {
             href="/content"
             className="text-sm transition-colors hover:text-[#C9A96E]"
             style={{ color: "rgba(255,255,255,0.4)" }}
-          >
+           target="_blank" rel="noopener noreferrer">
             ← Back to Founder Content
           </Link>
         </div>
@@ -572,14 +572,14 @@ export default function ChrisYehBlog() {
           <a
             href="/privacy"
             className="underline underline-offset-2 hover:text-zinc-400 transition-colors"
-          >
+           target="_blank" rel="noopener noreferrer">
             Privacy Policy
           </a>
           {" · "}
           <a
             href="/"
             className="underline underline-offset-2 hover:text-zinc-400 transition-colors"
-          >
+           target="_blank" rel="noopener noreferrer">
             Back to Gildre.com
           </a>
         </p>

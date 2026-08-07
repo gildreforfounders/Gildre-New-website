@@ -185,7 +185,7 @@ export default function FounderCommunityPage() {
               href="/membership"
               className="text-sm underline underline-offset-4 transition-opacity hover:opacity-80"
               style={{ color: "rgba(255,255,255,0.6)" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               See membership plans →
             </Link>
           </div>
@@ -402,7 +402,7 @@ export default function FounderCommunityPage() {
                 href="/membership"
                 className="rounded-full px-8 py-3.5 text-sm font-semibold text-center transition-opacity hover:opacity-80"
                 style={{ backgroundColor: "rgba(255,255,255,0.06)", color: "rgba(255,255,255,0.8)", border: "1px solid rgba(255,255,255,0.1)" }}
-              >
+               target="_blank" rel="noopener noreferrer">
                 View membership plans
               </Link>
             </div>
@@ -489,7 +489,7 @@ export default function FounderCommunityPage() {
                 href={city.href}
                 className="rounded-full px-5 py-2.5 text-sm font-semibold transition-opacity hover:opacity-80"
                 style={{ backgroundColor: "rgba(201,169,110,0.1)", border: "1px solid rgba(201,169,110,0.25)", color: "#C9A96E" }}
-              >
+               target="_blank" rel="noopener noreferrer">
                 {city.name}
               </Link>
             ))}

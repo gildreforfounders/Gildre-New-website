@@ -200,7 +200,7 @@ export default function BostonPage() {
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
               Apply for Membership →
             </a>
-            <Link href="/membership" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
+            <Link href="/membership" className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }} target="_blank" rel="noopener noreferrer">
               Explore Boston Gatherings
             </Link>
           </div>
@@ -276,7 +276,7 @@ export default function BostonPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Ryan co-founded Fan Pier Labs in Boston, where he sits at the intersection of technical depth and venture-stage execution. He has navigated the specific inflection points that Boston founders face — institution to company, research to product, local talent to global market — and brings that perspective directly to the Gildre community. His candor and willingness to share what actually happened make him one of the most valuable people in the room.
                 </p>
-                <Link href="/blog/ryan-hughes-google-snapchat-fan-pier-labs" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
+                <Link href="/blog/ryan-hughes-google-snapchat-fan-pier-labs" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }} target="_blank" rel="noopener noreferrer">
                   Read his story →
                 </Link>
               </div>
@@ -485,9 +485,9 @@ export default function BostonPage() {
       <div className="px-6 py-8 text-center text-[0.7rem] text-zinc-600" style={{ backgroundColor: "#080e1a", borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Privacy Policy</a>
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Back to Gildre.com</a>
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Back to Gildre.com</a>
         </p>
       </div>
     </div>

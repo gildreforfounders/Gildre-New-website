@@ -368,7 +368,7 @@ export default function OneToThreeMillionBlog() {
               href="/membership"
               className="rounded-full px-7 py-3 text-sm font-semibold transition-opacity hover:opacity-80"
               style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               View Memberships
             </Link>
           </div>
@@ -389,7 +389,7 @@ export default function OneToThreeMillionBlog() {
 
         {/* Back link */}
         <div className="mt-12 pt-8" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }}>
-          <Link href="/content" className="text-sm transition-colors hover:text-[#C9A96E]" style={{ color: "rgba(255,255,255,0.4)" }}>
+          <Link href="/content" className="text-sm transition-colors hover:text-[#C9A96E]" style={{ color: "rgba(255,255,255,0.4)" }} target="_blank" rel="noopener noreferrer">
             ← Back to Founder Content
           </Link>
         </div>
@@ -402,11 +402,11 @@ export default function OneToThreeMillionBlog() {
       >
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Privacy Policy
           </a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Back to Gildre.com
           </a>
         </p>

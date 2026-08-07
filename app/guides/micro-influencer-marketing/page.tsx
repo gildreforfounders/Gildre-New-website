@@ -569,7 +569,7 @@ export default function MicroInfluencerMarketingGuide() {
               href="/#pricing"
               className="inline-block rounded-full px-8 py-3 text-sm font-bold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               Join Gildre →
             </a>
           </div>

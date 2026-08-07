@@ -214,7 +214,7 @@ export default function SolveePartnershipPage() {
                   href="/blog/christof-gomez-mannfeld-solvee-ai-business-coach"
                   className="inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-4 transition-opacity hover:opacity-70"
                   style={{ color: "#C9A96E" }}
-                >
+                 target="_blank" rel="noopener noreferrer">
                   Read Christof's full story →
                 </a>
               </div>
@@ -556,11 +556,11 @@ export default function SolveePartnershipPage() {
       >
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Privacy Policy
           </a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Back to Gildre.com
           </a>
         </p>

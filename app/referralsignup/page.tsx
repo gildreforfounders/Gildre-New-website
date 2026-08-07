@@ -386,7 +386,7 @@ export default function ReferralSignupPage() {
                         href="/referralagreement"
                         className="underline underline-offset-2 transition-colors hover:text-white"
                         style={{ color: "rgba(201,169,110,0.7)" }}
-                      >
+                       target="_blank" rel="noopener noreferrer">
                         Gildre Referral Agreement
                       </Link>{" "}
                       page.
@@ -406,11 +406,11 @@ export default function ReferralSignupPage() {
       >
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Privacy Policy
           </a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
             Back to Gildre.com
           </a>
         </p>

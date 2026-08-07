@@ -972,7 +972,7 @@ export default function KickingOffPreSeed() {
                   padding: "1.25rem",
                   textDecoration: "none",
                 }}
-              >
+               target="_blank" rel="noopener noreferrer">
                 <p
                   style={{
                     color: "#C9A96E",

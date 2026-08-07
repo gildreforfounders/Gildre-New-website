@@ -436,7 +436,7 @@ function EpisodeCard({ ep }: { ep: (typeof episodes)[0] }) {
               href={ep.articleUrl}
               className="flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold transition-all duration-200 hover:opacity-80"
               style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "#C9A96E", border: "1px solid rgba(201,169,110,0.25)" }}
-            >
+             target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5">
                 <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
                 <polyline points="14 2 14 8 20 8" />
@@ -625,7 +625,7 @@ export default function PodcastPage() {
         <div className="px-6 py-12 text-center">
           <p className="text-xs" style={{ color: "rgba(255,255,255,0.2)" }}>
             Start to Scale is produced by{" "}
-            <a href="https://www.gildre.com" className="underline underline-offset-2 hover:text-white/40">
+            <a href="https://www.gildre.com" className="underline underline-offset-2 hover:text-white/40" target="_blank" rel="noopener noreferrer">
               Gildre
             </a>
             . New episodes drop monthly.
