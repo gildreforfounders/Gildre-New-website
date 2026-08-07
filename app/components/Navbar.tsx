@@ -60,8 +60,7 @@ export default function Navbar() {
               href="https://login.circle.so/sign_in?request_host=gildre.circle.so"
               target="_blank"
               rel="noopener noreferrer"
-              className="whitespace-nowrap rounded-full border px-4 py-1.5 text-sm font-medium transition-all hover:border-white/50 hover:text-white"
-              style={{ borderColor: "rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.75)" }}
+              className="text-sm text-white/70 transition-colors hover:text-white whitespace-nowrap"
             >
               Member Login
             </a>
@@ -131,17 +130,14 @@ export default function Navbar() {
                 {l.label}
               </button>
             ))}
-            <div className="py-3 border-b border-white/5">
-              <a
-                href="https://login.circle.so/sign_in?request_host=gildre.circle.so"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block rounded-full border px-5 py-2 text-sm font-medium transition-all hover:border-white/50 hover:text-white"
-                style={{ borderColor: "rgba(255,255,255,0.2)", color: "rgba(255,255,255,0.75)" }}
-              >
-                Member Login
-              </a>
-            </div>
+            <a
+              href="https://login.circle.so/sign_in?request_host=gildre.circle.so"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full text-left py-3 text-base text-white/80 hover:text-white transition-colors border-b border-white/5"
+            >
+              Member Login
+            </a>
             <a
               href="https://tally.so/r/VLERVa"
               target="_blank"
