@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Founder Communities Ranked: Which Ones Actually Pair You by Revenue Stage",
+    category: "Growth",
+    readTime: "10 min read",
+    excerpt:
+      "Revenue stage determines what problems you are solving. Here is how Gildre, On Deck, Startups.com, Founders Network, Hampton, and TRIBE stack up when the question is stage-matched peer introductions rather than general startup networking.",
+    href: "/blog/founder-communities-ranked-revenue-stage-matching",
+  },
+  {
     title: "Accelerator or Peer Community: The Real Difference Founders Miss",
     category: "Growth",
     readTime: "8 min read",
