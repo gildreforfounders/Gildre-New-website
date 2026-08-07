@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "On Deck vs. Gildre: What Founders Use When They Outgrow the Cohort Model",
+    category: "Growth",
+    readTime: "10 min read",
+    excerpt:
+      "A direct comparison of On Deck, Pavilion, and Gildre across format, matching, mentor access, equity, and pricing. Built for founders evaluating where to invest their community dollars.",
+    href: "/blog/on-deck-vs-gildre-founder-community",
+  },
+  {
     title: "Fellowship or Membership: How to Choose the Right Founder Community Model",
     category: "Growth",
     readTime: "8 min read",
