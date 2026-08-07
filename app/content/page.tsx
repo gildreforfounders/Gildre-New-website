@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "From Isolation to Peer Support: Why Founder Loneliness Is a Predictable Stage, Not a Personal Failing",
+    category: "Mindset",
+    readTime: "8 min read",
+    excerpt:
+      "Founder loneliness is structural, not personal. Friends and employees rarely face high-stakes decisions on incomplete information. Here is why stage-specific peer communities close the gap, and why curated networks report 95% retention over two years.",
+    href: "/blog/founder-loneliness-predictable-stage-peer-support",
+  },
+  {
     title: "On Deck vs. Gildre: What Founders Use When They Outgrow the Cohort Model",
     category: "Growth",
     readTime: "10 min read",
