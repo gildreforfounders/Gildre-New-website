@@ -124,7 +124,7 @@ export default function Footer() {
               <li><a href="/gatherlypartnership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Gatherly</a></li>
               <li><a href="/matchplaygroup" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Matchplay Group</a></li>
               <li><a href="/solvee" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">solvee AI</a></li>
-              <li><a href="https://www.mindhappy.co" target="_blank" rel="noopener noreferrer" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">MindHappy</a></li>
+              <li><a href="/mindhappy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">MindHappy</a></li>
             </ul>
           </div>
         </div>
