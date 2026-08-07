@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "From Coaching Calls to Cap Tables: Where Healthtech Founders Find Mentors Who've Actually Exited",
+    category: "Growth",
+    readTime: "9 min read",
+    excerpt:
+      "Coaching and operator mentorship solve different problems. For healthtech founders navigating payer dynamics and clinical timelines, here is where exited operators concentrate and how to evaluate any mentor network before you commit.",
+    href: "/blog/healthtech-founders-find-mentors-who-exited",
+  },
+  {
     title: "What Scaling-Stage CEOs Should Look For in a Founder Community",
     category: "Growth",
     readTime: "8 min read",
