@@ -491,8 +491,7 @@ export default function CodyGrahamBlog() {
           <Link
             href="/apply"
             className="inline-block rounded-full px-8 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-            style={{ backgroundColor: "#C9A96E", color: "#080e1a" }}
-           target="_blank" rel="noopener noreferrer">
+            style={{ backgroundColor: "#C9A96E", color: "#080e1a" }}>
             Apply to Gildre
           </Link>
         </div>

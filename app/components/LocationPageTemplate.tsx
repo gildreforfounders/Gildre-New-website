@@ -153,8 +153,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
             <Link
               href="/membership"
               className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80"
-              style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}
-             target="_blank" rel="noopener noreferrer">
+              style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.15)" }}>
               View Memberships
             </Link>
           </div>
@@ -316,8 +315,7 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
             <Link
               href="/contact"
               className="rounded-full px-8 py-4 text-sm font-semibold transition-opacity hover:opacity-80"
-              style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}
-             target="_blank" rel="noopener noreferrer">
+              style={{ color: "rgba(255,255,255,0.7)", border: "1px solid rgba(255,255,255,0.2)" }}>
               Talk to Us
             </Link>
           </div>
@@ -331,11 +329,11 @@ export default function LocationPageTemplate({ data }: { data: LocationData }) {
       >
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
             Privacy Policy
           </a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
             Back to Gildre.com
           </a>
         </p>

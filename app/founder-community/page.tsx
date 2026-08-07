@@ -184,8 +184,7 @@ export default function FounderCommunityPage() {
             <Link
               href="/membership"
               className="text-sm underline underline-offset-4 transition-opacity hover:opacity-80"
-              style={{ color: "rgba(255,255,255,0.6)" }}
-             target="_blank" rel="noopener noreferrer">
+              style={{ color: "rgba(255,255,255,0.6)" }}>
               See membership plans →
             </Link>
           </div>
@@ -401,8 +400,7 @@ export default function FounderCommunityPage() {
               <Link
                 href="/membership"
                 className="rounded-full px-8 py-3.5 text-sm font-semibold text-center transition-opacity hover:opacity-80"
-                style={{ backgroundColor: "rgba(255,255,255,0.06)", color: "rgba(255,255,255,0.8)", border: "1px solid rgba(255,255,255,0.1)" }}
-               target="_blank" rel="noopener noreferrer">
+                style={{ backgroundColor: "rgba(255,255,255,0.06)", color: "rgba(255,255,255,0.8)", border: "1px solid rgba(255,255,255,0.1)" }}>
                 View membership plans
               </Link>
             </div>

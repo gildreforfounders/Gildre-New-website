@@ -280,7 +280,7 @@ export default function LaPage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Elise founded Cerené, a wellness and beauty brand built on the conviction that luxury shouldn&rsquo;t mean complicated. She has navigated the challenge every consumer founder knows: building a brand with genuine depth in a market full of noise and short attention spans. One of the most thoughtful operators in the Gildre community, she&rsquo;s a consistent contributor to the conversations that actually matter — the ones about what works and what doesn&rsquo;t.
                 </p>
-                <Link href="/blog/elise-madrick-cerene-executive-transformation" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }} target="_blank" rel="noopener noreferrer">
+                <Link href="/blog/elise-madrick-cerene-executive-transformation" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read her story →
                 </Link>
               </div>
@@ -474,9 +474,9 @@ export default function LaPage() {
       <div className="px-6 py-8 text-center text-[0.7rem] text-zinc-600" style={{ backgroundColor: "#080e1a", borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Privacy Policy</a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Back to Gildre.com</a>
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Back to Gildre.com</a>
         </p>
       </div>
     </div>

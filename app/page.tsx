@@ -386,8 +386,7 @@ export default function Home() {
           <a
             href="/founder-community"
             className="underline underline-offset-4 transition-colors hover:opacity-80"
-            style={{ color: "#C9A96E" }}
-           target="_blank" rel="noopener noreferrer">
+            style={{ color: "#C9A96E" }}>
             Read the complete guide to founder communities →
           </a>
         </p>

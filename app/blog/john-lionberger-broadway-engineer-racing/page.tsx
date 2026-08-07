@@ -392,15 +392,13 @@ export default function JohnLionbergerBlog() {
               <a
                 href="/membership"
                 className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}
-               target="_blank" rel="noopener noreferrer">
+                style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
                 Apply to Gildre →
               </a>
               <a
                 href="/content"
                 className="rounded-full px-8 py-3.5 text-sm font-semibold transition-opacity hover:opacity-80"
-                style={{ color: "rgba(255,255,255,0.6)", border: "1px solid rgba(255,255,255,0.15)" }}
-               target="_blank" rel="noopener noreferrer">
+                style={{ color: "rgba(255,255,255,0.6)", border: "1px solid rgba(255,255,255,0.15)" }}>
                 More Founder Stories
               </a>
             </div>
@@ -415,11 +413,11 @@ export default function JohnLionbergerBlog() {
         >
           <p>
             &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-            <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
+            <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
               Privacy Policy
             </a>
             {" · "}
-            <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">
+            <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">
               Back to Gildre.com
             </a>
           </p>

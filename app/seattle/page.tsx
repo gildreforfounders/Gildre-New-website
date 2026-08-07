@@ -280,7 +280,7 @@ export default function SeattlePage() {
                 <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
                   Alex co-founded Divvy, the spend management and business credit platform acquired by Bill.com in a deal valued at approximately $2.5 billion. He brings a rare combination of founder grit, product depth, and hard-won exit experience that most communities talk about in the abstract. In Gildre Seattle, that knowledge is accessible to you directly — in the same room, at the same table.
                 </p>
-                <Link href="/blog/alex-bean-divvy-billcom-acquisition" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }} target="_blank" rel="noopener noreferrer">
+                <Link href="/blog/alex-bean-divvy-billcom-acquisition" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70" style={{ color: "#C9A96E" }}>
                   Read his story →
                 </Link>
               </div>
@@ -474,9 +474,9 @@ export default function SeattlePage() {
       <div className="px-6 py-8 text-center text-[0.7rem] text-zinc-600" style={{ backgroundColor: "#080e1a", borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <p>
           &copy; {new Date().getFullYear()} Gildre, LLC. All rights reserved.{" "}
-          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="/privacy" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Privacy Policy</a>
           {" · "}
-          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors" target="_blank" rel="noopener noreferrer">Back to Gildre.com</a>
+          <a href="/" className="underline underline-offset-2 hover:text-zinc-400 transition-colors">Back to Gildre.com</a>
         </p>
       </div>
     </div>

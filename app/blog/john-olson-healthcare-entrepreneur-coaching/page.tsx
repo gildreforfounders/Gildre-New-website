@@ -576,8 +576,7 @@ export default function JohnOlsonBlog() {
                 padding: "0.65rem 1.75rem",
                 borderRadius: "8px",
                 textDecoration: "none",
-              }}
-             target="_blank" rel="noopener noreferrer">
+              }}>
               Join Gildre
             </a>
           </div>
