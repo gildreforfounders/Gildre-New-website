@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "From Networking Theater to Product-Market Fit: What Founder Communities Actually Do",
+    category: "Growth",
+    readTime: "9 min read",
+    excerpt:
+      "Founder communities help you find product-market fit only when they match you by stage and problem — not by headcount. Here's what separates communities that compress your PMF timeline from ones that just fill your calendar.",
+    href: "/blog/founder-community-product-market-fit",
+  },
+  {
     title: "Dr. Michael Filosi: From Two Dental Chairs to Adelaide's Biggest Practice and a Private Equity Exit",
     category: "Operations",
     readTime: "16 min read",
