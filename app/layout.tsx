@@ -23,6 +23,13 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Gildre — The Home for Founders Who Execute",
   description: "Get direct access to members, founders, and the insights you need to build with certainty.",
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+    ],
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
   robots: {
     index: true,
     follow: true,
