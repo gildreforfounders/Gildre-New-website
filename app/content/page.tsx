@@ -67,6 +67,14 @@ const featured = [
     href: "/blog/founder-proximity-bias-test-market-fit",
   },
   {
+    title: "Why $59 Beats Gatekeeping: The Real Math Behind Accessible Founder Communities",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Premium founder communities charge $7,000 to $8,000 a year and require $500K ARR just to get in. Here is why that model fails the founders who need it most, why frugality is a feature of high-caliber early-stage founders, and what radical accessibility actually produces in outcomes and retention.",
+    href: "/blog/why-59-dollars-beats-gatekeeping-accessible-founder-community",
+  },
+  {
     title: "Zero Churn, 25% Growth, and the Compounding Bets That Got Us There",
     category: "Growth",
     readTime: "12 min read",
