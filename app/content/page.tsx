@@ -67,6 +67,30 @@ const featured = [
     href: "/blog/founder-proximity-bias-test-market-fit",
   },
   {
+    title: "From Supported to Understood: Why Founder Isolation Doesn't Go Away With Encouragement",
+    category: "Mindset",
+    readTime: "10 min read",
+    excerpt:
+      "Emotional support and operating expertise solve different problems. A spouse, a friend, or a broad peer network can tell you they believe in you. None of them can tell you what a fair valuation looks like at your stage. Here is why founder isolation persists even when you have people in your corner.",
+    href: "/blog/founder-isolation-support-vs-understanding-peer-mentorship",
+  },
+  {
+    title: "Why Founder Isolation Happens in the First Two Years (And Why It's Structural, Not Personal)",
+    category: "Mindset",
+    readTime: "10 min read",
+    excerpt:
+      "Starting a company strips away the peer relationships, feedback loops, and comparison points most professionals rely on without noticing. Ordinary early mistakes land as unprecedented personal failures because there is no reference group to tell you they are normal. Here is the mechanism, and what actually fixes it.",
+    href: "/blog/why-founder-isolation-happens-first-two-years",
+  },
+  {
+    title: "Solo SaaS Founder Facing a Pivot: Who to Talk To Before You Decide",
+    category: "Product",
+    readTime: "10 min read",
+    excerpt:
+      "A pivot is the highest-stakes call a solo founder makes alone. Customers tell you what they want. Investors tell you what they need. Peers who have been through it tell you what is actually true. Here is who to talk to, and what a useful pivot conversation actually looks like.",
+    href: "/blog/solo-saas-founder-pivot-decision-who-to-talk-to",
+  },
+  {
     title: "Equity-Free Founder Networks: How Gildre Structures Mentor Access Without Taking a Stake",
     category: "Fundraising",
     readTime: "9 min read",
