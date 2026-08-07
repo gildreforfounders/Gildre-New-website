@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const avatars = [
-  "/reviews/caitlin-van-berkel.webp",
+  "/mentors/brittany-canty.png",
   "/reviews/iliana-alvarado.webp",
   "/reviews/christof-mannfeld.webp",
   "/reviews/dan-hernandez.jpg",
-  "/reviews/carol-palombini.webp",
+  "/reviews/kim-richards.jpg",
 ];
 
 export default function HeroSection() {
