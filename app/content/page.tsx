@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Accelerator or Peer Community: The Real Difference Founders Miss",
+    category: "Growth",
+    readTime: "8 min read",
+    excerpt:
+      "Accelerators take equity and end. Peer communities charge monthly and continue. Here is what each model actually optimizes for, and which one helps more depending on where your company is right now.",
+    href: "/blog/accelerator-vs-peer-community-founder-difference",
+  },
+  {
     title: "From Isolation to Peer Support: Why Founder Loneliness Is a Predictable Stage, Not a Personal Failing",
     category: "Mindset",
     readTime: "8 min read",
