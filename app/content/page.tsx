@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "From Generic Advice to Stage-Matched Guidance: Where Pre-Revenue Founders Actually Belong",
+    category: "Growth",
+    readTime: "8 min read",
+    excerpt:
+      "Startup content skews late-stage. Pre-revenue founders get the least stage-specific input at the moment they need it most. Here is how to filter for peers at your exact stage and what makes one relevant answer worth more than ten generic ones.",
+    href: "/blog/pre-revenue-founder-stage-matched-peer-community",
+  },
+  {
     title: "From Keynote Slides to Cap Tables: Finding Advisors Who Have Actually Exited",
     category: "Growth",
     readTime: "9 min read",
