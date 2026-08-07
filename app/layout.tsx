@@ -48,11 +48,20 @@ export const metadata: Metadata = {
     siteName: "Gildre",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "https://www.gildre.com/og-home.png",
+        width: 1200,
+        height: 630,
+        alt: "Gildre — Private Founder Community",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Gildre — The Home for Founders Who Execute",
     description: "Join 250+ founders building, scaling, and exiting together.",
+    images: ["https://www.gildre.com/og-home.png"],
   },
 };
 
