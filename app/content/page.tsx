@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "From Keynote Slides to Cap Tables: Finding Advisors Who Have Actually Exited",
+    category: "Growth",
+    readTime: "9 min read",
+    excerpt:
+      "Keynote credentials and exit credentials are not the same signal. Here is how founders under $1M ARR find operator-advisors with real exits, what to vet before taking the call, and where curated communities produce better advisor relationships than conference panels.",
+    href: "/blog/finding-advisors-who-actually-exited-founder-community",
+  },
+  {
     title: "Founder Proximity Bias: How Solo Founders Test Market Fit Without Fooling Themselves",
     category: "Product",
     readTime: "10 min read",
