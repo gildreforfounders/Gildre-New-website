@@ -67,6 +67,14 @@ const featured = [
     href: "/blog/founder-proximity-bias-test-market-fit",
   },
   {
+    title: "Zero Churn, 25% Growth, and the Compounding Bets That Got Us There",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Gildre hit 25% membership growth and zero churn across 250 members in July 2026 after three years of building. It was not one big move. It was four smaller bets finally compounding at the same time. Here is what happened, the decision that changed everything, and what founders get wrong after their first real spike.",
+    href: "/blog/gildre-july-2026-25-percent-growth-zero-churn-product-market-fit",
+  },
+  {
     title: "From Zero to $500K: Why Generic Startup Advice Fails the Founders Who Need It Most",
     category: "Growth",
     readTime: "10 min read",
