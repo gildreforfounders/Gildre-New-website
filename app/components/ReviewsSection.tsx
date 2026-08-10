@@ -46,7 +46,7 @@ const testimonials = [
   },
   {
     company: "AGI Beacon",
-    headline: "Found her startup community from day one",
+    headline: "Instrumental founder/startup community from day one",
     quote: "Gildre was instrumental when I was first starting my company and needed to meet other business owners who understood the same challenges.",
     highlight: "Gildre was instrumental when I was first starting my company",
     name: "Connor Fitzgerald",
