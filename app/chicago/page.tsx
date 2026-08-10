@@ -190,7 +190,7 @@ const faqItems = [
 ];
 
 const peers = [
-  { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Jumpstart Capital", photo: "/mentors/jason-jacobsohn.jpg", initials: "JJ", color: "#3B6CC9" },
+  { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Propellant Ventures", photo: "/mentors/jason-jacobsohn.jpg", initials: "JJ", color: "#3B6CC9" },
   { name: "Brittany Canty", title: "Founder", company: "Inciteful App", photo: "/mentors/brittany-canty.png", initials: "BC", color: "#C97B3B" },
   { name: "Ivan Rahman", title: "CEO & Founder", company: "Avistar.ai", photo: "/mentors/ivan-rahman.png", initials: "IR", color: "#3BC97B" },
   { name: "Lauren Basler", title: "Founder", company: "Conscious Ascent", photo: "/mentors/lauren-basler.jpeg", initials: "LB", color: "#7B3BC9" },
@@ -241,7 +241,7 @@ export default function ChicagoPage() {
             className="mt-4 text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            <span style={{ color: "#C9A96E" }}>Chicago</span> builds companies the hard way. Gildre is where those builders find each other.
+            Chicago builds companies on grit and execution. Gildre is where those builders find each other.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
             Gildre is a private founder membership for Chicago&rsquo;s active builders. Monthly dinners. Weekly introductions made by hand. A room with standards.
@@ -311,10 +311,10 @@ export default function ChicagoPage() {
             className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            Most founder communities give you more noise.<br />Gildre gives you fewer, better conversations.
+            Most founder communities give you more noise.<br />Gildre gives you meaningful, curated conversations.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            The dinner is the visible part. What actually changes is who calls you on a Tuesday when something goes sideways.
+            The dinner is the visible part. What actually changes is who you call on a Tuesday when something goes sideways.
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -471,7 +471,7 @@ export default function ChicagoPage() {
                 More than dinners. A full calendar built around founders.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Chicago events run the full range — from intimate curated dinners to tech-powered Match House networking, escape rooms, co-hosted startup events, BBQs, and investor office hours. Every format is designed for one thing: getting the right people in the right room.
+                Gildre Chicago events run the full range — from intimate curated dinners to escape rooms, co-hosted startup events, and seasonal BBQs. Every format is designed for one thing: getting the right people in the right room.
               </p>
 
               <ul className="mt-7 flex flex-col gap-5">
@@ -479,10 +479,6 @@ export default function ChicagoPage() {
                   {
                     title: "Founder Dinners",
                     detail: "Seated. Small. Every attendee selected. Twelve founders around a good table — no panels, no pitching. The conversations here don't happen anywhere else in Chicago because the room was built for them.",
-                  },
-                  {
-                    title: "Match House Networking Events",
-                    detail: "Gildre's signature format uses technology to match you with the right people before you walk in — and sends automated follow-ups after so connections don't die in someone's pocket. You leave with threads already started.",
                   },
                   {
                     title: "Team Building Experiences",
@@ -495,10 +491,6 @@ export default function ChicagoPage() {
                   {
                     title: "BBQs & Social Gatherings",
                     detail: "Some of the best founder relationships start over good food. Gildre hosts seasonal social events where the agenda is just being around the right people.",
-                  },
-                  {
-                    title: "Investor Office Hours",
-                    detail: "Direct sessions with active Chicago-area investors. No pitch decks required. These are conversations, not auditions — designed to build real relationships before you ever need to fundraise.",
                   },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">

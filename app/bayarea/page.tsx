@@ -315,16 +315,14 @@ export default function BayAreaPage() {
                 More than dinners. A full calendar built around founders.
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
-                Gildre Bay Area events run the full range — from intimate curated dinners to tech-powered Match House networking, escape rooms, co-hosted startup events, BBQs, and investor office hours. Every format is designed for one thing: getting the right people in the right room.
+                Gildre Bay Area events run the full range — from intimate curated dinners to escape rooms, co-hosted startup events, and seasonal BBQs. Every format is designed for one thing: getting the right people in the right room.
               </p>
               <ul className="mt-7 flex flex-col gap-5">
                 {[
                   { title: "Founder Dinners", detail: "Seated. Small. Every attendee selected. Twelve founders around a good table — no panels, no pitching. The conversations here don't happen at the average Bay Area event because this room was deliberately built for them." },
-                  { title: "Match House Networking Events", detail: "Gildre's signature format uses technology to match you with the right people before you walk in — and sends automated follow-ups after so connections don't die in someone's pocket. You leave with threads already started." },
                   { title: "Team Building Experiences", detail: "Escape rooms, off-sites, and challenges designed to build trust faster than a conference ever could. The best peer relationships start when you're solving something together." },
                   { title: "Co-Hosted Events with Other Startups", detail: "Gildre partners with top startups and ecosystem organizations across the Bay Area to co-host events. Curated cross-pollination — access to complementary communities, not just ours." },
                   { title: "BBQs & Social Gatherings", detail: "Some of the best founder relationships start over good food. Gildre hosts seasonal social events where the agenda is just being around the right people." },
-                  { title: "Investor Office Hours", detail: "Direct sessions with active Bay Area investors. No pitch decks required. These are conversations, not auditions — designed to build real relationships before you ever need to fundraise." },
                 ].map((ev) => (
                   <li key={ev.title} className="flex items-start gap-4">
                     <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold" style={{ backgroundColor: "rgba(201,169,110,0.12)", color: "#C9A96E" }}>✓</span>
