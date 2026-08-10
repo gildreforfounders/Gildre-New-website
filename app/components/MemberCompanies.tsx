@@ -10,7 +10,7 @@ const members = [
   { company: "Clausey",       role: "Founder & CEO",      serif: false, italic: false, href: "https://clausey.ai/" },
   { company: "Opulentia",     role: "Founder",            serif: false, italic: false, href: "https://www.opulentia.net/" },
   { company: "ReWorked",      role: "Co-Founder",         serif: false, italic: false, href: "https://www.reworked.ai/" },
-  { company: "Celeria",       role: "Founder & CEO",      serif: true,  italic: false, href: "https://celeria.ai/" },
+  { company: "BuildHop",      role: "Founder & CEO",      serif: true,  italic: false, href: "https://buildhop.io/" },
   { company: "Forum Media",   role: "Co-Founder & CEO",   serif: false, italic: false, href: "https://theforum.beehiiv.com/" },
   { company: "Featurely",     role: "Founder & CEO",      serif: false, italic: false, href: "https://featurely.ai/" },
   { company: "PromptHalo",    role: "Founder",            serif: true,  italic: false, href: "https://prompthalo.ai/" },
