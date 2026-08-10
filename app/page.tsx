@@ -90,11 +90,11 @@ const mentors: Mentor[] = [
     photo: "/mentors/david-adeleke.png",
   },
   {
-    name: "Chase Brignac",
-    title: "CEO & Co-Founder",
-    company: "ChatOpenSource",
-    bio: "Chase is the Technical CEO and Founder at ChatOpenSource which is an On-Premise and Auditable ChatGPT platform. He graduated YCombinator's 22' Batch driving Generative AI.",
-    photo: "/mentors/chase-brignac.jpg",
+    name: "Hari Jayakumar",
+    title: "Co-Founder & Founder",
+    company: "Silo Markets / Logically Answered",
+    bio: "Hari is Co-Founder at Silo Markets, a platform modernizing fixed income trading, and founder of Logically Answered. He brings deep experience in fintech, product, and building from zero to one.",
+    photo: "/mentors/hari-jayakumar.jpg",
   },
   {
     name: "Sam Bradley",
