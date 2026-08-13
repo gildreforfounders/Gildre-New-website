@@ -51,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/john-olson-healthcare-entrepreneur-coaching`,      lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/elise-madrick-cerene-executive-transformation`,   lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     { url: `${BASE_URL}/blog/chris-riklin-topline-professional-marketplace`,  lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
+    { url: `${BASE_URL}/blog/nelson-brooks-cabana-boys-shark-tank-founder`,   lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
     // Blog — SEO articles
     { url: `${BASE_URL}/blog/accelerator-vs-peer-community-founder-difference`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     { url: `${BASE_URL}/blog/equity-free-founder-networks-gildre-mentor-access`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },

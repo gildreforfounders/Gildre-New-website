@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Nelson Brooks of Cabana Boys: From COVID Layoff to Shark Tank, Building Charisma Into a Business Model",
+    category: "Leadership",
+    readTime: "14 min read",
+    excerpt:
+      "Nelson Brooks was unemployed during COVID when he spotted an untapped idea at a bachelorette party. He built Cabana Boys Events into a 10-market hospitality company, appeared on Shark Tank, and secured a deal with Kendra Scott. Here is the full story of how he did it and what other founders can learn from it.",
+    href: "/blog/nelson-brooks-cabana-boys-shark-tank-founder",
+  },
+  {
     title: "From Generic Advice to Stage-Matched Guidance: Where Pre-Revenue Founders Actually Belong",
     category: "Growth",
     readTime: "8 min read",
