@@ -34,10 +34,10 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+        url: "https://www.gildre.com/images/nelson-brooks-cabana-boys-shark-tank-banner.png",
         width: 1200,
         height: 630,
-        alt: "Cabana Boys Events, party hosting and bartending company founded by Nelson Brooks",
+        alt: "Cabana Boys Events as seen on Shark Tank, founded by Nelson Brooks",
       },
     ],
   },
@@ -56,7 +56,7 @@ const articleSchema = {
     "Nelson Brooks of Cabana Boys: From COVID Layoff to Shark Tank, Building Charisma Into a Business Model",
   description:
     "Nelson Brooks, founder and CEO of Cabana Boys Events, on launching a party hosting and bartending company during COVID, securing a Shark Tank deal with investor Kendra Scott, scaling to 10 US markets under 6 brands, and why charisma, not looks, is the real product. He joined the Start to Scale Podcast hosted by Taiga Gamell of Gildre.",
-  image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+  image: "https://www.gildre.com/images/nelson-brooks-cabana-boys-shark-tank-banner.png",
   datePublished: "2026-08-13",
   author: {
     "@type": "Organization",
@@ -293,23 +293,41 @@ export default function NelsonBrooksBlog() {
         {/* Hero image */}
         <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
-            src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80"
-            alt="Bartender crafting cocktails at a private event, representing Cabana Boys Events"
-            width={1200}
+            src="/images/nelson-brooks-cabana-boys-shark-tank-banner.png"
+            alt="Cabana Boys Events as seen on Shark Tank"
+            width={1400}
             height={700}
             quality={90}
             sizes="(max-width: 768px) 100vw, 720px"
             className="w-full object-cover"
-            style={{ maxHeight: "480px", objectFit: "cover" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Cabana Boys Events brings professional, charismatic party hosting and bartending to private events across 10 US markets
+              Cabana Boys Events, as seen on Shark Tank. Nelson Brooks brought his full team to pitch the panel in Los Angeles.
             </p>
           </div>
         </div>
 
         <BioCallout />
+
+        {/* Headshot */}
+        <div className="my-12 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "480px", border: "1px solid rgba(201,169,110,0.15)" }}>
+          <Image
+            src="/images/nelson-brooks-headshot.webp"
+            alt="Nelson Brooks, founder and CEO of Cabana Boys Events"
+            width={480}
+            height={640}
+            quality={90}
+            sizes="(max-width: 520px) 100vw, 480px"
+            className="w-full object-cover"
+            style={{ maxHeight: "560px", objectFit: "cover", objectPosition: "center top" }}
+          />
+          <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
+            <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
+              Nelson Brooks, founder and CEO of Cabana Boys Events, and Gildre member
+            </p>
+          </div>
+        </div>
 
         <Section title="An Idea Spotted at Someone Else's Party" />
         <Body>
@@ -407,21 +425,20 @@ export default function NelsonBrooksBlog() {
           As for fundraising: not right now. The focus is on building the existing business into something stronger before layering in outside capital. But Nelson is realistic that reaching the BHAG will likely require it at some point.
         </Body>
 
-        {/* Secondary image */}
-        <div className="my-14 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+        {/* Shark Tank celebration */}
+        <div className="my-14 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "560px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
-            src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80"
-            alt="Bachelorette party celebration, the primary market for Cabana Boys Events"
-            width={1200}
-            height={700}
+            src="/images/nelson-brooks-shark-tank-confetti.webp"
+            alt="Nelson Brooks and the Cabana Boys team celebrating their Shark Tank deal with confetti"
+            width={560}
+            height={800}
             quality={90}
-            sizes="(max-width: 768px) 100vw, 720px"
+            sizes="(max-width: 600px) 100vw, 560px"
             className="w-full object-cover"
-            style={{ maxHeight: "440px", objectFit: "cover" }}
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Bachelorette parties and private celebrations are the core market for Cabana Boys Events, which operates across cities including Scottsdale, Nashville, Miami, and Las Vegas
+              Nelson Brooks and the Cabana Boys team celebrate closing their Shark Tank deal with investor Kendra Scott
             </p>
           </div>
         </div>
