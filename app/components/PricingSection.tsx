@@ -72,7 +72,7 @@ const plans = [
 ];
 
 export default function PricingSection() {
-  const [yearly, setYearly] = useState(false);
+  const [yearly, setYearly] = useState(true);
 
   return (
     <section id="pricing" className="relative px-6 pt-16 pb-10 sm:pt-20 sm:pb-14 overflow-hidden" style={{ backgroundColor: "#080e1a" }}>

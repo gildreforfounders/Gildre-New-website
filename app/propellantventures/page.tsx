@@ -90,7 +90,7 @@ const benefits = [
 ];
 
 export default function PropellantVenturesPage() {
-  const [yearly, setYearly] = useState(false);
+  const [yearly, setYearly] = useState(true);
 
   return (
     <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>

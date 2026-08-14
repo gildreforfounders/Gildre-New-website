@@ -142,7 +142,7 @@ const plans = [
 // ─── Page ────────────────────────────────────────────────────────────────────
 
 export default function MembershipPage() {
-  const [yearly, setYearly] = useState(false);
+  const [yearly, setYearly] = useState(true);
 
   return (
     <div className="flex flex-col" style={{ fontFamily: "var(--font-geist-sans)" }}>
