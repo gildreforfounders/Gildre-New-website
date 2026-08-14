@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/ryan-hughes-google-snapchat-fan-pier-labs" },
-  title: "Ryan Hughes: Why a Google and Snapchat Engineer Left Big Tech to Build Fan Pier Labs — An AI Consulting Startup | Gildre",
+  title: "Ryan Hughes: Google Alum Building Fan Pier Labs | Gildre",
   description:
-    "Ryan Hughes spent years inside Google and Snapchat before leaving to found Fan Pier Labs, an AI-driven software consulting firm for startups. In this episode of the Gildre Start to Scale Podcast, he unpacks what big tech gets right, what it gets wrong, and what the leap to entrepreneurship actually feels like.",
+    "Ryan Hughes left Google and Snapchat to found Fan Pier Labs and shares what big tech gets right, what it misses, and what the leap to founding actually costs.",
   keywords: [
     "Ryan Hughes",
     "Fan Pier Labs",

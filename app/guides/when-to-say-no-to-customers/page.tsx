@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/when-to-say-no-to-customers" },
-  title: "When to Say No to Customers: How Founders Protect Their Vision, Avoid Burnout, and Build Better Products | Gildre",
+  title: "When to Say No to Customers: Founder Playbook | Gildre",
   description:
-    "Saying yes to every customer feels safe early on. It isn't. This guide covers the four signals that a customer isn't right for you, how to build a screening process, and how to decline without burning the relationship.",
+    "Four signals a customer isn't right, how to build a screening process, and how to say no without burning the relationship. A playbook for founders.",
   keywords: [
     "when to say no to customers",
     "saying no to customers startup",

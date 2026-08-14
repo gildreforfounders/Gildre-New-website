@@ -18,7 +18,7 @@ const team: TeamMember[] = [
     bio: "Brian is a 2X exited entrepreneur who has spent the past decade working with bootstrapped and venture-backed companies. He launched his first company in 2015 and has since co-founded multiple 7-figure ARR startups. His most recent role was Head of Product at a global accelerator working with hundreds of Series A-Pre Seed founders across high-growth industries. He currently sits on two advisory boards and mentors for organizations like Founders Institute, Techstars and Watson Institute where he serves as their Entrepreneur-in-Residence.",
     linkedin: "https://www.linkedin.com/in/brianconnorlee-gildre/",
     color: "#3B6CC9",
-    photo: "/team/brian-lee.png",
+    photo: "/team/brian-lee.jpg",
   },
   {
     name: "Michael J. Frank",
@@ -27,7 +27,7 @@ const team: TeamMember[] = [
     bio: "Michael is a founder and operator with deep experience building, scaling, and exiting companies in regulated markets. Prior to Gildre he founded Gateway Partners, a market-making and specialist trading firm he led through significant technology and risk transformation before selling to a NASDAQ-listed company. He currently serves as an Advisory Board Member and Independent Director, advising Desync.ai, Silo Markets, and Visionary Philanthropy Group, and mentors MBA students at Baruch College and Columbia Business School.",
     linkedin: "https://www.linkedin.com/in/mikejfrank/",
     color: "#C97B3B",
-    photo: "/team/michael-frank.png",
+    photo: "/team/michael-frank.jpg",
   },
   {
     name: "Taiga Gamell",
@@ -45,7 +45,7 @@ const team: TeamMember[] = [
     bio: "Eliana is the Community Manager at Gildre and was born and raised in Bogota, Colombia. She has spent the majority of her career in digital and content marketing, developing high-impact resources for founders and entrepreneurs across the globe. She supports the community's key events by coordinating and curating world-class speakers along with developing programming throughout the year.",
     linkedin: "https://www.linkedin.com/in/eliana-acosta-ni%C3%B1o-gildre-communitymanager/",
     color: "#C93B8E",
-    photo: "/team/eliana-acosta.png",
+    photo: "/team/eliana-acosta.jpg",
   },
 ];
 

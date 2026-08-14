@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/fritz-lanman-classpass-microsoft-unicorn" },
-  title: "Fritz Lanman: How a Microsoft Exec Took ClassPass to $285M Unicorn Status | Gildre",
+  title: "Fritz Lanman: From Microsoft to ClassPass Unicorn | Gildre",
   description:
     "ClassPass CEO Fritz Lanman on leading Microsoft's $240M Facebook bet, losing 70 lbs on his own product, and scaling ClassPass to $285M unicorn status.",
   keywords: ["Fritz Lanman", "ClassPass", "startup CEO", "unicorn startup", "Microsoft", "Start to Scale Podcast"],

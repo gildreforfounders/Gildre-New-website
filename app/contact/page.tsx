@@ -13,7 +13,7 @@ const contacts = [
   {
     label: "Brian Lee",
     email: "brian@gildre.com",
-    photo: "/team/brian-lee.png",
+    photo: "/team/brian-lee.jpg",
     name: "Brian Lee",
   },
   {
@@ -25,7 +25,7 @@ const contacts = [
   {
     label: "Michael J. Frank",
     email: "michael@gildre.com",
-    photo: "/team/michael-frank.png",
+    photo: "/team/michael-frank.jpg",
     name: "Michael J. Frank",
   },
 ];

@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/nelson-brooks-cabana-boys-shark-tank-founder" },
-  title: "Nelson Brooks of Cabana Boys: From COVID Layoff to Shark Tank, Building Charisma Into a Business Model | Gildre",
+  title: "Nelson Brooks: Cabana Boys Founder on Shark Tank | Gildre",
   description:
-    "Nelson Brooks, founder and CEO of Cabana Boys Events, on launching a party hosting company during COVID, landing a Shark Tank deal with Kendra Scott, scaling to 10 markets, and why personality is the real product.",
+    "Nelson Brooks on launching Cabana Boys during COVID, landing a Shark Tank deal with Kendra Scott, scaling to 10 markets, and why personality is the product.",
   keywords: [
     "Nelson Brooks",
     "Cabana Boys",
@@ -34,7 +34,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/images/nelson-brooks-cabana-boys-shark-tank-banner.png",
+        url: "https://www.gildre.com/images/nelson-brooks-cabana-boys-shark-tank-banner.jpg",
         width: 1200,
         height: 630,
         alt: "Cabana Boys Events as seen on Shark Tank, founded by Nelson Brooks",
@@ -56,7 +56,7 @@ const articleSchema = {
     "Nelson Brooks of Cabana Boys: From COVID Layoff to Shark Tank, Building Charisma Into a Business Model",
   description:
     "Nelson Brooks, founder and CEO of Cabana Boys Events, on launching a party hosting and bartending company during COVID, securing a Shark Tank deal with investor Kendra Scott, scaling to 10 US markets under 6 brands, and why charisma, not looks, is the real product. He joined the Start to Scale Podcast hosted by Taiga Gamell of Gildre.",
-  image: "https://www.gildre.com/images/nelson-brooks-cabana-boys-shark-tank-banner.png",
+  image: "https://www.gildre.com/images/nelson-brooks-cabana-boys-shark-tank-banner.jpg",
   datePublished: "2026-08-13",
   author: {
     "@type": "Organization",
@@ -293,7 +293,7 @@ export default function NelsonBrooksBlog() {
         {/* Hero image */}
         <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
-            src="/images/nelson-brooks-cabana-boys-shark-tank-banner.png"
+            src="/images/nelson-brooks-cabana-boys-shark-tank-banner.jpg"
             alt="Cabana Boys Events as seen on Shark Tank"
             width={1400}
             height={700}

@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/nasa-engineer-y-combinator-chatopensource" },
-  title: "From NASA Engineer to Y Combinator Founder: Building an Open-Source AI Company After Working on Mars Rovers | Gildre",
+  title: "NASA Engineer to YC: Building Open-Source AI | Gildre",
   description:
-    "From Louisiana's Cancer Alley to NASA's Mars rovers to Y Combinator: the founder of ChatOpenSource on physics, AI, and building startups from problems you've actually lived.",
+    "From Cancer Alley to NASA's Mars rovers to Y Combinator: ChatOpenSource founder on physics, AI, and why the best startups solve problems you've actually lived.",
   keywords: ["NASA founder", "ChatOpenSource", "Y Combinator", "open source AI", "Mars rover engineer", "Start to Scale Podcast"],
   openGraph: {
     url: "https://www.gildre.com/blog/nasa-engineer-y-combinator-chatopensource",

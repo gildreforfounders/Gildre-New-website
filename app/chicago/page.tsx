@@ -5,7 +5,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/chicago" },
   title: "Founder Community Chicago | Gildre",
   description:
-    "Gildre connects Chicago's top founders with active 1:1 matchmaking, expert operator mentorship, and private monthly dinners in West Loop and Fulton Market. Built for fintech, enterprise SaaS, logistics, and deep-tech builders.",
+    "Gildre connects Chicago founders through 1:1 matchmaking, operator mentorship, and private dinners in West Loop. Built for fintech, SaaS, and deep-tech.",
   keywords: [
     "Chicago founder community",
     "Chicago startup network",
@@ -191,8 +191,8 @@ const faqItems = [
 
 const peers = [
   { name: "Jason Jacobsohn", title: "Founder & Connector", company: "Propellant Ventures", photo: "/mentors/jason-jacobsohn.jpg", initials: "JJ", color: "#3B6CC9" },
-  { name: "Brittany Canty", title: "Founder", company: "Inciteful App", photo: "/mentors/brittany-canty.png", initials: "BC", color: "#C97B3B" },
-  { name: "Ivan Rahman", title: "CEO & Founder", company: "Avistar.ai", photo: "/mentors/ivan-rahman.png", initials: "IR", color: "#3BC97B" },
+  { name: "Brittany Canty", title: "Founder", company: "Inciteful App", photo: "/mentors/brittany-canty.webp", initials: "BC", color: "#C97B3B" },
+  { name: "Ivan Rahman", title: "CEO & Founder", company: "Avistar.ai", photo: "/mentors/ivan-rahman.webp", initials: "IR", color: "#3BC97B" },
   { name: "Lauren Basler", title: "Founder", company: "Conscious Ascent", photo: "/mentors/lauren-basler.jpeg", initials: "LB", color: "#7B3BC9" },
 ];
 
@@ -202,7 +202,7 @@ const chapterLeads = [
     role: "Co-Founder & Managing Partner, Gildre",
     bio: "Brian is a 2X exited entrepreneur who has spent the past decade working with bootstrapped and venture-backed companies. He launched his first company in 2015 and has since co-founded multiple 7-figure ARR startups. His most recent role was Head of Product at a global accelerator working with hundreds of Series A-Pre Seed founders across high-growth industries. He currently sits on two advisory boards and mentors for organizations like Founders Institute, Techstars and Watson Institute where he serves as their Entrepreneur-in-Residence.",
     linkedin: "https://www.linkedin.com/in/brianconnorlee-gildre/",
-    photo: "/team/brian-lee.png",
+    photo: "/team/brian-lee.jpg",
     color: "#3B6CC9",
   },
   {

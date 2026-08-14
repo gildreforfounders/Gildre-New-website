@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/equity-dilution-explained" },
-  title: "Equity Dilution Explained: How Much to Give Away at Each Funding Round, With Real Numbers and Benchmarks | Gildre",
+  title: "Equity Dilution: How Much to Give at Each Round | Gildre",
   description:
-    "A practical guide to equity dilution for startup founders: how much equity to give away at pre-seed, seed, Series A, B, and beyondnd. Includes ownership benchmarks, a worked dilution table, the Facebook example, and strategies to minimize unnecessary dilution.",
+    "How much equity to give at pre-seed, seed, and Series A, with ownership benchmarks, a worked dilution table, the Facebook example, and strategies to protect your stake.",
   keywords: [
     "equity dilution startup",
     "how much equity to give investors",

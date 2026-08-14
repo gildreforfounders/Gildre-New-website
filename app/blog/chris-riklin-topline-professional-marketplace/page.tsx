@@ -3,10 +3,9 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/chris-riklin-topline-professional-marketplace" },
-  title:
-    "Chris Riklin: How a Decade in Political Tech Led Him to Co-Found Topline, a Meritocratic Marketplace Disrupting Professional Services",
+  title: "Chris Riklin: From Political Tech to Topline | Gildre",
   description:
-    "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline, a frictionless marketplace that lets the best professionals win on merit, not connections.",
+    "Chris Riklin spent a decade watching talent lose to bad hiring systems, then co-founded Topline: a marketplace where the best win on merit, not connections.",
   keywords: [
     "Chris Riklin",
     "Topline",

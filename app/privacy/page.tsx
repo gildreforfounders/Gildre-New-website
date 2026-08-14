@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/privacy" },
   title: "Privacy Policy | Gildre",
-  description: "Gildre, LLC Privacy Policy",
+  description: "Review Gildre's privacy policy to understand how we collect, store, and protect your personal data as a member of our founder community.",
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {

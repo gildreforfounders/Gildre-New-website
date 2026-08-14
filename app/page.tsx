@@ -87,7 +87,7 @@ const mentors: Mentor[] = [
     title: "Co-Founder and CEO",
     company: "Zeeh Africa",
     bio: "David is the Co-Founder and CEO of Zeeh Africa, a FinTech startup driving financial inclusion across Africa. He has served as a mentor and advisor for dozens of companies across the globe.",
-    photo: "/mentors/david-adeleke.png",
+    photo: "/mentors/david-adeleke.jpg",
   },
   {
     name: "Hari Jayakumar",

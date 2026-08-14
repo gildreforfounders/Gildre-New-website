@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/john-lionberger-broadway-engineer-racing" },
-  title: "John Lionberger: From Broadway Technician to Electrical Engineer to Pro Racing Driver — Building a Half-Billion-Dollar Business Along the Way | Gildre",
+  title: "John Lionberger: From Broadway to Racing Founder | Gildre",
   description:
-    "John Lionberger went from working rock concerts and Broadway shows to electrical engineering, then built a regional consulting firm from $0 to nearly $500M in revenue, all while racing competitively on weekends. Featured on the Gildre Start to Scale Podcast.",
+    "John Lionberger went from Broadway to electrical engineering, built a consulting firm from $0 to nearly $500M in revenue, and raced competitively on weekends.",
   keywords: [
     "John Lionberger",
     "theater to engineering career pivot",

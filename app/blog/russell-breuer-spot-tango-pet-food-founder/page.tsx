@@ -25,7 +25,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/images/russell-breuer-headshot.png",
+        url: "https://www.gildre.com/images/russell-breuer-headshot.webp",
         width: 800,
         height: 1000,
         alt: "Russell Breuer, Founder and CEO of Spot and Tango",
@@ -229,7 +229,7 @@ export default function RussellBreuerBlog() {
         {/* Russell headshot */}
         <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
-            src="/images/russell-breuer-headshot.png"
+            src="/images/russell-breuer-headshot.webp"
             alt="Russell Breuer, Founder and CEO of Spot and Tango"
             width={800}
             height={1000}

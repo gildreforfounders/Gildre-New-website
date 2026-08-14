@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/iliana-alvarado-ensyx-it-governance-ai-mexico" },
-  title: "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build ENSYX — IT and AI Governance for Every Company That's Becoming a Tech Company | Gildre",
+  title: "Iliana Alvarado: Mexico City Founder Building ENSYX | Gildre",
   description:
-    "Iliana Alvarado, founder of ENSYX and Gildre member based in Mexico City, on the gap between IT services and IT governance, why every company is becoming a tech company, and how a decade of odd jobs across three continents taught her to build without a plan.",
+    "Iliana Alvarado on the gap between IT services and governance, why every company is becoming a tech company, and what three continents taught her.",
   keywords: [
     "Iliana Alvarado",
     "ENSYX",

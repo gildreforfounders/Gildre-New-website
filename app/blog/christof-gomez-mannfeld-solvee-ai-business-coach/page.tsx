@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/christof-gomez-mannfeld-solvee-ai-business-coach" },
-  title: "Christof Gomez Mannfeld: The Bosch Engineer Who Got Fired and Built solvee: the AI Accelerator That Takes Founders from Idea to Exit in 43 Steps | Gildre",
+  title: "Christof Gomez: Bosch Engineer Who Built solvee | Gildre",
   description:
-    "Christof Gomez Mannfeld, founder of solvee and Gildre member, on leaving Bosch, moving his whole family back to Spain, and building an AI-powered personalized accelerator that guides founders from first idea to scale, by asking the right questions instead of giving generic answers.",
+    "Christof Gomez Mannfeld on leaving Bosch, moving his family to Spain, and building solvee, an AI accelerator that guides founders from first idea to scale.",
   keywords: [
     "Christof Gomez Mannfeld",
     "solvee AI",

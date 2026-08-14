@@ -27,25 +27,25 @@ const features = [
   {
     title: "1:1 Conversations That Happen Naturally",
     body: "In a standard video call, you can only talk to the whole group. In Gatherly, founders drift in and out of rooms the same way they would at a dinner. Two people end up in the Brainstorm Room and a real conversation happens. That's the mechanic we needed.",
-    image: "/images/gatherly/1on1.png",
+    image: "/images/gatherly/1on1.jpg",
     alt: "Gatherly 1:1 conversation in a brainstorm room",
   },
   {
     title: "Group Rooms Built for Real Sessions",
     body: "The Cinema Room fits up to 20+ for a keynote or panel. The Social Room is open networking. The Brainstorm Room is small-group deep work. Gatherly lets us run a full event program on a single platform without switching tools mid-session.",
-    image: "/images/gatherly/huddle.png",
+    image: "/images/gatherly/huddle.jpg",
     alt: "Gatherly cinema room with multiple founders on video",
   },
   {
     title: "Sponsor Booths That Actually Work",
     body: "Virtual sponsor booths are usually an afterthought. Gatherly's booth system gives sponsors a branded space where attendees can walk in, talk to a rep, and get a real conversation. For our partner events, this makes sponsor ROI measurable and real.",
-    image: "/images/gatherly/booths.png",
+    image: "/images/gatherly/booths.jpg",
     alt: "Gatherly virtual sponsor booths",
   },
   {
     title: "Live Broadcast to the Whole Room",
     body: "When we have a speaker or an announcement, we broadcast to every floor simultaneously. One host, every attendee, no coordination overhead. The platform handles it cleanly while the rest of the event keeps running around the broadcast.",
-    image: "/images/gatherly/broadcast.png",
+    image: "/images/gatherly/broadcast.jpg",
     alt: "Gatherly live broadcast feature",
   },
 ];
@@ -183,7 +183,7 @@ export default function GatherlyPartnershipPage() {
             </div>
             <div className="relative">
               <Image
-                src="/images/gatherly/usage.png"
+                src="/images/gatherly/usage.webp"
                 alt="Gatherly running across desktop, tablet, and laptop devices"
                 width={700}
                 height={480}
@@ -296,7 +296,7 @@ export default function GatherlyPartnershipPage() {
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 items-center">
             <div className="relative overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
               <Image
-                src="/images/gatherly/agenda.png"
+                src="/images/gatherly/agenda.jpg"
                 alt="Gatherly agenda and session management interface"
                 width={720}
                 height={480}
@@ -378,7 +378,7 @@ export default function GatherlyPartnershipPage() {
             </div>
             <div className="relative overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
               <Image
-                src="/images/gatherly/analytics.png"
+                src="/images/gatherly/analytics.jpg"
                 alt="Gatherly event analytics dashboard showing 9,495 conversations and 415 attendees"
                 width={720}
                 height={480}

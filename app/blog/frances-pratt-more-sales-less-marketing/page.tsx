@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/frances-pratt-more-sales-less-marketing" },
-  title: "Frances Pratt: From the Ritz Carlton to $18M Exit — How the Author of More Sales Less Marketing Rewires Founders Who Hate Selling | Gildre",
+  title: "Frances Pratt: From Ritz Carlton to $18M Exit | Gildre",
   description:
-    "Frances Pratt, author of More Sales Less Marketing and founder of a Melbourne-based sales consultancy, on the Wizard of Oz sales framework, why sales always comes before marketing, and how firing a $2M bully client unlocked an $18M outcome.",
+    "Frances Pratt on the Wizard of Oz sales framework, why sales always comes before marketing, and how firing a $2M bully client unlocked an $18M outcome.",
   keywords: [
     "Frances Pratt",
     "More Sales Less Marketing",

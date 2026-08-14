@@ -3,10 +3,9 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/pre-seed-fundraising-playbook" },
-  title:
-    "Pre-Seed Fundraising: The 7-Step Playbook for First-Time Founders Raising Before They Have Traction",
+  title: "Pre-Seed Fundraising: Playbook for New Founders | Gildre",
   description:
-    "A complete founder's guide to raising your first pre-seed round : from clarifying goals and building your narrative to targeting the right investors, perfecting your pitch deck, and closing the deal. With investor tools, instrument comparison, and real founder quotes.",
+    "How to raise your first pre-seed round: clarify your goals, build your narrative, target the right investors, perfect your pitch deck, and close the deal.",
   keywords: [
     "pre-seed fundraising",
     "how to raise pre-seed",
@@ -953,12 +952,12 @@ export default function KickingOffPreSeed() {
               {
                 title: "Startup Equity 101",
                 desc: "How to split founder equity, structure vesting, and manage your cap table before and after you raise.",
-                href: "/startupequity101",
+                href: "/guides/startup-equity-101",
               },
               {
                 title: "Equity Dilution Explained",
                 desc: "How much equity founders actually give away at each funding stage: with benchmarks and a worked example.",
-                href: "/equitydilution",
+                href: "/guides/equity-dilution-explained",
               },
             ].map((link) => (
               <a

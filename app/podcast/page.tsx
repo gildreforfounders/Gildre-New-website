@@ -22,7 +22,7 @@ export const metadata = {
   alternates: { canonical: "https://www.gildre.com/podcast" },
   title: "Start to Scale Podcast | Gildre — Founders Who've Done It",
   description:
-    "Start to Scale is Gildre's founder interview podcast. Every episode is one real conversation with a founder who has scaled, raised capital, and knows what actually works.",
+    "Start to Scale is Gildre's founder podcast. Real conversations with founders who have raised capital, scaled companies, and learned what actually works.",
   openGraph: {
     title: "Start to Scale Podcast | Gildre",
     description:

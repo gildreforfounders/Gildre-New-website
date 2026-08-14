@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/armando-vera-carvajal-hangtight-amazon" },
-  title: "Armando Vera Carvajal: How a First-Generation Mexican Immigrant Built Hangtight, an AI Social Planning App — After a Journey Through the Amazon | Gildre",
+  title: "Armando Vera Carvajal: Hangtight & Amazon Founder | Gildre",
   description:
-    "Armando Vera Carvajal immigrated to the US at age four, sold cheesecakes door-to-door as a kid, studied in Paris and Singapore, trekked into the Amazon, and built Hangtight, an AI-powered social planning app that acquired its competition. Featured on the Gildre Start to Scale Podcast.",
+    "Armando Vera Carvajal immigrated at age four, studied abroad, trekked the Amazon, and built Hangtight, an AI social planning app that acquired its competition.",
   keywords: [
     "Armando Vera Carvajal",
     "Hangtight app",

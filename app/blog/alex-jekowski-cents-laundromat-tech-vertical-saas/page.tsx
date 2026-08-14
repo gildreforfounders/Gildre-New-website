@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/alex-jekowski-cents-laundromat-tech-vertical-saas" },
-  title: "Alex Jekowski: From College Pinboards to $140M — How Cents Is Building the All-In-One Platform Powering America's Laundromats | Gildre",
+  title: "Alex Jekowski: Cents, the $140M Laundromat SaaS | Gildre",
   description:
-    "Alex Jekowski, founder and CEO of Cents, on raising nearly a quarter billion dollars for laundromat tech, why the Series B was the hardest fundraise of his life, and what every early-stage founder gets wrong about hard work.",
+    "Alex Jekowski on raising $250M for laundromat tech, why the Series B was the hardest fundraise of his life, and what founders get wrong about hard work.",
   keywords: [
     "Alex Jekowski",
     "Cents app",

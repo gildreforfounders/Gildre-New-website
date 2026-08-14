@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/founder-loneliness-predictable-stage-peer-support" },
-  title: "From Isolation to Peer Support: Why Founder Loneliness Is a Predictable Stage, Not a Personal Failing | Gildre",
+  title: "Founder Loneliness Is Predictable, Not Personal | Gildre",
   description:
-    "Founder loneliness comes from a structural mismatch, not a personal one. Friends, family, and employees rarely encounter high-stakes decisions on incomplete information. Here is why stage-specific peer communities close the gap and why curated networks report 95% retention over two years.",
+    "Founder loneliness is a structural problem, not a personal one. Why stage-specific peer communities close the gap that friends, family, and investors cannot.",
   keywords: [
     "founder loneliness",
     "founder isolation",

@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/luke-ashenbrand-princeton-football-startup" },
-  title: "Luke Ashenbrand: From Princeton Division I Football to Startup Entrepreneur After a Career-Ending Concussion | Gildre",
+  title: "Luke Ashenbrand: Princeton Athlete Turned Founder | Gildre",
   description:
-    "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021. Then channeled that setback into startup consulting and entrepreneurship. His story from the Gildre Start to Scale Podcast.",
+    "Princeton football player Luke Ashenbrand suffered a career-ending concussion in 2021, then channeled that setback into startup consulting and entrepreneurship.",
   keywords: [
     "Luke Ashenbrand",
     "Princeton football entrepreneur",

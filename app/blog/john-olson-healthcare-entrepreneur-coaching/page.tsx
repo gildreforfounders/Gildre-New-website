@@ -5,10 +5,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.gildre.com/blog/john-olson-healthcare-entrepreneur-coaching",
   },
-  title:
-    "John Olson: From Managing a Billion-Dollar Healthcare Budget to E-Commerce, Real Estate, and Executive Coaching",
+  title: "John Olson: Healthcare Budget to E-Commerce Founder | Gildre",
   description:
-    "John Olson led complex healthcare teams, studied at Wharton, UC Davis, and Stanford, then left to build multiple businesses with his wife. His playbook: invest in peer groups, master delegation, and use the 'Who Not How' framework.",
+    "John Olson on managing a billion-dollar healthcare budget, leaving to build multiple companies, and the peer group and delegation frameworks every entrepreneur needs.",
   keywords: [
     "John Olson",
     "healthcare leadership",

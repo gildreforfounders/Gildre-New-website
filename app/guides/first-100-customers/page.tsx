@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/first-100-customers" },
-  title: "How to Get Your First 100 Customers: 8 Proven Strategies for Early-Stage Founders | Gildre",
+  title: "How to Get Your First 100 Customers | Gildre",
   description:
-    "No brand, no budget, no traction. Here's how early-stage founders get their first 100 customers: from nailing your ICP and mining your network to picking a single traction channel and building a referral flywheel.",
+    "No brand, no budget, no traction. Eight strategies for your first 100 customers: ICP clarity, network outreach, one traction channel, and a referral flywheel.",
   keywords: [
     "how to get first 100 customers",
     "first 100 customers startup",

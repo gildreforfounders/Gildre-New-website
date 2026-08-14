@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/sharon-gai-keynote-speaker-alibaba-ai" },
-  title: "Sharon Gai: From Alibaba Head of Global Accounts to International Keynote Speaker on the Future of AI and Work | Gildre",
+  title: "Sharon Gai: Alibaba Head to AI Keynote Speaker | Gildre",
   description:
-    "International keynote speaker and former Alibaba Head of Global Key Accounts Sharon Gai on the night AI changed everything at Double Eleven, why documentation beats content creation, and how to future-proof yourself in the age of AI.",
+    "Sharon Gai on the night AI changed everything at Alibaba's Double Eleven, why documentation beats content creation, and how to future-proof your career.",
   keywords: [
     "Sharon Gai",
     "keynote speaker",

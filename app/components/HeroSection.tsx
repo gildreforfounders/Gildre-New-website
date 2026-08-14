@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const avatars = [
-  "/mentors/brittany-canty.png",
+  "/mentors/brittany-canty.webp",
   "/reviews/iliana-alvarado.webp",
   "/reviews/christof-mannfeld.webp",
   "/reviews/dan-hernandez.jpg",

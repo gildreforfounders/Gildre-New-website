@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/florian-kemmerich-vocating-ai-impact-investor" },
-  title: "Florian Kemmerich: The Impact Investor Who Left the Olympics, Crossed Five Languages, and Built an AI Platform to Help 54 Million People Find Their Vocation | Gildre",
+  title: "Florian Kemmerich: Impact Investor & AI Founder | Gildre",
   description:
-    "Florian Kemmerich — impact investor, multi-time founder, and author of On Vocation, on why he walked away from the 1992 Olympics, how a single coaching session at 33 changed everything, and why he built Vocating AI to protect human agency in the age of algorithms.",
+    "Florian Kemmerich on leaving the Olympics, how coaching changed his path at 33, and why he built Vocating AI to protect human agency from algorithms.",
   keywords: [
     "Florian Kemmerich",
     "Vocating AI",

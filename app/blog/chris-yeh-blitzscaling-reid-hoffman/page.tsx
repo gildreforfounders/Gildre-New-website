@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/chris-yeh-blitzscaling-reid-hoffman" },
-  title: "Chris Yeh: The Co-Author of Blitzscaling on Winning Winner-Take-Most Markets and Building Your Tribe | Gildre",
+  title: "Chris Yeh: Co-Author of Blitzscaling on Markets | Gildre",
   description:
-    "Blitzscaling co-author and Blitzscaling Ventures partner Chris Yeh on why the AI boom is bigger than the internet, how AI amplifies skilled people more than unskilled, and the tribe-building philosophy that defines Silicon Valley's greatest success stories.",
+    "Chris Yeh on why the AI boom eclipses the internet, how AI amplifies the skilled, and the tribe-building philosophy behind Silicon Valley's biggest wins.",
   keywords: [
     "Chris Yeh",
     "Blitzscaling",

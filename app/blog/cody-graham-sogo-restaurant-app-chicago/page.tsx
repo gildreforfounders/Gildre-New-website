@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/cody-graham-sogo-restaurant-app-chicago" },
-  title: "Cody Graham: How SoGo Is Turning Restaurant Discovery Into Personalized Curation — One Meal at a Time | Gildre",
+  title: "Cody Graham: Sogo Restaurant Discovery App Chicago | Gildre",
   description:
-    "Cody Graham, COO and Head of Product at SoGo, on building a restaurant curation app that actually knows you, why a Scotland flat led to a Chicago startup, and the decision framework every founder needs: right, wrong, or no decision.",
+    "Cody Graham on building SoGo, a restaurant app that actually knows you, why a Scotland flat sparked a Chicago startup, and the decision framework every founder needs.",
   keywords: [
     "Cody Graham",
     "SoGo app",

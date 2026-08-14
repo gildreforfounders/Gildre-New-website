@@ -3,10 +3,9 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/guides/building-high-performing-sdr-team" },
-  title:
-    "The Founder's Playbook for Building a High-Performing SDR Team — From First Hire to Hypergrowth",
+  title: "How to Build a High-Performing SDR Team | Gildre",
   description:
-    "A failed SDR hire costs $27K–$48K, and that's before counting the pipeline you never built. This guide covers the hiring framework, training split, metrics that matter, daily rhythm, and culture system that high-performing SDR teams actually use.",
+    "A failed SDR hire costs $27K to $48K, not counting lost pipeline. Covers hiring, training, metrics, daily rhythm, and the culture high-performing SDR teams use.",
   keywords: [
     "SDR team",
     "building SDR team",
