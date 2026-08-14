@@ -50,7 +50,7 @@ const features = [
         <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
       </svg>
     ),
-    title: "24/7 AI Co-Pilot Between Sessions",
+    title: "24/7 AI Business Advisor Between Sessions",
     body: "Mentors and advisors are available an hour a month, if you're lucky. solvee is available every morning when you sit down and need to know what to work on. It monitors your business performance in real time, flags gaps before they become problems, and keeps you on the path you set.",
   },
   {
@@ -171,7 +171,7 @@ export default function SolveePartnershipPage() {
           {[
             { value: "43", label: "Steps, Idea to Exit" },
             { value: "0%", label: "Equity Taken" },
-            { value: "24/7", label: "AI Co-Pilot Access" },
+            { value: "24/7", label: "AI Business Advisor Access" },
             { value: "$0", label: "To Start" },
           ].map((s) => (
             <div key={s.label} className="text-center">
