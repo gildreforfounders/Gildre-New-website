@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/blog/iliana-alvarado-ensyx-it-governance-ai-mexico" },
-  title: "Iliana Alvarado: Mexico City Founder Building ENSYX | Gildre",
+  title: "Iliana Alvarado: Mexico City Founder Building XPERTEKIT.Inc | Gildre",
   description:
     "Iliana Alvarado on the gap between IT services and governance, why every company is becoming a tech company, and what three continents taught her.",
   keywords: [
     "Iliana Alvarado",
-    "ENSYX",
+    "XPERTEKIT.Inc",
     "IT governance",
     "AI governance",
     "Mexico City entrepreneur",
@@ -22,7 +22,7 @@ export const metadata = {
   ],
   openGraph: {
     url: "https://www.gildre.com/blog/iliana-alvarado-ensyx-it-governance-ai-mexico",
-    title: "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build ENSYX — IT and AI Governance for Every Company That's Becoming a Tech Company",
+    title: "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build XPERTEKIT.Inc — IT and AI Governance for Every Company That's Becoming a Tech Company",
     description:
       "Iliana Alvarado on the critical gap between IT execution and IT governance, why AI adoption without documentation creates liability, and what a decade of building her plane while flying taught her about entrepreneurship.",
     type: "article",
@@ -31,13 +31,13 @@ export const metadata = {
         url: "https://www.gildre.com/images/iliana-alvarado-headshot.jpeg",
         width: 800,
         height: 800,
-        alt: "Iliana Alvarado, founder of ENSYX",
+        alt: "Iliana Alvarado, founder of XPERTEKIT.Inc",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Iliana Alvarado: From Banamex to ENSYX — IT and AI Governance for the Era When Every Company Is a Tech Company",
+    title: "Iliana Alvarado: From Banamex to XPERTEKIT.Inc — IT and AI Governance for the Era When Every Company Is a Tech Company",
     description:
       "Iliana Alvarado on the governance gap in IT, AI liability most founders don't know they have, and why your value multiplier, not your credentials, is what actually builds a business.",
   },
@@ -47,9 +47,9 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build ENSYX — IT and AI Governance for Every Company That's Becoming a Tech Company",
+    "Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build XPERTEKIT.Inc — IT and AI Governance for Every Company That's Becoming a Tech Company",
   description:
-    "Iliana Alvarado, founder of ENSYX and Gildre member, on identifying the governance gap in IT services, why every company is becoming a tech company, how AI adoption without documentation creates real liability, and what a decade living across New York, Boston, Santiago, and Germany taught her about building without a plan.",
+    "Iliana Alvarado, founder of XPERTEKIT.Inc and Gildre member, on identifying the governance gap in IT services, why every company is becoming a tech company, how AI adoption without documentation creates real liability, and what a decade living across New York, Boston, Santiago, and Germany taught her about building without a plan.",
   image: "https://www.gildre.com/images/iliana-alvarado-headshot.jpeg",
   datePublished: "2025-07-01",
   author: {
@@ -71,23 +71,23 @@ const articleSchema = {
     {
       "@type": "Person",
       name: "Iliana Alvarado",
-      jobTitle: "Founder and CEO, ENSYX",
+      jobTitle: "Founder and CEO, XPERTEKIT.Inc",
     },
     {
       "@type": "Organization",
-      name: "ENSYX",
-      description: "IT and AI governance services firm based in Mexico, partnered with XPERTEKIT.Inc in Dallas",
+      name: "XPERTEKIT.Inc",
+      description: "IT and AI governance services firm based in Dallas delivering comprehensive technology services",
     },
   ],
   keywords:
-    "Iliana Alvarado, ENSYX, IT governance, AI governance, Mexico City entrepreneur, fractional CTO, IT services, Banamex, Latin America startup, AI compliance, Gildre",
+    "Iliana Alvarado, XPERTEKIT.Inc, IT governance, AI governance, Mexico City entrepreneur, fractional CTO, IT services, Banamex, Latin America startup, AI compliance, Gildre",
 };
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Iliana Alvarado",
-  jobTitle: "Founder and CEO, ENSYX",
+  jobTitle: "Founder and CEO, XPERTEKIT.Inc",
   knowsAbout: [
     "IT Governance",
     "AI Governance",
@@ -99,17 +99,17 @@ const personSchema = {
     "Change Management",
   ],
   description:
-    "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City partnered with XPERTEKIT.Inc in Dallas. An attorney with 20+ years of experience, she previously spent nearly a decade at Banamex before launching ENSYX in 2023. She holds an LLM from Heidelberg University (split between Santiago, Chile and Germany), an undergraduate degree in linguistics, and a law degree from Mexico. She is a Gildre member actively expanding ENSYX to Chile.",
+    "Iliana Alvarado is the founder of XPERTEKIT.Inc, an IT and AI governance firm based in Dallas. An attorney with 20+ years of experience, she previously spent nearly a decade at Banamex before launching XPERTEKIT.Inc in 2023. She holds an LLM from Heidelberg University (split between Santiago, Chile and Germany), an undergraduate degree in linguistics, and a law degree from Mexico. She is a Gildre member actively expanding XPERTEKIT.Inc to Chile.",
 };
 
 const faqs = [
   {
     q: "Who is Iliana Alvarado?",
-    a: "Iliana Alvarado is the founder of ENSYX, an IT and AI governance firm based in Mexico City that partners with XPERTEKIT.Inc in Dallas to deliver comprehensive technology services. An attorney with more than 20 years of experience, she previously worked at Banamex, one of Mexico's most important banks, for nearly a decade before launching ENSYX in 2023. She holds a law degree from Mexico, an LLM from Heidelberg University (split between Santiago and Germany), and an undergraduate degree in linguistics. She is a Gildre member currently expanding ENSYX into Chile.",
+    a: "Iliana Alvarado is the founder of XPERTEKIT.Inc, an IT and AI governance firm that delivers comprehensive technology services. An attorney with more than 20 years of experience, she previously worked at Banamex, one of Mexico's most important banks, for nearly a decade before launching XPERTEKIT.Inc in 2023. She holds a law degree from Mexico, an LLM from Heidelberg University (split between Santiago and Germany), and an undergraduate degree in linguistics. She is a Gildre member currently expanding XPERTEKIT.Inc into Chile.",
   },
   {
-    q: "What does ENSYX do?",
-    a: "ENSYX provides IT and AI governance services to businesses of all sizes, with a particular focus on companies that need their technology strategy aligned with their broader business direction. Services include endpoint management, digital transformation, fractional CTO, IT strategy, IT governance, and AI governance. ENSYX's core thesis is that the IT industry has focused heavily on technical execution while leaving a critical gap: context. Governance (understanding who has access to what, whether AI tools are putting company data at risk, and whether decisions are documented) is what ENSYX fills.",
+    q: "What does XPERTEKIT.Inc do?",
+    a: "XPERTEKIT.Inc provides IT and AI governance services to businesses of all sizes, with a particular focus on companies that need their technology strategy aligned with their broader business direction. Services include endpoint management, digital transformation, fractional CTO, IT strategy, IT governance, and AI governance. XPERTEKIT.Inc's core thesis is that the IT industry has focused heavily on technical execution while leaving a critical gap: context. Governance (understanding who has access to what, whether AI tools are putting company data at risk, and whether decisions are documented) is what XPERTEKIT.Inc fills.",
   },
   {
     q: "What is the difference between IT services and IT governance?",
@@ -117,7 +117,7 @@ const faqs = [
   },
   {
     q: "Why does Iliana Alvarado say every company is becoming a tech company?",
-    a: "Iliana argues that regardless of industry, every company now depends on technology to operate, and that dependency will only deepen with AI. The implication: technology is no longer a support function. It needs to be at the center of corporate decision-making. Hardware costs are rising because AI is consuming supply. AI tools are proliferating without governance. If you don't have someone guiding your technology strategy within the context of your business goals, you're making critical decisions blindly. ENSYX exists to provide that guidance, particularly for mid-market companies that can't afford a full-time CTO but can't afford to operate without one either.",
+    a: "Iliana argues that regardless of industry, every company now depends on technology to operate, and that dependency will only deepen with AI. The implication: technology is no longer a support function. It needs to be at the center of corporate decision-making. Hardware costs are rising because AI is consuming supply. AI tools are proliferating without governance. If you don't have someone guiding your technology strategy within the context of your business goals, you're making critical decisions blindly. XPERTEKIT.Inc exists to provide that guidance, particularly for mid-market companies that can't afford a full-time CTO but can't afford to operate without one either.",
   },
   {
     q: "What advice does Iliana Alvarado give to first-time founders?",
@@ -177,10 +177,10 @@ export default function IlianaAlvaradoBlog() {
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
             Iliana Alvarado: The Mexico City Attorney Who Left Banking to Build{" "}
-            <span style={{ color: "#C9A96E" }}>ENSYX</span>: IT and AI Governance for the Era When Every Company Is a Tech Company
+            <span style={{ color: "#C9A96E" }}>XPERTEKIT.Inc</span>: IT and AI Governance for the Era When Every Company Is a Tech Company
           </h1>
           <p className="mt-5 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            After nearly a decade at one of Mexico&apos;s biggest banks, attorney Iliana Alvarado saw a gap nobody was filling: companies were getting great IT execution with zero governance context. She left in 2023, built ENSYX, and is now expanding from Mexico City to Chile. She joined the Start to Scale Podcast to share the thesis, the pivot, and what a decade of building without a plan across three continents taught her about entrepreneurship.
+            After nearly a decade at one of Mexico&apos;s biggest banks, attorney Iliana Alvarado saw a gap nobody was filling: companies were getting great IT execution with zero governance context. She left in 2023, built XPERTEKIT.Inc, and is now expanding from Mexico City to Chile. She joined the Start to Scale Podcast to share the thesis, the pivot, and what a decade of building without a plan across three continents taught her about entrepreneurship.
           </p>
 
           {/* Meta row */}
@@ -218,7 +218,7 @@ export default function IlianaAlvaradoBlog() {
 
         <Body>
           Most founders pick a lane and stay in it. Iliana Alvarado spent fifteen years doing the opposite, moving between legal careers, service jobs, countries, and languages, and discovered that the ability to read context across radically different environments was the skill the technology industry was missing entirely. Her company,{" "}
-          <strong style={{ color: "#fff" }}>ENSYX</strong>, exists at exactly that intersection: technically capable IT services wrapped in the governance and legal context that turns isolated tech decisions into a coherent corporate strategy. Iliana joined the{" "}
+          <strong style={{ color: "#fff" }}>XPERTEKIT.Inc</strong>, exists at exactly that intersection: technically capable IT services wrapped in the governance and legal context that turns isolated tech decisions into a coherent corporate strategy. Iliana joined the{" "}
           <strong style={{ color: "#fff" }}>Start to Scale Podcast</strong> from Mexico City to unpack the thesis, the career arc, and the cultural lens she brings to a market that is just beginning to understand what it needs.
         </Body>
 
@@ -226,7 +226,7 @@ export default function IlianaAlvaradoBlog() {
         <div className="my-12 overflow-hidden rounded-2xl mx-auto" style={{ maxWidth: "560px", border: "1px solid rgba(201,169,110,0.15)" }}>
           <Image
             src="/images/iliana-alvarado-headshot.jpeg"
-            alt="Iliana Alvarado, founder of ENSYX, IT and AI governance firm based in Mexico City"
+            alt="Iliana Alvarado, founder of XPERTEKIT.Inc, IT and AI governance firm"
             width={560}
             height={560}
             quality={90}
@@ -236,7 +236,7 @@ export default function IlianaAlvaradoBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Iliana Alvarado, founder of ENSYX and Gildre member based in Mexico City
+              Iliana Alvarado, founder of XPERTEKIT.Inc and Gildre member based in Mexico City
             </p>
           </div>
         </div>
@@ -286,7 +286,7 @@ export default function IlianaAlvaradoBlog() {
           >
             <Image
               src="/images/iliana-alvarado-ensyx-banner.jpeg"
-              alt="ENSYX, Reliable. Secure. Trusted. IT and AI governance"
+              alt="XPERTEKIT.Inc, Reliable. Secure. Trusted. IT and AI governance"
               width={1200}
               height={400}
               quality={90}
@@ -297,20 +297,20 @@ export default function IlianaAlvaradoBlog() {
           </div>
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              ENSYX: Reliable. Secure. Trusted. IT and AI governance services for companies that need technology decisions inside a business context.
+              XPERTEKIT.Inc: Reliable. Secure. Trusted. IT and AI governance services for companies that need technology decisions inside a business context.
             </p>
           </div>
         </div>
 
         <Section title="The Gap Nobody Was Filling: IT Without Governance" />
         <Body>
-          ENSYX grew from a specific observation Iliana made after leaving Banamex. The US IT services market, and the managed service provider (MSP) space in particular was saturated with technically capable providers. Plenty of very smart people were delivering solid infrastructure, endpoint management, and networking support. But almost universally, they were doing it detached from context.
+          XPERTEKIT.Inc grew from a specific observation Iliana made after leaving Banamex. The US IT services market, and the managed service provider (MSP) space in particular was saturated with technically capable providers. Plenty of very smart people were delivering solid infrastructure, endpoint management, and networking support. But almost universally, they were doing it detached from context.
         </Body>
         <Body>
           "They were doing a very good job at the IT itself, but detached from context. If I tell you I&apos;m going to manage your network. Okay, good to know, but it lacks context. And context is important." Twenty years as an attorney, combined with her work in governance and risk at Banamex, gave Iliana a precise name for what was missing: IT governance.
         </Body>
         <Body>
-          ENSYX partnered with XPERTEKIT.Inc, based in Dallas, to build a combined capability: technically excellent managed IT services delivered within a governance and compliance framework. The partnership lets ENSYX serve clients with everything from endpoint management and digital transformation to fractional CTO services and strategic IT planning, with governance layered across all of it.
+          XPERTEKIT.Inc was built to fill that gap: technically excellent managed IT services delivered within a governance and compliance framework. The firm serves clients with everything from endpoint management and digital transformation to fractional CTO services and strategic IT planning, with governance layered across all of it.
         </Body>
         <Quote>
           "Every company is going to be a tech company. You need tech to run your company. So you need to think about who is going to take care of your IT, not only your IT isolated, but your IT within the context of your company and how you want to grow and where you want to go."
@@ -324,7 +324,7 @@ export default function IlianaAlvaradoBlog() {
 
         <Section title="Closing Deals Across Latam: Why Every Country Is Different" />
         <Body>
-          ENSYX now operates across Mexico and is actively expanding into Chile, where two incoming pieces of IT legislation have created real demand for exactly what the firm provides. But getting there has required learning something that Iliana frames as the hardest lesson of her entrepreneurial journey: you have to adapt not to a country&apos;s work culture, but to how that country closes deals.
+          XPERTEKIT.Inc now operates across Mexico and is actively expanding into Chile, where two incoming pieces of IT legislation have created real demand for exactly what the firm provides. But getting there has required learning something that Iliana frames as the hardest lesson of her entrepreneurial journey: you have to adapt not to a country&apos;s work culture, but to how that country closes deals.
         </Body>
         <Body>
           "As a company, you don&apos;t have to adapt to their work culture, but you have to adapt to the way they close deals. That is one of the biggest lessons I&apos;ve learned." The mechanics vary sharply across Latam. In Mexico, the game is relational and insular: it is entirely about who you know and what can be exchanged within that network. Cold outreach to an unknown party goes nowhere. In Chile, trust matters just as much, but the path to it is different, an introduction from a known contact opens a door that would otherwise be permanently closed.
@@ -421,7 +421,7 @@ export default function IlianaAlvaradoBlog() {
         <div className="mt-10 flex flex-wrap gap-2">
           {[
             "Iliana Alvarado",
-            "ENSYX",
+            "XPERTEKIT.Inc",
             "IT Governance",
             "AI Governance",
             "Mexico City",
@@ -481,14 +481,14 @@ function BioCallout() {
     { year: "Age 18–19", event: "Leaves Mexico; spends years in New York, Boston, Rhode Island, and Europe working service jobs" },
     { year: "Santiago", event: "Works at one of Chile's most prestigious law firms after completing LLM through Heidelberg University (split Santiago/Germany)" },
     { year: "Post-LLM", event: "Returns to Mexico; joins Banamex, one of the country's largest banks; spends ~9 years in corporate governance and risk" },
-    { year: "2023", event: "Leaves Banamex; launches ENSYX in partnership with XPERTEKIT.Inc (Dallas) to fill the IT governance gap" },
-    { year: "Now", event: "Growing ENSYX across Mexico; expanding into Chile ahead of new IT legislation; active Gildre member" },
+    { year: "2023", event: "Leaves Banamex; launches XPERTEKIT.Inc to fill the critical gap in IT and AI governance" },
+    { year: "Now", event: "Growing XPERTEKIT.Inc across Mexico; expanding into Chile ahead of new IT legislation; active Gildre member" },
   ];
   const lessons = [
     {
       n: "1",
       title: "IT without governance is just execution",
-      body: "Most IT providers do excellent technical work in isolation. The governance layer, who has access to what, how AI is being used, whether decisions are documented, is what turns isolated tech work into a coherent, defensible corporate strategy. That gap is what ENSYX fills.",
+      body: "Most IT providers do excellent technical work in isolation. The governance layer, who has access to what, how AI is being used, whether decisions are documented, is what turns isolated tech work into a coherent, defensible corporate strategy. That gap is what XPERTEKIT.Inc fills.",
     },
     {
       n: "2",
@@ -516,7 +516,7 @@ function BioCallout() {
         </h2>
         <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
           Iliana Alvarado is the founder of{" "}
-          <strong style={{ color: "#fff" }}>ENSYX</strong>, an IT and AI governance firm based in Mexico City that partners with XPERTEKIT.Inc in Dallas to deliver comprehensive, context-driven technology services. An attorney with 20+ years of experience across Mexico, Chile, and Germany, she spent nearly a decade at Banamex before leaving corporate in 2023 to build ENSYX. She holds an LLM from Heidelberg University, an undergrad in linguistics, and a Mexican law degree, and is currently expanding ENSYX into Chile.
+          <strong style={{ color: "#fff" }}>XPERTEKIT.Inc</strong>, an IT and AI governance firm that delivers comprehensive, context-driven technology services. An attorney with 20+ years of experience across Mexico, Chile, and Germany, she spent nearly a decade at Banamex before leaving corporate in 2023 to build XPERTEKIT.Inc. She holds an LLM from Heidelberg University, an undergrad in linguistics, and a Mexican law degree, and is currently expanding XPERTEKIT.Inc into Chile.
         </p>
       </div>
       <div className="grid sm:grid-cols-2">
