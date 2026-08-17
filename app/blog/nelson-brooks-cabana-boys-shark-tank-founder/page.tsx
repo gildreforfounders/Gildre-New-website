@@ -23,7 +23,7 @@ export const metadata = {
     "Scottsdale bachelorette party",
     "Phoenix event company",
     "USC entrepreneur",
-    "Gildre founder",
+    "Gildre advocate",
     "Start to Scale podcast",
   ],
   openGraph: {
@@ -87,7 +87,7 @@ const articleSchema = {
     },
   ],
   keywords:
-    "Nelson Brooks, Cabana Boys, Cabana Boys Events, Shark Tank, bachelorette party bartending, party hosting company, Kendra Scott, Cocktail Crew, Arizona entrepreneur, hospitality startup, Gildre, Start to Scale podcast",
+    "Nelson Brooks, Cabana Boys, Cabana Boys Events, Shark Tank, bachelorette party bartending, party hosting company, Kendra Scott, Cocktail Crew, Arizona entrepreneur, hospitality startup, Gildre advocate, Start to Scale podcast",
 };
 
 const personSchema = {
@@ -113,13 +113,13 @@ const personSchema = {
     "Charismatic Customer Experience",
   ],
   description:
-    "Nelson Brooks is the founder and CEO of Cabana Boys Events, a party hosting and bartending company he launched in Arizona in August 2020. After being laid off from a hospitality tech company during COVID, he spotted an untapped market at a bachelorette party and turned it into a business now operating in 10 markets under 6 brands. He appeared on Shark Tank and secured a deal with investor Kendra Scott. He is a USC graduate and a Gildre member.",
+    "Nelson Brooks is the founder and CEO of Cabana Boys Events, a party hosting and bartending company he launched in Arizona in August 2020. After being laid off from a hospitality tech company during COVID, he spotted an untapped market at a bachelorette party and turned it into a business now operating in 10 markets under 6 brands. He appeared on Shark Tank and secured a deal with investor Kendra Scott. He is a USC graduate and a Gildre advocate, with plans to lead a workshop for the Gildre founder community.",
 };
 
 const faqs = [
   {
     q: "Who is Nelson Brooks?",
-    a: "Nelson Brooks is the founder and CEO of Cabana Boys Events, a party hosting and bartending company based in Arizona. He launched the business in August 2020 after being laid off from a hospitality tech company during COVID. He is a USC graduate, appeared on Shark Tank, and secured an investment deal with entrepreneur and investor Kendra Scott. He is a Gildre member.",
+    a: "Nelson Brooks is the founder and CEO of Cabana Boys Events, a party hosting and bartending company based in Arizona. He launched the business in August 2020 after being laid off from a hospitality tech company during COVID. He is a USC graduate, appeared on Shark Tank, and secured an investment deal with entrepreneur and investor Kendra Scott. He is a Gildre advocate and will be leading a workshop for the Gildre founder community.",
   },
   {
     q: "What is Cabana Boys Events?",
@@ -198,7 +198,7 @@ function BioCallout() {
         <strong style={{ color: "#fff" }}>Cabana Boys Events</strong>, a party hosting and bartending
         company he launched in Arizona in August 2020. A USC graduate with a background in hospitality
         tech and event planning, he grew Cabana Boys to 10 US markets and appeared on Shark Tank,
-        securing a deal with investor Kendra Scott. He is a Gildre member.
+        securing a deal with investor Kendra Scott. He is a Gildre advocate and will be leading a workshop for the Gildre community.
       </p>
     </div>
   );
@@ -238,7 +238,7 @@ export default function NelsonBrooksBlog() {
               Start to Scale
             </span>
             <span className="text-[0.65rem]" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Member Feature · Scottsdale, Arizona
+              Gildre Advocate · Scottsdale, Arizona
             </span>
           </div>
           <h1
@@ -324,7 +324,7 @@ export default function NelsonBrooksBlog() {
           />
           <div className="px-5 py-3" style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
             <p className="text-xs italic" style={{ color: "rgba(255,255,255,0.35)" }}>
-              Nelson Brooks, founder and CEO of Cabana Boys Events, and Gildre member
+              Nelson Brooks, founder and CEO of Cabana Boys Events, and Gildre advocate
             </p>
           </div>
         </div>
@@ -495,10 +495,10 @@ export default function NelsonBrooksBlog() {
             className="mb-4 text-2xl font-bold text-white"
             style={{ fontFamily: "var(--font-fraunces)" }}
           >
-            Founders like Nelson build alongside each other at Gildre.
+            Nelson is a Gildre advocate. He&apos;ll be leading a workshop for the community soon.
           </h2>
           <p className="mb-8 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Gildre is a private community for founders who want real conversations, real accountability, and real connections. Weekly 1:1 introductions, expert mentorship, and events in your city. Apply to join.
+            Gildre is a private community for founders who want real conversations, real accountability, and real connections. Weekly 1:1 introductions, expert mentorship, and events in your city. Apply to join and be part of the community Nelson will be teaching.
           </p>
           <Link
             href="https://tally.so/r/VLERVa"
