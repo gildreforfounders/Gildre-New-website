@@ -80,18 +80,10 @@ export default function NotFound() {
             <Link
               key={link.href}
               href={link.href}
-              className="group flex flex-col rounded-xl px-5 py-4 transition-all duration-200"
+              className="group flex flex-col rounded-xl px-5 py-4 transition-all duration-200 hover:border-[rgba(201,169,110,0.3)] hover:bg-[rgba(201,169,110,0.05)]"
               style={{
                 backgroundColor: "rgba(255,255,255,0.03)",
                 border: "1px solid rgba(255,255,255,0.07)",
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(201,169,110,0.3)";
-                (e.currentTarget as HTMLAnchorElement).style.backgroundColor = "rgba(201,169,110,0.05)";
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.07)";
-                (e.currentTarget as HTMLAnchorElement).style.backgroundColor = "rgba(255,255,255,0.03)";
               }}
             >
               <span className="text-sm font-semibold text-white">{link.label}</span>
