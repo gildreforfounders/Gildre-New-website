@@ -60,6 +60,30 @@ const nextConfig: NextConfig = {
       { source: "/podcast/episodes",    destination: "/podcast",                                             permanent: false },
       { source: "/founders",            destination: "/founder-community",                                   permanent: false },
       { source: "/cities",              destination: "/chicago",                                             permanent: false },
+      // Podcast URL variants
+      { source: "/podcasts",             destination: "/podcast",                                             permanent: false },
+      { source: "/episodes",             destination: "/podcast",                                             permanent: false },
+      { source: "/listen",               destination: "/podcast",                                             permanent: false },
+      // City URL variants
+      { source: "/los-angeles",          destination: "/la",                                                  permanent: true },
+      { source: "/san-francisco",        destination: "/bayarea",                                             permanent: true },
+      { source: "/sf",                   destination: "/bayarea",                                             permanent: true },
+      { source: "/new-york",             destination: "/nyc",                                                 permanent: true },
+      { source: "/new-york-city",        destination: "/nyc",                                                 permanent: true },
+      { source: "/bay-area",             destination: "/bayarea",                                             permanent: true },
+      // Contact & team routes
+      { source: "/jobs",                 destination: "/contact",                                             permanent: false },
+      { source: "/careers",              destination: "/contact",                                             permanent: false },
+      { source: "/press",                destination: "/contact",                                             permanent: false },
+      { source: "/partner",              destination: "/contact",                                             permanent: false },
+      // Member programs variants
+      { source: "/programs",             destination: "/memberprograms",                                      permanent: false },
+      { source: "/workshops",            destination: "/memberprograms",                                      permanent: false },
+      { source: "/benefits",             destination: "/memberprograms",                                      permanent: false },
+      // Other common routes
+      { source: "/accelerator",          destination: "/founder-community",                                   permanent: false },
+      { source: "/invest",               destination: "/propellantventures",                                  permanent: false },
+      { source: "/apply-now",            destination: "/membership",                                          permanent: false },
       // Broken blog slugs used in city pages
       { source: "/blog/armando-vera-hangtight-austin",        destination: "/blog/armando-vera-carvajal-hangtight-amazon",        permanent: true },
       { source: "/blog/alex-bean-divvy-bill-com-seattle",     destination: "/blog/alex-bean-divvy-billcom-acquisition",           permanent: true },

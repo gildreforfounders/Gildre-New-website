@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.gildre.com/mindhappy" },
   title: "MindHappy × Gildre — Wellness Boxes for Founders and Teams",
   description:
     "Curated wellness boxes built for founders. Elevate for deep work and personal focus. Bond for team building and culture moments. Exclusive Gildre partner pricing.",
