@@ -36,9 +36,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/activity.webp",
+        width: 1147,
+        height: 660,
         alt: "Founder community and product-market fit, from Gildre",
       },
     ],
@@ -57,7 +57,7 @@ const articleSchema = {
   headline: "From Networking Theater to Product-Market Fit: What Founder Communities Actually Do",
   description:
     "Founder communities help with product-market fit only when they provide structured, stage-matched 1:1 introductions to founders and mentors who have solved the same problem you're facing right now, not generic networking events.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/activity.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

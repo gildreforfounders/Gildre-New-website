@@ -39,9 +39,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/partnerships.webp",
+        width: 1414,
+        height: 888,
         alt: "Accelerator vs peer community founder comparison",
       },
     ],
@@ -60,7 +60,7 @@ const articleSchema = {
   headline: "Accelerator or Peer Community: The Real Difference Founders Miss",
   description:
     "A startup accelerator is a fixed-term cohort program taking 5-10% equity, built toward a demo day. A founder peer community is an ongoing membership with no equity taken, delivering continuous stage-matched introductions. This guide covers what each model optimizes for, when each helps most, and how the two work together for founders who use both.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/partnerships.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

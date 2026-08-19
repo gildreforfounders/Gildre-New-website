@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/workshops.webp",
+        width: 1500,
+        height: 1153,
         alt: "Founder proximity bias and how to test product-market fit without fooling yourself",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Founder Proximity Bias: How Solo Founders Test Market Fit Without Fooling Themselves",
   description:
     "Founder proximity bias produces false confidence about product-market fit. This guide covers the behavioral signals that matter (retention curves, unprompted referrals, real transactions) versus the ones that mislead (compliments, signup spikes, intent-based questions), plus how a peer group at your exact stage helps you find blind spots faster.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/workshops.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

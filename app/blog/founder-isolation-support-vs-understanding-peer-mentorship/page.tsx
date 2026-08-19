@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/coaching.webp",
+        width: 1500,
+        height: 1000,
         alt: "A founder who has emotional support from people around them but still lacks anyone with the operating expertise to validate a high-stakes decision",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "From Supported to Understood: Why Founder Isolation Doesn't Go Away With Encouragement",
   description:
     "Emotional support and operating expertise are different things, and founders confuse them until the isolation catches up. This piece explains why having supportive people in your life doesn't close the gap, why generic peer networks only solve part of it, and what stage-matched operator mentorship actually does that broad community cannot.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/coaching.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

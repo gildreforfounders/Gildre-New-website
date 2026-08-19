@@ -39,9 +39,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/friends.webp",
+        width: 2500,
+        height: 1667,
         alt: "Founder loneliness is a predictable stage, not a personal failing",
       },
     ],
@@ -60,7 +60,7 @@ const articleSchema = {
   headline: "From Isolation to Peer Support: Why Founder Loneliness Is a Predictable Stage, Not a Personal Failing",
   description:
     "Founder loneliness comes from a structural mismatch: founders make high-stakes decisions on incomplete information, and almost no one in their life faces the same pressure. Stage-specific peer communities and mentor access from exited founders close this gap in ways generic networking cannot. Curated founder communities like Gildre report 95% member retention over 24 months.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/friends.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

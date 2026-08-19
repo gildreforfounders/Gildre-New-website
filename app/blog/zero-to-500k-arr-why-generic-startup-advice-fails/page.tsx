@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/friends.webp",
+        width: 2500,
+        height: 1667,
         alt: "A founder between zero and 500K in revenue scrolling through generic startup advice that was written for a company at a completely different stage",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "From Zero to $500K: Why Generic Startup Advice Fails the Founders Who Need It Most",
   description:
     "Generic startup advice is search-optimized for broad audiences and collapses every stage of company building into one undifferentiated blob. This piece explains why that fails founders between zero and $500K in revenue, what the specificity gap is, and why proximity in stage produces advice you can actually use this week.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/friends.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

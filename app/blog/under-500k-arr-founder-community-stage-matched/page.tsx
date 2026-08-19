@@ -38,9 +38,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/activity.webp",
+        width: 1147,
+        height: 660,
         alt: "Where founders under $500K ARR find stage-matched peer communities",
       },
     ],
@@ -59,7 +59,7 @@ const articleSchema = {
   headline: "Under $500K ARR and Second-Guessing Everything? Where Founders at Your Stage Actually Talk",
   description:
     "Founders under $500K ARR need stage-matched peer communities, not generic startup advice. This guide covers the three things a sub-$500K ARR founder actually needs from a community, why accelerators miss the problem, and what to look for before joining any network.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/activity.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

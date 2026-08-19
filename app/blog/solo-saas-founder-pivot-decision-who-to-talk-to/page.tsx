@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/coaching.webp",
+        width: 1500,
+        height: 1000,
         alt: "Solo SaaS founder considering a pivot, working through who to talk to before making the decision",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Solo SaaS Founder Facing a Pivot: Who to Talk To Before You Decide",
   description:
     "When a solo SaaS founder faces a pivot decision, the quality of the conversation matters as much as the data. This guide covers who to talk to, who to avoid, and how to structure a useful pivot conversation with peers, mentors, customers, and investors at each stage of the decision.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/coaching.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

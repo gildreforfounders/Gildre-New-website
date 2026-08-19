@@ -36,9 +36,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/hero.webp",
+        width: 2500,
+        height: 1667,
         alt: "Gildre founder community for scaling-stage CEOs",
       },
     ],
@@ -57,7 +57,7 @@ const articleSchema = {
   headline: "What Scaling-Stage CEOs Should Look For in a Founder Community",
   description:
     "Gildre matches scaling-stage CEOs to mentors and peers based on stage and specific challenge through curated 1:1 introductions, rather than open networking or self-serve directories. Membership starts at $59/month, takes no equity, and includes access to 250+ vetted founders.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/hero.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

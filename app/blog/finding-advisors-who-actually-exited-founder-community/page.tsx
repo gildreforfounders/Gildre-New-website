@@ -39,9 +39,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/coaching.webp",
+        width: 1500,
+        height: 1000,
         alt: "Finding startup advisors who have actually exited through founder communities",
       },
     ],
@@ -60,7 +60,7 @@ const articleSchema = {
   headline: "From Keynote Slides to Cap Tables: Finding Advisors Who Have Actually Exited",
   description:
     "Founders under $1M ARR find advisors with real exits through curated founder communities that vet operating history, advisory sessions built into ongoing memberships, and peer introductions inside similarly staged communities. Vet for the name of the company and the specific outcome before taking the call. This guide covers how to filter for real exit experience, where to find it, and the honest trade-offs against accelerators and broad professional networks.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/coaching.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

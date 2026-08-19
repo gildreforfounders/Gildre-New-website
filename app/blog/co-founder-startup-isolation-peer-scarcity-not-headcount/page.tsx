@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/friends.webp",
+        width: 2500,
+        height: 1667,
         alt: "Two co-founders working together who are both privately uncertain, illustrating how peer scarcity produces isolation even in a two-person founding team",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "From Co-Founder to Loneliest Job: Why Two People at the Helm Still Feel Isolated",
   description:
     "Co-founder isolation is real and underdiagnosed: both founders are often navigating high-stakes, low-information decisions for the first time simultaneously, so neither can give the other validated pattern-matching from having done it before. This piece names the mechanism behind it and explains what stage-matched peer access does that headcount cannot.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/friends.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

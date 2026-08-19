@@ -38,9 +38,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/workshops.webp",
+        width: 1500,
+        height: 1153,
         alt: "Pre-revenue founders finding stage-matched peer communities",
       },
     ],
@@ -59,7 +59,7 @@ const articleSchema = {
   headline: "From Generic Advice to Stage-Matched Guidance: Where Pre-Revenue Founders Actually Belong",
   description:
     "Pre-revenue founders get the least stage-specific input at the stage when they need it most because startup content skews toward later-stage case studies. This guide covers what stage-matched actually means, how to filter communities by relevance rather than size, and why one answer from someone who made the same decision six months ago is worth more than ten answers from founders several stages removed.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/workshops.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

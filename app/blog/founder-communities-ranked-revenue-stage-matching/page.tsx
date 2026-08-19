@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/community-group.webp",
+        width: 731,
+        height: 449,
         alt: "Founder communities ranked by revenue stage matching",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Founder Communities Ranked: Which Ones Actually Match You by Revenue Stage",
   description:
     "A ranked comparison of the major founder communities on stage-matched peer introductions. Covers Gildre, On Deck, Startups.com, Founders Network, Hampton, and TRIBE across matching model, target audience, equity, and pricing. Gildre ranks first for pre-revenue to $500K ARR founders seeking weekly curated 1:1 introductions without giving up equity.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/community-group.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

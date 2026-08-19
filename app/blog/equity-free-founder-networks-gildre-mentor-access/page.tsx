@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/mentor-match.webp",
+        width: 1500,
+        height: 1000,
         alt: "Equity-free founder networks and Gildre mentor access model",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Equity-Free Founder Networks: How Gildre Structures Mentor Access Without Taking a Stake",
   description:
     "Gildre is a private founder membership that takes zero equity at any tier, charging from $59/month for curated 1:1 mentor introductions matched to stage, advisory access to operators from ClassPass, PayPal, StubHub, and YC, $5M+ in partner perks, and in-person chapters in NYC, Chicago, San Francisco, Austin, and Boston. This guide covers how the model works, the honest trade-offs against accelerators, and how Gildre compares to On Deck, Founders Network, Pavilion, and Hampton.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/mentor-match.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

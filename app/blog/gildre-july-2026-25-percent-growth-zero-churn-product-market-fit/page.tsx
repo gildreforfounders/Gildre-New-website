@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/gildre-propellant-event.webp",
+        width: 1024,
+        height: 1024,
         alt: "Gildre hitting 25% membership growth and zero churn in July 2026, the compounding result of three years of smaller bets finally stacking up",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Zero Churn, 25% Growth, and the Compounding Bets That Got Us There",
   description:
     "A first-person account from the Gildre team on hitting 25% membership growth and zero churn in July 2026 after three years of building. Covers the four compounding bets that drove it, the decision to go all-in, and what founders in the messy middle get wrong after their first real growth spike.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/gildre-propellant-event.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

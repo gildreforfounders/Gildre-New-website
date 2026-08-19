@@ -38,9 +38,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/outdoors.webp",
+        width: 1500,
+        height: 1000,
         alt: "Founder isolation at $200K ARR and how peer communities close the gap",
       },
     ],
@@ -59,7 +59,7 @@ const articleSchema = {
   headline: "From Solo Decisions to Shared Ones: What Founders at $200K ARR Actually Do About the Isolation Problem",
   description:
     "Founders consistently report feeling most alone around $200K ARR because generic advice stops working and their existing network stops matching their stage. This guide covers why the vacuum shows up at this moment, what founders who navigate it well do differently, and how to evaluate peer communities and mentor networks before committing.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/outdoors.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

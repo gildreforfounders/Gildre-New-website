@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/coaching.webp",
+        width: 1500,
+        height: 1000,
         alt: "Healthtech founders finding mentors who have exited through Gildre",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "From Coaching Calls to Cap Tables: Where Healthtech Founders Find Mentors Who've Actually Exited",
   description:
     "First-time healthtech founders need operator mentors who have navigated regulatory timelines, payer dynamics, and clinical validation cycles, not generic startup coaches. This guide covers where exited founders concentrate, how curated mentor networks work, and what to check before joining any community.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/coaching.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

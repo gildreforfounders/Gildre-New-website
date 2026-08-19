@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/dinner.webp",
+        width: 1400,
+        height: 1050,
         alt: "Fellowship vs membership founder community comparison",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Fellowship or Membership: How to Choose the Right Founder Community Model",
   description:
     "Fellowship programs like On Deck offer cohort-based structure with a defined arc. Membership-based communities offer ongoing, stage-specific matching without equity. This guide covers how each model works, what to evaluate before joining, and the honest trade-off between structure and initiative.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/dinner.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

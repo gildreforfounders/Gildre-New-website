@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/partnerships.webp",
+        width: 1414,
+        height: 888,
         alt: "Why Gildre charges 59 dollars a month instead of thousands, and why accessible pricing produces better founder outcomes than premium gatekeeping",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Why $59 Beats Gatekeeping: The Real Math Behind Accessible Founder Communities",
   description:
     "A first-person argument for radical accessibility in founder communities: why the premium gatekeeping model fails early-stage founders, what the $59/month Gildre model actually produces in outcomes and retention, and why frugality is a feature of high-caliber early-stage founders, not a bug.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/partnerships.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/community-group.webp",
+        width: 731,
+        height: 449,
         alt: "On Deck vs Gildre founder community comparison",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "On Deck vs. Gildre: What Founders Use When They Outgrow the Cohort Model",
   description:
     "A detailed comparison of On Deck, Pavilion, and Gildre across format, matching model, mentor access, equity structure, and pricing. Gildre is a private founder membership with weekly curated 1:1 introductions, no equity taken, mentors including Fritz Lanman and Chris Tsakalakis, and $5M+ in partner perks. Membership starts at $59/month.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/community-group.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

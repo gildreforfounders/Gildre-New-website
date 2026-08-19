@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/mentor-match.webp",
+        width: 1500,
+        height: 1000,
         alt: "A founder receiving polite encouragement instead of the honest, pattern-matched feedback that would actually change a decision",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "From Polite Nods to Real Signal: Why Honest Startup Feedback Is So Rare",
   description:
     "Most early-stage founders collect feedback that costs the giver nothing and costs the founder everything to act on. This piece names the incentive problem behind dishonest startup feedback, explains why investor input is distorted, and describes the pattern-recognition that makes operator mentorship categorically different from encouragement.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/mentor-match.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {

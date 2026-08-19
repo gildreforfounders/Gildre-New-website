@@ -40,9 +40,9 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
-        width: 1200,
-        height: 630,
+        url: "https://www.gildre.com/images/community/outdoors.webp",
+        width: 1500,
+        height: 1000,
         alt: "Founder working alone in the first two years, experiencing structural isolation from the loss of peer relationships and feedback loops",
       },
     ],
@@ -61,7 +61,7 @@ const articleSchema = {
   headline: "Why Founder Isolation Happens in the First Two Years (And Why It's Structural, Not Personal)",
   description:
     "Founder isolation in years one and two is a structural problem: the job removes the peer relationships, feedback loops, and comparison points that most professionals depend on. This piece names the exact mechanism behind it and explains what actually resolves it.",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/images/community/outdoors.webp",
   datePublished: "2026-08-07",
   dateModified: "2026-08-07",
   author: {
