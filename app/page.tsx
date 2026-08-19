@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com" },
-  title: "Gildre — Founder Community with Mentorship & Peer Matching",
+  title: "Gildre — Private Startup Founder Community with 1:1 Mentorship & Peer Matching",
   description:
-    "Join 250+ startup founders. Private community with 1:1 mentorship from exited operators, curated peer matching, and expert programming from pre-revenue to $5M ARR.",
+    "Join 250+ startup founders. Gildre is a private founder community offering 1:1 mentorship from exited operators, curated peer matching, and expert programming from pre-revenue to $5M+ ARR.",
   keywords: ["founder community", "startup mentorship", "startup founder community", "founder mentor", "peer matching founders", "entrepreneur community", "startup advisor", "Gildre"],
   openGraph: {
     title: "Gildre — Private Startup Founder Community with 1:1 Mentorship & Peer Matching",
