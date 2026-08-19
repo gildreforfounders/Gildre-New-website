@@ -321,6 +321,30 @@ const faqSchema = {
   ]
 };
 
+const authorSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Taiga Gamell",
+  "jobTitle": "Founder & CEO",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Gildre",
+    "url": "https://www.gildre.com"
+  },
+  "url": "https://www.gildre.com/founder-community",
+  "sameAs": [
+    "https://www.linkedin.com/in/taigagamell/",
+    "https://www.instagram.com/gildreforfounders"
+  ],
+  "knowsAbout": [
+    "Startup founder communities",
+    "Entrepreneurship",
+    "Startup mentorship",
+    "Peer matching for founders",
+    "Early-stage startups"
+  ]
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 font-sans">
@@ -335,6 +359,10 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(authorSchema) }}
       />
 
       {/* 1 — Hook: bold promise, hero image, dual CTA */}
