@@ -41,6 +41,8 @@ const schema = {
   description:
     "John Olson led complex healthcare teams, studied at Wharton, UC Davis, and Stanford, then left to build multiple businesses. His playbook: invest in peer groups, master delegation, and apply the 'Who Not How' framework.",
   image: "https://www.gildre.com/images/john-olson-headshot.webp",
+  datePublished: "2024-04-01",
+  dateModified: "2024-04-01",
   author: {
     "@type": "Person",
     name: "John Olson",

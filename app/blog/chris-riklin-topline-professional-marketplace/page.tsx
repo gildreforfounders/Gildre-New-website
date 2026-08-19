@@ -38,6 +38,8 @@ const schema = {
   description:
     "Chris Riklin spent ten years at NationBuilder watching talented professionals lose out to outdated hiring systems. So he co-founded Topline, a frictionless marketplace that lets the best professionals win on merit, not connections.",
   image: "https://www.gildre.com/images/chris-riklin-headshot.webp",
+  datePublished: "2025-03-01",
+  dateModified: "2025-03-01",
   author: {
     "@type": "Person",
     name: "Chris Riklin",

@@ -41,6 +41,8 @@ const schema = {
   description:
     "Elise Madrick left a career in executive education at Kellogg to found Cerenè, an immersive 108-day transformation program that takes leaders to Morocco and France to become someone new.",
   image: "https://www.gildre.com/images/elise-madrick-headshot.webp",
+  datePublished: "2025-06-01",
+  dateModified: "2025-06-01",
   author: {
     "@type": "Person",
     name: "Elise Madrick",
