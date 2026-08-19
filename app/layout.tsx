@@ -78,6 +78,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="alternate" type="application/rss+xml" title="Gildre — Founder Stories, Guides &amp; Insights" href="https://www.gildre.com/feed.xml" />
       </head>
       <body className="min-h-full flex flex-col">
         <Script
