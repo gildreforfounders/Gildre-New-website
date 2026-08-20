@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Five Things Driving Gildre's Growth Right Now: AI, Chapter Leads, and Zero Paid Ads",
+    category: "Growth",
+    readTime: "12 min read",
+    excerpt:
+      "Gildre is adding roughly one new member per day with no paid ads. Here are the five things that are actually working, from rebuilding the entire stack on Claude Code to partnering with founders inside the community, plus co-founder lessons and a five-step playbook for starting from scratch.",
+    href: "/blog/gildre-five-things-driving-growth-ai-no-paid-ads",
+  },
+  {
     title: "Founders Don't Need Fancy Dinners. They Need Someone Who Gets It.",
     category: "Mindset",
     readTime: "10 min read",
