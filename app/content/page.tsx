@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Founders Don't Need Fancy Dinners. They Need Someone Who Gets It.",
+    category: "Mindset",
+    readTime: "10 min read",
+    excerpt:
+      "Most founder communities are selling you a fantasy. A seat at a dinner table with people who already made it. Here is what founders in the messy middle actually need before Series A, and why authenticity is the competitive advantage nobody is building on.",
+    href: "/blog/founders-dont-need-fancy-dinners",
+  },
+  {
     title: "Nelson Brooks of Cabana Boys: From COVID Layoff to Shark Tank, Building Charisma Into a Business Model",
     category: "Leadership",
     readTime: "14 min read",
