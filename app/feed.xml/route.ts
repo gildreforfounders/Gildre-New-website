@@ -4,6 +4,7 @@ const BASE = "https://www.gildre.com";
 
 const posts = [
   // Blog — founder stories (sorted newest first)
+  { slug: "/blog/founders-dont-need-fancy-dinners",                      date: "2026-08-19", title: "Founders Don't Need Fancy Dinners. They Need Someone Who Gets It." },
   { slug: "/blog/nelson-brooks-cabana-boys-shark-tank-founder",          date: "2026-08-13", title: "Nelson Brooks of Cabana Boys: From COVID Layoff to Shark Tank" },
   { slug: "/blog/accelerator-vs-peer-community-founder-difference",       date: "2026-08-07", title: "Accelerator or Peer Community: The Real Difference Founders Miss" },
   { slug: "/blog/co-founder-startup-isolation-peer-scarcity-not-headcount", date: "2026-08-07", title: "From Co-Founder to Loneliest Job: Why Two People at the Helm Still Feel Isolated" },
