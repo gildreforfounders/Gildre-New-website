@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Jaythan Elam: From Farming Roots and a Coin Flip to Microsoft, AOL, and $300M in Startup Fundraising",
+    category: "Leadership",
+    readTime: "14 min read",
+    excerpt:
+      "Jaythan Elam grew up watching his parents bootstrap a nursery on the side of a Southern farm. A coin flip moved him to Wisconsin. A startup that forgot his interview made him employee number five before getting acquired by Microsoft. He eventually built Jointley, a design studio behind over $300M in startup fundraising, entirely through referrals.",
+    href: "/blog/jaythan-elam-jointley-startup-design-microsoft",
+  },
+  {
     title: "Five Things Driving Gildre's Growth Right Now: AI, Chapter Leads, and Zero Paid Ads",
     category: "Growth",
     readTime: "12 min read",
