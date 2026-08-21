@@ -4,6 +4,7 @@ const BASE = "https://www.gildre.com";
 
 const posts = [
   // Blog — founder stories (sorted newest first)
+  { slug: "/blog/nancy-yen-omielife-omiebox-24-million-bootstrapped",     date: "2026-08-21", title: "Nancy Yen: Bootstrapped OmieLife to $24 Million, Got Kylie Jenner to Post Without Being Asked, and Never Paid a Single Influencer" },
   { slug: "/blog/jaythan-elam-jointley-startup-design-microsoft",        date: "2026-08-21", title: "Jaythan Elam: From Farming Roots and a Coin Flip to Microsoft, AOL, and $300M in Startup Fundraising" },
   { slug: "/blog/gildre-five-things-driving-growth-ai-no-paid-ads",      date: "2026-08-20", title: "Five Things Driving Gildre's Growth Right Now: AI, Chapter Leads, and Zero Paid Ads" },
   { slug: "/blog/founders-dont-need-fancy-dinners",                      date: "2026-08-19", title: "Founders Don't Need Fancy Dinners. They Need Someone Who Gets It." },

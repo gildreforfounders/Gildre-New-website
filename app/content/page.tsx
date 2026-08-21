@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Nancy Yen: Bootstrapped OmieLife to $24 Million, Got Kylie Jenner to Post Without Being Asked, and Never Paid a Single Influencer",
+    category: "Growth",
+    readTime: "16 min read",
+    excerpt:
+      "Nancy Yen moved to the US from Taiwan at 9 without speaking English. Williams. Stanford MBA. Gap. LexisNexis. Then her son stopped eating his school lunch and she built OmieLife from scratch, bootstrapped to $24 million, into Target, and across 41 countries. Kylie Jenner posted about OmieBox to 64 million views. Nobody paid her to.",
+    href: "/blog/nancy-yen-omielife-omiebox-24-million-bootstrapped",
+  },
+  {
     title: "Jaythan Elam: From Farming Roots and a Coin Flip to Microsoft, AOL, and $300M in Startup Fundraising",
     category: "Leadership",
     readTime: "14 min read",
