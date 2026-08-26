@@ -207,6 +207,14 @@ const chapterLeads: { name: string; role: string; bio: string; linkedin: string;
     photo: "/team/brian-lee.jpg",
     color: "#3B6CC9",
   },
+  {
+    name: "Mikhail Reece",
+    role: "Founder, Integrow Ventures · Chapter Lead, Gildre Tampa",
+    bio: "Mikhail is a Tampa-based entrepreneur and operator with roots at Yale and a track record spanning business development, digital growth, and community leadership. As the founder of Integrow Ventures, he works with founders and professionals to align their identity, message, and action into a compounding growth flywheel. Before that, he scaled Atlas Digital USA's email marketing platform into new markets as VP of Sales. As President of the Yale Club of Tampa Bay, Mikhail has spent years building meaningful networks across the Bay Area's business community. He brings that same connective energy to Gildre Tampa, creating a room where founders can be honest about the hard parts and get real, tactical support from people who have been there.",
+    linkedin: "https://www.linkedin.com/in/mikhail-reece/",
+    photo: "/team/mikhail-reece.jpg",
+    color: "#C97B3B",
+  },
 ];
 
 export default function TampaPage() {
