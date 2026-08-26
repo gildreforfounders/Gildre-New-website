@@ -191,12 +191,6 @@ const faqItems = [
   },
 ];
 
-const peers: { name: string; title: string; company: string; photo: string; initials: string; color: string }[] = [
-  { name: "Coming Soon", title: "Founder", company: "Tampa Bay", photo: "", initials: "TS", color: "#3B6CC9" },
-  { name: "Coming Soon", title: "Founder", company: "Tampa Bay", photo: "", initials: "TS", color: "#C97B3B" },
-  { name: "Coming Soon", title: "Founder", company: "Tampa Bay", photo: "", initials: "TS", color: "#3BC97B" },
-  { name: "Coming Soon", title: "Founder", company: "Tampa Bay", photo: "", initials: "TS", color: "#7B3BC9" },
-];
 
 const chapterLeads: { name: string; role: string; bio: string; linkedin: string; photo: string; color: string }[] = [
   {
@@ -246,7 +240,7 @@ export default function TampaPage() {
             Tampa builds quietly and wins loudly. Gildre is where those founders find each other.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Gildre is a private founder membership for Tampa Bay&rsquo;s active builders. Monthly dinners. Weekly introductions made by hand. A room with standards.
+            Gildre is a private founder community for Tampa&rsquo;s most active builders. Curated dinners. Weekly introductions made by hand. A room with standards for serious founders.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -331,61 +325,6 @@ export default function TampaPage() {
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
                   {v.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Member Spotlight ─────────────────────────────────────────── */}
-      <section className="px-6 py-24" style={{ backgroundColor: "#080e1a" }}>
-        <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>
-            Your Future Peers
-          </p>
-          <h2
-            className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]"
-            style={{ fontFamily: "var(--font-fraunces)" }}
-          >
-            The curated founder room designed to<br />unblock your growth.
-          </h2>
-          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Gildre members are hand-selected founders, operators, and builders who are active,
-            giving, and at your level. Not LinkedIn connections. Actual peers.
-          </p>
-
-          {/* Peer grid */}
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {peers.map((p, i) => (
-              <div
-                key={i}
-                className="rounded-2xl p-5 text-center"
-                style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}
-              >
-                <div className="relative mx-auto h-16 w-16 overflow-hidden rounded-full ring-2 ring-[#C9A96E]/30">
-                  {p.photo ? (
-                    <Image
-                      src={p.photo}
-                      alt={p.name}
-                      fill
-                      sizes="64px"
-                      className="object-cover object-top"
-                    />
-                  ) : (
-                    <div
-                      className="flex h-full w-full items-center justify-center text-lg font-bold text-white"
-                      style={{ backgroundColor: p.color }}
-                    >
-                      {p.initials}
-                    </div>
-                  )}
-                </div>
-                <p className="mt-3 text-sm font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-                  {p.name}
-                </p>
-                <p className="mt-0.5 text-[0.65rem]" style={{ color: "rgba(255,255,255,0.4)" }}>
-                  {p.company ? `${p.title} · ${p.company}` : p.title}
                 </p>
               </div>
             ))}
