@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Steve Rolle: From Military Side Hustle to $100M and the Playbook Every Bootstrapped Founder Needs",
+    category: "Leadership",
+    readTime: "16 min read",
+    excerpt:
+      "A former U.S. Army combat engineer who built $100M in sales as a side hustle while working 18-hour days breaks down identity, motivation, and the only way to scale a capital-constrained business. Plus his motivation formula: Value times Belief times Immediacy divided by Friction.",
+    href: "/blog/steve-rolle-military-side-hustle-100-million-future-you-choose",
+  },
+  {
     title: "Nancy Yen: Bootstrapped OmieLife to $24 Million, Got Kylie Jenner to Post Without Being Asked, and Never Paid a Single Influencer",
     category: "Growth",
     readTime: "16 min read",
