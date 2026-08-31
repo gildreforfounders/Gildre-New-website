@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/partners" },
@@ -34,7 +35,23 @@ export const metadata: Metadata = {
   },
 };
 
-const partners = [
+type LogoImage = { type: "image"; src: string; width: number; height: number; alt: string };
+type LogoText = { type: "text"; label: string };
+type LogoMark = LogoImage | LogoText;
+
+type Partner = {
+  category: string;
+  slug: string;
+  href: string;
+  name: string;
+  tagline: string;
+  perk: string;
+  description: string;
+  external: boolean;
+  logo: LogoMark;
+};
+
+const partners: Partner[] = [
   {
     category: "Capital & Banking",
     slug: "leader-bank",
@@ -45,6 +62,7 @@ const partners = [
     description:
       "Leader Bank is Gildre's official banking partner. Startup deposit accounts, a $1.5M+ startup discount toolkit, and Leader Link, their curated investor matching program, for founders who need more than a place to park their runway.",
     external: false,
+    logo: { type: "text", label: "Leader Bank" },
   },
   {
     category: "Global Operations & Legal",
@@ -56,6 +74,7 @@ const partners = [
     description:
       "G-P is the world's leading Employer of Record platform. Hire, pay, and manage talent in 180+ countries without setting up a legal entity. G-P Gia, their AI HR agent, handles onboarding through offboarding.",
     external: false,
+    logo: { type: "text", label: "G-P" },
   },
   {
     category: "Global Operations & Legal",
@@ -67,17 +86,19 @@ const partners = [
     description:
       "One of the most active startup law firms in the US. Lowenstein Sandler's ECVC team represents both founders and investors, which means they know exactly what the other side of your cap table is thinking. Plus access to VentureCrush.",
     external: false,
+    logo: { type: "text", label: "LS" },
   },
   {
     category: "Community & AI Tools",
     slug: "gatherly",
-    href: "/gatherlypartnership",
+    href: "/gatherly",
     name: "Gatherly",
     tagline: "Virtual events that actually feel like a room.",
     perk: "Preferred access for Gildre-hosted events",
     description:
       "Gatherly's spatial video platform powers the virtual component of Gildre's events. Think networking that mimics a real room: walk up to conversations, drift between groups, leave when you're done.",
     external: true,
+    logo: { type: "image", src: "/images/gatherly/gatherly-logo.png", width: 110, height: 34, alt: "Gatherly" },
   },
   {
     category: "Community & AI Tools",
@@ -89,6 +110,7 @@ const partners = [
     description:
       "Matchplay Group curates golf experiences specifically for founders and operators. A round with the right people is worth more than a year of cold outreach. Gildre members get access to curated outings and introductions.",
     external: true,
+    logo: { type: "text", label: "Matchplay" },
   },
   {
     category: "Community & AI Tools",
@@ -100,6 +122,7 @@ const partners = [
     description:
       "Solvee is an AI business coaching platform built for founders who need a thinking partner between peer sessions. Strategy questions, accountability, and decision frameworks, on demand.",
     external: true,
+    logo: { type: "text", label: "Solvee" },
   },
   {
     category: "Community & AI Tools",
@@ -111,6 +134,7 @@ const partners = [
     description:
       "MindHappy delivers performance coaching and mental wellness support built specifically for the founder lifestyle. Because sustained execution requires more than a productivity system.",
     external: true,
+    logo: { type: "image", src: "/images/mindhappy-logo.png", width: 110, height: 34, alt: "MindHappy" },
   },
 ];
 
@@ -121,6 +145,35 @@ const categoryColors: Record<string, string> = {
   "Global Operations & Legal": "#7B6FF0",
   "Community & AI Tools": "#C9A96E",
 };
+
+function PartnerLogo({ logo }: { logo: LogoMark }) {
+  if (logo.type === "image") {
+    return (
+      <div
+        className="mb-4 flex h-10 items-center rounded-lg px-3 self-start"
+        style={{ backgroundColor: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)" }}
+      >
+        <Image
+          src={logo.src}
+          alt={logo.alt}
+          width={logo.width}
+          height={logo.height}
+          className="h-6 w-auto object-contain"
+        />
+      </div>
+    );
+  }
+  return (
+    <div
+      className="mb-4 flex h-10 items-center self-start rounded-lg px-4"
+      style={{ backgroundColor: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)" }}
+    >
+      <span className="text-sm font-bold tracking-tight text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
+        {logo.label}
+      </span>
+    </div>
+  );
+}
 
 export default function PartnersPage() {
   return (
@@ -182,9 +235,9 @@ export default function PartnersPage() {
       >
         <div className="mx-auto max-w-4xl grid grid-cols-2 gap-6 sm:grid-cols-4">
           {[
-            { value: "7", label: "Curated Partners" },
+            { value: "7", label: "Core Ecosystem Partners" },
             { value: "3", label: "Categories" },
-            { value: "$1.5M+", label: "In Member Perks" },
+            { value: "$5M+", label: "In Member Perks" },
             { value: "180+", label: "Countries Covered" },
           ].map((s) => (
             <div key={s.label} className="text-center">
@@ -223,7 +276,7 @@ export default function PartnersPage() {
                     <a
                       key={partner.slug}
                       href={partner.href}
-                      className="group flex flex-col gap-4 rounded-2xl p-7 transition-all duration-200 hover:border-opacity-40"
+                      className="group flex flex-col gap-4 rounded-2xl p-7 transition-all duration-200"
                       style={{
                         backgroundColor: "rgba(255,255,255,0.025)",
                         border: "1px solid rgba(255,255,255,0.07)",
@@ -238,7 +291,10 @@ export default function PartnersPage() {
                         (e.currentTarget as HTMLElement).style.border = "1px solid rgba(255,255,255,0.07)";
                       }}
                     >
-                      {/* Partner name */}
+                      {/* Partner logo or mark */}
+                      <PartnerLogo logo={partner.logo} />
+
+                      {/* Partner name + arrow */}
                       <div className="flex items-start justify-between gap-4">
                         <div>
                           <p
@@ -251,9 +307,7 @@ export default function PartnersPage() {
                             {partner.tagline}
                           </p>
                         </div>
-                        <div
-                          className="mt-0.5 flex-shrink-0 text-zinc-600 transition-colors group-hover:text-[#C9A96E]"
-                        >
+                        <div className="mt-0.5 flex-shrink-0 text-zinc-600 transition-colors group-hover:text-[#C9A96E]">
                           <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd" />
                           </svg>

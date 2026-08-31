@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/mindhappy`,                    lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/solvee`,                       lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/podcast`,                      lastModified: new Date(), changeFrequency: "weekly",  priority: 0.7 },
-    { url: `${BASE_URL}/gatherlypartnership`,           lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/gatherly`,                       lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/matchplaygroup`,               lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/privacy`,                      lastModified: new Date(), changeFrequency: "yearly",  priority: 0.3 },
     // City pages
