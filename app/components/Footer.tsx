@@ -121,11 +121,10 @@ export default function Footer() {
             </ul>
             <p className="mt-6 text-[0.6rem] font-bold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>Partners</p>
             <ul className="mt-4 space-y-2.5">
-              <li><a href="/gatherlypartnership" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Gatherly</a></li>
-              <li><a href="/matchplaygroup" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Matchplay Group</a></li>
-              <li><a href="/propellantventures" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Propellant Ventures</a></li>
-              <li><a href="/solvee" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">solvee AI</a></li>
-              <li><a href="/mindhappy" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">MindHappy</a></li>
+              <li><a href="/partners" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Partner Network</a></li>
+              <li><a href="/partners/leader-bank" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Leader Bank</a></li>
+              <li><a href="/partners/g-p" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">G-P</a></li>
+              <li><a href="/partners/lowenstein-sandler" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Lowenstein Sandler</a></li>
             </ul>
           </div>
         </div>
