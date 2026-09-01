@@ -178,6 +178,10 @@ function PartnerLogo({ logo }: { logo: LogoMark }) {
 export default function PartnersPage() {
   return (
     <div style={{ backgroundColor: "#0f1524", minHeight: "100vh" }}>
+      <style>{`
+        .partner-card { background-color: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.07); }
+        .partner-card:hover { background-color: rgba(201,169,110,0.04) !important; border: 1px solid rgba(201,169,110,0.2) !important; }
+      `}</style>
 
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section
@@ -276,20 +280,8 @@ export default function PartnersPage() {
                     <a
                       key={partner.slug}
                       href={partner.href}
-                      className="group flex flex-col gap-4 rounded-2xl p-7 transition-all duration-200"
-                      style={{
-                        backgroundColor: "rgba(255,255,255,0.025)",
-                        border: "1px solid rgba(255,255,255,0.07)",
-                        textDecoration: "none",
-                      }}
-                      onMouseEnter={(e) => {
-                        (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(201,169,110,0.04)";
-                        (e.currentTarget as HTMLElement).style.border = "1px solid rgba(201,169,110,0.2)";
-                      }}
-                      onMouseLeave={(e) => {
-                        (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.025)";
-                        (e.currentTarget as HTMLElement).style.border = "1px solid rgba(255,255,255,0.07)";
-                      }}
+                      className="partner-card group flex flex-col gap-4 rounded-2xl p-7 transition-all duration-200"
+                      style={{ textDecoration: "none" }}
                     >
                       {/* Partner logo or mark */}
                       <PartnerLogo logo={partner.logo} />
