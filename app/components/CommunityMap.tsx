@@ -6,7 +6,7 @@ import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps
 
 const GEO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
-const CHAPTERS = new Set(["New York City", "Chicago", "San Francisco", "Austin", "Boston"]);
+const CHAPTERS = new Set(["New York City", "Chicago", "San Francisco", "Austin", "Boston", "Tampa"]);
 const GROWING = new Set(["Seattle", "Los Angeles"]);
 
 const CITY_SLUGS: Record<string, string> = {
@@ -17,6 +17,7 @@ const CITY_SLUGS: Record<string, string> = {
   "Boston": "/boston",
   "Seattle": "/seattle",
   "Los Angeles": "/la",
+  "Tampa": "/tampa",
 };
 
 const cities: { name: string; coords: [number, number] }[] = [
@@ -31,6 +32,7 @@ const cities: { name: string; coords: [number, number] }[] = [
   { name: "Seattle",        coords: [-122.332, 47.606] },
   { name: "Portland",       coords: [-122.677, 45.523] },
   { name: "Denver",         coords: [-104.990, 39.739] },
+  { name: "Tampa",          coords: [-82.457,  27.951] },
   { name: "Miami",          coords: [-80.192,  25.762] },
   { name: "Toronto",        coords: [-79.383,  43.653] },
   { name: "Minneapolis",    coords: [-93.265,  44.978] },
@@ -115,7 +117,7 @@ export default function CommunityMap() {
           <span style={{ color: "#C9A96E" }}>Founders Connect</span>
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-white/50">
-          250+ members across 74 cities and 5 core in-person chapters.
+          250+ members across 74 cities and 6 core in-person chapters.
         </p>
       </div>
 
@@ -313,7 +315,7 @@ export default function CommunityMap() {
       <div className="mt-8 flex flex-wrap items-center justify-center gap-6 sm:gap-10 px-6">
         {[
           { label: "Active Members", value: "250+" },
-          { label: "In-Person Chapters", value: "5" },
+          { label: "In-Person Chapters", value: "6" },
           { label: "Countries", value: "8+" },
         ].map((s) => (
           <div key={s.label} className="text-center">

@@ -299,7 +299,7 @@ const faqSchema = {
       "name": "What cities does Gildre operate in?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, and Seattle. Virtual membership is available worldwide. In-person events for Gold and Platinum members include founder dinners, Match House networking events with tech-powered matching and automated follow-ups, team building experiences like escape rooms, co-hosted startup events, BBQs, and investor office hours."
+        "text": "Gildre has active founder communities in 15+ US cities including Boston, New York City, San Francisco Bay Area, Los Angeles, Austin, Chicago, Seattle, and Tampa. Virtual membership is available worldwide. In-person events for Gold and Platinum members include founder dinners, Match House networking events with tech-powered matching and automated follow-ups, team building experiences like escape rooms, co-hosted startup events, BBQs, and investor office hours."
       }
     },
     {
