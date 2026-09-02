@@ -102,6 +102,7 @@ export default function Footer() {
               <li><a href="/la" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Los Angeles</a></li>
               <li><a href="/nyc" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">New York City</a></li>
               <li><a href="/seattle" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Seattle</a></li>
+              <li><a href="/tampa" className="text-xs text-zinc-500 transition-colors hover:text-zinc-300">Tampa</a></li>
             </ul>
           </div>
           <div>

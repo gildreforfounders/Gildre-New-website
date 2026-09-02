@@ -289,8 +289,7 @@ export default function CommunityMap() {
               backgroundColor: "rgba(201,169,110,0.1)",
               border: "1px solid rgba(201,169,110,0.3)",
               color: "#C9A96E",
-            }}
-           target="_blank" rel="noopener noreferrer">
+            }}>
             {c}
           </Link>
         ))}
@@ -303,8 +302,7 @@ export default function CommunityMap() {
               backgroundColor: "rgba(201,169,110,0.04)",
               border: "1px dashed rgba(201,169,110,0.3)",
               color: "rgba(201,169,110,0.6)",
-            }}
-           target="_blank" rel="noopener noreferrer">
+            }}>
             {c}
             <span className="text-[0.55rem] font-bold tracking-wider" style={{ color: "rgba(201,169,110,0.5)" }}>GROWING</span>
           </Link>

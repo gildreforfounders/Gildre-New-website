@@ -21,6 +21,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.gildre.com"),
   title: "Gildre — The Home for Founders Who Execute",
   description: "Get direct access to members, founders, and the insights you need to build with certainty.",
   icons: {
