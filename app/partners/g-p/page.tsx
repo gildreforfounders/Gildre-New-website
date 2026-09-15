@@ -174,8 +174,8 @@ export default function GPPage() {
         </div>
       </section>
 
-      {/* ── Why Gildre Chose Them ────────────────────────────────────── */}
-      <section className="px-6 py-20" style={{ backgroundColor: "#080e1a" }}>
+      {/* ── Why G-P + What We Use It For (consolidated) ─────────────── */}
+      <section className="px-6 py-24" style={{ backgroundColor: "#080e1a" }}>
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Why We Chose Them</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
@@ -184,36 +184,16 @@ export default function GPPage() {
           <p className="mx-auto mt-5 max-w-2xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
             As Gildre members scale, the talent they need is increasingly global. We built this partnership so founders have the infrastructure, compliance coverage, and direct access to make international hiring as straightforward as hiring locally.
           </p>
-          <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-3">
             {[
-              { heading: "Expand into New Markets Without Local Entities", body: "Eliminate the months of delay and massive legal overhead of establishing overseas subsidiaries. G-P's Employer of Record infrastructure enables Gildre founders to recruit and onboard top global talent in over 180 countries in a matter of days." },
-              { heading: "Mitigate International Employment Risk", body: "Manage global team operations with total confidence. G-P handles automated payroll, local tax withholdings, competitive regional benefits, and country-specific labor laws so your startup stays 100% compliant." },
-              { heading: "Exclusive Perks for Gildre Members", body: "Gildre founders receive direct, warm introductions to G-P's dedicated startup strategy team, priority platform onboarding, and preferred member pricing across global hiring suites." },
+              { icon: features[0].icon, heading: "Expand into New Markets Without Local Entities", body: "Eliminate the months of delay and massive legal overhead of establishing overseas subsidiaries. G-P's Employer of Record infrastructure enables Gildre founders to recruit and onboard top global talent in over 180 countries in a matter of days." },
+              { icon: features[2].icon, heading: "Mitigate International Employment Risk", body: "Manage global team operations with total confidence. G-P handles automated payroll, local tax withholdings, competitive regional benefits, and country-specific labor laws so your startup stays 100% compliant." },
+              { icon: features[3].icon, heading: "Exclusive Perks for Gildre Members", body: "Gildre founders receive direct, warm introductions to G-P's dedicated startup strategy team, priority platform onboarding, and preferred member pricing across global hiring suites." },
             ].map((item) => (
-              <div key={item.heading} className="rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
+              <div key={item.heading} className="flex flex-col gap-4 rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl flex-shrink-0" style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "#C9A96E" }}>{item.icon}</div>
                 <h3 className="text-base font-bold text-white" style={{ fontFamily: "var(--font-fraunces)" }}>{item.heading}</h3>
-                <p className="mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{item.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Feature deep-dives ───────────────────────────────────────── */}
-      <section className="px-6 py-24" style={{ backgroundColor: "#0f1524" }}>
-        <div className="mx-auto max-w-5xl">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>What We Use It For</p>
-          <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Four things G-P does that no other partner can.
-          </h2>
-          <div className="mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {features.map((feature) => (
-              <div key={feature.title} className="flex flex-col gap-5 rounded-2xl p-8" style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(201,169,110,0.12)" }}>
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl flex-shrink-0" style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "#C9A96E" }}>{feature.icon}</div>
-                <div>
-                  <h3 className="text-[1.1rem] font-bold text-white leading-snug" style={{ fontFamily: "var(--font-fraunces)" }}>{feature.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>{feature.body}</p>
-                </div>
+                <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>{item.body}</p>
               </div>
             ))}
           </div>
@@ -262,7 +242,7 @@ export default function GPPage() {
           <p className="text-[1.2rem] leading-relaxed text-white font-medium" style={{ fontFamily: "var(--font-fraunces)" }}>
             The best person for a role isn&rsquo;t always in the same country as your office. G-P removes the single biggest reason founders settle for the second-best hire: the cost and complexity of hiring internationally. Our members shouldn&rsquo;t have that as a constraint.
           </p>
-          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Taiga Gamell, Founder, Gildre</p>
+          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Michael, Gildre Member</p>
         </div>
       </section>
 

@@ -159,12 +159,12 @@ export default function LeaderBankPage() {
         <div className="mx-auto max-w-4xl grid grid-cols-2 gap-6 sm:grid-cols-4">
           {[
             { value: "$1.5M+", label: "Partner Discounts" },
-            { value: "Pre-Seed → IPO", label: "Stages Served" },
+            { value: "Pre-Seed → IPO", label: "Stages Served" },
             { value: "22+", label: "Years Banking Founders" },
             { value: "1 Partner", label: "For Startup Banking" },
           ].map((s) => (
             <div key={s.label} className="text-center">
-              <p className="text-2xl font-bold sm:text-3xl" style={{ fontFamily: "var(--font-fraunces)", color: "#C9A96E" }}>
+              <p className="text-2xl font-bold sm:text-3xl" style={{ fontFamily: "var(--font-fraunces)", color: "#C9A96E", whiteSpace: s.label === "Stages Served" ? "nowrap" : undefined }}>
                 {s.value}
               </p>
               <p className="mt-1 text-xs uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.4)" }}>
@@ -318,7 +318,7 @@ export default function LeaderBankPage() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="text-5xl mb-6" style={{ color: "rgba(201,169,110,0.35)", fontFamily: "Georgia, serif", lineHeight: 1 }}>&ldquo;</div>
           <p className="text-[1.2rem] leading-relaxed text-white font-medium" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Most founders open a bank account at whoever was convenient when they incorporated. We wanted to give our members something better: a banking partner that actually understands the pre-revenue stage and has real infrastructure to help them grow.
+            Many founders open a bank account based on convenience when they first incorporated. We wanted to give our members something better: a banking partner that actually understands the early revenue &amp; growth stages and has real access to help them grow.
           </p>
           <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Taiga Gamell, Founder, Gildre</p>
         </div>
@@ -338,7 +338,7 @@ export default function LeaderBankPage() {
             Bank where founders bank.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Gildre members get a warm introduction to Leader Bank&rsquo;s startup banking team, access to the innovation toolkit, and a curated path into Leader Link. Apply for membership to get started, or visit Leader Bank directly.
+            Gildre members get a warm introduction to Leader Bank&rsquo;s startup banking team, access to the innovation toolkit, and a curated path into Leader Link which matches them with investors through the banking network. Apply for membership to get started, or visit Leader Bank directly.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-4 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
