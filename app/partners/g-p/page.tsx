@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata = {
   alternates: { canonical: "https://www.gildre.com/partners/g-p" },
-  title: "Gildre × G-P | Unlock Borderless Growth for Founders",
+  title: "Gildre × G-P | Unlock Global Expansion for Founders",
   description:
-    "Gildre has partnered with G-P, the recognized leader in Global Employment Products, to help founders hire and pay global talent in 180+ countries quickly, compliantly, and without setting up foreign legal entities.",
+    "Gildre partners with G-P to help founders scale overseas teams. Hire full-time team members and contractors in 180+ countries quickly, compliantly, and without establishing local legal entities.",
   keywords: [
     "G-P Globalization Partners",
     "employer of record startup",
@@ -17,7 +17,7 @@ export const metadata = {
     "global employment platform founders",
   ],
   openGraph: {
-    title: "Gildre × G-P | Unlock Borderless Growth for Founders",
+    title: "Gildre × G-P | Unlock Global Expansion for Founders",
     description: "Gildre and G-P help founders hire and pay global talent in 180+ countries, compliantly and without setting up foreign legal entities.",
     url: "https://www.gildre.com/partners/g-p",
     siteName: "Gildre",
@@ -26,7 +26,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gildre × G-P | Unlock Borderless Growth for Founders",
+    title: "Gildre × G-P | Unlock Global Expansion for Founders",
     description: "Gildre and G-P help founders hire and pay global talent in 180+ countries without setting up foreign legal entities.",
   },
 };
@@ -104,11 +104,11 @@ export default function GPPage() {
             </div>
           </div>
           <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-[1.08] text-white" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Unlock Borderless Growth:
-            <span style={{ color: "#C9A96E" }}> Hire and Pay Global Talent with Gildre &amp; G-P.</span>
+            Unlock Global Expansion:
+            <span style={{ color: "#C9A96E" }}> Scale Overseas Teams with Gildre &amp; G-P.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Gildre has partnered with G-P, the recognized leader in Global Employment Products, to help our founders navigate international expansion. Hire full-time team members and contractors in 180+ countries quickly, compliantly, and without setting up foreign legal entities.
+            Gildre partners with G-P to help founders navigate international scaling. Hire full-time team members and contractors in 180+ countries quickly, compliantly, and without establishing local legal entities.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="https://tally.so/r/VLERVa" target="_blank" rel="noopener noreferrer" className="rounded-full px-9 py-3.5 text-sm font-bold transition-opacity hover:opacity-90" style={{ backgroundColor: "#C9A96E", color: "#1C2744" }}>
@@ -151,6 +151,9 @@ export default function GPPage() {
                 G-P (Globalization Partners) is the world&rsquo;s leading Employer of Record platform, enabling companies to hire and employ talent in 180+ countries without establishing a local legal entity. Founded in 2012, G-P pioneered the EOR model and has spent over a decade building the compliance infrastructure, local expertise, and technology that makes international hiring actually work.
               </p>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
+                G-P is the #1 EOR according to all industry analyst reports. The G-P platform integrates global employment workflows directly into existing HR systems, removing legal overhead and entity setup delays that stall international market entry.
+              </p>
+              <p className="mt-4 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
                 For founders scaling beyond their home market, G-P removes the single biggest barrier: the months-long, costly process of setting up a foreign entity just to hire one or two people. You find the talent. G-P handles the rest.
               </p>
             </div>
@@ -179,16 +182,17 @@ export default function GPPage() {
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-center" style={{ color: "#C9A96E" }}>Why We Chose Them</p>
           <h2 className="mt-3 text-center text-[1.75rem] font-bold leading-tight text-white sm:text-[2.25rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-            Three things the Gildre &times; G-P partnership<br className="hidden sm:block" /> does that no other combination can.
+            How the Gildre and G-P partnership<br className="hidden sm:block" /> accelerates your international scaling.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-center text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
             As Gildre members scale, the talent they need is increasingly global. We built this partnership so founders have the infrastructure, compliance coverage, and direct access to make international hiring as straightforward as hiring locally.
           </p>
-          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-3">
+          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {[
-              { icon: features[0].icon, heading: "Expand into New Markets Without Local Entities", body: "Eliminate the months of delay and massive legal overhead of establishing overseas subsidiaries. G-P's Employer of Record infrastructure enables Gildre founders to recruit and onboard top global talent in over 180 countries in a matter of days." },
-              { icon: features[2].icon, heading: "Mitigate International Employment Risk", body: "Manage global team operations with total confidence. G-P handles automated payroll, local tax withholdings, competitive regional benefits, and country-specific labor laws so your startup stays 100% compliant." },
-              { icon: features[3].icon, heading: "Exclusive Perks for Gildre Members", body: "Gildre founders receive direct, warm introductions to G-P's dedicated startup strategy team, priority platform onboarding, and preferred member pricing across global hiring suites." },
+              { icon: features[0].icon, heading: "Expand into new markets without entities", body: "G-P EOR lets Gildre founders recruit and onboard top global talent across 180+ countries in minutes, without establishing a local entity." },
+              { icon: features[2].icon, heading: "Mitigate international employment risk", body: "G-P handles automated payroll, local tax withholdings, competitive regional benefits, and country-specific labor laws to protect your business from liability." },
+              { icon: features[3].icon, heading: "Access exclusive startup perks", body: "Gildre founders receive warm introductions to dedicated strategy teams, priority platform onboarding, and preferred pricing across global hiring suites." },
+              { icon: features[1].icon, heading: "Deploy compliant contracts in 48 hours", body: "Generate localized employment contracts instantly and start onboarding international talent in as little as 48 hours through the Gildre member portal." },
             ].map((item) => (
               <div key={item.heading} className="flex flex-col gap-4 rounded-2xl p-7" style={{ backgroundColor: "rgba(201,169,110,0.04)", border: "1px solid rgba(201,169,110,0.12)" }}>
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl flex-shrink-0" style={{ backgroundColor: "rgba(201,169,110,0.1)", color: "#C9A96E" }}>{item.icon}</div>
@@ -207,7 +211,7 @@ export default function GPPage() {
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em]" style={{ color: "#C9A96E" }}>How It Works Together</p>
               <h2 className="mt-3 text-[1.75rem] font-bold leading-tight text-white sm:text-[2rem]" style={{ fontFamily: "var(--font-fraunces)" }}>
-                Gildre builds the founder network. G-P removes the borders from your hiring.
+                Gildre builds the founder network while G-P lets you scale global teams.
               </h2>
               <p className="mt-5 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
                 Gildre members get a direct, warm introduction to G-P&rsquo;s dedicated startup strategy team. From there, onboarding is fast: compliant employment contracts are generated quickly, and your first international hire can be live in as little as 48 hours.
@@ -217,7 +221,7 @@ export default function GPPage() {
               {[
                 { stage: "Request the Perk", detail: "Schedule time with our G-P Partner, Aeryn Cagle, in the Expert-in-Residence section of the Gildre platform. Gildre members get a direct, warm introduction to G-P's dedicated startup strategy team." },
                 { stage: "Deploy & Scale", detail: "Generate compliant employment contracts and start onboarding talent in as little as 48 hours. G-P handles payroll, benefits, local tax, and compliance in every market, so you can focus on the work." },
-                { stage: "Scale Without Borders", detail: "As your team grows across markets, G-P's platform scales with you: one dashboard, every country, full compliance coverage from day one hire to a global team." },
+                { stage: "Expand into new markets", detail: "As your business expands internationally, the G-P platform scales with you, delivering centralized visibility and total compliance coverage in every market." },
               ].map((step, i, arr) => (
                 <div key={step.stage} className="flex gap-5">
                   <div className="flex flex-col items-center">
