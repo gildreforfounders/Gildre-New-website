@@ -80,6 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/zero-to-500k-arr-why-generic-startup-advice-fails`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     { url: `${BASE_URL}/blog/gildre-july-2026-25-percent-growth-zero-churn-product-market-fit`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/blog/why-59-dollars-beats-gatekeeping-accessible-founder-community`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/invisible-founder-economy-side-hustle-register-llc`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     // Guides & articles
     { url: `${BASE_URL}/guides/building-products-that-scale`,                 lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/micro-influencer-marketing`,                   lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
