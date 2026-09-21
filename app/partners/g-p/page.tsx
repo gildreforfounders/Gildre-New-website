@@ -246,7 +246,7 @@ export default function GPPage() {
           <p className="text-[1.2rem] leading-relaxed text-white font-medium" style={{ fontFamily: "var(--font-fraunces)" }}>
             The best person for a role isn&rsquo;t always in the same country as your office. G-P removes the single biggest reason founders settle for the second-best hire: the cost and complexity of hiring internationally. Our members shouldn&rsquo;t have that as a constraint.
           </p>
-          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Michael, Gildre Member</p>
+          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Michael Frank, Gildre Co-Founder</p>
         </div>
       </section>
 
