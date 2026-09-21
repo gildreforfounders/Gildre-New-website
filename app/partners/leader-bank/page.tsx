@@ -320,7 +320,7 @@ export default function LeaderBankPage() {
           <p className="text-[1.2rem] leading-relaxed text-white font-medium" style={{ fontFamily: "var(--font-fraunces)" }}>
             Many founders open a bank account based on convenience when they first incorporated. We wanted to give our members something better: a banking partner that actually understands the early revenue &amp; growth stages and has real access to help them grow.
           </p>
-          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Taiga Gamell, Founder, Gildre</p>
+          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Taiga Gamell, Gildre Co-Founder</p>
         </div>
       </section>
 

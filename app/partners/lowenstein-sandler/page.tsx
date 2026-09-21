@@ -263,7 +263,7 @@ export default function LowensteinSandlerPage() {
           <p className="text-[1.2rem] leading-relaxed text-white font-medium" style={{ fontFamily: "var(--font-fraunces)" }}>
             Most founders get legal advice from someone who only sees one side of the table. Lowenstein Sandler has sat on both sides of hundreds of deals, which means they know where the real risk is and where founders tend to give away more than they need to.
           </p>
-          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Taiga Gamell, Founder, Gildre</p>
+          <p className="mt-6 text-sm font-semibold" style={{ color: "#C9A96E" }}>Taiga Gamell, Gildre Co-Founder</p>
         </div>
       </section>
 
