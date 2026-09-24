@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://www.gildre.com/bayarea",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in the San Francisco Bay Area" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre founder community in the San Francisco Bay Area" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -41,7 +41,7 @@ const schema = {
       name: "Gildre — San Francisco Bay Area",
       url: "https://www.gildre.com/bayarea",
       logo: "https://www.gildre.com/images/gildre-logo.png",
-      image: "https://www.gildre.com/og-home.png",
+      image: "https://www.gildre.com/opengraph-image.png",
       description:
         "Gildre is a private founder membership community in the San Francisco Bay Area. Gildre SF hosts monthly founder dinners and curated events throughout the Bay Area for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",

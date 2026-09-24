@@ -27,7 +27,7 @@ export const metadata = {
     url: "https://www.gildre.com/tampa",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Tampa" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre founder community in Tampa" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -45,7 +45,7 @@ const schema = {
       name: "Gildre — Tampa",
       url: "https://www.gildre.com/tampa",
       logo: "https://www.gildre.com/images/gildre-logo.png",
-      image: "https://www.gildre.com/og-home.png",
+      image: "https://www.gildre.com/opengraph-image.png",
       description:
         "Gildre is a private founder membership community in Tampa, FL. Gildre Tampa hosts monthly founder dinners and curated events throughout the Tampa Bay area for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",

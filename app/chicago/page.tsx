@@ -25,7 +25,7 @@ export const metadata = {
     url: "https://www.gildre.com/chicago",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community in Chicago" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre founder community in Chicago" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -43,7 +43,7 @@ const schema = {
       name: "Gildre — Chicago",
       url: "https://www.gildre.com/chicago",
       logo: "https://www.gildre.com/images/gildre-logo.png",
-      image: "https://www.gildre.com/og-home.png",
+      image: "https://www.gildre.com/opengraph-image.png",
       description:
         "Gildre is a private founder membership community in Chicago, IL. Gildre Chicago hosts monthly founder dinners and curated events throughout the city for tech CEOs and early-stage startup founders, alongside weekly curated peer matches, expert mentorship, and warm investor introductions.",
       email: "info@gildre.com",

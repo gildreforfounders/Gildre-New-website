@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.gildre.com/membership",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre membership tiers" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre membership tiers" }],
   },
   twitter: {
     card: "summary_large_image",

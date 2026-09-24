@@ -22,7 +22,7 @@ export const metadata = {
     url: "https://www.gildre.com/partners/g-p",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre x G-P Partnership" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre x G-P Partnership" }],
   },
   twitter: {
     card: "summary_large_image",

@@ -30,7 +30,7 @@ export const metadata = {
     url: "https://www.gildre.com/podcast",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Start to Scale Podcast by Gildre" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Start to Scale Podcast by Gildre" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -998,7 +998,7 @@ const schema = {
   description:
     "Start to Scale is Gildre's founder interview podcast — real conversations with founders who have scaled companies, raised capital, and know what actually works.",
   url: "https://www.gildre.com/podcast",
-  image: "https://www.gildre.com/og-home.png",
+  image: "https://www.gildre.com/opengraph-image.png",
   author: { "@type": "Person", name: "Taiga Gamell" },
   publisher: { "@type": "Organization", name: "Gildre", url: "https://www.gildre.com" },
   webFeed: "https://anchor.fm/s/gildre-spotlight/podcast/rss",

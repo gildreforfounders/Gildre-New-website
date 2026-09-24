@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: "https://www.gildre.com/founder-community",
     siteName: "Gildre",
     type: "article",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre founder community" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre founder community" }],
   },
   twitter: {
     card: "summary_large_image",

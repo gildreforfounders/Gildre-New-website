@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://www.gildre.com/partners/leader-bank",
     siteName: "Gildre",
     type: "website",
-    images: [{ url: "https://www.gildre.com/og-home.png", width: 1200, height: 630, alt: "Gildre x Leader Bank Partnership" }],
+    images: [{ url: "https://www.gildre.com/opengraph-image.png", width: 1200, height: 630, alt: "Gildre x Leader Bank Partnership" }],
   },
   twitter: {
     card: "summary_large_image",
