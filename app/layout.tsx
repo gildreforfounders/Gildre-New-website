@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.gildre.com/og-home.png",
+        url: "https://www.gildre.com/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Gildre — Private Founder Community",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gildre — The Home for Founders Who Execute",
     description: "Join 250+ founders building, scaling, and exiting together.",
-    images: ["https://www.gildre.com/og-home.png"],
+    images: ["https://www.gildre.com/opengraph-image.png"],
   },
 };
 
