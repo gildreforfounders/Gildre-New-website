@@ -81,6 +81,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/gildre-july-2026-25-percent-growth-zero-churn-product-market-fit`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/blog/why-59-dollars-beats-gatekeeping-accessible-founder-community`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/blog/invisible-founder-economy-side-hustle-register-llc`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/steve-rolle-military-side-hustle-100-million-future-you-choose`, lastModified: new Date(), changeFrequency: "yearly",  priority: 0.8 },
+    { url: `${BASE_URL}/blog/nancy-yen-omielife-omiebox-24-million-bootstrapped`, lastModified: new Date(), changeFrequency: "yearly",  priority: 0.8 },
+    { url: `${BASE_URL}/blog/jaythan-elam-jointley-startup-design-microsoft`,    lastModified: new Date(), changeFrequency: "yearly",  priority: 0.8 },
+    { url: `${BASE_URL}/blog/gildre-five-things-driving-growth-ai-no-paid-ads`,  lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/founders-dont-need-fancy-dinners`,                  lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     // Guides & articles
     { url: `${BASE_URL}/guides/building-products-that-scale`,                 lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/micro-influencer-marketing`,                   lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },

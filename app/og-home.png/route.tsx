@@ -1,14 +1,15 @@
 import { ImageResponse } from "next/og";
-import { readFile } from "fs/promises";
-import { join } from "path";
 
 export const runtime = "nodejs";
 
+// This route used to load public/fonts/Inter-Bold.ttf and register it as "Inter".
+// That file is not a font — it is a saved GitHub HTML page — so every request
+// threw and /og-home.png returned 500. The effect was invisible on the site
+// itself and only showed up when a link was shared: no preview image anywhere.
+// It now uses the font built into next/og instead of shipping one, so there is
+// no binary asset to get corrupted again. If the wordmark ever needs a specific
+// typeface, add a real .ttf and verify the route returns 200 before pushing.
 export async function GET() {
-  const fontData = await readFile(
-    join(process.cwd(), "public/fonts/Inter-Bold.ttf")
-  );
-
   return new ImageResponse(
     (
       <div
@@ -60,7 +61,6 @@ export async function GET() {
               padding: "8px 22px",
               color: "#C9A96E",
               fontSize: "15px",
-              fontFamily: "Inter",
               fontWeight: 700,
               letterSpacing: "0.12em",
               textTransform: "uppercase",
@@ -76,7 +76,6 @@ export async function GET() {
               fontSize: "110px",
               fontWeight: 700,
               color: "#ffffff",
-              fontFamily: "Inter",
               lineHeight: 1,
               marginBottom: "28px",
               letterSpacing: "-0.02em",
@@ -101,7 +100,6 @@ export async function GET() {
             style={{
               fontSize: "26px",
               color: "rgba(255,255,255,0.55)",
-              fontFamily: "Inter",
               fontWeight: 700,
               maxWidth: "680px",
               lineHeight: 1.45,
@@ -139,7 +137,6 @@ export async function GET() {
                   padding: "6px 18px",
                   color: "rgba(255,255,255,0.45)",
                   fontSize: "15px",
-                  fontFamily: "Inter",
                   fontWeight: 700,
                 }}
               >
@@ -165,7 +162,6 @@ export async function GET() {
               fontSize: "38px",
               fontWeight: 700,
               color: "#C9A96E",
-              fontFamily: "Inter",
               lineHeight: 1,
             }}
           >
@@ -175,7 +171,6 @@ export async function GET() {
             style={{
               fontSize: "13px",
               color: "rgba(255,255,255,0.3)",
-              fontFamily: "Inter",
               fontWeight: 700,
               marginTop: "4px",
               letterSpacing: "0.06em",
@@ -190,14 +185,6 @@ export async function GET() {
     {
       width: 1200,
       height: 630,
-      fonts: [
-        {
-          name: "Inter",
-          data: fontData,
-          weight: 700,
-          style: "normal",
-        },
-      ],
     }
   );
 }
