@@ -339,8 +339,8 @@ export default function TampaPage() {
             {/* Photo */}
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-96" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
               <Image
-                src="/images/community/dinner.webp"
-                alt="Gildre Tampa founder dinner, monthly gatherings for Tampa Bay's top tech founders"
+                src="/images/community/tampa-founder-meetup.jpg"
+                alt="Gildre Tampa founder meetup, monthly gatherings for Tampa Bay's top tech founders"
                 fill
                 sizes="(max-width: 1024px) calc(100vw - 48px), 480px"
                 className="object-cover"
