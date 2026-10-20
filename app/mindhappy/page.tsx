@@ -26,15 +26,16 @@ export const metadata: Metadata = {
 const boxes = [
   {
     name: "Elevate",
-    tag: "Focus & Growth",
+    tag: "Focus & Skill-Building",
     emoji: "⚡",
     color: "#C9A96E",
     description:
-      "Designed for founders who want to sharpen focus and fuel their growth mindset. The Elevate box is packed with tools, resources, and wellness essentials to help you perform at your peak, mentally and professionally.",
+      "Elevate is for those ready to go deeper. Featuring two focused, skill-building activities, this collection is designed to challenge your hands and your mind, helping you build real craft, one satisfying project at a time. It’s the perfect pick for anyone looking to turn a passing interest into a genuine skill.",
     bestFor: [
-      "Deep work and focus sessions",
-      "High-output founders and operators",
-      "Leveling up your daily routine",
+      "Built to Challenge: two activities with a bit more depth, designed to stretch your skills",
+      "Focused Flow: a rewarding way to enter deep, screen-free concentration",
+      "Visible Progress: walk away with sharpened skills and a project to be proud of",
+      "Fuel for Growth: perfect for anyone ready to level up their creative practice",
     ],
     href: "https://mindhappy.com/products/bond-gildre-copy?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web",
   },
@@ -44,25 +45,27 @@ const boxes = [
     emoji: "🤝",
     color: "#5B7FA6",
     description:
-      "Built to bring teams closer together. The Bond box is a curated team experience that fosters connection, communication, and culture, perfect for founders who want to invest in the people building alongside them.",
+      "Bond brings people closer through shared, hands-on experiences. Designed for teams, friends, or partners, these activities turn “let’s catch up” into something more memorable, sparking conversation, laughter, and a little friendly collaboration along the way. It’s connection, made tangible.",
     bestFor: [
-      "Leadership teams and co-founders",
-      "Remote or distributed teams",
-      "Culture-building moments and offsites",
+      "Built for Bonding: activities designed to be shared, not solo, better together",
+      "Icebreaker, Elevated: a natural way to spark conversation without the awkward small talk",
+      "Shared Accomplishment: finish with something you made together, not just talked about",
+      "Memory in the Making: a creative experience that becomes a story worth retelling",
     ],
     href: "https://mindhappy.com/products/bond-gildre-copy?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web",
   },
   {
     name: "Restore",
-    tag: "Relax & Recharge",
+    tag: "Rest & Recharge",
     emoji: "🌿",
     color: "#6B8A6F",
     description:
-      "For founders who need to step back, breathe, and recharge. The Restore box is a thoughtfully curated wellness experience designed to help you recover, reset, and come back stronger.",
+      "Restore is a curated pair of activities designed to help you slow down and reconnect with yourself. Whether you have a quiet evening or a lazy Sunday, these hands-on projects offer a gentle escape from the noise of everyday life. It’s the perfect antidote to a packed calendar, a chance to breathe, create, and simply be.",
     bestFor: [
-      "Post-sprint recovery and burnout prevention",
-      "Stress relief and mental wellness",
-      "Founders who give everything and need to refuel",
+      "Restorative by Design: two low-pressure activities crafted to soothe, not stress",
+      "Screen-Free Serenity: a meaningful alternative to scrolling, streaming, or zoning out",
+      "Two Moments of Calm: double the opportunity to pause and reset, whenever you need it",
+      "Comfort in Creation: simple, tactile projects that feel like a warm exhale",
     ],
     href: "https://mindhappy.com/products/gildre?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web",
   },
@@ -123,7 +126,7 @@ export default function MindHappyPage() {
             <span style={{ color: "#C9A96E" }}>Founders</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-center text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.6)" }}>
-            Gildre has partnered with MindHappy (as featured in Forbes) to bring exclusive curated wellness boxes to our founder community. Choose the experience that fits where you are right now.
+            Gildre has partnered with MindHappy to bring exclusive curated wellness boxes to our founder community. Choose the experience that fits where you are right now.
           </p>
 
           {/* Two-column: copy + Forbes image */}
@@ -200,6 +203,28 @@ export default function MindHappyPage() {
           <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
             Each box is designed around a specific founder need. Ask yourself: do you need to <span style={{ color: "#C9A96E" }}>perform</span>, <span style={{ color: "#5B7FA6" }}>connect</span>, or <span style={{ color: "#6B8A6F" }}>recover</span>?
           </p>
+        </div>
+      </section>
+
+      {/* ── GIF Showcase ──────────────────────────────────────────────── */}
+      <section className="px-6 pb-10 pt-2" style={{ backgroundColor: "#080e1a" }}>
+        <div className="mx-auto max-w-5xl grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div className="overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/mindhappy-festive-box.gif"
+              alt="MindHappy Festive Box unboxing experience"
+              className="w-full object-cover"
+            />
+          </div>
+          <div className="overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.12)" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/mindhappy-mystery-box.gif"
+              alt="MindHappy Mystery Box surprise reveal"
+              className="w-full object-cover"
+            />
+          </div>
         </div>
       </section>
 
