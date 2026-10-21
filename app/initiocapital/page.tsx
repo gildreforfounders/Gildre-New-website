@@ -12,7 +12,7 @@ const plans = [
     annualMonthly: 50,
     popular: false,
     includesNote: null,
-    href: "https://gildre.circle.so/checkout/gildre-silver-membership",
+    href: "https://gildre.circle.so/checkout/gildre-silver-membership?affiliate_code=cae450",
     features: [
       "White-Glove Onboarding Experience",
       "Curated, High-Impact Virtual Events",
@@ -29,7 +29,7 @@ const plans = [
     annualMonthly: 125,
     popular: true,
     includesNote: "All Silver Benefits plus:",
-    href: "https://gildre.circle.so/checkout/gildre-gold-membership",
+    href: "https://gildre.circle.so/checkout/gildre-gold-membership?affiliate_code=cae450",
     features: [
       "1 Monthly Advisory Session",
       "Access to Exclusive, In-Person Events",
@@ -45,7 +45,7 @@ const plans = [
     annualMonthly: 249,
     popular: false,
     includesNote: "All Gold Benefits and:",
-    href: "https://gildre.circle.so/checkout/gildre-platinum-membership",
+    href: "https://gildre.circle.so/checkout/gildre-platinum-membership?affiliate_code=cae450",
     features: [
       "2 Monthly Advisory Sessions",
       "Personalized 1:1 Mentorship Pairing",
