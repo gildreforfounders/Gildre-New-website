@@ -298,15 +298,12 @@ export default function MindHappyPage() {
 
                 {/* CTA */}
                 <div className="mt-auto pt-8">
-                  <a
-                    href={box.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block w-full rounded-xl py-3.5 text-center text-sm font-bold transition-opacity hover:opacity-90"
-                    style={{ backgroundColor: box.color, color: box.name === "Bond" ? "#fff" : "#1C2744" }}
+                  <div
+                    className="block w-full rounded-xl py-3.5 text-center text-sm font-bold"
+                    style={{ backgroundColor: `${box.color}22`, color: box.color, border: `1px solid ${box.color}40` }}
                   >
-                    Get the {box.name} Box →
-                  </a>
+                    {box.name} Box
+                  </div>
                 </div>
               </div>
             </div>
@@ -331,16 +328,13 @@ export default function MindHappyPage() {
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             {boxes.map((box) => (
-              <a
+              <div
                 key={box.name}
-                href={box.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
+                className="rounded-full px-6 py-3 text-sm font-semibold"
                 style={{ backgroundColor: `${box.color}22`, color: box.color, border: `1px solid ${box.color}40` }}
               >
                 {box.emoji} {box.name}
-              </a>
+              </div>
             ))}
           </div>
         </div>
