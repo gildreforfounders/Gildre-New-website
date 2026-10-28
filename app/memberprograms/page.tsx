@@ -88,7 +88,7 @@ const plans = [
     tagline: "For founders building and connecting",
     monthlyPrice: 59,
     annualMonthly: 50,
-    cta: "Get Access",
+    cta: "Start your Application",
     href: "https://gildre.circle.so/checkout/gildre-silver-membership",
     popular: false,
     includesNote: null,

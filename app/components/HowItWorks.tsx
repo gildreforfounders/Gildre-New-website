@@ -9,14 +9,14 @@ const tiers = [
     steps: [
       {
         n: "01",
-        title: "Identify Your Peers",
-        body: "Explore the Gildre Community platform and find founders at your stage and industry. Connect with peers across 15+ cities instantly with direct intros.",
+        title: "Apply",
+        body: "Start with a quick sign-up. Silver membership is open to founders at any stage. You'll be inside the community in minutes.",
         note: "Join in minutes",
       },
       {
         n: "02",
-        title: "Get Access",
-        body: "Instantly unlock our monthly Innovation Roundtable Cohorts, weekly virtual events, and our full resource library from day one.",
+        title: "Identify your Peers",
+        body: "Explore the Gildre Community platform and find founders at your stage and industry. Connect with peers across 15+ cities instantly with direct intros.",
         note: "Access Same Day",
       },
       {
@@ -187,7 +187,7 @@ export default function HowItWorks() {
               boxShadow: "0 0 24px rgba(201,169,110,0.35)",
             }}
           >
-            {active === 0 ? "Get Access" : "Start Your Application"}
+            {active === 0 ? "Start your Application" : "Start Your Application"}
           </a>
           <a
             href="https://calendly.com/taiga-gildre/30min"

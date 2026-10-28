@@ -17,7 +17,7 @@ const plans = [
     monthlyPrice: 59,
     annualMonthly: 50,
     savePct: 15,
-    cta: "Get Access",
+    cta: "Start your Application",
     href: "https://gildre.circle.so/checkout/gildre-silver-membership",
     popular: false,
     extraLabel: null,
