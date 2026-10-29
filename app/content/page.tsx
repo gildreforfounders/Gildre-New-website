@@ -43,6 +43,30 @@ const categories = [
 
 const featured = [
   {
+    title: "Matt Savare: IP Law, AI Legal Risks, and Building FansMit While Running a 400-Person Law Firm",
+    category: "Leadership",
+    readTime: "12 min read",
+    excerpt:
+      "Lowenstein Sandler partner and FansMit founder Matt Savare on the AI legal traps founders keep walking into, how patents actually work, the IP clause every founder must read before signing anything, and why now is the best time in history to build a company.",
+    href: "/blog/matt-savare-lowenstein-sandler-fansmit-ip-law-founder",
+  },
+  {
+    title: "From Networking to Signal: How a Founder Community Actually Moves Product-Market Fit",
+    category: "Growth",
+    readTime: "7 min read",
+    excerpt:
+      "Most communities blur networking and signal together. Here is what separates a community that shortens the product-market fit search from one that just adds noise: stage matching, vetted mentors, and structured 1:1 introductions.",
+    href: "/blog/from-networking-to-signal-founder-community-product-market-fit",
+  },
+  {
+    title: "From Conviction to Confirmation: How Solo Founders Test Market Fit Without Fooling Themselves",
+    category: "Product",
+    readTime: "8 min read",
+    excerpt:
+      "Solo founders are uniquely prone to mistaking enthusiasm for demand. Here are the four behavioral signals that separate real traction from polite interest, and how to structure your market testing when you have no co-founder to push back.",
+    href: "/blog/solo-founder-test-market-fit-without-fooling-yourself",
+  },
+  {
     title: "Steve Rolle: From Military Side Hustle to $100M and the Playbook Every Bootstrapped Founder Needs",
     category: "Leadership",
     readTime: "16 min read",
