@@ -7,22 +7,22 @@ const PUBLISHED = "2026-10-30";
 
 export const metadata: Metadata = {
   alternates: { canonical: CANONICAL },
-  title: "Matt Savare: IP Law, AI Legal Risks, and Building FansMit While Running a 400-Person Law Firm | Gildre",
+  title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm | Gildre",
   description:
-    "Lowenstein Sandler partner and FansMit founder Matt Savare on the AI legal exposures founders are glossing over, how patents actually work, and why now is the best time to build.",
+    "Lowenstein Sandler partner and Fansmit founder Matt Savare on the AI legal exposures founders are glossing over, how patents actually work, and why now is the best time to build.",
   keywords: [
     "Matt Savare Lowenstein Sandler",
     "AI legal risks founders",
     "startup IP law",
     "patent process startups",
-    "FansMit sports tech",
+    "Fansmit sports tech",
     "Gildre expert in residence",
     "founder IP protection",
   ],
   openGraph: {
-    title: "Matt Savare on IP Law, AI Legal Risks, and Building FansMit",
+    title: "Matt Savare on IP Law, AI Legal Risks, and Building Fansmit",
     description:
-      "Lowenstein Sandler partner and FansMit founder Matt Savare on AI legal traps, patents, the IP clause every founder should read, and his best advice for early-stage builders.",
+      "Lowenstein Sandler partner and Fansmit founder Matt Savare on AI legal traps, patents, the IP clause every founder should read, and his best advice for early-stage builders.",
     url: CANONICAL,
     siteName: "Gildre",
     type: "article",
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
         url: "https://www.gildre.com/images/blog/matt-savare.jpg",
         width: 1500,
         height: 2100,
-        alt: "Matt Savare, Partner at Lowenstein Sandler and founder of FansMit",
+        alt: "Matt Savare, Partner at Lowenstein Sandler and founder of Fansmit",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Matt Savare on IP Law, AI Legal Risks, and Building FansMit",
+    title: "Matt Savare on IP Law, AI Legal Risks, and Building Fansmit",
     description:
       "AI legal traps, patents, the one contract clause every founder must read, and why now is the best time to build.",
   },
@@ -66,8 +66,8 @@ const faqItems = [
     a: "IP ownership. Founders must ensure that any developer, contractor, or vendor they hire assigns all IP rights to the company. Look for work-for-hire language and explicit assignment of all work product. Missing this clause has cost early-stage companies their own technology.",
   },
   {
-    q: "What is FansMit and how does it work?",
-    a: "FansMit is a platform that lets users crowdsource alternative audio commentary and synchronize it in real time with whatever they are watching. A viewer can swap out broadcast announcers for a friend, a celebrity, or themselves, all perfectly timed regardless of stream latency. It is protected by two issued patents.",
+    q: "What is Fansmit and how does it work?",
+    a: "Fansmit is a platform that lets users crowdsource alternative audio commentary and synchronize it in real time with whatever they are watching. A viewer can swap out broadcast announcers for a friend, a celebrity, or themselves, all perfectly timed regardless of stream latency. It is protected by two issued patents.",
   },
   {
     q: "Should founders use Claude, ChatGPT, or another AI model?",
@@ -83,9 +83,9 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Matt Savare: IP Law, AI Legal Risks, and Building FansMit While Running a 400-Person Law Firm",
+    "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm",
   description:
-    "Lowenstein Sandler partner and FansMit founder Matt Savare on AI legal traps, patents, the IP clause every founder should read, and his best advice for early-stage builders.",
+    "Lowenstein Sandler partner and Fansmit founder Matt Savare on AI legal traps, patents, the IP clause every founder should read, and his best advice for early-stage builders.",
   image: "https://www.gildre.com/images/blog/matt-savare.jpg",
   datePublished: PUBLISHED,
   dateModified: PUBLISHED,
@@ -153,10 +153,10 @@ export default function BlogPost() {
               className="text-[clamp(2rem,5vw,3.25rem)] font-bold leading-[1.1] text-white"
               style={{ fontFamily: "var(--font-fraunces)" }}
             >
-              Matt Savare: IP Law, AI Legal Risks, and Building FansMit While Running a 400-Person Law Firm
+              Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
-              The Lowenstein Sandler partner and FansMit founder on the AI legal traps founders keep walking into, how patents actually work, the one contract clause that founders routinely miss, and why now is the best time in history to build a company.
+              The Lowenstein Sandler partner and Fansmit founder on the AI legal traps founders keep walking into, how patents actually work, the one contract clause that founders routinely miss, and why now is the best time in history to build a company.
             </p>
 
             {/* Author card */}
@@ -176,7 +176,7 @@ export default function BlogPost() {
               <div>
                 <p className="font-bold text-white">Matt Savare</p>
                 <p className="text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
-                  Chair of Commercial Contracts, Lowenstein Sandler · Founder, FansMit · Gildre Expert in Residence (Law)
+                  Chair of Commercial Contracts, Lowenstein Sandler · Founder, Fansmit · Gildre Expert in Residence (Law)
                 </p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function BlogPost() {
           <div className="overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
             <Image
               src="/images/blog/matt-savare.jpg"
-              alt="Matt Savare, Partner at Lowenstein Sandler and founder of FansMit"
+              alt="Matt Savare, Partner at Lowenstein Sandler and founder of Fansmit"
               width={1500}
               height={900}
               className="w-full object-cover object-top"
@@ -206,13 +206,13 @@ export default function BlogPost() {
             Matt Savare has spent 23 years at Lowenstein Sandler, where he chairs commercial contracts and advises on AI, blockchain, copyrights, trademarks, and digital media across a national practice of 400 attorneys. He also spent seven years negotiating procurement contracts for the Department of the Army. And somewhere in between, he dreamed up a sports tech startup while watching Ricky Gervais get fired from the Golden Globes.
           </p>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
-            That startup is FansMit, a platform that lets anyone crowdsource and synchronize alternative audio commentary in real time, over any broadcast, anywhere in the world. Two patents issued. CTO formerly of Sports Illustrated Ticketing. Commercial launch three to four months out. Fundraise underway.
+            That startup is Fansmit, a platform that lets anyone crowdsource and synchronize alternative audio commentary in real time, over any broadcast, anywhere in the world. Two patents issued. CTO formerly of Sports Illustrated Ticketing. Commercial launch three to four months out. Fundraise underway.
           </p>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
             Matt joined the Start to Scale podcast to talk about all of it, and to share what he sees as the most dangerous legal mistakes founders are making right now, most of them involving AI.
           </p>
 
-          {/* Section: FansMit */}
+          {/* Section: Fansmit */}
           <h2
             className="mt-14 text-2xl font-bold text-white sm:text-3xl"
             style={{ fontFamily: "var(--font-fraunces)" }}
@@ -223,7 +223,7 @@ export default function BlogPost() {
             The spark came from a simple frustration. Ricky Gervais had hosted the Golden Globes and was outrageously funny, but celebrities objected and he was not invited back. Matt's thought: what if Gervais were in his flat, no standards and practices, announcing the ceremony for whoever wanted to listen?
           </p>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
-            That question became FansMit. The platform works as a second-device app: you load FansMit on your phone while watching any broadcast on your TV. It recognizes what you are watching, asks whether you want to listen or broadcast, and connects you to a real-time feed of other commentators covering the same event. The proprietary synchronization engine accounts for the fact that viewers on different cable and streaming providers may be receiving the signal at different latencies. You and a friend on opposite coasts, watching the same game on different services, hear the commentary in perfect sync.
+            That question became Fansmit. The platform works as a second-device app: you load Fansmit on your phone while watching any broadcast on your TV. It recognizes what you are watching, asks whether you want to listen or broadcast, and connects you to a real-time feed of other commentators covering the same event. The proprietary synchronization engine accounts for the fact that viewers on different cable and streaming providers may be receiving the signal at different latencies. You and a friend on opposite coasts, watching the same game on different services, hear the commentary in perfect sync.
           </p>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
             The platform is channel-agnostic, device-agnostic, and not limited to sports. A state of the union, a reality show, a boxing match: anything works. On the B2B side, Matt has been in discussions with leagues, federations, and individual teams about integrating the synchronization technology directly into their platforms, a negotiation he is unusually equipped for given that structuring complex media rights deals is what he does for clients every day.
@@ -238,7 +238,7 @@ export default function BlogPost() {
               "It democratizes the listening experience. It allows anyone to be a broadcaster. It also allows anyone to listen to their preferred people if they don't feel like broadcasting."
             </p>
             <p className="mt-3 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>
-              Matt Savare, founder of FansMit
+              Matt Savare, founder of Fansmit
             </p>
           </blockquote>
 
@@ -327,7 +327,7 @@ export default function BlogPost() {
             Patents explained: what founders actually need to know
           </h2>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
-            FansMit holds two issued patents, and Matt walked through how they got there. The first step was a provisional patent filing: faster, less formal, less expensive, but enough to establish a priority date while the team developed the invention further. The patent examiner then requested more specificity, and what had been one application was split into two non-provisional patents because multiple distinct inventions were embedded in the original filing.
+            Fansmit holds two issued patents, and Matt walked through how they got there. The first step was a provisional patent filing: faster, less formal, less expensive, but enough to establish a priority date while the team developed the invention further. The patent examiner then requested more specificity, and what had been one application was split into two non-provisional patents because multiple distinct inventions were embedded in the original filing.
           </p>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
             His advice for founders considering a patent:
@@ -388,7 +388,7 @@ export default function BlogPost() {
             One piece of advice for early-stage founders
           </h2>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
-            Matt thought about FansMit for years before moving on it. He understands the hesitation, and he has no patience for it anymore.
+            Matt thought about Fansmit for years before moving on it. He understands the hesitation, and he has no patience for it anymore.
           </p>
 
           <blockquote
@@ -407,7 +407,7 @@ export default function BlogPost() {
             The ecosystem has never been more supportive. Vibe coding tools have collapsed the cost of building a prototype. Founder communities like Gildre have made experienced peers and mentors accessible without requiring you to know the right person. And VCs, while discerning, are paying close attention to teams that can ship quickly with very little capital.
           </p>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.62)" }}>
-            Matt's own lesson from the FansMit journey: if you are building something with any technical component, find a technical co-founder before you do anything else. "The only way for me to build it was to raise money or pay out of pocket and engage a third party. Whereas if one of the initial team were technical, especially with vibe coding now, you could probably build and launch an app in a month with very little money."
+            Matt's own lesson from the Fansmit journey: if you are building something with any technical component, find a technical co-founder before you do anything else. "The only way for me to build it was to raise money or pay out of pocket and engage a third party. Whereas if one of the initial team were technical, especially with vibe coding now, you could probably build and launch an app in a month with very little money."
           </p>
 
           {/* Quick Answer / GEO block */}

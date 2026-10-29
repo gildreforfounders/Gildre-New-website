@@ -43,11 +43,11 @@ const categories = [
 
 const featured = [
   {
-    title: "Matt Savare: IP Law, AI Legal Risks, and Building FansMit While Running a 400-Person Law Firm",
+    title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm",
     category: "Leadership",
     readTime: "12 min read",
     excerpt:
-      "Lowenstein Sandler partner and FansMit founder Matt Savare on the AI legal traps founders keep walking into, how patents actually work, the IP clause every founder must read before signing anything, and why now is the best time in history to build a company.",
+      "Lowenstein Sandler partner and Fansmit founder Matt Savare on the AI legal traps founders keep walking into, how patents actually work, the IP clause every founder must read before signing anything, and why now is the best time in history to build a company.",
     href: "/blog/matt-savare-lowenstein-sandler-fansmit-ip-law-founder",
   },
   {
