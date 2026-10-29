@@ -7,7 +7,7 @@ const PUBLISHED = "2026-10-30";
 
 export const metadata: Metadata = {
   alternates: { canonical: CANONICAL },
-  title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm | Gildre",
+  title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Working at a 400-Person Law Firm | Gildre",
   description:
     "Lowenstein Sandler partner and Fansmit founder Matt Savare on the AI legal exposures founders are glossing over, how patents actually work, and why now is the best time to build.",
   keywords: [
@@ -83,7 +83,7 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm",
+    "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Working at a 400-Person Law Firm",
   description:
     "Lowenstein Sandler partner and Fansmit founder Matt Savare on AI legal traps, patents, the IP clause every founder should read, and his best advice for early-stage builders.",
   image: "https://www.gildre.com/images/blog/matt-savare.jpg",
@@ -153,7 +153,7 @@ export default function BlogPost() {
               className="text-[clamp(2rem,5vw,3.25rem)] font-bold leading-[1.1] text-white"
               style={{ fontFamily: "var(--font-fraunces)" }}
             >
-              Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm
+              Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Working at a 400-Person Law Firm
             </h1>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
               The Lowenstein Sandler partner and Fansmit founder on the AI legal traps founders keep walking into, how patents actually work, the one contract clause that founders routinely miss, and why now is the best time in history to build a company.

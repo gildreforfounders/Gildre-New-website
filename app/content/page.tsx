@@ -43,7 +43,7 @@ const categories = [
 
 const featured = [
   {
-    title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Running a 400-Person Law Firm",
+    title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Working at a 400-Person Law Firm",
     category: "Leadership",
     readTime: "12 min read",
     excerpt:
