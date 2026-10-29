@@ -187,7 +187,7 @@ export default function HowItWorks() {
               boxShadow: "0 0 24px rgba(201,169,110,0.35)",
             }}
           >
-            {active === 0 ? "Start your Application" : "Start Your Application"}
+            {active === 0 ? "Apply Now" : "Start Your Application"}
           </a>
           <a
             href="https://calendly.com/taiga-gildre/30min"

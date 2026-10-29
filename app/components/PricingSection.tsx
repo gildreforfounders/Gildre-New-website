@@ -17,7 +17,7 @@ const plans = [
     monthlyPrice: 59,
     annualMonthly: 50,
     savePct: 15,
-    cta: "Start your Application",
+    cta: "Apply Now",
     href: "https://tally.so/r/VLERVa",
     popular: false,
     extraLabel: null,
