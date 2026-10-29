@@ -10,8 +10,8 @@ const tiers = [
       {
         n: "01",
         title: "Apply",
-        body: "Start with a quick sign-up. Silver membership is open to founders at any stage. You'll be inside the community in minutes.",
-        note: "Join in minutes",
+        body: "Tell us about yourself and where you are currently building. We review every Silver application and respond quickly to get you set up.",
+        note: "Takes under 5 minutes",
       },
       {
         n: "02",
@@ -177,7 +177,7 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className="mt-12 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
-            href={active === 0 ? "https://gildre.circle.so/checkout/gildre-silver-membership" : "https://tally.so/r/VLERVa"}
+            href="https://tally.so/r/VLERVa"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full px-8 py-3.5 text-sm font-bold transition-all hover:opacity-90"
