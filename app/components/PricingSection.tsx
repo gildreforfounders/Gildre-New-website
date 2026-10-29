@@ -18,7 +18,7 @@ const plans = [
     annualMonthly: 50,
     savePct: 15,
     cta: "Start your Application",
-    href: "https://gildre.circle.so/checkout/gildre-silver-membership",
+    href: "https://tally.so/r/VLERVa",
     popular: false,
     extraLabel: null,
     coreFeatures: [
