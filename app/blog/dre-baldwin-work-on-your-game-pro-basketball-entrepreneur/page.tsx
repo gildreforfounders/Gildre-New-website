@@ -212,6 +212,18 @@ export default function BlogPost() {
             Then YouTube launched. And Dre uploaded his first video in 2005.
           </p>
 
+          {/* Basketball photo */}
+          <div className="my-12 overflow-hidden rounded-2xl" style={{ border: "1px solid rgba(255,255,255,0.08)" }}>
+            <Image
+              src="/images/blog/dre-baldwin-basketball.jpeg"
+              alt="Dre Baldwin on the basketball court"
+              width={452}
+              height={678}
+              className="w-full object-cover object-top"
+              style={{ maxHeight: "460px" }}
+            />
+          </div>
+
           {/* Section 1: YouTube and first product */}
           <h2
             className="mt-14 text-2xl font-bold text-white sm:text-3xl"
@@ -249,7 +261,7 @@ export default function BlogPost() {
               alt="Dre Baldwin in his office surrounded by his books"
               width={900}
               height={1200}
-              className="w-full object-cover object-top"
+              className="w-full object-cover object-center"
               style={{ maxHeight: "480px" }}
             />
           </div>
