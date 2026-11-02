@@ -90,6 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/founders-dont-need-fancy-dinners`,                  lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/blog/from-networking-to-signal-founder-community-product-market-fit`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/blog/matt-savare-lowenstein-sandler-fansmit-ip-law-founder`, lastModified: new Date(), changeFrequency: "yearly",  priority: 0.8 },
+    { url: `${BASE_URL}/blog/dre-baldwin-work-on-your-game-pro-basketball-entrepreneur`, lastModified: new Date(), changeFrequency: "yearly",  priority: 0.8 },
     // Guides & articles
     { url: `${BASE_URL}/guides/building-products-that-scale`,                 lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/guides/micro-influencer-marketing`,                   lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },

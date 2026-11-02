@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Dre Baldwin: From D3 Walk-On to Pro Athlete to Keynote Speaker and the Work on Your Game Framework",
+    category: "Mindset",
+    readTime: "13 min read",
+    excerpt:
+      "Dre Baldwin played pro basketball overseas for 10 years, built a YouTube audience in 2005 before 'content creator' was a job title, and sold his first training program for $4.99 from a comment thread. Here is the Work on Your Game framework applied to founders.",
+    href: "/blog/dre-baldwin-work-on-your-game-pro-basketball-entrepreneur",
+  },
+  {
     title: "Matt Savare: IP Law, AI Legal Risks, and Building Fansmit While Working at a 400-Person Law Firm",
     category: "Leadership",
     readTime: "12 min read",
