@@ -261,8 +261,8 @@ export default function BlogPost() {
               alt="Dre Baldwin in his office surrounded by his books"
               width={900}
               height={1200}
-              className="w-full object-cover object-center"
-              style={{ maxHeight: "480px" }}
+              className="w-full object-cover"
+              style={{ maxHeight: "480px", objectPosition: "50% 38%" }}
             />
           </div>
 
