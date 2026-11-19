@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Eva Egg: Why Authentic Content Wins on LinkedIn and How Scribe Is Making It Easier",
+    category: "Growth",
+    readTime: "11 min read",
+    excerpt:
+      "Eva Egg started posting baking recipes on Instagram at 15 before the word creator existed, built a marketing agency from that knowledge, and co-founded Scribe to fix the 1% problem on LinkedIn: only 1% of users post, and most of what gets posted is templated noise.",
+    href: "/blog/eva-egg-scribe-linkedin-authentic-content-founder-berlin",
+  },
+  {
     title: "Dre Baldwin: From D3 Walk-On to Pro Athlete to Keynote Speaker and the Work on Your Game Framework",
     category: "Mindset",
     readTime: "13 min read",
