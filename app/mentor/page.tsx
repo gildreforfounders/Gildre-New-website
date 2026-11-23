@@ -278,7 +278,7 @@ export default function MentorPage() {
 
           <div className="mt-10 flex justify-center">
             <a
-              href="https://tally.so/r/VLERVa"
+              href="https://form.typeform.com/to/NAdeE6r3"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full px-8 py-3.5 text-sm font-bold transition-opacity hover:opacity-90"
@@ -385,7 +385,7 @@ export default function MentorPage() {
               </p>
               <div className="mt-8">
                 <a
-                  href="https://tally.so/r/VLERVa"
+                  href="https://form.typeform.com/to/NAdeE6r3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block rounded-full px-7 py-3 text-sm font-bold transition-opacity hover:opacity-90"
@@ -554,7 +554,7 @@ export default function MentorPage() {
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="https://tally.so/r/VLERVa"
+              href="https://form.typeform.com/to/NAdeE6r3"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full px-9 py-4 text-sm font-bold tracking-wide transition-opacity hover:opacity-90"
