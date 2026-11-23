@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.gildre.com/mentor" },
   title: "Gildre Mentors — Founders, Operators, and Executives Available for 1:1 Guidance",
   description:
-    "Fritz Lanman, Diana Stepner, Sam Bradley, and 20+ more operators available for 1:1 mentorship inside Gildre. Real guidance from people who've built at scale.",
+    "Fritz Lanman, Diana Stepner, Sarah Heering, and 20+ more operators available for 1:1 mentorship inside Gildre. Real guidance from people who've built at scale.",
   keywords: ["startup mentors", "founder mentorship", "1:1 mentorship", "Gildre mentors", "startup advisors"],
   openGraph: {
     title: "Gildre Mentors — Founders, Operators, and Executives Available for 1:1 Guidance",
     description:
-      "Fritz Lanman, Diana Stepner, Sam Bradley, and 20+ operators available for 1:1 mentorship inside Gildre. Real guidance from people who've built at scale.",
+      "Fritz Lanman, Diana Stepner, Sarah Heering, and 20+ operators available for 1:1 mentorship inside Gildre. Real guidance from people who've built at scale.",
     url: "https://www.gildre.com/mentor",
     siteName: "Gildre",
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Gildre Mentors — Founders, Operators, and Executives Available for 1:1 Guidance",
-    description: "Fritz Lanman, Diana Stepner, Sam Bradley, and 20+ operators available for 1:1 mentorship inside Gildre.",
+    description: "Fritz Lanman, Diana Stepner, Sarah Heering, and 20+ operators available for 1:1 mentorship inside Gildre.",
   },
 };
 
@@ -41,11 +41,11 @@ const mentors = [
     photo: "/mentors/diana-stepner.jpg",
   },
   {
-    name: "Sam Bradley",
-    title: "Director of Product",
-    company: "PayPal",
-    bio: "Experienced product leader who has led global product teams at Expedia Group, Quizlet, Stitch Fix, and most recently PayPal.",
-    photo: "/mentors/sam-bradley.jpg",
+    name: "Sarah Heering",
+    title: "Partner & Executive Advisor",
+    company: "Happy Wellness Group",
+    bio: "C-Suite operator and 2x founder. Partner at Happy Wellness Group, a FINRA-affiliated investment and advisory firm. Founder of SAJE Media, a full-service media agency serving major brands since 2006.",
+    photo: "/mentors/sarah-heering.jpg",
   },
   {
     name: "Jayme Strauss",
@@ -158,10 +158,10 @@ const mentorListSchema = {
       "position": 3,
       "item": {
         "@type": "Person",
-        "name": "Sam Bradley",
-        "jobTitle": "Director of Product",
-        "worksFor": { "@type": "Organization", "name": "PayPal" },
-        "description": "Sam Bradley is an experienced product leader who has led global product teams at Expedia Group, Quizlet, Stitch Fix, and PayPal.",
+        "name": "Sarah Heering",
+        "jobTitle": "Partner & Executive Advisor",
+        "worksFor": { "@type": "Organization", "name": "Happy Wellness Group" },
+        "description": "Sarah Heering is a C-Suite operator and 2x founder. Partner at Happy Wellness Group and Founder of SAJE Media, a full-service media agency serving major brands since 2006.",
         "url": "https://www.gildre.com/mentor"
       }
     },
