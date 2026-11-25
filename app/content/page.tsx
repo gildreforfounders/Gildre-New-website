@@ -43,6 +43,14 @@ const categories = [
 
 const featured = [
   {
+    title: "Adina Maynard: From 15 Years as an Oncology Nurse to Founding Cadywampus, the Brain Game Built to Fight Dementia",
+    category: "Health Tech",
+    readTime: "13 min read",
+    excerpt:
+      "Adina Maynard spent 15 years as a travel oncology nurse at City of Hope, Duke, and the NIH. Her mother has dementia. Her grandmother had it. She carries the APOE gene marker herself. When she couldn't find a mobile brain game that actually challenged her, she built Cadywampus.",
+    href: "/blog/adina-maynard-cadywampus-brain-game-nurse-founder",
+  },
+  {
     title: "Eva Egg: Why Authentic Content Wins on LinkedIn and How Scribe Is Making It Easier",
     category: "Growth",
     readTime: "11 min read",
